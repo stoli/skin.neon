@@ -42,7 +42,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>Font_FileBrowserHeading</font>
-				<textcolor>black</textcolor>
+				<textcolor>white</textcolor>
 				<label>1023</label>
 			</control>
 			
@@ -76,7 +76,7 @@
 				<align>left</align>
 				<font>font16caps</font>
 				<haspath>true</haspath>
-				<textcolor>ff000000</textcolor>
+				<textcolor>white</textcolor>
 				<visible>Control.IsVisible(451)</visible>
 			</control>
 
@@ -113,7 +113,7 @@
 						<font>font16caps</font>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<textcolor>black</textcolor>
+						<textcolor>white</textcolor>
 					</control>
 				</itemlayout>
 				<focusedlayout height="40">

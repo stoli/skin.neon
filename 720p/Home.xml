@@ -151,7 +151,7 @@
 			<focusposition>2</focusposition>
 			<movement>0</movement>
 			<scrolltime>300</scrolltime>
-			<include>Animation_Bartowski_ZoomOutZoomIn</include>
+			<include>Animation_Bartowski_ZoomOutZoomIn</include> 
 			<visible>!Skin.HasSetting(horizontal_home)</visible>			
 			<itemlayout width="600" height="61">
 				<control type="label">
