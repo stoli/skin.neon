@@ -13,7 +13,7 @@
 			<posy>0</posy>
 			<width>960</width>
 			<height>610</height>
-			<texture border="40">confluence/DialogBack1.png</texture>
+			<texture border="40">confluence/DialogBack.png</texture>
 		</control>
 		<control type="image">
 			<description>separator image</description>
@@ -41,7 +41,7 @@
 			<label>-</label>
 			<align>left</align>
 			<aligny>center</aligny>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 		</control>
 		<control type="grouplist" id="9">
 			<description>button area</description>
@@ -96,7 +96,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
-				<textcolor>black</textcolor>
+				<textcolor>blue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<label>186</label>
 				<onleft>12</onleft>
@@ -114,7 +114,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
-				<textcolor>black</textcolor>
+				<textcolor>blue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<label>222</label>
 				<onleft>10</onleft>
@@ -132,7 +132,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
-				<textcolor>black</textcolor>
+				<textcolor>blue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<label>409</label>
 				<onleft>11</onleft>
@@ -150,7 +150,7 @@
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>Font_KeyboardKeys_Plot</font>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 			<pulseonselect>false</pulseonselect>
@@ -160,7 +160,7 @@
 			<height>40</height>
 			<font>Font_KeyboardKeys_Plot</font>
 			<textoffsetx>10</textoffsetx>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 		</control>
@@ -169,7 +169,7 @@
 			<height>40</height>
 			<font>Font_KeyboardKeys_Plot</font>
 			<textoffsetx>10</textoffsetx>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 		</control>
