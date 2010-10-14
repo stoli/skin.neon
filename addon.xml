@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.neon"
+  version="0.5"
+  name="Neon"
+  provider-name="stoli">
+  <requires>
+    <import addon="xbmc.gui" version="2.11"/>
+    <import addon="script.recentlyadded" version="1.0.8"/>
+	<import addon="script.favourites" version="1.0.2"/>
+	<import addon="script.logo-downloader" version="2.0.0"/>
+  </requires>
+  <extension 
+    point="xbmc.gui.skin"
+    defaultresolution="720p" 
+    defaultresolutionwide="720p"
+    defaultthemename="textures.xbt" 
+    effectslowdown="1"
+    debugging="false"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Neon skin modded by stoli - based on Night skin by mcborzu</summary>
+    <summary lang="fr">Neon skin modded by stoli - based on Thème Night par mcborzu</summary>
+    <summary lang="de">Neon skin modded by stoli - based on Night Skin von mcborzu</summary>
+	<summary lang="nl">Neon skin modded by stoli - based on Night skin door mcborzu</summary>
+	<summary lang="no">Neon skin modded by stoli - based on Night skin av mcborzu</summary>
+    <description>Neon started as the excelent Night skin by mcborzu.  It was almost perfect for me but I missed some aspects of Aeon and other skins.  So credit where credit is due - the majority of this is mcborzu's work...</description>
+ 	<disclaimer>More info on the skin can be found at the XBMC Forums.</disclaimer>
+    <disclaimer lang="fr">Plus d'infos sur ce thème sur les forums XBMC.</disclaimer>
+    <disclaimer lang="de">Mehr Informationen über das Skin findest du in den XBMC Foren.</disclaimer>
+	<disclaimer lang="nl">Meer info over de skin kan worden gevonden op de XBMC forums.</disclaimer>
+	<disclaimer lang="no">Du kan finne mer info i XBMC forumene.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
