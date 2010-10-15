@@ -86,7 +86,7 @@
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>
 			<label>$LOCALIZE[106]</label>
 			<align>center</align>
@@ -107,7 +107,7 @@
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>
 			<label>$LOCALIZE[107]</label>
 			<onleft>10</onleft>

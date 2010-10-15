@@ -1,19 +1,25 @@
 <window id="146">
 	<defaultcontrol always="true">9000</defaultcontrol>
-	<coordinates>
-		<system>1</system>
-		<posx>0</posx>
-		<posy>0</posy>
-	</coordinates>
-	<include>dialogeffect</include>
+	<include>Animation_SettingsFade</include>
 	<controls>
+		
 		<control type="image">
-			<posx>80</posx>
-			<posy>0</posy>
-			<width>360</width>
-			<height>360</height>
-			<aspectratio>stretch</aspectratio>
-			<texture diffuse="Showcase/showcase-diffuse.png">$INFO[ListItem.Icon]</texture>
+			<include>Dimensions_Fullscreen</include>
+			<texture>common/7000_focus.png</texture>
+			<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
+		</control>
+		
+		<control type="image">
+			<posx>710</posx>
+			<posy>380</posy>
+			<width>460</width>
+			<height>330</height>
+			<aspectratio align="right" aligny="bottom">keep</aspectratio>
+			<texture>$INFO[ListItem.Icon]</texture>
+			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordersize>5</bordersize>
+			<fadetime>100</fadetime>
 		</control>
 		<control type="group">
 			<posx>300</posx>
@@ -216,7 +222,7 @@
 				<posy>590</posy>
 				<width>1280</width>
 				<height>70</height>
-				<texture>backdrops/test2.png</texture>
+				<texture>notification_background.png</texture>
 			</control>
 			<control type="group" id="9000">
 				<posx>-160</posx>
@@ -233,7 +239,7 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">confluence/button-focus.png</texturefocus>
+					<texturefocus border="7">button-focus.png</texturefocus>
 					<texturenofocus border="7">button-nofocus.png</texturenofocus>
 					<onup>49</onup>
 					<ondown>60</ondown>
@@ -252,7 +258,7 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">confluence/button-focus.png</texturefocus>
+					<texturefocus border="7">button-focus.png</texturefocus>
 					<texturenofocus border="7">button-nofocus.png</texturenofocus>
 					<description>Album Info button</description>
 					<onup>49</onup>
@@ -272,7 +278,7 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">confluence/button-focus.png</texturefocus>
+					<texturefocus border="7">button-focus.png</texturefocus>
 					<texturenofocus border="7">button-nofocus.png</texturenofocus>
 					<onup>49</onup>
 					<ondown>60</ondown>
@@ -291,7 +297,7 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">confluence/button-focus.png</texturefocus>
+					<texturefocus border="7">button-focus.png</texturefocus>
 					<texturenofocus border="7">button-nofocus.png</texturenofocus>
 					<onup>49</onup>
 					<ondown>60</ondown>
@@ -310,7 +316,7 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">confluence/button-focus.png</texturefocus>
+					<texturefocus border="7">button-focus.png</texturefocus>
 					<texturenofocus border="7">button-nofocus.png</texturenofocus>
 					<onleft>8</onleft>
 					<onright>6</onright>

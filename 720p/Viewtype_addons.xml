@@ -10,7 +10,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<!-- <texture>list/file-black-background1.png</texture> -->
 			<texture border="20">backgrounds\addons.jpg</texture>
-			<visible>Control.IsVisible(50)</visible>
+			<visible>Control.IsVisible(50) + !Window.IsVisible(146)</visible>
 		</control>
 		<control type="image">
 			<posx>5</posx>

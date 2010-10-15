@@ -96,7 +96,7 @@
 				<font>Font_Bartowski_Smaller_MenuTitle</font>
 				<textcolor>ff000000</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<label>$LOCALIZE[191]</label>
 				<textoffsetx>10</textoffsetx>
 				<width>150</width>
@@ -110,7 +110,7 @@
 				<font>Font_Bartowski_Smaller_MenuTitle</font>
 				<textcolor>ff000000</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<label>$LOCALIZE[13319]</label>
 				<textoffsetx>10</textoffsetx>
 				<width>150</width>

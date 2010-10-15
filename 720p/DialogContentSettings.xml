@@ -2,7 +2,7 @@
 
 <window id="132">
 	<defaultcontrol always="true">3</defaultcontrol>
-	<include>Animation_Bartowski_Context_Zoom</include>
+	<include>Animation_SettingsFade</include>
 	<coordinates>
 		<system>1</system>
 		<posx>360</posx>
@@ -17,7 +17,7 @@
 			<posy>-30</posy>
 			<width>620</width>
 			<height>500</height>
-			<texture>dialog.png</texture>
+			<texture>dialogs/yes_no_back.png</texture>
 		</control>
 
 		<control type="spincontrolex" id="3">
@@ -169,7 +169,7 @@
 			<textcolor>blue</textcolor>
 			<align>center</align>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onleft>6</onleft>
 			<onright>29</onright>
@@ -184,7 +184,7 @@
 			<align>center</align>
 			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onleft>28</onleft>
 			<onright>6</onright>

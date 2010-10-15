@@ -148,7 +148,7 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<font>font16caps</font>
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>
@@ -166,7 +166,7 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<font>font16caps</font>
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>
