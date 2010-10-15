@@ -1,6 +1,6 @@
 <window type="dialog" id="2000">
 	<defaultcontrol always="true">3</defaultcontrol>
-	<include>Animation_Bartowski_Context_Zoom</include>
+	<include>Animation_SettingsFade</include>
 	<coordinates>
 		<system>1</system>
 		<posx>0</posx>
@@ -21,7 +21,7 @@
 				<posy>0</posy>
 				<width>610</width>
 				<height>650</height>
-				<texture border="40">confluence/DialogBack1.png</texture>
+				<texture border="40">DialogBack.png</texture>
 			</control>
 			<control type="label" id="1">
 				<description>header label</description>
@@ -33,7 +33,7 @@
 				<label>$LOCALIZE[13406]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>black</textcolor>
+				<textcolor>blue</textcolor>
 			</control>
 			<control type="image">
 				<posx>66</posx>
@@ -60,7 +60,7 @@
 						<width>530</width>
 						<height>40</height>
 						<font>font13caps_title</font>
-						<textcolor>black</textcolor>
+						<textcolor>white</textcolor>
 						<selectedcolor>ffffffff</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -112,8 +112,8 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
-				<textcolor>black</textcolor>
-				<label>([COLOR=black]$INFO[Container(3).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=black]$INFO[Container(3).CurrentPage]/$INFO[Container(3).NumPages][/COLOR])</label>
+				<textcolor>blue</textcolor>
+				<label>([COLOR=blue]$INFO[Container(3).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(3).CurrentPage]/$INFO[Container(3).NumPages][/COLOR])</label>
 			</control>
 			<control type="button" id="5">
 				<description>Manual button</description>

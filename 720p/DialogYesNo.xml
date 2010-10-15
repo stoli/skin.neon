@@ -33,7 +33,7 @@
 			<posx>390</posx>
 			<posy>200</posy>
 			<font>Font_Bartowski_Episode_ContextMenu</font>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 			<focusedcolor>MenuValueFO</focusedcolor>
 			<label>-</label>
 			<width>500</width>
@@ -45,7 +45,7 @@
 			<posx>390</posx>
 			<posy>250</posy>
 			<font>Font_Bartowski_Episode_ContextMenu</font>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 			<focusedcolor>MenuValueFO</focusedcolor>
 			<label>-</label>
 			<width>500</width>
@@ -57,7 +57,7 @@
 			<posx>390</posx>
 			<posy>300</posy>
 			<font>Font_Bartowski_Episode_ContextMenu</font>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 			<focusedcolor>MenuValueFO</focusedcolor>
 			<label>-</label>
 			<width>500</width>
@@ -69,7 +69,7 @@
 			<posx>390</posx>
 			<posy>350</posy>
 			<font>Font_Bartowski_Episode_ContextMenu</font>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 			<focusedcolor>MenuValueFO</focusedcolor>
 			<label>-</label>
 			<width>500</width>
@@ -84,7 +84,7 @@
 			<height>39</height>
 			<width>200</width>
 			<font>Font_Bartowski_Press_S</font>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>
@@ -105,7 +105,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>Font_Bartowski_Press_S</font>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>

@@ -161,13 +161,13 @@
 					<visible>Control.IsVisible(50) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
 				</control>
 				<control type="image">
-					<posx>-70</posx>
-					<posy>-34</posy>
-					<width>930</width>
-					<height>121</height>
+					<posx>0</posx>
+					<posy>3</posy>
+					<width>820</width>
+					<height>39</height>
 					<texture>list/highlight.png</texture>
 					<animation type="Focus" reversible="false">
-						<effect type="fade" start="0" end="70" time="800" />
+						<effect type="fade" start="0" end="100" time="400" />
 					</animation>
 				</control>
 				<control type="label">
@@ -251,7 +251,7 @@
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+			<!--<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext</visible>
@@ -267,7 +267,7 @@
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+			<!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />-->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious</visible>

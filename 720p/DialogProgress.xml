@@ -7,8 +7,12 @@
 	</coordinates>
 	<controls>
 		<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<texture>common/7000_focus.png</texture>
+			<posx>340</posx>
+			<posy>235</posy>
+			<width>600</width>
+			<height>230</height>
+			<!-- <include>Dimensions_Fullscreen</include> -->
+			<texture>DialogBack.png</texture>
 			<visible>!Player.HasVideo</visible>
 		</control>
 		<control type="group">
@@ -104,7 +108,7 @@
 				<height>40</height>
 				<label>222</label>
 				<font>font16caps</font>
-				<textcolor>white</textcolor>
+				<textcolor>blue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
 				<texturenofocus border="5">MenuItemNF.png</texturenofocus>

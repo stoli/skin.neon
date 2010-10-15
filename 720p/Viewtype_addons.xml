@@ -1,20 +1,38 @@
 <!--Alaska-->
 
 <includes>
+	
 	<include name="Viewtype_Addons">
-
+	<control type="group">
+		<include>Animation_SettingsFade</include>
 		<!-- Browser -->
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
-			<texture>list/file-black-background1.png</texture>
+			<!-- <texture>list/file-black-background1.png</texture> -->
+			<texture border="20">backgrounds\addons.jpg</texture>
 			<visible>Control.IsVisible(50)</visible>
 		</control>
-		
-		<control type="fixedlist" id="50">
-			<posx>0</posx>
-			<posy>-14</posy>
-			<height>885</height>
-			<width>1680</width>
+		<control type="image">
+			<posx>5</posx>
+			<posy>90</posy>
+			<width>680</width>
+			<height>540</height>
+			<texture border="20">DialogBack.png</texture>
+			<visible>Control.IsVisible(50)</visible>
+		</control>
+		<control type="image">
+			<posx>750</posx>
+			<posy>50</posy>
+			<width>500</width>
+			<height>320</height>
+			<texture border="20">DialogBack.png</texture>
+			<visible>Control.IsVisible(50)</visible>
+		</control>
+		<control type="list" id="50">
+			<posx>10</posx>
+			<posy>105</posy>
+			<height>500</height>
+			<width>650</width>
 			<onup>50</onup>
 			<ondown>50</ondown>
 			<onleft>7000</onleft>
@@ -25,9 +43,10 @@
 			<focusposition>9</focusposition>
 			<movement>9</movement>
 			<pagecontrol>60</pagecontrol>
-			<include>Animation_HiddenByInfo</include>
-			<include>Animation_Viewtype_Files_LeftArea</include>
-			<itemlayout width="1210" height="36">
+			<!-- <include>Animation_HiddenByInfo</include> -->
+			<!-- <include>Animation_Viewtype_Files_LeftArea</include> -->
+			<include>Animation_CommonFade</include>
+			<itemlayout width="500" height="36">
 				<control type="label">
 					<posx>660</posx>
 					<posy>0</posy>
@@ -42,7 +61,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>750</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>confluence/separator.png</texture>
@@ -59,24 +78,24 @@
 					<visible></visible>
 				</control>
 			</itemlayout>
-			<focusedlayout width="1210" height="36">
+			<focusedlayout width="600" height="36">
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>750</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>confluence/separator.png</texture>
 				</control>
 				<control type="image">
-					<posx>-70</posx>
-					<posy>-34</posy>
-					<width>871</width>
-					<height>121</height>
-					<texture>list/highlight.png</texture>
-					<animation type="Focus" reversible="false">
+					<posx>0</posx>
+					<posy>3</posy>
+					<width>650</width>
+					<height>37</height>
+					<texture border="5">MenuItemFO.png</texture>
+					<!--<animation type="Focus" reversible="false">
 						<effect type="fade" start="0" end="70" time="800" />
-					</animation>
+					</animation> -->
 				</control>
 				<control type="label">
 					<posx>20</posx>
@@ -101,14 +120,15 @@
 					<visible></visible>
 				</control>
 			</focusedlayout>
-		</control>		
+		</control>	
+	</control>
 	
 	<control type="group">
-	<include>Animation_HiddenByInfo</include>
+	<include>Animation_SettingsFade</include>
 	<visible>Control.IsVisible(50)</visible>
-	<include>Animation_Viewtype_Wall_Title</include>	
+	<!-- <include>Animation_Viewtype_Wall_Title</include>	-->
 		<control type="image">
-			<posx>810</posx>
+			<posx>710</posx>
 			<posy>380</posy>
 			<width>460</width>
 			<height>330</height>
@@ -119,7 +139,7 @@
 			<fadetime>100</fadetime>
 		</control>
 		<control type="image">
-			<posx>810</posx>
+			<posx>710</posx>
 			<posy>380</posy>
 			<width>460</width>
 			<height>330</height>
@@ -129,13 +149,13 @@
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+			<!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext</visible>
 		</control>
 		<control type="image">
-			<posx>810</posx>
+			<posx>710</posx>
 			<posy>380</posy>
 			<width>460</width>
 			<height>330</height>
@@ -145,7 +165,7 @@
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+			<!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious</visible>
@@ -153,17 +173,17 @@
 	</control>
 	
 		<control type="textbox"><!-- Plot TV -->
-			<posx>790</posx>
+			<posx>778</posx>
 			<posy>70</posy>
-			<width>476</width>
+			<width>450</width>
 			<height>280</height>
 			<align>justify</align>
 			<info>ListItem.Property(Addon.Description)</info>
 			<font>Font_Bartowski_Movies</font>
 			<textcolor>ffffffff</textcolor>
 			<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-			<include>Animation_HiddenByInfo</include>
-			<include>Animation_Viewtype_Wall_Plot</include>
+			<!-- <include>Animation_HiddenByInfo</include> -->
+			<include>Animation_SettingsFade</include>
 			<visible>Control.IsVisible(50)</visible>
 		</control>
 		

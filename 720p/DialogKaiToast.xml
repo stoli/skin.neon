@@ -3,7 +3,7 @@
 	<animation effect="slide" start="0,0" end="0,80" time="100">WindowClose</animation>
 	<coordinates>
 		<system>1</system>
-		<posx>520</posx>
+		<posx>465</posx>
 		<posy>650</posy>
 	</coordinates>
 	<controls>

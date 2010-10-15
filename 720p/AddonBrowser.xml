@@ -3,36 +3,8 @@
 	<allowoverlay>no</allowoverlay>
 	<views>50,56</views>
 	<controls>
-		<include>CommonSettingsBackground</include>
-		<include>CommonMediaPlayingBackground</include>
 		<control type="group">
-			<posx>90</posx>
-			<posy>50</posy>
-			<animation type="WindowOpen" reversible="false">
-			<!-- 	<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
-				<effect type="fade" start="0" end="100" time="300" />
-			</animation>
-			<animation type="WindowClose" reversible="false">
-			<!--	<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" /> -->
-				<effect type="fade" start="100" end="0" time="300" />
-			</animation>			
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>1100</width>
-				<height>640</height>
-				<texture border="20">DialogBack.png</texture>
-			</control>
-			<control type="image">
-				<description>LOGO</description>
-				<posx>30</posx>
-				<posy>15</posy>
-				<width>220</width>
-				<height>80</height>
-				<aspectratio>keep</aspectratio>
-				<texture>neon.png</texture>
-			</control>
-			<!-- <include>Window_OpenClose_Animation</include>		-->
+			<include>Window_OpenClose_Animation</include>		
 			<!--<control type="largeimage">
 				<include>Dimensions_Fullscreen</include>
 				<texture background="true"  fallback="special://skin/media/backdrops/curtains.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -41,12 +13,12 @@
 				<include>Animation_BackdropFade</include>
 				<visible></visible>
 			</control>-->
-			<!-- <control type="largeimage">
+			<control type="largeimage">
 				<include>Dimensions_Fullscreen</include>
 				<texture>backdrops/curtains.png</texture>
 				<aspectratio>scale</aspectratio>
 				<include>Animation_BackdropFade</include>
-			</control> -->
+			</control>
 			
 			<!--<control type="group">
 				<include>VisibleFadeEffect</include>

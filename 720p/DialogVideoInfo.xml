@@ -60,7 +60,20 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>blue</textcolor>
+					<visible>Container.Content(movies) | Container.Content(videos) | Container.Content(music)]</visible>
 				</control>
+				<!-- <control type="label">
+					<description>header label</description>
+					<posx>110</posx>
+					<posy>80</posy>
+					<width>700</width>
+					<height>30</height>
+					<font>Font_Bartowski_MainMenu_Context</font>
+					<label>[B]$INFO[Listitem.Title][/B]</label>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>blue</textcolor>
+				</control> -->
 				<control type="label">
 					<posx>110</posx>
 					<posy>116</posy>
@@ -526,28 +539,30 @@
 						<!-- <animation effect="slide" start="0,0" end="-1200,0" time="400" delay="300" condition="Control.IsVisible(50)">conditional</animation> -->
 						<visible>!Container.Content(movies)</visible>
 					</control>
-					<control type="image" id="7017">
-						<visible>Container.Content(tvshows)</visible>
-						<posx>15</posx>
-						<posy>320</posy>
+					
+
+					<control type="image" id="7019">
+						<posx>20</posx>
+						<posy>-20</posy>
 						<width>230</width>
 						<height>89</height>
 						<texture background="true">$INFO[ListItem.path]logo.png</texture>
 						<fadetime>100</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
-					<!--  JVB tried for fallback
 					<control type="label">
-						<visible>Container.Content(tvshows) + IsEmpty(Control.GetLabel(7017))</visible>
-						<posx>15</posx>
-						<posy>320</posy>
-						<width>555</width>
-						<height>50</height>
+						<description>header label</description>
+						<posx>110</posx>
+						<posy>80</posy>
+						<width>700</width>
+						<height>30</height>
+						<font>Font_Bartowski_MainMenu_Context</font>
+						<label>[B]$INFO[Listitem.Title][/B]</label>
 						<align>center</align>
-						<font>Font_InfoYear2</font>
+						<aligny>center</aligny>
 						<textcolor>blue</textcolor>
-						<label>$INFO[ListItem.Label]</label>
-					</control> -->
+						<visible>IsEmpty(Control.GetLabel(7019))</visible>
+					</control>
 					<control type="image">
 						<posx>0</posx>
 						<posy>370</posy>
