@@ -17,7 +17,7 @@
 			<posy>-30</posy>
 			<width>620</width>
 			<height>500</height>
-			<texture>favourites/favourites_panel1.png</texture>
+			<texture>dialog.png</texture>
 		</control>
 
 		<control type="spincontrolex" id="3">
@@ -28,7 +28,7 @@
 			<align>left</align>
 			<font>font16caps</font>
 			<textoffsetx>6</textoffsetx>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>confluence/button-focus-big.png</texturefocus>
 			<width>400</width>
@@ -45,7 +45,7 @@
 			<width>500</width>
 			<label>$LOCALIZE[20344]</label>
 			<font>font16caps</font>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 		</control>
 
 		<control type="image">
@@ -151,7 +151,7 @@
 			<label>$LOCALIZE[5]</label>
 			<textoffsetx>6</textoffsetx>
 			<align>center</align>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>confluence/button-focus-big.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
@@ -166,7 +166,7 @@
 			<posy>390</posy>
 			<width>80</width>
 			<label>$LOCALIZE[186]</label>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<align>center</align>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>confluence/button-focus.png</texturefocus>
@@ -182,7 +182,7 @@
 			<posy>390</posy>
 			<label>$LOCALIZE[222]</label>
 			<align>center</align>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>confluence/button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
