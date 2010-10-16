@@ -913,7 +913,7 @@
 		<include>Global_RSS</include>
 		<include>Global_Time</include>
 		<include>Library_Totals</include>
-		
+		<include>Objects_WeatherPopup</include>
 
 	</controls>
 </window>
