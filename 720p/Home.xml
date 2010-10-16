@@ -106,6 +106,16 @@
 			<visible>Skin.HasSetting(homepageHideRecentlyAdded) + [Container(300).HasFocus(3) | Container(301).HasFocus(3)]</visible>
 		</control>
 		<control type="image">
+			<posx>980</posx>
+			<posy>-100</posy>
+			<width>300</width>
+			<height>900</height>
+			<texture flipx="true">music/music_global_home.png</texture>
+			<animation effect="fade" start="0" end="100" time="400" delay="1400" tween="cubic" easing="inout" condition="Container(300).HasFocus(5) | Container(301).HasFocus(5)">Conditional</animation>
+			<visible>Skin.HasSetting(homepageHideRecentlyAdded) + [Container(300).HasFocus(5) | Container(301).HasFocus(5)]</visible>
+		</control>
+		<!-- JVB Removed 
+		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
 			<include>Dimensions_Fullscreen</include>
@@ -113,8 +123,8 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<animation effect="fade" start="0" end="100" time="400" delay="1000" tween="cubic" easing="inout" condition="Container(300).HasFocus(5) | Container(301).HasFocus(5)">Conditional</animation>
 			<visible>Skin.HasSetting(homepageHideRecentlyAdded) + [Container(300).HasFocus(5) | Container(301).HasFocus(5)]</visible>
-		</control>
-		<control type="image">
+		</control> -->
+		<!-- JVB Removed <control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
 			<include>Dimensions_Fullscreen</include>
@@ -122,12 +132,12 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<animation effect="fade" start="0" end="100" time="400" tween="cubic" easing="inout" condition="Container(300).HasFocus(8) | Container(300).HasFocus(14)">Conditional</animation>
 			<visible>Skin.HasSetting(HomepageWeatherWidget) + [Container(300).HasFocus(8) | Container(300).HasFocus(14)]</visible>
-		</control>
+		</control> -->
 		<control type="image">
 			<posx>0</posx>
-			<posy>360</posy>
+			<posy>340</posy>
 			<width>587</width>
-			<height>356</height>
+			<height>376</height>
 			<texture>music/music_global_home.png</texture>
 			<visible>Window.IsActive(Home) + Player.HasAudio + Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)</visible>
 		</control>
