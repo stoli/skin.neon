@@ -23,6 +23,7 @@
 		<control type="image">
 			<posx>750</posx>
 			<posy>50</posy>
+			<posy>50</posy>
 			<width>500</width>
 			<height>320</height>
 			<texture border="20">DialogBack.png</texture>
@@ -128,22 +129,22 @@
 	<visible>Control.IsVisible(50)</visible>
 	<!-- <include>Animation_Viewtype_Wall_Title</include>	-->
 		<control type="image">
-			<posx>710</posx>
+			<posx>780</posx>
 			<posy>380</posy>
 			<width>460</width>
 			<height>330</height>
-			<aspectratio align="right" aligny="bottom">keep</aspectratio>
+			<aspectratio align="center" aligny="center">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
 		<control type="image">
-			<posx>710</posx>
+			<posx>780</posx>
 			<posy>380</posy>
 			<width>460</width>
 			<height>330</height>
-			<aspectratio align="right" aligny="bottom">keep</aspectratio>
+			<aspectratio align="center" aligny="center">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
@@ -155,11 +156,11 @@
 			<visible>Container(50).OnNext</visible>
 		</control>
 		<control type="image">
-			<posx>710</posx>
+			<posx>780</posx>
 			<posy>380</posy>
 			<width>460</width>
 			<height>330</height>
-			<aspectratio align="right" aligny="bottom">keep</aspectratio>
+			<aspectratio align="center" aligny="center" >keep</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>

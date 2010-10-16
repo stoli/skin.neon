@@ -180,6 +180,7 @@
 			</control>
 			<control type="group" id="9010">
 				<control type="grouplist" id="9001">
+				
 					<visible>Container(9000).Hasfocus(1)</visible>
 					<posx>310</posx>
 					<posy>60</posy>
@@ -263,12 +264,12 @@
 						<onclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</onclick>
 						<visible>Skin.HasSetting(show_lyrics)</visible>
 					</control>
-					<!--<control type="radiobutton" id="111">
+					<control type="radiobutton" id="111">
 						<include>skin_settings_labels</include>
-						<label>$LOCALIZE[31278]</label>
-						<onclick>Skin.ToggleSetting(background_nowplaying)</onclick>
-						<selected>Skin.HasSetting(background_nowplaying)</selected>
-					</control>-->
+						<label>Global Bottom Line RSS</label>
+						<onclick>Skin.ToggleSetting(global_bottomline)</onclick>
+						<selected>Skin.HasSetting(global_bottomline)</selected>
+					</control>
 					<control type="label" id="112">
 						<width>740</width>
 						<height>45</height>
@@ -433,6 +434,8 @@
 						<description>Show Recently added info</description>
 						<include>skin_settings_labels</include>
 						<label>31244</label>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(horizontal_home)</onclick>
 						<selected>Skin.HasSetting(horizontal_home)</selected>
 					</control>
@@ -2436,6 +2439,8 @@
 							<label>- $LOCALIZE[31127]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(LyricScript_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
+							<width>860</width>
+							<height>35</height>
 							<focusedcolor>white</focusedcolor>
 							<texturefocus>MenuItemFO.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>

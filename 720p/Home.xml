@@ -2,8 +2,7 @@
 	<defaultcontrol always="true">8999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 	<controls>
-	
-		
+
 		<control type="multiimage">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -86,6 +85,7 @@
 			<posx>0</posx>
 			<posy>360</posy>
 			<height>355</height>
+			<colordiffuse>blue</colordiffuse>
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
@@ -96,7 +96,7 @@
 			<!-- <animation effect="fade" start="50" end="100" time="1000" condition="!ControlGroup(9001).HasFocus">conditional></animation> -->
 		</control>	
 
-		<control type="image">
+	<!--	<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
 			<include>Dimensions_Fullscreen</include>
@@ -104,7 +104,7 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<animation effect="fade" start="0" end="100" time="400" delay="1800" tween="cubic" easing="inout" condition="Container(300).HasFocus(3) | Container(301).HasFocus(3)">Conditional</animation>
 			<visible>Skin.HasSetting(homepageHideRecentlyAdded) + [Container(300).HasFocus(3) | Container(301).HasFocus(3)]</visible>
-		</control>
+		</control> -->
 		<control type="image">
 			<posx>980</posx>
 			<posy>-100</posy>
@@ -914,6 +914,7 @@
 		<include>Global_Time</include>
 		<include>Library_Totals</include>
 		<include>Objects_WeatherPopup</include>
+		<include>BottomLine_RSS</include>
 
 	</controls>
 </window>
