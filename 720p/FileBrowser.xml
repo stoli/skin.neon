@@ -9,10 +9,10 @@
 	</coordinates>
 
 	<controls>
-		<control type="image">
+		<!--<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>common/7000_focus.png</texture>
-		</control>
+		</control> -->
 		<control type="group">
 			<posx>265</posx>
 			<posy>73</posy>
@@ -97,7 +97,7 @@
 					<control type="image">
 						<width>563</width>
 						<height>40</height>
-						<texture border="3">dialogs/list-nofocus.png</texture>
+						<texture border="3">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
 						<posx>15</posx>
@@ -120,7 +120,7 @@
 					<control type="image">
 						<width>560</width>
 						<height>40</height>
-						<texture border="3">confluence/button-focus.png</texture>
+						<texture border="3">button-focus.png</texture>
 					</control>
 					<control type="image">
 						<posx>15</posx>
@@ -136,7 +136,7 @@
 						<font>font16caps</font>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>white</textcolor>
 					</control>
 				</focusedlayout>
 			</control>

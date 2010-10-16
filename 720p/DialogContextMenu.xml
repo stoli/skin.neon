@@ -62,7 +62,7 @@
 			<align>center</align>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		

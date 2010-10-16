@@ -57,7 +57,7 @@
 			<font>Font_KeyboardEdit</font>
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -68,7 +68,7 @@
 			<font>Font_KeyboardEdit</font>
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -80,7 +80,7 @@
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>MenuItemFO.png</texturefocus>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>
@@ -97,7 +97,7 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>
@@ -115,7 +115,7 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">confluence/button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>

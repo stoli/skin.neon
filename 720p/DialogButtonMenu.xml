@@ -42,7 +42,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>5</label>
@@ -56,7 +56,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[31242]</label>
@@ -71,7 +71,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[31243]</label>
@@ -86,7 +86,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[1036]</label>
@@ -101,7 +101,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[13313]</label>
@@ -115,7 +115,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[13005]</label>
@@ -129,7 +129,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[13313] XBMC</label>
@@ -143,7 +143,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[130]</label>
@@ -156,7 +156,7 @@
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>Reload Skin</label>

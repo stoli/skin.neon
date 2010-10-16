@@ -537,7 +537,7 @@
 							<width>430</width>
 							<height>40</height>
 							<visible>Control.HasFocus(50)</visible>
-							<texture border="5">confluence/button-focus.png</texture>
+							<texture border="5">button-focus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>
@@ -597,7 +597,7 @@
 							<width>430</width>
 							<height>40</height>
 							<visible>Control.HasFocus(50)</visible>
-							<texture border="5">confluence/button-focus.png</texture>
+							<texture border="5">button-focus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>

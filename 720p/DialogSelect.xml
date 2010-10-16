@@ -126,7 +126,7 @@
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
-				<texturefocus border="5">confluence/button-focus.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<onleft>61</onleft>
 				<onright>3</onright>
 				<onup>3</onup>

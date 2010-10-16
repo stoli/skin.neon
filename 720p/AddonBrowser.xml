@@ -4,7 +4,7 @@
 	<views>50,56</views>
 	<controls>
 		<control type="group">
-			<include>Window_OpenClose_Animation</include>		
+			<include>Animation_SettingsFade</include>		
 			<!--<control type="largeimage">
 				<include>Dimensions_Fullscreen</include>
 				<texture background="true"  fallback="special://skin/media/backdrops/curtains.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -60,8 +60,8 @@
 			</control>-->
 		</control>
 		<control type="group">
-				<include>Viewtype_Addons</include><!--  55  -->
-				<include>Viewtype_3daddon</include><!--  56  -->
+			<include>Viewtype_Addons</include><!--  55  -->
+			 <include>Viewtype_3daddon</include><!--  56  -->
 		</control>
 		
 			<control type="image">
@@ -72,7 +72,7 @@
 				<animation effect="fade" start="100" end="0" time="600">Hidden</animation>
 			</control>
 	<control type="group">
-	<include>Animation_CommonFade_ViewOptions</include>	
+	<include>Animation_SettingsFade</include>	
 			<control type="image"><!-- Floor -->
 				<posx>300</posx>
 				<posy>650</posy>
@@ -115,13 +115,13 @@
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
 					<textcolor>ff000000</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">confluence/button-focus.png</texturefocus>
+					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>24063</label>
 					<textoffsetx>10</textoffsetx>
 					<width>150</width>
 				</control>
 			</control>
 		</control>
-		<include>Global_Time_TopRight_Files</include>
+		<include>Global_Time_TopRight</include>
 	</controls>
 </window>

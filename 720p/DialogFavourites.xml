@@ -82,7 +82,7 @@
 					<aligny>center</aligny>
 					<font>Font_FavouritesFocusedItemLabel</font>
 					<info>ListItem.Label</info>
-					<texturefocus border="5">confluence/button-focus.png</texturefocus>
+					<texturefocus border="5">button-focus.png</texturefocus>
 				</control>
 
 			</focusedlayout>

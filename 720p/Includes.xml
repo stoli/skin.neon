@@ -95,13 +95,13 @@
 	<include name="dialogConfirmButton">	
 		<width>120</width>
 		<height>42</height>
-		<font>Font_Bartowski_Smaller_MenuTitle</font>
+		<font>font16caps</font>
 		<align>center</align>
 		<aligny>-</aligny>
 		<textoffsety>10</textoffsety>
-		<texturefocus border="5">confluence/button-focus.png</texturefocus>
-		<textcolor>ff000000</textcolor>
-		<focusedcolor>ffffffff</focusedcolor>
+		<texturefocus border="5">button-focus.png</texturefocus>
+		<textcolor>white</textcolor>
+		<focusedcolor>white</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="skin_settings_labels">
@@ -922,7 +922,7 @@
 		<font>Font_Bartowski_Press_S</font>
 		<textcolor>blue</textcolor>
 		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">confluence/button-focus.png</texturefocus>
+		<texturefocus border="5">button-focus.png</texturefocus>
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
@@ -935,9 +935,9 @@
 		<font>Font_Bartowski_Press_S</font>
 		<textcolor>ff000000</textcolor>
 		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">confluence/button-focus.png</texturefocus>
+		<texturefocus border="5">button-focus.png</texturefocus>
 		<alttexturenofocus>-</alttexturenofocus>
-		<alttexturefocus>confluence/button-focus.png</alttexturefocus>
+		<alttexturefocus>button-focus.png</alttexturefocus>
 		<textureradiofocus>-</textureradiofocus>
 		<textureradionofocus>-</textureradionofocus>
 	</include>
@@ -1016,9 +1016,9 @@
 		<textoffsetx>10</textoffsetx>
 		<textcolor>ff000000</textcolor>
 		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">confluence/button-focus.png</texturefocus>
+		<texturefocus border="5">button-focus.png</texturefocus>
 		<alttexturenofocus>-</alttexturenofocus>
-		<alttexturefocus>confluence/button-focus.png</alttexturefocus>
+		<alttexturefocus>button-focus.png</alttexturefocus>
 		<textureradiofocus>-</textureradiofocus>
 		<textureradionofocus>-</textureradionofocus>
 	</include>
@@ -1042,9 +1042,9 @@
 		<font>Font_Bartowski_Smaller_MenuTitle</font>
 		<textcolor>ff000000</textcolor>
 		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">confluence/button-focus.png</texturefocus>
+		<texturefocus border="5">button-focus.png</texturefocus>
 		<alttexturenofocus>-</alttexturenofocus>
-		<alttexturefocus>confluence/button-focus.png</alttexturefocus>
+		<alttexturefocus>button-focus.png</alttexturefocus>
 		<textureradiofocus>-</textureradiofocus>
 		<textureradionofocus>-</textureradionofocus>
 	</include>
@@ -1058,9 +1058,9 @@
 		<font>Font_Bartowski_Smaller_MenuTitle</font>
 		<textcolor>ff000000</textcolor>
 		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">confluence/button-focus.png</texturefocus>
+		<texturefocus border="5">button-focus.png</texturefocus>
 		<alttexturenofocus>-</alttexturenofocus>
-		<alttexturefocus>confluence/button-focus.png</alttexturefocus>
+		<alttexturefocus>button-focus.png</alttexturefocus>
 		<textureradiofocus>-</textureradiofocus>
 		<textureradionofocus>-</textureradionofocus>
 	</include>

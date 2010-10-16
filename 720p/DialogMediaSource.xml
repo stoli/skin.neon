@@ -2,7 +2,7 @@
 
 <window id="129">
 	<defaultcontrol always="true">10</defaultcontrol>
-	<include>Animation_Bartowski_Context_Zoom</include>
+	<include>Animation_SettingsFade</include>
 	
 	<coordinates>
 		<system>1</system>
@@ -11,12 +11,12 @@
 	</coordinates>
 
 	<controls>
-	<control type="image">
+	<!-- <control type="image">
 		<include>Dimensions_Fullscreen</include>
 		<texture>common/7000_focus.png</texture>
 		<animation effect="fade" start="0" end="100" time="600">Visible</animation>
 		<animation effect="fade" start="100" end="0" time="600">Hidden</animation>
-	</control>
+	</control> -->
 	<control type="group">
 		<posx>360</posx>
 		<posy>120</posy>
@@ -26,7 +26,7 @@
 			<posy>-30</posy>
 			<width>620</width>
 			<height>500</height>
-			<texture>favourites/favourites_panel1.png</texture>
+			<texture border="5">dialogs/yes_no_back.png</texture>
 		</control>
 
 		<control type="label" id="0">
@@ -36,7 +36,7 @@
 			<width>600</width>
 			<label>$LOCALIZE[1021]</label>
 			<font>font16caps</font>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 		</control>
 
 		<control type="list" id="10">
@@ -94,7 +94,7 @@
 				<label>$LOCALIZE[1024]</label>
 				<align>center</align>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus>confluence/button-focus.png</texturefocus>
+				<texturefocus>button-focus.png</texturefocus>
 				<onup>14</onup>
 				<onleft>10</onleft>
 				<onright>10</onright>
@@ -107,7 +107,7 @@
 				<label>$LOCALIZE[15019]</label>
 				<align>center</align>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus>confluence/button-focus.png</texturefocus>
+				<texturefocus>button-focus.png</texturefocus>
 				<onup>11</onup>
 				<onleft>10</onleft>
 				<onright>10</onright>
@@ -120,7 +120,7 @@
 				<label>$LOCALIZE[1210]</label>
 				<align>center</align>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus>confluence/button-focus.png</texturefocus>
+				<texturefocus>button-focus.png</texturefocus>
 				<onup>13</onup>
 				<onleft>10</onleft>
 				<onright>10</onright>
@@ -135,7 +135,7 @@
 			<width>420</width>
 			<label>$LOCALIZE[1022]</label>
 			<font>font16caps</font>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 		</control>
 
 		<control type="button" id="12">
@@ -167,9 +167,9 @@
 			<posy>390</posy>
 			<label>$LOCALIZE[20333]</label>
 			<align>center</align>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onup>12</onup>
 			<onleft>19</onleft>
@@ -183,9 +183,9 @@
 			<label>$LOCALIZE[186]</label>
 			<width>80</width>
 			<align>center</align>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onup>12</onup>
 			<onleft>20</onleft>
@@ -198,9 +198,9 @@
 			<posy>390</posy>
 			<label>$LOCALIZE[222]</label>
 			<align>center</align>
-			<textcolor>black</textcolor>
+			<textcolor>blue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onup>12</onup>
 			<onleft>18</onleft>
