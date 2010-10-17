@@ -96,7 +96,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<label>186</label>
 				<onleft>12</onleft>
@@ -114,7 +114,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<label>222</label>
 				<onleft>10</onleft>
@@ -132,7 +132,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<label>409</label>
 				<onleft>11</onleft>
@@ -150,7 +150,7 @@
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>Font_KeyboardKeys_Plot</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 			<pulseonselect>false</pulseonselect>
@@ -160,7 +160,7 @@
 			<height>40</height>
 			<font>Font_KeyboardKeys_Plot</font>
 			<textoffsetx>10</textoffsetx>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 		</control>
@@ -169,7 +169,7 @@
 			<height>40</height>
 			<font>Font_KeyboardKeys_Plot</font>
 			<textoffsetx>10</textoffsetx>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 		</control>
@@ -189,7 +189,7 @@
 			<font>Font_KeyboardKeys_Plot_title</font>
 			<textoffsetx>10</textoffsetx>
 			<label>-</label>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<shadowcolor>black</shadowcolor>
 			<align>left</align>
 			<aligny>center</aligny>

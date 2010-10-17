@@ -108,7 +108,7 @@
 				<height>40</height>
 				<label>222</label>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
 				<texturenofocus border="5">MenuItemNF.png</texturenofocus>

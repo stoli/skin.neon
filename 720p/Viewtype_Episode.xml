@@ -232,7 +232,7 @@
 				<height>50</height>
 				<align>center</align>
 				<font>Font_Bartowski_Title_TVShow</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[ListItem.Title][/B]</label>
 			</control>
 			<control type="label"><!-- Episode Title -->
@@ -242,7 +242,7 @@
 				<height>50</height>
 				<align>center</align>
 				<font>Font_Bartowski_Title_TVShow</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[ListItem.Label][/B]</label>
 				<visible>Window.IsActive(videoplaylist)</visible>
 			</control>
@@ -298,7 +298,7 @@
 			<width>500</width><!--1200 50 -->
 			<height>300</height>
 			<font>Font_Episode_Landscape_TVTitle</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<label>[B]$INFO[ListItem.TVShowtitle][/B]</label>
 			<include>Animation_HiddenByInfo</include>
 			<include>Animation_Viewtype_Episode_LeftSide</include>

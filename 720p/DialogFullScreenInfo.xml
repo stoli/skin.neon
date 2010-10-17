@@ -19,8 +19,9 @@
 				<posx>0</posx>
 				<posy>50</posy>
 				<width>1280</width>
-				<height>100</height>
+				<height>110</height>
 				<!-- <texture>osd/pause-back1.png</texture> -->
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackLower.png</texture>
 				<aspectratio>stretch</aspectratio>
 				<visible>!Control.IsVisible(10)</visible>
@@ -28,11 +29,12 @@
 			<control type="image">
 				<description> upper backgound </description>
 				<posx>0</posx>
-				<posy>-580</posy>
+				<posy>-560</posy>
 				<width>1280</width>
-				<height>100</height>
+				<height>40</height>
 				<!-- <texture>osd/pause-back1.png</texture> -->
-				<texture>MediaInfoBackupper.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture flipy="true">MediaInfoBacklower.png</texture>
 				<aspectratio>stretch</aspectratio>
 				<visible>!Control.IsVisible(10)</visible>
 			</control>
@@ -58,13 +60,13 @@
 				<height>19</height>
 			</control>
 			<control type="label">
-				<posx>90</posx>
+				<posx>10</posx>
 				<posy>128</posy>
 				<width>300</width>
 				<height>25</height>
-				<align>right</align> 
+				<align>left</align> 
 				<font>Font_ListDetail</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
 			</control>
 			<control type="label">
@@ -73,7 +75,7 @@
 				<width>300</width>
 				<height>25</height>
 				<font>Font_ListDetail</font>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[VideoPlayer.Duration][/B]</label>
 			</control>
 			<control type="group">
@@ -95,19 +97,19 @@
 					<align>left</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Title_Pause</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<visible>VideoPlayer.Content(episodes)</visible>
 				</control>
 				<control type="label">
 					<posx>0</posx>
-					<posy>40</posy>
+					<posy>90</posy>
 					<width>750</width> 
 					<height>25</height> 
 					<label>$INFO[VideoPlayer.Title]</label>
 					<align>left</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Title_Pause</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<visible>VideoPlayer.Content(movies)</visible>
 				</control>
 				<control type="label">
@@ -119,12 +121,12 @@
 					<align>left</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Title_Pause</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<visible>![VideoPlayer.Content(episodes) | VideoPlayer.Content(movies)]</visible>
 				</control>
 				<control type="label">
 					<posx>0</posx>
-					<posy>70</posy>
+					<posy>120</posy>
 					<width>412</width> 
 					<height>25</height> 
 					<label>$INFO[VideoPlayer.Year]</label>
@@ -175,19 +177,7 @@
 				<include>Animation_HiddenByInfo</include>
 				<visible>VideoPlayer.Content(movies)</visible>
 			</control>  -->
-			<control type="group">
-				<control type="label">
-					<posx>100</posx>
-					<posy>98</posy>
-					<width>1080</width>
-					<height>25</height>
-					<label>$LOCALIZE[31074] [COLOR=blue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=blue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
-					<textcolor>ffffffff</textcolor>
-					<font>Font_Bartowski_Extras_Pause</font>
-					<align>center</align>
-					<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
-				</control>
-			</control>
+
 			<!-- Movie Info  -->
 			<!-- JVB Remote Director and genre
 			<control type="group">

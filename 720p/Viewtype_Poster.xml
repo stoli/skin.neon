@@ -390,7 +390,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Movies_Title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[ListItem.Label][/B]</label>
 				<visible>Container.Content(movies) + !Skin.HasSetting(clean_poster)</visible>
 			</control>
@@ -423,7 +423,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Landscape_TV_Title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[ListItem.TVShowTitle][/B]</label>
 				<visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7015)) + IsEmpty(Control.GetLabel(9015))</visible>
 			</control>

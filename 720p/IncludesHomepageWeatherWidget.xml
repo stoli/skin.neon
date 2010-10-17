@@ -32,7 +32,7 @@
 					<height>20</height>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
@@ -110,7 +110,7 @@
 					<height>20</height>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
@@ -235,7 +235,7 @@
 					<height>20</height>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
@@ -447,7 +447,7 @@
 					<height>20</height>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
@@ -527,7 +527,7 @@
 					<height>20</height>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
@@ -663,7 +663,7 @@
 					<height>20</height>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>

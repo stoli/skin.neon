@@ -686,7 +686,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[13350][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -764,7 +764,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[209][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -966,7 +966,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[13350][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1045,7 +1045,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[209][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1523,7 +1523,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[13350][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1601,7 +1601,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[209][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>

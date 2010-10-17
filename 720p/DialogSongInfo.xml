@@ -29,7 +29,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Movies_Title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]"$INFO[ListItem.Title]"[/B]</label>
 			</control>
 			
@@ -69,7 +69,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[557]:</label>
 			</control>
 			<control type="fadelabel">
@@ -93,7 +93,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[558]:</label>
 			</control>
 			<control type="fadelabel">
@@ -117,7 +117,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[515]:</label>
 			</control>
 			<control type="fadelabel">
@@ -141,7 +141,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[562]:</label>
 			</control>
 			<control type="fadelabel">
@@ -165,7 +165,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[554]:</label>
 			</control>
 			<control type="fadelabel">
@@ -189,7 +189,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[563]:</label>
 			</control>
 			<control type="label">
@@ -201,7 +201,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font16caps</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[569]:</label>
 			</control>
 			<control type="textbox">
@@ -220,14 +220,14 @@
 				<posy>650</posy>
 				<width>400</width>
 				<height>60</height>
-				<texture>backdrops/test2.png</texture>
+				<texture>notification_background.png</texture>
 			</control>
 			<control type="image"><!-- Floor -->
 				<posx>520</posx>
 				<posy>650</posy>
 				<width>660</width>
 				<height>60</height>
-				<texture>backdrops/test2.png</texture>
+				<texture>notification_background.png</texture>
 			</control>
 			<control type="group">
 				<posx>146</posx>
@@ -260,7 +260,7 @@
 				<width>183</width>
 				<height>33</height>
 				<texture>$INFO[ListItem.StarRating]</texture>
-				<colordiffuse>blue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 			</control>
 			<control type="group" id="9000">
 				<posx>530</posx>

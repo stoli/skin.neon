@@ -99,7 +99,7 @@
 						<width>100</width>
 						<height>18</height>
 						<texture>$INFO[ListItem.StarRating]</texture>
-						<colordiffuse>blue</colordiffuse>
+						<colordiffuse>mainblue</colordiffuse>
 						<animation type="Focus" reversible="false">
 							<effect type="fade" start="0" end="100" time="100" delay="300" />
 						</animation>
@@ -129,7 +129,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Movies_Title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>"[B]$INFO[ListItem.Label][/B]"</label>
 				<include>Animation_Bartowski_Context_Zoom</include>
 				<visible></visible>

@@ -53,7 +53,7 @@
 						<height>35</height>
 						<font>font13caps_title</font>
 						<aligny>center</aligny>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -96,7 +96,7 @@
 						<height>35</height>
 						<font>font13caps_title</font>
 						<aligny>center</aligny>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>

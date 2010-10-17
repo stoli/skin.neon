@@ -158,7 +158,7 @@
 					<width>580</width>
 					<height>35</height>
 					<font>font12caps</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<align>right</align>
 					<aligny>center</aligny>
 					<label>$LOCALIZE[31218]</label>

@@ -296,7 +296,7 @@
 									<label>[B]$INFO[ListItem.Label][/B]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>blue</textcolor>
+									<textcolor>mainblue</textcolor>
 								</control>
 						</control>
 					</focusedlayout>
@@ -367,7 +367,7 @@
 									<label>[B]$INFO[ListItem.Label][/B]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>blue</textcolor>
+									<textcolor>mainblue</textcolor>
 								</control>
 						</control>
 					</focusedlayout>
@@ -458,7 +458,7 @@
 									<label>[B]$INFO[ListItem.Label][/B]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>blue</textcolor>
+									<textcolor>mainblue</textcolor>
 								</control>
 						</control>
 					</focusedlayout>
@@ -534,7 +534,7 @@
 									<label>[B]$INFO[ListItem.Label][/B]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>blue</textcolor>
+									<textcolor>mainblue</textcolor>
 								</control>
 						</control>
 					</focusedlayout>
@@ -595,7 +595,7 @@
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<align>center</align>
 								<font>Font_Bartowski_Main_SubMenu</font>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 							</control>
 						</control>
 					</focusedlayout>
@@ -682,7 +682,7 @@
 									<label>[B]$INFO[ListItem.Label][/B]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>blue</textcolor>
+									<textcolor>mainblue</textcolor>
 								</control>
 						</control>
 					</focusedlayout>
@@ -774,7 +774,7 @@
 									<label>[B]$INFO[ListItem.Label][/B]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>blue</textcolor>
+									<textcolor>mainblue</textcolor>
 								</control>
 						</control>
 					</focusedlayout>
@@ -832,7 +832,7 @@
 									<label>[B]$INFO[ListItem.Label][/B]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>blue</textcolor>
+									<textcolor>mainblue</textcolor>
 								</control>
 						</control>
 					</focusedlayout>
@@ -898,7 +898,7 @@
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<align>center</align>
 								<font>Font_Bartowski_Main_SubMenu</font>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 							</control>
 						</control>
 					</focusedlayout>

@@ -197,7 +197,7 @@
 						<height>45</height>
 						<font>font13caps</font>
 						<label>$LOCALIZE[31256]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -275,7 +275,7 @@
 						<height>45</height>
 						<font>font13caps</font>
 						<label>$LOCALIZE[31038]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -341,7 +341,7 @@
 						<height>45</height>
 						<font>Font_KeyboardKeys</font>
 						<label>512</label>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -377,7 +377,7 @@
 						<height>45</height>
 						<font>Font_KeyboardKeys</font>
 						<label>31102</label>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -424,7 +424,7 @@
 						<height>45</height>
 						<font>font13caps</font>
 						<label>$LOCALIZE[31259]</label> <!--31101-->
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -528,7 +528,7 @@
 						<height>45</height>
 						<font>font13caps</font>
 						<label>$LOCALIZE[31042]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -656,7 +656,7 @@
 						<height>45</height>
 						<font>Font_KeyboardKeys</font>
 						<label>31109</label>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -2227,7 +2227,7 @@
 							<height>45</height>
 							<font>Font_KeyboardKeys</font>
 							<label>Add Submenu of Custom Scripts on Home</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
@@ -2364,7 +2364,7 @@
 							<height>45</height>
 							<font>Font_KeyboardKeys</font>
 							<label>31122</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2414,7 +2414,7 @@
 							<height>45</height>
 							<font>Font_KeyboardKeys</font>
 							<label>31128</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2483,7 +2483,7 @@
 							<height>45</height>
 							<font>font13caps</font>
 							<label>$LOCALIZE[31043]</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2573,7 +2573,7 @@
 							<height>45</height>
 							<font>font13caps</font>
 							<label></label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2583,7 +2583,7 @@
 							<height>45</height>
 							<font>font13caps</font>
 							<label>$LOCALIZE[31263]</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2632,7 +2632,7 @@
 							<height>45</height>
 							<font>font13caps</font>
 							<label>$LOCALIZE[31047]</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2733,7 +2733,7 @@
 							<height>45</height>
 							<font>font13caps</font>
 							<label>$LOCALIZE[31065]</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2783,7 +2783,7 @@
 							<height>45</height>
 							<font>font13caps</font>
 							<label>$LOCALIZE[31260]</label>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -3068,7 +3068,7 @@
 								<height>45</height>
 								<font>font13caps</font>
 								<label>$LOCALIZE[31292]</label>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<shadowcolor>black</shadowcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -3132,7 +3132,7 @@
 								<height>45</height>
 								<font>font13caps</font>
 								<label>$LOCALIZE[31295]</label>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<shadowcolor>black</shadowcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -3196,7 +3196,7 @@
 								<height>45</height>
 								<font>font13caps</font>
 								<label>Custom Music Submenus</label>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<shadowcolor>black</shadowcolor>
 								<align>left</align>
 								<aligny>center</aligny>

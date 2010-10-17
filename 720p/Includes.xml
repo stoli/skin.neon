@@ -163,14 +163,14 @@
 		<posy>91</posy>
 		<font>Font_Bartowski_Main_SubMenu</font>
 		<textcolor>38b8b7b7</textcolor>
-		<focusedcolor>blue</focusedcolor>
+		<focusedcolor>mainblue</focusedcolor>
 	</include>
 	<include name="ButtonHomeSubCommonValues_Horizontal">
 		<width>320</width>
 		<height>56</height>
 		<font>Font_Bartowski_Main_SubMenu</font>
 		<textcolor>ffb8b7b7</textcolor>
-		<focusedcolor>blue</focusedcolor>
+		<focusedcolor>mainblue</focusedcolor>
 	</include>
 	
 	<!-- Debug objects -->
@@ -215,18 +215,9 @@
     <include name="Global_Time">
 		<control type="group">
 			<posx>1260</posx>
-			<!-- JVB Changed posy to 30 from 10 -->
 			<posy>0</posy>
 			<include>Animation_BackdropFade</include>
 			<visible>!Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
-				<!-- <control type="image"> 
-					<posx>-280</posx>
-					<posy>-30</posy>   
-					<width>357</width>     
-					<height>318</height> 
-					<texture>common/time_gradient_back.png</texture>
-					<colordiffuse>ff15efd9</colordiffuse>
-				</control> -->
 				<control type="label">
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
@@ -234,114 +225,63 @@
 					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
 					<align>right</align>
 				</control>
-				<!-- <control type="label">
-					<posy>40</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>right</align>
-				</control> -->
 			</control>
-			<!-- Weather -->
-			<!-- JVB Added current weather to top left -->
+		<!-- Weather -->
 			<control type="group">
 			<include>Animation_BackdropFade</include>
 				<control type="group">
 				<posx>10</posx>
-				<!-- JVB Changed posy to 30 from 10 -->
 				<posy>4</posy>
 				<width>225</width>
 				<height>300</height>
-				
 			<!-- condition icon -->
 				<control type="image">
+					<visible>!Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>
-					<posx>1070</posx>
+					<posx>1065</posx>
 					<aligny>center</aligny>
-					
 				</control>
-				
-				<!-- current temp -->
-				<!-- <control type="label">
-					<label>[B]$LOCALIZE[143][/B]</label>
-					<posx>65</posx>
-					<posy>0</posy>
-					<width>95</width>
-					<height>20</height>
-					<font>Font_Date</font>
-					<align>left</align>
-					<textcolor>blue</textcolor>
-				</control>
-				<control type="label">
-					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
-					<width>95</width>
-					<height>20</height>
-					<posx>225</posx>
-					<posy>0</posy>
-					<font>Font_Date</font>
-					<align>right</align>
-					<textcolor>white</textcolor>
-				</control>
-				<!-- Feels Like -->
-			<!--	<control type="label">
-					<label>[B]$LOCALIZE[402]:[/B]</label>
-					<posx>65</posx>
-					<posy>25</posy>
-					<width>200</width>
-					<height>20</height>
-					<font>Font_Date</font>
-					<align>left</align>
-					<textcolor>blue</textcolor>
-				</control>
-				<control type="label">
-					<label>[B]$INFO[Window(Weather).Property(Current.FeelsLike)]$INFO[System.TemperatureUnits][/B]</label>
-					<width>205</width>
-					<height>20</height>
-					<posx>225</posx>
-					<posy>25</posy>
-					<font>Font_Date</font>
-					<align>right</align>
-					<textcolor>white</textcolor>
-				</control> -->
 			</control>
-		
 		</control>
 	</include>
 	
 	 <include name="Global_Time_TopRight">
 		<control type="group">
 			<posx>1260</posx>
-			<posy>10</posy>
+			<posy>0</posy>
 			<include>Animation_BackdropFade</include>
 			<animation effect="slide" start="0,0" end="0,-10" time="0" condition="Control.IsVisible(52) + Container.Content(tvshows) + !Skin.HasSetting(no_new_recent_info)">Conditional</animation>
 			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + ![[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(598) | Control.IsVisible(57) | Control.IsVisible(592) | Control.IsVisible(56) | Control.IsVisible(51) | Control.IsVisible(54) | Control.IsVisible(50) | Control.IsVisible(58)]</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-10</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient.png</texture>
-				</control>
 				<control type="label">
 					<width>300</width>
-					<font>Font_Time_Global</font>
-					<textcolor>blue</textcolor>
-					<info>System.Time(hh:mm xx)</info>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
 					<align>right</align>
 				</control>
-				<control type="label">
-					<posy>27</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>right</align>
-				</control>
+		</control>
+			<!-- Weather -->
+			<control type="group">
+			<include>Animation_BackdropFade</include>
 				<control type="group">
-					<posx>0</posx>
+				<posx>10</posx>
+				<posy>4</posy>
+				<width>225</width>
+				<height>300</height>
+			<!-- condition icon -->
+				<control type="image">
+				<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + ![[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(598) | Control.IsVisible(57) | Control.IsVisible(592) | Control.IsVisible(56) | Control.IsVisible(51) | Control.IsVisible(54) | Control.IsVisible(50) | Control.IsVisible(58)]</visible>
+				<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+					<width>25</width>
+					<height>25</height>
+					<posx>1065</posx>
+					<aligny>center</aligny>
+				</control>
+			</control>
+			<!--	<control type="group">
+					<posx>1260</posx>
 					<posy>46</posy>
 					<control type="label">
 						<description>Programs</description>
@@ -391,39 +331,43 @@
 						<include>Global_HeadingSectionVars1</include>
 						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
 					</control>
-			</control>
+			</control> -->
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_Music">
 		<control type="group">
 			<posx>1260</posx>
-			<posy>10</posy>
+			<posy>0</posy>
 			<include>Animation_BackdropFade</include>
 			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(musiclibrary) + [Control.IsVisible(58) | Control.IsVisible(55) | Control.IsVisible(50) | Control.IsVisible(53)]</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-10</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient.png</texture>
-				</control>
 				<control type="label">
 					<width>300</width>
-					<font>Font_Time_Global</font>
-					<textcolor>blue</textcolor>
-					<info>System.Time(hh:mm xx)</info>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
 					<align>right</align>
 				</control>
-				<control type="label">
-					<posy>27</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>right</align>
-				</control>
+		</control>
+			<!-- Weather -->
+			<control type="group">
+			<include>Animation_BackdropFade</include>
 				<control type="group">
-					<posx>0</posx>
+				<posx>10</posx>
+				<posy>4</posy>
+				<width>225</width>
+				<height>300</height>
+			<!-- condition icon -->
+				<control type="image">
+				<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(musiclibrary) + [Control.IsVisible(58) | Control.IsVisible(55) | Control.IsVisible(50) | Control.IsVisible(53)]</visible>
+				<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+					<width>25</width>
+					<height>25</height>
+					<posx>1065</posx>
+					<aligny>center</aligny>
+				</control>
+			</control>
+			<!--	<control type="group">
+					<posx>1260</posx>
 					<posy>46</posy>
 					<control type="label">
 						<description>Name of Plugin</description>
@@ -461,39 +405,43 @@
 						<include>Global_HeadingSectionVars1</include>
 						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
 					</control>
-			</control>
+			</control> -->
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_Files">
 		<control type="group">
 			<posx>1260</posx>
-			<posy>10</posy>
+			<posy>0</posy>
 			<include>Animation_BackdropFade</include>
 			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-10</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient.png</texture>
-				</control>
 				<control type="label">
 					<width>300</width>
-					<font>Font_Time_Global</font>
-					<textcolor>blue</textcolor>
-					<info>System.Time(hh:mm xx)</info>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
 					<align>right</align>
 				</control>
-				<control type="label">
-					<posy>27</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>right</align>
-				</control>
+		</control>
+			<!-- Weather -->
+			<control type="group">
+			<include>Animation_BackdropFade</include>
 				<control type="group">
-					<posx>0</posx>
+				<posx>10</posx>
+				<posy>4</posy>
+				<width>225</width>
+				<height>300</height>
+			<!-- condition icon -->
+				<control type="image">
+					<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia</visible>
+					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+					<width>25</width>
+					<height>25</height>
+					<posx>1065</posx>
+					<aligny>center</aligny>
+				</control>
+			</control>
+			<!--	<control type="group">
+					<posx>1260</posx>
 					<posy>46</posy>
 					<control type="label">
 						<description>Programs</description>
@@ -570,40 +518,45 @@
 						<label>$LOCALIZE[20373] $INFO[ListItem.Season] - $INFO[Container.NumItems] $LOCALIZE[20360]</label>
 						<include>Global_HeadingDetailVars</include>
 						<visible>Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>-->
-			</control>
+					</control>
+			</control> -->
 		</control>
 	</include>
 	<include name="Global_Time_LowerRight">
 		<control type="group">
 			<posx>1260</posx>
-			<posy>654</posy>
+			<posy>684</posy>
 			<include>Animation_BackdropFade</include>
 			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(58) | Control.IsVisible(56)]</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-144</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient_lowerright.png</texture>
-				</control>
 				<control type="label">
 					<width>300</width>
-					<font>Font_Time_Global</font>
-					<textcolor>blue</textcolor>
-					<info>System.Time(hh:mm xx)</info>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
 					<align>right</align>
 				</control>
-				<control type="label">
-					<posy>24</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>right</align>
-				</control>
+		</control>
+			<!-- Weather -->
+			<control type="group">
+			<include>Animation_BackdropFade</include>
 				<control type="group">
-					<posx>0</posx>
+				<posx>10</posx>
+				<posy>4</posy>
+				<width>225</width>
+				<height>300</height>
+			<!-- condition icon -->
+				<control type="image">
+					<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(58) | Control.IsVisible(56)]</visible>
+					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+					<width>25</width>
+					<height>25</height>
+					<posx>1065</posx>
+					<posy>684</posy>
+					<aligny>center</aligny>
+				</control>
+			</control>
+			<!--	<control type="group">
+					<posx>1260</posx>
 					<posy>46</posy>
 					<control type="label">
 						<description>Programs</description>
@@ -653,7 +606,7 @@
 						<include>Global_HeadingSectionVars1</include>
 						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
 					</control>
-			</control>
+			</control> -->
 		</control>
 	</include>
 	<include name="Global_Time_LowerLeft">
@@ -662,36 +615,42 @@
 			<posy>650</posy>
 			<include>Animation_BackdropFade</include>
 			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [Control.IsVisible(51) | Control.IsVisible(57) | Control.IsVisible(592)]</visible>
-				<control type="image"> 
-					<posx>-10</posx>
-					<posy>-150</posy>   
-					<width>393</width>     
-					<height>206</height> 
-					<texture>common/library_time_gradient_lowerleft.png</texture>
-				</control>
 				<control type="label">
 					<width>300</width>
-					<font>Font_Time_Global</font>
-					<textcolor>blue</textcolor>
-					<info>System.Time(hh:mm xx)</info>
-					<align>left</align>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
+					<align>right</align>
 				</control>
-				<control type="label">
-					<posy>27</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>left</align>
-				</control>
+		</control>
+			<!-- Weather -->
+			<control type="group">
+			<include>Animation_BackdropFade</include>
 				<control type="group">
-					<posx>0</posx>
+				<posx>10</posx>
+				<posy>4</posy>
+				<width>225</width>
+				<height>300</height>
+			<!-- condition icon -->
+				<control type="image">
+					<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [Control.IsVisible(51) | Control.IsVisible(57) | Control.IsVisible(592)]</visible>
+					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+					<width>25</width>
+					<height>25</height>
+					<posx>1065</posx>
+					<posy>684</posy>
+					<aligny>center</aligny>
+				</control>
+			</control>
+			<!--	<control type="group">
+					<posx>10</posx>
 					<posy>46</posy>
 					<control type="label">
 						<description>Movies</description>
 						<label>[COLOR=blue][B]$LOCALIZE[342][/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [Control.IsVisible(51) | Control.IsVisible(57) | Control.IsVisible(592)]</visible>
+
 					</control>
 					<control type="label">
 						<description>Name of Plugin</description>
@@ -723,7 +682,7 @@
 						<include>Global_HeadingSectionVars2</include>
 						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
 					</control>
-			</control>
+			</control> -->
 		</control>
 	</include>
 	<include name="Global_Time_LowerLeft_music">
@@ -732,30 +691,35 @@
 			<posy>654</posy>
 			<include>Animation_BackdropFade</include>
 			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(musiclibrary) + [Control.IsVisible(52)]</visible>
-				<control type="image"> 
-					<posx>-10</posx>
-					<posy>-134</posy>   
-					<width>393</width>     
-					<height>206</height> 
-					<texture>common/library_time_gradient_lowerleft.png</texture>
-				</control>
 				<control type="label">
 					<width>300</width>
-					<font>Font_Time_Global</font>
-					<textcolor>blue</textcolor>
-					<info>System.Time(hh:mm xx)</info>
-					<align>left</align>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
+					<align>right</align>
 				</control>
-				<control type="label">
-					<posy>27</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>left</align>
-				</control>
+		</control>
+			<!-- Weather -->
+			<control type="group">
+			<include>Animation_BackdropFade</include>
 				<control type="group">
-					<posx>0</posx>
+				<posx>10</posx>
+				<posy>4</posy>
+				<width>225</width>
+				<height>300</height>
+			<!-- condition icon -->
+				<control type="image">
+					<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(musiclibrary) + [Control.IsVisible(52)]</visible>
+					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+					<width>25</width>
+					<height>25</height>
+					<posx>1065</posx>
+					<posy>684</posy>
+					<aligny>center</aligny>
+				</control>
+			</control>
+			<!--	<control type="group">
+					<posx>10</posx>
 					<posy>46</posy>
 					<control type="label">
 						<description>Name of Plugin</description>
@@ -793,96 +757,45 @@
 						<include>Global_HeadingSectionVars2</include>
 						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
 					</control>
-			</control>
+			</control> -->
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_OSD">
 		<control type="group">
 			<posx>1260</posx>
-			<posy>10</posy>
+			<posy>0</posy>
 			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(library_global_clock) + [Window.IsActive(seekbar) | Window.IsActive(fullscreeninfo)]</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-10</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient.png</texture>
-				</control>
 				<control type="label">
 					<width>300</width>
-					<font>Font_Time_Global</font>
-					<textcolor>blue</textcolor>
-					<info>System.Time(hh:mm xx)</info>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]   $INFO[System.Time(hh:mmxx)]</label>
 					<align>right</align>
 				</control>
-				<control type="label">
-					<posy>27</posy>
-					<width>300</width>
-					<font>Font_Date</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>right</align>
-				</control>
-		</control>
-		<!-- JVB Added current weather to top left -->
-		<control type="group">
+			</control>
+		<!-- Weather -->
+			<control type="group">
 			<include>Animation_BackdropFade</include>
 				<control type="group">
 				<posx>10</posx>
-				<posy>10</posy>
+				<posy>4</posy>
 				<width>225</width>
 				<height>300</height>
 			<!-- condition icon -->
 				<control type="image">
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>50</width>
-					<height>50</height>
+					<width>25</width>
+					<height>25</height>
+					<posx>1065</posx>
+					<aligny>center</aligny>
+				</control>
+			
+				<control type="label">
 					<posx>10</posx>
 					<posy>0</posy>
-				</control>
-				
-				<!-- current temp -->
-				<control type="label">
-					<label>[B]$LOCALIZE[143][/B]</label>
-					<posx>65</posx>
-					<posy>0</posy>
-					<width>95</width>
-					<height>20</height>
-					<font>Font_Date</font>
-					<align>left</align>
-					<textcolor>blue</textcolor>
-				</control>
-				<control type="label">
-					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
-					<width>95</width>
-					<height>20</height>
-					<posx>225</posx>
-					<posy>0</posy>
-					<font>Font_Date</font>
-					<align>right</align>
+					<label>$LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
 					<textcolor>white</textcolor>
-				</control>
-				<!-- Feels Like -->
-				<control type="label">
-					<label>[B]$LOCALIZE[402]:[/B]</label>
-					<posx>65</posx>
-					<posy>25</posy>
-					<width>200</width>
-					<height>20</height>
-					<font>Font_Date</font>
-					<align>left</align>
-					<textcolor>blue</textcolor>
-				</control>
-				<control type="label">
-					<label>[B]$INFO[Window(Weather).Property(Current.FeelsLike)]$INFO[System.TemperatureUnits][/B]</label>
-					<width>205</width>
-					<height>20</height>
-					<posx>225</posx>
-					<posy>25</posy>
-					<font>Font_Date</font>
-					<align>right</align>
-					<textcolor>white</textcolor>
+					<font>Font_RSS_Unicode</font>
 				</control>
 			</control>
 		</control>
@@ -921,7 +834,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>Font_Bartowski_Press_S</font>
-		<textcolor>blue</textcolor>
+		<textcolor>mainblue</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<texturefocus border="5">button-focus.png</texturefocus>
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -950,7 +863,7 @@
 			<width>1280</width>     
 			<height>35</height> 
 			<texture>MediaInfoBackUpper.png</texture>
-			<colordiffuse>blue</colordiffuse>
+			<colordiffuse>mainblue</colordiffuse>
 			<animation effect="fade" start="0" end="70" time="400">WindowOpen</animation>
 			<animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
 			<visible>system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
@@ -980,7 +893,7 @@
 			<width>1280</width>     
 			<height>35</height> 
 			<texture flipy="true">MediaInfoBackUpper.png</texture>
-			<colordiffuse>blue</colordiffuse>
+			<colordiffuse>mainblue</colordiffuse>
 			<animation effect="fade" start="0" end="70" time="400">WindowOpen</animation>
 			<animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
 			<visible>system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
@@ -1027,10 +940,10 @@
 			<height>40</height>
 			<aligny>bottom</aligny>
 			<font>Font_RSS_Unicode</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<headlinecolor>white</headlinecolor>
 			<highlightcolor>white</highlightcolor>
-			<titlecolor>blue</titlecolor>
+			<titlecolor>mainblue</titlecolor>
 			<urlset>1</urlset>
 			<animation effect="fade" start="100" end="0" time="400">WindowClose</animation>
 			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
@@ -1081,7 +994,7 @@
 		<height>30</height>
 		<align>center</align>
 		<font>Font_Bartowski_Smaller_MenuTitle</font>
-		<textcolor>ff000000</textcolor>
+		<textcolor>grey</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<texturefocus border="5">button-focus.png</texturefocus>
 		<alttexturenofocus>-</alttexturenofocus>

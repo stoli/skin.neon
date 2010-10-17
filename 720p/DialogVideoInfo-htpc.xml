@@ -59,7 +59,7 @@
 					<label>[B]$INFO[Listitem.Title][/B]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<posx>110</posx>
@@ -256,7 +256,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -291,7 +291,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -412,7 +412,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -447,7 +447,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -536,7 +536,7 @@
 						<height>50</height>
 						<align>center</align>
 						<font>Font_InfoYear2</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control> -->
 					<control type="image">
@@ -594,7 +594,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -629,7 +629,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -759,7 +759,7 @@
 								<font>font13caps_title</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -794,7 +794,7 @@
 								<font>font13caps_title</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -875,7 +875,7 @@
 					<label>Plot</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<animation effect="slide" start="0,0" end="0,700" time="200" delay="100" condition="Control.IsVisible(50)">conditional</animation>
 					<visible>!container.content(movies)</visible>

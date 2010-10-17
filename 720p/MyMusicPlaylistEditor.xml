@@ -25,7 +25,7 @@
 				<width>330</width>
 				<height>30</height>
 				<font>Font_SettingsHeading</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -45,7 +45,7 @@
 					<align>center</align>
 					<font>Font_SettingsHeading</font>
 					<textcolor>38b8b7b7</textcolor>
-					<focusedcolor>blue</focusedcolor>
+					<focusedcolor>mainblue</focusedcolor>
 					<onleft>50</onleft>
 					<onright>100</onright>
 					<onup>8</onup>
@@ -60,7 +60,7 @@
 					<align>center</align>
 					<font>Font_SettingsHeading</font>
 					<textcolor>38b8b7b7</textcolor>
-					<focusedcolor>blue</focusedcolor>
+					<focusedcolor>mainblue</focusedcolor>
 					<onleft>50</onleft>
 					<onright>100</onright>
 					<onup>6</onup>
@@ -75,7 +75,7 @@
 					<align>center</align>
 					<font>Font_SettingsHeading</font>
 					<textcolor>38b8b7b7</textcolor>
-					<focusedcolor>blue</focusedcolor>
+					<focusedcolor>mainblue</focusedcolor>
 					<onleft>50</onleft>
 					<onright>100</onright>
 					<onup>7</onup>
@@ -177,7 +177,7 @@
 				<font>font12</font>
 				<align>left</align>
 				<scroll>true</scroll>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<label>($INFO[Container(50).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(50).CurrentPage]/$INFO[Container(50).NumPages])</label>
 			</control>-->
@@ -313,7 +313,7 @@
 				<width>300</width>
 				<height>20</height>
 				<font>font12</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>

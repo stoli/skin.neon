@@ -85,7 +85,7 @@
 			<posx>0</posx>
 			<posy>360</posy>
 			<height>355</height>
-			<colordiffuse>blue</colordiffuse>
+			<colordiffuse>mainblue</colordiffuse>
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>

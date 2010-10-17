@@ -133,7 +133,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>Font_MainMenuLabel</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<shadowcolor>black</shadowcolor>
 			<include>Animation_BackdropFade</include>
 			<visible>Control.IsVisible(51)</visible>
@@ -217,7 +217,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>Font_MainMenuLabel</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="image">

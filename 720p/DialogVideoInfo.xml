@@ -59,7 +59,7 @@
 					<label>[B]$INFO[Listitem.Title][/B]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<visible>Container.Content(movies) | Container.Content(videos) | Container.Content(music)]</visible>
 				</control>
 				<!-- <control type="label">
@@ -72,7 +72,7 @@
 					<label>[B]$INFO[Listitem.Title][/B]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control> -->
 				<control type="label">
 					<posx>110</posx>
@@ -272,7 +272,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -311,7 +311,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -434,7 +434,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -469,7 +469,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -540,8 +540,7 @@
 						<visible>!Container.Content(movies)</visible>
 					</control>
 					
-
-					<control type="image" id="7019">
+					<control type="image"id="7019">
 						<posx>20</posx>
 						<posy>-20</posy>
 						<width>230</width>
@@ -560,9 +559,9 @@
 						<label>[B]$INFO[Listitem.Title][/B]</label>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<visible>IsEmpty(Control.GetLabel(7019))</visible>
-					</control>
+					</control> 
 					<control type="image">
 						<posx>0</posx>
 						<posy>370</posy>
@@ -620,7 +619,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -655,7 +654,7 @@
 								<font>font16caps</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -785,7 +784,7 @@
 								<font>font13caps_title</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -820,7 +819,7 @@
 								<font>font13caps_title</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>mainblue</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -901,7 +900,7 @@
 					<label>Plot</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<animation effect="slide" start="0,0" end="0,700" time="200" delay="100" condition="Control.IsVisible(50)">conditional</animation>
 					<visible>!container.content(movies)</visible>

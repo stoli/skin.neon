@@ -92,7 +92,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<label>[B]"$INFO[ListItem.Property(Addon.Name)]"[/B]</label>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<scroll>true</scroll>
 			</control>
 			<control type="label">

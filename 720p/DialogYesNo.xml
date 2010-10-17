@@ -84,7 +84,7 @@
 			<height>39</height>
 			<width>200</width>
 			<font>Font_Bartowski_Press_S</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>
@@ -105,7 +105,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>Font_Bartowski_Press_S</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>

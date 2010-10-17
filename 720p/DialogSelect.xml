@@ -33,7 +33,7 @@
 				<label>$LOCALIZE[13406]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 			</control>
 			<control type="image">
 				<posx>66</posx>
@@ -112,7 +112,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>([COLOR=blue]$INFO[Container(3).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(3).CurrentPage]/$INFO[Container(3).NumPages][/COLOR])</label>
 			</control>
 			<control type="button" id="5">

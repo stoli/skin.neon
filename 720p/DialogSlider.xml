@@ -24,7 +24,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>Font_Bartowski_ListView_Season</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 		</control>
 		<control type="label" id="12">
 			<description>Slider Value</description>
@@ -35,7 +35,7 @@
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>Font_Bartowski_ListView_Season</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 		</control>
 		<control type="slider" id="11">
 			<description>Slider</description>

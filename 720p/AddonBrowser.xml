@@ -78,7 +78,7 @@
 				<posy>650</posy>
 				<width>700</width>
 				<height>70</height>
-				<texture>backdrops/test2.png</texture>
+				<texture>notification_background.png</texture>
 				<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
 			</control>
 			

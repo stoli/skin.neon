@@ -151,7 +151,7 @@
 			<height>50</height>
 			<aligny>center</aligny>
 			<font>Font_Bartowski_Movies_Title</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<label>[B]$INFO[ListItem.Label][/B]</label>
 		</control>
 		<control type="label">
@@ -283,7 +283,7 @@
 		<height>50</height>
 		<aligny>center</aligny>
 		<font>Font_Alaya_Movie-trailer</font>
-		<textcolor>blue</textcolor>
+		<textcolor>mainblue</textcolor>
 		<label>*Press Down For Info*</label>
 		<shadowcolor>black</shadowcolor>
 		<include>Animation_Viewtype_Showcase_Trailer</include>
@@ -297,7 +297,7 @@
 		<height>50</height>
 		<aligny>center</aligny>
 		<font>Font_Alaya_Movie-trailer</font>
-		<textcolor>blue</textcolor>
+		<textcolor>mainblue</textcolor>
 		<label>*Press Down to Play Trailer*</label>
 		<shadowcolor>black</shadowcolor>
 		<include>Animation_Viewtype_Showcase_Trailer</include>
@@ -310,7 +310,7 @@
 		<height>50</height>
 		<aligny>center</aligny>
 		<font>Font_Alaya_Movie-trailer</font>
-		<textcolor>blue</textcolor>
+		<textcolor>mainblue</textcolor>
 		<label>*Press Up or "X" to stop Trailer*</label>
 		<shadowcolor>black</shadowcolor>
 		<include>Animation_Viewtype_Showcase_Trailer</include>
