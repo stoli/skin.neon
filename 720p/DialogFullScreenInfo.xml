@@ -26,18 +26,17 @@
 				<aspectratio>stretch</aspectratio>
 				<visible>!Control.IsVisible(10)</visible>
 			</control>
-			<control type="image">
+			<!-- <control type="image">
 				<description> upper backgound </description>
 				<posx>0</posx>
 				<posy>-560</posy>
 				<width>1280</width>
 				<height>40</height>
-				<!-- <texture>osd/pause-back1.png</texture> -->
 				<colordiffuse>mainblue</colordiffuse>
 				<texture flipy="true">MediaInfoBacklower.png</texture>
 				<aspectratio>stretch</aspectratio>
 				<visible>!Control.IsVisible(10)</visible>
-			</control>
+			</control> -->
 		</control>
 		<control type="group">		
 			<posy>560</posy>
@@ -149,6 +148,18 @@
 					<textcolor>ffffffff</textcolor>
 					<visible>VideoPlayer.Content(episodes)</visible>
 				</control>
+			</control>
+			<control type="label">
+				<posx>100</posx>
+				<posy>98</posy>
+				<width>1080</width>
+				<height>25</height>
+				<label>$LOCALIZE[31074] [COLOR=mainblue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=mainblue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
+				<textcolor>ffffffff</textcolor>
+				<font>Font_Bartowski_Extras_Pause</font>
+				<align>center</align>
+				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
+				<visible>!Skin.HasSetting(library_global_clock)</visible>
 			</control>
 			<!-- JVB - remove plot
 			<control type="textbox">
