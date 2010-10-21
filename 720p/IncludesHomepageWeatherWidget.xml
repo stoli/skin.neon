@@ -47,7 +47,7 @@
 				<!-- Feels Like -->
 				<!-- Uv Index -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -57,7 +57,7 @@
 				</control>
 				<!-- Dew Point -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -67,7 +67,7 @@
 				</control>
 				<!-- Humidity -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -125,7 +125,7 @@
 				<!-- Feels Like -->
 				<!-- Uv Index -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -135,7 +135,7 @@
 				</control>
 				<!-- Dew Point -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -145,7 +145,7 @@
 				</control>
 				<!-- Humidity -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -250,7 +250,7 @@
 				<!-- Feels Like -->
 				<!-- Uv Index -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -260,7 +260,7 @@
 				</control>
 				<!-- Dew Point -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -270,7 +270,7 @@
 				</control>
 				<!-- Humidity -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -308,7 +308,7 @@
 				</control>
 				<!-- HighTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.HighTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-150</posx>
@@ -318,7 +318,7 @@
 				</control>
 				<!-- LowTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.LowTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-150</posx>
@@ -349,7 +349,7 @@
 				</control>
 				<!-- HighTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.HighTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-260</posx>
@@ -359,7 +359,7 @@
 				</control>
 				<!-- LowTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.LowTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-260</posx>
@@ -390,7 +390,7 @@
 				</control>
 				<!-- HighTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.HighTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-370</posx>
@@ -400,7 +400,7 @@
 				</control>
 				<!-- LowTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.LowTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-370</posx>
@@ -462,7 +462,7 @@
 				<!-- Feels Like -->
 				<!-- Uv Index -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -472,7 +472,7 @@
 				</control>
 				<!-- Dew Point -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -482,7 +482,7 @@
 				</control>
 				<!-- Humidity -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -542,7 +542,7 @@
 				<!-- Feels Like -->
 				<!-- Uv Index -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -552,7 +552,7 @@
 				</control>
 				<!-- Dew Point -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -562,7 +562,7 @@
 				</control>
 				<!-- Humidity -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -678,7 +678,7 @@
 				<!-- Feels Like -->
 				<!-- Uv Index -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.UVIndex)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -688,7 +688,7 @@
 				</control>
 				<!-- Dew Point -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.DewPoint)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -698,7 +698,7 @@
 				</control>
 				<!-- Humidity -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Current.Humidity)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -738,7 +738,7 @@
 				</control>
 				<!-- HighTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.HighTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-150</posx>
@@ -748,7 +748,7 @@
 				</control>
 				<!-- LowTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.LowTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day3.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-150</posx>
@@ -781,7 +781,7 @@
 				</control>
 				<!-- HighTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.HighTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-260</posx>
@@ -791,7 +791,7 @@
 				</control>
 				<!-- LowTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.LowTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-260</posx>
@@ -824,7 +824,7 @@
 				</control>
 				<!-- HighTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.HighTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-370</posx>
@@ -834,7 +834,7 @@
 				</control>
 				<!-- LowTemp -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.LowTemp)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>-370</posx>

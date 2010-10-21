@@ -545,7 +545,7 @@
 						<posy>-20</posy>
 						<width>230</width>
 						<height>89</height>
-						<texture background="true">$INFO[ListItem.path]logo.png</texture>
+						<texture background="true">$INFO[ListItem.FilenameAndPath]logo.png</texture>
 						<fadetime>100</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
@@ -562,6 +562,30 @@
 						<textcolor>mainblue</textcolor>
 						<visible>IsEmpty(Control.GetLabel(7019))</visible>
 					</control> 
+					<control type="image" id="7017">
+						<visible>Container.Content(tvshows)</visible>
+						<posx>160</posx>
+						<posy>300</posy>
+						<width>230</width>
+						<height>89</height>
+						<texture background="true">$INFO[ListItem.path]logo.png</texture>
+						<fadetime>100</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+					</control>
+					<control type="label">
+						<description>header label</description>
+						<posx>-150</posx>
+						<posy>20</posy>
+						<width>700</width>
+						<height>30</height>
+						<font>Font_Bartowski_MainMenu_Context</font>
+						<label>[B]$INFO[Listitem.Path][/B]</label>
+						<align>center</align>
+						<aligny>center</aligny>
+						<textcolor>mainblue</textcolor>
+						<visible>IsEmpty(Control.GetLabel(7019))</visible>
+					</control> 
+
 					<control type="image">
 						<posx>0</posx>
 						<posy>370</posy>

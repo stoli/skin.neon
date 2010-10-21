@@ -20,7 +20,6 @@
 				<posy>50</posy>
 				<width>1280</width>
 				<height>110</height>
-				<!-- <texture>osd/pause-back1.png</texture> -->
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackLower.png</texture>
 				<aspectratio>stretch</aspectratio>
