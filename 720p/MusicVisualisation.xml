@@ -115,7 +115,7 @@ Normal Fullscreen
 				<align>left</align>
 				<height>18</height>
 				<font>Font_Date</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$LOCALIZE[13350][/B]</label>
 				<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 			</control>
@@ -190,7 +190,7 @@ Normal Fullscreen
 				<align>left</align>
 				<height>18</height>
 				<font>Font_Date</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$LOCALIZE[209]...[/B]</label>
 				<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 			</control>
@@ -397,7 +397,7 @@ Visualization Fullscreen
 				<align>left</align>
 				<height>18</height>
 				<font>Font_Date</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$LOCALIZE[13350][/B]</label>
 				<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 			</control>
@@ -472,7 +472,7 @@ Visualization Fullscreen
 				<align>left</align>
 				<height>18</height>
 				<font>Font_Date</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$LOCALIZE[209]...[/B]</label>
 				<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 			</control>
@@ -665,7 +665,7 @@ Visualization Fullscreen
 				<height>40</height>
 				<align>center</align>
 				<font>Font_Bartowski_Digital_Clock</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>Now Playing</label>
 			</control>
 			<control type="label">
@@ -675,7 +675,7 @@ Visualization Fullscreen
 				<height>40</height>
 				<align>center</align>
 				<label>$INFO[MusicPlayer.Title]</label>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<font>Font_Bartowski_Digital_Clock</font>
 				<align>center</align>
 			</control>
@@ -686,7 +686,7 @@ Visualization Fullscreen
 				<height>40</height>
 				<align>center</align>
 				<label>$INFO[MusicPlayer.album]</label>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<font>Font_Bartowski_Digital_Clock</font>
 				<align>center</align>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
@@ -703,7 +703,7 @@ Visualization Fullscreen
 				<height>40</height>
 				<align>center</align>
 				<label>$INFO[MusicPlayer.Time]/$INFO[MusicPlayer.Duration]</label>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<font>Font_Bartowski_Digital_Clock</font>
 				<align>center</align>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">

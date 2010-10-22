@@ -43,7 +43,7 @@
 				<align>right</align>
 				<aligny>top</aligny>
 				<texturenofocus border="5">MenuItemNF.png</texturenofocus>
-				<texturefocus border="5">MenuItemFO.png</texturefocus>
+				<texturefocus border="5">button-focus.png</texturefocus>
 				<onleft>2</onleft>
 				<onright>2</onright>
 				<onup>4</onup>
@@ -93,7 +93,7 @@
 					<width>240</width>
 					<height>20</height>
 					<font>font12_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$LOCALIZE[31319]</label>
@@ -115,7 +115,7 @@
 					<width>240</width>
 					<height>30</height>
 					<font>font12_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$LOCALIZE[31320]</label>

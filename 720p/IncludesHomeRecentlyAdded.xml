@@ -8,7 +8,7 @@
 			<animation effect="slide" end="0,-100" time="600" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
 			<control type="group">
 				<posx>275r</posx>
-				<posy>200</posy>
+				<posy>150</posy>
 				<visible>Library.HasContent(Movies) + Container(300).Hasfocus(3)</visible>
 				<include>VisibleFadeEffect</include>
 				<control type="label">
@@ -290,7 +290,7 @@
 							<width>540</width>
 							<height>10</height>
 							<font>Font_Bartowski_Movies</font>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>right</align>
@@ -551,7 +551,7 @@
 			<animation effect="slide" end="0,-100" time="600" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
 			<control type="group">
 				<posx>275r</posx>
-				<posy>200</posy>
+				<posy>150</posy>
 				<visible>Library.HasContent(Movies) + Container(301).Hasfocus(3)</visible>
 				<include>VisibleFadeEffect</include>
 				<control type="label">
@@ -705,8 +705,12 @@
 				<posx>275r</posx>
 				<posy>50</posy>
 				<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(5)</visible>
-				<animation effect="slide" start="500,0" end="0,0" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
-				<animation effect="slide" time="0" start="0,0" end="0,-20" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
+				<!--<animation effect="fade start="0" end="100" time="200" delay="1400" condition="Container(301).HasFocus(5)">Conditional</animation>>
+				<animation effect="fade start="0" end="100" time="200" delay="1400" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation> -->
+				<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
+				<!--<animation effect="slide" start="500,0" end="0,0" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
+				<!--<animation effect="slide" time="0" start="0,0" end="0,-20" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>-->
+				<animation effect="fade" start="100" end="0" time="200" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
 				<control type="label">
 					<visible>!Skin.HasSetting(horizontal_home)</visible>
 					<description>Title label</description>
@@ -724,7 +728,7 @@
 				<control type="group">
 					<control type="image">
 						<posx>-40</posx>
-						<posy>490</posy>
+						<posy>445</posy>
 						<width>301</width>
 						<height>168</height>
 						<texture background="true" diffuse="episodematte.png">$INFO[Container(8001).ListItem.ActualIcon]</texture>
@@ -735,7 +739,7 @@
 					</control>
 					<control type="image">
 						<posx>-40</posx>
-						<posy>490</posy>
+						<posy>445</posy>
 						<width>301</width>
 						<height>168</height>
 						<texture background="true" diffuse="episodematte.png">$INFO[Container(8001).ListItem.ActualIcon]</texture>
@@ -746,7 +750,7 @@
 					</control>
 					<control type="image">
 						<posx>-54</posx>
-						<posy>480</posy>
+						<posy>435</posy>
 						<width>326</width>
 						<height>190</height>
 						<texture>tv-landscape/landscapeframeFO.png</texture>
@@ -755,7 +759,7 @@
 					</control>
 					<control type="image">
 						<posx>-54</posx>
-						<posy>480</posy>
+						<posy>435</posy>
 						<width>326</width>
 						<height>190</height>
 						<texture>tv-landscape/landscapeframeFO.png</texture>
@@ -764,7 +768,7 @@
 					</control>
 					<control type="image">
 						<posx>-40</posx>
-						<posy>490</posy>
+						<posy>445</posy>
 						<width>301</width>
 						<height>168</height>
 						<texture>common/recently_black_back.png</texture>
@@ -775,7 +779,7 @@
 					</control>
 					<control type="label">
 						<posx>-40</posx>
-						<posy>632</posy>
+						<posy>585</posy>
 						<width>301</width>
 						<label fallback="-">"$INFO[Container(8001).ListItem.Label]"</label>
 						<align>center</align>
@@ -787,7 +791,7 @@
 				</control>
 				<control type="wraplist" id="8001">
 					<posx>0</posx>
-					<posy>310</posy>
+					<posy>265</posy>
 					<width>700</width>
 					<height>176</height>
 					<onleft>301</onleft>
@@ -833,7 +837,7 @@
 							<width>540</width>
 							<height>10</height>
 							<font>Font_Bartowski_Movies</font>
-							<textcolor>blue</textcolor>
+							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>right</align>
@@ -932,11 +936,10 @@
 			<!--Music widget-->
 			<control type="group">
 				<posx>90r</posx>
-				<posy>250</posy>
+				<posy>105</posy>
 				<visible>Library.HasContent(Music)</visible>
 				<visible>Container(301).Hasfocus(1)</visible>
 				<include>VisibleFadeEffect</include>
-				<animation effect="slide" end="0,-100" time="600" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
 				<control type="label">
 					<description>Title label</description>
 					<posx>-74</posx>
@@ -949,7 +952,7 @@
 					<font>Font_KeyboardKeys</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<animation effect="slide" start="250,0" end="0,0" time="600" delay="2400" tween="cubic" easing="inout" condition="Container(301).HasFocus(1)">Conditional</animation>
+					<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(1)">Conditional</animation>
 				</control>
 				<control type="wraplist" id="8002">
 					<posx>-301</posx>
@@ -965,7 +968,7 @@
 					<focusposition>0</focusposition>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>0</scrolltime>
-					<animation effect="slide" start="400,0" end="0,0" time="600" delay="2000" tween="cubic" easing="inout" condition="Container(301).HasFocus(1)">Conditional</animation>
+					<animation effect="fade" start="0" end="100" time="600" delay="1500" tween="cubic" easing="inout" condition="Container(301).HasFocus(1)">Conditional</animation>
 					<itemlayout width="110" height="160">
 						<control type="image">
 							<posx>60</posx>

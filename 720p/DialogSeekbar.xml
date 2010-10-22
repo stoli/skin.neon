@@ -13,12 +13,21 @@
 				<effect type="fade" start="100" end="0" time="600" />
 			</animation>
 			<control type="image">
+				<animation type="WindowOpen">
+					<effect type="fade" start="0" end="50" time="600" />
+				</animation>
+				<animation type="WindowClose">
+					<effect type="fade" start="50" end="0" time="600" />
+				</animation>
+				<description> lower backgound </description>
 				<posx>0</posx>
-				<posy>-560</posy>
+				<posy>50</posy>
 				<width>1280</width>
-				<height>720</height>
-				<texture>osd/pause-back1.png</texture>
+				<height>110</height>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>MediaInfoBackLower.png</texture>
 				<aspectratio>stretch</aspectratio>
+				<visible>!Control.IsVisible(10)</visible>
 			</control>
 			
 			
@@ -30,7 +39,7 @@
 				<info>Player.Progress</info>
 				<posx>100</posx>
 				<posy>130</posy>
-				<width>1080</width>
+				<width>1000</width>
 				<height>19</height>
 				<visible>!VideoPlayer.Content(episodes)</visible>
 			</control>
@@ -42,7 +51,7 @@
 				<info>Player.Progress</info>
 				<posx>100</posx>
 				<posy>130</posy>
-				<width>1080</width>
+				<width>1000</width>
 				<height>19</height>
 				<visible>VideoPlayer.Content(episodes) + IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))</visible>
 			</control>
@@ -52,9 +61,9 @@
 				<midtexture>osd/mid.png</midtexture>
 				<righttexture>osd/new_pause2.png</righttexture>
 				<info>Player.Progress</info>
-				<posx>90</posx>
+				<posx>140</posx>
 				<posy>130</posy>
-				<width>786</width>
+				<width>706</width>
 				<height>19</height>
 				<visible>VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]</visible>
 			</control>
@@ -76,17 +85,29 @@
 					<effect type="fade" start="100" end="0" time="500" delay="14000" />
 				</animation>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
+				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>100</posx>
 				<posy>92</posy>
 				<width>1080</width>
 				<height>25</height>
-				<label>$LOCALIZE[31074]: [COLOR=blue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=blue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
+				<label>[B]"$INFO[VideoPlayer.Title]"[/B]</label>
+				<textcolor>ffffffff</textcolor>
+				<font>Font_Bartowski_Extras_Pause</font>
+				<visible>Player.Paused + Skin.HasSetting(library_global_clock)</visible>
+				<align>center</align>
+			</control>
+			<control type="label">
+				<posx>100</posx>
+				<posy>92</posy>
+				<width>1080</width>
+				<height>25</height>
+				<label>$LOCALIZE[31074]: [COLOR=mainblue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=mainblue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
 				<textcolor>ffffffff</textcolor>
 				<font>Font_Bartowski_Extras_Pause</font>
 				<align>center</align>
-				<visible>Player.Paused</visible>
+				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
 				<animation type="Conditional" reversible="false" condition="Player.Paused" loop="true">
 					<effect type="fade" start="0" end="100" time="500" delay="7500" />
 					<effect type="fade" start="100" end="0" time="500" delay="14000" />
@@ -104,18 +125,18 @@
 				<textcolor>ffffffff</textcolor>
 				<font>Font_Bartowski_Extras_Pause</font>
 				<align>center</align>
-				<visible>Player.Paused</visible>
+				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
 			</control>
 		</control>
 			<control type="label">
-				<posx>90</posx>
+				<posx>120</posx>
 				<posy>128</posy>
 				<width>300</width>
 				<height>25</height>
 				<align>right</align> 
 				<font>Font_ListDetail</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
 				<animation effect="slide" start="0,0" end="-10,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
@@ -196,31 +217,31 @@
 	</animation>
 		<control type="label">
 			<posx>0</posx>
-			<posy>0</posy>
-			<width>800</width> 
+			<posy>30</posy>
+			<width>750</width> 
 			<height>25</height> 
 			<label>$INFO[VideoPlayer.TVShowTitle]</label>
 			<align>left</align> 
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Title_Pause</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<visible>VideoPlayer.Content(episodes)</visible>
 		</control>
 		<control type="label">
 			<posx>0</posx>
-			<posy>0</posy>
+			<posy>30</posy>
 			<width>750</width> 
 			<height>25</height> 
 			<label>$INFO[VideoPlayer.Title]</label>
 			<align>left</align> 
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Title_Pause</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<visible>VideoPlayer.Content(movies)</visible>
 		</control>
 		<control type="label">
 			<posx>0</posx>
-			<posy>27</posy>
+			<posy>57</posy>
 			<width>800</width> 
 			<height>25</height> 
 			<label>$LOCALIZE[20373] $INFO[VideoPlayer.season]/$LOCALIZE[20359] $INFO[VideoPlayer.episode]</label>
@@ -232,7 +253,7 @@
 		</control>
 		<control type="label">
 			<posx>0</posx>
-			<posy>27</posy>
+			<posy>57</posy>
 			<width>412</width> 
 			<height>25</height> 
 			<label>$INFO[VideoPlayer.Year]/$INFO[VideoPlayer.Studio]</label>
@@ -250,7 +271,7 @@
 	<posy>0</posy>
 		<control type="label" id="0">
 			<posx>0</posx>
-			<posy>0</posy>
+			<posy>40</posy>
 			<width>1920</width>
 			<align>center</align>
 			<aligny>top</aligny>

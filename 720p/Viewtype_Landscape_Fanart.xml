@@ -144,7 +144,7 @@
 					<height>89</height>
 					<align>center</align>
 					<font>Font_Alaya_Movie-trailer</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<label>[B]*$LOCALIZE[16102]*[/B]</label>
 					<visible>Skin.HasSetting(tvoverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 				</control>
@@ -197,7 +197,7 @@
 			<height>50</height>
 			<aligny>center</aligny>
 			<font>Font_Bartowski_Landscape_TV_Title</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<label>[B]$INFO[ListItem.TVShowTitle][/B]</label>
 			<visible>IsEmpty(Control.GetLabel(37015)) + IsEmpty(Control.GetLabel(39015))</visible>
 		</control>
@@ -332,7 +332,7 @@
 		<height>100</height>
 		<align>center</align>
 		<font>Font_TVShow</font>
-		<textcolor>blue</textcolor>
+		<textcolor>mainblue</textcolor>
 		<shadowcolor>black</shadowcolor>
 		<label>[B]$LOCALIZE[31275][/B]</label>
 		<include>Animation_CommonFade</include>

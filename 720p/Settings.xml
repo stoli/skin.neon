@@ -46,37 +46,37 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>260</width>
-						<height>55</height>
+						<height>45</height>
 						<texture border="5">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
-						<posx>250</posx>
+						<posx>130</posx>
 						<posy>0</posy>
 						<width>380</width>
-						<height>55</height>
+						<height>45</height>
 						<font>font24caps_title</font>
 						<textcolor>grey3</textcolor>
-						<align>right</align>
+						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="54" width="260">
 					<control type="image">
-						<posx>0</posx>
+						<posx>15</posx>
 						<posy>0</posy>
-						<width>260</width>
-						<height>55</height>
-						<texture border="5">MenuItemFO.png</texture>
+						<width>230</width>
+						<height>45</height>
+						<texture border="5">button-focus.png</texture>
 					</control>
 					<control type="label">
-						<posx>250</posx>
+						<posx>130</posx>
 						<posy>0</posy>
 						<width>380</width>
-						<height>55</height>
+						<height>45</height>
 						<font>font24caps_title</font>
 						<textcolor>white</textcolor>
-						<align>right</align>
+						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>

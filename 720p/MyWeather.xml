@@ -93,7 +93,7 @@
 					<posx>-120</posx>
 					<posy>10</posy>
 					<font>Font_EpisodeNumber</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<align>center</align>
 				</control>
 				<!-- current condition -->
@@ -116,7 +116,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window.Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
@@ -137,7 +137,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>[B]$INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits][/B]</label>
@@ -199,7 +199,7 @@
 					<posy>215</posy>
 					<font>Font_Date</font>
 					<align>left</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<info>Window.Property(Current.Wind)</info>
@@ -265,7 +265,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>$INFO[Window.Property(Day1.HighTemp)] $INFO[System.TemperatureUnits]</label>
@@ -286,7 +286,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>$INFO[Window.Property(Day1.LowTemp)] $INFO[System.TemperatureUnits]</label>
@@ -352,7 +352,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>$INFO[Window.Property(Day2.HighTemp)] $INFO[System.TemperatureUnits]</label>
@@ -373,7 +373,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>$INFO[Window.Property(Day2.LowTemp)] $INFO[System.TemperatureUnits]</label>
@@ -439,7 +439,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>$INFO[Window.Property(Day3.HighTemp)] $INFO[System.TemperatureUnits]</label>
@@ -460,7 +460,7 @@
 					<height>20</height>
 					<font>Font_Date</font>
 					<align>center</align>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 				</control>
 				<control type="label">
 					<label>$INFO[Window.Property(Day3.LowTemp)] $INFO[System.TemperatureUnits]</label>
@@ -574,7 +574,7 @@
 			<posy>650</posy>
 			<width>880</width>
 			<height>70</height>
-			<texture>backdrops/test2.png</texture>
+			<texture>notification_background.png</texture>
 			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
 			<include>Animation_ViewOptions_whitebar</include>
 		</control>
@@ -637,7 +637,7 @@
 				<label>[B]$LOCALIZE[31251]:[/B] $INFO[Weather.Location]</label>
 				<width>960</width>
 				<font>Font_Bartowski_Movies_Title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<align>left</align>
 				<include>Animation_SlideDownFadeOut</include>
 			</control>

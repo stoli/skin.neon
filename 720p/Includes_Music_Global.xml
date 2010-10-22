@@ -100,7 +100,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=blue]$LOCALIZE[13350][/COLOR] [/B]</label>
+						<label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -183,7 +183,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=blue]$LOCALIZE[209]...[/COLOR][/B]</label>
+						<label>[B][COLOR=mainblue]$LOCALIZE[209]...[/COLOR][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -393,7 +393,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=blue]$LOCALIZE[13350][/COLOR] [/B]</label>
+						<label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -476,7 +476,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=blue]$LOCALIZE[209]...[/COLOR][/B]</label>
+						<label>[B][COLOR=mainblue]$LOCALIZE[209]...[/COLOR][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -686,7 +686,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[13350][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -764,7 +764,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[209][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -966,7 +966,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[13350][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1045,7 +1045,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[209][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1247,7 +1247,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=blue]$LOCALIZE[13350][/COLOR] [/B]</label>
+						<label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -1330,7 +1330,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=blue]$LOCALIZE[209]...[/COLOR][/B]</label>
+						<label>[B][COLOR=mainblue]$LOCALIZE[209]...[/COLOR][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -1523,7 +1523,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[13350][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1601,7 +1601,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>[B]$LOCALIZE[209][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>

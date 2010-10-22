@@ -57,7 +57,7 @@
 					<aligny>center</aligny>
 					<font>Font_Bartowski_Episode_ContextMenu</font>
 					<textcolor>Text-Filemode</textcolor>
-					<selectedcolor>blue</selectedcolor>
+					<selectedcolor>mainblue</selectedcolor>
 					<label>$INFO[ListItem.label]</label>
 					<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation>
 					<visible>![Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
@@ -70,7 +70,7 @@
 					<aligny>center</aligny>
 					<font>Font_Bartowski_Episode_ContextMenu</font>
 					<textcolor>Text-Filemode</textcolor>
-					<selectedcolor>blue</selectedcolor>
+					<selectedcolor>mainblue</selectedcolor>
 					<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
 					<visible>Window.IsActive(Programs) | Window.IsActive(musicplaylist)</visible>
 				</control>
@@ -190,7 +190,7 @@
 					<aligny>center</aligny>
 					<font>Font_Bartowski_Episode_ContextMenu</font>
 					<textcolor>ffffffff</textcolor>
-					<selectedcolor>blue</selectedcolor>
+					<selectedcolor>mainblue</selectedcolor>
 					<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
 					<visible>Window.IsActive(Programs) | Window.IsActive(musicplaylist)</visible>
 				</control>
@@ -342,7 +342,7 @@
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+			<!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext</visible>
@@ -358,7 +358,7 @@
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+			<!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious</visible>
@@ -403,7 +403,7 @@
 			<height>340</height>
 			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.bmp">extras/musicgenres/$INFO[ListItem(-1).Label].bmp</texture>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="240,200" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext + !Container.Content(songs)</visible>
@@ -415,7 +415,7 @@
 			<height>340</height>
 			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.bmp">extras/musicgenres/$INFO[ListItem(1).Label].bmp</texture>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="240,200" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious + !Container.Content(songs)</visible>
@@ -457,7 +457,7 @@
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext + !IsEmpty(ListItem.Title)</visible>
@@ -472,7 +472,7 @@
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious + !IsEmpty(ListItem.Title)</visible>
@@ -503,7 +503,7 @@
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext</visible>
@@ -518,7 +518,7 @@
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious</visible>
@@ -560,7 +560,7 @@
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext</visible>
@@ -575,7 +575,7 @@
 			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious</visible>
@@ -620,7 +620,7 @@
 			<height>340</height>
 			<texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(-1).Icon]</texture>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="240,200" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext + !Container.Content(songs)</visible>
@@ -632,7 +632,7 @@
 			<height>340</height>
 			<texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(1).Icon]</texture>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" />
+			<!-- <effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="240,200" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious + !Container.Content(songs)</visible>
@@ -677,7 +677,7 @@
 			<height>224</height>
 			<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(-1).Icon]</texture>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" />
+			<!-- <effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="1040,600" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnNext</visible>
@@ -689,7 +689,7 @@
 			<height>224</height>
 			<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(1).Icon]</texture>
 			<animation type="Hidden">
-			<effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" />
+		<!--	<effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="1040,600" start="100" end="0" />
 			</animation>
 			<visible>Container(50).OnPrevious</visible>
@@ -726,7 +726,7 @@
 			<height>50</height>
 			<align>center</align>
 			<font>Font_Bartowski_TV_Title</font>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<label>[B]$INFO[ListItem.TVShowtitle][/B]</label>
 			<include>Animation_Viewtype_Files_RightArea</include>
 			<visible>Control.IsVisible(50) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7019)) + IsEmpty(Control.GetLabel(9019))</visible>
