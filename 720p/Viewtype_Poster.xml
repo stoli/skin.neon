@@ -25,7 +25,7 @@
 		</control>
 		<control type="label"><!--Big Title-->
 			<visible>Control.IsVisible(55) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(movies)]</visible>
-			<animation effect="slide" start="0,0" end="0,-70" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(55) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(movies)]">Conditional</animation>
+			<animation effect="slide" start="0,0" end="0,-60" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(55) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(movies)]">Conditional</animation>
 			<posx>0</posx>
 			<posy>235</posy>
 			<width>1280</width>
@@ -40,7 +40,7 @@
 		</control>
 		<control type="label"><!--Big Title-->
 			<visible>Control.IsVisible(55) + Container.Content(movies) + IsEmpty(ListItem.Title) + !Window.IsVisible(VideoFiles)</visible>
-			<animation effect="slide" start="0,0" end="0,-70" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(55) + Container.Content(movies) + IsEmpty(ListItem.Title)">Conditional</animation>
+			<animation effect="slide" start="0,0" end="0,-60" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(55) + Container.Content(movies) + IsEmpty(ListItem.Title)">Conditional</animation>
 			<posx>0</posx>
 			<posy>235</posy>
 			<width>1280</width>
@@ -195,9 +195,14 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
 							<effect type="fade" start="0" end="100" time="600" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
+							<effect type="fade" start="100" end="0" time="600" delay="2050" />
+							
 						</animation>
 					</control>
-					<control type="image">
+					<!-- <control type="image">
 						<posx>48</posx>
 						<posy>378</posy>
 						<width>48</width>
@@ -206,9 +211,11 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="150" time="600" delay="2100"tween="back" easing="out" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="0" end="800" time="800" />
 						</animation>
-					</control>
+					</control> -->
 					<control type="image">
 						<posx>-148</posx>
 						<posy>90</posy>
@@ -219,6 +226,9 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
 					</control>
 					<control type="image">
@@ -231,7 +241,9 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="fade" start="0" end="100" time="600" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
 					</control>
 					<control type="image">
@@ -244,6 +256,9 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
 						<visible>!Container.Content(Genres)</visible>
 					</control>
@@ -283,6 +298,9 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="0" end="30" time="600" />
 						</animation>
 						<visible>!Container.Content(Genres)</visible>
@@ -297,7 +315,11 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="0" end="70" time="600" />
+							
 						</animation>
 						<visible>!Container.Content(Genres)</visible>
 					</control>
@@ -316,7 +338,7 @@
 						<visible>Container.Content(Genres)</visible>
 					</control>
 					<control type="image">
-						<posx>-10</posx>
+						<posx>-9</posx>
 						<posy>342</posy>
 						<width>86</width>
 						<height>65</height>
@@ -327,7 +349,7 @@
 						<visible>Skin.HasSetting(movieoverlays) + Container.Content(movies) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
 					<control type="image">
-						<posx>-10</posx>
+						<posx>-9</posx>
 						<posy>342</posy>
 						<width>86</width>
 						<height>65</height>
@@ -390,7 +412,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Movies_Title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[ListItem.Label][/B]</label>
 				<visible>Container.Content(movies) + !Skin.HasSetting(clean_poster)</visible>
 			</control>
@@ -423,7 +445,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Landscape_TV_Title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[ListItem.TVShowTitle][/B]</label>
 				<visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7015)) + IsEmpty(Control.GetLabel(9015))</visible>
 			</control>
@@ -483,7 +505,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=blue]$LOCALIZE[20339][/COLOR][/B] - $INFO[ListItem.Director]</label>
+				<label>[B][COLOR=mainblue]$LOCALIZE[20339][/COLOR][/B] - $INFO[ListItem.Director]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -492,7 +514,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=blue]$LOCALIZE[515][/COLOR][/B] - $INFO[ListItem.Writer]</label>
+				<label>[B][COLOR=mainblue]$LOCALIZE[515][/COLOR][/B] - $INFO[ListItem.Writer]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -501,7 +523,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=blue]$LOCALIZE[515][/COLOR][/B] - $INFO[ListItem.Genre]</label>
+				<label>[B][COLOR=mainblue]$LOCALIZE[515][/COLOR][/B] - $INFO[ListItem.Genre]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -510,7 +532,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=blue]$LOCALIZE[572][/COLOR][/B] - $INFO[ListItem.Studio]</label>
+				<label>[B][COLOR=mainblue]$LOCALIZE[572][/COLOR][/B] - $INFO[ListItem.Studio]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -519,7 +541,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=blue]$LOCALIZE[563][/COLOR][/B] - $INFO[ListItem.Rating]</label>
+				<label>[B][COLOR=mainblue]$LOCALIZE[563][/COLOR][/B] - $INFO[ListItem.Rating]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 	</control>
