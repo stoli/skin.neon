@@ -280,7 +280,7 @@
 								<width>740</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
@@ -436,7 +436,7 @@
 								<width>840</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
@@ -618,7 +618,7 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
@@ -783,7 +783,7 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">

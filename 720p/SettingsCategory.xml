@@ -73,7 +73,7 @@
 			</control>
 			<control type="grouplist" id="3">
 				<description>button area</description>
-				<posx>10</posx>
+				<posx>25</posx>
 				<posy>102</posy>
 				<width>260</width>
 				<height>481</height>
@@ -144,15 +144,15 @@
 
 		<control type="button" id="10">
 			<description>Default Category Button</description>
-			<height>60</height>
-			<width>260</width>
+			<height>45</height>
+			<width>230</width>
 			<textoffsetx>20</textoffsetx>
-			<align>right</align>
+			<align>center</align>
 			<aligny>center</aligny>
 			<font>font24caps_title</font>
 			<textcolor>grey3</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">MenuItemFO.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 			<pulseonselect>false</pulseonselect>
 		</control>
@@ -163,6 +163,7 @@
 			<height>40</height>
 			<font>font16caps</font>
 			<textcolor>grey2</textcolor>
+			<textoffsetx>15</textoffsetx>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
@@ -174,6 +175,7 @@
 			<height>40</height>
 			<font>font16caps</font>
 			<textcolor>grey2</textcolor>
+			<textoffsetx>15</textoffsetx>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
@@ -185,6 +187,7 @@
 			<height>40</height>
 			<font>font16caps</font>
 			<textcolor>grey2</textcolor>
+			<textoffsetx>15</textoffsetx>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>

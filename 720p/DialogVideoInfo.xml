@@ -60,7 +60,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>mainblue</textcolor>
-					<visible>Container.Content(movies) | Container.Content(videos) | Container.Content(music)]</visible>
+					<visible>Container.Content(movies) | Container.Content(videos) | Container.Content(music)] + !Control.HasFocus(12) </visible>
 				</control>
 				<!-- <control type="label">
 					<description>header label</description>
@@ -83,7 +83,7 @@
 					<align>center</align>
 					<textcolor>white</textcolor>
 					<label>"$INFO[ListItem.TagLine]"</label>
-					<visible>!IsEmpty(ListItem.TagLine)</visible>
+					<visible>!IsEmpty(ListItem.TagLine) + !Control.HasFocus(12)</visible>
 				</control>
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
@@ -104,11 +104,11 @@
 					<posy>90</posy>
 					<posx>387</posx>
 					<include>VisibleFadeEffect</include>
-					<control type="image">
+					<control type="image" id="327">
 						<description>Current Fanart image</description>
-						<posx>0</posx>
+						<posx>-50</posx>
 						<posy>0</posy>
-						<width>1020</width>
+						<width>620</width>
 						<height>380</height>
 						<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
 						<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
@@ -300,7 +300,7 @@
 								<width>740</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
@@ -458,7 +458,7 @@
 								<width>840</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
@@ -572,19 +572,7 @@
 						<fadetime>100</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
-					<control type="label">
-						<description>header label</description>
-						<posx>-150</posx>
-						<posy>20</posy>
-						<width>700</width>
-						<height>30</height>
-						<font>Font_Bartowski_MainMenu_Context</font>
-						<label>[B]$INFO[Listitem.Path][/B]</label>
-						<align>center</align>
-						<aligny>center</aligny>
-						<textcolor>mainblue</textcolor>
-						<visible>IsEmpty(Control.GetLabel(7019))</visible>
-					</control> 
+					
 
 					<control type="image">
 						<posx>0</posx>
@@ -667,7 +655,7 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
@@ -832,7 +820,7 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">

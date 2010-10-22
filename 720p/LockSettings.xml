@@ -79,7 +79,7 @@
 			<font>Font_KeyboardEdit</font>
 			<textcolor>black</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>MenuItemFO.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturefocus border="5">button-focus.png</texturefocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
