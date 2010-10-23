@@ -191,7 +191,7 @@
 			<align>justify</align>
 			<info>Container(51).ListItem.Plot</info>
 			<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-			<font>Font_Bartowski_Episodes</font>
+			<font>Font_RSS_Unicode</font>
 			<textcolor>ffffffff</textcolor>
 			<include>Animation_HiddenByInfo</include>
 			<include>Animation_Viewtype_Episode_LeftSide</include>
@@ -233,7 +233,7 @@
 				<align>center</align>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[ListItem.Title][/B]</label>
+				<label>[UPPERCASE][B]$INFO[ListItem.Title][/B][/UPPERCASE]</label>
 			</control>
 			<control type="label"><!-- Episode Title -->
 				<posx>0</posx>
@@ -243,7 +243,7 @@
 				<align>center</align>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[ListItem.Label][/B]</label>
+				<label>[UPPERCASE][B]$INFO[ListItem.Title][/B][/UPPERCASE]</label>
 				<visible>Window.IsActive(videoplaylist)</visible>
 			</control>
 			<control type="label"><!-- Episode season episode -->

@@ -850,10 +850,10 @@
 	<include name="ButtonInfoDialogsCommonValues"><!--movie info bottom buttons-->
 		<height>40</height>
 		<width>170</width>
-		<textoffsetx>20</textoffsetx>
+		<textoffsetx>10</textoffsetx>
 		<align>center</align>
 		<aligny>center</aligny>
-		<font>Font_Bartowski_Press_S</font>
+		<font>Font_Bartowski_Buttons</font>
 		<textcolor>mainblue</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<texturefocus border="5">button-focus.png</texturefocus>

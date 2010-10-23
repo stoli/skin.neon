@@ -15,6 +15,15 @@
 			<texture>DialogBack.png</texture>
 			<visible>!Player.HasVideo</visible>
 		</control>
+		<control type="image">
+			<posx>340</posx>
+			<posy>235</posy>
+			<width>600</width>
+			<height>230</height>
+			<!-- <include>Dimensions_Fullscreen</include> -->
+			<texture>GlassOverlay</texture>
+			<visible>!Player.HasVideo</visible>
+		</control>
 		<control type="group">
 		<posx>340</posx>
 		<posy>235</posy>
@@ -112,7 +121,7 @@
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
 				<texturenofocus border="5">MenuItemNF.png</texturenofocus>
-				<texturefocus border="5">button-focus.png</texturefocus>
+				<texturefocus border="5">MenuItemFO.png</texturefocus>
 				<onleft>10</onleft>
 				<onright>10</onright>
 				<onup>10</onup>

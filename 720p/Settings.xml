@@ -34,8 +34,9 @@
 			<control type="list" id="9000">
 				<posx>10</posx>
 				<posy>102</posy>
-				<width>260</width>
-				<height>541</height>				<onleft>9000</onleft>
+				<width>365</width>
+				<height>541</height>				
+				<onleft>9000</onleft>
 				<onright>9001</onright>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
@@ -45,14 +46,14 @@
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>260</width>
+						<width>265</width>
 						<height>45</height>
 						<texture border="5">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<posx>130</posx>
 						<posy>0</posy>
-						<width>380</width>
+						<width>385</width>
 						<height>45</height>
 						<font>font24caps_title</font>
 						<textcolor>grey3</textcolor>
@@ -72,7 +73,7 @@
 					<control type="label">
 						<posx>130</posx>
 						<posy>0</posy>
-						<width>380</width>
+						<width>385</width>
 						<height>45</height>
 						<font>font24caps_title</font>
 						<textcolor>white</textcolor>
