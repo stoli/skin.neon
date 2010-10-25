@@ -28,7 +28,7 @@
 		</control>
 		<include>CommonMediaPlayingBackground</include>
 		<control type="group">
-			<posx>90</posx>
+			<posx>80</posx>
 			<posy>50</posy>
 			<animation type="WindowOpen" reversible="false">
 			<!--	<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
@@ -146,7 +146,7 @@
 			<description>Default Category Button</description>
 			<height>45</height>
 			<width>230</width>
-			<textoffsetx>20</textoffsetx>
+			
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font24caps_title</font>

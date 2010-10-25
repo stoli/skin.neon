@@ -3,7 +3,7 @@
 <window id="100">
 	<defaultcontrol always="true">10</defaultcontrol>
 
-	<include>Animation_Bartowski_Context_Zoom</include>
+	<include>Animation_SettingsFade</include>
 
 
 	<coordinates>
@@ -15,10 +15,10 @@
 
 	<controls>
 
-		<control type="image">
+		<!-- <control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>common/7000_focus.png</texture>
-		</control>
+		</control> -->
 		
 		<control type="image" id="997">
 			<description>background top image</description>

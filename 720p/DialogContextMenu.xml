@@ -26,15 +26,15 @@
 			<label>Menu</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>ff000000</textcolor>
+			<textcolor>white</textcolor>
 		</control>
 		
 		<control type="image">
 			<posx>34</posx>
 			<posy>-6</posy>
-			<width>297</width>
+			<width>290</width>
 			<height>4</height>
-			<texture>confluence/separator.png</texture>
+			<texture>confluence/separator2.png</texture>
 		</control>
 		<control type="image" id="999">
 			<description>background image</description>
@@ -52,13 +52,12 @@
 		</control>
 		<control type="button" id="1000">
 			<description>button template</description>
-			<posx>32</posx>
+			<posx>35</posx>
 			<posy>-</posy>
-			<width>300</width>
+			<width>295</width>
 			<height>38</height>
 			<font>Font_Bartowski_Episode_ContextMenu</font>
-			<textcolor>ff000000</textcolor>
-			<focusedcolor>ffffffff</focusedcolor>
+			
 			<align>center</align>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>

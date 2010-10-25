@@ -35,7 +35,7 @@
 
 				<posx>10</posx>
 				<posy>102</posy>
-				<width>261</width>
+				<width>281</width>
 				<height>481</height>
 				<itemgap>-1</itemgap>
 				<onleft>9010</onleft>
@@ -59,7 +59,7 @@
 						<!-- <height>25</height> -->
 						<font>font24caps_title</font>
 						<textcolor>grey3</textcolor>
-						<textoffsetx>20</textoffsetx>
+						<textoffsetx>10</textoffsetx>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -77,11 +77,11 @@
 						<label>$INFO[ListItem.Label2]</label>
 					</control>  -->
 				</itemlayout>
-				<focusedlayout height="60" width="241">
+				<focusedlayout height="60" width="261">
 					<control type="image">
-						<posx>21</posx>
+						<posx>11</posx>
 						<posy>4</posy>
-						<width>230</width>
+						<width>260</width>
 						<height>45</height>
 						<!--<colordiffuse>mainblue</colordiffuse>-->
 						<texture border="5">button-focus.png</texture>
@@ -95,7 +95,7 @@
 						<!-- <textoffsetx>10</textoffsetx> -->
 						<font>font24caps_title</font>
 						<textcolor>white</textcolor>
-						<textoffsetx>20</textoffsetx>
+						<textoffsetx>10</textoffsetx>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -2593,10 +2593,11 @@
 							<aligny>center</aligny>
 						</control>
 						<control type="button" id="514">
-							<width>280</width>
+							<posx>15</posx>
+							<width>740</width>
 							<height>40</height>
-							<font>Font_KeyboardKeys</font>
-							<!-- <textoffsetx>10</textoffsetx> -->
+							<font>font16caps</font>
+							<textoffsetx>20</textoffsetx>
 							<label>$LOCALIZE[31264]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
@@ -2607,14 +2608,15 @@
 						</control>
 					</control>
 						<control type="textbox" id="515">
-							<posx>400</posx>
-							<posy>550</posy>
-							<width>600</width>
-							<height>290</height>
+							<posx>340</posx>
+							<posy>530</posy>
+							<width>690</width>
+							<height>240</height>
 							<align>justify</align>
 							<label>$LOCALIZE[31265]</label>
-							<font>Font_Bartowski_Movies_Plot</font>
-							<textcolor>ffffffff</textcolor>
+							<font>font13</font>
+							<textcolor>grey2</textcolor>
+							
 							<visible>Container(9000).Hasfocus(5)</visible>
 						</control>
 				</control>

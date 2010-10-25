@@ -5,7 +5,7 @@
 	<visible>Window.IsActive(2005) + !Window.IsActive(2901) + !Window.IsActive(142) + !Control.IsVisible(10) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 	<controls>
 		<control type="group">
-			<posy>560</posy>
+			<posy>567</posy>
 			<animation type="WindowOpen">
 				<effect type="fade" start="0" end="100" time="600" />
 			</animation>
@@ -72,7 +72,7 @@
 		<animation effect="slide" start="0,0" end="-140,8" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			<control type="label">
 				<posx>100</posx>
-				<posy>92</posy>
+				<posy>95</posy>
 				<width>1080</width>
 				<height>25</height>
 				<label>[B]"$INFO[VideoPlayer.Title]"[/B]</label>
@@ -130,22 +130,22 @@
 			</control>
 		</control>
 			<control type="label">
-				<posx>120</posx>
+				<posx>140</posx>
 				<posy>128</posy>
 				<width>300</width>
 				<height>25</height>
 				<align>right</align> 
-				<font>Font_ListDetail</font>
+				<font>Font_Bartowski_Extras_Pause</font>
 				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
 				<animation effect="slide" start="0,0" end="-10,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
 			<control type="label">
-				<posx>1190</posx>
+				<posx>1160</posx>
 				<posy>128</posy>
 				<width>300</width>
 				<height>25</height>
-				<font>Font_ListDetail</font>
+				<font>Font_Bartowski_Extras_Pause</font>
 				<textcolor>ffffffff</textcolor>
 				<label>[B]$INFO[VideoPlayer.Duration][/B]</label>
 				<animation effect="slide" start="0,0" end="-304,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
@@ -220,10 +220,10 @@
 			<posy>30</posy>
 			<width>750</width> 
 			<height>25</height> 
-			<label>$INFO[VideoPlayer.TVShowTitle]</label>
+			<label>[UPPERCASE]$INFO[VideoPlayer.TVShowTitle][/UPPERCASE]</label>
 			<align>left</align> 
 			<aligny>center</aligny> 
-			<font>Font_Bartowski_Title_Pause</font>
+			<font>Font_Bartowski_Title_TVShow</font>
 			<textcolor>mainblue</textcolor>
 			<visible>VideoPlayer.Content(episodes)</visible>
 		</control>
@@ -232,10 +232,10 @@
 			<posy>30</posy>
 			<width>750</width> 
 			<height>25</height> 
-			<label>$INFO[VideoPlayer.Title]</label>
+			<label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
 			<align>left</align> 
 			<aligny>center</aligny> 
-			<font>Font_Bartowski_Title_Pause</font>
+			<font>Font_Bartowski_Title_TVShow</font>
 			<textcolor>mainblue</textcolor>
 			<visible>VideoPlayer.Content(movies)</visible>
 		</control>
@@ -271,11 +271,11 @@
 	<posy>0</posy>
 		<control type="label" id="0">
 			<posx>0</posx>
-			<posy>40</posy>
+			<posy>50</posy>
 			<width>1920</width>
 			<align>center</align>
 			<aligny>top</aligny>
-			<label>$LOCALIZE[112]</label>
+			<label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
 			<visible>player.paused</visible>

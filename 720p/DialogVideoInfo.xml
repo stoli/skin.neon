@@ -55,7 +55,7 @@
 					<posy>80</posy>
 					<width>700</width>
 					<height>30</height>
-					<font>Font_Bartowski_MainMenu_Context</font>
+					<font>Font_Bartowski_Title_Movie</font>
 					<label>[B]$INFO[Listitem.Title][/B]</label>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -154,8 +154,8 @@
 						<posx>-120</posx>
 						<posy>410</posy>
 						<width>650</width>
-						<height>140</height>
-						<font>Font_Bartowski_Showcase_plot</font>
+						<height>150</height>
+						<font>Font_RSS_Unicode</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<pagecontrol>61</pagecontrol>
@@ -398,12 +398,12 @@
 						</content>
 					</control>
 					<control type="image">
-						<posx>290</posx>
-						<posy>370</posy>
-						<width>740</width>
+						<posx>-150</posx>
+						<posy>385</posy>
+						<width>720</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>separator.png</texture>
+						<texture>separator2.png</texture>
 					</control>
 				</control>
 				<control type="group"><!--TV SHOWS-->
@@ -555,7 +555,7 @@
 						<posy>10</posy>
 						<width>700</width>
 						<height>30</height>
-						<font>Font_Bartowski_MainMenu_Context</font>
+						<font>Font_Bartowski_Title_TVShow</font>
 						<label>[B]$INFO[Listitem.Title][/B]</label>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -575,12 +575,12 @@
 					
 
 					<control type="image">
-						<posx>0</posx>
+						<posx>-100</posx>
 						<posy>370</posy>
-						<width>1030</width>
+						<width>1040</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>confluence/separator.png</texture>
+						<texture>separator2.png</texture>
 					</control>
 				</control>
 				<control type="group"><!--Episodes-->
@@ -758,7 +758,7 @@
 						<width>740</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>confluence/separator.png</texture>
+						<texture>confluence/separator2.png</texture>
 					</control>
 				</control>
 				<control type="group">
@@ -923,8 +923,8 @@
 					<posx>160</posx>
 					<posy>480</posy>
 					<width>960</width>
-					<height>100</height>
-					<font>Font_Bartowski_Showcase_plot</font>
+					<height>110</height>
+					<font>Font_RSS_Unicode</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
 					<pagecontrol>61</pagecontrol>
@@ -1022,34 +1022,34 @@
 					<control type="button" id="7050"> 
 						<description>Play</description>
 						<include>ButtonInfoDialogsCommonValues</include>
-						<label>208</label>
+						<label>$LOCALIZE[208]</label>
 						<onclick>Dialog.Close(movieinformation)</onclick> 
 						<onclick>PlayMedia($INFO[ListItem.FileNameAndPath])</onclick> 
 					</control>
 					<control type="button" id="5">
 						<description>Cast/Review</description>
 						<include>ButtonInfoDialogsCommonValues</include>
-						<label>206</label>
+						<label>$LOCALIZE[206]</label>
 					</control>
 					<control type="button" id="6">
 						<description>Refresh</description>
 						<include>ButtonInfoDialogsCommonValues</include>
-						<label>184</label>
+						<label>$LOCALIZE[184]</label>
 					</control>
 					<control type="button" id="10">
 						<description>Get Thumb</description>
 						<include>ButtonInfoDialogsCommonValues</include>
-						<label>13405</label>
+						<label>$LOCALIZE[13405]</label>
 					</control>
 					<control type="button" id="12">
 						<description>Get Fanart</description>
 						<include>ButtonInfoDialogsCommonValues</include>
-						<label>20413</label>
+						<label>$LOCALIZE[20413]</label>
 					</control>
 					<control type="button" id="11">
 						<description>Play Trailer</description>
 						<include>ButtonInfoDialogsCommonValues</include>
-						<label>20410</label>
+						<label>$LOCALIZE[20410]</label>
 						<visible>!IsEmpty(ListItem.Trailer)</visible>
 					</control>
 					<!--<control type="button" id="13">
