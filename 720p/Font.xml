@@ -113,7 +113,7 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_Movies_Duration</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>26</size>
 			<linespacing>1</linespacing>
 		</font>
@@ -342,7 +342,7 @@
 
 		<font>
 			<name>Font_RSS_Big</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>27</size>
 		</font>
 
