@@ -3,10 +3,10 @@
 	<include name="HorizontalHome">
 
 		<control type="fixedlist" id="301">
-			<posx>-100</posx>
-			<posy>190</posy>
+			<posx>-185</posx>
+			<posy>192</posy>
 			<height>466</height>
-			<width>1541</width>
+			<width>2800</width>
 			<onup>9001</onup>
 			<ondown>9001</ondown>
 			<onleft>301</onleft>
@@ -20,11 +20,11 @@
 			<include condition="Skin.HasSetting(horizontal_bottom_align)">Animation_Bartowski_Context_Zoom_Bottom</include>
 			<visible>Skin.HasSetting(horizontal_home)</visible>	
 			<animation effect="slide" end="0,330" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
-			<itemlayout width="301" height="61">
+			<itemlayout width="335" height="61">
 				<control type="label">
-					<width>500</width>
+					<width>450</width>
 					<height>61</height>
-					<posx>0</posx>
+					<posx>30</posx>
 					<posy>68</posy>
 					<align>center</align>
 					<font>Font_Bartowski_MainMenu</font>
@@ -251,8 +251,8 @@
 		</control>
 		
 		<control type="group" id="9001">
-				<posx>30</posx>
-				<posy>274</posy>
+				<posx>15</posx>
+				<posy>265</posy>
 				<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus">conditional</animation>
 				<animation effect="fade" start="0" end="100" delay="301" time="200" condition="ControlGroup(9001).HasFocus">conditional</animation>
 				<animation effect="fade" start="100" end="0" time="0" condition="ControlGroup(9001).HasFocus">WindowClose</animation>
@@ -279,10 +279,10 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERFCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>ffb8b7b7</textcolor>
+									<textcolor>grey3</textcolor>
 								</control>
 						</control>
 					</itemlayout>
@@ -353,7 +353,7 @@
 									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>ffb8b7b7</textcolor>
+									<textcolor>grey3</textcolor>
 								</control>
 						</control>
 					</itemlayout>
@@ -444,7 +444,7 @@
 									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>ffb8b7b7</textcolor>
+									<textcolor>grey3</textcolor>
 								</control>
 						</control>
 					</itemlayout>
@@ -520,7 +520,7 @@
 									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>ffb8b7b7</textcolor>
+									<textcolor>grey3</textcolor>
 								</control>
 						</control>
 					</itemlayout>
@@ -584,7 +584,7 @@
 							<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 							<align>center</align>
 							<font>Font_Bartowski_Main_SubMenu</font>
-							<textcolor>ffb8b7b7</textcolor>
+							<textcolor>grey3</textcolor>
 						</control>
 					</itemlayout>
 					<focusedlayout width="350" height="515">
@@ -668,7 +668,7 @@
 									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>ffb8b7b7</textcolor>
+									<textcolor>grey3</textcolor>
 								</control>
 						</control>
 					</itemlayout>
@@ -760,7 +760,7 @@
 									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>ffb8b7b7</textcolor>
+									<textcolor>grey3</textcolor>
 								</control>
 						</control>
 					</itemlayout>
@@ -818,7 +818,7 @@
 									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
-									<textcolor>ffb8b7b7</textcolor>
+									<textcolor>grey3</textcolor>
 								</control>
 						</control>
 					</itemlayout>
@@ -887,7 +887,7 @@
 							<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 							<align>center</align>
 							<font>Font_Bartowski_Main_SubMenu</font>
-							<textcolor>ffb8b7b7</textcolor>
+							<textcolor>grey3</textcolor>
 						</control>
 					</itemlayout>
 					<focusedlayout width="400" height="515">

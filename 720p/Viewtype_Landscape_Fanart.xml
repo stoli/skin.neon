@@ -8,12 +8,14 @@
 		<control type="image"><!-- 1st Background -->
 			<visible>Control.IsVisible(633)</visible>
 			<posx>0</posx>
-			<posy>0</posy>
+			<posy>371</posy>
 			<width>1280</width>
-			<height>720</height>
-			<texture>tv-landscape/landscape_fanart_back.png</texture>
+			<height>355</height>
+			<!-- <texture>tv-landscape/landscape_fanart_back.png</texture> -->
+			<texture>mainmenu/home_bottom_align.png</texture>
 			<aspectratio>stretch</aspectratio>
-			<include>Animation_BackdropFade</include>
+			
+			<include>Animation_Fade75</include>
 		</control>
 		
 		
@@ -73,13 +75,13 @@
 				</control>
 				<control type="label">
 					<posx>115</posx>
-					<posy>140</posy>
+					<posy>139</posy>
 					<width>230</width>
 					<height>89</height>
 					<align>center</align>
 					<font>Font_Alaya_Movie-trailer</font>
 					<textcolor>ListTrackNF</textcolor>
-					<label>[B]*$LOCALIZE[16102]*[/B]</label>
+					<label>[B]-$LOCALIZE[16102]-[/B]</label>
 					<visible>Skin.HasSetting(tvoverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 				</control>
 				<control type="image">
@@ -139,13 +141,13 @@
 				</control>
 				<control type="label">
 					<posx>130</posx>
-					<posy>140</posy>
+					<posy>139</posy>
 					<width>230</width>
 					<height>89</height>
 					<align>center</align>
 					<font>Font_Alaya_Movie-trailer</font>
-					<textcolor>mainblue</textcolor>
-					<label>[B]*$LOCALIZE[16102]*[/B]</label>
+					<textcolor>ListTrackNF</textcolor>
+					<label>[B]-$LOCALIZE[16102]-[/B]</label>
 					<visible>Skin.HasSetting(tvoverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 				</control>
 				<control type="image">

@@ -150,7 +150,7 @@
 			</control>
 			<control type="label">
 				<posx>100</posx>
-				<posy>98</posy>
+				<posy>104</posy>
 				<width>1080</width>
 				<height>25</height>
 				<label>$LOCALIZE[31074] [COLOR=mainblue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=mainblue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>

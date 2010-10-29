@@ -21,9 +21,9 @@
 				</animation>
 				<description> lower backgound </description>
 				<posx>0</posx>
-				<posy>50</posy>
+				<posy>45</posy>
 				<width>1280</width>
-				<height>110</height>
+				<height>115</height>
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackLower.png</texture>
 				<aspectratio>stretch</aspectratio>
@@ -71,8 +71,8 @@
 		<visible>VideoPlayer.Content(episodes)</visible>
 		<animation effect="slide" start="0,0" end="-140,8" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			<control type="label">
-				<posx>100</posx>
-				<posy>95</posy>
+				<posx>150</posx>
+				<posy>83</posy>
 				<width>1080</width>
 				<height>25</height>
 				<label>[B]"$INFO[VideoPlayer.Title]"[/B]</label>
@@ -99,8 +99,8 @@
 				<align>center</align>
 			</control>
 			<control type="label">
-				<posx>100</posx>
-				<posy>92</posy>
+				<posx>150</posx>
+				<posy>83</posy>
 				<width>1080</width>
 				<height>25</height>
 				<label>$LOCALIZE[31074]: [COLOR=mainblue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=mainblue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
@@ -121,7 +121,7 @@
 				<posy>92</posy>
 				<width>1080</width>
 				<height>25</height>
-				<label>$LOCALIZE[31074] [COLOR=blue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=blue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
+				<label>$LOCALIZE[31074] [COLOR=mainblue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=blue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
 				<textcolor>ffffffff</textcolor>
 				<font>Font_Bartowski_Extras_Pause</font>
 				<align>center</align>

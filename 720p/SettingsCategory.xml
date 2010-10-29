@@ -146,7 +146,6 @@
 			<description>Default Category Button</description>
 			<height>45</height>
 			<width>230</width>
-			
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font24caps_title</font>
