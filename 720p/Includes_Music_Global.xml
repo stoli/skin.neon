@@ -6,6 +6,7 @@
 		<include>Animation_CommonFade</include>
 		<visible>Window.IsActive(Home) + Player.HasAudio + !Skin.HasSetting(zune_music)</visible>		
 		<animation effect="slide" start="0,0" end="0,-100" time="0" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>
+		<animation effect="fade" start="0" end="100" time="0" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>	
 			<control type="image"><!-- 1st overlay -->
 				<posx>0</posx>
 				<posy>0</posy>
@@ -18,10 +19,10 @@
 				<posx>-20</posx>
 				<posy>700</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<!--	<effect type="fade" start="0" end="100" time="500"/> -->
--						<effect type="slide" start="-400,0" end="0,0" time="500" delay="0" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="21000" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="28000" />
+					<!--	<effect type="fade" start="0" end="100" time="1000"/> -->
+-						<effect type="fade" start="0" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" /> -->
 						
 					</animation>
 						<control type="image" id="7026">
@@ -56,8 +57,8 @@
 				<posx>-20</posx>
 				<posy>700</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="-400,0" end="0,0" time="500" delay="21500" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image">
 							<description>cover image</description>
@@ -81,21 +82,21 @@
 			<posy>590</posy>
 			<animation effect="slide" start="0,0" end="66,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7026))">Conditional</animation>
 <!--			<animation type="Conditional" reversible="false" condition="true" loop="true">
-				<effect type="slide" start="0,400" end="0,0" time="500" delay="0" />
-				<effect type="slide" start="0,0" end="0,400" time="500" delay="21000" />
-				<effect type="slide" start="0,0" end="0,400" time="500" delay="28000" />
+				<effect type="slide" start="0,400" end="0,0" time="1000" delay="0" />
+				<effect type="slide" start="0,0" end="0,400" time="1000" delay="21000" />
+				<effect type="slide" start="0,0" end="0,400" time="1000" delay="28000" />
 			</animation> 
 -->
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-				<effect type="slide" start="-400,0" end="0,0" time="500" delay="0" />
-				<effect type="slide" start="0,0" end="-900,0" time="500" delay="21000" />
-				<effect type="slide" start="0,0" end="-*00,0" time="500" delay="28000" />
+				<effect type="fade" start="0" end="100" time="1000" delay="0" />
+				<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+				<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>234</posx>
 						<posy>-26</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -108,7 +109,7 @@
 						<description>Track</description>
 						<posx>234</posx>
 						<posy>-10</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -171,14 +172,14 @@
 			<posy>570</posy>
 			<visible>true</visible>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="-600,00" end="0,0" time="500" delay="21500" />
-					<effect type="slide" start="0,0" end="-600,0" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>6</posy>
-						<width min="40" max="380">auto</width>
+						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -190,7 +191,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>22</posy>
-						<width min="40" max="380">auto</width>
+						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -269,9 +270,9 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="0" />
-					<effect type="fade" start="100" end="0" time="500" delay="7000" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="7000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="label">
@@ -286,8 +287,8 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="7500" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="progress" id="23">
@@ -319,9 +320,9 @@
 				<posx>-20</posx>
 				<posy>700</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="-400,0" end="0,0" time="500" delay="0" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="21000" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image" id="7026">
 							<description>dirty hack for showing cdart image</description>
@@ -355,8 +356,8 @@
 				<posx>-20</posx>
 				<posy>700</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="-400,0" end="0,0" time="500" delay="21500" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image">
 							<description>cover image</description>
@@ -380,35 +381,35 @@
 			<posy>600</posy>
 			<animation effect="slide" start="0,0" end="66,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7026))">Conditional</animation>
 			<animation type="Conditional" reversible="false" condition="true" loop="true">
-				<effect type="slide" start="0,400" end="0,0" time="500" delay="0" />
-				<effect type="slide" start="0,0" end="0,400" time="500" delay="21000" />
-				<effect type="slide" start="0,0" end="0,400" time="500" delay="28000" />
+				<effect type="fade" start="0" end="100" time="1000" delay="0" />
+				<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+				<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 			</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>234</posx>
 						<posy>-26</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
 						<label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
-						<visible>!Control.IsVisible(51)</visible>
+					
 					</control>
 					<control type="label">
 						<description>Track</description>
 						<posx>234</posx>
 						<posy>-10</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
 						<textcolor>ffffffff</textcolor>
 						<label>[B]$INFO[MusicPlayer.Title][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
-						<visible>!Control.IsVisible(51)</visible>
+						
 					</control>
 				
 		<!-- artist name control -->
@@ -424,7 +425,7 @@
 						<textcolor>ffffffff</textcolor>
 						<label>$INFO[MusicPlayer.Artist,[B]$LOCALIZE[557]: [/B]]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
-						<visible>!Control.IsVisible(51)</visible>
+						
 					</control>
 		<!--  album name control -->
 					<control type="label">
@@ -438,7 +439,7 @@
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
 						<label>$INFO[MusicPlayer.Album,[B]$LOCALIZE[558]: [/B]]</label>
-						<visible>!Control.IsVisible(51)</visible>
+						
 					</control>
 					<control type="label">
 						<description>album name</description>
@@ -451,7 +452,7 @@
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
 						<label>$INFO[MusicPlayer.year,[B]$LOCALIZE[345]: [/B]]</label>
-						<visible>!Control.IsVisible(51)</visible>
+						
 					</control>
 			</control>
 				
@@ -464,14 +465,14 @@
 			<posy>570</posy>
 			<visible>true</visible>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,400" end="0,0" time="500" delay="21500" />
-					<effect type="slide" start="0,0" end="0,400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>6</posy>
-						<width min="40" max="380">auto</width>
+						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -483,7 +484,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>22</posy>
-						<width min="40" max="380">auto</width>
+						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -560,9 +561,9 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="0" />
-					<effect type="fade" start="100" end="0" time="500" delay="7000" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="7000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="label">
@@ -577,8 +578,8 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="7500" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="progress" id="23">
@@ -613,9 +614,9 @@
 				<posx>1100</posx>
 				<posy>130</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="400,0" end="0,0" time="500" delay="0" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="21000" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image" id="7726">
 							<description>dirty hack for showing cdart image</description>
@@ -649,8 +650,8 @@
 				<posx>1100</posx>
 				<posy>130</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="400,0" end="0,0" time="500" delay="21500" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image">
 							<description>cover image</description>
@@ -674,15 +675,15 @@
 			<posy>34</posy>
 				<animation effect="slide" start="0,0" end="-60,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7726))">Conditional</animation>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,-400" end="0,0" time="500" delay="0" />
-					<effect type="slide" start="0,0" end="0,-400" time="500" delay="21000" />
-					<effect type="slide" start="0,0" end="0,-400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>-26</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -694,7 +695,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>-8</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -753,14 +754,14 @@
 			<posy>6</posy>
 			<visible>true</visible>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,-400" end="0,0" time="500" delay="21500" />
-					<effect type="slide" start="0,0" end="0,-400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>0</posy>
-						<width min="750" max="380">auto</width>
+						<width min="750" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -772,7 +773,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>16</posy>
-						<width min="750" max="380">auto</width>
+						<width min="750" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -842,9 +843,9 @@
 					<textcolor>grey2</textcolor>
 					<label>$INFO[MusicPlayer.Artist]</label>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="fade" start="0" end="100" time="500" delay="0" />
-						<effect type="fade" start="100" end="0" time="500" delay="7000" />
-						<effect type="fade" start="100" end="0" time="500" delay="14000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="7000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 					</animation>
 				</control>
 				<control type="label">
@@ -859,8 +860,8 @@
 					<textcolor>grey2</textcolor>
 					<label>$INFO[MusicPlayer.Album]</label>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="fade" start="0" end="100" time="500" delay="7500" />
-						<effect type="fade" start="100" end="0" time="500" delay="14000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="7500" />
+						<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 					</animation>
 				</control>
 				<control type="progress" id="23">
@@ -893,9 +894,9 @@
 				<posx>1100</posx>
 				<posy>130</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="400,0" end="0,0" time="500" delay="0" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="21000" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image" id="9826">
 							<description>dirty hack for showing cdart image</description>
@@ -929,8 +930,8 @@
 				<posx>1100</posx>
 				<posy>130</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="400,0" end="0,0" time="500" delay="21500" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+						<effect type="fade" start="100" end="100" time="1000" delay="28000" />
 					</animation>
 						<control type="image">
 							<description>cover image</description>
@@ -954,15 +955,15 @@
 			<posy>34</posy>
 				<animation effect="slide" start="0,0" end="-60,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(9826))">Conditional</animation>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,-400" end="0,0" time="500" delay="0" />
-					<effect type="slide" start="0,0" end="0,-400" time="500" delay="21000" />
-					<effect type="slide" start="0,0" end="0,-400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>-26</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -974,7 +975,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>-8</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -1034,14 +1035,14 @@
 			<visible>true</visible>
 				<animation effect="slide" start="0,0" end=",-30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(59)">Conditional</animation>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,-400" end="0,0" time="500" delay="21500" />
-					<effect type="slide" start="0,0" end="0,-400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>0</posy>
-						<width min="750" max="380">auto</width>
+						<width min="750" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -1053,7 +1054,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>16</posy>
-						<width min="750" max="380">auto</width>
+						<width min="750" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -1123,9 +1124,9 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="0" />
-					<effect type="fade" start="100" end="0" time="500" delay="7000" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="7000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="label">
@@ -1140,8 +1141,8 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="7500" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="progress" id="23">
@@ -1173,9 +1174,9 @@
 				<posx>-20</posx>
 				<posy>700</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="-400,0" end="0,0" time="500" delay="0" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="21000" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="28000" />
+						<effect type="fade" start="1" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image" id="7026">
 							<description>dirty hack for showing cdart image</description>
@@ -1209,8 +1210,8 @@
 				<posx>-20</posx>
 				<posy>700</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="-400,0" end="0,0" time="500" delay="21500" />
-						<effect type="slide" start="0,0" end="-400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image">
 							<description>cover image</description>
@@ -1234,15 +1235,15 @@
 			<posy>600</posy>
 			<animation effect="slide" start="0,0" end="66,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7026))">Conditional</animation>
 			<animation type="Conditional" reversible="false" condition="true" loop="true">
-				<effect type="slide" start="0,400" end="0,0" time="500" delay="0" />
-				<effect type="slide" start="0,0" end="0,400" time="500" delay="21000" />
-				<effect type="slide" start="0,0" end="0,400" time="500" delay="28000" />
+				<effect type="fade" start="0" end="100" time="1000" delay="0" />
+				<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+				<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 			</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>234</posx>
 						<posy>-26</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -1255,7 +1256,7 @@
 						<description>Track</description>
 						<posx>234</posx>
 						<posy>-10</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -1318,14 +1319,14 @@
 			<posy>570</posy>
 			<visible>true</visible>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,400" end="0,0" time="500" delay="21500" />
-					<effect type="slide" start="0,0" end="0,400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>6</posy>
-						<width min="40" max="380">auto</width>
+						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -1337,7 +1338,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>22</posy>
-						<width min="40" max="380">auto</width>
+						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -1407,9 +1408,9 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="0" />
-					<effect type="fade" start="100" end="0" time="500" delay="7000" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="7000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="label">
@@ -1424,8 +1425,8 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="7500" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="progress" id="23">
@@ -1450,9 +1451,9 @@
 				<posx>1106</posx>
 				<posy>704</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="400,0" end="0,0" time="500" delay="0" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="21000" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image" id="17726">
 							<description>dirty hack for showing cdart image</description>
@@ -1486,8 +1487,8 @@
 				<posx>1106</posx>
 				<posy>704</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
-						<effect type="slide" start="400,0" end="0,0" time="500" delay="21500" />
-						<effect type="slide" start="0,0" end="400,0" time="500" delay="28000" />
+						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image">
 							<description>cover image</description>
@@ -1511,15 +1512,15 @@
 			<posy>608</posy>
 				<animation effect="slide" start="0,0" end="-70,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(17726))">Conditional</animation>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,400" end="0,0" time="500" delay="0" />
-					<effect type="slide" start="0,0" end="0,400" time="500" delay="21000" />
-					<effect type="slide" start="0,0" end="0,400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>-26</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -1531,7 +1532,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>-8</posy>
-						<width min="10" max="380">auto</width>
+						<width min="10" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -1590,14 +1591,14 @@
 			<posy>580</posy>
 			<visible>true</visible>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="slide" start="0,400" end="0,0" time="500" delay="21500" />
-					<effect type="slide" start="0,0" end="0,400" time="500" delay="28000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>0</posy>
-						<width min="750" max="380">auto</width>
+						<width min="750" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
@@ -1609,7 +1610,7 @@
 						<description>Track</description>
 						<posx>250</posx>
 						<posy>16</posy>
-						<width min="750" max="380">auto</width>
+						<width min="750" max="400">auto</width>
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
@@ -1679,9 +1680,9 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="0" />
-					<effect type="fade" start="100" end="0" time="500" delay="7000" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="7000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="label">
@@ -1696,8 +1697,8 @@
 				<textcolor>grey2</textcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
-					<effect type="fade" start="0" end="100" time="500" delay="7500" />
-					<effect type="fade" start="100" end="0" time="500" delay="14000" />
+					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
 				</animation>
 			</control>
 			<control type="progress" id="23">

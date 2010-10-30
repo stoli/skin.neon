@@ -54,24 +54,24 @@
 		</control>
 	</include>
 	<include name="middle_horizontal_movies">
-		<onup>301</onup>
-		<ondown>Control.SetFocus(8000,0)</ondown>
+		<onup>Control.SetFocus(8000,0)</onup>
+		<ondown>301</ondown>
 	</include>
 	<include name="lower_horizontal_movies">
 		<onup>Control.SetFocus(8000,0)</onup>
 		<ondown>301</ondown>
 	</include>
 	<include name="middle_horizontal_tv">
-		<onup>301</onup>
-		<ondown>Control.SetFocus(8001,0)</ondown>
+		<onup>Control.SetFocus(8001,0)</onup>
+		<ondown>301</ondown>
 	</include>
 	<include name="lower_horizontal_tv">
 		<onup>Control.SetFocus(8001,0)</onup>
 		<ondown>301</ondown>
 	</include>
 	<include name="middle_horizontal_music">
-		<onup>301</onup>
-		<ondown>Control.SetFocus(8002,0)</ondown>
+		<onup>Control.SetFocus(8002,0)</onup>
+		<ondown>301</ondown>
 	</include>
 	<include name="lower_horizontal_music">
 		<onup>Control.SetFocus(8002,0)</onup>

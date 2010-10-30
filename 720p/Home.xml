@@ -56,15 +56,7 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>!Skin.HasSetting(horizontal_home)</visible>
 		</control>
-		<control type="image">
-			<posx>0</posx>
-			<posy>22</posy>
-			<height>260</height>
-			<include>Dimensions_Fullscreen</include>
-			<texture>mainmenu/home_bottom_align.png</texture>
-			<include>Animation_CommonFadeNoHide</include>
-			<visible>Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)</visible>
-		</control>
+		
 		<control type="image">
 			<posx>0</posx>
 			<posy>445</posy>
@@ -83,16 +75,32 @@
 		</control>
 		<control type="image">
 			<posx>0</posx>
+			<posy>222</posy>
+			<height>200</height>
+			<!-- <posy>145</posy> -->
+			<!--<height>580</height> -->
+			<include>Dimensions_Fullscreen</include>
+			<texture>mainmenu/home_bottom_align.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
+			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
+			<!-- <animation effect="zoom" end="100,145" time="300" center="auto" condition="ControlGroup(9001).HasFocus">conditional></animation> -->
+			<!-- <animation effect="fade" time="100">WindowOpen</animation> <animation effect="fade" time="1000">WindowClose</animation> -->
+			<!-- !ControlGroup(9001).HasFocus for regular image -->
+			
+		</control>
+		<control type="image">
+			<posx>0</posx>
 			<posy>445</posy>
 			<height>200</height>
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)</visible>
-			<animation effect="slide" start="40,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
+			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
 			<!-- <animation effect="zoom" end="100,58" time="900" center="auto" condition="!ControlGroup(9001).HasFocus">conditional></animation> -->
 			
-			<animation effect="fade" start="50" end="100" time="1000" condition="!ControlGroup(9001).HasFocus">conditional></animation> -->
+			<!-- <animation effect="fade" start="50" end="100" time="1000" condition="!ControlGroup(9001).HasFocus">conditional></animation> -->
 		</control>	
 		<control type="image">
 			<posx>0</posx>
@@ -102,20 +110,28 @@
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)</visible>
-			<!-- <animation effect="slide" start="0,50" end="0,-50" time="300" condition="!ControlGroup(9001).HasFocus">conditional</animation> -->
-			<!-- <animation effect="zoom" end="100,58" time="900" center="auto" condition="!ControlGroup(9001).HasFocus">conditional></animation> -->
-			
-			<!-- <animation effect="fade" start="50" end="100" time="1000" condition="!ControlGroup(9001).HasFocus">conditional></animation> -->
 		</control>	
-	<!--	<control type="image">
+
+	
+		<control type="image">
 			<posx>0</posx>
-			<posy>0</posy>
+			<posy>225</posy>
+			<height>200</height>
 			<include>Dimensions_Fullscreen</include>
-			<texture>mainmenu/recently_back.png</texture>
+			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
-			<animation effect="fade" start="0" end="100" time="400" delay="1800" tween="cubic" easing="inout" condition="Container(300).HasFocus(3) | Container(301).HasFocus(3)">Conditional</animation>
-			<visible>Skin.HasSetting(homepageHideRecentlyAdded) + [Container(300).HasFocus(3) | Container(301).HasFocus(3)]</visible>
-		</control> -->
+			<visible>Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)</visible>
+			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
+		</control>	
+		<control type="image">
+			<posx>0</posx>
+			<posy>222</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<texture>mainmenu/home_bottom_align.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)</visible>
+		</control>
 		<control type="image">
 			<posx>980</posx>
 			<posy>-100</posy>

@@ -167,7 +167,7 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_Showcase_Title</name>
-			<filename>alaska_regular.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>31</size>
 		</font>
 		<font>
@@ -321,7 +321,7 @@
 
 		<font>
 			<name>Font_Date</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>21</size>
 		</font>	
 

@@ -2,6 +2,7 @@
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<include>Animation_SettingsFade</include>
 	<controls>
+	
 	<!--	<control type="image">
 			<posx>710</posx>
 			<posy>380</posy>
@@ -243,7 +244,7 @@
 					<height>35</height>
 					<label>24022</label>
 					<font>font16caps</font>
-					<textcolor>black</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -262,7 +263,7 @@
 					<height>35</height>
 					<label>24021</label>
 					<font>font16caps</font>
-					<textcolor>black</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -282,7 +283,7 @@
 					<height>35</height>
 					<label>24020</label>
 					<font>font16caps</font>
-					<textcolor>black</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -301,7 +302,7 @@
 					<height>35</height>
 					<label>24069</label>
 					<font>font16caps</font>
-					<textcolor>black</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -320,7 +321,7 @@
 					<height>35</height>
 					<label>24036</label>
 					<font>font16caps</font>
-					<textcolor>black</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
