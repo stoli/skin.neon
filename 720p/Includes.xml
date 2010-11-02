@@ -808,15 +808,6 @@
 					<posy>5</posy>
 					<aligny>center</aligny>
 				</control>
-			
-				<control type="label">
-					<posx>10</posx>
-					<posy>0</posy>
-					<label>$LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
-					<textcolor>white</textcolor>
-					<font>Font_RSS_Unicode</font>
-				</control>
-				
 			</control>
 		
 	</include>

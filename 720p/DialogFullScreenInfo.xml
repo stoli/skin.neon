@@ -3,6 +3,8 @@
 <window id="142">
 	<defaultcontrol>2</defaultcontrol>
 	<controls>	
+	
+	<include>Global_Time_TopRight_OSD</include>
 		<control type="group">		
 			<posy>560</posy>
 			<visible>!Control.IsVisible(10)</visible>
@@ -12,8 +14,7 @@
 			<animation type="WindowClose">
 				<effect type="fade" start="50" end="0" time="600" />
 			</animation>
-			
-			
+				
 			<control type="image">
 				<description> lower backgound </description>
 				<posx>0</posx>
@@ -25,17 +26,7 @@
 				<aspectratio>stretch</aspectratio>
 				<visible>!Control.IsVisible(10)</visible>
 			</control>
-			<!-- <control type="image">
-				<description> upper backgound </description>
-				<posx>0</posx>
-				<posy>-560</posy>
-				<width>1280</width>
-				<height>40</height>
-				<colordiffuse>mainblue</colordiffuse>
-				<texture flipy="true">MediaInfoBacklower.png</texture>
-				<aspectratio>stretch</aspectratio>
-				<visible>!Control.IsVisible(10)</visible>
-			</control> -->
+
 		</control>
 		<control type="group">		
 			<posy>560</posy>
@@ -52,30 +43,31 @@
 				<midtexture>osd/mid.png</midtexture>
 				<righttexture>osd/new_pause2.png</righttexture>
 				<info>Player.Progress</info>
-				<posx>100</posx>
-				<posy>130</posy>
-				<width>1080</width>
+				<posx>140</posx>
+				<posy>135</posy>
+				<width>1000</width>
 				<height>19</height>
 			</control>
 			<control type="label">
-				<posx>10</posx>
-				<posy>128</posy>
+				<posx>35</posx>
+				<posy>125</posy>
 				<width>300</width>
 				<height>25</height>
 				<align>left</align> 
-				<font>Font_Bartowski_Extras_Pause</font>
-				<textcolor>mainblue</textcolor>
+				<font>Font_RSS_Unicode</font>
+				<textcolor>green1</textcolor>
 				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
 			</control>
 			<control type="label">
-				<posx>1190</posx>
-				<posy>128</posy>
+				<posx>1155</posx>
+				<posy>126</posy>
 				<width>300</width>
 				<height>25</height>
-				<font>Font_Bartowski_Extras_Pause</font>
+				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[VideoPlayer.Duration][/B]</label>
 			</control>
+
 			<control type="group">
 				<posx>20</posx>
 				<posy>-20</posy>
@@ -160,63 +152,32 @@
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
 				<visible>!Skin.HasSetting(library_global_clock)</visible>
 			</control>
-			<!-- JVB - remove plot
-			<control type="textbox">
-				<posx>20</posx>
-				<posy>-30</posy>
-				<width>930</width>
-				<height>114</height>
-				<align>justify</align>
-				<label>$INFO[VideoPlayer.Plot]</label>
-				<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-				<font>Font_Bartowski_Episodes</font>
-				<textcolor>ffffffff</textcolor>
-				<include>Animation_HiddenByInfo</include>
-				<visible>VideoPlayer.Content(episodes)</visible>
-			</control>
-			<control type="textbox">
-				<posx>20</posx>
-				<posy>-30</posy>
-				<width>1000</width>
-				<height>110</height>
-				<align>justify</align>
-				<label>$INFO[VideoPlayer.Plot]</label>
-				<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-				<font>Font_Bartowski_Episodes</font>
-				<textcolor>ffffffff</textcolor>
-				<include>Animation_HiddenByInfo</include>
-				<visible>VideoPlayer.Content(movies)</visible>
-			</control>  -->
+				<control type="image">
+					 <description>IMDB Rating</description>
+					 <posx>575</posx>
+					 <posy>-555</posy>
+					 <width>120</width>
+					 <height>20</height>
+					 <align>center</align>
+					 <aligny>center</aligny>
+					 <colordiffuse>d0FDD017</colordiffuse>
+					 <info>Player.StarRating</info>
+					<visible>VideoPlayer.Content(movies) + Skin.HasSetting(library_global_clock)</visible>
+				</control>
+			
+				<control type="image">
+					 <description>IMDB Rating</description>
+					 <posx>575</posx>
+					 <posy>-555</posy>
+					 <width>120</width>
+					 <height>20</height>
+					 <align>center</align>
+					 <aligny>center</aligny>
+					 <colordiffuse>d0FDD017</colordiffuse>
+					 <info>Player.StarRating</info>
+					<visible>VideoPlayer.Content(episodes) + Skin.HasSetting(library_global_clock)</visible>
+			   </control>			
 
-			<!-- Movie Info  -->
-			<!-- JVB Remote Director and genre
-			<control type="group">
-				<visible>VideoPlayer.Content(movies)</visible>
-				<posx>20</posx>
-				<posy>-110</posy>
-				<control type="label">
-					<description>Director Info</description>
-					<posx>0</posx>
-					<posy>24</posy>
-					<width>970</width>
-					<height>18</height>
-					<aligny>center</aligny>
-					<align>left</align>
-					<font>Font_ListDetail</font>
-					<label>[B][COLOR=blue]$LOCALIZE[20339]:[/COLOR][/B] [COLOR=ffffffff]$INFO[VideoPlayer.Director][/COLOR]</label>
-				</control>
-				<control type="label">
-					<description>Genre Info</description>
-					<posx>0</posx>
-					<posy>48</posy>
-					<width>970</width>
-					<height>18</height>
-					<aligny>center</aligny>
-					<align>left</align>
-					<font>Font_ListDetail</font>
-					<label>[B][COLOR=blue]$LOCALIZE[515]:[/COLOR][/B] [COLOR=ffffffff]$INFO[VideoPlayer.Genre][/COLOR]</label>
-				</control>
-			</control>  -->
 		</control>
 	<control type="group">
 	<posy>560</posy>
@@ -240,7 +201,20 @@
 		</control>
 	</control>
 		
-		<include>Global_Time_TopRight_OSD</include>
+			<control type="label">
+			<animation type="WindowOpen">
+				<effect type="fade" start="0" end="100" time="600" />
+			</animation>
+			<animation type="WindowClose">
+				<effect type="fade" start="100" end="0" time="600" />
+			</animation>
+				<posx>10</posx>
+				<posy>0</posy>
+				<label>$LOCALIZE[31075]: [COLOR=red]$INFO[Player.FinishTime][/COLOR]</label>
+				<textcolor>white</textcolor>
+				<font>Font_RSS_Unicode</font>
+				<visible>Skin.HasSetting(library_global_clock)</visible>
+			</control>					
 		
 	</controls>
 </window>

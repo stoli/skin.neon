@@ -81,12 +81,6 @@
 			<posx>-105</posx>
 			<posy>590</posy>
 			<animation effect="slide" start="0,0" end="66,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7026))">Conditional</animation>
-<!--			<animation type="Conditional" reversible="false" condition="true" loop="true">
-				<effect type="slide" start="0,400" end="0,0" time="1000" delay="0" />
-				<effect type="slide" start="0,0" end="0,400" time="1000" delay="21000" />
-				<effect type="slide" start="0,0" end="0,400" time="1000" delay="28000" />
-			</animation> 
--->
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 				<effect type="fade" start="0" end="100" time="1000" delay="0" />
 				<effect type="fade" start="100" end="0" time="1000" delay="21000" />
@@ -101,7 +95,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label>
+						 <!-- <label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label> -->
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -394,7 +388,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label>
+						 <!-- <label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label> -->
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					
 					</control>
@@ -1248,7 +1242,7 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label>
+						 <!-- <label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label> -->
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>

@@ -2,11 +2,11 @@
   <actions>
     <action>
       <name>left</name>
-      <file>sound7.wav</file>
+      <file>left.wav</file>
     </action>
     <action>
       <name>right</name>
-      <file>sound7.wav</file>
+      <file>right.wav</file>
     </action>
     <action>
       <name>up</name>
@@ -49,7 +49,7 @@
   <windows>
     <window>
       <name>startup</name>
-      <activate>01_-_alpha.wav</activate>
+      <activate>startup.wav</activate>
     </window>
     <window>
       <name>0</name>
