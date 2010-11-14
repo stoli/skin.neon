@@ -27,6 +27,7 @@
 	<include file="Includes_Trailer.xml" />
 	<include file="Includes_Objects.xml" />
 	<include file="IncludesHomeRecentlyAdded.xml" />
+	<include file="Includes_Next_Aired.xml" />
 	<include file="Includes_Music_Global.xml" />
 	<include file="IncludesCodecFlagging.xml" />
 	<include file="IncludesHomepageWeatherWidget.xml" />
@@ -35,6 +36,7 @@
 	<include file="Viewtype_Logo.xml" />
 	<include file="Viewtype_3daddon.xml" />
 	<include file="Viewtype_Slide.xml" />
+	<include file="Viewtype_CoverFlow.xml" />
 	
 	<include name="VisibleFadeEffect">
 		<animation effect="fade" time="300">Visible</animation>
@@ -611,8 +613,8 @@
 	</include>
 	<include name="Global_Time_LowerLeft">
 		<control type="group">
-			<posx>10</posx>
-			<posy>650</posy>
+			<posx>200</posx>
+			<posy>690</posy>
 			<include>Animation_BackdropFade</include>
 			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [Control.IsVisible(51) | Control.IsVisible(57) | Control.IsVisible(592)]</visible>
 				<control type="label">
@@ -627,8 +629,8 @@
 			<control type="group">
 			<include>Animation_BackdropFade</include>
 				<control type="group">
-				<posx>10</posx>
-				<posy>4</posy>
+				<posx>-1040</posx>
+				<posy>12</posy>
 				<width>225</width>
 				<height>300</height>
 			<!-- condition icon -->

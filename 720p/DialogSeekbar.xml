@@ -140,7 +140,7 @@
 				<height>25</height>
 				<align>right</align> 
 				<font>Font_RSS_Unicode</font>
-				<textcolor>green1</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
 				<animation effect="slide" start="0,0" end="-10,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
@@ -164,7 +164,7 @@
 				<height>25</height>
 				<align>right</align> 
 				<font>Font_RSS_Unicode</font>
-				<textcolor>green1</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
 				<animation effect="slide" start="0,0" end="-10,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>

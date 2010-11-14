@@ -370,7 +370,7 @@
 					<aligny>center</aligny>
 					<font>Font_TVShow</font>
 					<textcolor>mainblue</textcolor>
-					<label>[B][COLOR=blue]$LOCALIZE[31226]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Mpaa][/COLOR]</label>
+					<label>[B][COLOR=mainblue]$LOCALIZE[31226]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Mpaa][/COLOR]</label>
 					<visible>Container.Content(tvshows)</visible>
 				</control>
 				<control type="label"><!-- 1st Seasons -->
@@ -381,7 +381,7 @@
 					<aligny>center</aligny>
 					<font>Font_TVShow</font>
 					<textcolor>mainblue</textcolor>
-					<label>[B][COLOR=blue]$LOCALIZE[20373]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Season][/COLOR]</label>
+					<label>[B][COLOR=mainblue]$LOCALIZE[20373]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Season][/COLOR]</label>
 					<visible>Container.Content(seasons) | Container.Content(episodes)</visible>
 				</control>
 				<control type="label"><!-- Episodes -->
@@ -392,7 +392,7 @@
 					<aligny>center</aligny>
 					<font>Font_TVShow</font>
 					<textcolor>mainblue</textcolor>
-					<label>[B][COLOR=blue]$LOCALIZE[20360]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Episode][/COLOR]</label>
+					<label>[B][COLOR=mainblue]$LOCALIZE[20360]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Episode][/COLOR]</label>
 					<visible>Container.Content(tvshows) | Container.Content(seasons)</visible>
 				</control>
 				<control type="label"><!-- Episodes -->
@@ -403,7 +403,7 @@
 					<aligny>center</aligny>
 					<font>Font_TVShow</font>
 					<textcolor>mainblue</textcolor>
-					<label>[B][COLOR=blue]$LOCALIZE[20359]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Episode][/COLOR]</label>
+					<label>[B][COLOR=mainblue]$LOCALIZE[20359]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Episode][/COLOR]</label>
 					<visible>Container.Content(episodes)</visible>
 				</control>
 				<control type="label"><!-- Genre -->
@@ -413,7 +413,7 @@
 					<height>50</height>
 					<aligny>center</aligny>
 					<font>Font_TVShow</font>
-					<label>[B][COLOR=blue]$LOCALIZE[515]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Genre][/COLOR]</label>
+					<label>[B][COLOR=mainblue]$LOCALIZE[515]:[/COLOR][/B] [COLOR=ffffffff]$INFO[ListItem.Genre][/COLOR]</label>
 					<visible>Container.Content(tvshows) | Container.Content(seasons)</visible>
 				</control>
 				<control type="label"><!-- Episode Rating -->
@@ -424,7 +424,7 @@
 					<aligny>center</aligny>
 					<font>Font_TVShow</font>
 					<textcolor>mainblue</textcolor>
-					<label>[B][COLOR=blue]$LOCALIZE[563]:[/B] [COLOR=ffffffff]$INFO[ListItem.Rating][/COLOR]</label>
+					<label>[B][COLOR=mainblue]$LOCALIZE[563]:[/B] [COLOR=ffffffff]$INFO[ListItem.Rating][/COLOR]</label>
 					<visible>Container.Content(episodes)</visible>
 				</control>
 			</control>
@@ -497,7 +497,8 @@
 					<animation effect="slide" start="0,0" end="-10,-12" time="0" tween="cubic" easing="inout" condition="Container.Content(episodes)">Conditional</animation>
 				</control>
 			</control>
-		
+			
+		<include>Landscape_Next_Aired</include>
 		
 	<control type="label">
 		<posx>1080</posx>

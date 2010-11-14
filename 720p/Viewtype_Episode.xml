@@ -228,17 +228,21 @@
 			<control type="label"><!-- Episode Title -->
 				<posx>0</posx>
 				<posy>-10</posy>
-				<width>556</width>
+				<width>600</width>
 				<height>50</height>
 				<align>center</align>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>mainblue</textcolor>
-				<label>[UPPERCASE][B]$INFO[ListItem.Title][/B][/UPPERCASE]</label>
+				<label>$INFO[ListItem.Title]</label>
+				<scroll>true</scroll>
+				<scrollspeed>45</scrollspeed>
+				<scrollsuffix> -|- </scrollsuffix>
+				<autoscroll delay="3000" time="1000" repeat="10000"></autoscroll>
 			</control>
 			<control type="label"><!-- Episode Title -->
 				<posx>0</posx>
 				<posy>-10</posy>
-				<width>556</width>
+				<width>600</width>
 				<height>50</height>
 				<align>center</align>
 				<font>Font_Bartowski_Title_TVShow</font>
@@ -249,7 +253,7 @@
 			<control type="label"><!-- Episode season episode -->
 				<posx>0</posx>
 				<posy>30</posy>
-				<width>556</width>
+				<width>600</width>
 				<height>50</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
@@ -259,20 +263,23 @@
 			<control type="label"><!-- Episode aired -->
 				<posx>0</posx>
 				<posy>60</posy>
-				<width>556</width>
+				<width>600</width>
 				<height>50</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
 				<textcolor>ffffffff</textcolor>
 				<label>$LOCALIZE[31231]: $INFO[ListItem.Date]</label>
 			</control>
+						
+				<include>Episode_Next_Aired</include>	
+			
 		</control>
 		<control type="grouplist">
 				<visible>Control.IsVisible(51) + Container.Content(episodes) + !Skin.HasSetting(no_media_flags)</visible>
 				<description>Media Codec Flagging Images</description>
 				<posx>380</posx>
 				<posy>680</posy>
-				<width>556</width>
+				<width>600</width>
 				<align>center</align>
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>

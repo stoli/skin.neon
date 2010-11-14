@@ -27,7 +27,7 @@
 			<posy>-16</posy>
 			<width>400</width>
 			<height>60</height>
-			<texture flipy="true" border="20,20,20,2">confluence/InfoMessagePanel2.png</texture>
+			<texture flipy="true" border="20,20,20,2">InfoMessagePanel2.png</texture>
 		</control>
       <!--<control type="image">
         <posx>0</posx>
@@ -41,7 +41,7 @@
         <posx>15</posx>
         <posy>-8</posy>
         <font>font16</font>
-        <textcolor>black</textcolor>
+        <textcolor>white</textcolor>
         <width>380</width>
         <height>20</height>
         <aligny>center</aligny>
@@ -52,7 +52,7 @@
         <posx>15</posx>
         <posy>6</posy>
         <font>Bartowski_settings_small</font>
-        <textcolor>black</textcolor>
+        <textcolor>white</textcolor>
         <haspath>yes</haspath>
         <width>380</width>
         <height>20</height>

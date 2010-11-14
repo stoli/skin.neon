@@ -489,6 +489,11 @@
 				<animation effect="zoom" start="80" end="80" time="0" condition="true">Conditional</animation>
 				<visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)]</visible>
 			</control>
+			<control type="group">	
+				<posx>20</posx>
+				<posy>90</posy>		
+				<include>Poster_Next_Aired</include>
+			</control>
 		</control>
 		
 	<control type="grouplist">

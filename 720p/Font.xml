@@ -59,7 +59,7 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_ListView_Season</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>32</size>
 			<linespacing>1</linespacing>
 		</font>
@@ -72,43 +72,43 @@
 		</font>
 		<font>
 			<name>Font_3dland_plot</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>Default.ttf</filename>
 			<size>26</size>
 			<linespacing>.8</linespacing>
 		</font>
 		<font>
 			<name>Font_Bartowski_Episodes</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>24</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
 			<name>Font_Bartowski_Movies_Plot</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>22</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
 			<name>Font_Bartowski_Movies_Title</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>40</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
 			<name>Font_Bartowski_TV_Title</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>40</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
 			<name>Font_Bartowski_Landscape_TV_Title</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>50</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
 			<name>Font_Episode_Landscape_TVTitle</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>50</size>
 			<linespacing>.7</linespacing>
 		</font>
@@ -120,7 +120,7 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_Movies_Poster_Rated</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>26</size>
 			<linespacing>1</linespacing>
 		</font>
@@ -151,7 +151,7 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_Volume</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>23</size>
 		</font>
 		<font>
@@ -355,7 +355,7 @@
 
 		<font>
 			<name>Font_NowPlayingTrack</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>27</size>
 		</font>
 
@@ -419,20 +419,20 @@
 
 		<font>
 			<name>Font_EpisodeDetailNF</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>20</size>
 		</font>	
 
 		<font>
 			<name>Font_EpisodePlot</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>21</size>
 			<linespacing>0.8</linespacing>
 		</font>	
 
 		<font>
 			<name>Font_EpisodePlot2</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>18</size>
 		</font>	
 
@@ -463,7 +463,7 @@
 
 		<font>
 			<name>Font_SettingsDetail</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>20</size>
 		</font>
 
@@ -506,7 +506,7 @@
 
 		<font>
 			<name>Font_ListDetailNF</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>17</size>
 			<linespacing>0.82</linespacing>
 		</font>
@@ -519,7 +519,7 @@
 
 		<font>
 			<name>Font_ListDetail</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>20</size>
 			<linespacing>0.82</linespacing>
 		</font>
@@ -538,7 +538,7 @@
 
 		<font>
 			<name>Font_MenuLabel</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>27</size>
 		</font>	
 
@@ -560,7 +560,7 @@
 
 		<font>
 			<name>Font_ListSmall</name>
-			<filename>aeon_title.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>20</size>
 		</font>
 

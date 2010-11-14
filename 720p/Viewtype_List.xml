@@ -611,6 +611,7 @@
 				<font>Font_TVShow</font>
 				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
 			</control>
+		<include>Poster_Next_Aired</include>
 	</control>
 		<control type="grouplist">
 			<visible>Control.IsVisible(53) + !Skin.HasSetting(3dLandscape_Fanart) + !Skin.HasSetting(no_media_flags)</visible>
