@@ -16,8 +16,8 @@
 			<posy>72</posy>
 			<width>800</width>
 			<height>544</height>
-			<texture>favourites/favourites_panel1.png</texture>
-			<!--<colordiffuse>FavListPanel</colordiffuse>-->
+			<texture>DialogBack.png</texture>
+			<!-- <colordiffuse>clearblack</colordiffuse> -->
 		</control>
 
 		<control type="image">
@@ -35,9 +35,9 @@
 			<width>720</width>
 			<height>60</height>
 			<align>center</align>
-			<textcolor>black</textcolor>
+			<textcolor>mainblue</textcolor>
 			<label>$LOCALIZE[1036]</label>
-			<font>Font_Bartowski_MainMenu_Context</font>
+			<font>Font_InfoYear2</font>
 		</control>
 
 		<control type="list" id="450">

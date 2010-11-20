@@ -136,9 +136,13 @@
 		<include>Trailer_Poster</include>
 		
 		
-		<include>Music_Global_TopRight</include>
-		<include>Music_Global_Showcase</include>
-		<include>Music_Global_LowerRight</include>
+<control type="group">	
+		<visible>!SubString(Window(10025).Property(TvTunesIsAlive),True)</visible>
+			<include>Music_Global_TopRight</include>
+			<include>Music_Global_Showcase</include>
+			<include>Music_Global_LowerRight</include>
+			<include>Music_Global_Lowerleft_Music</include>
+	</control>
 		
 		<include>Global_Time_TopRight</include>
 		<include>Global_Time_LowerLeft</include>

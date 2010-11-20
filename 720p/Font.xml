@@ -71,6 +71,12 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
+			<name>Font_Bartowski_MovieList</name>
+			<filename>neon.ttf</filename>
+			<size>20</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_3dland_plot</name>
 			<filename>Default.ttf</filename>
 			<size>26</size>
@@ -84,7 +90,7 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_Movies_Plot</name>
-			<filename>neon.ttf</filename>
+			<filename>default.ttf</filename>
 			<size>22</size>
 			<linespacing>1</linespacing>
 		</font>
@@ -161,8 +167,8 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_Showcase_plot</name>
-			<filename>Default.ttf</filename>
-			<size>25</size>
+			<filename>default.ttf</filename>
+			<size>20</size>
 			<linespacing>1.0</linespacing>
 		</font>
 		<font>
@@ -172,8 +178,8 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_Showcase_Right_Main</name>
-			<filename>alaska_nocaps.ttf</filename>
-			<size>28</size>
+			<filename>neon.ttf</filename>
+			<size>25</size>
 		</font>
 		<font>
 			<name>Font_Bartowski_Showcase_Right_Under</name>
@@ -381,13 +387,13 @@
 
 		<font>
 			<name>Font_InfoYear2</name>
-			<filename>alaska_regular.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>40</size>
 		</font>
 
 		<font>
 			<name>Font_InfoDetails</name>
-			<filename>alaska_regular.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>22</size>
 		</font>
 
@@ -607,17 +613,17 @@
 		<!--#Pragma Favourites-->
 		<font>
 			<name>Font_FavouritesLabel</name>
-			<filename>alaska_black.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>50</size>
 		</font>
 		<font>
 			<name>Font_FavouritesItemLabel</name>
-			<filename>alaska_black.ttf</filename>
-			<size>20</size>
+			<filename>neon.ttf</filename>
+			<size>25</size>
 		</font>
 		<font>
 			<name>Font_FavouritesFocusedItemLabel</name>
-			<filename>alaska_black.ttf</filename>
+			<filename>neon.ttf</filename>
 			<size>30</size>
 		</font>
 		<!--#Confluence-->

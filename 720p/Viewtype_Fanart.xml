@@ -226,7 +226,7 @@
 			<width>555</width>
 			<height>50</height>
 			<align>center</align>
-			<font>Font_InfoYear2</font>
+			<font>Font_Bartowski_Title_Movie</font>
 			<textcolor>mainblue</textcolor>
 			<label>$INFO[ListItem.Label]</label>
 		</control>

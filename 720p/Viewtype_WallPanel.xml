@@ -283,7 +283,7 @@
 			<posx>0</posx>
 			<posy>140</posy>
 			<height>410</height>
-			<width>600</width>
+			<width>440</width>
 			<onup>597</onup>
 			<ondown>597</ondown>
 			<include condition="!Skin.HasSetting(big_trailer)">onleft_small_trailer</include>
@@ -305,7 +305,7 @@
 					<width>680</width>
 					<height>46</height>
 					<aligny>center</aligny>
-					<font>Font_Bartowski_Movies</font>
+					<font>Font_Bartowski_MovieList</font>
 					<textcolor>Text-Filemode</textcolor>
 					<label>$INFO[ListItem.Label]</label>
 					<animation effect="slide" start="0,0" end="20,0" time="0" condition="stringcompare(ListItem.Overlay,OverlayWatched.png) + Skin.HasSetting(movieoverlays)">Conditional</animation>
@@ -337,8 +337,8 @@
 					<width>720</width>
 					<height>46</height>
 					<aligny>center</aligny>
-					<font>Font_Bartowski_Movies</font>
-					<textcolor>ffffffff</textcolor>
+					<font>Font_Bartowski_MovieList</font>
+					<textcolor>mainblue</textcolor>
 					<label>[B]$INFO[ListItem.Label][/B]</label>
 					<animation effect="slide" start="0,0" end="20,0" time="0" condition="stringcompare(ListItem.Overlay,OverlayWatched.png) + Skin.HasSetting(movieoverlays)">Conditional</animation>
 				</control>
@@ -363,6 +363,7 @@
 			<width>419</width>
 			<height>522</height>
 			<texture>wall/wall_panel_glow1.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
 			<aspectratio scalediffuse="false">stretch</aspectratio>
 			<include>Animation_HiddenByInfo</include>
 		</control>
@@ -428,10 +429,10 @@
 				<label>$INFO[ListItem.Year]</label>
 			</control>
 			<control type="group">
-				<posx>72</posx>
-				<posy>180</posy>
+				<posx>118</posx>
+				<posy>178</posy>
 				<include>VideoMPAAFlaggingConditions</include>
-				<animation effect="zoom" start="80" end="80" time="0" condition="true">Conditional</animation>
+				<animation effect="zoom" start="79" end="79" time="0" condition="true">Conditional</animation>
 			</control>
 			<control type="textbox">
 				<visible>![Container.OnNext | Container.OnPrevious] + !Player.HasAudio</visible>
