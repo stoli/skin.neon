@@ -4,15 +4,7 @@
 	<include name="Viewtype_3daddon">
 		
 		
-		<control type="image">
-			<visible>Control.IsVisible(56) + ![Container.Content(albums) + Skin.HasSetting(3dmusic_Fanart)]</visible>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
-			<texture>movie-poster/movie-back3.png</texture>
-			<aspectratio>stretch</aspectratio>
-		</control>
+		
 		<control type="image">
 			<visible>Control.IsVisible(56) + Skin.HasSetting(3dmusic_Fanart)</visible>
 			<posx>0</posx>

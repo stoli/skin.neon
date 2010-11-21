@@ -41,7 +41,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture>music/music_darkshowcase3.png</texture>
+		<!--	<texture>music/music_darkshowcase3.png</texture> -->
 		</control>
 
 		<control type="wraplist" id="58">
