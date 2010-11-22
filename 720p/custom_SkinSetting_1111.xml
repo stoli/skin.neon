@@ -64,18 +64,7 @@
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
-					<!--  JVB Removed 
-					<control type="label">
-						<posx>0</posx>
-						<posy>42</posy>
-						<width>380</width>
-						<height>25</height>
-						<font>font13caps</font>
-						<textcolor>grey2</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label2]</label>
-					</control>  -->
+					
 				</itemlayout>
 				<focusedlayout height="60" width="261">
 					<control type="image">
@@ -100,19 +89,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
-					<!-- JVB Removed
-					<control type="label">
-						<posx>0</posx>
-						<posy>42</posy>
-						<width>870</width>
-						<height>25</height>
-						<textoffsetx>10</textoffsetx>
-						<font>font13caps</font>
-						<textcolor>grey2</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label2]</label>
-					</control>  -->
 				</focusedlayout>
 				<content>
 					<item id="1">
@@ -434,16 +410,16 @@
 					</control>
 					
 					<control type="radiobutton" id="201">
-						<description>Show Recently added info</description>
+						<description>Toggle Home top or bottom</description>
 						<include>skin_settings_labels</include>
-						<label>31244</label>
+						<label>31271</label>
 						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(horizontal_home)</onclick>
-						<selected>Skin.HasSetting(horizontal_home)</selected>
+						<onclick>Skin.ToggleSetting(horizontal_bottom_align)</onclick>
+						<selected>Skin.HasSetting(horizontal_bottom_align)</selected>
 					</control>
-					<control type="radiobutton" id="203">
+				<!--	<control type="radiobutton" id="203">
 						<description>Show Recently added info</description>
 						<width>740</width>
 						<height>26</height>
@@ -460,7 +436,7 @@
 						<onclick>Skin.ToggleSetting(horizontal_bottom_align)</onclick>
 						<selected>Skin.HasSetting(horizontal_bottom_align)</selected>
 						<visible>Skin.HasSetting(horizontal_home)</visible>
-					</control>
+					</control> -->
 					<control type="radiobutton" id="202">
 						<description>Show Recently added info</description>
 						<include>skin_settings_labels</include>

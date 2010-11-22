@@ -5,16 +5,16 @@
 		<control type="group">
 		<include>Animation_CommonFade</include>
 		<visible>Window.IsActive(Home) + Player.HasAudio + !Skin.HasSetting(zune_music)</visible>		
-		<animation effect="slide" start="0,0" end="0,-100" time="0" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>
-		<animation effect="fade" start="0" end="100" time="0" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>	
-			<control type="image"><!-- 1st overlay -->
+		<animation effect="slide" start="0,0" end="0,-100" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>
+		<animation effect="fade" start="0" end="100" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>	
+		<!--	<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
 				<texture>music/music_overlay_back.png</texture>
-				<visible>![Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)]</visible>	
-			</control>
+				<visible>Skin.HasSetting(horizontal_bottom_align)]</visible>	
+			</control> -->
 			<control type="group">
 				<posx>-20</posx>
 				<posy>700</posy>
@@ -54,7 +54,7 @@
 				</control>
 				
 				<control type="group">
-				<posx>-20</posx>
+				<posx>-23</posx>
 				<posy>700</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
 						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
@@ -94,7 +94,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>mainblue</textcolor>
 						 <!-- <label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label> -->
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
@@ -226,7 +226,7 @@
 		<posx>30</posx>
 		<posy>630</posy>
 		<include>Animation_CommonFade</include>
-		<animation effect="slide" start="0,0" end="0,-100" time="0" condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="0,-100" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>
 		<visible>Window.IsActive(Home) + Player.HasAudio + Skin.HasSetting(zune_music)</visible>
 			<control type="image"><!-- 1st overlay -->
 				<posx>0</posx>
@@ -234,7 +234,7 @@
 				<width>1280</width>
 				<height>720</height>
 				<texture>music/music_overlay_back.png</texture>
-				<visible>![Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)]</visible>	
+				<visible>Skin.HasSetting(horizontal_bottom_align)]</visible>	
 			</control>
 			<control type="image">
 				<description>cover image</description>

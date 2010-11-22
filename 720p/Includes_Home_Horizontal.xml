@@ -18,7 +18,7 @@
 			<scrolltime>301</scrolltime>
 			<include condition="!Skin.HasSetting(horizontal_bottom_align)">Animation_Bartowski_Context_Zoom</include>
 			<include condition="Skin.HasSetting(horizontal_bottom_align)">Animation_Bartowski_Context_Zoom_Bottom</include>
-			<visible>Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)</visible>	
+			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>	
 			<animation effect="slide" end="0,330" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
 			<itemlayout width="335" height="61">
 				<control type="label">
@@ -266,7 +266,7 @@
 			<scrolltime>301</scrolltime>
 			<include condition="!Skin.HasSetting(horizontal_bottom_align)">Animation_Bartowski_Context_Zoom</include>
 			<include condition="Skin.HasSetting(horizontal_bottom_align)">Animation_Bartowski_Context_Zoom_Bottom</include>
-			<visible>Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)</visible>	
+			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>	
 			<animation effect="slide" end="0,330" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
 			<itemlayout width="335" height="61">
 				<control type="label">
@@ -498,7 +498,7 @@
 			</content>
 		</control>
 		<control type="group" id="9001">
-				<visible>Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)</visible>
+				<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
 				<posx>15</posx>
 				<posy>265</posy>
 				<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus">conditional</animation>
@@ -580,8 +580,8 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
-					<include condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
+					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
+					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
 					<onleft>9011</onleft>
 					<onright>9011</onright>
 					<focusposition>2</focusposition>
@@ -671,8 +671,8 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_tv</include>
-					<include condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_tv</include>
+					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_tv</include>
+					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_tv</include>
 					<onleft>9012</onleft>
 					<onright>9012</onright>
 					<focusposition>2</focusposition>
@@ -899,8 +899,8 @@
 					<orientation>horizontal</orientation>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
-					<include condition="Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
-					<include condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
+					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
+					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
@@ -1160,7 +1160,7 @@
 				</control>
 		</control>			
 		<control type="group" id="9001">
-			<visible>Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)</visible>
+			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
 				<posx>15</posx>
 				<posy>395</posy>
 				<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus">conditional</animation>
@@ -1242,8 +1242,8 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
-					<include condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
+					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
+					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
 					<onleft>9011</onleft>
 					<onright>9011</onright>
 					<focusposition>2</focusposition>
@@ -1333,8 +1333,8 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_tv</include>
-					<include condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_tv</include>
+					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_tv</include>
+					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_tv</include>
 					<onleft>9012</onleft>
 					<onright>9012</onright>
 					<focusposition>2</focusposition>
@@ -1561,8 +1561,8 @@
 					<orientation>horizontal</orientation>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
-					<include condition="Skin.HasSetting(horizontal_home) + !Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
-					<include condition="Skin.HasSetting(horizontal_home) + Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
+					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
+					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
