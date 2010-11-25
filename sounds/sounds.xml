@@ -30,7 +30,7 @@
     </action>
     <action>
       <name>screenshot</name>
-      <file>-</file>
+      <file>shutter.wav</file>
     </action>
 	<action>
       <name>ContextMenu</name>
