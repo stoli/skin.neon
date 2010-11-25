@@ -92,7 +92,7 @@
 					<height>20</height>
 					<posx>-120</posx>
 					<posy>10</posy>
-					<font>Font_EpisodeNumber</font>
+					<font>Font_Bartowski_MainMenu</font>
 					<textcolor>mainblue</textcolor>
 					<align>center</align>
 				</control>
@@ -151,7 +151,7 @@
 				</control>
 				<!-- Uv Index -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.UVIndex)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[403]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.UVIndex)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -161,7 +161,7 @@
 				</control>
 				<!-- Dew Point -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.DewPoint)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[405]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.DewPoint)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -171,7 +171,7 @@
 				</control>
 				<!-- Humidity -->
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.Humidity)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[406]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.Humidity)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
 					<posx>5</posx>
@@ -181,7 +181,7 @@
 					<textcolor>SettingsDetail</textcolor>
 				</control>
 				<control type="label">
-					<label>[COLOR blue]$LOCALIZE[404]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.Wind)][/COLOR]</label>
+					<label>[COLOR mainblue]$LOCALIZE[404]: [/COLOR] [COLOR white]$INFO[Window.Property(Current.Wind)][/COLOR]</label>
 					<width>285</width>
 					<height>20</height>
 					<posx>5</posx>

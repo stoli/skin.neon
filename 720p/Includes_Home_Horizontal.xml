@@ -25,7 +25,7 @@
 					<width>450</width>
 					<height>61</height>
 					<posx>30</posx>
-					<posy>68</posy>
+					<posy>58</posy>
 					<align>center</align>
 					<font>Font_Bartowski_MainMenu</font>
 					<textcolor>38b8b7b7</textcolor>
@@ -42,7 +42,7 @@
 					<width>600</width>
 					<height>341</height>
 					<posx>160</posx>
-					<posy>60</posy>
+					<posy>52</posy>
 					<align>center</align>
 					<font>Font_Bartowski_MainMenu_Focus</font>
 					<textcolor>ffffffff</textcolor>
@@ -273,7 +273,7 @@
 					<width>450</width>
 					<height>61</height>
 					<posx>30</posx>
-					<posy>68</posy>
+					<posy>60</posy>
 					<align>center</align>
 					<font>Font_Bartowski_MainMenu</font>
 					<textcolor>38b8b7b7</textcolor>
@@ -290,7 +290,7 @@
 					<width>600</width>
 					<height>341</height>
 					<posx>160</posx>
-					<posy>60</posy>
+					<posy>52</posy>
 					<align>center</align>
 					<font>Font_Bartowski_MainMenu_Focus</font>
 					<textcolor>ffffffff</textcolor>
@@ -523,7 +523,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -537,7 +537,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -594,7 +594,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -608,7 +608,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -685,7 +685,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -699,7 +699,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -761,7 +761,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -775,7 +775,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -909,7 +909,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -923,7 +923,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1001,7 +1001,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>100</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1015,7 +1015,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>100</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1059,7 +1059,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1073,7 +1073,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1185,7 +1185,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1199,7 +1199,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1256,7 +1256,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1270,7 +1270,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1347,7 +1347,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1361,7 +1361,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1423,7 +1423,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1437,7 +1437,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1571,7 +1571,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1585,7 +1585,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1663,7 +1663,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>100</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1677,7 +1677,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>100</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1721,7 +1721,7 @@
 					<itemlayout width="320" height="245">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
@@ -1735,7 +1735,7 @@
 					<focusedlayout width="320" height="515">
 						<control type="group">	
 							<posx>20</posx>
-							<posy>0</posy>
+							<posy>-5</posy>
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
