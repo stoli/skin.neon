@@ -335,8 +335,7 @@
 				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
 			</control>
 		<include name="Poster_Next_Aired">
-	</control>
-	
+	</control>	
 		<control type="scrollbar" id="5930">
 			<include>Animation_ZoomInZoomOut</include>
 			<posx>100</posx>
