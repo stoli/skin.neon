@@ -207,7 +207,7 @@
 				</control>	
 				<control type="button" id="21">
 					<include>WindowMenuButton</include>
-					<label>29800</label>
+					<label>744</label>
 					<onclick>ReplaceWindow(VideoLibrary)</onclick>
 				</control>
 			</control>

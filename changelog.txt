@@ -1,2 +1,8 @@
 Update 11/26/2010
  v.5 Initial Submission to Addons
+11/26.2010
+ v.5.1
+- Updated skin menu bar so all items are the current selection.  Before some items displayed the current seting
+  and others displayed the next option if toggled/selected.
+
+- 
