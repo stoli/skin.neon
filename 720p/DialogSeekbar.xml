@@ -206,7 +206,7 @@
 			<control type="label">
 				<posx>10</posx>
 				<posy>-565</posy>
-				<label>$LOCALIZE[31075]: [COLOR=red]$INFO[Player.FinishTime][/COLOR]</label>
+				<label>$LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
 				<textcolor>white</textcolor>
 				<font>Font_RSS_Unicode</font>
 				<visible>Skin.HasSetting(library_global_clock)</visible>

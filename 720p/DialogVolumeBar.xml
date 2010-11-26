@@ -1,69 +1,53 @@
-﻿<window id="104">
+﻿<!--Alaska-->
+<window id="104">
+	<animation type="WindowOpen" reversible="false">
+	<!--	<effect type="zoom" start="80" end="100" center="1580,125" delay="200" easing="out" tween="back" time="300" /> -->
+		<effect type="fade" delay="200" start="0" end="100" time="300" />
+	</animation>
+	<animation type="WindowClose" reversible="false">
+	<!--	<effect type="zoom" start="100" end="80" center="1580,125" easing="in" tween="back" time="300" /> -->
+		<effect type="fade" start="100" end="0" time="300" />
+	</animation>
 	<controls>
 		<control type="group">
-			<include>Animation_CommonFade</include>
+			<posx>900</posx>
+			<posy>90</posy>
+			<width>707</width>
+			<height>183</height>
 			<control type="group">
-				<visible>!player.passthrough</visible>
-				<control type="group">
-					<posx>1150</posx>
-					<posy>80</posy>
-					<control type="image">
-						<texture>volume/vol1.png</texture>
-						<visible>IntegerGreaterThan(player.volume,-61)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/vol2.png</texture>
-						<visible>IntegerGreaterThan(player.volume,-50)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/vol3.png</texture>
-						<visible>IntegerGreaterThan(player.volume,-40)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/vol4.png</texture>
-						<visible>IntegerGreaterThan(player.volume,-30)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/vol5.png</texture>
-						<visible>IntegerGreaterThan(player.volume,-20)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/vol6.png</texture>
-						<visible>IntegerGreaterThan(player.volume,-10)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/vol7.png</texture>
-						<visible>IntegerGreaterThan(player.volume,-1)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/mute.png</texture>
-						<posy>20</posy>
-						<posx>20</posx>
-						<visible>!IntegerGreaterThan(player.volume,-59)</visible>
-					</control>
-					<control type="image">
-						<texture>volume/volume.png</texture>
-						<posy>20</posy>
-						<posx>20</posx>
-						<visible>IntegerGreaterThan(player.volume,-59)</visible>
-					</control>
+				<control type="image">
+					<posx>330</posx>
+					<posy>-30</posy>
+					<width>47</width>
+					<height>340</height>
+					<texture>volume_background.png</texture>
 				</control>
-			</control>
-			<control type="group">
-				<visible>player.passthrough</visible>
-				<control type="label">
-					<posx>460</posx>
-					<posy>0</posy>
-					<width>810</width>
-					<height>38</height>
-					<font>Font_Bartowski_Digital_Clock</font>
-					<textcolor>mainblue</textcolor>
-					<align>left</align>
-					<aligny>center</aligny>
-					<label>$LOCALIZE[29802]</label>
+				<control type="image">
+					<posx>337</posx>
+					<posy>250</posy>
+					<width>35</width>
+					<height>35</height>
+					<texture>VolumeIcon.png</texture>
 				</control>
+				<control type="progress" id="1">
+					<description>Progressbar</description>
+					<posx>218</posx>
+					<posy>113</posy>
+					<width>240</width>
+					<height>20</height>
+					<info>Player.Volume</info>
+					<lefttexture>-</lefttexture>
+					<midtexture>dialogs/osd_volume.png</midtexture>
+					<righttexture>-</righttexture>
+					<overlaytexture>-</overlaytexture>
+					<visible>true</visible>
+					<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+				</control>
+
+			
+				
 			</control>
 		</control>
-		<include condition="Skin.HasSetting(debugmode)">Debug</include>
+		
 	</controls>
 </window>
