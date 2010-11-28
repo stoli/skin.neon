@@ -195,27 +195,14 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
 							<effect type="fade" start="0" end="100" time="600" />
-							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="100" end="0" time="600" delay="2050" />
 							
 						</animation>
 					</control>
-					<!-- <control type="image">
-						<posx>48</posx>
-						<posy>378</posy>
-						<width>48</width>
-						<height>304</height>
-						<texture>movie-poster/test2.png</texture>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="zoom" center="60,238" start="100" end="150" time="600" delay="2100"tween="back" easing="out" />
-							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
-							<effect type="fade" start="0" end="800" time="800" />
-						</animation>
-					</control> -->
+	
 					<control type="image">
 						<posx>-148</posx>
 						<posy>90</posy>
@@ -226,7 +213,7 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
@@ -241,7 +228,7 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
@@ -256,7 +243,7 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
@@ -298,7 +285,7 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="0" end="30" time="600" />
@@ -315,7 +302,7 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000"tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="0" end="70" time="600" />

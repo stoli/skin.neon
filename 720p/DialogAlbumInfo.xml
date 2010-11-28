@@ -411,7 +411,7 @@
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>[B][COLOR=blue][/B]$LOCALIZE[21821][/COLOR]$INFO[Container(4).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(4).NumPages,/, )]</label>
+					<label>[B][COLOR=mainblue][/B]$LOCALIZE[21821][/COLOR]$INFO[Container(4).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(4).NumPages,/, )]</label>
 					<visible>Control.IsVisible(4)</visible>
 				</control>
 				<control type="label">
@@ -425,7 +425,7 @@
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>[B][COLOR=blue][/B]$LOCALIZE[182][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
+					<label>[B][COLOR=mainblue][/B]$LOCALIZE[182][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
 					<visible>Control.IsVisible(50) + Container.Content(Albums)</visible>
 				</control>
 				<control type="label">
@@ -439,7 +439,7 @@
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>[B][COLOR=blue][/B]$LOCALIZE[132][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
+					<label>[B][COLOR=mainblue][/B]$LOCALIZE[132][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
 					<visible>Control.IsVisible(50) + Container.Content(Artists)</visible>
 				</control>
 				<control type="spincontrol" id="61">

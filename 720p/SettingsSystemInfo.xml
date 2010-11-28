@@ -322,19 +322,7 @@
 			<posy>0</posy>
 			<animation effect="slide" end="-310,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
 			<animation effect="slide" start="-310,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
-			<!-- <control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>250</width>
-				<height>35</height>
-				<texture border="0,0,32,0">header.png</texture>
-			</control>
-			<control type="label">
-				<include>WindowTitleCommons</include>
-				<posx>220</posx>
-				<label>$LOCALIZE[130]</label>
-			</control>
-		</control> -->
+		</control>
 		<control type="group">
 			<posx>20</posx>
 			<posy>0</posy>

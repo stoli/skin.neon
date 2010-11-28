@@ -23,29 +23,13 @@
 				<texture>DialogBack.png</texture>
 				<!--<texture>list/file-black-background1.png</texture>-->
 			</control>
-			<!-- <control type="image"><!-- Floor -->
-			<!-- <posx>0</posx>
-				<posy>650</posy>
-				<width>1280</width>
-				<height>70</height>
-				<texture>notification_background.png</texture>
-				<animation effect="slide" start="0,200" end="0,0" time="400" >WindowOpen</animation>
-				<animation effect="slide" start="0,0" end="0,200" time="400" >WindowClose</animation>
-				<visible>!Skin.HasSetting(LockViews)</visible>
-			</control> -->
+	
 		</control>
 		<control type="group">
 			<visible>!Window.IsVisible(FileBrowser)</visible>
 			<animation effect="fade" start="0" end="100" time="600" >WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="600" delay="200" >WindowClose</animation>
-			<!-- <control type="image">
-				<posx>98</posx>
-				<posy>58</posy>
-				<width>790</width>
-				<height>560</height>
-				<texture border="5">black-back2.png</texture>
-			</control> -->
-			
+	
 			<control type="group">
 				<animation effect="fade" delay="400" start="0" end="100" time="200">WindowOpen</animation>
 				<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
@@ -62,18 +46,7 @@
 					<textcolor>mainblue</textcolor>
 					<visible>Container.Content(movies) | Container.Content(videos) | Container.Content(music)] + !Control.HasFocus(12) </visible>
 				</control>
-				<!-- <control type="label">
-					<description>header label</description>
-					<posx>110</posx>
-					<posy>80</posy>
-					<width>700</width>
-					<height>30</height>
-					<font>Font_Bartowski_MainMenu_Context</font>
-					<label>[B]$INFO[Listitem.Title][/B]</label>
-					<align>center</align>
-					<aligny>center</aligny>
-					<textcolor>mainblue</textcolor>
-				</control> -->
+
 				<control type="label">
 					<posx>110</posx>
 					<posy>116</posy>
@@ -118,18 +91,7 @@
 					</control>
 					<control type="group">
 						<visible>IsEmpty(Listitem.Property(Fanart_Image))</visible>
-						<!--<control type="image">
-							<description>No Fanart Back</description>
-							<posx>0</posx>
-							<posy>0</posy>
-							<width>675</width>
-							<height>380</height>
-							<texture>Fanart_Fallback_Small.jpg</texture>
-							<bordertexture border="5">button-nofocus.png</bordertexture>
-							<bordersize>4</bordersize>
-							<aspectratio>stretch</aspectratio>
-							<colordiffuse>99FFFFFF</colordiffuse>
-						</control>-->
+
 						<control type="label">
 							<posx>0</posx>
 							<posy>0</posy>
@@ -163,43 +125,7 @@
 						<autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 						<!-- <animation effect="slide" end="-1200,0" time="200" delay="200" condition="Control.IsVisible(50)">conditional</animation> -->
 					</control>
-					<!-- <control type="group">
-					<posy>160</posy>
-						<control type="largeimage" id="9170">
-							<posx>710</posx>
-							<posy>30</posy>
-							<width>261</width>
-							<height>147</height>
-							<aspectratio>stretch</aspectratio>
-							<texture diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Path,,extrathumbs/thumb1.jpg]</texture>
-							<fadetime>200</fadetime>
-						</control>
-						<control type="image">
-							<posx>698</posx>
-							<posy>20</posy>
-							<width>284</width>
-							<height>166</height>
-							<texture>tv-landscape/landscapeframeFO.png</texture>
-							<visible>!IsEmpty(Control.GetLabel(9170))</visible>
-						</control>
-						<control type="largeimage" id="9171">
-							<posx>710</posx>
-							<posy>200</posy>
-							<width>261</width>
-							<height>147</height>
-							<aspectratio>stretch</aspectratio>
-							<texture diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Path,,extrathumbs/thumb2.jpg]</texture>
-							<fadetime>200</fadetime>
-						</control>
-						<control type="image">
-							<posx>698</posx>
-							<posy>190</posy>
-							<width>284</width>
-							<height>166</height>
-							<texture>tv-landscape/landscapeframeFO.png</texture>
-							<visible>!IsEmpty(Control.GetLabel(9171))</visible>
-						</control>
-					</control>  -->
+
 					<control type="group">
 					<posx>730</posx>
 					<posy>120</posy>
@@ -371,18 +297,7 @@
 								<onclick>-</onclick>
 								<visible>!IsEmpty(ListItem.RatingAndVotes)</visible>
 							</item>
-							<!-- <item>
-								<label>$LOCALIZE[202]:</label>
-								<label2>$INFO[ListItem.TagLine]</label2>
-								<onclick>-</onclick>
-								<visible>!IsEmpty(ListItem.TagLine)</visible>
-							</item>
-							<item>
-								<label>$LOCALIZE[203]:</label>
-								<label2>$INFO[ListItem.PlotOutline]</label2>
-								<onclick>-</onclick>
-								<visible>!IsEmpty(ListItem.PlotOutline)</visible>
-							</item>-->
+
 							<item>
 								<label>$LOCALIZE[20074]:</label>
 								<label2>$INFO[ListItem.mpaa]</label2>
@@ -601,16 +516,7 @@
 						<bordersize>4</bordersize>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
-					<!-- <control type="image">
-						<posx>0</posx>
-						<posy>250</posy>
-						<width>380</width>
-						<height>250</height>
-						<aspectratio aligny="top">keep</aspectratio>
-						<bordertexture border="5"  flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
-						<bordersize>4</bordersize>
-						<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
-					</control>-->
+
 					<control type="list" id="49">
 						<posx>240</posx>
 						<posy>20</posy>
@@ -901,22 +807,7 @@
 					</control>
 					
 				</control>
-				<!-- JVB Removed lable for "Plot" 
-					<control type="label">
-					<description>Plot label</description>
-					<posx>10</posx>
-					<posy>480</posy>
-					<width>600</width>
-					<height>30</height>
-					<font>Font_Bartowski_Showcase_Title</font>
-					<label>Plot</label>
-					<align>center</align>
-					<aligny>center</aligny>
-					<textcolor>mainblue</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<animation effect="slide" start="0,0" end="0,700" time="200" delay="100" condition="Control.IsVisible(50)">conditional</animation>
-					<visible>!container.content(movies)</visible>
-				</control> -->
+
 			
 				<control type="textbox" id="400">
 					<description>Description Value for Movies</description>
@@ -965,7 +856,6 @@
 					<scrolltime>200</scrolltime>
 					<orientation>vertical</orientation>
 					<visible>!Control.HasFocus(12)</visible>
-					<!-- JVB <animation effect="slide" start="0,700" end="0,0" time="400" delay="300" condition="Control.IsVisible(50)">conditional</animation> -->
 					<animation effect="fade" start="0" end="90" time="600" >WindowOpen</animation>
 					<animation effect="fade" start="90" end="0" time="600" delay="200" >WindowClose</animation>
 					<itemlayout height="40" width="430">
@@ -1052,15 +942,6 @@
 						<label>$LOCALIZE[20410]</label>
 						<visible>!IsEmpty(ListItem.Trailer)</visible>
 					</control>
-					<!--<control type="button" id="13">
-						<description>Play Trailer</description>
-						<include>ButtonInfoDialogsCommonValues</include>
-						<label>$LOCALIZE[31212]</label>
-						<onclick>Playlist.Clear</onclick>
-						<onclick>Dialog.Close(MovieInformation)</onclick>
-						<onclick>RunScript(special://home/scripts/Home Theater Experience/default.py)</onclick>
-						<visible>Skin.HasSetting(hometheater) + Container.Content(movies)</visible>
-					</control>-->
 					<control type="button" id="14">
 						<description>Play Trailer</description>
 						<include>ButtonInfoDialogsCommonValues</include>

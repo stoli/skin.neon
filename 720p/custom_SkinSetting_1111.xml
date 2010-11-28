@@ -872,7 +872,7 @@
 							<item id="6">
 								<label>247</label>
 								<onclick>-</onclick>
-								<icon>backgrounds/scripts.jpg</icon>
+								<icon>backgrounds/addons.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Scripts_Folder)]</thumb>
 							</item>
 							<item id="18">

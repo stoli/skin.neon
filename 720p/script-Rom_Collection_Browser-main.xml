@@ -116,6 +116,7 @@
 					<width>930</width>
 					<height>121</height>
 					<texture>list/highlight.png</texture>
+					<colordiffuse>highlight_selection</colordiffuse>
 					<animation type="Focus" reversible="false">
 						<effect type="fade" start="0" end="70" time="800" />
 					</animation>
@@ -127,7 +128,7 @@
 					<height>46</height>
 					<aligny>center</aligny>
 					<font>Font_Bartowski_Episode_ContextMenu</font>
-					<textcolor>ffffffff</textcolor>
+					<textcolor>white</textcolor>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 			</focusedlayout>
@@ -387,7 +388,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_RSS_Big</font>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<label>$INFO[ListItem.Property(console)]</label>
 			</control>
 			<control type="label"><!--Year-->
@@ -397,7 +398,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_RSS_Big</font>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<label>$INFO[ListItem.Property(year)]</label>
 			</control>
 		</control>
@@ -526,7 +527,7 @@
 						<height>50</height>
 						<aligny>center</aligny>
 						<font>Font_RSS_Big</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Property(console)]</label>
 					</control>
 					<control type="label"><!--Year-->
@@ -536,7 +537,7 @@
 						<height>50</height>
 						<aligny>center</aligny>
 						<font>Font_RSS_Big</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Property(year)]</label>
 					</control>
 				</control>
@@ -554,7 +555,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label>Genre</label>
 						</control>
 						<control type="label"><!--Director-->
@@ -563,7 +564,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Under</font>
-							<textcolor>ffffffff</textcolor>
+							<textcolor>white</textcolor>
 							<label fallback="Not Available">$INFO[ListItem.Property(genre)]</label>
 						</control>
 						<control type="label">
@@ -572,7 +573,7 @@
 							<width>390</width>
 							<height>10</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label></label>
 						</control>
 						<control type="label"><!--Writer-->
@@ -581,7 +582,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainblue2</textcolor>
 							<label>Publisher</label>
 						</control>
 						<control type="label"><!--Writer-->
@@ -590,7 +591,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Under</font>
-							<textcolor>ffffffff</textcolor>
+							<textcolor>white</textcolor>
 							<label fallback="Not Available">$INFO[ListItem.Property(publisher)]</label>
 						</control>
 						<control type="label"><!--Director-->
@@ -599,7 +600,7 @@
 							<width>390</width>
 							<height>10</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label></label>
 						</control>
 						<control type="label"><!--Genre-->
@@ -608,7 +609,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label>Developer</label>
 						</control>
 						<control type="label"><!--Genre-->
@@ -617,7 +618,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Under</font>
-							<textcolor>ffffffff</textcolor>
+							<textcolor>white</textcolor>
 							<label fallback="Not Available">$INFO[ListItem.Property(developer)]</label>
 						</control>
 						<control type="label"><!--Director-->
@@ -626,7 +627,7 @@
 							<width>390</width>
 							<height>10</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label></label>
 						</control>
 						<control type="label"><!--Rating-->
@@ -635,7 +636,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label>$LOCALIZE[563]</label>
 						</control>
 						<control type="label"><!--Rating-->
@@ -644,7 +645,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Under</font>
-							<textcolor>ffffffff</textcolor>
+							<textcolor>white</textcolor>
 							<label fallback="Not Available">$INFO[ListItem.Property(rating)]</label>
 						</control>
 						<control type="label"><!--Director-->
@@ -653,7 +654,7 @@
 							<width>390</width>
 							<height>10</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label></label>
 						</control>
 						<control type="label"><!--Studio-->
@@ -662,7 +663,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Main</font>
-							<textcolor>ff15efd9</textcolor>
+							<textcolor>mainbluedarker</textcolor>
 							<label>Players</label>
 						</control>
 						<control type="label"><!--Rating-->
@@ -671,7 +672,7 @@
 							<width>390</width>
 							<height>24</height>
 							<font>Font_Bartowski_Showcase_Right_Under</font>
-							<textcolor>ffffffff</textcolor>
+							<textcolor>white</textcolor>
 							<label fallback="Not Available">$INFO[ListItem.Property(maxplayers)]</label>
 						</control>
 				</control>
@@ -684,7 +685,7 @@
 						<width>540</width>
 						<height>336</height>
 						<font>Font_Bartowski_Showcase_plot</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Property(plot)]</label>
 						<align>justify</align>
 						<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
@@ -897,7 +898,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_RSS_Big</font>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<label>$INFO[ListItem.Property(console)]</label>
 			</control>
 			<control type="label"><!--Year-->
@@ -907,7 +908,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_RSS_Big</font>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<label>$INFO[ListItem.Property(year)]</label>
 			</control>
 		</control>
@@ -922,7 +923,7 @@
 		<!-- filter controls -->
 		<control type="group" id="100">		
 			<animation effect="slide" start="0,0" end="0,0" delay="0" time="400" tween="quadratic" easing="out" condition="ControlGroup(100).HasFocus">Conditional</animation>
-			<animation effect="slide" start="0,0" end="0,-200" delay="0"time="400" tween="quadratic" easing="out" condition="!ControlGroup(100).HasFocus">Conditional</animation>
+			<animation effect="slide" start="0,0" end="0,-200" delay="0" time="400" tween="quadratic" easing="out" condition="!ControlGroup(100).HasFocus">Conditional</animation>
 			<!--<visible allowhiddenfocus="true">Control.HasFocus(500) | Control.HasFocus(600) | Control.HasFocus(700) | Control.HasFocus(800)</visible>-->
 			<control type="image">
 				<animation effect="zoom" start="0,0,720,1" end="0,0,720,180" time="300" tween="quadratic" easing="out" condition="ControlGroup(100).HasFocus">Conditional</animation>
@@ -932,7 +933,7 @@
 				<width>720</width>
 				<height>160</height>
 				<texture flipy="true">confluence/InfoMessagePanel2.png</texture>
-				<colordiffuse>FFFFFFFF</colordiffuse>
+				<colordiffuse>white</colordiffuse>
 			</control>
 			<!-- Console filter -->
 			<control type="label">
@@ -1310,30 +1311,30 @@
 		
 		<!-- Button group -->
 		<control type="group" id="400">
+			<posx>0</posx>
+			<posy>150</posy>
 			<animation effect="slide" start="0,500" end="0,500" delay="0" time="400" tween="quadratic" easing="out" condition="ControlGroup(400).HasFocus">Conditional</animation>
-			<animation effect="slide" start="0,0" end="0,800" delay="0"time="400" tween="quadratic" easing="out" condition="!ControlGroup(400).HasFocus">Conditional</animation>
+			<animation effect="slide" start="0,0" end="0,800" delay="0" time="400" tween="quadratic" easing="out" condition="!ControlGroup(400).HasFocus">Conditional</animation>
 			<control type="image">
-				<animation effect="zoom" start="0,500,620,1" end="0,500,720,80" time="300" tween="quadratic" easing="out" condition="ControlGroup(400).HasFocus">Conditional</animation>
-				<description>filter background image</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>720</width>
-				<height>80</height>
-				<texture>script_rom_browser/rcb-Blade-Lower.png</texture>
-				<colordiffuse>90FFFFFF</colordiffuse>				
+				<width>1280</width>
+				<height>70</height>
+				<texture>backdrops/test2.png</texture>
+				<visible></visible>				
 			</control>
 			<control type="button" id="3000"> 
 				<description>Import Settings</description>
-				<posx>50</posx>
+				<posx>160</posx>
 				<posy>25</posy>
-				<width>100</width>
+				<width>300</width>
 				<height>30</height>
 				<visible>true</visible>
 				<colordiffuse>DDFFFFFF</colordiffuse>
 				<texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
-				<texturenofocus>script_rom_browser/rcb-button-nofocus.png</texturenofocus>
 				<label>Import Settings</label>				
-				<textcolor>DDFFFFFF</textcolor>
+				<textcolor>black</textcolor>
+				<focusedcolor>white</focusedcolor>
 				<disabledcolor>80FFFFFF</disabledcolor>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -1347,16 +1348,16 @@
 			</control>
 			<control type="button" id="3100"> 
 				<description>Import Games</description>
-				<posx>175</posx>
+				<posx>460</posx>
 				<posy>25</posy>
-				<width>100</width>
+				<width>300</width>
 				<height>30</height>
 				<visible>true</visible>
 				<colordiffuse>DDFFFFFF</colordiffuse>
 				<texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
-				<texturenofocus>script_rom_browser/rcb-button-nofocus.png</texturenofocus>
 				<label>Import Games</label>				
-				<textcolor>DDFFFFFF</textcolor>
+				<textcolor>black</textcolor>
+				<focusedcolor>white</focusedcolor>
 				<disabledcolor>80FFFFFF</disabledcolor>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -1370,16 +1371,16 @@
 			</control>
 			<control type="button" id="2"> 
 				<description>Change View</description>
-				<posx>300</posx>
+				<posx>760</posx>
 				<posy>25</posy>
-				<width>100</width>
+				<width>300</width>
 				<height>30</height>
 				<visible>true</visible>
 				<colordiffuse>DDFFFFFF</colordiffuse>
 				<texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
-				<texturenofocus>script_rom_browser/rcb-button-nofocus.png</texturenofocus>
 				<label>Change View</label>			
-				<textcolor>DDFFFFFF</textcolor>
+				<textcolor>black</textcolor>
+				<focusedcolor>white</focusedcolor>
 				<disabledcolor>80FFFFFF</disabledcolor>
 				<align>center</align>
 				<aligny>center</aligny>

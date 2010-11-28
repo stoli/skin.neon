@@ -81,7 +81,6 @@
 								<effect type="zoom" start="70" end="130" center="auto" tween="back" easing="out" time="500" />
 								<effect type="slide" start="0,0" end="0,-18" time="0" />
 							</animation>
-							<!--<colordiffuse>39FFFFFF</colordiffuse>-->
 						</control>
 					</focusedlayout>
 					<content>
@@ -598,7 +597,6 @@
 							<width>113</width>
 							<height>164</height>
 							<texture>posterframeF.png</texture>
-							<!--<colordiffuse>39FFFFFF</colordiffuse>-->
 						</control>
 					</itemlayout>
 					<focusedlayout width="110" height="160">
@@ -705,26 +703,8 @@
 				<posx>275r</posx>
 				<posy>260</posy>
 				<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(5) + Skin.HasSetting(horizontal_bottom_align)</visible>
-				<!--<animation effect="fade start="0" end="100" time="200" delay="1400" condition="Container(301).HasFocus(5)">Conditional</animation>>
-				<animation effect="fade start="0" end="100" time="200" delay="1400" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation> -->
 				<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
-				<!--<animation effect="slide" start="500,0" end="0,0" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
-				<!--<animation effect="slide" time="0" start="0,0" end="0,-20" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>-->
 				<animation effect="fade" start="100" end="0" time="200" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
-			<!--	<control type="label">
-					<visible>!Skin.HasSetting(horizontal_home)</visible>
-					<description>Title label</description>
-					<posx>260</posx>
-					<posy>286</posy>
-					<height>20</height>
-					<width>230</width>
-					<label>31324</label>
-					<align>right</align>
-					<aligny>center</aligny>
-					<font>Font_KeyboardKeys</font>
-					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
-				</control>  -->
 				<control type="group">
 					<control type="image">
 						<posx>-40</posx>
@@ -937,26 +917,8 @@
 				<posx>275r</posx>
 				<posy>160</posy>
 				<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(5) + !Skin.HasSetting(horizontal_bottom_align)</visible>
-				<!--<animation effect="fade start="0" end="100" time="200" delay="1400" condition="Container(301).HasFocus(5)">Conditional</animation>>
-				<animation effect="fade start="0" end="100" time="200" delay="1400" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation> -->
 				<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
-				<!--<animation effect="slide" start="500,0" end="0,0" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
-				<!--<animation effect="slide" time="0" start="0,0" end="0,-20" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>-->
 				<animation effect="fade" start="100" end="0" time="200" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
-			<!--	<control type="label">
-					<visible>!Skin.HasSetting(horizontal_home)</visible>
-					<description>Title label</description>
-					<posx>260</posx>
-					<posy>286</posy>
-					<height>20</height>
-					<width>230</width>
-					<label>31324</label>
-					<align>right</align>
-					<aligny>center</aligny>
-					<font>Font_KeyboardKeys</font>
-					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
-				</control> -->
 				<control type="group">
 					<control type="image">
 						<posx>-40</posx>

@@ -282,58 +282,58 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-			<!--	<control type="group">
+				<control type="group">
 					<posx>1260</posx>
-					<posy>46</posy>
+					<posy>26</posy>
 					<control type="label">
 						<description>Programs</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[0][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[0][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName)</visible>
+						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Scripts</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[247]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[247]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(20) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(20) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Movies</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[342][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[342][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$INFO[Container.PluginName][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[40157][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
+						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20343][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20343][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20373][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20373][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20360][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20360][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> -->
+			</control> 
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_Music">
@@ -368,46 +368,46 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-			<!--	<control type="group">
+				<control type="group">
 					<posx>1260</posx>
-					<posy>46</posy>
+					<posy>26</posy>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$INFO[Container.PluginName][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[40157][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
+						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[132][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[132][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(albums)</visible>
+						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(albums) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[134][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[134][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(songs)</visible>
+						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(songs) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[2][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[2][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
+						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Video</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[3][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[3][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> -->
+			</control> 
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_Files">
@@ -442,86 +442,86 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-			<!--	<control type="group">
+				<control type="group">
 					<posx>1260</posx>
-					<posy>46</posy>
+					<posy>26</posy>
 					<control type="label">
 						<description>Programs</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[0][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[0][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName)</visible>
+						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Scripts</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[247]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[247]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(20) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(20) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Movies</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[342][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[342][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$INFO[Container.PluginName][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[40157][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
+						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Pictures</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[1][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[1][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(2007) | [Window.IsActive(2) + ![substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]]] + !Window.IsActive(134)</visible>
+						<visible>[Window.IsActive(2007) | [Window.IsActive(2) + ![substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]]] + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20343][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20343][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20373][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20373][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]AddonBrowser[/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]AddonBrowser[/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(addonbrowser)</visible>
+						<visible>Window.IsActive(addonbrowser) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[2][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[2][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
+						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Video</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[3][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[3][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-					<!--<control type="label">
+					<control type="label">
 						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingDetailVars</include>
-						<visible>!Container.Content(episodes) + !Window.IsActive(134)</visible>
+						<visible>!Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[20373] $INFO[ListItem.Season] - $INFO[Container.NumItems] $LOCALIZE[20360]</label>
 						<include>Global_HeadingDetailVars</include>
-						<visible>Container.Content(episodes) + !Window.IsActive(134)</visible>
+						<visible>Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> -->
+			</control> 
 		</control>
 	</include>
 	<include name="Global_Time_LowerRight">
@@ -557,58 +557,58 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-			<!--	<control type="group">
+				<control type="group">
 					<posx>1260</posx>
-					<posy>46</posy>
+					<posy>26</posy>
 					<control type="label">
 						<description>Programs</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[0][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[0][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName)</visible>
+						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Scripts</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[247]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[247]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(20) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(20) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Movies</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[342][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[342][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$INFO[Container.PluginName][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[40157][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
+						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20343][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20343][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20373][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20373][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
 						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[20360][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20360][/COLOR]</label>
 						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> -->
+			</control> 
 		</control>
 	</include>
 	<include name="Global_Time_LowerLeft">
@@ -644,47 +644,47 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-			<!--	<control type="group">
+				<control type="group">
 					<posx>10</posx>
 					<posy>46</posy>
 					<control type="label">
 						<description>Movies</description>
-						<label>[COLOR=blue][B]$LOCALIZE[342][/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[342][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [Control.IsVisible(51) | Control.IsVisible(57) | Control.IsVisible(592)]</visible>
+						<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(videolibrary) + [Control.IsVisible(51) | Control.IsVisible(57) | Control.IsVisible(592)] + !Player.HasMedia</visible>
 
 					</control>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>[COLOR=blue][B]$INFO[Container.PluginName][/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$INFO[Container.PluginName][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Plugins</description>
-						<label>[COLOR=blue][B]$LOCALIZE[40157][/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[40157][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
+						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>[COLOR=blue][B]$LOCALIZE[20343][/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[20343][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>[COLOR=blue][B]$LOCALIZE[20373][/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[20373][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Tv Shows</description>
-						<label>[COLOR=blue][B]$LOCALIZE[20360][/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[20360][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
+						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> -->
+			</control> 
 		</control>
 	</include>
 	<include name="Global_Time_LowerLeft_music">
@@ -720,46 +720,46 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-			<!--	<control type="group">
+				<control type="group">
 					<posx>10</posx>
-					<posy>46</posy>
+					<posy>26</posy>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$INFO[Container.PluginName][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[40157][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
+						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[132][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[132][/COLOR]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(albums)</visible>
+						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(albums) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[134][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[134][/COLOR]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(songs)</visible>
+						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(songs) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[2][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[2][/COLOR]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
+						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins) + !Player.HasMedia</visible>
 					</control>
 					<control type="label">
 						<description>Video</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=blue][B]$LOCALIZE[3][/COLOR][/B]</label>
+						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[3][/COLOR]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> -->
+			</control> 
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_OSD">

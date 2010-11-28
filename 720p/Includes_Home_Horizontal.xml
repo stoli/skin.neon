@@ -55,7 +55,7 @@
 				<item id="1">
 					<description>music</description>
 					<label>2</label>
-					<icon>special://skin/backgrounds/music.jpg</icon>
+					<icon>special://skin/media/backgrounds/music.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMusicFolder)]</thumb>
 					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
@@ -63,7 +63,7 @@
 				<item id="2">
 					<description>Videos</description>
 					<label>$LOCALIZE[10006]</label>
-					<icon>special://skin/backgrounds/videos.jpg</icon>
+					<icon>special://skin/media/backgrounds/videos.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomVideosFolder)]</thumb>
 					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
@@ -71,7 +71,7 @@
 				<item id="3">
 					<description>movies</description>
 					<label>$LOCALIZE[20342]</label>
-					<icon>special://skin/backgrounds/movies.jpg</icon>
+					<icon>special://skin/media/backgrounds/movies.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMoviesFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMoviesButton) + Library.HasContent(Movies)</visible>
@@ -79,7 +79,7 @@
 				<item id="4">
 					<description>movies</description>
 					<label>$LOCALIZE[31280]</label>
-					<icon>special://skin/backgrounds/HDmovies.jpg</icon>
+					<icon>special://skin/media/backgrounds/HDmovies.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomHDMoviesFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(10025,special://skin/playlists/HDMovies.xsp,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoHDMoviesButton) + Library.HasContent(Movies)</visible>
@@ -87,7 +87,7 @@
 				<item id="5">
 					<description>TV shows</description>
 					<label>$LOCALIZE[31004]</label>
-					<icon>special://skin/backgrounds/tvshows.jpg</icon>
+					<icon>special://skin/media/backgrounds/tvshows.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomTVShowsFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoTVShowsButton) + Library.HasContent(TVShows)</visible>
@@ -95,7 +95,7 @@
 				<item id="21">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom6_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom6_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom6_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom6)</visible>
@@ -103,7 +103,7 @@
 				<item id="22">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom7_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom7_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom7_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom7)</visible>
@@ -111,7 +111,7 @@
 				<item id="23">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom8_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom8)</visible>
@@ -119,7 +119,7 @@
 				<item id="24">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom9_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom9)</visible>
@@ -127,7 +127,7 @@
 				<item id="25">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom10_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom10)</visible>
@@ -135,7 +135,7 @@
 				<item id="15">
 					<description>Custom Movie One</description>
 					<label>$INFO[Skin.String(Menu_Custom1_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom1_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom1_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom1)</visible>
@@ -143,7 +143,7 @@
 				<item id="16">
 					<description>Custom Movie Two</description>
 					<label>$INFO[Skin.String(Menu_Custom2_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom2_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom2_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom2)</visible>
@@ -151,7 +151,7 @@
 				<item id="17">
 					<description>Custom Movie Three</description>
 					<label>$INFO[Skin.String(Menu_Custom3_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom3_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom3_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom3)</visible>
@@ -159,7 +159,7 @@
 				<item id="19">
 					<description>Custom Movie Four</description>
 					<label>$INFO[Skin.String(Menu_Custom4_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom4_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom4_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom4)</visible>
@@ -167,7 +167,7 @@
 				<item id="20">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom5_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom5_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom5_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom5)</visible>
@@ -175,7 +175,7 @@
 				<item id="6">
 					<description>pictures</description>
 					<label>1</label>
-					<icon>special://skin/backgrounds/pictures.jpg</icon>
+					<icon>special://skin/media/backgrounds/pictures.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomPicturesFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
@@ -191,7 +191,7 @@
 				<item id="10">
 					<description>Addons</description>
 					<label>$LOCALIZE[31272]</label>
-					<icon>special://skin/backgrounds/scripts.jpg</icon>
+					<icon>special://skin/media/backgrounds/addons.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomScriptsFolder)]</thumb>	
 					<onclick>ActivateWindow(Programs,Addons,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoScriptsButton)</visible>
@@ -199,7 +199,7 @@
 				<item id="18">
 					<description>favourites</description>
 					<label>$LOCALIZE[1036]</label>
-					<icon>special://skin/backgrounds/favourites.png</icon>
+					<icon>special://skin/media/backgrounds/favourites.png</icon>
 					<thumb>$INFO[Skin.String(CustomfavouritesFolder)]</thumb>	
 					<onclick>XBMC.ActivateWindow(favourites)</onclick>
 					<visible>Skin.HasSetting(HomeMenuNofavouritesButton)</visible>
@@ -223,7 +223,7 @@
 				<item id="9">
 					<description>settings</description>
 					<label>5</label>
-					<icon>special://skin/backgrounds/settings.jpg</icon>
+					<icon>special://skin/media/backgrounds/settings.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomSettingsFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(settings)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoSettingsButton)</visible>
@@ -236,13 +236,13 @@
 				</item>-->	
 				<item id="13">
 					<label>13005</label>
-					<icon>special://skin/backgrounds/shutdown.jpg</icon>
+					<icon>special://skin/media/backgrounds/shutdown.jpg</icon>
 					<thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
 					<onclick>XBMC.Shutdown()</onclick>
 					<visible>Skin.HasSetting(HomeMenuNoShutdownButton)</visible>
 				</item>
 				<item id="11">
-					<icon>special://skin/backgrounds/playdisc.jpg</icon>						
+					<icon>special://skin/media/backgrounds/playdisc.jpg</icon>						
 					<label>341</label>
 					<onclick>XBMC.PlayDVD</onclick>
 					<visible>System.HasMediadvd + !Skin.HasSetting(HomeMenuNoPlayDVDButton)</visible>
@@ -303,7 +303,7 @@
 				<item id="1">
 					<description>music</description>
 					<label>2</label>
-					<icon>special://skin/backgrounds/music.jpg</icon>
+					<icon>special://skin/media/backgrounds/music.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMusicFolder)]</thumb>
 					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
@@ -311,7 +311,7 @@
 				<item id="2">
 					<description>Videos</description>
 					<label>$LOCALIZE[10006]</label>
-					<icon>special://skin/backgrounds/videos.jpg</icon>
+					<icon>special://skin/media/backgrounds/videos.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomVideosFolder)]</thumb>
 					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
@@ -319,7 +319,7 @@
 				<item id="3">
 					<description>movies</description>
 					<label>$LOCALIZE[20342]</label>
-					<icon>special://skin/backgrounds/movies.jpg</icon>
+					<icon>special://skin/media/backgrounds/movies.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMoviesFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMoviesButton) + Library.HasContent(Movies)</visible>
@@ -327,7 +327,7 @@
 				<item id="4">
 					<description>movies</description>
 					<label>$LOCALIZE[31280]</label>
-					<icon>special://skin/backgrounds/HDmovies.jpg</icon>
+					<icon>special://skin/media/backgrounds/HDmovies.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomHDMoviesFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(10025,special://skin/playlists/HDMovies.xsp,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoHDMoviesButton) + Library.HasContent(Movies)</visible>
@@ -335,7 +335,7 @@
 				<item id="5">
 					<description>TV shows</description>
 					<label>$LOCALIZE[31004]</label>
-					<icon>special://skin/backgrounds/tvshows.jpg</icon>
+					<icon>special://skin/media/backgrounds/tvshows.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomTVShowsFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoTVShowsButton) + Library.HasContent(TVShows)</visible>
@@ -343,7 +343,7 @@
 				<item id="21">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom6_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom6_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom6_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom6)</visible>
@@ -351,7 +351,7 @@
 				<item id="22">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom7_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom7_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom7_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom7)</visible>
@@ -359,7 +359,7 @@
 				<item id="23">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom8_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom8)</visible>
@@ -367,7 +367,7 @@
 				<item id="24">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom9_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom9)</visible>
@@ -375,7 +375,7 @@
 				<item id="25">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
 					<onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom10_Path)],return)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom10)</visible>
@@ -383,7 +383,7 @@
 				<item id="15">
 					<description>Custom Movie One</description>
 					<label>$INFO[Skin.String(Menu_Custom1_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom1_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom1_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom1)</visible>
@@ -391,7 +391,7 @@
 				<item id="16">
 					<description>Custom Movie Two</description>
 					<label>$INFO[Skin.String(Menu_Custom2_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom2_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom2_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom2)</visible>
@@ -399,7 +399,7 @@
 				<item id="17">
 					<description>Custom Movie Three</description>
 					<label>$INFO[Skin.String(Menu_Custom3_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom3_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom3_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom3)</visible>
@@ -407,7 +407,7 @@
 				<item id="19">
 					<description>Custom Movie Four</description>
 					<label>$INFO[Skin.String(Menu_Custom4_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom4_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom4_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom4)</visible>
@@ -415,7 +415,7 @@
 				<item id="20">
 					<description>Custom Movie Five</description>
 					<label>$INFO[Skin.String(Menu_Custom5_Label)]</label>
-					<icon>special://skin/backgrounds/custom.jpg</icon>
+					<icon>special://skin/media/backgrounds/custom.jpg</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom5_Folder)]</thumb>
 					<onclick>$INFO[Skin.String(Menu_Custom5_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom5)</visible>
@@ -423,7 +423,7 @@
 				<item id="6">
 					<description>pictures</description>
 					<label>1</label>
-					<icon>special://skin/backgrounds/pictures.jpg</icon>
+					<icon>special://skin/media/backgrounds/pictures.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomPicturesFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
@@ -439,7 +439,7 @@
 				<item id="10">
 					<description>Addons</description>
 					<label>$LOCALIZE[31272]</label>
-					<icon>special://skin/backgrounds/scripts.jpg</icon>
+					<icon>special://skin/media/backgrounds/addons.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomScriptsFolder)]</thumb>	
 					<onclick>ActivateWindow(Programs,Addons,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoScriptsButton)</visible>
@@ -447,7 +447,7 @@
 				<item id="18">
 					<description>favourites</description>
 					<label>$LOCALIZE[1036]</label>
-					<icon>special://skin/backgrounds/favourites.png</icon>
+					<icon>special://skin/media/backgrounds/favourites.png</icon>
 					<thumb>$INFO[Skin.String(CustomfavouritesFolder)]</thumb>	
 					<onclick>XBMC.ActivateWindow(favourites)</onclick>
 					<visible>Skin.HasSetting(HomeMenuNofavouritesButton)</visible>
@@ -471,7 +471,7 @@
 				<item id="9">
 					<description>settings</description>
 					<label>5</label>
-					<icon>special://skin/backgrounds/settings.jpg</icon>
+					<icon>special://skin/media/backgrounds/settings.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomSettingsFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(settings)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoSettingsButton)</visible>
@@ -484,13 +484,13 @@
 				</item>-->	
 				<item id="13">
 					<label>13005</label>
-					<icon>special://skin/backgrounds/shutdown.jpg</icon>
+					<icon>special://skin/media/backgrounds/shutdown.jpg</icon>
 					<thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
 					<onclick>XBMC.Shutdown()</onclick>
 					<visible>Skin.HasSetting(HomeMenuNoShutdownButton)</visible>
 				</item>
 				<item id="11">
-					<icon>special://skin/backgrounds/playdisc.jpg</icon>						
+					<icon>special://skin/media/backgrounds/playdisc.jpg</icon>						
 					<label>341</label>
 					<onclick>XBMC.PlayDVD</onclick>
 					<visible>System.HasMediadvd + !Skin.HasSetting(HomeMenuNoPlayDVDButton)</visible>

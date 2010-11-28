@@ -1,6 +1,16 @@
 <window type="dialog" id="1199">
 <defaultcontrol always="true">9000</defaultcontrol>
 	<controls>
+			<control type="image"> 
+			<posx>0</posx>
+			<posy>690</posy>   
+			<width>1280</width>     
+			<height>35</height> 
+			<texture flipy="true">MediaInfoBackUpper.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
+			<animation effect="fade" start="0" end="70" time="400">WindowOpen</animation>
+			<animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
+		</control>	
 		<control type="image"> 
 			<posx>0</posx>
 			<posy>695</posy>   
@@ -9,7 +19,7 @@
 		</control>
 		<control type="rss" id="2">
 			<posx>220</posx>
-			<posy>690</posy>
+			<posy>692</posy>
 			<width>1400</width>
 			<height>35</height>
 			<aligny>bottom</aligny>
