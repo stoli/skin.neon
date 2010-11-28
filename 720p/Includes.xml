@@ -333,7 +333,7 @@
 						<include>Global_HeadingSectionVars1</include>
 						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> 
+			</control>  -->
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_Music">
@@ -368,7 +368,7 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-				<control type="group">
+			<!--	<control type="group">
 					<posx>1260</posx>
 					<posy>26</posy>
 					<control type="label">
@@ -407,7 +407,7 @@
 						<include>Global_HeadingSectionVars1</include>
 						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> 
+			</control>  -->
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_Files">
@@ -442,7 +442,7 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-				<control type="group">
+			<!--	<control type="group">
 					<posx>1260</posx>
 					<posy>26</posy>
 					<control type="label">
@@ -521,7 +521,7 @@
 						<include>Global_HeadingDetailVars</include>
 						<visible>Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> 
+			</control>  -->
 		</control>
 	</include>
 	<include name="Global_Time_LowerRight">
@@ -557,9 +557,9 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-				<control type="group">
-					<posx>1260</posx>
-					<posy>26</posy>
+			<!--	<control type="group">
+					<posx>180</posx>
+					<posy>684</posy>
 					<control type="label">
 						<description>Programs</description>
 						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[0][/COLOR]</label>
@@ -608,7 +608,7 @@
 						<include>Global_HeadingSectionVars1</include>
 						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> 
+			</control>  -->
 		</control>
 	</include>
 	<include name="Global_Time_LowerLeft">
