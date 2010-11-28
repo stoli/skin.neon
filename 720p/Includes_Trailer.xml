@@ -109,17 +109,17 @@
 			<posy>80</posy>
 			<control type="image"> 
 				<description>trailer image</description>
-				<posx>1030</posx>
-				<posy>-70</posy>   
-				<width>693</width>     
-				<height>445</height> 
+				<posx>930</posx>
+				<posy>-140</posy>   
+				<width>1100</width>     
+				<height>750</height> 
 				<texture>dialogs/trailer_diffuse_back.png</texture>
 			</control>
 			<control type="videowindow" id="5">
 				<posx>1130</posx>
 				<posy>26</posy>
-				<width>500</width>
-				<height>256</height>
+				<width>700</width>
+				<height>395</height>
 			</control>
 		</control>
 	</include>
