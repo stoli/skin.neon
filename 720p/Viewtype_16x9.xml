@@ -920,8 +920,8 @@
 			<visible allowhiddenfocus="true">Control.IsVisible(59) + Control.HasFocus(69)</visible>
 			<texturesliderbackground>osd/osd_progress_back1.png</texturesliderbackground>
 			<textureslidernibfocus>ScrollBarV_Nib_Focus1.png</textureslidernibfocus>
-			<onup>593</onup>
-			<ondown>593</ondown>
+			<onup>59</onup>
+			<ondown>7000</ondown>
 			<showonepage>false</showonepage>
 			<orientation>horizontal</orientation>
 			<include>Animation_CommonFade</include>
