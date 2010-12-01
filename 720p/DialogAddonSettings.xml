@@ -41,7 +41,7 @@
 			<label>-</label>
 			<align>left</align>
 			<aligny>center</aligny>
-			<textcolor>white</textcolor>
+			<textcolor>mainblue</textcolor>
 		</control>
 		<control type="grouplist" id="9">
 			<description>button area</description>
@@ -160,7 +160,7 @@
 			<height>40</height>
 			<font>Font_KeyboardKeys_Plot</font>
 			<textoffsetx>10</textoffsetx>
-			<textcolor>mainblue</textcolor>
+			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 		</control>
@@ -169,14 +169,14 @@
 			<height>40</height>
 			<font>Font_KeyboardKeys_Plot</font>
 			<textoffsetx>10</textoffsetx>
-			<textcolor>mainblue</textcolor>
+			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="5">
 			<description>Default spincontrolex</description>
 			<height>40</height>
-			<textcolor>black</textcolor>
+			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 			<font>Font_KeyboardKeys_Plot</font>
@@ -203,7 +203,7 @@
 			<description>Default Slider</description>
 			<height>40</height>
 			<font>Font_KeyboardKeys_Plot</font>
-			<textcolor>black</textcolor>
+			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
 		</control>
