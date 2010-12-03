@@ -137,7 +137,7 @@
 		
 		
 <control type="group">	
-		<visible>!SubString(Window(10025).Property(TvTunesIsAlive),True)</visible>
+		<visible>!SubString(Window(25).Property(TvTunesIsAlive),True)</visible>
 			<include>Music_Global_TopRight</include>
 			<include>Music_Global_Showcase</include>
 			<include>Music_Global_LowerRight</include>

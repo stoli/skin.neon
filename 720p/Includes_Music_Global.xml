@@ -17,7 +17,7 @@
 			</control> -->
 			<control type="group">
 				<posx>-20</posx>
-				<posy>700</posy>
+				<posy>690</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<!--	<effect type="fade" start="0" end="100" time="1000"/> -->
 -						<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -37,8 +37,8 @@
 						</control>	
 						<control type="image">
 							<description>cover image</description>
-							<posx>32</posx>
-							<posy>-125</posy>
+							<posx>30</posx>
+							<posy>-129</posy>
 							<width>100</width>
 							<height>100</height>
 							<texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.Cover]</texture>
@@ -54,16 +54,16 @@
 				</control>
 				
 				<control type="group">
-				<posx>-23</posx>
-				<posy>700</posy>
+				<posx>-20</posx>
+				<posy>690</posy>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
 						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
 						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 					</animation>
 						<control type="image">
 							<description>cover image</description>
-							<posx>32</posx>
-							<posy>-125</posy>
+							<posx>30</posx>
+							<posy>-129</posy>
 							<width>100</width>
 							<height>100</height>
 							<texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(1).Cover]</texture>
@@ -79,36 +79,24 @@
 			</control>
 			<control type="group">
 			<posx>-105</posx>
-			<posy>590</posy>
+			<posy>580</posy>
 			<animation effect="slide" start="0,0" end="66,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7026))">Conditional</animation>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 				<effect type="fade" start="0" end="100" time="1000" delay="0" />
 				<effect type="fade" start="100" end="0" time="1000" delay="21000" />
 				<effect type="fade" start="100" end="0" time="1000" delay="28000" />
 				</animation>
+				
 					<control type="label">
 						<description>Track</description>
 						<posx>234</posx>
-						<posy>-26</posy>
-						<width min="10" max="400">auto</width>
-						<align>left</align>
-						<height>18</height>
-						<font>Font_Date</font>
-						<textcolor>mainblue</textcolor>
-						 <!-- <label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label> -->
-						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
-						<visible>!Control.IsVisible(51)</visible>
-					</control>
-					<control type="label">
-						<description>Track</description>
-						<posx>234</posx>
-						<posy>-10</posy>
+						<posy>-20</posy>
 						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
-						<label>[B]$INFO[MusicPlayer.Title][/B]</label>
+						<textcolor>mainblue</textcolor>
+						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -163,7 +151,7 @@
 				
 			<control type="group">
 			<posx>-120</posx>
-			<posy>570</posy>
+			<posy>575</posy>
 			<visible>true</visible>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
@@ -172,7 +160,7 @@
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
-						<posy>6</posy>
+						<posy>-14</posy>
 						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
@@ -184,13 +172,13 @@
 					<control type="label">
 						<description>Track</description>
 						<posx>250</posx>
-						<posy>22</posy>
+						<posy>12</posy>
 						<width min="40" max="400">auto</width>
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
 						<textcolor>ffffffff</textcolor>
-						<label>[B]$INFO[MusicPlayer.offset(1).Title][/B]</label>
+						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
 		<!-- artist name control -->
