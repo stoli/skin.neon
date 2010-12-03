@@ -282,7 +282,7 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-				<control type="group">
+			<!--	<control type="group">
 					<posx>1260</posx>
 					<posy>26</posy>
 					<control type="label">
@@ -644,7 +644,7 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-				<control type="group">
+	<!--			<control type="group">
 					<posx>10</posx>
 					<posy>46</posy>
 					<control type="label">
@@ -684,7 +684,7 @@
 						<include>Global_HeadingSectionVars2</include>
 						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> 
+			</control>  -->
 		</control>
 	</include>
 	<include name="Global_Time_LowerLeft_music">
@@ -720,7 +720,7 @@
 					<aligny>center</aligny>
 				</control>
 			</control>
-				<control type="group">
+	<!--			<control type="group">
 					<posx>10</posx>
 					<posy>26</posy>
 					<control type="label">
@@ -759,7 +759,7 @@
 						<include>Global_HeadingSectionVars2</include>
 						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Player.HasMedia</visible>
 					</control>
-			</control> 
+			</control>  -->
 		</control>
 	</include>
 	<include name="Global_Time_TopRight_OSD">

@@ -282,7 +282,7 @@
 			<posy>30</posy>
 			<width>750</width> 
 			<height>25</height> 
-			<label>[UPPERCASE]$INFO[VideoPlayer.TVShowTitle][/UPPERCASE]</label>
+			<label>$INFO[VideoPlayer.TVShowTitle]</label>
 			<align>left</align> 
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Title_TVShow</font>
@@ -294,7 +294,7 @@
 			<posy>30</posy>
 			<width>750</width> 
 			<height>25</height> 
-			<label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
+			<label>$INFO[VideoPlayer.Title]</label>
 			<align>left</align> 
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Title_TVShow</font>

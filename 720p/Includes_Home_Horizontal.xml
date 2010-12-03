@@ -29,7 +29,7 @@
 					<align>center</align>
 					<font>Font_Bartowski_MainMenu</font>
 					<textcolor>38b8b7b7</textcolor>
-					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+					<label>$INFO[ListItem.label]</label>
 				<!--	<animation effect="slide" end="0,600" time="600" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="0" end="100" delay="301" time="200" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="100" end="0" time="0" condition="ControlGroup(9001).HasFocus">WindowClose</animation> -->
@@ -47,7 +47,7 @@
 					<font>Font_Bartowski_MainMenu_Focus</font>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+					<label>$INFO[ListItem.label]</label>
 				<!--	<animation effect="slide" end="0,-60" time="301" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 				</control>
 			</focusedlayout>
@@ -277,7 +277,7 @@
 					<align>center</align>
 					<font>Font_Bartowski_MainMenu</font>
 					<textcolor>38b8b7b7</textcolor>
-					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+					<label>$INFO[ListItem.label]</label>
 				<!--	<animation effect="slide" end="0,600" time="600" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="0" end="100" delay="301" time="200" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="100" end="0" time="0" condition="ControlGroup(9001).HasFocus">WindowClose</animation> -->
@@ -295,7 +295,7 @@
 					<font>Font_Bartowski_MainMenu_Focus</font>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+					<label>$INFO[ListItem.label]</label>
 				<!--	<animation effect="slide" end="0,-60" time="301" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 				</control>
 			</focusedlayout>
@@ -527,7 +527,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -541,7 +541,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -598,7 +598,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -612,7 +612,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -689,7 +689,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -703,7 +703,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -765,7 +765,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -779,7 +779,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -829,7 +829,7 @@
 						<control type="label"><!--Movie title-->
 							<width>350</width>
 							<height>56</height>
-							<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+							<label>$INFO[ListItem.label]</label>
 							<align>center</align>
 							<font>Font_Bartowski_Main_SubMenu</font>
 							<textcolor>grey3</textcolor>
@@ -840,7 +840,7 @@
 							<control type="label"><!--Movie title-->
 								<width>350</width>
 								<height>56</height>
-								<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+								<label>$INFO[ListItem.label]</label>
 								<align>center</align>
 								<font>Font_Bartowski_Main_SubMenu</font>
 								<textcolor>mainblue</textcolor>
@@ -913,7 +913,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -927,7 +927,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1005,7 +1005,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1019,7 +1019,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1063,7 +1063,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1077,7 +1077,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1132,7 +1132,7 @@
 						<control type="label"><!--Movie title-->
 							<width>400</width>
 							<height>56</height>
-							<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+							<label>$INFO[ListItem.label]</label>
 							<align>center</align>
 							<font>Font_Bartowski_Main_SubMenu</font>
 							<textcolor>grey3</textcolor>
@@ -1143,7 +1143,7 @@
 							<control type="label"><!--Movie title-->
 								<width>400</width>
 								<height>56</height>
-								<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+								<label>$INFO[ListItem.label]</label>
 								<align>center</align>
 								<font>Font_Bartowski_Main_SubMenu</font>
 								<textcolor>mainblue</textcolor>
@@ -1189,7 +1189,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1203,7 +1203,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1260,7 +1260,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1274,7 +1274,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.Label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1351,7 +1351,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1365,7 +1365,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1427,7 +1427,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1441,7 +1441,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1491,7 +1491,7 @@
 						<control type="label"><!--Movie title-->
 							<width>350</width>
 							<height>56</height>
-							<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+							<label>$INFO[ListItem.label]</label>
 							<align>center</align>
 							<font>Font_Bartowski_Main_SubMenu</font>
 							<textcolor>grey3</textcolor>
@@ -1502,7 +1502,7 @@
 							<control type="label"><!--Movie title-->
 								<width>350</width>
 								<height>56</height>
-								<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+								<label>$INFO[ListItem.label]</label>
 								<align>center</align>
 								<font>Font_Bartowski_Main_SubMenu</font>
 								<textcolor>mainblue</textcolor>
@@ -1575,7 +1575,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1589,7 +1589,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1667,7 +1667,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1681,7 +1681,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1725,7 +1725,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>grey3</textcolor>
@@ -1739,7 +1739,7 @@
 								<control type="label"><!--Movie title-->
 									<width>320</width>
 									<height>56</height>
-									<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+									<label>$INFO[ListItem.label]</label>
 									<align>center</align>
 									<font>Font_Bartowski_Main_SubMenu</font>
 									<textcolor>mainblue</textcolor>
@@ -1794,7 +1794,7 @@
 						<control type="label"><!--Movie title-->
 							<width>400</width>
 							<height>56</height>
-							<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+							<label>$INFO[ListItem.label]</label>
 							<align>center</align>
 							<font>Font_Bartowski_Main_SubMenu</font>
 							<textcolor>grey3</textcolor>
@@ -1805,7 +1805,7 @@
 							<control type="label"><!--Movie title-->
 								<width>400</width>
 								<height>56</height>
-								<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
+								<label>$INFO[ListItem.label]</label>
 								<align>center</align>
 								<font>Font_Bartowski_Main_SubMenu</font>
 								<textcolor>mainblue</textcolor>

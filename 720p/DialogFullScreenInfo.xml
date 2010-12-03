@@ -83,7 +83,7 @@
 					<posy>20</posy>
 					<width>750</width> 
 					<height>25</height> 
-					<label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
+					<label>$INFO[VideoPlayer.Title]</label>
 					<align>left</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Title_TVShow</font>
@@ -95,7 +95,7 @@
 					<posy>90</posy>
 					<width>750</width> 
 					<height>25</height> 
-					<label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
+					<label>$INFO[VideoPlayer.Title]</label>
 					<align>left</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Title_Movie</font>
@@ -107,7 +107,7 @@
 					<posy>250</posy>
 					<width>750</width> 
 					<height>25</height> 
-					<label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
+					<label>$INFO[VideoPlayer.Title]</label>
 					<align>left</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Title_TVShow</font>
