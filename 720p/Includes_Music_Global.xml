@@ -1144,7 +1144,7 @@
 	<include name="Music_Global_Lowerleft_Music">
 		<control type="group">
 		<include>Animation_CommonFade</include>
-		<visible>Control.IsVisible(52) + Player.HasAudio + !Skin.HasSetting(zune_music) + !SubString(Window(9999).Property(TvTunesIsAlive),True)</visible>		
+		<visible>Control.IsVisible(52) + Player.HasAudio + !Skin.HasSetting(zune_music) + !SubString(Window(25).Property(TvTunesIsAlive),True)</visible>		
 			<control type="image"><!-- 1st overlay -->
 				<posx>0</posx>
 				<posy>0</posy>

@@ -4,6 +4,12 @@
 	<fontset id="Antipasto" unicode="true">
 		
 		<font>
+			<name>Font_Neon_85</name>
+			<filename>Antipasto.ttf</filename> 
+			<size>85</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_Bartowski_MainMenu</name>
 			<filename>Antipasto.ttf</filename> 
 			<size>45</size>

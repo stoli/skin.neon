@@ -234,7 +234,29 @@ just copy the translations from Confluence to here
   <string id="31295">Custom TV Show Submenus</string>
   <string id="31296">Newest</string>
   
-  
+  <!-- OSD Strings - Music Vis -->
+  	<string id="31700">Codec</string>
+	<string id="31701">Bitrate</string>
+	<string id="31702">Samplerate</string>
+	<string id="31703">Channels</string>
+	<string id="31704">Next</string>
+	<string id="31705">Rewind</string>
+	<string id="31706">Forward</string>
+	<string id="31707">Volume</string>
+	<string id="31708">Position</string>
+	<string id="31709">Running Time</string>
+	<string id="31710">Finish Time</string>
+	<string id="31711">Bookmarks Available</string>
+	<string id="31712">UP/DOWN: MENU/BOOKMARKS[CR]LEFT/RIGHT: MENU OPTIONS</string>
+	<string id="31713">Items in Playlist</string>
+	<string id="31714">Current Position</string>
+	<string id="31715">Previous</string>
+	<string id="31716">Song Title</string>
+	<string id="31717">Album Title</string>
+	<string id="31718">Artist Name</string>
+	<string id="31719">Time Elapsed / Duration</string>
+	<string id="31720">Current Time</string>
+	
   
   </strings>
 
