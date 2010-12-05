@@ -46,7 +46,7 @@
 				<posx>140</posx>
 				<posy>135</posy>
 				<width>1000</width>
-				<height>19</height>
+				<height>15</height>
 			</control>
 			<control type="label">
 				<posx>35</posx>
@@ -56,7 +56,7 @@
 				<align>left</align> 
 				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
+				<label>$INFO[VideoPlayer.Time]</label>
 			</control>
 			<control type="label">
 				<posx>1155</posx>
@@ -65,7 +65,7 @@
 				<height>25</height>
 				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[VideoPlayer.Duration][/B]</label>
+				<label>$INFO[VideoPlayer.Duration]</label>
 			</control>
 
 			<control type="group">

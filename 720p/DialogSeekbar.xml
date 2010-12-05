@@ -51,10 +51,10 @@
 				<midtexture>osd/mid.png</midtexture>
 				<righttexture>osd/new_pause2.png</righttexture>
 				<info>Player.Progress</info>
-				<posx>100</posx>
-				<posy>130</posy>
-				<width>1000</width>
-				<height>19</height>
+				<posx>170</posx>
+				<posy>128</posy>
+				<width>950</width>
+				<height>15</height>
 				<visible>VideoPlayer.Content(episodes) + IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))</visible>
 			</control>
 			<control type="progress" id="23">
@@ -141,7 +141,7 @@
 				<align>right</align> 
 				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[VideoPlayer.Time][/B]</label>
+				<label>$INFO[VideoPlayer.Time]</label>
 				<animation effect="slide" start="0,0" end="-10,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
 			<control type="label">
@@ -151,7 +151,7 @@
 				<height>25</height>
 				<font>Font_RSS_Unicode</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B]$INFO[VideoPlayer.Duration][/B]</label>
+				<label>$INFO[VideoPlayer.Duration]</label>
 				<animation effect="slide" start="0,0" end="-304,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
 		</control>
