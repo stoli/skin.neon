@@ -112,7 +112,7 @@
 		<include>Viewtype_Poster</include><!--  55  -->
 		<include>Viewtype_Files</include><!--  50  -->
 		<include>Viewtype_Landscape</include><!--  52  -->
-		<include>Viewtype_Landscape_Fanart</include><!--  633  -->
+		<include>Viewtype_Landscape_Fanart</include> <!--  633  -->
 		<include>Viewtype_List</include><!--  53  -->
 		<include>Viewtype_Episode</include><!--  51  -->
 		<include>Viewtype_Wall</include><!--  54  -->
