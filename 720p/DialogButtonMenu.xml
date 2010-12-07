@@ -2,7 +2,7 @@
 
 <window type="buttonMenu" id="111">
 	<defaultcontrol always="true">410</defaultcontrol>
-	<include>Animation_BartowskiPressS</include>
+	<include>Animation_SettingsFade</include>
 	<animation effect="fade" start="0" end="100" time="300">Visible</animation>
 			<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
 	<controls>
@@ -20,10 +20,10 @@
 		</control>
 		<control type="image"><!-- Floor -->
 			<posx>0</posx>
-			<posy>650</posy>
+			<posy>540</posy>
 			<width>1280</width>
-			<height>70</height>
-			<texture>notification_background.png</texture>
+			<height>180</height>
+			<texture>mainmenu/home_bottom_align.png</texture>
 		</control>
 		<control type="grouplist" id="1">
 			<posx>10</posx>
@@ -36,7 +36,7 @@
 			<align>center</align>
 			<control type="button" id="3110">
 				<description>Settings</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -50,7 +50,7 @@
 			</control>
 			<control type="button" id="3111">
 				<description>Filemanager</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -65,7 +65,7 @@
 			</control>
 			<control type="button" id="3116">
 				<description>Filemanager</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -80,7 +80,7 @@
 			</control>
 			<control type="button" id="3117">
 				<description>Favourites</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -95,7 +95,7 @@
 
 			<control type="button" id="3112">
 				<description>Reboot</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -109,7 +109,7 @@
 			</control>
 			<control type="button" id="3113">
 				<description>Shutdown</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -123,7 +123,7 @@
 			</control>
 			<control type="button" id="3114">
 				<description>Restart Xbmc</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -137,7 +137,7 @@
 			</control>
 			<control type="button" id="3115">
 				<description>System Info Button</description>
-				<height>30</height>
+				<height>35</height>
 				<width>170</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
@@ -149,9 +149,9 @@
 				<label>$LOCALIZE[130]</label>
 				<onclick>ActivateWindow(7)</onclick>
 			</control>
-			<!--<control type="button" id="3116">
+		<!--<control type="button" id="3116">
 				<description>Reload Skin</description>
-				<height>30</height>
+				<height>35</height>
 				<width>150</width>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -161,7 +161,7 @@
 				<aligny>middle</aligny>
 				<label>Reload Skin</label>
 				<onclick>ReloadSkin()</onclick>
-			</control>-->
+			</control> -->
 		</control>
 		<include>Object_DebugGrid</include>
 	</controls>
