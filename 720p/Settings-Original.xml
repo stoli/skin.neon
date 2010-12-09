@@ -6,7 +6,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<width>1280</width>
 			<height>720</height>
-			<texture>backdrops/curtains_diffuse.png</texture>
+			<texture>backdrops/curtains_diffuse.jpg</texture>
 			<aspectratio>stretch</aspectratio>
 			<include>VisibleFadeEffect</include>
 		</control>

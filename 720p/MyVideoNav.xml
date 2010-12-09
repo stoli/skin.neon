@@ -32,7 +32,7 @@
         </control> 
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
-			<texture>backdrops/curtains.png</texture>
+			<texture>backdrops/curtains.jpg</texture>
 			<aspectratio>stretch</aspectratio>
 			<include>Animation_MyVideoNav_Fanart</include>
 			<include>global_kenburns_fanart</include>
@@ -92,14 +92,14 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
-			<texture>backdrops/curtains.png</texture>
+			<texture>backdrops/curtains.jpg</texture>
 			<include>Animation_MyVideoNav_Fanart</include>
 			<visible>Control.IsVisible(56) | Control.IsVisible(57) | Control.IsVisible(592)</visible>
 		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
-			<texture>backdrops/curtains_diffuse.png</texture>
+			<texture>backdrops/curtains_diffuse.jpg</texture>
 			<include>Animation_MyVideoNav_Fanart</include>
 			<visible>Control.IsVisible(59) | Control.IsVisible(596) | [Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
 		</control>

@@ -49,7 +49,7 @@
 <!--		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
-			<texture>backdrops/curtains.png</texture>
+			<texture>backdrops/curtains.jpg</texture>
 			<include>Animation_BackdropFade</include>
 			<visible>Control.IsVisible(53) | Control.IsVisible(52)</visible>
 		</control> -->

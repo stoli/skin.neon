@@ -9,7 +9,7 @@
 	<controls>
 	<control type="largeimage">
 		<include>Dimensions_Fullscreen</include>
-		<texture>backdrops/curtains_diffuse.png</texture>
+		<texture>backdrops/curtains_diffuse.jpg</texture>
 		<aspectratio>scale</aspectratio>
 		<include>VisibleFadeEffect</include>
 	</control>

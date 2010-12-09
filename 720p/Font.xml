@@ -11,13 +11,13 @@
 		</font>
 		<font>
 			<name>Font_Bartowski_MainMenu</name>
-			<filename>Antipasto.ttf</filename> 
+			<filename>EUROCAPS.ttf</filename> 
 			<size>45</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
 			<name>Font_Bartowski_MainMenu_Focus</name>
-			<filename>Antipasto.ttf</filename> 
+			<filename>EUROCAPS.ttf</filename> 
 			<size>55</size>
 		</font>
 		<font>

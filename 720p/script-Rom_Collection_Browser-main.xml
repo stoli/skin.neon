@@ -15,7 +15,7 @@
 		    <width>1280</width>
 		    <height>720</height>
 		    <aspectratio>stretch</aspectratio>
-			<texture fallback="backdrops/curtains.png">$INFO[ListItem.Property(mainviewbackground)]</texture>
+			<texture fallback="backdrops/curtains.jpg">$INFO[ListItem.Property(mainviewbackground)]</texture>
 			<include>Animation_BackdropFade</include>
 			<visible>!Control.IsVisible(52)</visible>
 		</control>
@@ -27,7 +27,7 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
-			<texture>backdrops/curtains_diffuse.png</texture>
+			<texture>backdrops/curtains_diffuse.jpg</texture>
 			<include>Animation_MyVideoNav_Fanart</include>
 			<visible>Control.IsVisible(52)</visible>
 		</control>
