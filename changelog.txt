@@ -1,8 +1,94 @@
-Update 11/26/2010
- v.5 Initial Submission to Addons
-11/26.2010
+Updated 12/08/2010:
+ v.5.1.6
+ -  Fixed issue with Cast view in TV Episodes
+ -  Tweaked text positioning of clock and finish time while paused or info in video
+ -  Added all caps font to home screen - testing this - 
+ -  Compressed backgroun images - saved 2mb in just 2 images.  :)
+ 
+Updated 12/07/2010:
+ -  Updated Addon Broswer to show Enabled status and download percentage.
+ 
+Updated 12/06/2010:
+ v.5.1.5
+ -  Added Search capability
+ 
+
+Updated 12/05/2010:
+ v.5.1.4
+ -  Fixed issue with Logo Downloader not displaying choices
+ -  Fixed positioning of Time in seekbar for episodes
+ -  Library Totals added back in
+
+Update 12/04/2010:
+ v.5.1.4
+ -  Added new music fanart visualization
+
+Updated 12/02/2010:
+ v5.1.3
+ -  Removed item counts until I get that straightened out
+ -  Weather, Time and Counts will each be optional
+ -  Changed home font to standard case instead of all uppercase
+ -  Positioning tweaks for now playing on home screen
+ -  Quick update to font colors in Add-on settings dialog. Need to change textures still 
+
+Updated 12/01/2010:
+ 
+ -  Fixed bug found by filigran for 16x9 view.
+
+Updated 11/28/2010:
+ v.5.1.2
+ -  Added folder counts to all view
+ -  Fixed some positioning issues
+ -  Replaced folder icons with those from Confluence - still not satisfied with them
+ -  Increased trailer window size in several views
+ 
+Updated 11/26/2010:
+ v.5.1.1
+- updated xmls for inclusion in Addons. 
+
  v.5.1.0
 - Updated skin menu bar so all items are the current selection.  Before some items displayed the current seting
   and others displayed the next option if toggled/selected.
- v.5.1.1
-- updated xmls for inclusion in Addons. 
+
+Updated 11/26.2010:
+ v.5 Initial Attempt at Submission to Addons
+
+
+Updated 11/25/2010:
+ -  Replaced all fonts with single uni-code font.
+ -  Updated lots of texture images
+ -  Removed some extraneous files
+
+Updated 11/22/2010:
+ -  Updated position of Now Playing/Trailer window in Poster view
+ -  Removed side menu from home page and adjusted Skin Settings.  This required a lot of updates; if you notice anything not displaying or out of position, please let me know.
+
+Updated 11/21/2010:
+ -  Music views updated
+ -  Fanart fixed in Song view
+ -  Home Menu works correctly in middle or bottom now.
+
+Updated 11/20/2010:
+
+ -  Reverted Showcase view - new view will have to wait.
+ -  Fixed font issues in all views
+ -  Fixed mpaa ratings logo placement issues
+ -  Now Playing is now hidden while TvTunes is playing - Thanks mcborzu!
+ -  Various dialog fixed and adjustments
+ -  Other minor bug fixes.
+
+ 11/14/2010:
+
+ -  Added support for Next Aired on
+ -  Added support for TVTunes
+ -  Updated default images
+ -  Updated Info while video playing
+ -  Bug fixes
+    * Showcase view is broken *
+
+
+
+
+
+
+ 
