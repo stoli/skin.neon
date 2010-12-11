@@ -37,6 +37,7 @@
 	<include file="Viewtype_3daddon.xml" />
 	<include file="Viewtype_Slide.xml" />
 	<include file="Viewtype_CoverFlow.xml" />
+	<include file="Viewtype_SlimFiles.xml" />
 	
 	<include name="VisibleFadeEffect">
 		<animation effect="fade" time="300">Visible</animation>
@@ -763,6 +764,7 @@
 				</control>
 				<control type="label">
 					<posx>1260</posx>
+					<posy>3</posy>
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
@@ -814,7 +816,7 @@
 	
 	<include name="ButtonInfoDialogsCommonValues"><!--movie info bottom buttons-->
 		<height>40</height>
-		<width>170</width>
+		<width>150</width>
 		<textoffsetx>10</textoffsetx>
 		<align>center</align>
 		<aligny>center</aligny>

@@ -1,3 +1,11 @@
+Updated 12/11/2010:
+ v.6.0.0
+ -  Updated/Added support for Home Theater/Cinema Experience script
+ -  Added new view - Slim List
+ -  Fixed download % for addon's (was truncated for certain languages)
+ -  Fixed/Updated "buffering..." posistioning and color
+ -  Adjusted buttons in Video Infor for Cinema Experience
+
 Updated 12/08/2010:
  v.5.1.6
  -  Fixed issue with Cast view in TV Episodes

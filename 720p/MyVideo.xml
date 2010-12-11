@@ -32,7 +32,7 @@
 		</control>
 		
 		
-		
+		<include>Viewtype_SlimFiles</include>
 		<include>Viewtype_Files</include>
 		<include>Viewtype_List</include>
 		<include>Viewtype_Poster</include>

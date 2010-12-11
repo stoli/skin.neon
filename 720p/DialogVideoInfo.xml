@@ -951,7 +951,7 @@
 						<label>$LOCALIZE[31212]</label>
 						<onclick>Playlist.Clear</onclick>
 						<onclick>Dialog.Close(MovieInformation)</onclick>
-						<onclick>RunScript(special://home/scripts/Home Theater Experience/default.py)</onclick>
+						<onclick>XBMC.RunScript(script.cinema.experience)</onclick>
 						<visible>Skin.HasSetting(hometheater) + Container.Content(movies)</visible>
 					</control>
 					<control type="button" id="14">

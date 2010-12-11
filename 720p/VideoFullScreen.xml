@@ -67,12 +67,12 @@
 	<!-- Buffering Dialog -->
 		<control type="label" id="24">
 			<description>buffering label</description>
-			<posx>210</posx>
-			<posy>520</posy>
+			<posx>480</posx>
+			<posy>5</posy>
 			<label>15107</label>
 			<width>291</width>
 			<align>center</align>
-			<textcolor>ListTitleNF</textcolor>
+			<textcolor>red</textcolor>
 			<font>Font_RSS_Unicode</font>
 		</control>
 		<include>Object_DebugGrid</include>
