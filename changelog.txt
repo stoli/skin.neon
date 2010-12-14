@@ -1,3 +1,8 @@
+[B]Updated 12/14/2010:[/B]
+v .6.0.1
+ -  Fixed main menu to return focus to same item node.  I.E.  Enter movies, exit movies, Movies will be selected on main menu.
+ -  Changed font in Music Vis
+
 Updated 12/11/2010:
  v.6.0.0
  -  Updated/Added support for Home Theater/Cinema Experience script
