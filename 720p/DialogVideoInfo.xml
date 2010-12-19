@@ -965,6 +965,6 @@
 			</control>
 		</control>
 		
-		
+		<include>Object_DebugGrid</include>
 	</controls>
 </window>

@@ -177,13 +177,35 @@
 	</include>
 	
 	<!-- Debug objects -->
+	
 	<include name="Object_DebugGrid">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>20</height>
+			<texture>common/black.png</texture>
+			<visible>Skin.HasSetting(debuggrid)</visible>
+		</control>
+		<control type="label">
+			<posx>4</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>18</height>
+			<aligny>center</aligny>
+			<font>Medium</font>
+			<textcolor>white</textcolor>
+			<label>$INFO[Window.Property(xmlfile)] / $INFO[System.Screenresolution] / $LOCALIZE[158] - $INFO[System.FreeMemory]$INFO[System.CurrentWindow / ]$INFO[System.CurrentControl, / ]</label>
+			<visible>Skin.HasSetting(debuggrid)</visible>
+		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>common/debuggrid.png</texture>
 			<visible>Skin.HasSetting(debuggrid)</visible>
 		</control>
 	</include>
+	
+	
 	<include name="DialogID">
 		<posx>10</posx>
 		<posy>35</posy>

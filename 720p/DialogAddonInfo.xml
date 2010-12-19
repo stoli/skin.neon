@@ -2,6 +2,12 @@
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<include>Animation_SettingsFade</include>
 	<controls>
+		<control type="image">
+			<include>Dimensions_Fullscreen</include>
+			<texture>common/7000_focus.png</texture>
+			<animation effect="fade" start="0" end="80" time="400">WindowOpen</animation>
+			<animation effect="fade" start="80" end="0" time="400">Windowclose</animation>
+		</control>
 		<control type="group">
 			<posx>300</posx>
 			<posy>60</posy>
@@ -9,10 +15,10 @@
 			<visible>!Window.isVisible(AddonSettings)</visible>	
 			<control type="image"><!-- Floor -->
 				<posx>-300</posx>
-				<posy>590</posy>
+				<posy>485</posy>
 				<width>1280</width>
-				<height>70</height>
-				<texture>notification_background.png</texture>
+				<height>170</height>
+				<texture>mainmenu/home_bottom_align.png</texture>
 			</control>
 			<control type="group" id="9000">
 				<posx>-160</posx>

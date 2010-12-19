@@ -27,6 +27,12 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
+			<name>Font_Neon_20</name>
+			<filename>Antipasto.ttf</filename>
+			<size>20</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_Bartowski_Main_SubMenu</name>
 			<filename>Antipasto.ttf</filename>
 			<size>34</size>

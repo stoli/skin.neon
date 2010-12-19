@@ -249,6 +249,12 @@
 						<onclick>Skin.ToggleSetting(global_bottomline)</onclick>
 						<selected>Skin.HasSetting(global_bottomline)</selected>
 					</control>
+					<control type="radiobutton" id="118">
+						<include>skin_settings_labels</include>
+						<label>Enable Debug Grid (development only)</label>
+						<onclick>Skin.ToggleSetting(debuggrid)</onclick>
+						<selected>Skin.HasSetting(debuggrid)</selected>
+					</control>
 					<control type="label" id="112">
 						<width>740</width>
 						<height>45</height>

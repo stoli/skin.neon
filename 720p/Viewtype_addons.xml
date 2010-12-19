@@ -9,7 +9,7 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<!-- <texture>list/file-black-background1.png</texture> -->
-			<texture border="20">backgrounds\addons.jpg</texture>
+			<texture border="20">backgrounds/addons.jpg</texture>
 			<visible>Control.IsVisible(50) + !Window.IsVisible(146)</visible>
 		</control>
 		<control type="image">
@@ -17,7 +17,7 @@
 			<posy>90</posy>
 			<width>680</width>
 			<height>540</height>
-			<texture border="20">DialogBack.png</texture>
+			<texture border="20">confluence/DialogBack.png</texture>
 			<visible>Control.IsVisible(50)</visible>
 		</control>
 		<control type="image">
@@ -26,7 +26,7 @@
 			<posy>50</posy>
 			<width>500</width>
 			<height>320</height>
-			<texture border="20">DialogBack.png</texture>
+			<texture border="20">confluence/DialogBack.png</texture>
 			<visible>Control.IsVisible(50)</visible>
 		</control>
 		<control type="list" id="50">
@@ -53,7 +53,7 @@
 					<posy>0</posy>
 					<width>200</width>
 					<height>46</height>
-					<alignx>right</alignx>
+					<align>left</align>
 					<aligny>center</aligny>
 					<font>Font_Bartowski_Movies</font>
 					<textcolor>Text-Filemode</textcolor>
@@ -74,7 +74,7 @@
 					<width>720</width>
 					<height>46</height>
 					<aligny>center</aligny>
-					<font>Font_Bartowski_List_Main</font>
+					<font>Font_Bartowski_Movies</font>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>Text-Filemode</textcolor>
 					<label>$INFO[ListItem.Label]</label>
@@ -117,7 +117,7 @@
 					<posy>0</posy>
 					<width>200</width>
 					<height>46</height>
-					<alignx>right</alignx>
+					<align>left</align>
 					<aligny>center</aligny>
 					<font>Font_Bartowski_Movies</font>
 					<textcolor>white</textcolor>

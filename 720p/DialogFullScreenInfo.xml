@@ -87,7 +87,7 @@
 					<label>$INFO[VideoPlayer.Title]</label>
 					<align>left</align> 
 					<aligny>center</aligny> 
-					<font>Font_Bartowski_Title_TVShow</font>
+					<font>Font_Bartowski_Title_Movie</font>
 					<textcolor>mainblue</textcolor>
 					<visible>VideoPlayer.Content(episodes)</visible>
 				</control>
@@ -102,16 +102,16 @@
 					<font>Font_Bartowski_Title_Movie</font>
 					<textcolor>mainblue</textcolor>
 					<visible>VideoPlayer.Content(movies)</visible>
-				</control>
+				</control> -->
 				<control type="label">
 					<posx>0</posx>
-					<posy>250</posy>
+					<posy>20</posy>
 					<width>750</width> 
 					<height>25</height> 
 					<label>$INFO[VideoPlayer.Title]</label>
 					<align>left</align> 
 					<aligny>center</aligny> 
-					<font>Font_Bartowski_Title_TVShow</font>
+					<font>Font_Bartowski_Title_Movie</font>
 					<textcolor>mainblue</textcolor>
 					<visible>![VideoPlayer.Content(episodes) | VideoPlayer.Content(movies)]</visible>
 				</control>
