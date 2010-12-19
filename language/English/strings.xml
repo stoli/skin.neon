@@ -91,10 +91,10 @@
 	<string id="31229">First Premiered in</string><!-- GOOD -->
 	<string id="31230">This Show Aired</string><!-- GOOD -->
 	<string id="31231">Aired</string><!-- GOOD -->
-	<string id="31232">GO [CR]BACK</string>
+	<string id="31232">Go [CR]Back</string>
 	<string id="31233">Please Choose a Song</string><!-- GOOD -->
 	<string id="31234">on</string><!-- GODD -->
-	<string id="31235">GO BACK</string>
+	<string id="31235">Go Back</string>
 	<string id="31237">Press Down for Trailer</string>
 	<string id="31238">Press "X" to Stop</string>
 	<string id="31240">Press "Left" for Trailer</string>
@@ -163,16 +163,16 @@ just copy the translations from Confluence to here
   <string id="31130">PATH TO SUBTITLE SCRIPT</string>
 
  
-  <string id="31400">[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver</string>
-  <string id="31401">[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts</string>
-  <string id="31402">[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options</string>
-  <string id="31403">[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshows</string>
-  <string id="31404">[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set three cities to collect weather information</string>
-  <string id="31405">[B]CONFIGURE NETWORK SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Set internet access options</string>
-  <string id="31406">[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock</string>
-  <string id="31407">[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Night skin · Add and remove home menu items[CR]Change skin backgrounds</string>
-  <string id="31408">[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings</string>
-  <string id="31420">[B][COLOR=white]XBMC has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel</string>
+  <string id="31400">Configure Appearance Settings[CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver</string>
+  <string id="31401">Configure Video Settings[CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts</string>
+  <string id="31402">Configure Music Settings[CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options</string>
+  <string id="31403">Configure Picture Settings[CR][CR]Set picture listing options · Configure slideshows</string>
+  <string id="31404">Configure Weather Settings[CR][CR]Set three cities to collect weather information</string>
+  <string id="31405">Configure Network Settings[CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Set internet access options</string>
+  <string id="31406">Configure System Settings[CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock</string>
+  <string id="31407">Configure Skin Settings[CR][CR]Configure the Neon skin · Add and remove home menu items[CR]Change skin backgrounds</string>
+  <string id="31408">Configure Add-Ons[CR][CR]Browse for and install Add-ons from xbmc.org and other Repositories ·  Modify Add-on settings</string>
+  <string id="31420">[COLOR=white]XBMC has not detected a Disc.[/COLOR][CR][CR]Please Insert a disc into your drive and try again or Cancel</string>
   <string id="31421">Select your XBMC user Profile[CR]to login and continue</string>
   <string id="31319">Selected Profile</string>
   <string id="31320">Last Logged In</string>

@@ -6,27 +6,28 @@
 	<controls>
 		<!-- LEFT PANEL -->
 		<control type="group">
-			<include>Animation_ZoomedByMenu</include>
-			<include>Animation_ZoomInZoomOut</include>
+			<include>Animation_SettingsFade</include>
+			
 			<posx>15</posx>
 			<posy>85</posy>
 			<control type="image">
-				<width>660</width>
+				<width>600</width>
 				<height>592</height>
-				<posx>-20</posx>
+				<posx>10</posx>
 				<posy>0</posy>
-				<texture border="100">filemanager/filemanager_panel.png</texture>
+				<texture border="100">confluence/dialogback1.png</texture>
+			<!-- 	<texture border="100">filemanager/filemanager_panel.png</texture> -->
 			</control>
 			<control type="label" id="101">
 				<posx>590</posx>
 				<posy>525</posy>
 				<width>555</width>
 				<height>60</height>
-				<font>Font_ListTitleBigger</font>
+				<font>Font_Neon_35</font>
 				<align>right</align>
 				<scroll>true</scroll>
-				<textcolor>FM_ListTitle</textcolor>
-				<shadowcolor>FM_ListTitleAccent</shadowcolor>
+				<textcolor>black</textcolor>
+				<shadowcolor>grey</shadowcolor>
 			</control>
 			<control type="image">
 				<posx>22</posx>
@@ -53,7 +54,7 @@
 						<height>39</height>
 						<font>Font_FavouritesItemLabel</font>
 						<aligny>center</aligny>
-						<textcolor>FM_ListUnfocused</textcolor>
+						<textcolor>black</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -65,20 +66,20 @@
 						<font>Font_FavouritesItemLabel</font>
 						<align>right</align>
 						<aligny>center</aligny>
-						<textcolor>FM_ListUnfocused</textcolor>
+						<textcolor>black</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<label>[UPPERCASE]$INFO[ListItem.label2][/UPPERCASE]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="40">
 					<control type="image">
-						<posx>8</posx>
+						<posx>10</posx>
 						<posy>-6</posy>
 						<width>570</width>
 						<height>50</height>
 						<visible>Control.HasFocus(20)</visible>
-						<texture>favourites/focus_bar.png</texture>
-						<colordiffuse>FM_Focusbar</colordiffuse>
+						<texture>button-focus.png</texture>
+						
 					</control>
 					<control type="label">
 						<posx>23</posx>
@@ -114,18 +115,18 @@
 			<posx>650</posx>
 			<posy>85</posy>
 			<control type="image">
-				<width>660</width>
+				<width>600</width>
 				<height>592</height>
-				<posx>-20</posx>
+				<posx>10</posx>
 				<posy>0</posy>
-				<texture border="100">filemanager/filemanager_panel.png</texture>
+				<texture border="100">confluence/dialogback1.png</texture>
 			</control>
 			<control type="label" id="102">
 				<posx>590</posx>
 				<posy>525</posy>
 				<width>555</width>
 				<height>60</height>
-				<font>Font_ListTitleBigger</font>
+				<font>Font_Neon_35</font>
 				<align>right</align>
 				<scroll>true</scroll>
 				<textcolor>FM_ListTitle</textcolor>
@@ -156,7 +157,7 @@
 						<height>39</height>
 						<font>Font_FavouritesItemLabel</font>
 						<aligny>center</aligny>
-						<textcolor>FM_ListUnfocused</textcolor>
+						<textcolor>black</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -168,7 +169,7 @@
 						<font>Font_FavouritesItemLabel</font>
 						<align>right</align>
 						<aligny>center</aligny>
-						<textcolor>FM_ListUnfocused</textcolor>
+						<textcolor>black</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<label>[UPPERCASE]$INFO[ListItem.label2][/UPPERCASE]</label>
 					</control>
@@ -180,8 +181,8 @@
 						<width>570</width>
 						<height>50</height>
 						<visible>Control.HasFocus(21)</visible>
-						<texture>favourites/focus_bar.png</texture>
-						<colordiffuse>FM_Focusbar</colordiffuse>
+						<texture>button-focus</texture>
+						
 					</control>
 					<control type="label">
 						<posx>23</posx>
@@ -190,7 +191,7 @@
 						<height>38</height>
 						<font>Font_FavouritesItemLabel</font>
 						<aligny>center</aligny>
-						<textcolor>FM_ListFocused</textcolor>
+						<textcolor>white</textcolor>
 						<shadowcolor>FM_ListFocusedAccent</shadowcolor>
 						<selectedcolor>FM_ListFocusSelected</selectedcolor>
 						<info>ListItem.Label</info>
@@ -203,7 +204,7 @@
 						<font>Font_FavouritesItemLabel</font>
 						<align>right</align>
 						<aligny>center</aligny>
-						<textcolor>FM_ListFocused</textcolor>
+						<textcolor>white</textcolor>
 						<selectedcolor>FM_ListFocused</selectedcolor>
 						<label>[UPPERCASE]$INFO[ListItem.label2][/UPPERCASE]</label>
 					</control>
