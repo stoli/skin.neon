@@ -21,6 +21,18 @@
 			<size>55</size>
 		</font>
 		<font>
+			<name>Font_Neon_45</name>
+			<filename>Antipasto.ttf</filename> 
+			<size>45</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
+			<name>Font_Neon_55</name>
+			<filename>Antipasto.ttf</filename> 
+			<size>55</size>
+		</font>
+
+		<font>
 			<name>Font_Bartowski_Zune</name>
 			<filename>Antipasto.ttf</filename>
 			<size>18</size>
