@@ -43,6 +43,7 @@
 		<animation effect="fade" time="300">Visible</animation>
 		<animation effect="fade" time="300">Hidden</animation>
 	</include>
+	
 
 	<include name="CommonSettingsBackground">
 		<control type="multiimage">
