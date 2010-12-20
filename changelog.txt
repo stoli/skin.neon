@@ -9,7 +9,7 @@ Updated 12/11/2010:
  -  Added new view - Slim List
  -  Fixed download % for addon's (was truncated for certain languages)
  -  Fixed/Updated "buffering..." posistioning and color
- -  Adjusted buttons in Video Infor for Cinema Experience
+ -  Adjusted buttons in Video Info for Cinema Experience
 
 Updated 12/08/2010:
  v.5.1.6

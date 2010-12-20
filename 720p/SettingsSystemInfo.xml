@@ -168,7 +168,7 @@
 				<posy>20</posy>
 				<width>740</width>
 				<height>30</height>
-				<font>font24_title</font>
+				<font>Font_Neon_24</font>
 				<label>$LOCALIZE[130] - $INFO[Control.GetLabel(40)]</label>
 				<align>left</align>
 				<aligny>center</aligny>

@@ -1,26 +1,20 @@
 <window id="130">
 	<defaultcontrol>1</defaultcontrol>
+	<include>Animation_SettingsFade</include>
 	<coordinates>
 		<system>1</system>
 		<posx>290</posx>
 		<posy>75</posy>
 	</coordinates>
 	<controls>
-		<control type="image">
-			<posx>-290</posx>
-			<posy>-75</posy>
-			<include>Dimensions_Fullscreen</include>
-			<texture>common/7000_focus.png</texture>
-			<animation effect="fade" start="0" end="100" time="600">Visible</animation>
-			<animation effect="fade" start="100" end="0" time="600">Hidden</animation>
-		</control>
+	
 		<control type="image">
 			<description>background image</description>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>700</width>
 			<height>570</height>
-			<texture border="40">confluence/DialogBack1.png</texture>
+			<texture border="40">confluence/DialogBack.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>
@@ -28,11 +22,11 @@
 			<posy>18</posy>
 			<width>660</width>
 			<height>30</height>
-			<font>Font_Bartowski_MainMenu_Context</font>
+			<font>Font_Neon_35</font>
 			<label>$INFO[Window.Property(heading)]</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>black</textcolor>
+			<textcolor>mainblue</textcolor>
 		</control>
 		<control type="image" id="2">
 			<description>profile image</description>
@@ -52,7 +46,7 @@
 			<posy>70</posy>
 			<width>460</width>
 			<align>left</align>
-			<font>font13_title</font>
+			<font>Font_Neon_20</font>
 			<textcolor>grey</textcolor>
 			<label>$LOCALIZE[20093]</label>
 		</control>
@@ -62,8 +56,8 @@
 			<posy>95</posy>
 			<width>460</width>
 			<align>left</align>
-			<font>font16caps</font>
-			<textcolor>black</textcolor>
+			<font>Font_Neon_24</font>
+			<textcolor>grey2</textcolor>
 		</control>
 		<control type="label">
 			<description>profile directory label</description>
@@ -71,7 +65,7 @@
 			<posy>155</posy>
 			<width>460</width>
 			<align>left</align>
-			<font>font13_title</font>
+			<font>Font_Neon_20</font>
 			<textcolor>grey</textcolor>
 			<label>$LOCALIZE[20070]</label>
 		</control>
@@ -81,8 +75,8 @@
 			<posy>180</posy>
 			<width>460</width>
 			<align>left</align>
-			<font>font13</font>
-			<textcolor>black</textcolor>
+			<font>Font_Neon_20</font>
+			<textcolor>grey2</textcolor>
 		</control>
 		<control type="grouplist" id="5">
 			<description>control area</description>
@@ -103,8 +97,8 @@
 			<posy>0</posy>
 			<height>40</height>
 			<textoffsetx>20</textoffsetx>
-			<font>Font_KeyboardEdit</font>
-			<textcolor>black</textcolor>
+			<font>Font_Neon_24</font>
+			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>confluence/button-focus-big.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -116,7 +110,7 @@
 			<height>40</height>
 			<textoffsetx>20</textoffsetx>
 			<font>Font_KeyboardEdit</font>
-			<textcolor>black</textcolor>
+			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>confluence/button-focus-big.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -128,7 +122,7 @@
 			<height>40</height>
 			<textoffsetx>20</textoffsetx>
 			<font>Font_KeyboardEdit</font>
-			<textcolor>black</textcolor>
+			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus>confluence/button-focus-big.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -150,7 +144,7 @@
 			<aligny>center</aligny>
 			<texturefocus border="5">button-focus.png</texturefocus>
 			<font>font16caps</font>
-			<textcolor>black</textcolor>
+			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<label>186</label>
 			<onleft>29</onleft>
@@ -168,7 +162,7 @@
 			<aligny>center</aligny>
 			<texturefocus border="5">button-focus.png</texturefocus>
 			<font>font16caps</font>
-			<textcolor>black</textcolor>
+			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<font>font12_title</font>
 			<label>222</label>

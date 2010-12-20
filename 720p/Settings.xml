@@ -9,11 +9,11 @@
 			<posy>50</posy>
 			<animation type="WindowOpen" reversible="false">
 				<!-- <effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
-				<effect type="fade" start="0" end="100" time="300" />
+				<effect type="fade" start="0" end="95" time="300" />
 			</animation>
 			<animation type="WindowClose" reversible="false">
 			<!--	<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" /> -->
-				<effect type="fade" start="100" end="0" time="300" />
+				<effect type="fade" start="95" end="0" time="300" />
 			</animation>			
 			<control type="image">
 				<posx>0</posx>
@@ -115,6 +115,7 @@
 					</item>
 					<item id="6">
 						<label>24001</label>
+						<font>Font_Neon_20</font>
 						<label2>31408</label2>
 						<onclick>ActivateWindow(AddonBrowser)</onclick>
 						<icon>backgrounds/addons.jpg</icon>
@@ -205,7 +206,7 @@
 				<posy>520</posy>
 				<width>740</width>
 				<height>100</height>
-				<font>font12</font>
+				<font>Font_Neon_20</font>
 				<label>$INFO[Container(9000).ListItem.Label2]</label>
 				<align>left</align>
 				<textcolor>white</textcolor>

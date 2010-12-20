@@ -8,6 +8,7 @@
 	<color name="blue">FF0055be</color>
 	<color name="selected">FFEB9E17</color>
 	<color name="dialogheader">DDced8da</color>
+<!--	<color name="mainblue">FF04B4AE</color> --> <!-- Original -->
 	<color name="mainblue">FF04B4AE</color>
 	<color name="green1">FF01DF01</color>
 	<color name="clearblack">89000000</color>

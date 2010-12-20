@@ -50,7 +50,7 @@
 			<include>Animation_Viewtype_Files_LeftArea</include>
 			<itemlayout width="1210" height="36">
 				<control type="label">
-					<posx>20</posx>
+					<posx>50</posx>
 					<posy>0</posy>
 					<width>400</width>
 					<height>46</height>
@@ -59,7 +59,7 @@
 					<textcolor>Text-Filemode</textcolor>
 					<selectedcolor>mainblue</selectedcolor>
 					<label>$INFO[ListItem.label]</label>
-					<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation>
+				<!--	<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation>-->
 					<visible>![Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
 				</control>
 				<control type="label">
@@ -170,8 +170,8 @@
 						<effect type="fade" start="0" end="100" time="400" />
 					</animation> 
 				</control>-->
-				<control type="label">
-					<posx>20</posx>
+				<control type="label" id="222">
+					<posx>50</posx>
 					<posy>0</posy>
 					<width>400</width>
 					<height>46</height>
@@ -179,11 +179,12 @@
 					<font>Font_Bartowski_Episode_ContextMenu</font>
 					<textcolor>ffffffff</textcolor>
 					<label>$INFO[ListItem.Label]</label>
-					<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation>
+				<!--	<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation> -->
 					<visible>[!Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
+					
 				</control>
 				<control type="label">
-					<posx>20</posx>
+					<posx>50</posx>
 					<posy>0</posy>
 					<width>400</width>
 					<height>46</height>
@@ -205,6 +206,7 @@
 					<label>$INFO[ListItem.year]</label>
 					<visible>Container.Content(movies) + !Skin.HasSetting(Files_Fanart) + !IsEmpty(ListItem.Title)</visible>
 				</control> -->
+				
 				<control type="image">
 					<posx>24</posx>
 					<posy>11</posy>
@@ -229,6 +231,7 @@
 			</focusedlayout>
 			
 		</control>	
+	
 			
 	<control type="group">	
 	<include>Animation_Viewtype_Files_RightArea</include>
@@ -277,6 +280,7 @@
 			</animation>
 			<visible>Container(50).OnPrevious</visible>
 		</control>
+
 	</control>
 <!--	<control type="group">
 			<visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left)</visible>
@@ -340,10 +344,29 @@
 		<aligny>center</aligny>
 		<font>Font_Bartowski_Title_TVShow</font>
 		<textcolor>ffffffff</textcolor>
-		<label>MovieSet</label>
+		<label>Movie Series</label>
 		<visible>Control.IsVisible(598) + IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible>
 	</control>
-	
+	<control type="textbox"><!-- Plot and TV -->
+				<posx>460</posx>
+				<posy>545</posy>
+				<width>610</width>
+				<height>120</height>
+				<align>justify</align>
+				<info>ListItem.Plot</info>
+				<font>Font_Bartowski_Showcase_plot</font>
+				<textcolor>ffffffff</textcolor>
+				<autoscroll time="3000" delay="7000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
+				<animation type="WindowOpen">
+					<effect type="fade" start="0" end="100" time="600" delay="6000" tween="cubic" easing="inout" />
+				</animation>			
+				<animation type="WindowClose">
+					<effect type="fade" start="100" end="0" time="600" delay="0" tween="cubic" easing="inout" />
+				</animation>	
+				<animation effect="fade" start="0" end="100" time="600" delay="6000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
+				
+				<visible>Control.IsVisible(598) + Container.Content(movies)]</visible>
+			</control>	
 	<!--<control type="image">
 		<posx>980</posx>
 		<posy>180</posy>
@@ -886,7 +909,8 @@
 			<animation effect="slide" start="0,0" end="-500,0" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(60) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">Conditional</animation>
 			<animation effect="slide" start="0,0" end="-530,0" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(60) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">Conditional</animation>
 		</control>
-		
+	
 		
 	</include>
+
 </includes>

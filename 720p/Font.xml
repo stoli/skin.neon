@@ -21,23 +21,52 @@
 			<size>55</size>
 		</font>
 		<font>
+			<name>Font_Neon_55</name>
+			<filename>Antipasto.ttf</filename> 
+			<size>55</size>
+		</font>
+		<font>
 			<name>Font_Neon_45</name>
 			<filename>Antipasto.ttf</filename> 
 			<size>45</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
-			<name>Font_Neon_55</name>
+			<name>Font_Neon_35</name>
 			<filename>Antipasto.ttf</filename> 
-			<size>55</size>
+			<size>35</size>
+			<linespacing>1</linespacing>
 		</font>
-
+		<font>
+			<name>Font_Neon_30</name>
+			<filename>Antipasto.ttf</filename> 
+			<size>30</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
+			<name>Font_Neon_24</name>
+			<filename>Antipasto.ttf</filename>
+			<size>24</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
+			<name>Font_Neon_20</name>
+			<filename>Antipasto.ttf</filename>
+			<size>20</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
+			<name>Font_Neon_15</name>
+			<filename>Antipasto.ttf</filename>
+			<size>15</size>
+		</font>
 		<font>
 			<name>Font_Bartowski_Zune</name>
 			<filename>Antipasto.ttf</filename>
 			<size>18</size>
 			<linespacing>1</linespacing>
 		</font>
+
 		<font>
 			<name>Font_Bartowski_Main_SubMenu</name>
 			<filename>Antipasto.ttf</filename>
