@@ -2,6 +2,18 @@
 <fonts>
 
 	<fontset id="Antipasto" unicode="true">
+		<font>
+			<name>Font_xmas_MainMenu</name>
+			<filename>kr.ttf</filename> 
+			<size>55</size>
+			<linespacing>1</linespacing>
+		</font>
+		
+		<font>
+			<name>Font_xmas_MainMenu_Focus</name>
+			<filename>kr.ttf</filename> 
+			<size>65</size>
+		</font>
 		
 		<font>
 			<name>Font_Neon_85</name>
@@ -9,6 +21,7 @@
 			<size>85</size>
 			<linespacing>1</linespacing>
 		</font>
+		
 		<font>
 			<name>Font_Bartowski_MainMenu</name>
 			<filename>EUROCAPS.ttf</filename> 
