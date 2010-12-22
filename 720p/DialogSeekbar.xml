@@ -299,7 +299,7 @@
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Title_TVShow</font>
 			<textcolor>mainblue</textcolor>
-			<visible>VideoPlayer.Content(episodes)</visible>
+			<visible>!VideoPlayer.Content(episodes)</visible>
 		</control>
 		<control type="label">
 			<posx>0</posx>
