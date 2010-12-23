@@ -27,9 +27,9 @@
 					<posx>30</posx>
 					<posy>60</posy>
 					<align>center</align>
-					<font>Font_xmas_MainMenu</font>
+					<font>Font_Bartowski_MainMenu</font>
 					<textcolor>38b8b7b7</textcolor>
-					<label>$INFO[ListItem.label]</label>
+					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 				<!--	<animation effect="slide" end="0,600" time="600" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="0" end="100" delay="301" time="200" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="100" end="0" time="0" condition="ControlGroup(9001).HasFocus">WindowClose</animation> -->
@@ -44,10 +44,10 @@
 					<posx>160</posx>
 					<posy>52</posy>
 					<align>center</align>
-					<font>Font_xmas_MainMenu_Focus</font>
+					<font>Font_Bartowski_MainMenu_Focus</font>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>$INFO[ListItem.label]</label>
+					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 				<!--	<animation effect="slide" end="0,-60" time="301" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 				</control>
 			</focusedlayout>
@@ -1610,9 +1610,9 @@
 					<posx>30</posx>
 					<posy>58</posy>
 					<align>center</align>
-					<font>Font_xmas_MainMenu</font>
+					<font>Font_Bartowski_MainMenu</font>
 					<textcolor>38b8b7b7</textcolor>
-					<label>$INFO[ListItem.label]</label>
+					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 				<!--	<animation effect="slide" end="0,600" time="600" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="0" end="100" delay="301" time="200" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 					<!-- <animation effect="fade" start="100" end="0" time="0" condition="ControlGroup(9001).HasFocus">WindowClose</animation> -->
@@ -1627,10 +1627,10 @@
 					<posx>160</posx>
 					<posy>52</posy>
 					<align>center</align>
-					<font>Font_xmas_MainMenu_Focus</font>
+					<font>Font_Bartowski_MainMenu_Focus</font>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>$INFO[ListItem.label]</label>
+					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 				<!--	<animation effect="slide" end="0,-60" time="301" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
 				</control>
 			</focusedlayout>
