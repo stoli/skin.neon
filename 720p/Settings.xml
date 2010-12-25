@@ -29,6 +29,7 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>neon.png</texture>
 			</control>
 			<control type="list" id="9000">
@@ -48,7 +49,7 @@
 						<posy>0</posy>
 						<width>265</width>
 						<height>45</height>
-						<texture border="5">MenuItemNF.png</texture>
+						<texture>MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<posx>130</posx>
@@ -68,7 +69,8 @@
 						<posy>0</posy>
 						<width>230</width>
 						<height>45</height>
-						<texture border="5">button-focus.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>button-focus.png</texture>
 					</control>
 					<control type="label">
 						<posx>130</posx>

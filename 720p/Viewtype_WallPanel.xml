@@ -393,7 +393,7 @@
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Title</font>
-				<textcolor>ff15efd9</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$INFO[ListItem.Label]</label>
 			</control>
 			<control type="label">

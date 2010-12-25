@@ -53,10 +53,33 @@
 			<posx>0</posx>
 			<posy>445</posy>
 			<height>200</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<include>Dimensions_Fullscreen</include>
+			<texture>mainmenu/home_bottom_back.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
+			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
+		</control>
+		<control type="image">
+			<posx>0</posx>
+			<posy>445</posy>
+			<height>200</height>
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
+			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
+			
+		</control>
+				<control type="image">
+			<posx>0</posx>
+			<posy>222</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_back.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>!Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
 			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
 			
 		</control>
@@ -76,7 +99,8 @@
 			<posy>445</posy>
 			<height>200</height>
 			<include>Dimensions_Fullscreen</include>
-			<texture>mainmenu/home_bottom_align.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_back.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
 			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
@@ -90,9 +114,40 @@
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
+			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
+		
+		</control>	
+		<control type="image">
+			<posx>0</posx>
+			<posy>445</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_back.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
+		</control>	
+		<control type="image">
+			<posx>0</posx>
+			<posy>445</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<texture>mainmenu/home_bottom_align.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
 		</control>	
 
-	
+		<control type="image">
+			<posx>0</posx>
+			<posy>225</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_back.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
+		</control>
 		<control type="image">
 			<posx>0</posx>
 			<posy>225</posy>
@@ -105,7 +160,17 @@
 		</control>	
 		<control type="image">
 			<posx>0</posx>
-			<posy>222</posy>
+			<posy>225</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_back.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+		</control>
+		<control type="image">
+			<posx>0</posx>
+			<posy>225</posy>
 			<height>200</height>
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>

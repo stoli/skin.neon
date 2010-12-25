@@ -17,11 +17,16 @@
 			<posx>265</posx>
 			<posy>73</posy>
 			<animation effect="fade" start="400" end="50" time="500" condition="Window.IsActive(103)">Conditional</animation>
-	
 			<control type="image">
 				<width>750</width>
 				<height>575</height>
-				<texture border="29">dialogs/yes_no_back.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>DialogBackwht.png</texture>
+			</control>
+			<control type="image">
+				<width>750</width>
+				<height>575</height>
+				<texture>DialogBack.png</texture>
 			</control>
 			
 			<control type="image">

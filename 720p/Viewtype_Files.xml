@@ -161,11 +161,12 @@
 					<visible>Control.IsVisible(50) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
+					<posx>15</posx>
 					<posy>3</posy>
-					<width>820</width>
+					<width>810</width>
 					<height>39</height>
-					<texture>list/highlight.png</texture>
+					<colordiffuse>mainblue</colordiffuse>
+					<texture>button-focus.png</texture>
 					<animation type="Focus" reversible="false">
 						<effect type="fade" start="0" end="100" time="400" />
 					</animation>
@@ -236,7 +237,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -247,7 +248,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -263,7 +264,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -310,7 +311,7 @@
 		<height>540</height>
 		<aspectratio align="right" aligny="bottom">keep</aspectratio>
 		<texture background="true">$INFO[ListItem.Icon]</texture>
-		<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+		<bordertexture>button-nofocus.png</bordertexture>
 		<bordersize>5</bordersize>
 		<fadetime>100</fadetime>
 		<visible>Control.IsVisible(50) + IsEmpty(ListItem.Title) + ![Container.Content(movies) | Container.Content(Genres) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs)]</visible>
@@ -327,7 +328,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem.Label].jpg</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -338,7 +339,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem(-1).Label].jpg</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -354,7 +355,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem(1).Label].jpg</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -432,7 +433,7 @@
 			<height>530</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -443,7 +444,7 @@
 			<height>300</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>-->
@@ -454,7 +455,7 @@
 			<height>530</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -469,7 +470,7 @@
 			<height>530</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -489,7 +490,7 @@
 			<height>360</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -500,7 +501,7 @@
 			<height>360</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -515,7 +516,7 @@
 			<height>360</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -535,7 +536,7 @@
 			<height>350</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -546,7 +547,7 @@
 			<height>300</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>-->
@@ -557,7 +558,7 @@
 			<height>350</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -572,7 +573,7 @@
 			<height>350</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture>button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->

@@ -20,6 +20,15 @@
 				<posy>50</posy>
 				<width>1100</width>
 				<height>640</height>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>DialogBackwht.png</texture>
+				<!--<texture>list/file-black-background1.png</texture>-->
+			</control>
+			<control type="image">
+				<posx>90</posx>
+				<posy>50</posy>
+				<width>1100</width>
+				<height>640</height>
 				<texture>DialogBack.png</texture>
 				<!--<texture>list/file-black-background1.png</texture>-->
 			</control>
@@ -191,7 +200,7 @@
 						<animation effect="fade" start="100" end="0" time="600" delay="200" >WindowClose</animation>
 						<itemlayout height="30">
 							<control type="label">
-								<posx>165</posx>
+								<posx>170</posx>
 								<posy>0</posy>
 								<width>160</width>
 								<height>30</height>
@@ -203,9 +212,9 @@
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
-								<posx>175</posx>
+								<posx>180</posx>
 								<posy>2</posy>
-								<width>600</width>
+								<width>540</width>
 								<height>30</height>
 								<font>font13caps_title</font>
 								<align>left</align>
@@ -226,11 +235,12 @@
 								<width>740</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
+								<colordiffuse>mainblue</colordiffuse>
 								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
-								<posx>165</posx>
+								<posx>170</posx>
 								<posy>0</posy>
 								<width>160</width>
 								<height>30</height>
@@ -242,9 +252,9 @@
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
-								<posx>175</posx>
+								<posx>180</posx>
 								<posy>2</posy>
-								<width>600</width>
+								<width>540</width>
 								<height>30</height>
 								<font>font13caps_title</font>
 								<align>left</align>
@@ -373,6 +383,7 @@
 								<width>840</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
+								<colordiffuse>mainblue</colordiffuse>
 								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
@@ -512,7 +523,7 @@
 						<width>380</width>
 						<height>250</height>
 						<aspectratio aligny="bottom">keep</aspectratio>
-						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordertexture>button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<visible>!Control.IsVisible(50)</visible>
@@ -532,7 +543,7 @@
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
-								<posx>165</posx>
+								<posx>170</posx>
 								<posy>0</posy>
 								<width>160</width>
 								<height>30</height>
@@ -544,7 +555,7 @@
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
-								<posx>175</posx>
+								<posx>180</posx>
 								<posy>2</posy>
 								<width>1000</width>
 								<height>30</height>
@@ -563,11 +574,12 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
+								<colordiffuse>mainblue</colordiffuse>
 								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
-								<posx>165</posx>
+								<posx>170</posx>
 								<posy>0</posy>
 								<width>160</width>
 								<height>30</height>
@@ -579,7 +591,7 @@
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
-								<posx>175</posx>
+								<posx>180</posx>
 								<posy>2</posy>
 								<width>1000</width>
 								<height>30</height>
@@ -680,7 +692,7 @@
 						<width>380</width>
 						<height>360</height>
 						<aspectratio>keep</aspectratio>
-						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordertexture>button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
@@ -697,7 +709,7 @@
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
-								<posx>165</posx>
+								<posx>170</posx>
 								<posy>0</posy>
 								<width>160</width>
 								<height>30</height>
@@ -709,7 +721,7 @@
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
-								<posx>175</posx>
+								<posx>180</posx>
 								<posy>0</posy>
 								<width>465</width>
 								<height>30</height>
@@ -728,11 +740,12 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
+								<colordiffuse>mainblue</colordiffuse>
 								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
-								<posx>165</posx>
+								<posx>170</posx>
 								<posy>0</posy>
 								<width>160</width>
 								<height>30</height>
@@ -744,7 +757,7 @@
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
-								<posx>175</posx>
+								<posx>180</posx>
 								<posy>0</posy>
 								<width>465</width>
 								<height>30</height>
@@ -866,7 +879,7 @@
 						<control type="label">
 							<posx>10</posx>
 							<posy>0</posy>
-							<width>660</width>
+							<width>335</width>
 							<height>40</height>
 							<font>Font_MediaMenu</font>
 							<align>left</align>
@@ -881,10 +894,11 @@
 						<control type="image">
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>680</width>
+							<width>350</width>
 							<height>40</height>
 							<visible>Control.HasFocus(50)</visible>
-							<texture border="5">button-focus.png</texture>
+							<colordiffuse>mainblue</colordiffuse>
+							<texture>button-focus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>

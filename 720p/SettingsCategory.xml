@@ -69,6 +69,7 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>neon.png</texture>
 			</control>
 			<control type="grouplist" id="3">
@@ -151,8 +152,9 @@
 			<font>font24caps_title</font>
 			<textcolor>grey3</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
+			<texturenofocus>MenuItemNF.png</texturenofocus>
 			<pulseonselect>false</pulseonselect>
 		</control>
 		<control type="button" id="7">
@@ -164,6 +166,7 @@
 			<textcolor>grey2</textcolor>
 			<textoffsetx>15</textoffsetx>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
@@ -176,6 +179,7 @@
 			<textcolor>grey2</textcolor>
 			<textoffsetx>15</textoffsetx>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
@@ -188,6 +192,7 @@
 			<textcolor>grey2</textcolor>
 			<textoffsetx>15</textoffsetx>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 			<aligny>center</aligny>

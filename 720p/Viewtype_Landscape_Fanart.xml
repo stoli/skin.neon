@@ -12,6 +12,19 @@
 			<width>1280</width>
 			<height>355</height>
 			<!-- <texture>tv-landscape/landscape_fanart_back.png</texture> -->
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_backthin.png</texture>
+			<aspectratio>stretch</aspectratio>
+			
+			<include>Animation_Fade75</include>
+		</control>
+		<control type="image"><!-- 1st Background -->
+			<visible>Control.IsVisible(633)</visible>
+			<posx>0</posx>
+			<posy>371</posy>
+			<width>1280</width>
+			<height>355</height>
+			<!-- <texture>tv-landscape/landscape_fanart_back.png</texture> -->
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<aspectratio>stretch</aspectratio>
 			

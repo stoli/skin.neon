@@ -214,9 +214,9 @@
 							</item>
 							<item>
 								<label>$LOCALIZE[21895]:</label>
-								<label2>$INFO[ListItem.Property(Album_Theme)]</label2>
+								<label2>$INFO[ListItem.Property(Album_mainblue)]</label2>
 								<onclick>-</onclick>
-								<visible>!IsEmpty(ListItem.Property(Album_Theme))</visible>
+								<visible>!IsEmpty(ListItem.Property(Album_mainblue))</visible>
 							</item>
 							<item>
 								<label>146</label>

@@ -161,6 +161,15 @@
 			<posy>540</posy>
 			<width>1280</width>
 			<height>180</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_back.png</texture>
+			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+		</control>
+		<control type="image"><!-- Floor -->
+			<posx>0</posx>
+			<posy>540</posy>
+			<width>1280</width>
+			<height>180</height>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
 		</control>
