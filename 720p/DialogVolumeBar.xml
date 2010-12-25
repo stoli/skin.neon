@@ -37,6 +37,7 @@
 					<height>20</height>
 					<info>Player.Volume</info>
 					<lefttexture>-</lefttexture>
+					<colordiffuse>mainblue</colordiffuse>
 					<midtexture>dialogs/osd_volume.png</midtexture>
 					<righttexture>-</righttexture>
 					<overlaytexture>-</overlaytexture>

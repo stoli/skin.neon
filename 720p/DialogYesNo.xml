@@ -15,18 +15,27 @@
 
 	<controls>
 
-		<!-- <control type="image">
+		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>common/7000_focus.png</texture>
-		</control> -->
+		</control>
 		
+		<control type="image">
+			<description>background top image</description>
+			<posx>360</posx>
+			<posy>170</posy>
+			<width>550</width>
+			<height>292</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>DialogBackwht.png</texture>
+		</control>
 		<control type="image" id="997">
 			<description>background top image</description>
 			<posx>360</posx>
 			<posy>170</posy>
 			<width>550</width>
 			<height>292</height>
-			<texture>dialogs/yes_no_back.png</texture>
+			<texture>DialogBack.png</texture>
 		</control>
 		<control type="label" id="1">
 			<description>Heading</description>
@@ -86,7 +95,8 @@
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>
 			<label>$LOCALIZE[106]</label>
 			<align>center</align>
@@ -107,7 +117,8 @@
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<animation effect="zoom" start="100" end="120" tween="back" time="400" center="auto" reversible="false">Focus</animation>
 			<label>$LOCALIZE[107]</label>
 			<onleft>10</onleft>

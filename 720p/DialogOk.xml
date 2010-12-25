@@ -19,7 +19,15 @@
 				<posy>0</posy>
 				<width>600</width>
 				<height>230</height>
-				<texture border="20">confluence/OverlayDialogBackground1.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>DialogBackwht.png</texture>
+			</control>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>600</width>
+				<height>230</height>
+				<texture>DialogBack.png</texture>
 			</control>
 			<control type="label" id="1">
 				<description>header label</description>
@@ -27,11 +35,11 @@
 				<posy>18</posy>
 				<width>560</width>
 				<height>30</height>
-				<font>Bartowski_settings_small</font>
+				<font>Font_Neon_30</font>
 				<label>13406</label>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>black</textcolor>
+				<textcolor>white</textcolor>
 			</control>
 			<control type="label" id="2">
 				<description>dialog line 1</description>
@@ -39,11 +47,11 @@
 				<posy>60</posy>
 				<width>560</width>
 				<height>30</height>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
 				<label>-</label>
-				<textcolor>black</textcolor>
-				<font>Bartowski_settings_small</font>
+				<textcolor>white</textcolor>
+				<font>Font_Neon_20</font>
 			</control>
 			<control type="label" id="3">
 				<description>dialog line 2</description>
@@ -51,11 +59,11 @@
 				<posy>85</posy>
 				<width>560</width>
 				<height>30</height>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
 				<label>-</label>
-				<font>Bartowski_settings_small</font>
-				<textcolor>black</textcolor>
+				<font>Font_Neon_20</font>
+				<textcolor>white</textcolor>
 			</control>
 			<control type="label" id="4">
 				<description>dialog line 3</description>
@@ -63,11 +71,11 @@
 				<posy>110</posy>
 				<width>560</width>
 				<height>30</height>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
 				<label>-</label>
-				<font>Bartowski_settings_small</font>
-				<textcolor>black</textcolor>
+				<font>Font_Neon_20</font>
+				<textcolor>white</textcolor>
 			</control>
 			<control type="button" id="10">
 				<description>OK button</description>
@@ -80,8 +88,9 @@
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
-				<texturenofocus border="5">MenuItemNF.png</texturenofocus>
-				<texturefocus border="5">button-focus.png</texturefocus>
+				<colordiffuse>mainblue</colordiffuse>
+				<texturenofocus>MenuItemNF.png</texturenofocus>
+				<texturefocus>button-focus.png</texturefocus>
 				<onleft>10</onleft>
 				<onright>10</onright>
 				<onup>10</onup>

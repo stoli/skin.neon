@@ -10,14 +10,22 @@
 	</coordinates>
 
 	<controls>
-
+		<control type="image">
+			<description>Back Panel</description>
+			<posx>-30</posx>
+			<posy>-30</posy>
+			<width>620</width>
+			<height>500</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>DialogBackwht.png</texture>
+		</control>
 		<control type="image" id="0">
 			<description>Back Panel</description>
 			<posx>-30</posx>
 			<posy>-30</posy>
 			<width>620</width>
 			<height>500</height>
-			<texture>dialogs/yes_no_back.png</texture>
+			<texture>DialogBack.png</texture>
 		</control>
 
 		<control type="spincontrolex" id="3">
@@ -30,7 +38,8 @@
 			<textoffsetx>6</textoffsetx>
 			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<width>400</width>
 			<onup>29</onup>
 			<ondown>4</ondown>
@@ -93,7 +102,8 @@
 				<control type="image">
 					<width>340</width>
 					<height>30</height>
-					<texture>confluence/button-focus-big.png</texture>
+					<colordiffuse>mainblue</colordiffuse>
+					<texture>button-focus.png</texture>
 					<visible>Control.HasFocus(4)</visible>
 				</control>
 				<control type="image">
@@ -132,7 +142,8 @@
 			<textoffsetx>6</textoffsetx>
 			<textcolor>TextSelected</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 
 		<control type="radiobutton" id="8">
@@ -141,7 +152,8 @@
 			<textoffsetx>6</textoffsetx>
 			<textcolor>TextSelected</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 
 		<control type="button" id="6">
@@ -153,7 +165,8 @@
 			<align>center</align>
 			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onup>5</onup>
 			<onleft>29</onleft>
@@ -169,6 +182,7 @@
 			<textcolor>mainblue</textcolor>
 			<align>center</align>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onleft>6</onleft>
@@ -184,6 +198,7 @@
 			<align>center</align>
 			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus border="1">ButtonNF.png</texturenofocus>
 			<onleft>28</onleft>

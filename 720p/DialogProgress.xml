@@ -104,6 +104,7 @@
 				<width>560</width>
 				<height>16</height>
 				<info>System.Progressbar</info>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturebg>osd_video_indicator_background1.png</texturebg>
 				<lefttexture>current_time_indicator_buffering_left.png</lefttexture>
 				<midtexture>current_time_indicator_buffering.png</midtexture>
@@ -120,8 +121,9 @@
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
-				<texturenofocus border="5">MenuItemNF.png</texturenofocus>
-				<texturefocus border="5">MenuItemFO.png</texturefocus>
+				<colordiffuse>mainblue</colordiffuse>
+				<texturenofocus>MenuItemNF.png</texturenofocus>
+				<texturefocus>MenuItemFO.png</texturefocus>
 				<onleft>10</onleft>
 				<onright>10</onright>
 				<onup>10</onup>

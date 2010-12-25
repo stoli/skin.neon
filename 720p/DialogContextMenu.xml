@@ -14,7 +14,7 @@
 			<posy>-74</posy>
 			<width>370</width>
 			<height>74</height>
-			<texture border="45,45,45,0">confluence/DialogContextTop.png</texture>
+			<texture border="45,45,45,0">DialogContextTop.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>
@@ -26,7 +26,7 @@
 			<label>Menu</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>white</textcolor>
+			<textcolor>black</textcolor>
 		</control>
 		
 		<control type="image">
@@ -34,21 +34,21 @@
 			<posy>-6</posy>
 			<width>290</width>
 			<height>4</height>
-			<texture>confluence/separator2.png</texture>
+			<texture>common/separator.png</texture>
 		</control>
 		<control type="image" id="999">
 			<description>background image</description>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>370</width>
-			<texture border="45,0,45,0">confluence/DialogContextMiddle.png</texture>
+			<texture border="45,0,45,0">DialogContextMiddle.png</texture>
 		</control>
 		<control type="image" id="998">
 			<description>background bottom image</description>
 			<posx>0</posx>
 			<width>370</width>
 			<height>50</height>
-			<texture border="45,0,45,49">confluence/DialogContextBottom.png</texture>
+			<texture border="45,0,45,49">DialogContextBottom.png</texture>
 		</control>
 		<control type="button" id="1000">
 			<description>button template</description>
@@ -61,7 +61,8 @@
 			<align>center</align>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		
