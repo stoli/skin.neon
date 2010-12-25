@@ -205,14 +205,14 @@
 			<animation effect="fade" start="0" end="100" time="400" tween="cubic" easing="inout" condition="Container(300).HasFocus(8) | Container(300).HasFocus(14)">Conditional</animation>
 			<visible>Skin.HasSetting(HomepageWeatherWidget) + [Container(300).HasFocus(8) | Container(300).HasFocus(14)]</visible>
 		</control> -->
-		<control type="image">
+	<!--	<control type="image">
 			<posx>0</posx>
-			<posy>340</posy>
-			<width>587</width>
-			<height>376</height>
-			<texture>music/music_global_home.png</texture>
+			<posy>423</posy>
+			<height>150</height>
+			<width>1280</width>
+			<texture>mainmenu/nowplaying_shadow.png</texture>
 			<visible>Window.IsActive(Home) + Player.HasAudio + Skin.HasSetting(horizontal_bottom_align)</visible>
-		</control> 
+		</control>  -->
 		
 		<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include>
 		<include condition="Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeBottom</include>
@@ -289,6 +289,7 @@
 		 <!-- <include>Library_Totals</include> -->
 		
 		<include>BottomLine_RSS</include>
+		
 			<include>Music_Global_Home</include>
 	</controls>
 </window>

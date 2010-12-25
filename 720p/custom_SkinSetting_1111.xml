@@ -28,6 +28,7 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>neon.png</texture>
 			</control>
 			
@@ -50,7 +51,7 @@
 						<posy>0</posy>
 						<width>280</width>
 						<height>45</height>
-						<texture border="5">MenuItemNF.png</texture>
+						<texture>MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<posx>135</posx>
@@ -72,8 +73,8 @@
 						<posy>4</posy>
 						<width>260</width>
 						<height>45</height>
-						<!--<colordiffuse>mainblue</colordiffuse>-->
-						<texture border="5">button-focus.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>button-focus.png</texture>
 						<animation effect="fade" start="100" end="30" time="100" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -147,7 +148,7 @@
 				<posy>10</posy>
 				<width>770</width>
 				<height>615</height>
-				<texture border="5">black-back2.png</texture> 
+				<texture>black-back2.png</texture> 
 			</control> 
 			<control type="image">
 				<posx>268</posx>
@@ -279,6 +280,7 @@
 						<label>$LOCALIZE[31041]</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(DarkFullscreenMusicPlayback)</onclick>
@@ -293,6 +295,7 @@
 						<label>$LOCALIZE[31257]</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(vis_music_backdrops)</onclick>
@@ -307,6 +310,7 @@
 						<label>$LOCALIZE[31258]</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(vis_photos_backdrops)</onclick>
@@ -478,6 +482,7 @@
 						<align>left</align>
 						<aligny>top</aligny>
 						<label>Set Conditional Weather Folder - [COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder1)</onclick>
@@ -502,6 +507,7 @@
 						<align>left</align>
 						<aligny>top</aligny>
 						<label>$LOCALIZE[31283]</label>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(animation_bg_global)</onclick>
@@ -707,6 +713,7 @@
 								<posy>0</posy>
 								<width>740</width>
 								<height>40</height>
+								<colordiffuse>mainblue</colordiffuse>
 								<texture>MenuItemFO.png</texture>
 								<visible>[Control.HasFocus(304) | Control.HasFocus(305)]</visible>
 							</control>
@@ -924,8 +931,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomVideosFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -943,8 +951,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomVideosFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -962,8 +971,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomVideosFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -984,8 +994,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomMusicFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1003,8 +1014,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomMusicFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1022,8 +1034,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomMusicFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1044,8 +1057,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomPicturesFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1063,8 +1077,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomPicturesFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1082,8 +1097,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomPicturesFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1104,8 +1120,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomHDMoviesFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1123,8 +1140,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomHDMoviesFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1142,8 +1160,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomHDMoviesFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1164,8 +1183,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Home_Custom_Back_Weather_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1183,8 +1203,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1202,8 +1223,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Home_Custom_Back_Weather_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1224,8 +1246,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomScriptsFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1243,8 +1266,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomScriptsFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1262,8 +1286,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomScriptsFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1284,8 +1309,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomfavouritesFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1303,8 +1329,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomfavouritesFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1322,8 +1349,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomfavouritesFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1344,8 +1372,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomSettingsFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1363,8 +1392,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomSettingsFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1382,8 +1412,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomSettingsFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1404,8 +1435,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Home_Custom_Back_Shutdown_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1423,8 +1455,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Home_Custom_Back_Shutdown_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1442,8 +1475,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Home_Custom_Back_Shutdown_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1464,8 +1498,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomMoviesFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1483,8 +1518,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomMoviesFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1502,8 +1538,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomMoviesFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1524,8 +1561,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(CustomTVShowsFolder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1543,8 +1581,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(CustomTVShowsFolder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1562,8 +1601,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(CustomTVShowsFolder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1584,8 +1624,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom1_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1603,8 +1644,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom1_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1622,8 +1664,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom1_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1644,8 +1687,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom2_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1663,8 +1707,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom2_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1682,8 +1727,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom2_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1704,8 +1750,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom3_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1723,8 +1770,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom3_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1742,8 +1790,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom3_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1764,8 +1813,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom4_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1783,8 +1833,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom4_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1802,8 +1853,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom4_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1824,8 +1876,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom5_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1843,8 +1896,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom5_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1862,8 +1916,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom5_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1884,8 +1939,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom6_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1903,8 +1959,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom6_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1922,8 +1979,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom6_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -1944,8 +2002,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom7_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -1963,8 +2022,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom7_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -1982,8 +2042,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom7_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -2004,8 +2065,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom8_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -2023,8 +2085,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom8_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -2042,8 +2105,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom8_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -2064,8 +2128,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom9_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -2083,8 +2148,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom9_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -2102,8 +2168,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom9_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -2124,8 +2191,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetImage(Menu_Custom10_Folder)</onclick>
 								<onleft>302</onleft>
 								<onright>301</onright>
@@ -2143,8 +2211,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.SetPath(Menu_Custom10_Folder)</onclick>
 								<onleft>300</onleft>
 								<onright>302</onright>
@@ -2162,8 +2231,9 @@
 								<textcolor>grey2</textcolor>
 								<focusedcolor>white</focusedcolor>
 								<align>center</align>
-								<texturenofocus border="5">button-nofocus.png</texturenofocus>
-								<texturefocus border="5">MenuItemFO.png</texturefocus>
+								<colordiffuse>mainblue</colordiffuse>
+								<texturenofocus>button-nofocus.png</texturenofocus>
+								<texturefocus>MenuItemFO.png</texturefocus>
 								<onclick>Skin.Reset(Menu_Custom10_Folder)</onclick>
 								<onleft>301</onleft>
 								<onright>300</onright>
@@ -2583,6 +2653,7 @@
 							<label>$LOCALIZE[31264]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
+							<colordiffuse>mainblue</colordiffuse>
 							<texturefocus>MenuItemFO.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
 							<!--<onclick>RunScript(script.logo-downloader)</onclick>-->

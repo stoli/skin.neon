@@ -103,6 +103,7 @@
 		<align>center</align>
 		<aligny>-</aligny>
 		<textoffsety>10</textoffsety>
+		<colordiffuse>mainblue</colordiffuse>
 		<texturefocus>button-focus.png</texturefocus>
 		<textcolor>white</textcolor>
 		<focusedcolor>white</focusedcolor>
@@ -115,6 +116,7 @@
 		<font>font16caps</font>
 		<textcolor>grey2</textcolor>
 		<focusedcolor>white</focusedcolor>
+		<colordiffuse>mainblue</colordiffuse>
 		<texturefocus>MenuItemFO.png</texturefocus>
 		<texturenofocus>MenuItemNF.png</texturenofocus>
 	</include>
