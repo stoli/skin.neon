@@ -1,3 +1,14 @@
+[B]Updated 12/25/2010:[/B]
+v.7.0.0
+
+Merry Christmas!
+
+Updated Textures
+Updated fonts to support more languages
+Added support for user selectable color themes
+Text positioning tweaks.
+
+
 [B]Updated 12/14/2010:[/B]
 v .6.0.1
  -  Fixed main menu to return focus to same item node.  I.E.  Enter movies, exit movies, Movies will be selected on main menu.
