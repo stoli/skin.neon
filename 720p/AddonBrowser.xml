@@ -115,7 +115,8 @@
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
 					<textcolor>ff000000</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<label>24063</label>
 					<textoffsetx>10</textoffsetx>
 					<width>150</width>

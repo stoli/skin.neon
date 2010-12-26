@@ -18,6 +18,14 @@
 				<posy>485</posy>
 				<width>1280</width>
 				<height>170</height>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>mainmenu/home_bottom_backthin.png</texture>
+			</control>
+			<control type="image"><!-- Floor -->
+				<posx>-300</posx>
+				<posy>485</posy>
+				<width>1280</width>
+				<height>170</height>
 				<texture>mainmenu/home_bottom_align.png</texture>
 			</control>
 			<control type="group" id="9000">
@@ -35,8 +43,9 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">button-focus.png</texturefocus>
-					<texturenofocus border="7">button-nofocus.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>button-nofocus.png</texturenofocus>
 					<onup>49</onup>
 					<ondown>60</ondown>
 					<onleft>10</onleft>
@@ -54,8 +63,9 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">button-focus.png</texturefocus>
-					<texturenofocus border="7">button-nofocus.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>button-nofocus.png</texturenofocus>
 					<description>Album Info button</description>
 					<onup>49</onup>
 					<ondown>60</ondown>
@@ -74,8 +84,9 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">button-focus.png</texturefocus>
-					<texturenofocus border="7">button-nofocus.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>button-nofocus.png</texturenofocus>
 					<onup>49</onup>
 					<ondown>60</ondown>
 					<onleft>7</onleft>
@@ -93,8 +104,9 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">button-focus.png</texturefocus>
-					<texturenofocus border="7">button-nofocus.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>button-nofocus.png</texturenofocus>
 					<onup>49</onup>
 					<ondown>60</ondown>
 					<onleft>9</onleft>
@@ -112,8 +124,9 @@
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="7">button-focus.png</texturefocus>
-					<texturenofocus border="7">button-nofocus.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>button-nofocus.png</texturenofocus>
 					<onleft>8</onleft>
 					<onright>6</onright>
 					<onup>49</onup>

@@ -125,7 +125,8 @@
 					<control type="image">
 						<width>560</width>
 						<height>40</height>
-						<texture border="3">button-focus.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>button-focus.png</texture>
 					</control>
 					<control type="image">
 						<posx>15</posx>

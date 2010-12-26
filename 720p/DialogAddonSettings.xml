@@ -13,7 +13,16 @@
 			<posy>0</posy>
 			<width>960</width>
 			<height>610</height>
-			<texture border="40">confluence/DialogBack.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture border="40">DialogBackwht.png</texture>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>960</width>
+			<height>610</height>
+			<texture border="40">DialogBack.png</texture>
 		</control>
 		<control type="image">
 			<description>separator image</description>
@@ -94,7 +103,8 @@
 				<height>40</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+				<colordiffuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
@@ -112,7 +122,8 @@
 				<height>40</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+				<colordiffuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
@@ -130,7 +141,8 @@
 				<height>40</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+				<colordiffuse>mainblue</colordiffuse>
+				<texturefocus>button-focus-big.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
@@ -152,7 +164,8 @@
 			<font>Font_KeyboardKeys_Plot</font>
 			<textcolor>mainblue</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<pulseonselect>false</pulseonselect>
 		</control>
 		<control type="button" id="3">
@@ -162,7 +175,8 @@
 			<textoffsetx>10</textoffsetx>
 			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 		<control type="radiobutton" id="4">
 			<description>Default RadioButton</description>
@@ -171,14 +185,16 @@
 			<textoffsetx>10</textoffsetx>
 			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="5">
 			<description>Default spincontrolex</description>
 			<height>40</height>
 			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<font>Font_KeyboardKeys_Plot</font>
 			<textoffsetx>10</textoffsetx>
 			<aligny>center</aligny>
@@ -205,7 +221,8 @@
 			<font>Font_KeyboardKeys_Plot</font>
 			<textcolor>grey</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 	</controls>
 </window>

@@ -7,14 +7,22 @@
 		<posy>75</posy>
 	</coordinates>
 	<controls>
-	
 		<control type="image">
 			<description>background image</description>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>700</width>
 			<height>570</height>
-			<texture border="40">confluence/DialogBack.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>DialogBackwht.png</texture>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>700</width>
+			<height>570</height>
+			<texture>DialogBack.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>
@@ -100,7 +108,8 @@
 			<font>Font_Neon_24</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
 		</control>
 		<control type="radiobutton" id="8">
@@ -112,7 +121,8 @@
 			<font>Font_KeyboardEdit</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
 		</control>
 		<control type="spincontrolex" id="9">
@@ -124,7 +134,8 @@
 			<font>Font_KeyboardEdit</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>confluence/button-focus-big.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
@@ -142,7 +153,8 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<font>font16caps</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
@@ -160,7 +172,8 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<font>font16caps</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
