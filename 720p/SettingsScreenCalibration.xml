@@ -45,7 +45,7 @@
 			<posy>0</posy>
 			<width>128</width>
 			<height>128</height>
-			<texturefocus>CalibrateTopLeft.png</texturefocus>
+			<texturefocus>calibrate/CalibrateTopLeft.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="mover" id="9">
@@ -54,7 +54,7 @@
 			<posy>500</posy>
 			<width>128</width>
 			<height>128</height>
-			<texturefocus>CalibrateBottomRight.png</texturefocus>
+			<texturefocus>calibrate/CalibrateBottomRight.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="mover" id="10">
@@ -63,7 +63,7 @@
 			<posy>500</posy>
 			<width>512</width>
 			<height>128</height>
-			<texturefocus>CalibrateSubtitles.png</texturefocus>
+			<texturefocus>calibrate/CalibrateSubtitles.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="resize" id="11">
@@ -72,7 +72,7 @@
 			<posy>232</posy>
 			<width>256</width>
 			<height>256</height>
-			<texturefocus>CalibratePixelRatio.png</texturefocus>
+			<texturefocus>calibrate/CalibratePixelRatio.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="group">

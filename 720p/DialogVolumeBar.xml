@@ -16,24 +16,24 @@
 			<height>183</height>
 			<control type="group">
 				<control type="image">
-					<posx>330</posx>
-					<posy>-30</posy>
-					<width>47</width>
-					<height>340</height>
+					<posx>332</posx>
+					<posy>-10</posy>
+					<width>40</width>
+					<height>330</height>
 					<texture>volume_background.png</texture>
 				</control>
 				<control type="image">
 					<posx>337</posx>
-					<posy>250</posy>
+					<posy>265</posy>
 					<width>35</width>
 					<height>35</height>
 					<texture>VolumeIcon.png</texture>
 				</control>
 				<control type="progress" id="1">
 					<description>Progressbar</description>
-					<posx>218</posx>
-					<posy>113</posy>
-					<width>240</width>
+					<posx>225</posx>
+					<posy>125</posy>
+					<width>220</width>
 					<height>20</height>
 					<info>Player.Volume</info>
 					<lefttexture>-</lefttexture>
@@ -43,6 +43,13 @@
 					<overlaytexture>-</overlaytexture>
 					<visible>true</visible>
 					<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+				</control>
+				<control type="image">
+					<posx>330</posx>
+					<posy>0</posy>
+					<width>50</width>
+					<height>300</height>
+					<texture>dialogs/volume_cover.png</texture>
 				</control>
 
 			

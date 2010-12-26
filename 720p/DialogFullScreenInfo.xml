@@ -5,7 +5,10 @@
 	<controls>	
 	
 	<include>Global_Time_TopRight_OSD</include>
-	
+	<control type="group">	
+	<animation type="WindowOpen">
+				<effect type="fade" start="0" end="100" time="600" delay="3000" />
+			</animation>	
 		<control type="group">		
 			<posy>560</posy>
 			<visible>!Control.IsVisible(10)</visible>
@@ -103,7 +106,7 @@
 					<font>Font_Bartowski_Title_Movie</font>
 					<textcolor>mainblue</textcolor>
 					<visible>VideoPlayer.Content(movies)</visible>
-				</control> -->
+				</control> 
 				<control type="label">
 					<posx>0</posx>
 					<posy>20</posy>
@@ -128,6 +131,44 @@
 					<textcolor>ffffffff</textcolor>
 					<visible>VideoPlayer.Content(movies)</visible>
 				</control>
+				 
+				<control type="label">
+					<posx>200r</posx>
+					<posy>80</posy>
+					<width>412</width> 
+					<height>25</height> 
+					<label>IMDB: $INFO[VideoPlayer.RatingAndVotes ]</label>
+					<align>right</align> 
+					<aligny>center</aligny> 
+					<font>Font_Bartowski_Movies</font>
+					<textcolor>ffffffff</textcolor>
+					<visible>VideoPlayer.Content(movies)</visible>
+				</control>
+				<control type="label">
+					<posx>200r</posx>
+					<posy>105</posy>
+					<width>412</width> 
+					<height>25</height> 
+					<label>Directed by: $INFO[VideoPlayer.Director]</label>
+					<align>right</align> 
+					<aligny>center</aligny> 
+					<font>Font_Bartowski_Movies</font>
+					<textcolor>ffffffff</textcolor>
+					<visible>VideoPlayer.Content(movies)</visible>
+				</control>
+				<control type="label">
+					<posx>200r</posx>
+					<posy>130</posy>
+					<width>412</width> 
+					<height>25</height> 
+					<label>$INFO[VideoPlayer.mpaa]</label>
+					<align>right</align> 
+					<aligny>center</aligny> 
+					<font>Font_Bartowski_Movies</font>
+					<textcolor>ffffffff</textcolor>
+					<visible>VideoPlayer.Content(movies)</visible>
+				</control>
+				
 				<control type="label">
 					<posx>0</posx>
 					<posy>50</posy>
@@ -177,9 +218,9 @@
 					 <colordiffuse>d0FDD017</colordiffuse>
 					 <info>Player.StarRating</info>
 					<visible>VideoPlayer.Content(episodes) + Skin.HasSetting(library_global_clock)</visible>
-			   </control>	-->		
-
-		</control>
+			   </control>			
+				-->
+		</control> 
 	<control type="group">
 	<posy>560</posy>
 		<control type ="image"> 
@@ -201,7 +242,7 @@
 			<visible>!Control.IsVisible(10)</visible>
 		</control>
 	</control>
-		
+	</control>	
 			<control type="label">
 			<animation type="WindowOpen">
 				<effect type="fade" start="0" end="100" time="600" />
@@ -217,5 +258,5 @@
 				<visible>Skin.HasSetting(library_global_clock)</visible>
 			</control>					
 		
-	</controls>
+	</controls> 
 </window>

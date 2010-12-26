@@ -1,3 +1,10 @@
+[B]Updated 12/26/2010:[/B]
+v.7.1.0
+Fixed video calibration screen
+Added support for Swedish - special thanks to Kalliban
+Updated volume OSD
+Added delay and more information to "I"nfo screen for movies - trial balloon
+
 [B]Updated 12/25/2010:[/B]
 v.7.0.0
 
@@ -7,7 +14,7 @@ Updated Textures
 Updated fonts to support more languages
 Added support for user selectable color themes
 Text positioning tweaks.
-
+Changed some background images
 
 [B]Updated 12/14/2010:[/B]
 v .6.0.1
