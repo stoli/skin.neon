@@ -291,13 +291,23 @@
 					<texture>common/library_time_gradient.png</texture>
 				</control>
 				<control type="label">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
 					<align>right</align>
 				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(weather_info)</visible>
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>right</align>
+				</control>
 				<control type="image">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>
@@ -373,13 +383,23 @@
 					<texture>common/library_time_gradient.png</texture>
 				</control>
 				<control type="label">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
 					<align>right</align>
 				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(weather_info)</visible>
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>right</align>
+				</control>
 				<control type="image">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>
@@ -443,13 +463,23 @@
 					<texture>common/library_time_gradient.png</texture>
 				</control>
 				<control type="label">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
 					<align>right</align>
 				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(weather_info)</visible>
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>right</align>
+				</control>
 				<control type="image">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>
@@ -553,13 +583,23 @@
 					<texture>common/library_time_gradient_lowerright.png</texture>
 				</control>
 				<control type="label">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
 					<align>right</align>
 				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(weather_info)</visible>
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>right</align>
+				</control>
 				<control type="image">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>
@@ -635,13 +675,23 @@
 					<texture>common/library_time_gradient_lowerleft.png</texture>
 				</control>
 				<control type="label">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]  [COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/COLOR]</label>
 					<align>left</align>
 				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(weather_info)</visible>
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>left</align>
+				</control>
 				<control type="image">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>
@@ -705,13 +755,23 @@
 					<texture>common/library_time_gradient_lowerleft.png</texture>
 				</control>
 				<control type="label">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]  [COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/COLOR]</label>
 					<align>left</align>
 				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(weather_info)</visible>
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>left</align>
+				</control>
 				<control type="image">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>
@@ -789,6 +849,7 @@
 					<aspectratio>stretch</aspectratio>
 				</control>
 				<control type="label">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<posx>1260</posx>
 					<posy>3</posy>
 					<width>300</width>
@@ -797,12 +858,18 @@
 					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
 					<align>right</align>
 				</control>
-			
-		<!-- Weather -->
-			
-				<!-- condition icon -->
-				
+				<control type="label">
+					<visible>!Skin.HasSetting(weather_info)</visible>
+					<posx>1260</posx>
+					<posy>3</posy>
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>right</align>
+				</control>
 				<control type="image">
+					<visible>Skin.HasSetting(weather_info)</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>

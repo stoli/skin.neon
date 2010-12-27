@@ -194,6 +194,12 @@
 						<onclick>Skin.ToggleSetting(library_global_clock)</onclick>
 						<selected>Skin.HasSetting(library_global_clock)</selected>
 					</control>
+					<control type="radiobutton" id="126">
+						<include>skin_settings_labels</include>
+						<label>Enable Global Weather</label>
+						<onclick>Skin.ToggleSetting(weather_info)</onclick>
+						<selected>Skin.HasSetting(weather_info)</selected>
+					</control>
 					<control type="radiobutton" id="103">
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31037]</label>
