@@ -46,9 +46,9 @@
 			<aligny>center</aligny>
 			<texturefocus>-</texturefocus>
 			<texturenofocus>-</texturenofocus>
-			<texturesliderbar>confluence/osd_slider_bg_2.png</texturesliderbar>
-			<textureslidernib>confluence/osd_slider_nibNF.png</textureslidernib>
-			<textureslidernibfocus>confluence/osd_slider_nib.png</textureslidernibfocus>
+			<texturesliderbar>osd_slider_bg_2.png</texturesliderbar>
+			<textureslidernib>osd_slider_nibNF.png</textureslidernib>
+			<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
 			<onup>11</onup>
 			<ondown>11</ondown>
 			<onleft>11</onleft>

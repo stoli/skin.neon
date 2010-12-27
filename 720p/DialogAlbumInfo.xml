@@ -153,6 +153,7 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
+								<colordiffuse>mainblue</colordiffuse>
 								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
@@ -244,7 +245,7 @@
 						<width>640</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>confluence/separator.png</texture>
+						<texture>common/separator.png</texture>
 					</control>
 				</control>
 				<control type="group">
@@ -306,6 +307,7 @@
 								<width>640</width>
 								<height>30</height>
 								<visible>Control.HasFocus(49)</visible>
+								<colordiffuse>mainblue</colordiffuse>
 								<texture>button-focus.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
@@ -397,7 +399,7 @@
 						<width>640</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>confluence/separator.png</texture>
+						<texture>common/separator.png</texture>
 					</control>
 				</control>
 				<control type="label">
@@ -497,7 +499,7 @@
 							<posy>0</posy>
 							<width>430</width>
 							<height>40</height>
-							<texture border="5">confluence/button-nofocus.png</texture>
+							<texture border="5">button-nofocus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>
@@ -529,7 +531,7 @@
 							<width>430</width>
 							<height>40</height>
 							<visible>!Control.HasFocus(50)</visible>
-							<texture border="5">confluence/button-nofocus.png</texture>
+							<texture border="5">button-nofocus.png</texture>
 						</control>
 						<control type="image">
 							<posx>0</posx>
@@ -537,7 +539,8 @@
 							<width>430</width>
 							<height>40</height>
 							<visible>Control.HasFocus(50)</visible>
-							<texture border="5">button-focus.png</texture>
+							<colordiffuse>mainblue</colordiffuse>
+							<texture>button-focus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>
@@ -568,7 +571,7 @@
 							<posy>0</posy>
 							<width>430</width>
 							<height>40</height>
-							<texture border="5">confluence/button-nofocus.png</texture>
+							<texture border="5">button-nofocus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>
@@ -589,7 +592,7 @@
 							<width>430</width>
 							<height>40</height>
 							<visible>!Control.HasFocus(50)</visible>
-							<texture border="5">confluence/button-nofocus.png</texture>
+							<texture border="5">button-nofocus.png</texture>
 						</control>
 						<control type="image">
 							<posx>0</posx>
@@ -597,7 +600,8 @@
 							<width>430</width>
 							<height>40</height>
 							<visible>Control.HasFocus(50)</visible>
-							<texture border="5">button-focus.png</texture>
+							<colordiffuse>mainblue</colordiffuse>
+							<texture>button-focus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>

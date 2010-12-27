@@ -594,7 +594,7 @@
 			<filename>Antipasto.ttf</filename>
 			<size>30</size>
 		</font>
-		<!--#Confluence-->
+		
 		<font>
 			<name>font13caps</name>
 			<filename>Antipasto.ttf</filename>
@@ -1227,7 +1227,7 @@
 			<filename>Arial.ttf</filename>
 			<size>30</size>
 		</font>
-		<!--#Confluence-->
+		
 		<font>
 			<name>font13caps</name>
 			<filename>Arial.ttf</filename>

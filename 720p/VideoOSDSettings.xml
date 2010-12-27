@@ -87,7 +87,7 @@
 			<description>Default Slider</description>
 			<height>40</height>
 			<textoffsetx>20</textoffsetx>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
@@ -101,7 +101,7 @@
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -112,7 +112,7 @@
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -123,7 +123,7 @@
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>

@@ -661,8 +661,8 @@
 						<height>22</height>
 						<label>-</label>
 						<font>-</font>
-						<texturenofocus>scroll-down-2.png</texturenofocus>
-						<texturefocus>scroll-down-focus-2.png</texturefocus>
+						<texturenofocus>scroll_down.png</texturenofocus>
+						<texturefocus>scroll_down.png</texturefocus>
 						<onclick>Control.Move(9003,1)</onclick>
 						<onleft>9000</onleft>
 						<onright>305</onright>
@@ -677,8 +677,8 @@
 						<height>22</height>
 						<label>-</label>
 						<font>-</font>
-						<texturenofocus>scroll-up-2.png</texturenofocus>
-						<texturefocus>scroll-up-focus-2.png</texturefocus>
+						<texturenofocus>scroll_up.png</texturenofocus>
+						<texturefocus>scroll_up.png</texturefocus>
 						<onclick>Control.Move(9003,-1)</onclick>
 						<onleft>304</onleft>
 						<onright>9000</onright>

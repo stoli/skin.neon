@@ -21,7 +21,7 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
-				<texture>confluence/bartowski2.png</texture>
+				<texture>neon.png</texture>
 			</control>
 			<control type="list" id="9000">
 				<posx>-70</posx>
@@ -60,7 +60,8 @@
 						<posy>0</posy>
 						<width>260</width>
 						<height>61</height>
-						<texture border="5">button-focus.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>button-focus.png</texture>
 					</control>
 					<control type="label">
 						<posx>0</posx>

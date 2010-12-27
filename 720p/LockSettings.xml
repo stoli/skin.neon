@@ -8,14 +8,21 @@
 	</coordinates>
 	
 	<controls>
-	
 		<control type="image">
 			<description>background image</description>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>700</width>
 			<height>570</height>
-			<texture border="40">confluence/DialogBack.png</texture>
+			<texture>DialogBackwht.png</texture>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>700</width>
+			<height>570</height>
+			<texture>DialogBack.png</texture>
 		</control>
 		
 		<control type="label">
@@ -52,7 +59,8 @@
 			<font>Font_KeyboardEdit</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -62,8 +70,9 @@
 			<textoffsetx>20</textoffsetx>
 			<font>Font_KeyboardEdit</font>
 			<textcolor>white</textcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<texturefocus>button-focus.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -74,8 +83,8 @@
 			<font>Font_KeyboardEdit</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus>button-focus.png</texturefocus>
-			<texturefocus border="5">button-focus.png</texturefocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>
@@ -92,7 +101,8 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
@@ -110,7 +120,8 @@
 			<height>40</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>button-focus.png</texturefocus>
 			<font>Font_Bartowski_Press_S</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>

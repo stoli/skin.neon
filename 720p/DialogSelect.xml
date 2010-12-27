@@ -207,7 +207,7 @@
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
-
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<onleft>61</onleft>
 				<onright>3</onright>

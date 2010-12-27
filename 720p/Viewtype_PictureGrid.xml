@@ -57,7 +57,7 @@
 					<height>140</height>
 					<aspectratio align="center" aligny="bottom">keep</aspectratio>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+					<bordertexture border="5">button-nofocus.png</bordertexture>
 					<bordersize>5</bordersize>
 					<include>Animation_HiddenByInfo</include>
 				</control>
@@ -68,7 +68,7 @@
 					<height>140</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
 					<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+					<bordertexture border="5">button-nofocus.png</bordertexture>
 					<bordersize>5</bordersize>
 					<animation effect="fade" start="30" end="30" time="0" condition="true">Conditional</animation>
 					<include>Animation_HiddenByInfo</include>
@@ -87,7 +87,7 @@
 					<height>250</height>
 					<aspectratio align="center" aligny="bottom">keep</aspectratio>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="5">confluence/pic_border.png</bordertexture>
+					<bordertexture border="5">pic_border.png</bordertexture>
 					<bordersize>5</bordersize>
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
@@ -101,7 +101,7 @@
 					<height>250</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
 					<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="5">confluence/pic_border.png</bordertexture>
+					<bordertexture border="5">pic_border.png</bordertexture>
 					<bordersize>5</bordersize>
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />

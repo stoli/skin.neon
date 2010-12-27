@@ -98,7 +98,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 				</control>
 			</itemlayout>
 			<focusedlayout width="1210" height="36">
@@ -108,7 +108,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 				</control>
 				<control type="image">
 					<posx>-70</posx>
@@ -145,7 +145,7 @@
 					<height>360</height>
 					<aspectratio align="right" aligny="bottom">keep</aspectratio>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+					<bordertexture border="5">button-nofocus.png</bordertexture>
 					<bordersize>5</bordersize>
 					<fadetime>100</fadetime>
 				</control>
@@ -156,7 +156,7 @@
 					<height>360</height>
 					<aspectratio align="right" aligny="bottom">keep</aspectratio>
 					<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-					<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+					<bordertexture border="5">button-nofocus.png</bordertexture>
 					<bordersize>5</bordersize>
 					<animation type="Hidden">
 					<effect type="zoom" time="400" center="1140,660" start="100" end="180" tween="cubic" easing="in" />
@@ -171,7 +171,7 @@
 					<height>360</height>
 					<aspectratio align="right" aligny="bottom">keep</aspectratio>
 					<texture background="true">$INFO[ListItem(1).Icon]</texture>
-					<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+					<bordertexture border="5">button-nofocus.png</bordertexture>
 					<bordersize>5</bordersize>
 					<animation type="Hidden">
 					<effect type="zoom" time="400" center="1140,660" start="100" end="180" tween="cubic" easing="in" />
@@ -449,7 +449,7 @@
 								<height>260</height>
 								<aspectratio align="center" aligny="bottom">keep</aspectratio>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+								<bordertexture border="5">button-nofocus.png</bordertexture>
 								<bordersize>5</bordersize>
 								<include>Animation_HiddenByInfo</include>
 							</control>
@@ -460,7 +460,7 @@
 								<height>260</height>
 								<aspectratio align="center" aligny="top">keep</aspectratio>
 								<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+								<bordertexture border="5">button-nofocus.png</bordertexture>
 								<bordersize>5</bordersize>
 								<animation effect="fade" start="30" end="30" time="0" condition="true">Conditional</animation>
 								<include>Animation_HiddenByInfo</include>
@@ -479,7 +479,7 @@
 								<height>300</height>
 								<aspectratio align="center" aligny="bottom">keep</aspectratio>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture border="5">confluence/pic_border.png</bordertexture>
+								<bordertexture border="5">pic_border.png</bordertexture>
 								<bordersize>5</bordersize>
 								<animation type="Focus" reversible="false">
 									<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
@@ -493,7 +493,7 @@
 								<height>300</height>
 								<aspectratio align="center" aligny="top">keep</aspectratio>
 								<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture border="5">confluence/pic_border.png</bordertexture>
+								<bordertexture border="5">pic_border.png</bordertexture>
 								<bordersize>5</bordersize>
 								<animation type="Focus" reversible="false">
 									<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
@@ -932,7 +932,7 @@
 				<posy>0</posy>
 				<width>720</width>
 				<height>160</height>
-				<texture flipy="true">confluence/InfoMessagePanel2.png</texture>
+				<texture flipy="true">InfoMessagePanel2.png</texture>
 				<colordiffuse>white</colordiffuse>
 			</control>
 			<!-- Console filter -->
@@ -985,6 +985,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<visible>Control.HasFocus(500)</visible>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="5">script_rom_browser/rcb-button-focus.png</texture>
 					</control>
 					<control type="image">
@@ -1059,6 +1060,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<visible>Control.HasFocus(600)</visible>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="5">script_rom_browser/rcb-button-focus.png</texture>
 					</control>
 					<control type="image">
@@ -1133,6 +1135,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<visible>Control.HasFocus(700)</visible>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="5">script_rom_browser/rcb-button-focus.png</texture>
 					</control>
 					<control type="image">
@@ -1207,6 +1210,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<visible>Control.HasFocus(800)</visible>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="5">script_rom_browser/rcb-button-focus.png</texture>
 					</control>
 					<control type="image">
@@ -1282,6 +1286,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<visible>Control.HasFocus(900)</visible>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="5">script_rom_browser/rcb-button-focus.png</texture>
 					</control>
 					<control type="image">
@@ -1331,6 +1336,7 @@
 				<height>30</height>
 				<visible>true</visible>
 				<colordiffuse>DDFFFFFF</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
 				<label>Import Settings</label>				
 				<textcolor>black</textcolor>
@@ -1354,6 +1360,7 @@
 				<height>30</height>
 				<visible>true</visible>
 				<colordiffuse>DDFFFFFF</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
 				<label>Import Games</label>				
 				<textcolor>black</textcolor>
@@ -1377,6 +1384,7 @@
 				<height>30</height>
 				<visible>true</visible>
 				<colordiffuse>DDFFFFFF</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
 				<label>Change View</label>			
 				<textcolor>black</textcolor>

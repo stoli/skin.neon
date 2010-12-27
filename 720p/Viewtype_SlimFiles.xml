@@ -80,7 +80,7 @@
 					<width>480</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
 				</control>
 				<control type="image">
@@ -89,7 +89,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
 				</control>
 				<control type="image">
@@ -98,7 +98,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(598) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
 				</control>
 			<!--	<control type="label">
@@ -139,7 +139,7 @@
 					<width>480</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
 				</control>
 				<control type="image">
@@ -148,7 +148,7 @@
 					<width>480</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
 				</control>
 				<control type="image">
@@ -157,7 +157,7 @@
 					<width>480</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(598) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
 				</control>
 			<!--	<control type="image">
@@ -244,7 +244,7 @@
 			<height>263</height>
 			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -255,7 +255,7 @@
 			<height>263</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -271,7 +271,7 @@
 			<height>263</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -374,7 +374,7 @@
 		<height>540</height>
 		<aspectratio align="right" aligny="bottom">keep</aspectratio>
 		<texture background="true">$INFO[ListItem.Icon]</texture>
-		<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+		<bordertexture border="5">button-nofocus.png</bordertexture>
 		<bordersize>5</bordersize>
 		<fadetime>100</fadetime>
 		<visible>Control.IsVisible(598) + IsEmpty(ListItem.Title) + ![Container.Content(movies) | Container.Content(Genres) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs)]</visible>
@@ -391,7 +391,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem.Label].jpg</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -402,7 +402,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem(-1).Label].jpg</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -418,7 +418,7 @@
 			<height>670</height>
 			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 			<texture background="true" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem(1).Label].jpg</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 			<animation type="Hidden">
@@ -496,7 +496,7 @@
 			<height>530</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -507,7 +507,7 @@
 			<height>300</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>-->
@@ -518,7 +518,7 @@
 			<height>530</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -533,7 +533,7 @@
 			<height>530</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -553,7 +553,7 @@
 			<height>360</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -564,7 +564,7 @@
 			<height>360</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -579,7 +579,7 @@
 			<height>360</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -599,7 +599,7 @@
 			<height>350</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>
@@ -610,7 +610,7 @@
 			<height>300</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
 		</control>-->
@@ -621,7 +621,7 @@
 			<height>350</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -636,7 +636,7 @@
 			<height>350</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true">$INFO[ListItem(1).Icon]</texture>
-			<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->

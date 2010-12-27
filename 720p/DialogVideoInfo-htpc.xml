@@ -82,7 +82,7 @@
 						<width>1020</width>
 						<height>380</height>
 						<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
-						<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
 						<aspectratio>keep</aspectratio>
 						<visible>!IsEmpty(Listitem.Property(Fanart_Image))</visible>
@@ -457,7 +457,7 @@
 						<width>1030</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>confluence/separator.png</texture>
+						<texture>common/separator.png</texture>
 					</control>
 				</control>
 				<control type="group"><!--Episodes-->
@@ -613,7 +613,7 @@
 						<width>740</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>confluence/separator.png</texture>
+						<texture>common/separator.png</texture>
 					</control>
 				</control>
 				<control type="group">
@@ -779,7 +779,7 @@
 					<width>250</width>
 					<height>250</height>
 					<texture>$INFO[Container(50).Listitem.Icon]</texture>
-					<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+					<bordertexture border="5">button-nofocus.png</bordertexture>
 					<bordersize>5</bordersize>
 					<aspectratio>keep</aspectratio>
 					<visible>Control.IsVisible(50)</visible>
@@ -823,7 +823,7 @@
 							<width>680</width>
 							<height>40</height>
 							<visible>Control.HasFocus(50)</visible>
-							<texture border="5">button-focus.png</texture>
+							<texture>button-focus.png</texture>
 						</control>
 						<control type="label">
 							<posx>10</posx>

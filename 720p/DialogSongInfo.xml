@@ -282,7 +282,8 @@
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
 					<textcolor>ff000000</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<alttexturenofocus>-</alttexturenofocus>
 					<alttexturefocus>button-focus.png</alttexturefocus>
 					<onleft>15</onleft>
@@ -299,7 +300,8 @@
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
 					<textcolor>ff000000</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<alttexturenofocus>-</alttexturenofocus>
 					<alttexturefocus>button-focus.png</alttexturefocus>
 					<onleft>10</onleft>
@@ -316,7 +318,8 @@
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
 					<textcolor>ff000000</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<alttexturenofocus>-</alttexturenofocus>
 					<alttexturefocus>button-focus.png</alttexturefocus>
 					<onleft>11</onleft>
@@ -333,7 +336,8 @@
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
 					<textcolor>ff000000</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<alttexturenofocus>-</alttexturenofocus>
 					<alttexturefocus>button-focus.png</alttexturefocus>
 					<onleft>12</onleft>

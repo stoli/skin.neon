@@ -241,7 +241,7 @@
 				<height>340</height>
 				<aspectratio align="right" aligny="bottom">keep</aspectratio>
 				<texture>$INFO[VideoPlayer.Cover]</texture>
-				<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+				<bordertexture border="5">button-nofocus.png</bordertexture>
 				<fadetime>400</fadetime>
 				<bordersize>5</bordersize>
 				<animation type="WindowOpen">
@@ -258,7 +258,7 @@
 				<height>300</height>
 				<aspectratio align="right" aligny="bottom">keep</aspectratio>
 				<texture>$INFO[VideoPlayer.Cover]</texture>
-				<bordertexture border="5">confluence/button-nofocus.png</bordertexture>
+				<bordertexture border="5">button-nofocus.png</bordertexture>
 				<fadetime>400</fadetime>
 				<bordersize>5</bordersize>
 				<animation type="WindowOpen">

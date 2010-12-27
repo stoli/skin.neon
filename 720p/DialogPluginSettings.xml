@@ -14,7 +14,16 @@
 				<posy>0</posy>
 				<width>800</width>
 				<height>610</height>
-				<texture border="40">confluence/DialogBack1.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>DialogBackwht.png</texture>
+			</control>
+			<control type="image">
+				<description>background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>800</width>
+				<height>610</height>
+				<texture>DialogBack.png</texture>
 			</control>
 			<!--<control type="image">
 				<posx>80</posx>
@@ -55,7 +64,8 @@
 				<textoffsetx>20</textoffsetx>
 				<textcolor>ff8F8D8E</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 			</control>
 			<control type="radiobutton" id="4">
 				<description>Default RadioButton</description>
@@ -64,14 +74,16 @@
 				<textoffsetx>20</textoffsetx>
 				<textcolor>ff8F8D8E</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 			</control>
 			<control type="spincontrolex" id="5">
 				<description>Default spincontrolex</description>
 				<height>40</height>
 				<textcolor>ff8F8D8E</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<font>font13caps_title</font>
 				<textoffsetx>20</textoffsetx>
 				<aligny>center</aligny>
@@ -88,7 +100,7 @@
 			<control type="image" id="6">
 				<description>Default Seperator</description>
 				<height>2</height>
-				<texture>confluence/separator2.png</texture>
+				<texture>common/separator2.png</texture>
 			</control>
 			<control type="group" id="9001">
 				<posy>540</posy>
@@ -100,7 +112,8 @@
 					<height>40</height>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<font>font16caps</font>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
@@ -118,7 +131,8 @@
 					<height>40</height>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<font>font16caps</font>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
@@ -136,7 +150,8 @@
 					<height>40</height>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="5">button-focus.png</texturefocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<font>font16caps</font>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>

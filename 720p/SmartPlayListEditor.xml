@@ -43,7 +43,7 @@
 				<posy>56</posy>
 				<width>740</width>
 				<height>4</height>
-				<texture>confluence/separator.png</texture>
+				<texture>common/separator.png</texture>
 			</control>
 			<control type="spincontrolex" id="22">
 				<description>Set Playlist type</description>
@@ -56,7 +56,8 @@
 				<font>Font_KeyboardTitle</font>
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<onright>22</onright>
 				<onleft>22</onleft>
 				<onup>9001</onup>
@@ -93,7 +94,8 @@
 				<textcolor>white</textcolor>
 				<align>center</align>
 				<aligny>bottom</aligny>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<label>-</label>
 				<onup>22</onup>
 				<onleft>12</onleft>
@@ -139,7 +141,8 @@
 						<posy>0</posy>
 						<width>560</width>
 						<height>41</height>
-						<texture>confluence/button-focus-big.png</texture>
+						<colordifuse>mainblue</colordiffuse>
+						<texturefocus>button-focus.png</texturefocus>
 						<visible>Control.HasFocus(10)</visible>
 					</control>
 					<control type="label">
@@ -167,7 +170,8 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus>confluence/button-focus-big.png</texturefocus>
+					<colordifuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<onup>17</onup>
 					<onleft>10</onleft>
 					<onright>10</onright>
@@ -185,7 +189,8 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus>confluence/button-focus-big.png</texturefocus>
+					<colordifuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<onup>13</onup>
 					<onleft>10</onleft>
 					<onright>10</onright>
@@ -203,7 +208,8 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus>confluence/button-focus-big.png</texturefocus>
+					<colordifuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<onup>14</onup>
 					<onleft>10</onleft>
 					<onright>10</onright>
@@ -216,7 +222,7 @@
 				<posy>370</posy>
 				<width>740</width>
 				<height>4</height>
-				<texture>confluence/separator.png</texture>
+				<texture>common/separator.png</texture>
 			</control>
 			
 			<control type="label">
@@ -238,7 +244,8 @@
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<font>Font_KeyboardTitle</font>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<onright>16</onright>
 				<onleft>16</onleft>
 				<onup>10</onup>
@@ -255,7 +262,8 @@
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<font>Font_KeyboardTitle</font>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<onright>17</onright>
 				<onleft>17</onleft>
 				<onup>16</onup>
@@ -272,7 +280,8 @@
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<font>Font_KeyboardTitle</font>
-				<texturefocus>confluence/button-focus-big.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<onright>19</onright>
 				<onleft>19</onleft>
 				<onup>17</onup>
@@ -289,7 +298,8 @@
 				<aligny>center</aligny>
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus border="5">button-focus.png</texturefocus>
+				<colordifuse>mainblue</colordiffuse>
+				<texturefocus>button-focus.png</texturefocus>
 				<alttexturefocus border="5">button-focus.png</alttexturefocus>
 				<label>21431</label>
 				<altlabel>21430</altlabel>
@@ -304,7 +314,7 @@
 				<posy>550</posy>
 				<width>740</width>
 				<height>4</height>
-				<texture>confluence/separator.png</texture>
+				<texture>common/separator.png</texture>
 			</control>
 			
 			<control type="group" id="9001">
@@ -318,7 +328,8 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus>confluence/button-focus-big.png</texturefocus>
+					<colordifuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<label>186</label>
 					<font>font16caps</font>
 					<onup>18</onup>
@@ -336,7 +347,8 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus>confluence/button-focus-big.png</texturefocus>
+					<colordifuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
 					<label>222</label>
 					<font>font16caps</font>
 					<onup>18</onup>

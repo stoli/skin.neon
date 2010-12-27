@@ -80,7 +80,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(50) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
 				</control>
 				<control type="image">
@@ -89,7 +89,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(50) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
 				</control>
 				<control type="image">
@@ -98,7 +98,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(50) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
 				</control>
 				<control type="label">
@@ -139,7 +139,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(50) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
 				</control>
 				<control type="image">
@@ -148,7 +148,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(50) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
 				</control>
 				<control type="image">
@@ -157,7 +157,7 @@
 					<width>880</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>confluence/separator.png</texture>
+					<texture>common/separator.png</texture>
 					<visible>Control.IsVisible(50) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
 				</control>
 				<control type="image">

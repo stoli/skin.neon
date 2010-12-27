@@ -15,8 +15,17 @@
 				<height>592</height>
 				<posx>10</posx>
 				<posy>0</posy>
-				<texture border="100">confluence/dialogback1.png</texture>
-			<!-- 	<texture border="100">filemanager/filemanager_panel.png</texture> -->
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>DialogBackwht.png</texture>
+			
+			</control>
+			<control type="image">
+				<width>600</width>
+				<height>592</height>
+				<posx>10</posx>
+				<posy>0</posy>
+				<texture>DialogBack.png</texture>
+			
 			</control>
 			<control type="label" id="101">
 				<posx>590</posx>
@@ -26,7 +35,7 @@
 				<font>Font_Neon_35</font>
 				<align>right</align>
 				<scroll>true</scroll>
-				<textcolor>black</textcolor>
+				<textcolor>white</textcolor>
 				<shadowcolor>grey</shadowcolor>
 			</control>
 			<control type="image">
@@ -54,7 +63,7 @@
 						<height>39</height>
 						<font>Font_FavouritesItemLabel</font>
 						<aligny>center</aligny>
-						<textcolor>black</textcolor>
+						<textcolor>white</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -66,7 +75,7 @@
 						<font>Font_FavouritesItemLabel</font>
 						<align>right</align>
 						<aligny>center</aligny>
-						<textcolor>black</textcolor>
+						<textcolor>white</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<label>[UPPERCASE]$INFO[ListItem.label2][/UPPERCASE]</label>
 					</control>
@@ -78,6 +87,7 @@
 						<width>570</width>
 						<height>50</height>
 						<visible>Control.HasFocus(20)</visible>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture>button-focus.png</texture>
 						
 					</control>
@@ -119,7 +129,15 @@
 				<height>592</height>
 				<posx>10</posx>
 				<posy>0</posy>
-				<texture border="100">confluence/dialogback1.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>DialogBackwht.png</texture>
+			</control>
+			<control type="image">
+				<width>600</width>
+				<height>592</height>
+				<posx>10</posx>
+				<posy>0</posy>
+				<texture>DialogBack.png</texture>
 			</control>
 			<control type="label" id="102">
 				<posx>590</posx>
@@ -157,7 +175,7 @@
 						<height>39</height>
 						<font>Font_FavouritesItemLabel</font>
 						<aligny>center</aligny>
-						<textcolor>black</textcolor>
+						<textcolor>white</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -169,7 +187,7 @@
 						<font>Font_FavouritesItemLabel</font>
 						<align>right</align>
 						<aligny>center</aligny>
-						<textcolor>black</textcolor>
+						<textcolor>white</textcolor>
 						<selectedcolor>FM_ListUnfocusSelected</selectedcolor>
 						<label>[UPPERCASE]$INFO[ListItem.label2][/UPPERCASE]</label>
 					</control>

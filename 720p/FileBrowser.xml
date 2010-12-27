@@ -35,7 +35,7 @@
 				<width>750</width>
 				<height>4</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>confluence/separator.png</texture>
+				<texture>common/separator.png</texture>
 			</control>
 			
 			<control type="label" id="411">

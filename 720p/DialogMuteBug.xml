@@ -11,7 +11,7 @@
 				<posy>-16</posy>
 				<width>240</width>
 				<height>40</height>
-				<texture flipy="true" border="20,20,20,2">Confluence/InfoMessagePanel2.png</texture>
+				<texture flipy="true" border="20,20,20,2">InfoMessagePanel2.png</texture>
 			</control>
 			<control type="group">
 				<posx>20</posx>

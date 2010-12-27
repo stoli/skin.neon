@@ -87,7 +87,8 @@
 						<width>560</width>
 						<height>41</height>
 						<visible>Control.HasFocus(5)</visible>
-						<texture border="5">button-focus.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>button-focus.png</texture>
 					</control>
 					<control type="label">
 						<posx>170</posx>

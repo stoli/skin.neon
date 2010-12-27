@@ -14,7 +14,15 @@
 			<animation type="WindowClose" reversible="false">
 			<!--	<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" /> -->
 				<effect type="fade" start="100" end="0" time="300" />
-			</animation>			
+			</animation>	
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1100</width>
+				<height>640</height>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>DialogBackwht.png</texture>
+			</control>			
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
@@ -29,10 +37,11 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>neon.png</texture>
 			</control>
 			<control type="grouplist" id="9000">
-				<posx>10</posx>
+				<posx>25</posx>
 				<posy>102</posy>
 				<width>260</width>
 				<height>481</height>
@@ -42,108 +51,116 @@
 				<control type="button" id="95">
 					<description>Button Summary Values</description>
 					<height>60</height>
-					<width>241</width>
-					<textoffsetx>0</textoffsetx>
-					<align>right</align>
+					<width>230</width>
+					<align>center</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<font>font24caps_title</font>
+					<textcolor>grey3</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
-					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>20037</label>
 				</control>
 				<control type="button" id="94">
 					<description>Button Storage</description>
 					<height>60</height>
-					<width>241</width>
-					<textoffsetx>0</textoffsetx>
-					<align>right</align>
+					<width>230</width>
+					<align>center</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<font>font24caps_title</font>
+					<textcolor>grey3</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
-					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>13277</label>
 				</control>
 				<control type="button" id="92">
 					<description>Button HDD</description>
 					<height>60</height>
-					<width>241</width>
-					<textoffsetx>0</textoffsetx>
-					<align>right</align>
+					<width>230</width>
+					<align>center</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<font>font24caps_title</font>
+					<textcolor>grey3</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
-					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
+
 					<label>13275</label>
 					<visible>System.Platform.Xbox</visible>
 				</control>
 				<control type="button" id="93">
 					<description>Button DVD</description>
+
 					<height>60</height>
-					<width>241</width>
-					<textoffsetx>0</textoffsetx>
-					<align>right</align>
+					<width>230</width>
+					<align>center</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<font>font24caps_title</font>
+					<textcolor>grey3</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
-					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>13276</label>
 					<visible>System.Platform.Xbox</visible>
 				</control>
 				<control type="button" id="96">
 					<description>Button Network</description>
+
 					<height>60</height>
-					<width>241</width>
-					<textoffsetx>0</textoffsetx>
-					<align>right</align>
+					<width>230</width>
+					<align>center</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<font>font24caps_title</font>
+					<textcolor>grey3</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
-					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
+
 					<label>13279</label>
 				</control>
 				<control type="button" id="97">
 					<description>Button Video</description>
+
 					<height>60</height>
-					<width>241</width>
-					<textoffsetx>0</textoffsetx>
-					<align>right</align>
+					<width>230</width>
+					<align>center</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<font>font24caps_title</font>
+					<textcolor>grey3</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
-					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
+
 					<label>13280</label>
 				</control>
 				<control type="button" id="98">
 					<description>Button Hardware</description>
+
 					<height>60</height>
-					<width>241</width>
-					<textoffsetx>0</textoffsetx>
-					<align>right</align>
+					<width>230</width>
+					<align>center</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<font>font24caps_title</font>
+					<textcolor>grey3</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="5">button-focus.png</texturefocus>
-					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+					<colordiffuse>mainblue</colordiffuse>
+					<texturefocus>button-focus.png</texturefocus>
+					<texturenofocus>MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
+
 					<label>13281</label>
 				</control>
 			</control>
@@ -169,10 +186,10 @@
 				<width>740</width>
 				<height>30</height>
 				<font>Font_Neon_24</font>
-				<label>$LOCALIZE[130] - $INFO[Control.GetLabel(40)]</label>
+				<label>[B]$LOCALIZE[130] - $INFO[Control.GetLabel(40)][/B]</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>mainblue</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="label" id="40">
@@ -188,7 +205,8 @@
 					<posy>0</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="3">
 					<description>Label 3</description>
@@ -196,7 +214,8 @@
 					<posy>35</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="4">
 					<description>Label 4</description>
@@ -204,7 +223,8 @@
 					<posy>70</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="5">
 					<description>Label 5</description>
@@ -212,7 +232,8 @@
 					<posy>105</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="6">
 					<description>Label 6</description>
@@ -220,7 +241,8 @@
 					<posy>140</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="7">
 					<description>Label 7</description>
@@ -228,7 +250,8 @@
 					<posy>175</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="8">
 					<description>Label 8</description>
@@ -236,7 +259,8 @@
 					<posy>210</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="9">
 					<description>Label 9</description>
@@ -244,7 +268,8 @@
 					<posy>245</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="10">
 					<description>Label 10</description>
@@ -252,7 +277,8 @@
 					<posy>280</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="11">
 					<description>Label 11</description>
@@ -260,58 +286,59 @@
 					<posy>315</posy>
 					<width>750</width>
 					<label>-</label>
-					<font>font13</font>
+					<textcolor>white</textcolor>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label" id="52">
-					<description>XBMC XBE BUILD Version</description>
-					<posx>750</posx>
+					<description>XBMC BUILD Version</description>
+					<posx>20</posx>
 					<posy>400</posy>
 					<width>700</width>
 					<label>144</label>
-					<align>right</align>
+					<align>center</align>
 					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<font>font13_title</font>
+					<font>font24caps_title</font>
 				</control>
 				<control type="label">
 					<description>CPU Text</description>
-					<posx>420</posx>
+					<posx>20</posx>
 					<posy>450</posy>
-					<width>350</width>
+					<width>700</width>
 					<height>25</height>
 					<label>$LOCALIZE[13271] $INFO[System.CPUUsage]</label>
-					<align>right</align>
+					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<font>font12_title</font>
+					<font>font24caps_title</font>
 				</control>
 				<control type="progress">
 					<description>CPU BAR</description>
-					<posx>430</posx>
+					<posx>20</posx>
 					<posy>455</posy>
-					<width>320</width>
+					<width>700</width>
 					<height>16</height>
 					<info>System.CPUUsage</info>
 				</control>
 				<control type="label">
 					<description>Memory Text</description>
-					<posx>420</posx>
+					<posx>20</posx>
 					<posy>480</posy>
-					<width>350</width>
+					<width>700</width>
 					<height>25</height>
 					<label>$LOCALIZE[31309] $INFO[system.memory(used.percent)]</label>
-					<align>right</align>
+					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<font>font12_title</font>
+					<font>font24caps_title</font>
 				</control>
 				<control type="progress">
 					<description>Memory BAR</description>
-					<posx>430</posx>
+					<posx>30</posx>
 					<posy>485</posy>
-					<width>320</width>
+					<width>700</width>
 					<height>16</height>
 					<info>system.memory(used)</info>
 				</control>

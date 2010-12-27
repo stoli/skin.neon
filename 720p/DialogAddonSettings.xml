@@ -30,7 +30,7 @@
 			<posy>60</posy>
 			<width>900</width>
 			<height>1</height>
-			<texture>confluence/separator.png</texture>
+			<texture>common/separator.png</texture>
 		</control>
 		<control type="image">
 			<description>separator image</description>
@@ -38,7 +38,7 @@
 			<posy>538</posy>
 			<width>650</width>
 			<height>1</height>
-			<texture>confluence/separator.png</texture>
+			<texture>common/separator.png</texture>
 		</control>
 		<control type="label" id="20">
 			<description>header label</description>
@@ -142,7 +142,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<colordiffuse>mainblue</colordiffuse>
-				<texturefocus>button-focus-big.png</texturefocus>
+				<texturefocus>button-focus.png</texturefocus>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>

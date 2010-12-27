@@ -34,7 +34,7 @@
 				<posy>0</posy>
 				<width>600</width>
 				<height>230</height>
-				<texture border="20">confluence/OverlayDialogBackground.png</texture>
+				<texture border="20">OverlayDialogBackground.png</texture>
 			</control>
 			<control type="label" id="1">
 				<description>heading label</description>
