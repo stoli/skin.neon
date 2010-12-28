@@ -246,12 +246,25 @@
 			<posx>1260</posx>
 			<posy>0</posy>
 			<include>Animation_BackdropFade</include>
-			<visible>!Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
+			<visible>Skin.HasSetting(weather_info) + !Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
 				<control type="label">
 					<width>300</width>
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
+					<align>right</align>
+				</control>
+			</control>
+		<control type="group">
+			<posx>1260</posx>
+			<posy>0</posy>
+			<include>Animation_BackdropFade</include>
+			<visible>!Skin.HasSetting(weather_info) + !Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
+				<control type="label">
+					<width>300</width>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
 					<align>right</align>
 				</control>
 			</control>
@@ -265,7 +278,7 @@
 				<height>300</height>
 			<!-- condition icon -->
 				<control type="image">
-					<visible>!Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
+					<visible>Skin.HasSetting(weather_info) + !Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
 					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 					<width>25</width>
 					<height>25</height>

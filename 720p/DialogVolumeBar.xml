@@ -27,28 +27,117 @@
 					<posy>265</posy>
 					<width>35</width>
 					<height>35</height>
-					<texture>VolumeIcon.png</texture>
+					<texture>dialogs/VolumeIcon.png</texture>
+					<visible>IntegerGreaterThan(player.volume,-59)</visible>
 				</control>
-				<control type="progress" id="1">
-					<description>Progressbar</description>
-					<posx>225</posx>
-					<posy>125</posy>
-					<width>220</width>
-					<height>20</height>
-					<info>Player.Volume</info>
-					<lefttexture>-</lefttexture>
-					<colordiffuse>mainblue</colordiffuse>
-					<midtexture>dialogs/osd_volume.png</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
-					<visible>true</visible>
-					<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+				<control type="image">
+					<posx>337</posx>
+					<posy>265</posy>
+					<width>35</width>
+					<height>35</height>
+					<texture>dialogs/VolumeIcon-Mute.png</texture>
+					<visible>!IntegerGreaterThan(player.volume,-59)</visible>
+				</control>
+				<control type="group">
+					<posx>337</posx>
+					<posy>250</posy>
+					
+
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume1.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-59)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume2.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-57)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume3.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-52)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume4.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-47)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume5.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-43)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume6.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-39)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume7.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-35)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume8.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-30)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume9.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-26)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume10.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-22)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume11.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-18)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume12.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-14)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume13.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-9)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume14.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-5)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/volume15.png</texture>
+						<visible>IntegerGreaterThan(player.volume,-1)</visible>
+					</control>
+					<control type="image">
+						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<texture>dialogs/mute.png</texture>
+						<posy>20</posy>
+						<posx>20</posx>
+						<visible>!IntegerGreaterThan(player.volume,-59)</visible>
+					</control>
+					<control type="image">
+						<texture>dialogs/volumeume.png</texture>
+						<posy>20</posy>
+						<posx>20</posx>
+						<visible>IntegerGreaterThan(player.volume,-59)</visible>
+					</control>
 				</control>
 				<control type="image">
 					<posx>330</posx>
 					<posy>0</posy>
 					<width>50</width>
 					<height>300</height>
+					<colordiffuse>mainblue</colordiffuse>
 					<texture>dialogs/volume_cover.png</texture>
 				</control>
 
@@ -56,6 +145,19 @@
 				
 			</control>
 		</control>
-		
+		<control type="group">
+				<visible>player.passthrough</visible>
+				<control type="label">
+					<posx>460</posx>
+					<posy>0</posy>
+					<width>810</width>
+					<height>38</height>
+					<font>Font_Bartowski_Digital_Clock</font>
+					<textcolor>mainblue</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[29802]</label>
+				</control>
+			</control>
 	</controls>
 </window>
