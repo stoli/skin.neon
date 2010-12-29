@@ -1,20 +1,14 @@
 <window id="2003">
 	<defaultcontrol always="true">7050</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
-	<include>CommonSettingsBackground</include>
-	<include>CommonMediaPlayingBackground</include>
+
 	<controls>
 			
 		<control type="group">
 			<visible>!Window.IsVisible(FileBrowser)</visible>
-			<animation effect="fade" start="0" end="90" time="600" >WindowOpen</animation>
-			<animation effect="fade" start="90" end="0" time="600" delay="200" >WindowClose</animation>
-			<control type="largeimage">
-				<include>Dimensions_Fullscreen</include>
-				<texture>$INFO[ListItem.Property(Fanart_Image)]</texture>
-				<aspectratio>scale</aspectratio>
-				<fadetime>400</fadetime>
-			</control>
+			<animation effect="fade" start="0" end="90" time="400" >WindowOpen</animation>
+			<animation effect="fade" start="90" end="0" time="400" delay="200" >WindowClose</animation>
+		
 			<control type="image">
 				<posx>90</posx>
 				<posy>50</posy>
@@ -22,7 +16,6 @@
 				<height>640</height>
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>DialogBackwht.png</texture>
-				<!--<texture>list/file-black-background1.png</texture>-->
 			</control>
 			<control type="image">
 				<posx>90</posx>
@@ -30,14 +23,13 @@
 				<width>1100</width>
 				<height>640</height>
 				<texture>DialogBack.png</texture>
-				<!--<texture>list/file-black-background1.png</texture>-->
 			</control>
 	
 		</control>
 		<control type="group">
 			<visible>!Window.IsVisible(FileBrowser)</visible>
-			<animation effect="fade" start="0" end="100" time="600" >WindowOpen</animation>
-			<animation effect="fade" start="100" end="0" time="600" delay="200" >WindowClose</animation>
+			<animation effect="fade" start="0" end="100" time="400" >WindowOpen</animation>
+			<animation effect="fade" start="100" end="0" time="400" delay="200" >WindowClose</animation>
 	
 			<control type="group">
 				<animation effect="fade" delay="400" start="0" end="100" time="200">WindowOpen</animation>
@@ -132,7 +124,7 @@
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
 						<autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
-						<!-- <animation effect="slide" end="-1200,0" time="200" delay="200" condition="Control.IsVisible(50)">conditional</animation> -->
+						
 					</control>
 
 					<control type="group">
@@ -156,18 +148,7 @@
 							<height>405</height>
 							<texture>posterframeF.png</texture>
 						</control>
-						<control type="image">
-							<posx>-110</posx>
-							<posy>-22</posy>
-							<width>424</width>
-							<height>526</height>
-							<texture>showcase/showcase_glow.png</texture>
-							<animation type="Focus" reversible="false">
-								<effect type="zoom" center="90,258" start="81" end="100" time="400" tween="back" easing="out" />
-								<effect type="fade" start="0" end="100" time="1000" delay="400"/>
-							</animation>
-							<animation effect="slide" start="0,0" end="0,30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
-						</control>
+						
 					</control>
 					<control type="grouplist">
 						<description>Media Codec Flagging Images</description>
@@ -196,8 +177,8 @@
 						<pagecontrol>-</pagecontrol>
 						<scrolltime>200</scrolltime>
 						<animation effect="fade" start="0" end="100" time="400" condition="!Control.IsVisible(50)">conditional</animation>
-						<animation effect="fade" start="0" end="100" time="600" >WindowOpen</animation>
-						<animation effect="fade" start="100" end="0" time="600" delay="200" >WindowClose</animation>
+						<animation effect="fade" start="0" end="100" time="400" >WindowOpen</animation>
+						<animation effect="fade" start="100" end="0" time="400" delay="200" >WindowClose</animation>
 						<itemlayout height="30">
 							<control type="label">
 								<posx>170</posx>
@@ -337,8 +318,8 @@
 					<posx>210</posx>
 					<include>VisibleFadeEffect</include>
 					<animation effect="fade" start="0" end="100" time="650" condition="!Control.IsVisible(50)">conditional</animation> -->
-					<animation effect="fade" start="0" end="90" time="600" >WindowOpen</animation>
-					<animation effect="fade" start="90" end="0" time="600" delay="200" >WindowClose</animation>
+					<animation effect="fade" start="0" end="90" time="400" >WindowOpen</animation>
+					<animation effect="fade" start="90" end="0" time="400" delay="200" >WindowClose</animation>
 					<control type="list" id="49">
 						<posx>-300</posx>
 						<posy>100</posy>
@@ -837,8 +818,8 @@
 					<label>$INFO[ListItem.Plot]</label>
 					<autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 					<!-- JVB <animation effect="slide" start="0,0" end="0,700" time="200" delay="100" condition="Control.IsVisible(50)">conditional</animation> -->
-					<animation effect="fade" start="0" end="90" time="600" >WindowOpen</animation>
-					<animation effect="fade" start="90" end="0" time="600" delay="200" >WindowClose</animation>
+					<animation effect="fade" start="0" end="90" time="400" >WindowOpen</animation>
+					<animation effect="fade" start="90" end="0" time="400" delay="200" >WindowClose</animation>
 					<visible>!container.content(movies)</visible>
 				</control>
 		<!--!!!!-->		
@@ -855,8 +836,8 @@
 					<visible>Control.IsVisible(50)</visible>
 					<visible>!Control.HasFocus(12)</visible>
 					<!-- <animation effect="slide" start="-400,0" end="0,0" time="400" delay="300" condition="Control.IsVisible(50)">conditional</animation> -->
-					<animation effect="fade" start="0" end="90" time="600" >WindowOpen</animation>
-					<animation effect="fade" start="90" end="0" time="600" delay="200" >WindowClose</animation>
+					<animation effect="fade" start="0" end="90" time="400" >WindowOpen</animation>
+					<animation effect="fade" start="90" end="0" time="400" delay="200" >WindowClose</animation>
 				</control>
 				<control type="list" id="50">
 					<posx>440</posx>
@@ -872,8 +853,8 @@
 					<scrolltime>200</scrolltime>
 					<orientation>vertical</orientation>
 					<visible>!Control.HasFocus(12)</visible>
-					<animation effect="fade" start="0" end="90" time="600" >WindowOpen</animation>
-					<animation effect="fade" start="90" end="0" time="600" delay="200" >WindowClose</animation>
+					<animation effect="fade" start="0" end="90" time="400" >WindowOpen</animation>
+					<animation effect="fade" start="90" end="0" time="400" delay="200" >WindowClose</animation>
 					<itemlayout height="40" width="430">
 						
 						<control type="label">
