@@ -5,13 +5,22 @@
 	<include name="Viewtype_Episode">
 
 		<!-- Browser -->
-		<control type="image"><!-- 1st Background -->
+		<control type="image">
 			<visible>Control.IsVisible(51)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
 			<texture>tv-episodes/epi-background.png</texture>
+			<aspectratio>stretch</aspectratio> 
+		</control> 
+		<control type="image">
+			<visible>Control.IsVisible(51) + [Container.Content(episodes) | Window.IsActive(videoplaylist)]</visible>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<texture>tv-episodes/last-overlay.png</texture>
 			<aspectratio>stretch</aspectratio>
 		</control>
 		<control type="fixedlist" id="51">
@@ -108,6 +117,7 @@
 					<posy>2</posy>
 					<width>260</width>
 					<height>153</height>
+					<colordiffuse>mainblue</colordiffuse>
 					<texture>tv-episodes/focus-episode.png</texture>
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="127,70" start="50" end="100" time="200" tween="cubic" easing="out" />
@@ -146,7 +156,7 @@
 			</focusedlayout>
 		</control>
 
-		<control type="image"><!-- 1st Background -->
+<!--		<control type="image"> 
 			<visible>Control.IsVisible(51)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
@@ -155,7 +165,7 @@
 			<texture>tv-episodes/episode-glow.png</texture>
 			<aspectratio>stretch</aspectratio>
 			<include>Animation_BackdropFade</include>
-		</control>
+		</control>  -->
 		
 		
 		<!-- Browser label and flags -->
@@ -215,6 +225,7 @@
 				<posy>100</posy>
 				<width>650</width>
 				<height>378</height>
+				<!-- <colordiffuse>mainblue</colordiffuse>  -->
 				<texture>tv-landscape/landscapeframeFO.png</texture>										
 			</control>
 		</control>
@@ -290,15 +301,7 @@
 				<include>Animation_HiddenByInfo</include>
 				<include>Animation_Viewtype_Episode_BottomArea</include>
 			</control>
-		<control type="image"><!-- 1st Background -->
-			<visible>Control.IsVisible(51) + [Container.Content(episodes) | Window.IsActive(videoplaylist)]</visible>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
-			<texture>tv-episodes/last-overlay.png</texture>
-			<aspectratio>stretch</aspectratio>
-		</control>
+		
 		<control type="textbox"><!-- Uncheck Cleartitle -->
 			<posx>10</posx>
 			<posy>10</posy>
