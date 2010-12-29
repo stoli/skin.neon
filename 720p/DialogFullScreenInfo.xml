@@ -148,7 +148,7 @@
 				<control type="label">
 					<posx>200r</posx>
 					<posy>105</posy>
-					<width>412</width> 
+					<width>600</width> 
 					<height>25</height> 
 					<label>Directed by: $INFO[VideoPlayer.Director]</label>
 					<align>right</align> 
@@ -160,7 +160,7 @@
 				<control type="label">
 					<posx>200r</posx>
 					<posy>130</posy>
-					<width>412</width> 
+					<width>600</width> 
 					<height>25</height> 
 					<label>$INFO[VideoPlayer.mpaa]</label>
 					<align>right</align> 

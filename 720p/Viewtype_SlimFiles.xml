@@ -348,6 +348,7 @@
 		<visible>Control.IsVisible(598) + IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible>
 	</control>
 	<control type="textbox"><!-- Plot and TV -->
+	<include>Animation_HiddenByInfo</include>
 				<posx>460</posx>
 				<posy>545</posy>
 				<width>610</width>
@@ -358,12 +359,12 @@
 				<textcolor>ffffffff</textcolor>
 				<autoscroll time="3000" delay="7000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
 				<animation type="WindowOpen">
-					<effect type="fade" start="0" end="100" time="600" delay="6000" tween="cubic" easing="inout" />
+					<effect type="fade" start="0" end="100" time="600" delay="4000" tween="cubic" easing="inout" />
 				</animation>			
 				<animation type="WindowClose">
 					<effect type="fade" start="100" end="0" time="600" delay="0" tween="cubic" easing="inout" />
 				</animation>	
-				<animation effect="fade" start="0" end="100" time="600" delay="6000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
+				<animation effect="fade" start="0" end="100" time="600" delay="4000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
 				
 				<visible>Control.IsVisible(598) + Container.Content(movies)]</visible>
 			</control>	

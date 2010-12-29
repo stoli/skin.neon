@@ -290,7 +290,7 @@
 							</item>
 
 							<item>
-								<label>$LOCALIZE[20074]:</label>
+								<label>MPAA:</label>
 								<label2>$INFO[ListItem.mpaa]</label2>
 								<onclick>-</onclick>
 								<visible>!IsEmpty(ListItem.mpaa)</visible>
