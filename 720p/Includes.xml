@@ -890,6 +890,49 @@
 					<posy>5</posy>
 					<aligny>center</aligny>
 				</control>
+			<!-- JVB -->
+			<control type="group">
+			<visible>Skin.HasSetting(library_global_clock)</visible>
+				<animation type="WindowOpen">
+					<effect type="fade" start="0" end="100" time="600" />
+					<effect type="fade" start="100" end="0" time="600" delay="3000" />
+				</animation>
+				<animation type="WindowClose">
+				<effect type="fade" start="0" end="0" time="600" />
+					<!-- <effect type="fade" start="0" end="0"/> -->
+				</animation>
+				<control type="progress">
+					<texturebg>osd/osd_progress_back1.png</texturebg>
+					<lefttexture>osd/left.png</lefttexture>
+					<midtexture>osd/mid.png</midtexture>
+					<righttexture>osd/new_pause2.png</righttexture>
+					<info>Player.Progress</info>
+					<posx>490</posx>
+					<posy>10</posy>
+					<width>300</width>
+					<height>15</height>
+				</control>
+				<control type="label">
+					<posx>380</posx>
+					<posy>3</posy>
+					<width>300</width>
+					<height>25</height>
+					<align>left</align> 
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[VideoPlayer.Time]</label>
+				</control>
+				<control type="label">
+					<posx>800</posx>
+					<posy>3</posy>
+					<width>300</width>
+					<height>25</height>
+					<font>Font_RSS_Unicode</font>
+					<textcolor>mainblue</textcolor>
+					<label>$INFO[VideoPlayer.Duration]</label>
+				</control>
+			</control>
+			<!-- JVB -->
 			</control>
 		
 	</include>
