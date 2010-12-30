@@ -38,6 +38,7 @@
 	<include file="Viewtype_Slide.xml" />
 	<include file="Viewtype_CoverFlow.xml" />
 	<include file="Viewtype_SlimFiles.xml" />
+	<include file="Viewtype_Newest_Episodes.xml" />
 	
 	<include name="VisibleFadeEffect">
 		<animation effect="fade" time="300">Visible</animation>
@@ -131,6 +132,18 @@
 		<texturefocus>button-focus.png</texturefocus>
 		<texturenofocus>MenuItemNF.png</texturenofocus>
 	</include>
+		<include name="SideBladeRight">
+		<control type="image">
+			<posx>26r</posx>
+			<posy>0</posy>
+			<width>846</width>
+			<height>720</height>
+			<texture flipx="true">HomeBlade.png</texture>
+			<animation effect="slide" start="26,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
+		</control>
+	</include>
+
 	
 	<include name="ondown_small_trailer">
 		<ondown>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</ondown>
@@ -159,6 +172,18 @@
 	</include>
 	<include name="3dland_down_plot">
 		<ondown>8374</ondown>		
+
+	</include>
+	
+	<include name="WindowTitleCommons">
+		<posy>0</posy>
+		<width>1060</width>
+		<height>28</height>
+		<font>Font_Neon_20</font>
+		<textcolor>white</textcolor>
+		<scroll>false</scroll>
+		<align>right</align>
+		<aligny>center</aligny>
 	</include>
 	
 	<include name="ButtonHomeSubCommonValues">

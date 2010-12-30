@@ -109,8 +109,10 @@
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
 				<aligny>middle</aligny>
-				<label>$LOCALIZE[13313]</label>
+				<label>$LOCALIZE[20183]</label>
+				<onclick>Dialog.Close(all,true)</onclick>
 				<onclick>ReloadSkin()</onclick>
+				
 			</control>
 			<control type="button" id="3113">
 				<description>Shutdown</description>

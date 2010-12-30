@@ -5,7 +5,26 @@
 	<include name="Viewtype_Newest_Episodes">
 
 		<!-- Browser -->
+		<control type="image">
+			<visible>Control.IsVisible(51) | Control.IsVisible(596)</visible>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<texture>tv-episodes/epi-background.png</texture>
+			<aspectratio>stretch</aspectratio> 
+		</control> 
+		<control type="image">
+			<visible>Control.IsVisible(51) + [Container.Content(episodes) | Window.IsActive(videoplaylist)]</visible>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<texture>tv-episodes/last-overlay.png</texture>
+			<aspectratio>stretch</aspectratio>
+		</control>
 		<control type="fixedlist" id="596">
+		
 			<viewtype label="$LOCALIZE[31296]">list</viewtype>
 			<posx>-20</posx>
 			<posy>20</posy>
@@ -34,7 +53,7 @@
 							<height>160</height>
 							<texture diffuse="episodematte.png">$INFO[ListItem.Icon]</texture>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation>
+							<!-- <animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation> -->
 						</control>
 						<control type="image">
 							<posx>-10</posx>
@@ -42,7 +61,7 @@
 							<width>306</width>
 							<height>180</height>
 							<texture>tv-landscape/landscapeframeFO.png</texture>
-							<animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation>
+						<!--	<animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation> -->
 						</control>
 						<control type="image">
 							<posx>10</posx>
@@ -72,7 +91,7 @@
 							<font>Font_TVShow</font>
 							<textcolor>mainblue</textcolor>
 							<label>[B]$INFO[ListItem.Title][/B]</label>
-							<animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation>
+						<!--	<animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation> -->
 						</control>
 						<control type="label">
 							<description>Director</description>
@@ -95,7 +114,7 @@
 							<info>ListItem.Plot</info>
 							<font>Font_Bartowski_Movies_Plot</font>
 							<textcolor>ffffffff</textcolor>
-							<animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation>
+						<!--	<animation effect="fade" start="50" end="50" time="0" condition="true">conditional</animation> -->
 							<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
 						</control>
 				</control>

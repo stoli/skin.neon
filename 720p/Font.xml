@@ -63,6 +63,11 @@
 			<size>15</size>
 		</font>
 		<font>
+			<name>Font_Neon_12</name>
+			<filename>Antipasto.ttf</filename>
+			<size>12</size>
+		</font>
+		<font>
 			<name>Font_Bartowski_Zune</name>
 			<filename>Antipasto.ttf</filename>
 			<size>18</size>
@@ -630,7 +635,11 @@
 			<filename>Antipasto.ttf</filename>
 			<size>16</size>
 		</font>
-
+		<font>
+			<name>font10</name>
+			<filename>Antipasto.ttf</filename>
+			<size>14</size>
+		</font>
 
 	</fontset>
 	
@@ -1247,6 +1256,11 @@
 			<name>font13caps_title</name>
 			<filename>Arial.ttf</filename>
 			<size>20</size>
+		</font>
+		<font>
+			<name>font10</name>
+			<filename>Arial.ttf</filename>
+			<size>14</size>
 		</font>
 		<font>
 			<name>Font_Music_Jukebox</name>
