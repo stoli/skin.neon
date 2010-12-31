@@ -269,18 +269,28 @@
 			<posx>0</posx>
 			<posy>1040</posy>
 			<control type="image"> 
-				<description>trailer image</description>
-				<posx>-70</posx>
-				<posy>-70</posy>   
-				<width>693</width>     
-				<height>445</height> 
-				<texture>dialogs/trailer_diffuse_back.png</texture>
+				<description>trailer background</description>
+				<posx>30</posx>
+				<posy>-20</posy>   
+				<width>540</width>     
+				<height>305</height> 
+				
+				<texture>tv-episodes/context-back.png</texture>
 			</control>
 			<control type="videowindow" id="8">
 				<posx>30</posx>
-				<posy>26</posy>
-				<width>500</width>
-				<height>256</height>
+				<posy>-20</posy>
+				<width>540</width>
+				<height>305</height>
+			</control>
+			<control type="image"> 
+				<description>trailer image</description>
+				<posx>6</posx>
+				<posy>-45</posy>   
+				<width>590</width>     
+				<height>351</height> 
+				<colordiffuse>black</colordiffuse>
+				<texture>episodeframe.png</texture>
 			</control>
 		</control>
 
