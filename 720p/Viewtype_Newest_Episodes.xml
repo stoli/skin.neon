@@ -6,7 +6,7 @@
 
 		<!-- Browser -->
 		<control type="image">
-			<visible>Control.IsVisible(51) | Control.IsVisible(596)</visible>
+			<visible>!Control.IsVisible(51) | Control.IsVisible(596)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>1280</width>
