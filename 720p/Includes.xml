@@ -38,7 +38,7 @@
 	<include file="Viewtype_Slide.xml" />
 	<include file="Viewtype_CoverFlow.xml" />
 	<include file="Viewtype_SlimFiles.xml" />
-	<include file="Viewtype_Newest_Episodes.xml" />
+<!--	<include file="Viewtype_Newest_Episodes.xml" /> -->
 	
 	<include name="VisibleFadeEffect">
 		<animation effect="fade" time="300">Visible</animation>
