@@ -43,7 +43,7 @@
 				<effect type="fade" start="100" end="0" time="600" />
 			</animation>
 			<control type="progress" id="23">
-			<colordiffuse>mainblue</colordiffuse>
+			
 				<texturebg>osd/osd_progress_back1.png</texturebg>
 				<lefttexture>osd/left.png</lefttexture>
 				<midtexture>osd/mid.png</midtexture>

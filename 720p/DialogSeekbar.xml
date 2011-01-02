@@ -79,7 +79,7 @@
 				<width>1080</width>
 				<height>25</height>
 				<label>"$INFO[VideoPlayer.Title]"</label>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<font>Font_Bartowski_Extras_Pause</font>
 				<align>center</align>
 				<animation type="Conditional" reversible="false" condition="Player.Paused" loop="true">
@@ -96,7 +96,7 @@
 				<width>1080</width>
 				<height>25</height>
 				<label>"$INFO[VideoPlayer.Title]"</label>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<font>Font_Bartowski_Extras_Pause</font>
 				<visible>Player.Paused + Skin.HasSetting(library_global_clock)</visible>
 				<align>center</align>
@@ -107,7 +107,7 @@
 				<width>1080</width>
 				<height>25</height>
 				<label>$LOCALIZE[31074]: [COLOR=mainblue]$INFO[System.Time][/COLOR] | $LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<font>Font_Bartowski_Extras_Pause</font>
 				<align>center</align>
 				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
@@ -125,7 +125,7 @@
 				<width>1080</width>
 				<height>25</height>
 				<label>$LOCALIZE[31074] [COLOR=mainblue]$INFO[System.Time][/COLOR] | $LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>white</textcolor>
 				<font>Font_Bartowski_Extras_Pause</font>
 				<align>center</align>
 				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
@@ -151,7 +151,7 @@
 				<width>300</width>
 				<height>25</height>
 				<font>Font_RSS_Unicode</font>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Duration]</label>
 				<animation effect="slide" start="0,0" end="-304,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
@@ -175,7 +175,7 @@
 				<width>300</width>
 				<height>25</height>
 				<font>Font_RSS_Unicode</font>
-				<textcolor>ffffffff</textcolor>
+				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Duration]</label>
 				<animation effect="slide" start="0,0" end="-304,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
@@ -311,7 +311,7 @@
 			<align>left</align> 
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Under_Pause</font>
-			<textcolor>ffffffff</textcolor>
+			<textcolor>white</textcolor>
 			<visible>VideoPlayer.Content(episodes)</visible>
 		</control>
 		<control type="label">
@@ -323,7 +323,7 @@
 			<align>left</align> 
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Under_Pause</font>
-			<textcolor>ffffffff</textcolor>
+			<textcolor>white</textcolor>
 			<visible>VideoPlayer.Content(movies)</visible>
 		</control>
 		

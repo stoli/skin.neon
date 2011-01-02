@@ -238,7 +238,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>30</height>
-						<colordifuse>mainblue</colordiffuse>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>button-focus.png</texturefocus>
 						<visible>Control.HasFocus(50)</visible>
 						<include>VisibleFadeEffect</include>
@@ -376,7 +376,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>30</height>
-						<colordifuse>mainblue</colordiffuse>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>button-focus.png</texturefocus>
 						<visible>Control.HasFocus(100)</visible>
 						<include>VisibleFadeEffect</include>

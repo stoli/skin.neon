@@ -64,7 +64,7 @@
 				<textoffsetx>20</textoffsetx>
 				<textcolor>ff8F8D8E</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 			</control>
 			<control type="radiobutton" id="4">
@@ -74,7 +74,7 @@
 				<textoffsetx>20</textoffsetx>
 				<textcolor>ff8F8D8E</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 			</control>
 			<control type="spincontrolex" id="5">
@@ -82,7 +82,7 @@
 				<height>40</height>
 				<textcolor>ff8F8D8E</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<font>font13caps_title</font>
 				<textoffsetx>20</textoffsetx>

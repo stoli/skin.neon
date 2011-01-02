@@ -84,7 +84,7 @@
 					<texture background="true" diffuse="postermatteNF.png">$INFO[ListItem.Icon]</texture>
 					<fadetime>200</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
+				<!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
 				</control>
 				<control type="image">
 					<posx>-8</posx>
@@ -93,7 +93,7 @@
 					<height>260</height>
 					<texture>posterframeF.png</texture>
 					<colordiffuse>39FFFFFF</colordiffuse>
-					<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
+				<!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
 				</control>
 				<control type="image">
 					<posx>1</posx>
@@ -104,14 +104,23 @@
 					<colordiffuse>69FFFFFF</colordiffuse>
 					<fadetime>200</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
+				<!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
 				</control>
 				<control type="image">
-					<posx>100</posx>
-					<posy>332</posy>
+					<posx>105</posx>
+					<posy>324</posy>
 					<width>80</width>
 					<height>60</height>
 					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+					<visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
+				</control>
+				<control type="image">
+					<posx>105</posx>
+					<posy>360</posy>
+					<width>80</width>
+					<height>60</height>
+					<colordiffuse>69FFFFFF</colordiffuse>
+					<texture flipy="true">dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					<visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
 				</control>
 				<control type="image">
@@ -126,7 +135,7 @@
 			
 			<focusedlayout width="210" height="515">
 				<control type="group">	
-				<animation effect="slide" start="0,0" end="0,30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
+			<!--	<animation effect="slide" start="0,0" end="0,30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
 					<control type="image">
 						<posx>-94</posx>
 						<posy>24</posy>
@@ -176,11 +185,23 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>134</posx>
-						<posy>344</posy>
+						<posx>137</posx>
+						<posy>335</posy>
 						<width>90</width>
 						<height>68</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="90,258" start="81" end="100" time="300" tween="back" easing="out" />
+						</animation>
+						<visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
+					</control>
+					<control type="image">
+						<posx>137</posx>
+						<posy>380</posy>
+						<width>90</width>
+						<height>68</height>
+						<colordiffuse>69FFFFFF</colordiffuse>
+						<texture flipy="true">dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="90,258" start="81" end="100" time="300" tween="back" easing="out" />
 						</animation>

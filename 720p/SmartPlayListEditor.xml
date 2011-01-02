@@ -56,7 +56,7 @@
 				<font>Font_KeyboardTitle</font>
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<onright>22</onright>
 				<onleft>22</onleft>
@@ -94,7 +94,7 @@
 				<textcolor>white</textcolor>
 				<align>center</align>
 				<aligny>bottom</aligny>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<label>-</label>
 				<onup>22</onup>
@@ -141,7 +141,7 @@
 						<posy>0</posy>
 						<width>560</width>
 						<height>41</height>
-						<colordifuse>mainblue</colordiffuse>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>button-focus.png</texturefocus>
 						<visible>Control.HasFocus(10)</visible>
 					</control>
@@ -170,7 +170,7 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<colordifuse>mainblue</colordiffuse>
+					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
 					<onup>17</onup>
 					<onleft>10</onleft>
@@ -189,7 +189,7 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<colordifuse>mainblue</colordiffuse>
+					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
 					<onup>13</onup>
 					<onleft>10</onleft>
@@ -208,7 +208,7 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<colordifuse>mainblue</colordiffuse>
+					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
 					<onup>14</onup>
 					<onleft>10</onleft>
@@ -244,7 +244,7 @@
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<font>Font_KeyboardTitle</font>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<onright>16</onright>
 				<onleft>16</onleft>
@@ -262,7 +262,7 @@
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<font>Font_KeyboardTitle</font>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<onright>17</onright>
 				<onleft>17</onleft>
@@ -280,7 +280,7 @@
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<font>Font_KeyboardTitle</font>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<onright>19</onright>
 				<onleft>19</onleft>
@@ -298,7 +298,7 @@
 				<aligny>center</aligny>
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<colordifuse>mainblue</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<alttexturefocus border="5">button-focus.png</alttexturefocus>
 				<label>21431</label>
@@ -328,7 +328,7 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<colordifuse>mainblue</colordiffuse>
+					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
 					<label>186</label>
 					<font>font16caps</font>
@@ -347,7 +347,7 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<colordifuse>mainblue</colordiffuse>
+					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
 					<label>222</label>
 					<font>font16caps</font>

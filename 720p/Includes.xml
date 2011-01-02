@@ -936,6 +936,7 @@
 					<posy>10</posy>
 					<width>300</width>
 					<height>15</height>
+					<visible>!Window.IsActive(115)</visible>
 				</control>
 				<control type="label">
 					<posx>380</posx>
@@ -946,6 +947,7 @@
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>$INFO[VideoPlayer.Time]</label>
+					<visible>!Window.IsActive(115)</visible>
 				</control>
 				<control type="label">
 					<posx>800</posx>
@@ -955,6 +957,7 @@
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
 					<label>$INFO[VideoPlayer.Duration]</label>
+					<visible>!Window.IsActive(115)</visible>
 				</control>
 			</control>
 			<!-- JVB -->

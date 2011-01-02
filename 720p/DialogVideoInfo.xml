@@ -755,8 +755,8 @@
 					
 					
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<posx>-85</posx>
+						<posy>-30</posy>
 						<width>380</width>
 						<height>360</height>
 						<aspectratio>keep</aspectratio>
