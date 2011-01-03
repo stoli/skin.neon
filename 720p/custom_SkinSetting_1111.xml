@@ -219,12 +219,13 @@
 						<onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
 						<visible>Skin.HasSetting(SubsScript_Enable)</visible>
 					</control>
+				<!-- Not needed - control is available 	
 					<control type="radiobutton" id="106">
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31217]</label>
 						<onclick>Skin.ToggleSetting(hometheater)</onclick>
 						<selected>Skin.HasSetting(hometheater)</selected>
-					</control>
+					</control> -->
 					<control type="radiobutton" id="107">
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31248]</label>
