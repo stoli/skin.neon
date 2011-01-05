@@ -316,6 +316,10 @@
 					<description>Search</description>
 					<label>137</label>
 				</control>
+				<control type="button" id="11">
+					<include>WindowMenuButton</include>
+					<label>20336</label>
+				</control>
 
 			</control>
 			<control type="grouplist">
@@ -380,6 +384,11 @@
 					<include>WindowMenuLabel</include>
 					<description>Search</description>
 					<label>137</label>
+				</control>
+				<control type="label">
+					<include>WindowMenuLabel</include>
+					<description>Unlock Sources</description>
+					<label>20336</label>
 				</control>
 			</control>
 		
