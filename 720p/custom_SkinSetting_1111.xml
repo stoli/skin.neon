@@ -2565,6 +2565,12 @@
                             <onclick>Skin.ToggleSetting(TVBanners)</onclick> 
                             <onclick>Skin.Reset(TVPosters)</onclick> 
                             <selected>Skin.HasSetting(TVBanners)</selected> 
+                        </control>
+						<control type="radiobutton" id="516"> 
+                            <include>skin_settings_labels</include>
+                            <label>Hide Video Cases</label> 
+                            <onclick>Skin.ToggleSetting(HideVideoCase)</onclick> 
+                            <selected>Skin.HasSetting(HideVideoCase)</selected> 
                         </control> 
 						<control type="radiobutton" id="503">
 							<include>skin_settings_labels</include>

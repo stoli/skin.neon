@@ -244,9 +244,40 @@
 			<height>263</height>
 			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
 			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">button-nofocus.png</bordertexture>
+			<!--  <bordertexture border="5">button-nofocus.png</bordertexture> 
 			<bordersize>5</bordersize>
-			<fadetime>100</fadetime>
+			<fadetime>100</fadetime> -->
+			<visible>!Skin.HasSetting(HideVideoCase)</visible>
+		</control>
+		<control type="image">
+			<posx>1100</posx>
+			<posy>450</posy>
+			<width>175</width>
+			<height>263</height>
+			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
+			<texture background="true">$INFO[ListItem.Icon]</texture>
+			<bordertexture border="5">button-nofocus.png</bordertexture> 
+			<bordersize>5</bordersize>
+			<fadetime>100</fadetime> 
+			<visible>Skin.HasSetting(HideVideoCase)</visible>
+		</control>
+		<control type="image">
+			<posx>1090</posx>
+			<posy>440</posy>
+			<width>200</width>
+			<height>288</height>
+			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
+			<texture>case-bluray.png</texture>
+			<visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
+		</control>
+		<control type="image">
+			<posx>1090</posx>
+			<posy>440</posy>
+			<width>200</width>
+			<height>288</height>
+			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
+			<texture>case-cd.png</texture>
+			<visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
 		</control>
 		<control type="image">
 			<posx>1100</posx>
@@ -262,7 +293,35 @@
 			<!--<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
-			<visible>Container(50).OnNext</visible>
+			<visible>Container(50).OnNext + Skin.HasSetting(HideVideoCase)</visible>
+		</control>
+		<control type="image">
+			<posx>1100</posx>
+			<posy>450</posy>
+			<width>175</width>
+			<height>263</height>
+			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
+			<texture background="true">$INFO[ListItem(-1).Icon]</texture>
+			<fadetime>100</fadetime>
+			<animation type="Hidden">
+			<!--<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
+				<effect type="fade" time="400" start="100" end="0" />
+			</animation>
+			<visible>Container(50).OnNext + !Skin.HasSetting(HideVideoCase)</visible>
+		</control>
+		<control type="image">
+			<posx>1100</posx>
+			<posy>450</posy>
+			<width>175</width>
+			<height>263</height>
+			<aspectratio align="right" aligny="bottom">stretch</aspectratio>
+			<texture background="true">$INFO[ListItem(1).Icon]</texture>
+			<fadetime>100</fadetime>
+			<animation type="Hidden">
+			<!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />-->
+				<effect type="fade" time="400" start="100" end="0" />
+			</animation>
+			<visible>Container(50).OnPrevious + !Skin.HasSetting(HideVideoCase)</visible>
 		</control>
 		<control type="image">
 			<posx>1100</posx>
@@ -278,46 +337,10 @@
 			<!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />-->
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
-			<visible>Container(50).OnPrevious</visible>
+			<visible>Container(50).OnPrevious + Skin.HasSetting(HideVideoCase)</visible>
 		</control>
-
 	</control>
-<!--	<control type="group">
-			<visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left)</visible>
-			<include>Animation_Viewtype_Showcase_RightArea</include>
-				<control type="image">
-					<posx>510</posx>
-					<posy>520</posy>
-					<width>261</width>
-					<height>147</height>
-					<aspectratio>stretch</aspectratio>
-					<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Path,,extrathumbs/thumb1.jpg]</texture>
-					<fadetime>200</fadetime>
-				</control>
-				<control type="image">
-					<posx>498</posx>
-					<posy>510</posy>
-					<width>284</width>
-					<height>166</height>
-					<texture>tv-landscape/landscapeframeFO.png</texture>
-				</control>
-				<control type="image">
-					<posx>810</posx>
-					<posy>520</posy>
-					<width>261</width>
-					<height>147</height>
-					<aspectratio>stretch</aspectratio>
-					<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Path,,extrathumbs/thumb2.jpg]</texture>
-					<fadetime>200</fadetime>
-				</control>
-				<control type="image">
-					<posx>798</posx>
-					<posy>510</posy>
-					<width>284</width>
-					<height>166</height>
-					<texture>tv-landscape/landscapeframeFO.png</texture>
-				</control>
-			</control> -->
+
 			
 	<control type="grouplist">
 		<visible>Control.IsVisible(598) + Container.Content(movies) + !Window.IsActive(videofiles) + !Skin.HasSetting(no_media_flags) + !Skin.HasSetting(Files_Fanart)</visible>
