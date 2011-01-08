@@ -239,7 +239,7 @@
 	<visible>Container.Content(movies) + Control.IsVisible(598) + !Skin.HasSetting(Files_Fanart)</visible>
 		<control type="image">
 			<posx>1100</posx>
-			<posy>450</posy>
+			<posy>447</posy>
 			<width>175</width>
 			<height>263</height>
 			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
@@ -251,7 +251,7 @@
 		</control>
 		<control type="image">
 			<posx>1100</posx>
-			<posy>450</posy>
+			<posy>447</posy>
 			<width>175</width>
 			<height>263</height>
 			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
@@ -262,19 +262,19 @@
 			<visible>Skin.HasSetting(HideVideoCase)</visible>
 		</control>
 		<control type="image">
-			<posx>1090</posx>
-			<posy>440</posy>
+			<posx>1092</posx>
+			<posy>420</posy>
 			<width>200</width>
-			<height>288</height>
+			<height>310</height>
 			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
 			<texture>case-bluray.png</texture>
 			<visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
 		</control>
 		<control type="image">
-			<posx>1090</posx>
-			<posy>440</posy>
+			<posx>1092</posx>
+			<posy>420</posy>
 			<width>200</width>
-			<height>288</height>
+			<height>310</height>
 			<!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
 			<texture>case-cd.png</texture>
 			<visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
