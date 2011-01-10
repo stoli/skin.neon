@@ -70,6 +70,7 @@
 				<height>19</height>
 				<visible>VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]</visible>
 			</control>
+			
 	<control type="group">
 		<visible>VideoPlayer.Content(episodes)</visible>
 		<animation effect="slide" start="0,0" end="-140,8" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
@@ -131,6 +132,7 @@
 				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
 			</control>
+			
 		</control>
 		<control type="group">
 		<visible>VideoPlayer.Content(episodes)</visible>
@@ -179,6 +181,7 @@
 				<label>$INFO[VideoPlayer.Duration]</label>
 				<animation effect="slide" start="0,0" end="-304,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			</control>
+			
 		</control>
 		<!--	<control type="image">
 				 <description>IMDB Rating</description>
@@ -454,6 +457,49 @@
 			<visible>player.rewinding32x</visible>
 		</control>
 	</control>
-
+		<control type="group">
+		<animation type="WindowOpen">
+			<effect type="fade" start="0" end="100" time="600" />
+		</animation>
+		<animation type="WindowClose">
+			<effect type="fade" start="100" end="0" time="600" />
+		</animation>
+			<control type="label">
+				<posx>250r</posx>
+				<posy>620</posy>
+				<width>1000</width> 
+				<height>25</height> 
+				<label>IMDB: $INFO[VideoPlayer.RatingAndVotes ]</label>
+				<align>right</align> 
+				<aligny>center</aligny> 
+				<font>Font_Bartowski_Movies</font>
+				<textcolor>ffffffff</textcolor>
+				<visible>VideoPlayer.Content(movies)</visible>
+			</control>
+			<control type="label">
+				<posx>250r</posx>
+				<posy>645</posy>
+				<width>1000</width> 
+				<height>25</height> 
+				<label>Directed by: $INFO[VideoPlayer.Director]</label>
+				<align>right</align> 
+				<aligny>center</aligny> 
+				<font>Font_Bartowski_Movies</font>
+				<textcolor>ffffffff</textcolor>
+				<visible>VideoPlayer.Content(movies)</visible>
+			</control>
+			<control type="label">
+				<posx>250r</posx>
+				<posy>675</posy>
+				<width>1000</width> 
+				<height>25</height> 
+				<label>$INFO[VideoPlayer.mpaa]</label>
+				<align>right</align> 
+				<aligny>center</aligny> 
+				<font>Font_Bartowski_Movies</font>
+				<textcolor>ffffffff</textcolor>
+				<visible>VideoPlayer.Content(movies)</visible>
+			</control>
+		</control>
 	</controls>
 </window>
