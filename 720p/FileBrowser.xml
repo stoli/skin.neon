@@ -100,8 +100,11 @@
 						<description>Create folder button</description>
 						<height>52</height>
 						<align>center</align>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+						<texturefocus>MenuItemFO.png</texturefocus>
 						<include>ButtonMediaSubCommonValues</include>
+						<selectedcolor>white</selectedcolor>
 						<label>119</label>
 					</control>
 					<!-- <control type="radiobutton" id="416">
