@@ -225,7 +225,7 @@
 				<posy>100</posy>
 				<width>650</width>
 				<height>378</height>
-				<!-- <colordiffuse>mainblue</colordiffuse>  -->
+				<colordiffuse>ff959494</colordiffuse>
 				<texture>tv-landscape/landscapeframeFO.png</texture>										
 			</control>
 		</control>
