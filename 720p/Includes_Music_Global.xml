@@ -1144,7 +1144,7 @@
 	<include name="Music_Global_Lowerleft_Music">
 		<control type="group">
 		<include>Animation_CommonFade</include>
-		<visible>Control.IsVisible(52) + Player.HasAudio + !Skin.HasSetting(zune_music) + !SubString(Window(25).Property(TvTunesIsAlive),True)</visible>		
+		<visible>Control.IsVisible(51)</visible>		
 			<control type="image"><!-- 1st overlay -->
 				<posx>0</posx>
 				<posy>0</posy>
@@ -1354,6 +1354,271 @@
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album,[B]$LOCALIZE[558]: [/B]]</label>
+					</control>
+				</control>
+		</control>
+		<control type="group">
+		<posx>30</posx>
+		<posy>630</posy>
+		<include>Animation_CommonFade</include>
+		<visible>Control.IsVisible(52) + Player.HasAudio + Skin.HasSetting(zune_music)</visible>
+			<control type="image">
+				<description>cover image</description>
+				<posx>0</posx>
+				<posy>30</posy>
+				<width>50</width>
+				<height>50</height>
+				<texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.Cover]</texture>
+			</control>
+			<control type="image">
+				<posx>-6</posx>
+				<posy>24</posy>
+				<width>60</width>
+				<height>60</height>
+				<texture>music/musicwallframeF.png</texture>
+				<aspectratio scalediffuse="false">stretch</aspectratio>
+			</control>
+			<control type="label">
+				<description>artist name</description>
+				<posx>60</posx>
+				<posy>36</posy>
+				<width>200</width>
+				<height>18</height>
+				<aligny>center</aligny>
+				<align>center</align>
+				<font>Font_Bartowski_Zune</font>
+				<textcolor>grey2</textcolor>
+				<label>$INFO[MusicPlayer.Artist]</label>
+				<animation type="Conditional" reversible="false" condition="true" loop="true">
+					<effect type="fade" start="0" end="100" time="1000" delay="0" />
+					<effect type="fade" start="100" end="0" time="1000" delay="7000" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
+				</animation>
+			</control>
+			<control type="label">
+				<description>album name</description>
+				<posx>60</posx>
+				<posy>36</posy>
+				<width>200</width>
+				<height>18</height>
+				<aligny>center</aligny>
+				<align>center</align>
+				<font>Font_Bartowski_Zune</font>
+				<textcolor>grey2</textcolor>
+				<label>$INFO[MusicPlayer.Album]</label>
+				<animation type="Conditional" reversible="false" condition="true" loop="true">
+					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="14000" />
+				</animation>
+			</control>
+			<control type="progress" id="23">
+				<texturebg>osd/osd_progress_back1.png</texturebg>
+				<lefttexture>osd/left.png</lefttexture>
+				<midtexture>osd/mid.png</midtexture>
+				<righttexture>osd/new_pause2.png</righttexture>
+				<info>Player.Progress</info>
+				<posx>60</posx>
+				<posy>60</posy>
+				<width>200</width>
+				<height>10</height>
+			</control>
+		</control>
+	</include>
+	
+	<include name="Music_Global_TopLeft_Music">
+		<control type="group">
+		<include>Animation_CommonFade</include>
+		<visible>Control.IsVisible(598)</visible>		
+			
+			<control type="group">
+				<posx>-20</posx>
+				<posy>130</posy>
+					<animation type="Conditional" reversible="false" condition="true" loop="true">
+						<effect type="fade" start="1" end="100" time="1000" delay="0" />
+						<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
+					</animation>
+						<control type="image" id="7026">
+							<description>dirty hack for showing cdart image</description>
+							<posx>30</posx>
+							<posy>-120</posy>
+							<width>130</width>
+							<height>130</height>
+							<texture>$INFO[Player.FolderPath]cdart.png</texture>
+							<aspectratio align="bottom">keep</aspectratio>
+							<include>cdartspin3</include>
+						</control>	
+						<control type="image">
+							<description>cover image</description>
+							<posx>32</posx>
+							<posy>-120</posy>
+							<width>130</width>
+							<height>130</height>
+							<texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.Cover]</texture>
+						</control>
+						<control type="image">
+							<posx>20</posx>
+							<posy>-132</posy>
+							<width>154</width>
+							<height>154</height>
+							<texture>music/musicwallframeF.png</texture>
+							<aspectratio scalediffuse="false">stretch</aspectratio>
+						</control>
+				</control>
+				
+				<control type="group">
+				<posx>-20</posx>
+				<posy>130</posy>
+					<animation type="Conditional" reversible="false" condition="true" loop="true">
+						<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+						<effect type="fade" start="100" end="0" time="1000" delay="28000" />
+					</animation>
+						<control type="image">
+							<description>cover image</description>
+							<posx>32</posx>
+							<posy>-120</posy>
+							<width>130</width>
+							<height>130</height>
+							<texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(1).Cover]</texture>
+						</control>
+						<control type="image">
+							<posx>20</posx>
+							<posy>-132</posy>
+							<width>154</width>
+							<height>154</height>
+							<texture>music/musicwallframeF.png</texture>
+							<aspectratio scalediffuse="false">stretch</aspectratio>
+						</control>
+			</control>
+			<control type="group">
+			<posx>-80</posx>
+			<posy>15</posy>
+			<animation effect="slide" start="0,0" end="66,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7026))">Conditional</animation>
+			<animation type="Conditional" reversible="false" condition="true" loop="true">
+				<effect type="fade" start="0" end="100" time="1000" delay="0" />
+				<effect type="fade" start="100" end="0" time="1000" delay="21000" />
+				<effect type="fade" start="100" end="0" time="1000" delay="28000" />
+			</animation>
+					
+					<control type="label">
+						<description>Track</description>
+						<posx>234</posx>
+						<posy>-13</posy>
+						<width min="10" max="400">auto</width>
+						<align>left</align>
+						<font>Font_Bartowski_Showcase_Title</font>
+						<textcolor>mainblue</textcolor>
+						<label>$INFO[MusicPlayer.Title]</label>
+						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
+						<visible>!Control.IsVisible(51)</visible>
+					</control>
+				
+		<!-- artist name control -->
+					<control type="label">
+						<description>artist name</description>
+						<posx>234</posx>
+						<posy>20</posy>
+						<width>380</width>
+						<height>18</height>
+						<aligny>center</aligny>
+						<align>left</align>
+						<font>Font_Date</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[MusicPlayer.Artist,$LOCALIZE[557]: ]</label>
+						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
+						<visible>!Control.IsVisible(51)</visible>
+					</control>
+		<!--  album name control -->
+					<control type="label">
+						<description>album name</description>
+						<posx>234</posx>
+						<posy>42</posy>
+						<width>380</width>
+						<height>18</height>
+						<aligny>center</aligny>
+						<align>left</align>
+						<font>Font_Date</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[MusicPlayer.Album,$LOCALIZE[558]: ]</label>
+						<visible>!Control.IsVisible(51)</visible>
+					</control>
+					<control type="label">
+						<description>album name</description>
+						<posx>234</posx>
+						<posy>64</posy>
+						<width>380</width>
+						<height>18</height>
+						<aligny>center</aligny>
+						<align>left</align>
+						<font>Font_Date</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[MusicPlayer.year,$LOCALIZE[345]: ]</label>
+						<visible>!Control.IsVisible(51)</visible>
+					</control>
+			</control>
+				
+				
+				
+				
+				
+			<control type="group">
+			<posx>-100</posx>
+			<posy>0</posy>
+			<visible>true</visible>
+				<animation type="Conditional" reversible="false" condition="true" loop="true">
+					<effect type="fade" start="0" end="100" time="1000" delay="21500" />
+					<effect type="fade" start="100" end="0" time="1000" delay="28000" />
+				</animation>
+					<control type="label">
+						<description>Track</description>
+						<posx>250</posx>
+						<posy>6</posy>
+						<width min="40" max="400">auto</width>
+						<align>left</align>
+						<height>18</height>
+						<font>Font_Date</font>
+						<textcolor>ffffffff</textcolor>
+						<label>[COLOR=mainblue]$LOCALIZE[209]...[/COLOR]</label>
+						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
+					</control>
+					<control type="label">
+						<description>Track</description>
+						<posx>250</posx>
+						<posy>22</posy>
+						<width min="40" max="400">auto</width>
+						<align>left</align>
+						<height>18</height>
+						<font>Font_Bartowski_Showcase_Title</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[MusicPlayer.offset(1).Title]</label>
+						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
+					</control>
+		<!-- artist name control -->
+					<control type="label">
+						<description>artist name</description>
+						<posx>250</posx>
+						<posy>50</posy>
+						<width>380</width>
+						<height>18</height>
+						<aligny>center</aligny>
+						<align>left</align>
+						<font>Font_Date</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[MusicPlayer.offset(1).Artist,$LOCALIZE[557]: ]</label>
+						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
+					</control>
+		<!--  album name control -->
+					<control type="label">
+						<description>album name</description>
+						<posx>250</posx>
+						<posy>70</posy>
+						<width>380</width>
+						<height>18</height>
+						<aligny>center</aligny>
+						<align>left</align>
+						<font>Font_Date</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[MusicPlayer.offset(1).Album,$LOCALIZE[558]: ]</label>
 					</control>
 				</control>
 		</control>
