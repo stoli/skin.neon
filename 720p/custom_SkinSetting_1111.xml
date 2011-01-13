@@ -74,7 +74,7 @@
 						<width>260</width>
 						<height>45</height>
 						<colordiffuse>mainblue</colordiffuse>
-						<texture>button-focus.png</texture>
+						<texture>MenuItemFO.png</texture>
 						<animation effect="fade" start="100" end="30" time="100" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<control type="label">

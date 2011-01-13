@@ -1144,8 +1144,8 @@
 	<include name="Music_Global_Lowerleft_Music">
 		<control type="group">
 		<include>Animation_CommonFade</include>
-		<visible>Control.IsVisible(51)</visible>		
-			<control type="image"><!-- 1st overlay -->
+		<visible>Control.IsVisible(51) + Player.HasAudio</visible>		
+			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>1280</width>
@@ -1230,7 +1230,6 @@
 						<height>18</height>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
-						 <!-- <label>[B][COLOR=mainblue]$LOCALIZE[13350][/COLOR] [/B]</label> -->
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -1248,7 +1247,7 @@
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
 				
-		<!-- artist name control -->
+		
 					<control type="label">
 						<description>artist name</description>
 						<posx>234</posx>
@@ -1260,10 +1259,10 @@
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
 						<label>$INFO[MusicPlayer.Artist,[B]$LOCALIZE[557]: [/B]]</label>
-						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
+						
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
-		<!--  album name control -->
+		
 					<control type="label">
 						<description>album name</description>
 						<posx>234</posx>
@@ -1328,7 +1327,7 @@
 						<label>[B]$INFO[MusicPlayer.offset(1).Title][/B]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
-		<!-- artist name control -->
+		
 					<control type="label">
 						<description>artist name</description>
 						<posx>250</posx>
@@ -1340,9 +1339,9 @@
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist,[B]$LOCALIZE[557]: [/B]]</label>
-						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
+					
 					</control>
-		<!--  album name control -->
+		
 					<control type="label">
 						<description>album name</description>
 						<posx>250</posx>
@@ -1428,7 +1427,7 @@
 	<include name="Music_Global_TopLeft_Music">
 		<control type="group">
 		<include>Animation_CommonFade</include>
-		<visible>Control.IsVisible(598)</visible>		
+		<visible>Control.IsVisible(598) + Player.HasAudio</visible>		
 			
 			<control type="group">
 				<posx>-20</posx>

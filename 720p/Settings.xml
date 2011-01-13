@@ -70,7 +70,7 @@
 						<width>230</width>
 						<height>45</height>
 						<colordiffuse>mainblue</colordiffuse>
-						<texture>button-focus.png</texture>
+						<texture>MenuItemFO.png</texture>
 					</control>
 					<control type="label">
 						<posx>130</posx>

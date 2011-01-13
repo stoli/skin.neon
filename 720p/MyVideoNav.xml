@@ -142,7 +142,11 @@
 			<include>Music_Global_TopRight</include>
 			<include>Music_Global_Showcase</include>
 			<include>Music_Global_LowerRight</include>
+			<include>Music_Global_LowerLeft</include>
 			<include>Music_Global_Lowerleft_Music</include>
+			<include>Music_Global_TopRight_Music_Showcase</include>
+			<include>Music_Global_TopLeft_Music</include>
+			
 	</control>
 		
 		<include>Global_Time_TopRight</include>

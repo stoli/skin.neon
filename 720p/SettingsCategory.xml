@@ -153,7 +153,7 @@
 			<textcolor>grey3</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
-			<texturefocus>button-focus.png</texturefocus>
+			<texturefocus>MenuItemFO.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
 			<pulseonselect>false</pulseonselect>
 		</control>

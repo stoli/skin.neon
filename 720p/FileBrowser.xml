@@ -46,13 +46,13 @@
 				<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 				<control type="label" id="411">
 					<description>header label</description>
-					<posx>260</posx>
+					<posx>60</posx>
 					<posy>30</posy>
 					<width>630</width>
 					<height>30</height>
 					<font>Font_Neon_30</font>
 					<label>1023</label>
-					<align>right</align>
+					<align>left</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
@@ -85,9 +85,9 @@
 						<description>OK button</description>
 						<height>52</height>
 						<align>center</align>
-						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturefocus>button-focus.png</texturefocus>
 						<colordiffuse>mainblue</colordiffuse>
-						<texturenofocus border="5">MenuItemNF.png</texturenofocus>
+						<texturenofocus border="5">button-nofocus.png</texturenofocus>
 						<include>ButtonMediaSubCommonValues</include>
 						<textcolor>white</textcolor>
 						<label>186</label>
@@ -97,8 +97,8 @@
 						<height>52</height>
 						<align>center</align>
 						<colordiffuse>mainblue</colordiffuse>
-						<texturenofocus border="5">MenuItemNF.png</texturenofocus>
-						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus border="5">button-nofocus.png</texturenofocus>
+						<texturefocus>button-focus.png</texturefocus>
 						<include>ButtonMediaSubCommonValues</include>
 						<selectedcolor>white</selectedcolor>
 						<label>222</label>
@@ -108,8 +108,8 @@
 						<height>52</height>
 						<align>center</align>
 						<colordiffuse>mainblue</colordiffuse>
-						<texturenofocus border="5">MenuItemNF.png</texturenofocus>
-						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus border="5">button-nofocus.png</texturenofocus>
+						<texturefocus>button-focus.png</texturefocus>
 						<include>ButtonMediaSubCommonValues</include>
 						<selectedcolor>white</selectedcolor>
 						<label>119</label>
@@ -321,7 +321,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<textcolor>grey</textcolor>
-					<font>Font_Neon_12</font>
+					<font>Font_Neon_15</font>
 					<label>([COLOR=mainblue]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
 					<visible>!Control.IsVisible(451)</visible>
 				</control>
@@ -334,7 +334,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<textcolor>grey</textcolor>
-					<font>Font_Neon_12</font>
+					<font>Font_Neon_15</font>
 					<label>([COLOR=mainblue]$INFO[Container(451).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(451).CurrentPage]/$INFO[Container(451).NumPages][/COLOR])</label>
 					<visible>Control.IsVisible(451)</visible>
 				</control>
