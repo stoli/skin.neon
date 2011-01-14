@@ -230,6 +230,17 @@
 				<label>$LOCALIZE[5]</label>
 			</control> -->
 		</control>
+		<control type="group">
+			<posx>60</posx>
+			<posy>0</posy>
+			<control type="image">
+				<posx>-50</posx>
+				<posy>-10</posy>
+				
+				<texture>XBMC_Logo.png</texture>
+			</control>
+			
+		</control> 
 		<include>WindowTitleHomeButton</include>
 		<include>Clock</include>
 	</controls>

@@ -3379,7 +3379,16 @@
 				</control>
 			</control>
 		</control>
-		
+		<control type="group">
+			<posx>60</posx>
+			<posy>0</posy>
+			<control type="image">
+				<posx>-50</posx>
+				<posy>-10</posy>
+				
+				<texture>XBMC_Logo.png</texture>
+			</control>
+		</control> 
 		<include>Global_Time_TopRight_Files</include>
 	</controls>
 </window>

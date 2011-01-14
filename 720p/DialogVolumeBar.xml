@@ -9,117 +9,121 @@
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
 	<controls>
+	
 		<control type="group">
-			<posx>900</posx>
-			<posy>90</posy>
+			
+			<posx>620</posx>
+			<posy>-8</posy>
 			<width>707</width>
-			<height>183</height>
+			<height>-</height>
 			<control type="group">
 				<control type="image">
-					<posx>332</posx>
-					<posy>-10</posy>
-					<width>40</width>
-					<height>330</height>
-					<texture>volume_background.png</texture>
+				<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+					<posx>-2</posx>
+					<posy>-132</posy>
+					<width>30</width>
+					<height>313</height>
+					
+				<!--	<texture>volume_background.png</texture> -->
 				</control>
 				<control type="image">
-					<posx>337</posx>
-					<posy>265</posy>
+					<posx>-130</posx>
+					<posy>8</posy>
 					<width>35</width>
 					<height>35</height>
 					<texture>dialogs/VolumeIcon.png</texture>
 					<visible>IntegerGreaterThan(player.volume,-59)</visible>
 				</control>
 				<control type="image">
-					<posx>337</posx>
-					<posy>265</posy>
+					<posx>-130</posx>
+					<posy>8</posy>
 					<width>35</width>
 					<height>35</height>
 					<texture>dialogs/VolumeIcon-Mute.png</texture>
 					<visible>!IntegerGreaterThan(player.volume,-59)</visible>
 				</control>
 				<control type="group">
-					<posx>337</posx>
-					<posy>250</posy>
+					<posx>-90</posx>
+					<posy>12</posy>
 					
 
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume1.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-59)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume2.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-57)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume3.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-52)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume4.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-47)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume5.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-43)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume6.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-39)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume7.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-35)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume8.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-30)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume9.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-26)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume10.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-22)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume11.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-18)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume12.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-14)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume13.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-9)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume14.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-5)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/volume15.png</texture>
 						<visible>IntegerGreaterThan(player.volume,-1)</visible>
 					</control>
 					<control type="image">
-						<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+						<!--<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
 						<texture>dialogs/mute.png</texture>
 						<posy>20</posy>
 						<posx>20</posx>
@@ -133,12 +137,13 @@
 					</control>
 				</control>
 				<control type="image">
-					<posx>330</posx>
-					<posy>0</posy>
-					<width>50</width>
-					<height>300</height>
+					<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
+					<posx>5</posx>
+					<posy>-145</posy>
+					<width>60</width>
+					<height>330</height>
 					<colordiffuse>mainblue</colordiffuse>
-					<texture>dialogs/volume_cover.png</texture>
+					<!-- <texture>dialogs/volume_cover.png</texture> -->
 				</control>
 
 			

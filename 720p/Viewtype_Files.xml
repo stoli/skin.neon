@@ -166,7 +166,7 @@
 					<width>810</width>
 					<height>39</height>
 					<colordiffuse>mainblue</colordiffuse>
-					<texture>button-focus.png</texture>
+					<texture>MenuItemFO.png</texture>
 					<animation type="Focus" reversible="false">
 						<effect type="fade" start="0" end="100" time="400" />
 					</animation>
@@ -837,7 +837,7 @@
 			<height>460</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(50) + Control.HasFocus(60)</visible>
 			<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-			<textureslidernibfocus>ScrollBarV_Nib_Focus1.png</textureslidernibfocus>
+			<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
 			<onleft>50</onleft>
 			<onright>50</onright>
 			<showonepage>true</showonepage>

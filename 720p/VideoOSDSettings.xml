@@ -87,7 +87,8 @@
 			<description>Default Slider</description>
 			<height>40</height>
 			<textoffsetx>20</textoffsetx>
-			<texturefocus>button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>MenuItemFO.png</texturefocus>
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
@@ -101,7 +102,8 @@
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>MenuItemFO.png</texturefocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -112,7 +114,8 @@
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>MenuItemFO.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -123,7 +126,8 @@
 			<font>font16caps</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus>button-focus.png</texturefocus>
+			<colordiffuse>mainblue</colordiffuse>
+			<texturefocus>MenuItemFO.png</texturefocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>
