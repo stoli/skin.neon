@@ -45,7 +45,8 @@
 		<include>Trailer_Files</include>
 		<include>Trailer_Poster</include>
 		
-		<include>Global_Time_TopRight_Files</include>
+		<include>Global_Time_TopRight_Files</include> 
+		<include>Global_Time_LowerLeft_Files</include>
 		
 		<include>Music_Global_TopRight</include>
 		<include>Music_Global_Showcase</include>

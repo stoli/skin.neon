@@ -115,7 +115,7 @@
 					<width>640</width>
 					<height>37</height>
 					<colordiffuse>mainblue</colordiffuse>
-					<texture>button-focus.png</texture>
+					<texture>MenuItemFO.png</texture>
 					<!--<animation type="Focus" reversible="false">
 						<effect type="fade" start="0" end="70" time="800" />
 					</animation> -->

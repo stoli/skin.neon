@@ -322,23 +322,7 @@
 			<height>720</height>
 			<texture>panel/last-overlay.png</texture>
 		</control>
-		<control type="grouplist">
-			<visible>Container.Content(movies) + !Player.HasAudio + !Skin.HasSetting(no_media_flags)</visible>
-			<description>Media Codec Flagging Images</description>
-			<posx>20</posx>
-			<posy>680</posy>
-			<width>540</width>
-			<align>center</align>
-			<itemgap>0</itemgap>
-			<orientation>horizontal</orientation>
-			<include>VideoCodecFlaggingConditions</include>
-			<include>AudioCodecFlaggingConditions</include>
-			<include>AspectCodecFlaggingConditions</include>
-			<include>VideoTypeHackFlaggingConditions</include>
-			<include>VideoMPAAFlaggingConditions</include>
-			<include>Animation_HiddenByInfo</include>
-			<include>Animation_Viewtype_Panel_BottomArea</include>
-		</control>
+		
 	</control>
 	<control type="scrollbar" id="66">
 		<include>Animation_ZoomInZoomOut</include>

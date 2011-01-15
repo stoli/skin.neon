@@ -916,6 +916,22 @@
 				<animation effect="slide" start="0,0" end=",-80" time="0" tween="cubic" easing="inout" condition="Container.Content(tvshows)">Conditional</animation>
 			</control>
 		</control>
+		<control type="grouplist">
+			<visible>Container.Content(episodes) + Control.IsVisible(598) + !Skin.HasSetting(no_media_flags)</visible>
+			<description>Media Codec Flagging Images</description>
+			<posx>445</posx>
+			<posy>680</posy>
+			<width>380</width>
+			<align>center</align>
+			<itemgap>0</itemgap>
+			<orientation>horizontal</orientation>
+			<include>VideoCodecFlaggingConditions</include>
+			<include>AudioCodecFlaggingConditions</include>
+			<include>AspectCodecFlaggingConditions</include>
+			<include>VideoTypeHackFlaggingConditions</include>
+			<include>Animation_HiddenByInfo</include>
+			<include>Animation_Viewtype_Wall_Fags</include>
+		</control>
 		<control type="scrollbar" id="60">
 			<include>Animation_ZoomInZoomOut</include>
 			<posx>1280</posx>

@@ -122,8 +122,8 @@
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
 				<colordiffuse>mainblue</colordiffuse>
-				<texturenofocus>MenuItemNF.png</texturenofocus>
-				<texturefocus>MenuItemFO.png</texturefocus>
+				<texturenofocus>button-nofocus.png</texturenofocus>
+				<texturefocus>button-focus.png</texturefocus>
 				<onleft>10</onleft>
 				<onright>10</onright>
 				<onup>10</onup>

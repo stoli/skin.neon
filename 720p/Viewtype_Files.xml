@@ -33,8 +33,8 @@
 		
 		<control type="fixedlist" id="50">
 			<posx>0</posx>
-			<posy>-14</posy>
-			<height>885</height>
+			<posy>0</posy>
+			<height>650</height>
 			<width>1680</width>
 			<onup>50</onup>
 			<ondown>50</ondown>
@@ -43,12 +43,12 @@
 			<scrolltime>0</scrolltime>
 			<viewtype label="$LOCALIZE[744]">list</viewtype>
 			<orientation>vertical</orientation>
-			<focusposition>9</focusposition>
-			<movement>9</movement>
+			<focusposition>8</focusposition>
+			<movement>8</movement>
 			<pagecontrol>60</pagecontrol>
 			<include>Animation_HiddenByInfo</include>
 			<include>Animation_Viewtype_Files_LeftArea</include>
-			<itemlayout width="1210" height="36">
+			<itemlayout width="1150" height="36">
 				<control type="label">
 					<posx>20</posx>
 					<posy>0</posy>
@@ -59,7 +59,7 @@
 					<textcolor>Text-Filemode</textcolor>
 					<selectedcolor>mainblue</selectedcolor>
 					<label>$INFO[ListItem.label]</label>
-					<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation>
+					<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">Conditional</animation>
 					<visible>![Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
 				</control>
 				<control type="label">
@@ -77,7 +77,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>800</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -86,7 +86,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>800</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -95,7 +95,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>800</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -136,7 +136,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>800</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -145,7 +145,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>800</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -154,7 +154,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>800</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -163,7 +163,7 @@
 				<control type="image">
 					<posx>15</posx>
 					<posy>3</posy>
-					<width>810</width>
+					<width>750</width>
 					<height>39</height>
 					<colordiffuse>mainblue</colordiffuse>
 					<texture>MenuItemFO.png</texture>
@@ -179,8 +179,8 @@
 					<aligny>center</aligny>
 					<font>Font_Bartowski_Episode_ContextMenu</font>
 					<textcolor>ffffffff</textcolor>
-					<label>$INFO[ListItem.Label]</label>
-					<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation>
+					<label>$INFO[ListItem.Label]</label> 
+					<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">Conditional</animation>
 					<visible>[!Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
 				</control>
 				<control type="label">
@@ -278,9 +278,9 @@
 	<control type="grouplist">
 		<visible>Control.IsVisible(50) + Container.Content(movies) + !Window.IsActive(videofiles) + !Skin.HasSetting(no_media_flags) + !Skin.HasSetting(Files_Fanart)</visible>
 		<description>Media Codec Flagging Images</description>
-		<posx>864</posx>
+		<posx>830</posx>
 		<posy>680</posy>
-		<width>380</width>
+		<width>440</width>
 		<align>center</align>
 		<itemgap>0</itemgap>
 		<orientation>horizontal</orientation>
@@ -650,6 +650,7 @@
 			<posy>326</posy>
 			<width>559</width>
 			<height>370</height>
+			<colordiffuse>mainblue</colordiffuse>
 			<texture>list/file_glow1.png</texture>
 			<animation type="Visible">
 				<effect type="fade" start="0" end="100" delay="400" time="1200" />
@@ -667,8 +668,9 @@
 		<control type="image">
 			<posx>838</posx>
 			<posy>440</posy>
-			<width>430</width>
+			<width>434</width>
 			<height>252</height>
+			<colordiffuse>black</colordiffuse>
 			<texture>tv-landscape/landscapeframeFO.png</texture>
 		</control>
 		<control type="image">
@@ -676,6 +678,7 @@
 			<posy>454</posy>
 			<width>400</width>
 			<height>224</height>
+			<colordiffuse>black</colordiffuse>
 			<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(-1).Icon]</texture>
 			<animation type="Hidden">
 			<!-- <effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -688,6 +691,7 @@
 			<posy>454</posy>
 			<width>400</width>
 			<height>224</height>
+			<colordiffuse>black</colordiffuse>
 			<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(1).Icon]</texture>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" /> -->
@@ -748,7 +752,7 @@
 				<align>center</align>
 				<font>Font_Bartowski_Movies_Duration</font>
 				<textcolor>white</textcolor>
-				<label>[B]$INFO[ListItem.label][/B]</label>
+				<label>$INFO[ListItem.label]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(tvshows)</visible>
@@ -758,7 +762,7 @@
 				<height>89</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
-				<label>[B][COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [B][COLOR=white]$INFO[ListItem.Genre][/B][/COLOR]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(tvshows)</visible>
@@ -768,7 +772,7 @@
 				<height>89</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(tvshows)</visible>
@@ -778,7 +782,7 @@
 				<height>89</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
 			</control>
 	</control>
 		<control type="group">
@@ -795,7 +799,7 @@
 				<height>89</height>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>Text-Filemode</textcolor>
-				<label>[B]$LOCALIZE[20373] $INFO[ListItem.Season]     $LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
+				<label>$LOCALIZE[20373] $INFO[ListItem.Season]     $LOCALIZE[20359] $INFO[ListItem.Episode]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(episodes)</visible>
@@ -804,7 +808,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(episodes)</visible>
@@ -813,7 +817,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
 			</control>
 			<control type="textbox"><!-- Plot TV -->
 				<visible>Container.Content(episodes)</visible>
@@ -828,6 +832,22 @@
 				<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
 				<animation effect="slide" start="0,0" end=",-80" time="0" tween="cubic" easing="inout" condition="Container.Content(tvshows)">Conditional</animation>
 			</control>
+		</control>
+		<control type="grouplist">
+			<visible>Container.Content(episodes) + !Skin.HasSetting(no_media_flags) + !Control.IsVisible(51) + !Control.IsVisible(52) + !Control.IsVisible(59) + !Control.IsVisible(633)</visible>
+			<description>Media Codec Flagging Images</description>
+			<posx>445</posx>
+			<posy>680</posy>
+			<width>380</width>
+			<align>center</align>
+			<itemgap>0</itemgap>
+			<orientation>horizontal</orientation>
+			<include>VideoCodecFlaggingConditions</include>
+			<include>AudioCodecFlaggingConditions</include>
+			<include>AspectCodecFlaggingConditions</include>
+			<include>VideoTypeHackFlaggingConditions</include>
+			<include>Animation_HiddenByInfo</include>
+			<include>Animation_Viewtype_Wall_Fags</include>
 		</control>
 		<control type="scrollbar" id="60">
 			<include>Animation_ZoomInZoomOut</include>
