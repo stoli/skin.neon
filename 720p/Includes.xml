@@ -1138,10 +1138,7 @@
 		<focusedcolor>white</focusedcolor>
 		<colordiffuse>mainblue</colordiffuse>
 		<texturefocus>button-focus.png</texturefocus>
-		<alttexturenofocus>-</alttexturenofocus>
-		<alttexturefocus>button-focus.png</alttexturefocus>
-		<textureradiofocus>-</textureradiofocus>
-		<textureradionofocus>-</textureradionofocus>
+		
 	</include>
 	<include name="WindowMenuVars">
 		<width>1280</width>
@@ -1165,10 +1162,8 @@
 		<focusedcolor>white</focusedcolor>
 		<colordiffuse>mainblue</colordiffuse>
 		<texturefocus>button-focus.png</texturefocus>
-		<alttexturenofocus>-</alttexturenofocus>
 		<alttexturefocus>button-focus.png</alttexturefocus>
-		<textureradiofocus>-</textureradiofocus>
-		<textureradionofocus>-</textureradionofocus>
+		
 	</include>
 	<include name="WeatherMenuButton">
 		<posx>0</posx>

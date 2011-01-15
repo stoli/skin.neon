@@ -141,6 +141,7 @@
 		<visible>!SubString(Window(25).Property(TvTunesIsAlive),True)</visible>
 			<include>Music_Global_TopRight</include>
 			<include>Music_Global_Showcase</include>
+			
 			<include>Music_Global_LowerRight</include>
 			<include>Music_Global_LowerLeft</include>
 			<include>Music_Global_Lowerleft_Music</include>
@@ -197,6 +198,7 @@
 					<onclick>Skin.ToggleSetting(ShowcaseFanart)</onclick>
 					<selected>Skin.HasSetting(ShowcaseFanart)</selected>
 					<visible>Control.IsVisible(58)</visible>
+					<include>WindowMenuButton</include>
 				</control>
 				<control type="togglebutton" id="25">
 					<description>Toggle MoviesFanart</description>
