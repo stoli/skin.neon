@@ -346,7 +346,7 @@
 			<height>25</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(56) + Control.HasFocus(66)</visible>
 			<texturesliderbackground>osd/osd_progress_back1.png</texturesliderbackground>
-			<textureslidernibfocus>ScrollBarV_Nib_Focus1.png</textureslidernibfocus>
+			<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
 			<onup>56</onup>
 			<ondown>56</ondown>
 			<showonepage>true</showonepage>

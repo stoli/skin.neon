@@ -187,7 +187,7 @@
 				<width>25</width>
 				<height>540</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-				<textureslidernibfocus>ScrollBarV_Nib_Focus1.png</textureslidernibfocus>
+				<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
 				<onleft>31</onleft>
 				<onright>50</onright>
 				<showonepage>false</showonepage>
@@ -326,7 +326,7 @@
 				<width>25</width>
 				<height>550</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-				<textureslidernibfocus>ScrollBarV_Nib_Focus1.png</textureslidernibfocus>
+				<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
 				<onleft>100</onleft>
 				<onright>30</onright>
 				<showonepage>false</showonepage>
