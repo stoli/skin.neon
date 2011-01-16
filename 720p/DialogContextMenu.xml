@@ -26,7 +26,7 @@
 			<label>Menu</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>black</textcolor>
+			<textcolor>white</textcolor>
 		</control>
 		
 		<control type="image">
@@ -62,7 +62,7 @@
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
-			<texturefocus>button-focus.png</texturefocus>
+			<texturefocus border="5">button-focus.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		

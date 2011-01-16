@@ -76,6 +76,7 @@
 			<include>Animation_Viewtype_Showcase_FocusArea</include>
 			<visible>!Skin.HasSetting(no_Showcase) + [Container.Content(movies) | substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)]</visible>
 			<itemlayout width="168" height="245">
+				
 				<control type="image">
 					<posx>1</posx>
 					<posy>131</posy>
@@ -93,7 +94,24 @@
 					<height>260</height>
 					<texture>posterframeF.png</texture>
 					<colordiffuse>39FFFFFF</colordiffuse>
+					<visible>!Control.IsVisble(60) | !Control.IsVisible(61)</visible>
 				<!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
+				</control>
+				<control type="image">
+					<posx>-6</posx>
+					<posy>110</posy>
+					<width>180</width>
+					<height>275</height>
+					<texture>case-bluray.png</texture>
+					<visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
+				</control>
+				<control type="image">
+					<posx>-6</posx>
+					<posy>110</posy>
+					<width>180</width>
+					<height>275</height>
+					<texture>case-cd.png</texture>
+					<visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
 				</control>
 				<control type="image">
 					<posx>1</posx>
@@ -153,9 +171,32 @@
 						<posy>90</posy>
 						<width>201</width>
 						<height>300</height>
-						<texture background="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
+						<texture>$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
+						</animation>
+					</control>
+					
+					<control type="image" id="60">
+						<posx>-7</posx>
+						<posy>60</posy>
+						<width>225</width>
+						<height>350</height>
+						<texture>case-bluray.png</texture>
+						<visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
+						</animation>
+					</control>
+					<control type="image" id="61">
+						<posx>-7</posx>
+						<posy>60</posy>
+						<width>225</width>
+						<height>350</height>
+						<texture>case-cd.png</texture>
+						<visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
 						</animation>
@@ -183,6 +224,7 @@
 							<effect type="zoom" center="90,258" start="81" end="100" time="300" tween="back" easing="out" />
 							<effect type="fade" start="0" end="60" time="600" />
 						</animation>
+						<visible>!Control.IsVisble(60) | !Control.IsVisible(61)</visible>
 					</control>
 					<control type="image">
 						<posx>137</posx>

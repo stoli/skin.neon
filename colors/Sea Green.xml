@@ -6,10 +6,10 @@
 	<color name="grey3">33FFFFFF</color>
 	<color name="black">FF000000</color>
 	<color name="blue">FF0055be</color>
-	<color name="selected">FFFF8040</color>
+	<color name="selected">FFEB9E17</color>
 	<color name="dialogheader">DDced8da</color>
 <!--	<color name="mainblue">FF04B4AE</color> --> <!-- Original -->
-	<color name="mainblue">FFFF8040</color>
+	<color name="mainblue">FF238E68</color>
 	<color name="green1">FF01DF01</color>
 	<color name="clearblack">89000000</color>
 	
@@ -58,7 +58,6 @@
 	<color name="Text-Filemode">67a1a1a1</color>
 	<color name="TextDisabled">FF4F0A04</color>
 	<color name="TextSelected">FFb8b8b8</color>
-
 	<color name="MainBlack">FF000000</color>
 	<color name="ContextHighlight">ff13b6a5</color>
 

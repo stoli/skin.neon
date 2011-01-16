@@ -56,7 +56,7 @@
 	<color name="TextFocused">FF454545</color>
 	<color name="Text">FFa1a1a1</color>
 	<color name="Text-Filemode">67a1a1a1</color>
-	<color name="TextDisabled">FFff5858</color>
+	<color name="TextDisabled">FF4F0A04</color>
 	<color name="TextSelected">FFb8b8b8</color>
 	<color name="MainBlack">FF000000</color>
 	<color name="ContextHighlight">ff13b6a5</color>

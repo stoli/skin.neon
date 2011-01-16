@@ -13,7 +13,7 @@
 				<posy>-5</posy>
 				<width>400</width>
 				<height>85</height>
-				<texture border="20,20,20,2">InfoMessagePanel2.png</texture>
+				<texture border="20,20,20,2">InfoMessagePanel.png</texture>
 			</control>
 			<control type="image" id="400">
 				<description>avatar</description>
@@ -22,7 +22,7 @@
 				<width>50</width>
 				<height>50</height>
 				<aspectratio>keep</aspectratio>
-				<texture>dialogs/notification2.png</texture>
+				<texture>DefaultIconInfo.png</texture>
 			</control>
 			<control type="fadelabel" id="401">
 				<description>Line 1 Label</description>
