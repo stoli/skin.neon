@@ -61,6 +61,10 @@
 		<animation effect="fade" start="0" end="100" time="100">WindowOpen</animation>	
 		<animation effect="fade" start="100" end="0" time="100">WindowClose</animation>
 	</include>	
+	<include name="Animation_CommonFadeNoHideBack-Home">
+		<animation effect="fade" start="0" end="100" time="1000">WindowOpen</animation>	
+		<animation effect="fade" start="100" end="0" time="1">WindowClose</animation>
+	</include>
 
 	<!-- Window transition animations -->
 	<include name="cdartspin2">

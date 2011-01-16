@@ -279,6 +279,16 @@
 					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
 					<align>right</align>
 				</control>
+			<!-- Remove to add date screen
+				<control type="label">
+					<posy>30</posy>  
+					<width>300</width>
+					<font>Font_Neon_20</font>
+					<textcolor>white</textcolor>
+					<info>System.Date</info>
+					<align>right</align>
+				</control> 
+				Remove to add date to home screen		-->
 			</control>
 		<control type="group">
 			<posx>1260</posx>

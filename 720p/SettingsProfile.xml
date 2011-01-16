@@ -165,11 +165,10 @@
 			</control>
 			<control type="image">
 				<posx>268</posx>
-				<posy>10</posy>
-				<width>804</width>
-				<height>100</height>
+				<posy>50</posy>
+				<width>805</width>
 				<aspectratio>stretch</aspectratio>
-				<texture>GlassTitleBar.png</texture>
+				<texture>common/separator.png</texture>
 			</control>
 			<control type="label">
 				<description>header label</description>

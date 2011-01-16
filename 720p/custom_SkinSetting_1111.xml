@@ -152,11 +152,10 @@
 			</control> 
 			<control type="image">
 				<posx>268</posx>
-				<posy>10</posy>
-				<width>804</width>
-				<height>70</height>
+				<posy>50</posy>
+				<width>805</width>
 				<aspectratio>stretch</aspectratio>
-				<texture>GlassTitleBar.png</texture>
+				<texture>common/separator.png</texture>
 			</control>
 			<control type="group" id="9010">
 				<control type="grouplist" id="9001">
@@ -2250,18 +2249,18 @@
 						</control>
 					</control>
 					<control type="multiimage">
-						<posx>95</posx>
-						<posy>160</posy>
-						<width>560</width>
-						<height>335</height>
-						<imagepath background="true" diffuse="Showcase/showcase-diffuse.png">$INFO[Container(9003).ListItem.Icon]</imagepath>
+						<posx>100</posx>
+						<posy>170</posy>
+						<width>550</width>
+						<height>316</height>
+						<imagepath background="true">$INFO[Container(9003).ListItem.Icon]</imagepath>
 						<timeperimage>6000</timeperimage>
 						<randomize>true</randomize>
 						<fadetime>500</fadetime>
 					</control>
 					<control type="label">
 						<posx>95</posx>
-						<posy>505</posy>
+						<posy>500</posy>
 						<width>560</width>
 						<height>20</height>
 						<align>center</align>
@@ -2658,7 +2657,7 @@
 							<aligny>center</aligny>
 						</control>
 						<control type="button" id="514">
-							<posx>15</posx>
+							<posx>0</posx>
 							<width>740</width>
 							<height>40</height>
 							<font>font16caps</font>
@@ -2675,7 +2674,7 @@
 					</control>
 						<control type="textbox" id="515">
 							<posx>340</posx>
-							<posy>530</posy>
+							<posy>565</posy>
 							<width>690</width>
 							<height>240</height>
 							<align>justify</align>
