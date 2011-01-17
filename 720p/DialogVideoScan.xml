@@ -27,7 +27,7 @@
 			<posy>-16</posy>
 			<width>400</width>
 			<height>60</height>
-			<texture flipy="true" border="20,20,20,2">InfoMessagePanel2.png</texture>
+			<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
 		</control>
       <!--<control type="image">
         <posx>0</posx>

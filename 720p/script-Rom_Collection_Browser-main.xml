@@ -932,7 +932,7 @@
 				<posy>0</posy>
 				<width>720</width>
 				<height>160</height>
-				<texture flipy="true">InfoMessagePanel2.png</texture>
+				<texture flipy="true">InfoMessagePanel.png</texture>
 				<colordiffuse>white</colordiffuse>
 			</control>
 			<!-- Console filter -->

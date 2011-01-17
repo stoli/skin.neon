@@ -96,6 +96,7 @@
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
 						<textcolor>mainblue</textcolor>
+						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
@@ -112,6 +113,7 @@
 						<align>left</align>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
+						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Artist,$LOCALIZE[557]: ]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 						<visible>!Control.IsVisible(51)</visible>
@@ -127,6 +129,7 @@
 						<align>left</align>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
+						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Album,$LOCALIZE[558]: ]</label>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -140,6 +143,7 @@
 						<align>left</align>
 						<font>Font_Date</font>
 						<textcolor>ffffffff</textcolor>
+						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.year,$LOCALIZE[345]: ]</label>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -165,7 +169,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>[COLOR=mainblue]$LOCALIZE[209]...[/COLOR]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -177,7 +181,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -191,7 +195,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist,$LOCALIZE[557]: ]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -205,7 +209,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album,$LOCALIZE[558]: ]</label>
 					</control>
 				</control>
@@ -249,7 +253,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -266,7 +270,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
@@ -375,7 +379,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						 <!-- <label>[COLOR=mainblue]$LOCALIZE[13350][/COLOR] </label> -->
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					
@@ -388,7 +392,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						
@@ -404,7 +408,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Artist,$LOCALIZE[557]: ]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 						
@@ -419,7 +423,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Album,$LOCALIZE[558]: ]</label>
 						
 					</control>
@@ -432,7 +436,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.year,$LOCALIZE[345]: ]</label>
 						
 					</control>
@@ -458,7 +462,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>[COLOR=mainblue]$LOCALIZE[209]...[/COLOR]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -470,7 +474,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -484,7 +488,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist,$LOCALIZE[557]: ]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -498,7 +502,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album,$LOCALIZE[558]: ]</label>
 					</control>
 				</control>
@@ -540,7 +544,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -557,7 +561,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
@@ -669,7 +673,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>mainblue</textcolor>
+						<textcolor>mainblue</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$LOCALIZE[13350]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -681,7 +685,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -696,7 +700,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Artist] :$LOCALIZE[557]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -710,7 +714,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Album] :$LOCALIZE[558]</label>
 					</control>
 					<control type="label">
@@ -722,7 +726,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.year] :$LOCALIZE[345]</label>
 					</control>
 			</control>
@@ -747,7 +751,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>mainblue</textcolor>
+						<textcolor>mainblue</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$LOCALIZE[209]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -759,7 +763,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -773,7 +777,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist]:$LOCALIZE[557]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -787,7 +791,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album]:$LOCALIZE[558]</label>
 					</control>
 				</control>
@@ -822,7 +826,7 @@
 					<aligny>center</aligny>
 					<align>center</align>
 					<font>Font_Bartowski_Zune</font>
-					<textcolor>grey2</textcolor>
+					<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 					<label>$INFO[MusicPlayer.Artist]</label>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
 						<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -839,7 +843,7 @@
 					<aligny>center</aligny>
 					<align>center</align>
 					<font>Font_Bartowski_Zune</font>
-					<textcolor>grey2</textcolor>
+					<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 					<label>$INFO[MusicPlayer.Album]</label>
 					<animation type="Conditional" reversible="false" condition="true" loop="true">
 						<effect type="fade" start="0" end="100" time="1000" delay="7500" />
@@ -949,7 +953,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>mainblue</textcolor>
+						<textcolor>mainblue</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$LOCALIZE[13350]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -961,7 +965,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -976,7 +980,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Artist] :$LOCALIZE[557]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -990,7 +994,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Album] :$LOCALIZE[558]</label>
 					</control>
 					<control type="label">
@@ -1002,7 +1006,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.year] :$LOCALIZE[345]</label>
 					</control>
 			</control>
@@ -1028,7 +1032,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>mainblue</textcolor>
+						<textcolor>mainblue</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$LOCALIZE[209]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1040,7 +1044,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1054,7 +1058,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist]:$LOCALIZE[557]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -1068,7 +1072,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album]:$LOCALIZE[558]</label>
 					</control>
 				</control>
@@ -1103,7 +1107,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -1120,7 +1124,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
@@ -1229,7 +1233,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -1241,7 +1245,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
@@ -1257,7 +1261,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Artist,$LOCALIZE[557]: ]</label>
 						
 						<visible>!Control.IsVisible(51)</visible>
@@ -1272,7 +1276,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Album,$LOCALIZE[558]: ]</label>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -1285,7 +1289,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.year,$LOCALIZE[345]: ]</label>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -1311,7 +1315,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>[COLOR=mainblue]$LOCALIZE[209]...[/COLOR]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1323,7 +1327,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1337,7 +1341,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist,$LOCALIZE[557]: ]</label>
 					
 					</control>
@@ -1351,7 +1355,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album,$LOCALIZE[558]: ]</label>
 					</control>
 				</control>
@@ -1386,7 +1390,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -1403,7 +1407,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
@@ -1506,7 +1510,7 @@
 						<width min="10" max="400">auto</width>
 						<align>left</align>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>mainblue</textcolor>
+						<textcolor>mainblue</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 						<visible>!Control.IsVisible(51)</visible>
@@ -1522,7 +1526,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Artist,$LOCALIZE[557]: ]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 						<visible>!Control.IsVisible(51)</visible>
@@ -1537,7 +1541,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Album,$LOCALIZE[558]: ]</label>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -1550,7 +1554,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.year,$LOCALIZE[345]: ]</label>
 						<visible>!Control.IsVisible(51)</visible>
 					</control>
@@ -1576,7 +1580,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>[COLOR=mainblue]$LOCALIZE[209]...[/COLOR]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1588,7 +1592,7 @@
 						<align>left</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1602,7 +1606,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist,$LOCALIZE[557]: ]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -1616,7 +1620,7 @@
 						<aligny>center</aligny>
 						<align>left</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album,$LOCALIZE[558]: ]</label>
 					</control>
 				</control>
@@ -1651,7 +1655,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -1668,7 +1672,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
@@ -1770,7 +1774,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>mainblue</textcolor>
+						<textcolor>mainblue</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$LOCALIZE[13350]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1782,7 +1786,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1797,7 +1801,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Artist] :$LOCALIZE[557]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -1811,7 +1815,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.Album] :$LOCALIZE[558]</label>
 					</control>
 					<control type="label">
@@ -1823,7 +1827,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.year] :$LOCALIZE[345]</label>
 					</control>
 			</control>
@@ -1848,7 +1852,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Date</font>
-						<textcolor>mainblue</textcolor>
+						<textcolor>mainblue</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$LOCALIZE[209]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1860,7 +1864,7 @@
 						<align>right</align>
 						<height>18</height>
 						<font>Font_Bartowski_Showcase_Title</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Title]</label>
 						<animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
 					</control>
@@ -1874,7 +1878,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Artist]:$LOCALIZE[557]</label>
 						<!--<animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>-->
 					</control>
@@ -1888,7 +1892,7 @@
 						<aligny>center</aligny>
 						<align>right</align>
 						<font>Font_Date</font>
-						<textcolor>ffffffff</textcolor>
+						<textcolor>ffffffff</textcolor>						<shadowcolor>black</shadowcolor>
 						<label>$INFO[MusicPlayer.offset(1).Album]:$LOCALIZE[558]</label>
 					</control>
 				</control>
@@ -1923,7 +1927,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="0" />
@@ -1940,7 +1944,7 @@
 				<aligny>center</aligny>
 				<align>center</align>
 				<font>Font_Bartowski_Zune</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>grey2</textcolor>						<shadowcolor>black</shadowcolor>
 				<label>$INFO[MusicPlayer.Album]</label>
 				<animation type="Conditional" reversible="false" condition="true" loop="true">
 					<effect type="fade" start="0" end="100" time="1000" delay="7500" />
