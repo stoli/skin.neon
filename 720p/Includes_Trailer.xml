@@ -38,14 +38,7 @@
 			<!--Landscape TVshows-->
 			<posx>1300</posx>
 			<posy>740</posy>
-			<control type="image"> 
-				<description>trailer image</description>
-				<posx>-70</posx>
-				<posy>-70</posy>   
-				<width>693</width>     
-				<height>445</height> 
-				<texture>dialogs/trailer_diffuse_back.png</texture>
-			</control>
+			
 			<control type="videowindow" id="4">
 				<posx>30</posx>
 				<posy>26</posy>
@@ -220,19 +213,21 @@
 			<animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
 			<posx>-10</posx>
 			<posy>900</posy>
-			<control type="image"> 
-				<description>trailer image</description>
-				<posx>-70</posx>
-				<posy>-70</posy>   
-				<width>693</width>     
-				<height>445</height> 
-				<texture>dialogs/trailer_diffuse_back.png</texture>
-			</control>
+			
 			<control type="videowindow" id="9">
 				<posx>30</posx>
 				<posy>26</posy>
 				<width>500</width>
 				<height>256</height>
+			</control>
+			<control type="image"> 
+				<description>trailer image</description>
+				<posx>20</posx>
+				<posy>15</posy>   
+				<width>590</width>     
+				<height>351</height> 
+				<colordiffuse>black</colordiffuse>
+				<texture>episodeframe.png</texture>
 			</control>
 		</control>
 		<include name="Trailer_Home">
@@ -242,19 +237,21 @@
 			<animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
 			<posx>500</posx>
 			<posy>500</posy>
-			<control type="image"> 
-				<description>trailer image</description>
-				<posx>-70</posx>
-				<posy>-70</posy>   
-				<width>693</width>     
-				<height>445</height> 
-				<texture>dialogs/trailer_diffuse_back.png</texture>
-			</control>
+			
 			<control type="videowindow" id="8">
 				<posx>30</posx>
 				<posy>26</posy>
 				<width>500</width>
 				<height>256</height>
+			</control>
+			<control type="image"> 
+				<description>trailer image</description>
+				<posx>20</posx>
+				<posy>15</posy>   
+				<width>590</width>     
+				<height>351</height> 
+				<colordiffuse>black</colordiffuse>
+				<texture>episodeframe.png</texture>
 			</control>
 		</control>
 	</include>
