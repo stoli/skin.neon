@@ -1,6 +1,7 @@
 <window id="106">
 	<defaultcontrol>1000</defaultcontrol>
-	<include>Animation_Bartowski_Context_Zoom</include>
+	<include>Animation_SettingsFade</include>
+	
 	<coordinates>
 		<system>1</system>
 		<posx>0</posx>
@@ -8,26 +9,16 @@
 		<origin x="460" y="160" />
 	</coordinates>
 	<controls>
+	
 		<control type="image" id="997">
 			<description>background top image</description>
 			<posx>0</posx>
-			<posy>-74</posy>
+			<posy>-54</posy>
 			<width>370</width>
-			<height>74</height>
+			<height>54</height>
 			<texture border="45,45,45,0">DialogContextTop.png</texture>
 		</control>
-		<control type="label">
-			<description>header label</description>
-			<posx>34</posx>
-			<posy>-40</posy>
-			<width>297</width>
-			<height>30</height>
-			<font>Font_Bartowski_MainMenu_Context</font>
-			<label>Menu</label>
-			<align>center</align>
-			<aligny>center</aligny>
-			<textcolor>white</textcolor>
-		</control>
+		
 		
 		<control type="image">
 			<posx>34</posx>

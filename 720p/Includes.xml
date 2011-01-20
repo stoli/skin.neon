@@ -502,7 +502,7 @@
 			<posx>1260</posx>
 			<posy>10</posy>
 			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia</visible>
+			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + !Container.Content(files)</visible>
 				<control type="image"> 
 					<posx>-380</posx>
 					<posy>-10</posy>   
