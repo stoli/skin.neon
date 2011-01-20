@@ -71,7 +71,7 @@
 					<label>"$INFO[ListItem.TagLine]"</label>
 					<visible>!IsEmpty(ListItem.TagLine) + !Control.HasFocus(12)</visible>
 				</control>
-				
+				<include>VideoInfo_Next_Aired</include>
 				<control type="image">
 					<posx>20</posx>
 					<posy>90</posy>

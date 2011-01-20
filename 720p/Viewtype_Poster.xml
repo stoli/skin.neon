@@ -186,6 +186,7 @@
 				<animation effect="zoom" start="100" end="120" time="600" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
 				<animation effect="slide" start="0,0" end="-280,-80" time="600" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
 					<control type="image">
+					<!-- zoom effect -->
 						<posx>44</posx>
 						<posy>93</posy>
 						<width>36</width>
@@ -199,11 +200,26 @@
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="100" end="0" time="600" delay="2050" />
-							
 						</animation>
+						<visible>Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
-	
 					<control type="image">
+					<!-- no zoom effect -->
+						<posx>44</posx>
+						<posy>93</posy>
+						<width>36</width>
+						<height>294</height>
+						<texture>movie-poster/newcase.png</texture>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="fade" start="0" end="100" time="600" />
+														
+						</animation>
+						<visible>!Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+					<!-- zoom effect -->
 						<posx>-148</posx>
 						<posy>90</posy>
 						<width>211</width>
@@ -217,6 +233,36 @@
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
+						<visible>Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+					<!-- zoom effect -->
+						<posx>-148</posx>
+						<posy>90</posy>
+						<width>211</width>
+						<height>300</height>
+						<texture>movie-poster/posterview_diffuse.png</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+
+						</animation>
+						<visible>!Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+						<posx>-148</posx>
+						<posy>390</posy>
+						<width>211</width>
+						<height>300</height>
+						<texture flipy="true">movie-poster/posterview_diffuse.png</texture>
+						<colordiffuse>ff000000</colordiffuse>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							
+						</animation>
+						<visible>!Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 					<control type="image">
 						<posx>-148</posx>
@@ -232,6 +278,7 @@
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
+						<visible>Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 					<control type="image">
 						<posx>-148</posx>
@@ -247,7 +294,21 @@
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 						</animation>
-						<visible>!Container.Content(Genres)</visible>
+						<visible>!Container.Content(Genres) + Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+						<posx>-148</posx>
+						<posy>90</posy>
+						<width>211</width>
+						<height>300</height>
+						<texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+
+						</animation>
+						<visible>!Container.Content(Genres) + !Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 					<control type="image">
 						<posx>-148</posx>
@@ -290,7 +351,22 @@
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="0" end="30" time="600" />
 						</animation>
-						<visible>!Container.Content(Genres)</visible>
+						<visible>!Container.Content(Genres) + Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+						<posx>-148</posx>
+						<posy>386</posy>
+						<width>211</width>
+						<height>300</height>
+						<texture flipy="true">movie-poster/posterview_diffuse_border.png</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+
+							<effect type="fade" start="0" end="30" time="600" />
+						</animation>
+						<visible>!Container.Content(Genres) + !Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 					<control type="image">
 						<posx>-148</posx>
@@ -308,7 +384,23 @@
 							<effect type="fade" start="0" end="70" time="600" />
 							
 						</animation>
-						<visible>!Container.Content(Genres)</visible>
+						<visible>!Container.Content(Genres) + Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+						<posx>-148</posx>
+						<posy>386</posy>
+						<width>211</width>
+						<height>300</height>
+						<texture background="true" flipy="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+
+							<effect type="fade" start="0" end="70" time="600" />
+							
+						</animation>
+						<visible>!Container.Content(Genres) + !Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 					<control type="image">
 						<posx>-148</posx>
@@ -400,7 +492,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[ListItem.Label][/B]</label>
+				<label>$INFO[ListItem.Label]</label>
 				<visible>Container.Content(movies) + !Skin.HasSetting(clean_poster)</visible>
 			</control>
 			<control type="image" id="7015">
@@ -433,7 +525,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[ListItem.TVShowTitle][/B]</label>
+				<label>$INFO[ListItem.TVShowTitle]</label>
 				<visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7015)) + IsEmpty(Control.GetLabel(9015))</visible>
 			</control>
 			<control type="label">
@@ -480,6 +572,7 @@
 				<posx>20</posx>
 				<posy>90</posy>		
 				<include>Poster_Next_Aired</include>
+				<visible>!Skin.HasSetting(Poster_Fanart)</visible>
 			</control>
 		</control>
 		
@@ -497,7 +590,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=mainblue]$LOCALIZE[20339][/COLOR][/B] - $INFO[ListItem.Director]</label>
+				<label>[COLOR=mainblue]$LOCALIZE[20339][/COLOR] - $INFO[ListItem.Director]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -506,7 +599,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=mainblue]$LOCALIZE[515][/COLOR][/B] - $INFO[ListItem.Writer]</label>
+				<label>[COLOR=mainblue]$LOCALIZE[515][/COLOR] - $INFO[ListItem.Writer]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -515,7 +608,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=mainblue]$LOCALIZE[515][/COLOR][/B] - $INFO[ListItem.Genre]</label>
+				<label>[COLOR=mainblue]$LOCALIZE[515][/COLOR] - $INFO[ListItem.Genre]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -524,7 +617,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=mainblue]$LOCALIZE[572][/COLOR][/B] - $INFO[ListItem.Studio]</label>
+				<label>[COLOR=mainblue]$LOCALIZE[572][/COLOR] - $INFO[ListItem.Studio]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 			<control type="label">
@@ -533,7 +626,7 @@
 				<aligny>center</aligny>
 				<font>Font_Bartowski_Showcase_Right_Under</font>
 				<textcolor>ffffffff</textcolor>
-				<label>[B][COLOR=mainblue]$LOCALIZE[563][/COLOR][/B] - $INFO[ListItem.Rating]</label>
+				<label>[COLOR=mainblue]$LOCALIZE[563][/COLOR] - $INFO[ListItem.Rating]</label>
 				<animation effect="fade"  start="0" end="100" time="400" delay="3000" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">WindowOpen</animation>
 			</control>
 	</control>
@@ -553,7 +646,7 @@
 				<font>Font_Bartowski_Movies_Duration</font>
 				<textcolor>white</textcolor>
 				<align>center</align>
-				<label>[B]$INFO[ListItem.Label][/B]</label>
+				<label>$INFO[ListItem.Label]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(tvshows)</visible>
@@ -562,7 +655,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[B][COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [B][COLOR=white]$INFO[ListItem.Genre][/B][/COLOR]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>![Container.Content(seasons) | Container.Content(episodes)]</visible>
@@ -571,7 +664,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>![Container.Content(seasons) | Container.Content(episodes)]</visible>
@@ -580,7 +673,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
 			</control>
 		</control>
 		<control type="group">
@@ -593,7 +686,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[B][COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [B][COLOR=white]$INFO[ListItem.Genre][/B][/COLOR]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
 				<include>Animation_HiddenByInfo</include>
 			</control>
 			<control type="label">
@@ -602,7 +695,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[172][/COLOR] [COLOR=white]$INFO[ListItem.Property(releasedate)][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[172][/COLOR] [COLOR=white]$INFO[ListItem.Property(releasedate)][/COLOR]</label>
 				<include>Animation_HiddenByInfo</include>
 			</control>
 			<control type="label">
@@ -611,7 +704,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
 				<include>Animation_HiddenByInfo</include>
 			</control>
 		</control>
