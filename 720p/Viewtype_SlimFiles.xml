@@ -117,7 +117,7 @@
 					<posy>11</posy>
 					<width>22</width>
 					<height>25</height>
-					<texture>dialogs/files/$INFO[ListItem.Overlay]</texture>
+					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<animation effect="fade" start="60" end="60" time="0" condition="true">Conditional</animation>
 					<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
@@ -127,7 +127,7 @@
 					<posy>11</posy>
 					<width>22</width>
 					<height>25</height>
-					<texture>dialogs/files/$INFO[ListItem.Overlay]</texture>
+					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<visible>Skin.HasSetting(movieoverlays) + Container.Content(movies) + !IsEmpty(ListItem.Overlay)</visible>
 				</control>
@@ -212,7 +212,7 @@
 					<posy>11</posy>
 					<width>22</width>
 					<height>25</height>
-					<texture>dialogs/files/$INFO[ListItem.Overlay]</texture>
+					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 				</control>
@@ -221,7 +221,7 @@
 					<posy>11</posy>
 					<width>22</width>
 					<height>25</height>
-					<texture>dialogs/files/$INFO[ListItem.Overlay]</texture>
+					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<visible>Skin.HasSetting(movieoverlays) + Container.Content(movies) + !IsEmpty(ListItem.Overlay)</visible>
 				</control>
