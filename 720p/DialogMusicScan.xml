@@ -1,6 +1,6 @@
 <window id="112">
   <defaultcontrol always ="true">1111</defaultcontrol>
-  <include>Animation_Bartowski_Context_Zoom</include>
+  <include>Animation_SettingsFade</include>
   <coordinates>
     <system>1</system>
     <posx>30</posx>
@@ -20,7 +20,7 @@
     </control>
 
     <control type="group">
-	  <posx>850</posx>
+	  <posx>400</posx>
       <visible>!Window.IsActive(2006) + !VideoPlayer.IsFullscreen</visible>
 	  <control type="image">
 			<posx>0</posx>
@@ -29,19 +29,13 @@
 			<height>60</height>
 			<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
 		</control>
-      <!--<control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
-        <width>500</width>
-        <height>90</height>
-        <texture>notification_background.png</texture>
-      </control>-->
+ 
       <control type="label" id="401">
         <description>Caption Label</description>
         <posx>15</posx>
         <posy>-8</posy>
         <font>font16</font>
-        <textcolor>black</textcolor>
+        <textcolor>white</textcolor>
         <width>380</width>
         <height>20</height>
         <aligny>center</aligny>
@@ -52,7 +46,7 @@
         <posx>15</posx>
         <posy>6</posy>
         <font>Bartowski_settings_small</font>
-        <textcolor>black</textcolor>
+        <textcolor>white</textcolor>
         <haspath>yes</haspath>
         <width>380</width>
         <height>20</height>
@@ -65,6 +59,7 @@
         <posy>28</posy>
         <width>370</width>
         <height>10</height>
+		<colordiffuse>mainblue</colordiffuse>
         <texturebg>osd_video_indicator_background1.png</texturebg>
         <lefttexture>current_time_indicator_buffering_left.png</lefttexture>
         <midtexture>current_time_indicator_buffering.png</midtexture>

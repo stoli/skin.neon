@@ -29,13 +29,7 @@
 			<height>60</height>
 			<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
 		</control>
-      <!--<control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
-        <width>500</width>
-        <height>90</height>
-        <texture>notification_background.png</texture>
-      </control>-->
+ 
       <control type="label" id="401">
         <description>Caption Label</description>
         <posx>15</posx>

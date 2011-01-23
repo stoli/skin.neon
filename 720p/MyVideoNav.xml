@@ -116,7 +116,7 @@
 		<include>Viewtype_List</include><!--  53  -->
 		<include>Viewtype_Episode</include><!--  51  -->
 		<include>Viewtype_Wall</include><!--  54  -->
-		<include>Viewtype_Fanart</include><!--  56  -->
+		<include>Viewtype_Fanart</include><!--  56  TV=Panel -->
 		<include>Viewtype_PanelLandscape</include><!--  57  -->
 		<include>Viewtype_BannerPanel</include><!--  592  -->
 		<include>Viewtype_WallPanel</include><!--  597  -->
@@ -153,7 +153,7 @@
 		<include>Global_Time_TopRight</include>
 		<include>Global_Time_LowerLeft</include>
 		<include>Global_Time_LowerRight</include>
-		
+		<include>Global_Time_TopLeft</include>
 		
 <!--		<include>7000_has_focus</include> -->
 		
