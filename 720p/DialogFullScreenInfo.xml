@@ -47,7 +47,7 @@
 				<texturebg>osd/osd_progress_back1.png</texturebg>
 				<lefttexture>osd/left.png</lefttexture>
 				<midtexture>osd/mid.png</midtexture>
-				<righttexture>osd/new_pause2.png</righttexture>
+				<righttexture>osd/slidernibfo1.png</righttexture>
 				<info>Player.Progress</info>
 				<posx>140</posx>
 				<posy>135</posy>

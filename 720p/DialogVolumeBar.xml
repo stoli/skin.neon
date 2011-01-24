@@ -9,13 +9,20 @@
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
 	<controls>
-	
+		
 		<control type="group">
 			
 			<posx>620</posx>
 			<posy>-8</posy>
 			<width>707</width>
 			<height>-</height>
+			<control type="image">
+					<posx>-140</posx>
+					<posy>0</posy>
+					<width>300</width>
+					<height>48</height>
+					<texture flipy="true">InfoMessagePanel.png</texture>
+				</control>
 			<control type="group">
 				<control type="image">
 				<animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> -->
@@ -26,6 +33,7 @@
 					
 				<!--	<texture>volume_background.png</texture> -->
 				</control>
+				
 				<control type="image">
 					<posx>-130</posx>
 					<posy>8</posy>
@@ -149,14 +157,22 @@
 			
 				
 			</control>
+			<visible>!player.passthrough</visible>
 		</control>
 		<control type="group">
+				
 				<visible>player.passthrough</visible>
+				<control type="image">
+					<posx>500</posx>
+					<posy>-20</posy>
+					<width></width>
+					<height>48</height>
+					<texture flipy="true">InfoMessagePanel.png</texture>
+				</control>
 				<control type="label">
-					<posx>460</posx>
-					<posy>0</posy>
-					<width>810</width>
-					<height>38</height>
+					<posx>522</posx>
+					<posy>10</posy>
+					
 					<font>Font_Bartowski_Digital_Clock</font>
 					<textcolor>mainblue</textcolor>
 					<align>left</align>
