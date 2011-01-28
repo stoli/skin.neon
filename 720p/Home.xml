@@ -186,33 +186,7 @@
 			<animation effect="fade" start="0" end="100" time="400" delay="1400" tween="cubic" easing="inout" condition="Container(300).HasFocus(5) | Container(301).HasFocus(5)">Conditional</animation>
 			<visible>Skin.HasSetting(homepageHideRecentlyAdded) + [Container(300).HasFocus(5) | Container(301).HasFocus(5)]</visible>
 		</control>
-		<!-- JVB Removed 
-		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<include>Dimensions_Fullscreen</include>
-			<texture>mainmenu/episode_fade.png</texture>
-			<include>Animation_CommonFadeNoHide</include>
-			<animation effect="fade" start="0" end="100" time="400" delay="1000" tween="cubic" easing="inout" condition="Container(300).HasFocus(5) | Container(301).HasFocus(5)">Conditional</animation>
-			<visible>Skin.HasSetting(homepageHideRecentlyAdded) + [Container(300).HasFocus(5) | Container(301).HasFocus(5)]</visible>
-		</control> -->
-		<!-- JVB Removed <control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<include>Dimensions_Fullscreen</include>
-			<texture>mainmenu/recently_back.png</texture>
-			<include>Animation_CommonFadeNoHide</include>
-			<animation effect="fade" start="0" end="100" time="400" tween="cubic" easing="inout" condition="Container(300).HasFocus(8) | Container(300).HasFocus(14)">Conditional</animation>
-			<visible>Skin.HasSetting(HomepageWeatherWidget) + [Container(300).HasFocus(8) | Container(300).HasFocus(14)]</visible>
-		</control> -->
-	<!--	<control type="image">
-			<posx>0</posx>
-			<posy>423</posy>
-			<height>150</height>
-			<width>1280</width>
-			<texture>mainmenu/nowplaying_shadow.png</texture>
-			<visible>Window.IsActive(Home) + Player.HasAudio + Skin.HasSetting(horizontal_bottom_align)</visible>
-		</control>  -->
+
 		
 		<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include>
 		<include condition="Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeBottom</include>
