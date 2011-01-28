@@ -27,15 +27,21 @@
 			<control type="fadelabel" id="401">
 				<description>Line 1 Label</description>
 				<posx>75</posx>
-				<posy>15</posy>
+				<posy>5</posy>
 				<width>310</width>
 				<height>18</height>
 				<font>font13caps_title</font>
-				<textcolor>white</textcolor>
+				<textcolor>mainblue</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
 				<scrollout>false</scrollout>
 				<pauseatend>2000</pauseatend>
+			</control>
+			<control type="image">
+				<posx>75</posx>
+				<posy>25</posy>
+				<width>400</width>
+				<texture>common/list_divider.png</texture>
 			</control>
 			<control type="fadelabel" id="402">
 				<description>Line 2 Label</description>
