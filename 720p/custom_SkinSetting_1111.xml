@@ -2265,7 +2265,7 @@
 						<height>20</height>
 						<align>center</align>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<haspath>yes</haspath>
 						<label fallback="571">$INFO[Container(9003).ListItem.Thumb]</label>
 						<textcolor>white</textcolor>

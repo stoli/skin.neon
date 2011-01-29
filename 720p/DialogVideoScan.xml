@@ -45,7 +45,7 @@
         <description>Current Directory Label</description>
         <posx>15</posx>
         <posy>6</posy>
-        <font>Bartowski_settings_small</font>
+        <font>Font_Neon_16</font>
         <textcolor>white</textcolor>
         <haspath>yes</haspath>
         <width>380</width>

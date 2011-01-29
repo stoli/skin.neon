@@ -34,8 +34,8 @@
         <description>Caption Label</description>
         <posx>15</posx>
         <posy>-8</posy>
-        <font>font16</font>
-        <textcolor>white</textcolor>
+        <font>Font_Neon_16</font>
+        <textcolor>mainblue</textcolor>
         <width>380</width>
         <height>20</height>
         <aligny>center</aligny>
@@ -44,8 +44,8 @@
       <control type="label" id="402">
         <description>Current Directory Label</description>
         <posx>15</posx>
-        <posy>6</posy>
-        <font>Bartowski_settings_small</font>
+        <posy>8</posy>
+        <font>Font_Neon_15</font>
         <textcolor>white</textcolor>
         <haspath>yes</haspath>
         <width>380</width>

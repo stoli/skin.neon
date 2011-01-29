@@ -38,6 +38,7 @@
 	<include file="Viewtype_Slide.xml" />
 	<include file="Viewtype_CoverFlow.xml" />
 	<include file="Viewtype_SlimFiles.xml" />
+
 <!--	<include file="Viewtype_Newest_Episodes.xml" /> -->
 	
 	<include name="VisibleFadeEffect">
@@ -330,7 +331,7 @@
 			<posy>10</posy>
 			<include>Animation_BackdropFade</include>
 			<animation effect="slide" start="0,0" end="0,-10" time="0" condition="!Control.IsVisible(52) + Container.Content(tvshows) + !Skin.HasSetting(no_new_recent_info)">Conditional</animation>
-			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + ![[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(57) | Control.IsVisible(592) | Control.IsVisible(56) | Control.IsVisible(51) | Control.IsVisible(54) | Control.IsVisible(50)] + !Control.IsVisible(598)</visible>
+			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + ![[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(57) | Control.IsVisible(592) | Control.IsVisible(56) | Control.IsVisible(51) | Control.IsVisible(54) | Control.IsVisible(50) | Control.IsVisible(53)] + !Control.IsVisible(598)</visible>
 				<control type="image"> 
 					<posx>-380</posx>
 					<posy>-10</posy>   
@@ -423,7 +424,7 @@
 			<posy>0</posy>
 			<include>Animation_BackdropFade</include>
 			<animation effect="slide" start="0,0" end="0,-10" time="0" condition="!Control.IsVisible(52) + Container.Content(tvshows) + !Skin.HasSetting(no_new_recent_info)">Conditional</animation>
-			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + Control.IsVisible(598)</visible>
+			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + Control.IsVisible(598) | Control.IsVisible(53)</visible>
 				<control type="image"> 
 					<posx>-10</posx>
 					<posy>0</posy>   

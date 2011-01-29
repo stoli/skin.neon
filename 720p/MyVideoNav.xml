@@ -216,7 +216,16 @@
 					<altlabel>$LOCALIZE[31086]</altlabel>
 					<onclick>Skin.ToggleSetting(3dLandscape_Fanart)</onclick>
 					<selected>Skin.HasSetting(3dLandscape_Fanart)</selected>
-					<visible>Control.IsVisible(53)</visible>
+					<visible>Control.IsVisible(53) + Container.Content(Movies) </visible>
+				</control>
+				<control type="togglebutton" id="36">
+					<description>Toggle Fanart</description>
+					<include>WindowMenuButton</include>
+					<label>$LOCALIZE[31086]</label>
+					<altlabel>$LOCALIZE[31721]</altlabel>
+					<onclick>Skin.ToggleSetting(FileFanartView)</onclick>
+					<selected>!Skin.HasSetting(FileFanartView)</selected>
+					<visible>[Control.IsVisible(53) + Container.Content(TVShows)]</visible>
 				</control>
 				<control type="togglebutton" id="27">
 					<description>Toggle MoviesFanart</description>

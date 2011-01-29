@@ -99,7 +99,7 @@
 					<posy>300</posy>
 					<width>320</width>
 					<height>220</height>
-					<font>Bartowski_settings_small</font>
+					<font>Font_Neon_16</font>
 					<align>center</align>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
@@ -124,7 +124,7 @@
 					<posy>300</posy>
 					<width>350</width>
 					<height>220</height>
-					<font>Bartowski_settings_small</font>
+					<font>Font_Neon_16</font>
 					<align>center</align>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>

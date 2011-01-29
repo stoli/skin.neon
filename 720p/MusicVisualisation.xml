@@ -346,7 +346,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(1).TrackNumber]$INFO[MusicPlayer.offset(1).Title,. ]</label>
 					</control>
@@ -380,7 +380,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(2).TrackNumber]$INFO[MusicPlayer.offset(2).Title,. ]</label>
 					</control>
@@ -414,7 +414,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(3).TrackNumber]$INFO[MusicPlayer.offset(3).Title,. ]</label>
 					</control>
@@ -448,7 +448,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(4).TrackNumber]$INFO[MusicPlayer.offset(4).Title,. ]</label>
 					</control>
@@ -485,7 +485,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(5).TrackNumber]$INFO[MusicPlayer.offset(5).Title,. ]</label>
 						</control>
@@ -519,7 +519,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(6).TrackNumber]$INFO[MusicPlayer.offset(6).Title,. ]</label>
 						</control>
@@ -553,7 +553,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(7).TrackNumber]$INFO[MusicPlayer.offset(7).Title,. ]</label>
 						</control>
@@ -587,7 +587,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(8).TrackNumber]$INFO[MusicPlayer.offset(8).Title,. ]</label>
 						</control>

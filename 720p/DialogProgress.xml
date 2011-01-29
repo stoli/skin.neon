@@ -68,7 +68,7 @@
 				<aligny>center</aligny>
 				<label>-</label>
 				<haspath>true</haspath>
-				<font>Bartowski_settings_small</font>
+				<font>Font_Neon_16</font>
 				<textcolor>white</textcolor>
 			</control>
 			<control type="label" id="3">
@@ -81,7 +81,7 @@
 				<aligny>center</aligny>
 				<label>-</label>
 				<haspath>true</haspath>
-				<font>Bartowski_settings_small</font>
+				<font>Font_Neon_16</font>
 				<textcolor>white</textcolor>
 			</control>
 			<control type="label" id="4">
@@ -94,7 +94,7 @@
 				<aligny>center</aligny>
 				<label>-</label>
 				<haspath>true</haspath>
-				<font>Bartowski_settings_small</font>
+				<font>Font_Neon_16</font>
 				<textcolor>white</textcolor>
 			</control>
 			<control type="progress">
