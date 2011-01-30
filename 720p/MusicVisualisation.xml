@@ -96,7 +96,7 @@
 		</control>
 		
 		<control type="group">
-		<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>	
+		<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
 				<posx>-330</posx>
 				<animation effect="slide" start="-280" end="350" time="700" tween="cubic" easing="out" delay="400">WindowOpen</animation>
 				<animation effect="slide" start="350" end="-280" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
@@ -124,7 +124,7 @@
 		
 	
 			<control type="group">
-				<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>
+				<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>
 				<control type="label">
 					<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
 					<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="200">WindowClose</animation>
@@ -178,7 +178,7 @@
 			
  
 			<control type="group">
-			<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>	
+			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
 			<posx>750</posx>
 			<posy>-25</posy>
 			<animation effect="slide" start="1300" end="350" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
@@ -196,7 +196,7 @@
 				
 			</control>
 			<control type="group">
-			<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>	
+			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
 			<posx>750</posx>
 			<posy>-175</posy>
 			<animation effect="slide" start="1300" end="350" time="700" tween="cubic" easing="out" delay="1800">WindowOpen</animation>

@@ -21,12 +21,12 @@
 				<onright>60</onright>
 				<onup>53</onup>
 				<ondown>53</ondown>
-				<viewtype label="List">list</viewtype>
+				<viewtype label="Media View">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<focusposition>7</focusposition>
 				<movement>0</movement>
 				<scrolltime>200</scrolltime>
-				<visible>Container.Content(TVShows) | Container.Content(Movies) | Container.Content(Seasons) | Container.Content(Episodes)</visible>
+				<visible>Container.Content(TVShows) | Container.Content(Movies) | Container.Content(Seasons) | Container.Content(Episodes) | Container.Content(Music)</visible>
 				<itemlayout height="40" width="580">
 					<control type="image">
 						<posx>0</posx>
