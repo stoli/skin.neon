@@ -20,10 +20,20 @@
 		</control>
 		<control type="image"><!-- Floor -->
 			<posx>0</posx>
-			<posy>540</posy>
+			<posy>565</posy>
 			<width>1280</width>
-			<height>180</height>
+			<height>150</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_backthin.png</texture>
+			
+		</control>
+		<control type="image"><!-- Floor -->
+			<posx>0</posx>
+			<posy>565</posy>
+			<width>1280</width>
+			<height>150</height>
 			<texture>mainmenu/home_bottom_align.png</texture>
+			
 		</control>
 		<control type="grouplist" id="1">
 			<posx>10</posx>
