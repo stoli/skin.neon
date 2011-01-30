@@ -101,7 +101,7 @@
 	<include name="dialogConfirmButton">	
 		<width>120</width>
 		<height>42</height>
-		<font>font16caps</font>
+		<font>Font_Neon_25</font>
 		<align>center</align>
 		<aligny>-</aligny>
 		<textoffsety>10</textoffsety>
@@ -112,21 +112,21 @@
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="skin_settings_labels">
-		<width>740</width>
+		<width>770</width>
 		<height>34</height>
-		<textoffsetx>20</textoffsetx>
-		<font>font16caps</font>
+		<textoffsetx>30</textoffsetx>
+		<font>Font_Neon_25</font>
 		<textcolor>grey2</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<colordiffuse>mainblue</colordiffuse>
-		<texturefocus>MenuItemFO.png</texturefocus>
+		<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 		<texturenofocus>MenuItemNF.png</texturenofocus>
 	</include>
 	<include name="skin_settings_button">
 		<width>740</width>
 		<height>34</height>
 		<textoffsetx>40</textoffsetx>
-		<font>font16caps</font>
+		<font>Font_Neon_25</font>
 		<textcolor>grey2</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<colordiffuse>mainblue</colordiffuse>
@@ -421,7 +421,7 @@
 		 <include name="Global_Time_TopLeft">
 		<control type="group">
 			<posx>5</posx>
-			<posy>0</posy>
+			<posy>10</posy>
 			<include>Animation_BackdropFade</include>
 			<animation effect="slide" start="0,0" end="0,-10" time="0" condition="!Control.IsVisible(52) + Container.Content(tvshows) + !Skin.HasSetting(no_new_recent_info)">Conditional</animation>
 			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + Control.IsVisible(598) | Control.IsVisible(53)</visible>

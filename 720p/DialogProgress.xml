@@ -52,7 +52,7 @@
 				<posy>18</posy>
 				<width>560</width>
 				<height>30</height>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<label>$INFO[Control.GetLabel(1)] $INFO[System.Progressbar,- ,%]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -117,7 +117,7 @@
 				<width>200</width>
 				<height>40</height>
 				<label>222</label>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>

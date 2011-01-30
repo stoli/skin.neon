@@ -46,6 +46,12 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
+			<name>Font_Neon_25</name>
+			<filename>Antipasto.ttf</filename> 
+			<size>25</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_Neon_24</name>
 			<filename>Antipasto.ttf</filename>
 			<size>24</size>
@@ -611,23 +617,19 @@
 			<size>30</size>
 		</font>
 		
-		<font>
-			<name>font13caps</name>
-			<filename>Antipasto.ttf</filename>
-			<size>20</size>
-		</font>
+		
 		<font>
 			<name>font24caps_title</name>
 			<filename>Antipasto.ttf</filename>
 			<size>28</size>
 		</font>
 		<font>
-			<name>font16caps</name>
+			<name>Font_Neon_25</name>
 			<filename>Antipasto.ttf</filename>
 			<size>25</size>
 		</font>
 		<font>
-			<name>font13caps_title</name>
+			<name>Font_Neon_20_title</name>
 			<filename>Antipasto.ttf</filename>
 			<size>20</size>
 		</font>
@@ -1245,7 +1247,7 @@
 		</font>
 		
 		<font>
-			<name>font13caps</name>
+			<name>Font_Neon_20</name>
 			<filename>Arial.ttf</filename>
 			<size>20</size>
 		</font>
@@ -1255,12 +1257,12 @@
 			<size>28</size>
 		</font>
 		<font>
-			<name>font16caps</name>
+			<name>Font_Neon_25</name>
 			<filename>Arial.ttf</filename>
 			<size>25</size>
 		</font>
 		<font>
-			<name>font13caps_title</name>
+			<name>Font_Neon_20_title</name>
 			<filename>Arial.ttf</filename>
 			<size>20</size>
 		</font>

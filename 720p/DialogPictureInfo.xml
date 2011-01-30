@@ -51,7 +51,7 @@
 						<posy>0</posy>
 						<width>160</width>
 						<height>35</height>
-						<font>font13caps_title</font>
+						<font>Font_Neon_20_title</font>
 						<aligny>center</aligny>
 						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
@@ -95,7 +95,7 @@
 						<posy>0</posy>
 						<width>160</width>
 						<height>35</height>
-						<font>font13caps_title</font>
+						<font>Font_Neon_20_title</font>
 						<aligny>center</aligny>
 						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>

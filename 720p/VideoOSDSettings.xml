@@ -50,7 +50,7 @@
 				<width>760</width>
 				<align>center</align>
 				<label>13390</label>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 			</control>
 			<control type="grouplist" id="5">
 				<description>control area</description>
@@ -89,7 +89,7 @@
 			<textoffsetx>20</textoffsetx>
 			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus>MenuItemFO.png</texturefocus>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
 		</control>
@@ -99,7 +99,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<height>40</height>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
@@ -111,7 +111,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<height>40</height>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
@@ -123,7 +123,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<height>40</height>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>

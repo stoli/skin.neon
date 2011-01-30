@@ -68,7 +68,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[557]:</label>
 			</control>
@@ -80,7 +80,7 @@
 				<height>25</height>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<textcolor>white</textcolor>
 				<label fallback="161">$INFO[ListItem.Artist]</label>
 			</control>
@@ -92,7 +92,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[558]:</label>
 			</control>
@@ -104,7 +104,7 @@
 				<height>25</height>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<textcolor>white</textcolor>
 				<label fallback="161">$INFO[ListItem.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
 			</control>
@@ -116,7 +116,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[515]:</label>
 			</control>
@@ -128,7 +128,7 @@
 				<height>25</height>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<textcolor>white</textcolor>
 				<label fallback="161">$INFO[ListItem.Genre]</label>
 			</control>
@@ -140,7 +140,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[562]:</label>
 			</control>
@@ -152,7 +152,7 @@
 				<height>25</height>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<textcolor>white</textcolor>
 				<label fallback="161">$INFO[ListItem.Year]</label>
 			</control>
@@ -164,7 +164,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[554]:</label>
 			</control>
@@ -176,7 +176,7 @@
 				<height>25</height>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<textcolor>white</textcolor>
 				<label fallback="161">$INFO[ListItem.TrackNumber]</label>
 			</control>
@@ -188,7 +188,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[563]:</label>
 			</control>
@@ -200,7 +200,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[569]:</label>
 			</control>
@@ -210,7 +210,7 @@
 				<posy>345</posy>
 				<width>460</width>
 				<height>100</height>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<pagecontrol>-</pagecontrol>
 				<label fallback="161">$INFO[ListItem.Comment]</label>
 			</control>
