@@ -1,3 +1,19 @@
+[B]Updated 01/30/2011:[/B]
+v.9.0.0
+
+Version 1.0 Release Date March 2, 2011
+
+Tons of fixes and updates over the past month.
+
+- New View added "Media Info" - ispired and ripped from Confluence
+- New Colors Addded
+- All new controls in the Music and Video OSD - More Confluence influence. :)
+- Poke around, I'm sure you will find more.
+
+- 10pts to whoever actually reads this.
+
+
+
 [B]Updated 01/01/2011:[/B]
 v.7.2.0
 New Movie Information Screen

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <window id="113">
 	<defaultcontrol>1</defaultcontrol>
-	<!--<controls>
+	<controls>
 		<control type="group">
 			<posx>902</posx>
 			<posy>10</posy>
@@ -47,5 +47,5 @@
 				</control>
 			</control>
 		</control>
-	</controls>-->
+	</controls>
 </window>

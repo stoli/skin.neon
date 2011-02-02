@@ -163,18 +163,18 @@
 		<include>Animation_CommonFade_ViewOptions</include>	
 		<control type="image"><!-- Floor -->
 			<posx>0</posx>
-			<posy>540</posy>
+			<posy>555</posy>
 			<width>1280</width>
-			<height>180</height>
+			<height>160</height>
 			<colordiffuse>mainblue</colordiffuse>
-			<texture>mainmenu/home_bottom_back.png</texture>
+			<texture>mainmenu/home_bottom_backthin.png</texture>
 			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
 		</control>
 		<control type="image"><!-- Floor -->
 			<posx>0</posx>
-			<posy>540</posy>
+			<posy>555</posy>
 			<width>1280</width>
-			<height>180</height>
+			<height>160</height>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
 		</control>
@@ -216,7 +216,16 @@
 					<altlabel>$LOCALIZE[31086]</altlabel>
 					<onclick>Skin.ToggleSetting(3dLandscape_Fanart)</onclick>
 					<selected>Skin.HasSetting(3dLandscape_Fanart)</selected>
-					<visible>Control.IsVisible(53)</visible>
+					<visible>Control.IsVisible(53) + Container.Content(Movies) </visible>
+				</control>
+				<control type="togglebutton" id="36">
+					<description>Toggle Fanart</description>
+					<include>WindowMenuButton</include>
+					<label>$LOCALIZE[31086]</label>
+					<altlabel>$LOCALIZE[31721]</altlabel>
+					<onclick>Skin.ToggleSetting(FileFanartView)</onclick>
+					<selected>!Skin.HasSetting(FileFanartView)</selected>
+					<visible>[Control.IsVisible(53) + Container.Content(TVShows)]</visible>
 				</control>
 				<control type="togglebutton" id="27">
 					<description>Toggle MoviesFanart</description>

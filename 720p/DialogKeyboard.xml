@@ -838,7 +838,7 @@
 					<aligny>center</aligny>
 					<colordiffuse>mainblue</colordiffuse>					<texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
 					<texturefocus border="5">KeyboardKey.png</texturefocus>
-					<font>Font_Neon_30</font>
+					<font>Font_Bartowski_Digital_Clock</font>
 					<focusedcolor>white</focusedcolor>
 					<onleft>32</onleft>
 					<onright>306</onright>
@@ -857,7 +857,7 @@
 					<colordiffuse>mainblue</colordiffuse>
 					<texturenofocus flipx="true" border="5,5,25,25">KeyboardCornerBottomNF.png</texturenofocus>
 					<texturefocus flipx="true" border="5,5,25,25">KeyboardCornerBottom.png</texturefocus>
-					<font>Font_Neon_30</font>
+					<font>Font_Bartowski_Digital_Clock</font>
 					<focusedcolor>white</focusedcolor>
 					<onleft>305</onleft>
 					<onright>307</onright>

@@ -69,7 +69,7 @@
 						<posy>0</posy>
 						<width>530</width>
 						<height>40</height>
-						<font>font13caps_title</font>
+						<font>Font_Neon_20_title</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>ffffffff</selectedcolor>
 						<align>left</align>
@@ -93,7 +93,7 @@
 						<posy>20</posy>
 						<width>430</width>
 						<height>40</height>
-						<font>font13caps_title</font>
+						<font>Font_Neon_20_title</font>
 						<textcolor>ffffffff</textcolor>
 						<selectedcolor>ffffffff</selectedcolor>
 						<align>left</align>
@@ -130,7 +130,7 @@
 						<posy>30</posy>
 						<width>430</width>
 						<height>40</height>
-						<font>font13caps_title</font>
+						<font>Font_Neon_20_title</font>
 						<textcolor>mainblue</textcolor>
 						<selectedcolor>mainblue</selectedcolor>
 						<align>left</align>
@@ -163,7 +163,7 @@
 						<posy>30</posy>
 						<width>430</width>
 						<height>40</height>
-						<font>font13caps_title</font>
+						<font>Font_Neon_20_title</font>
 						<textcolor>ffffffff</textcolor>
 						<selectedcolor>ffffffff</selectedcolor>
 						<align>left</align>
@@ -189,7 +189,7 @@
 				<posy>592</posy>
 				<width>300</width>
 				<height>35</height>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<align>right</align>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
@@ -203,7 +203,7 @@
 				<width>200</width>
 				<height>40</height>
 				<label>186</label>
-				<font>font13caps_title</font>
+				<font>Font_Neon_20_title</font>
 				<textcolor>mainblue</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>

@@ -37,7 +37,7 @@
 					<width>146</width>
 					<height>40</height>
 					<aligny>center</aligny>
-					<font>Bartowski_settings_small</font>
+					<font>Font_Neon_16</font>
 					<textcolor>black</textcolor>
 					<label>$INFO[ListItem.Label]</label>
 					<visible>IsEmpty(ListItem.Title) | Window.IsActive(501)</visible>
@@ -70,7 +70,7 @@
 					<width>146</width>
 					<height>40</height>
 					<aligny>center</aligny>
-					<font>Bartowski_settings_small</font>
+					<font>Font_Neon_16</font>
 					<textcolor>black</textcolor>
 					<label>$INFO[ListItem.TrackNumber]$INFO[ListItem.Title,. ]</label>
 					<visible>!IsEmpty(ListItem.Duration) + !IsEmpty(ListItem.TrackNumber) + [Container.Content(songs) | Window.IsActive(500) | [Window.IsActive(502) + !Container.Content(artists) + !Container.Content(albums) + !Container.Content(songs)]]</visible>
@@ -101,7 +101,7 @@
 					<width>146</width>
 					<height>40</height>
 					<aligny>center</aligny>
-					<font>Bartowski_settings_small</font>
+					<font>Font_Neon_16</font>
 					<textcolor>black</textcolor>
 					<label>$INFO[ListItem.Label]</label>
 					<visible>IsEmpty(ListItem.Title)</visible>
@@ -134,7 +134,7 @@
 					<width>146</width>
 					<height>40</height>
 					<aligny>center</aligny>
-					<font>Bartowski_settings_small</font>
+					<font>Font_Neon_16</font>
 					<textcolor>black</textcolor>
 					<label>$INFO[ListItem.TrackNumber]$INFO[ListItem.Title,. ]</label>
 					<visible>!IsEmpty(ListItem.Duration) + !IsEmpty(ListItem.TrackNumber) + [Container.Content(songs) | Window.IsActive(500) | [Window.IsActive(502) + !Container.Content(artists) + !Container.Content(albums) + !Container.Content(songs)]]</visible>

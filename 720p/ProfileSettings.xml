@@ -155,7 +155,7 @@
 			<aligny>center</aligny>
 			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus>button-focus.png</texturefocus>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<label>186</label>
@@ -174,7 +174,7 @@
 			<aligny>center</aligny>
 			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus>button-focus.png</texturefocus>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<font>font12_title</font>

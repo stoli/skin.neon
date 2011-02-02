@@ -74,7 +74,7 @@
 			</control>
 			<control type="grouplist" id="3">
 				<description>button area</description>
-				<posx>25</posx>
+				<posx>9</posx>
 				<posy>102</posy>
 				<width>260</width>
 				<height>481</height>
@@ -104,7 +104,7 @@
 				<posy>20</posy>
 				<width>740</width>
 				<height>30</height>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<label>$INFO[Control.GetLabel(2)] - $LOCALIZE[5]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -113,9 +113,9 @@
 			</control>
 			<control type="grouplist" id="5">
 				<description>control area</description>
-				<posx>290</posx>
+				<posx>269</posx>
 				<posy>70</posy>
-				<width>750</width>
+				<width>788</width>
 				<height>530</height>
 				<itemgap>-1</itemgap>
 				<pagecontrol>60</pagecontrol>
@@ -145,28 +145,28 @@
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<height>45</height>
-			<width>230</width>
+			<width>260</width>
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font24caps_title</font>
 			<textcolor>grey3</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
-			<texturefocus>MenuItemFO.png</texturefocus>
+			<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 			<texturenofocus>MenuItemNF.png</texturenofocus>
-			<pulseonselect>false</pulseonselect>
+			<pulseonselect>true</pulseonselect>
 		</control>
 		<control type="button" id="7">
 			<description>Default Button</description>
 			<posx>0</posx>
 			<posy>0</posy>
 			<height>40</height>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>grey2</textcolor>
-			<textoffsetx>15</textoffsetx>
+			<textoffsetx>25</textoffsetx>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
-			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
+			<texturefocus border="0,2,0,2">mainmenu/home_bottom_white.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
 		<control type="radiobutton" id="8">
@@ -174,12 +174,12 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<height>40</height>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>grey2</textcolor>
-			<textoffsetx>15</textoffsetx>
+			<textoffsetx>25</textoffsetx>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
-			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
+			<texturefocus border="0,2,0,2">mainmenu/home_bottom_white.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
 		<control type="spincontrolex" id="9">
@@ -187,12 +187,12 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<height>40</height>
-			<font>font16caps</font>
+			<font>Font_Neon_25</font>
 			<textcolor>grey2</textcolor>
-			<textoffsetx>15</textoffsetx>
+			<textoffsetx>25</textoffsetx>
 			<focusedcolor>white</focusedcolor>
 			<colordiffuse>mainblue</colordiffuse>
-			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
+			<texturefocus border="0,2,0,2">mainmenu/home_bottom_white.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>

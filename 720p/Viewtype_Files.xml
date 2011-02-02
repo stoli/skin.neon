@@ -161,15 +161,13 @@
 					<visible>Control.IsVisible(50) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
 				</control>
 				<control type="image">
-					<posx>15</posx>
-					<posy>3</posy>
-					<width>750</width>
+					<posx>20</posx>
+					<posy>5</posy>
+					<width>700</width>
 					<height>39</height>
 					<colordiffuse>mainblue</colordiffuse>
 					<texture>MenuItemFO.png</texture>
-					<animation type="Focus" reversible="false">
-						<effect type="fade" start="0" end="100" time="400" />
-					</animation>
+					
 				</control>
 				<control type="label">
 					<posx>20</posx>

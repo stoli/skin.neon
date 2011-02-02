@@ -96,7 +96,7 @@
 		</control>
 		
 		<control type="group">
-		<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>	
+		<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
 				<posx>-330</posx>
 				<animation effect="slide" start="-280" end="350" time="700" tween="cubic" easing="out" delay="400">WindowOpen</animation>
 				<animation effect="slide" start="350" end="-280" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
@@ -124,7 +124,7 @@
 		
 	
 			<control type="group">
-				<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>
+				<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>
 				<control type="label">
 					<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
 					<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="200">WindowClose</animation>
@@ -178,7 +178,7 @@
 			
  
 			<control type="group">
-			<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>	
+			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
 			<posx>750</posx>
 			<posy>-25</posy>
 			<animation effect="slide" start="1300" end="350" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
@@ -196,7 +196,7 @@
 				
 			</control>
 			<control type="group">
-			<visible>Player.ShowInfo + !Window.IsActive(120) + !Skin.HasSetting(FullscreenJukebox)</visible>	
+			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
 			<posx>750</posx>
 			<posy>-175</posy>
 			<animation effect="slide" start="1300" end="350" time="700" tween="cubic" easing="out" delay="1800">WindowOpen</animation>
@@ -346,7 +346,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(1).TrackNumber]$INFO[MusicPlayer.offset(1).Title,. ]</label>
 					</control>
@@ -380,7 +380,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(2).TrackNumber]$INFO[MusicPlayer.offset(2).Title,. ]</label>
 					</control>
@@ -414,7 +414,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(3).TrackNumber]$INFO[MusicPlayer.offset(3).Title,. ]</label>
 					</control>
@@ -448,7 +448,7 @@
 						<width>146</width>
 						<height>40</height>
 						<aligny>center</aligny>
-						<font>Bartowski_settings_small</font>
+						<font>Font_Neon_16</font>
 						<textcolor>black</textcolor>
 						<label>$INFO[MusicPlayer.offset(4).TrackNumber]$INFO[MusicPlayer.offset(4).Title,. ]</label>
 					</control>
@@ -485,7 +485,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(5).TrackNumber]$INFO[MusicPlayer.offset(5).Title,. ]</label>
 						</control>
@@ -519,7 +519,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(6).TrackNumber]$INFO[MusicPlayer.offset(6).Title,. ]</label>
 						</control>
@@ -553,7 +553,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(7).TrackNumber]$INFO[MusicPlayer.offset(7).Title,. ]</label>
 						</control>
@@ -587,7 +587,7 @@
 							<width>146</width>
 							<height>40</height>
 							<aligny>center</aligny>
-							<font>Bartowski_settings_small</font>
+							<font>Font_Neon_16</font>
 							<textcolor>black</textcolor>
 							<label>$INFO[MusicPlayer.offset(8).TrackNumber]$INFO[MusicPlayer.offset(8).Title,. ]</label>
 						</control>

@@ -3,7 +3,7 @@
 <window id="502">
 	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,56,58,51,52,54</views>
+	<views>50,56,58,51,52,54,53,506,509,511,512,513</views>
 	<controls>
 		
 
@@ -60,9 +60,13 @@
 		<include>Viewtype_Songs</include><!-- 52 -->
 		<include>Viewtype_Shelf</include><!-- 51 -->
 		<include>Viewtype_JukeBox</include><!-- 54 -->
+		<!-- <include>Viewtype_List</include><!-- 53 -->
+		<include>MusicInfoListView</include><!-- 506 -->
+		<include>AlbumWrapView2_Fanart</include> <!-- 509 -->
+		<include>MusicVideoInfoListView</include> <!-- 511 -->
+		<include>ArtistMediaListView</include> <!-- 512 -->
+		<include>AlbumInfoListView</include> <!-- 513 -->
 		
-		
-
 	<control type="group">
 		<include>Animation_HiddenByInfo</include>
 		<include>Music_Global_TopRight_Music_Showcase</include>
@@ -81,10 +85,19 @@
 		<include>Animation_CommonFade_ViewOptions</include>	
 		<control type="image"><!-- Floor -->
 			<posx>0</posx>
-			<posy>650</posy>
+			<posy>555</posy>
 			<width>1280</width>
-			<height>70</height>
-			<texture>notification_background.png</texture>
+			<height>160</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_backthin.png</texture>
+			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+		</control>
+		<control type="image"><!-- Floor -->
+			<posx>0</posx>
+			<posy>555</posy>
+			<width>1280</width>
+			<height>160</height>
+			<texture>mainmenu/home_bottom_align.png</texture>
 			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
 		</control>
 		

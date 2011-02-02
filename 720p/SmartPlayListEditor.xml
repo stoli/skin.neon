@@ -69,7 +69,7 @@
 				<posy>125</posy>
 				<width>740</width>
 				<label>21433</label>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>black</textcolor>
 			</control>
 			<control type="image">
@@ -109,7 +109,7 @@
 				<width>740</width>
 				<align>left</align>
 				<label>21434</label>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>black</textcolor>
 			</control>
 			<control type="list" id="10">
@@ -165,7 +165,7 @@
 					<width>180</width>
 					<height>41</height>
 					<label>15019</label>
-					<font>font13caps_title</font>
+					<font>Font_Neon_20_title</font>
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
@@ -184,7 +184,7 @@
 					<height>41</height>
 					<width>180</width>
 					<label>1210</label>
-					<font>font13caps_title</font>
+					<font>Font_Neon_20_title</font>
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
@@ -203,7 +203,7 @@
 					<height>41</height>
 					<width>180</width>
 					<label>21435</label>
-					<font>font13caps_title</font>
+					<font>Font_Neon_20_title</font>
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
@@ -231,7 +231,7 @@
 				<posy>380</posy>
 				<width>740</width>
 				<label>31325</label>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>black</textcolor>
 			</control>
 			<control type="spincontrolex" id="16">
@@ -331,7 +331,7 @@
 					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
 					<label>186</label>
-					<font>font16caps</font>
+					<font>Font_Neon_25</font>
 					<onup>18</onup>
 					<onleft>21</onleft>
 					<onright>21</onright>
@@ -350,7 +350,7 @@
 					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
 					<label>222</label>
-					<font>font16caps</font>
+					<font>Font_Neon_25</font>
 					<onup>18</onup>
 					<onleft>20</onleft>
 					<onright>20</onright>

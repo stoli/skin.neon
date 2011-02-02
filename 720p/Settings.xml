@@ -65,12 +65,12 @@
 				</itemlayout>
 				<focusedlayout height="54" width="260">
 					<control type="image">
-						<posx>15</posx>
+						<posx>0</posx>
 						<posy>0</posy>
-						<width>230</width>
+						<width>260</width>
 						<height>45</height>
 						<colordiffuse>mainblue</colordiffuse>
-						<texture>MenuItemFO.png</texture>
+						<texture>mainmenu/home_bottom_white.png</texture>
 					</control>
 					<control type="label">
 						<posx>130</posx>
@@ -162,7 +162,7 @@
 				<posy>20</posy>
 				<width>740</width>
 				<height>30</height>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<label>$LOCALIZE[31000] $LOCALIZE[5]</label>
 				<align>left</align>
 				<aligny>center</aligny>

@@ -67,7 +67,7 @@
 				<posy>100</posy>
 				<width>300</width>
 				<height>40</height>
-				<font>font13caps</font>
+				<font>Font_Neon_20</font>
 				<label>$INFO[Control.GetLabel(15)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -80,7 +80,7 @@
 				<posy>100</posy>
 				<width>300</width>
 				<height>40</height>
-				<font>font13caps</font>
+				<font>Font_Neon_20</font>
 				<label>$INFO[Control.GetLabel(15)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -107,7 +107,7 @@
 				<posy>100</posy>
 				<width>300</width>
 				<height>40</height>
-				<font>font13caps</font>
+				<font>Font_Neon_20</font>
 				<label>$INFO[Control.GetLabel(16)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -120,7 +120,7 @@
 				<posy>100</posy>
 				<width>300</width>
 				<height>40</height>
-				<font>font13caps</font>
+				<font>Font_Neon_20</font>
 				<label>$INFO[Control.GetLabel(16)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -183,7 +183,7 @@
 				<height>40</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<colordiffuse>mainblue</colordiffuse>
@@ -202,7 +202,7 @@
 				<height>40</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font16caps</font>
+				<font>Font_Neon_25</font>
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<colordiffuse>mainblue</colordiffuse>
