@@ -385,7 +385,7 @@
 			</control>
 			<control type="grouplist">
 				<description>Media Codec Flagging Images</description>
-				<posx>10</posx>
+				<posx>15</posx>
 				<posy>215</posy>
 				<width>290</width>
 				<align>right</align>
@@ -783,7 +783,7 @@
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
-						<posx>10</posx>
+						<posx>15</posx>
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>
@@ -829,7 +829,7 @@
 						<posy>0</posy>
 						<width>580</width>
 						<height>41</height>
-						<texture border="0,2,0,2">MenuItemFO.png</texture>
+						<texture>MenuItemFOR.png</texture>
 						<visible>Control.HasFocus(503)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -842,7 +842,7 @@
 						<visible>Control.HasFocus(503) + !IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
-						<posx>10</posx>
+						<posx>15</posx>
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>
@@ -1019,7 +1019,7 @@
 				<posy>170</posy>
 				<visible>Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)</visible>
 				<control type="group">
-					<posx>10</posx>
+					<posx>15</posx>
 					<camera x="640" y="200" />
 					<animation effect="rotatey" center="90" start="-30" end="-30" time="0" condition="true">Conditional</animation>
 					<control type="image">
@@ -1097,7 +1097,7 @@
 				<posy>170</posy>
 				<visible>Container.Content(Seasons)</visible>
 				<control type="group">
-					<posx>10</posx>
+					<posx>15</posx>
 					<camera x="640" y="200" />
 					<animation effect="rotatey" center="90" start="-30" end="-30" time="0" condition="true">Conditional</animation>
 					<control type="image">
@@ -1259,7 +1259,7 @@
 				<posy>170</posy>
 				<visible>Container.Content(Movies)</visible>
 				<control type="group">
-					<posx>10</posx>
+					<posx>15</posx>
 					<camera x="640" y="200" />
 					<animation effect="rotatey" center="50" start="-30" end="-30" time="0" condition="true">Conditional</animation>
 					<control type="image">
@@ -1346,7 +1346,7 @@
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
-						<posx>10</posx>
+						<posx>15</posx>
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>
@@ -1392,7 +1392,7 @@
 						<posy>0</posy>
 						<width>580</width>
 						<height>41</height>
-						<texture border="0,2,0,2">MenuItemFO.png</texture>
+						<texture>MenuItemFOR.png</texture>
 						<visible>Control.HasFocus(504)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -1405,7 +1405,7 @@
 						<visible>Control.HasFocus(504) + !IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
-						<posx>10</posx>
+						<posx>15</posx>
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>

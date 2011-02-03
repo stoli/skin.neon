@@ -3,7 +3,7 @@
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,55,58,595,51,52,633,53,54,597,56,57,59,592,593,594,596,598</views>
+	<views>50,55,58,595,51,52,633,53,54,597,56,57,59,501,503,508,592,593,594,596,598</views>
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
@@ -126,8 +126,8 @@
 		<include>Viewtype_Slide</include><!--  595  -->
 		<include>Viewtype_Newest_Episodes</include> <!--  596  --> 
 		<include>Viewtype_SlimFiles</include> <!--598 -->
-		
-		
+		<include>PosterWrapView2_Fanart</include> <!-- 508 -->
+		<include>MediaListView3</include> <!-- 503 -->
 		
 		<include>Trailer</include>
 		<include>Trailer_TVLandscape</include>
