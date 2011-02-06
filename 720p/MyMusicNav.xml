@@ -57,7 +57,7 @@
 		<include>Viewtype_Files</include><!-- 50 -->
 		<include>Viewtype_MusicShowcase</include><!-- 58 -->
 		<include>Viewtype_3daddon</include><!-- 56 -->
-		<include>Viewtype_Songs</include><!-- 52 -->
+	<!--	<include>Viewtype_Songs</include><!-- 52 -->
 		<include>Viewtype_Shelf</include><!-- 51 -->
 		<include>Viewtype_JukeBox</include><!-- 54 -->
 		<include>Viewtype_List</include><!-- 53 -->
@@ -75,8 +75,8 @@
 		<include>Music_Global_LowerRight</include>
 	</control>
 		
-		<include>Global_Time_TopRight_Music</include>
-		<include>Global_Time_LowerLeft_music</include>
+		<include>Time</include>
+		<include>Library Totals</include>
 		
 		<include>7000_has_focus</include>
 		

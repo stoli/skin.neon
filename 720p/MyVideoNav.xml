@@ -149,11 +149,8 @@
 			<include>Music_Global_TopLeft_Music</include>
 			
 	</control>
-		
-		<include>Global_Time_TopRight</include>
-		<include>Global_Time_LowerLeft</include>
-		<include>Global_Time_LowerRight</include>
-		<include>Global_Time_TopLeft</include>
+		<include>Time</include>
+		<include>Library Totals</include>
 		
 <!--		<include>7000_has_focus</include> -->
 		

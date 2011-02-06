@@ -48,7 +48,7 @@
 			<visible>Control.HasFocus(8002)</visible>
 		</control>
 
-				
+		<!-- Bottom Menu -->		
 		<control type="image">
 			<posx>0</posx>
 			<posy>445</posy>
@@ -69,30 +69,6 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
 			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
-			
-		</control>
-				<control type="image">
-			<posx>0</posx>
-			<posy>222</posy>
-			<height>200</height>
-			<include>Dimensions_Fullscreen</include>
-			<colordiffuse>mainblue</colordiffuse>
-			<texture>mainmenu/home_bottom_back.png</texture>
-			<include>Animation_CommonFadeNoHideBack-Home</include>
-			<visible>!Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
-			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
-			
-		</control>
-		<control type="image">
-			<posx>0</posx>
-			<posy>222</posy>
-			<height>200</height>
-			<include>Dimensions_Fullscreen</include>
-			<texture>mainmenu/home_bottom_align.png</texture>
-			<include>Animation_CommonFadeNoHide</include>
-			<visible>!Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
-			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
-			
 		</control>
 		<control type="image">
 			<posx>0</posx>
@@ -104,7 +80,6 @@
 			<include>Animation_CommonFadeNoHideBack-Home</include>
 			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
 			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
-		
 		</control>	
 		<control type="image">
 			<posx>0</posx>
@@ -115,7 +90,6 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
 			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
-		
 		</control>	
 		<control type="image">
 			<posx>0</posx>
@@ -136,6 +110,30 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
 		</control>	
+
+		<!-- Middle Menu -->
+		
+		<control type="image">
+			<posx>0</posx>
+			<posy>222</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_back.png</texture>
+			<include>Animation_CommonFadeNoHideBack-Home</include>
+			<visible>!Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
+			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
+		</control>
+		<control type="image">
+			<posx>0</posx>
+			<posy>222</posy>
+			<height>200</height>
+			<include>Dimensions_Fullscreen</include>
+			<texture>mainmenu/home_bottom_align.png</texture>
+			<include>Animation_CommonFadeNoHide</include>
+			<visible>!Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
+			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
+		</control>
 
 		<control type="image">
 			<posx>0</posx>
@@ -188,11 +186,11 @@
 		</control>
 
 		
-		<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include>
-		<include condition="Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeBottom</include>
+		
 		<include condition="Skin.HasSetting(homepageHideRecentlyAdded)">HomeRecentlyAddedInfo_2</include>
 		<include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
-
+<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include>
+		<include condition="Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeBottom</include>
 
 		
 		<control type="button" id="8999">
@@ -267,13 +265,10 @@
 				<texture>episodeframe.png</texture>
 			</control>
 		</control>
-
 		<include>Global_RSS</include>
-		<include>Global_Time</include>
-		 <!-- <include>Library_Totals</include> -->
-		
+		<include>Time</include>
+		<include>Date</include>
 		<include>BottomLine_RSS</include>
-		
-			<include>Music_Global_Home</include>
+		<include>Music_Global_Home</include>
 	</controls>
 </window>

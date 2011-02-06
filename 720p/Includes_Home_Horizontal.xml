@@ -7,6 +7,8 @@
 			<posy>300</posy>
 			<height>466</height>
 			<width>2800</width>
+			<include condition="!Skin.HasSetting(horizontal_bottom_align)">horizontal_onup_middle</include>
+			<include condition="Skin.HasSetting(horizontal_bottom_align)">horizontal_onup_lower</include>
 			<onup>9001</onup>
 			<ondown>9001</ondown>
 			<onleft>301</onleft>
@@ -20,6 +22,7 @@
 			<include condition="Skin.HasSetting(horizontal_bottom_align)">Animation_Bartowski_Context_Zoom_Bottom</include>
 			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>	
 			<animation effect="slide" end="0,330" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
+			
 			<itemlayout width="335" height="61">
 				<control type="label">
 					<width>450</width>
@@ -272,7 +275,7 @@
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
-					<onup>301</onup>
+					<onup></onup>
 					<ondown>301</ondown>
 					<itemgap>0</itemgap>
 					<visible>Container(301).HasFocus(2)</visible>
@@ -343,7 +346,7 @@
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
-					<onup>301</onup>
+					<onup></onup>
 					<ondown>301</ondown>
 					<itemgap>0</itemgap>
 					<visible>Container(301).HasFocus(3)</visible>
@@ -1590,7 +1593,8 @@
 			<posy>192</posy>
 			<height>466</height>
 			<width>2800</width>
-			<onup>9001</onup>
+			
+			<onup>301</onup>
 			<ondown>9001</ondown>
 			<onleft>301</onleft>
 			<onright>301</onright>
@@ -1853,7 +1857,7 @@
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
-					<onup>301</onup>
+					<onup></onup>
 					<ondown>301</ondown>
 					<itemgap>0</itemgap>
 					<visible>Container(301).HasFocus(2)</visible>
@@ -1911,6 +1915,7 @@
 							</item>
 						</content>
 				</control>
+
 <!--MOVIES -->	<control type="wraplist" id="9011">
 					<posx>-30</posx>
 					<posy>30</posy>
@@ -1924,7 +1929,7 @@
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
-					<onup>301</onup>
+					<onup></onup>
 					<ondown>301</ondown>
 					<itemgap>0</itemgap>
 					<visible>Container(301).HasFocus(3)</visible>

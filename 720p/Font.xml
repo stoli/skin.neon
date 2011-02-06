@@ -58,9 +58,21 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
+			<name>Font_Neon_21</name>
+			<filename>Antipasto.ttf</filename>
+			<size>21</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_Neon_20</name>
 			<filename>Antipasto.ttf</filename>
 			<size>20</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
+			<name>Font_Neon_19</name>
+			<filename>Antipasto.ttf</filename>
+			<size>19</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
