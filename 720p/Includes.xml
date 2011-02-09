@@ -9,6 +9,7 @@
 	<include file="Viewtype_JukeBox.xml" />
 	<include file="Viewtype_MusicWall.xml" />
 	<include file="Viewtype_List.xml" />
+	<include file="Viewtype_List2.xml" />
 	<include file="Viewtype_Landscape.xml" />
 	<include file="Viewtype_Landscape_Fanart.xml" />
 	<include file="Viewtype_Fanart.xml" />
@@ -39,6 +40,7 @@
 	<include file="Viewtype_CoverFlow.xml" />
 	<include file="Viewtype_SlimFiles.xml" />
 	<include file="ViewsMusicLibrary.xml" />
+	
 <!--	<include file="Viewtype_Newest_Episodes.xml" /> -->
 	
 	<include name="VisibleFadeEffect">
@@ -58,6 +60,14 @@
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
 		</control>
+	
+<include name="horizontal_onup_middle">
+		<onup></onup>
+	</include>
+	<include name="horizontal_onup_lower">
+		<onup>78881</onup>
+	</include>
+	
 	</include>
 	<include name="middle_horizontal_movies">
 		<onup>Control.SetFocus(8000,0)</onup>
@@ -97,7 +107,28 @@
 	<include name="switch_horizontal_fanart">
 		<imagepath background="true">$INFO[Container(301).ListItem.Icon]</imagepath>
 	</include>
-	
+	<include name="CommonMusicBackground">
+		<control type="multiimage">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<imagepath fallback="special://skin/backgrounds/music.jpg" background="true">$INFO[Skin.String(CustomMusicFolder)]</imagepath>
+			<timeperimage>10000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>1000</fadetime>
+		</control>
+	</include>
+	<!-- Not Yet Implemented -->
+<!--	<include name="CommonMediaPlayingBackground">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<texture>special://skin/backgrounds/media-overlay.png</texture>
+			<visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)</visible>
+		</control> -->
 	<include name="dialogConfirmButton">	
 		<width>120</width>
 		<height>42</height>
@@ -130,7 +161,7 @@
 		<textcolor>grey2</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<colordiffuse>mainblue</colordiffuse>
-		<texturefocus>button-focus.png</texturefocus>
+		<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 		<texturenofocus>MenuItemNF.png</texturenofocus>
 	</include>
 		<include name="SideBladeRight">
@@ -189,14 +220,17 @@
 	
 	<include name="ButtonHomeSubCommonValues">
 		<width>600</width>
-		<height>56</height>
+		<height>45</height>
 		<textoffsetx>20</textoffsetx>
 		<textwidth>600</textwidth>
 		<posx>150</posx>
 		<posy>91</posy>
 		<font>Font_Bartowski_Main_SubMenu</font>
 		<textcolor>38b8b7b7</textcolor>
-		<focusedcolor>mainblue</focusedcolor>
+		<focusedcolor>white</focusedcolor>
+		<colordiffuse>mainblue</colordiffuse>
+		<texturefocus border="5">button-focus.png</texturefocus>
+		<texturenofocus border="5">button-nofocus.png</texturenofocus>
 	</include>
 	<include name="ButtonHomeSubCommonValues_Horizontal">
 		<width>320</width>
@@ -208,7 +242,7 @@
 	
 	<!-- Debug objects -->
 	
-	<include name="Object_DebugGrid">
+<!--	<include name="Object_DebugGrid">
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -233,7 +267,7 @@
 			<texture>common/debuggrid.png</texture>
 			<visible>Skin.HasSetting(debuggrid)</visible>
 		</control>
-	</include>
+	</include> -->
 	
 	
 	<include name="DialogID">
@@ -267,200 +301,133 @@
 		</control>
 		
 	</include>
-    <include name="Global_Time">
-		<control type="group">
-			<posx>1260</posx>
-			<posy>0</posy>
-			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(weather_info) + !Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
-				<control type="label">
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-			<!-- Remove to add date screen
-				<control type="label">
-					<posy>30</posy>  
-					<width>300</width>
-					<font>Font_Neon_20</font>
-					<textcolor>white</textcolor>
-					<info>System.Date</info>
-					<align>right</align>
-				</control> 
-				Remove to add date to home screen		-->
-			</control>
-		<control type="group">
-			<posx>1260</posx>
-			<posy>0</posy>
-			<include>Animation_BackdropFade</include>
-			<visible>!Skin.HasSetting(weather_info) + !Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
-				<control type="label">
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-			</control>
-		<!-- Weather -->
-			<control type="group">
-			<include>Animation_BackdropFade</include>
-				<control type="group">
-				<posx>10</posx>
-				<posy>4</posy>
-				<width>225</width>
-				<height>300</height>
-			<!-- condition icon -->
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info) + !Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>1065</posx>
-					<aligny>center</aligny>
-				</control>
-			</control>
+	
+	<include name="Global_RSS">
+		<visible>!system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
+		<control type="image"> 
+			<posx>0</posx>
+			<posy>0</posy>   
+			<width>1280</width>     
+			<height>32</height> 
+			<texture>MediaInfoBackUpper.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
+			<animation effect="fade" start="0" end="70" time="400">WindowOpen</animation>
+			<animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
+			<visible>system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
+		</control>
+		<control type="rss" id="1">
+			<posx>10</posx>
+			<posy>2</posy>
+			<width>1280</width>
+			<height>40</height>
+			<aligny>bottom</aligny>
+			<font>Font_RSS</font>
+			<textcolor>red</textcolor>
+			<headlinecolor>white</headlinecolor>
+			<highlightcolor>white</highlightcolor>
+			<titlecolor>mainblue</titlecolor>
+			<urlset>1</urlset>
+			<animation effect="fade" start="100" end="0" time="400">WindowClose</animation>
+			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
+			<visible>system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
 		</control>
 	</include>
 	
-	 <include name="Global_Time_TopRight">
+	<include name="Time">
 		<control type="group">
-			<posx>1260</posx>
-			<posy>10</posy>
-			<include>Animation_BackdropFade</include>
-			<animation effect="slide" start="0,0" end="0,-10" time="0" condition="!Control.IsVisible(52) + Container.Content(tvshows) + !Skin.HasSetting(no_new_recent_info)">Conditional</animation>
-			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + ![[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(57) | Control.IsVisible(592) | Control.IsVisible(56) | Control.IsVisible(51) | Control.IsVisible(54) | Control.IsVisible(50) | Control.IsVisible(53) | Control.IsVisible(58)] + !Control.IsVisible(598)</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-10</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient.png</texture>
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>-170</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
+		<visible>Skin.HasSetting(library_global_clock)</visible>
+			<posx>1150</posx>
+			<posy>0</posy>
+				<control type="group">
+				<visible>Skin.HasSetting(weather_info)</visible>
+				<animation effect="slide" start="300,0" end="-70,0" time="500">WindowOpen</animation>
+				<animation effect="slide" start="-70,0" end="300,0" time="400">WindowClose</animation>
+					<control type="image">
+						
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>MenuItemFO_small.png</texture>
+					</control>
+					<control type="image">
+						<!-- <visible>Skin.HasSetting(weather_info) + !Skin.HasSetting(no_clock) + [Window.IsActive(Home) | [ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)] | Window.IsActive(106) | Window.IsActive(29)]</visible> -->
+						<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+						<width>21</width>
+						<height>21</height>
+						<posx>12</posx>
+						<posy>4</posy>
+						<aligny>center</aligny>
+					</control>
+					<control type="label">
+						<posx>42</posx>
+						<posy>2</posy>
+						<font>Font_RSS</font>
+						<textcolor>white</textcolor>
+						<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
+						<align>right</align>
+					</control>
 				</control>
 				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
-					<control type="label">
-						<description>Programs</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[0][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName)</visible>
+				<animation effect="slide" start="300,0" end="20,0" time="400">WindowOpen</animation>
+				<animation effect="slide" start="20,0" end="300,0" time="300">WindowClose</animation>
+					<control type="image">
+						
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>MenuItemFO_small.png</texture>
 					</control>
 					<control type="label">
-						<description>Scripts</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[247]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(20) + !Window.IsActive(134)</visible>
+						<posx>20</posx>
+						<posy>2</posy>
+						<width>80</width>
+						<font>Font_RSS</font>
+						<textcolor>white</textcolor>
+						<label>$INFO[System.Time(hh:mmxx)]</label>
+						<align>center</align>
 					</control>
-					<control type="label">
-						<description>Movies</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[342][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20343][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20373][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20360][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>
-			</control>
+					
+				</control>
 		</control>
 	</include>
-		 <include name="Global_Time_TopLeft">
+		<!-- Home Page Date -->
+	<include name="Date">
 		<control type="group">
-			<posx>5</posx>
-			<posy>10</posy>
-			<include>Animation_BackdropFade</include>
-			<animation effect="slide" start="0,0" end="0,-10" time="0" condition="!Control.IsVisible(52) + Container.Content(tvshows) + !Skin.HasSetting(no_new_recent_info)">Conditional</animation>
-			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + Control.IsVisible(598) | Control.IsVisible(53)</visible>
-				<control type="image"> 
-					<posx>-10</posx>
-					<posy>0</posy>   
-					<width>250</width>     
-					<height>215</height> 
-					<texture flipy="true">common/library_time_gradient_lowerleft.png</texture>
-				</control>
+			<posx>0</posx>
+			<posy>0</posy>
+				<control type="group">
+				<animation effect="slide" start="-300,0" end="0,0" time="500">WindowOpen</animation>
+				<animation effect="slide" start="0,0" end="-300,0" time="400">WindowClose</animation>
 				
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]  [COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/COLOR]</label>
-					<align>left</align>
+					<control type="image">
+						<posx>-100</posx>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture flipx="true">MenuItemFO_small.png</texture>
+					</control>
+					<control type="label">
+						<posy>2</posy>
+						<posx>10</posx>
+						<width>300</width>
+						<font>Font_RSS</font>
+						<textcolor>white</textcolor>
+						<info>System.Date</info>
+						<align>left</align>
+					</control> 
 				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>left</align>
-				</control>
+		</control>
+	</include>
+	<include name="Library Totals">
+		<control type="group">
+			<posx>0</posx>
+			<posy>0</posy>
+			<control type="group">
+				<animation effect="slide" start="-300,0" end="0,0" time="500">WindowOpen</animation>
+				<animation effect="slide" start="0,0" end="-300,0" time="400">WindowClose</animation>
+				
 				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>140</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
+					<posx>-150</posx>
+					<colordiffuse>mainblue</colordiffuse>
+					<texture flipx="true">MenuItemFO_small.png</texture>
 				</control>
 				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
+					<posx>10</posx>
+					<posy>2</posy>
 					<control type="label">
 						<description>Movies</description>
 						<label>[COLOR=mainblue]$LOCALIZE[342][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
@@ -497,471 +464,63 @@
 						<include>Global_HeadingSectionVars2</include>
 						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
 					</control>
-			</control>
-		</control>
-	</include>
-	<include name="Global_Time_TopRight_Music">
-		<control type="group">
-			<posx>1260</posx>
-			<posy>10</posy>
-			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(musiclibrary) + [Control.IsVisible(58) | Control.IsVisible(55) | Control.IsVisible(51) | Control.IsVisible(56) | Control.IsVisible(50) | Control.IsVisible(53)]</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-10</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient.png</texture>
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>-170</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
-				</control>
-				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[132][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(albums)</visible>
-					</control>
-					<control type="label">
-						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[134][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(songs)</visible>
-					</control>
-					<control type="label">
-						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[2][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
-					</control>
-					<control type="label">
-						<description>Video</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[3][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-			</control>
-		</control>
-	</include>
-	<include name="Global_Time_TopRight_Files">
-		<control type="group">
-			<posx>1260</posx>
-			<posy>10</posy>
-			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)]</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-10</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient.png</texture>
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>-170</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
-				</control>
-				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
-					<control type="label">
-						<description>Programs</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[0][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName)</visible>
-					</control>
-					<control type="label">
-						<description>Scripts</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[247]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(20) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Movies</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[342][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue][B]$INFO[Container.PluginName][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Pictures</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[1][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(2007) | [Window.IsActive(2) + ![substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]]] + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20343][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20373][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue][B]AddonBrowser[/COLOR][/B]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(addonbrowser)</visible>
-					</control>
-					<control type="label">
-						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[2][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
-					</control>
-					<control type="label">
-						<description>Video</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[3][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<!--<control type="label">
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingDetailVars</include>
-						<visible>!Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<label>$LOCALIZE[20373] $INFO[ListItem.Season] - $INFO[Container.NumItems] $LOCALIZE[20360]</label>
-						<include>Global_HeadingDetailVars</include>
-						<visible>Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>-->
-			</control>
-		</control>
-	</include>
-		<include name="Global_Time_LowerLeft_Files">
-		<control type="group">
-			<posx>10</posx>
-			<posy>670</posy>
-			<include>Animation_BackdropFade</include>
-				<control type="image"> 
-					<posx>-10</posx>
-					<posy>-140</posy>   
-					<width>393</width>     
-					<height>206</height> 
-					<texture>common/library_time_gradient_lowerleft.png</texture>
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]  [COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/COLOR]</label>
-					<align>left</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>left</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>140</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
-				</control>
-				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
-					<control type="label">
-						<description>Programs</description>
-						<label>[COLOR=mainblue]$LOCALIZE[0][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName)</visible>
-					</control>
-					<control type="label">
-						<description>Scripts</description>
-						<label>[COLOR=mainblue]$LOCALIZE[247] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(20) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Movies</description>
-						<label>[COLOR=mainblue]$LOCALIZE[342][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Name of Plugin</description>
-						<label>[COLOR=mainblue][B]$INFO[Container.PluginName][/COLOR]- $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$INFO[Container.PluginName][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
 					</control>
 					<control type="label">
 						<description>Plugins</description>
-						<label>[COLOR=mainblue]$LOCALIZE[40157][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[40157] - $INFO[Container.NumItems,, $LOCALIZE[40281]][/COLOR]</label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
 					</control>
 					<control type="label">
-						<description>Pictures</description>
-						<label>[COLOR=mainblue]$LOCALIZE[1][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<description>Albums</description>
+						<label>[COLOR=mainblue]$LOCALIZE[132][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(2007) | [Window.IsActive(2) + ![substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]]] + !Window.IsActive(134)</visible>
+						<visible>Container.Content(albums)</visible>
 					</control>
 					<control type="label">
-						<description>Tv Shows</description>
-						<label>[COLOR=mainblue]$LOCALIZE[20343][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<description>Artists</description>
+						<label>[COLOR=mainblue]$LOCALIZE[133][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
+						<visible>Container.Content(artists)</visible>
 					</control>
 					<control type="label">
-						<description>Tv Shows</description>
-						<label>[COLOR=mainblue]$LOCALIZE[20373][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<description>Songs</description>
+						<label>[COLOR=mainblue]$LOCALIZE[134][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
+						<visible>Container.Content(songs)</visible>
 					</control>
 					<control type="label">
-						<description>Tv Shows</description>
-						<label>[COLOR=mainblue][B]AddonBrowser[/COLOR][/B] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<description>Songs</description>
+						<label>[COLOR=mainblue]$LOCALIZE[652][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(addonbrowser)</visible>
+						<visible>Container.Content(years)</visible>
+					</control>
+					<control type="label">
+						<description>Songs</description>
+						<label>[COLOR=mainblue]$LOCALIZE[652][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<include>Global_HeadingSectionVars2</include>
+						<visible>Container.Content(musicvideos)</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
 						<label>[COLOR=mainblue]$LOCALIZE[2][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
-					</control>
+						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)+ !Container.Content(artists)</visible>
+					</control> 
 					<control type="label">
 						<description>Video</description>
 						<label>[COLOR=mainblue]$LOCALIZE[3][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
 					</control>
-					<!--<control type="label">
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingDetailVars</include>
-						<visible>!Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<label>$LOCALIZE[20373] $INFO[ListItem.Season] - $INFO[Container.NumItems] $LOCALIZE[20360]</label>
-						<include>Global_HeadingDetailVars</include>
-						<visible>Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>-->
-			</control>
-		</control>
-	</include>
-
-	<include name="Global_Time_LowerRight">
-		<control type="group">
-			<posx>1260</posx>
-			<posy>670</posy>
-			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + [[Control.IsVisible(52) + Container.Content(tvshows) + Skin.HasSetting(no_new_recent_info)] | Control.IsVisible(56) | Control.IsVisible(58)]</visible>
-				<control type="image"> 
-					<posx>-380</posx>
-					<posy>-144</posy>   
-					<width>413</width>     
-					<height>215</height> 
-					<texture>common/library_time_gradient_lowerright.png</texture>
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>-170</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
-				</control>
-				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
-					<control type="label">
-						<description>Programs</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[0][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(1) + !Window.IsActive(134) + IsEmpty(Container.PluginName)</visible>
-					</control>
-					<control type="label">
-						<description>Scripts</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[247]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(20) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Movies</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[342][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
 					<control type="label">
 						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20343][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20373][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[20360][/COLOR]</label>
-						<include>Global_HeadingSectionVars1</include>
-						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>
-			</control>
-		</control>
-	</include>
-	<include name="Global_Time_LowerLeft">
-		<control type="group">
-			<posx>10</posx>
-			<posy>670</posy>
-			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(library_global_clock) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + Window.IsActive(videolibrary) + [Control.IsVisible(51) | Control.IsVisible(57) | Control.IsVisible(592)]</visible>
-				<control type="image"> 
-					<posx>-10</posx>
-					<posy>-140</posy>   
-					<width>393</width>     
-					<height>206</height> 
-					<texture>common/library_time_gradient_lowerleft.png</texture>
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]  [COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/COLOR]</label>
-					<align>left</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>left</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>140</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
-				</control>
-				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
-					<control type="label">
-						<description>Movies</description>
-						<label>[COLOR=mainblue]$LOCALIZE[342][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Name of Plugin</description>
-						<label>[COLOR=mainblue]$INFO[Container.PluginName][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$INFO[Container.PluginName][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]] - </label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
 					</control>
@@ -972,106 +531,35 @@
 						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
 					</control>
 					<control type="label">
-						<description>Tv Shows</description>
-						<label>[COLOR=mainblue]$LOCALIZE[20343][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(tvshows) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>[COLOR=mainblue]$LOCALIZE[20373][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(seasons) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Tv Shows</description>
-						<label>[COLOR=mainblue]$LOCALIZE[20360][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>Window.IsActive(25) + Container.Content(episodes) + !Window.IsActive(134)</visible>
-					</control>
-			</control>
-		</control>
-	</include>
-	<include name="Global_Time_LowerLeft_music">
-		<control type="group">
-			<posx>10</posx>
-			<posy>654</posy>
-			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(library_global_clock) + !Player.HasMedia + Window.IsActive(musiclibrary) + [Control.IsVisible(52)]</visible>
-				<control type="image"> 
-					<posx>-10</posx>
-					<posy>-134</posy>   
-					<width>393</width>     
-					<height>206</height> 
-					<texture>common/library_time_gradient_lowerleft.png</texture>
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]  [COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/COLOR]</label>
-					<align>left</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>left</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>140</posx>
-					<posy>2</posy>
-					<aligny>center</aligny>
-				</control>
-				<control type="group">
-					<posx>0</posx>
-					<posy>24</posy>
-					<control type="label">
-						<description>Name of Plugin</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$INFO[Container.PluginName][/COLOR]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>!IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Plugins</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[40157][/COLOR]</label>
-						<include>Global_HeadingSectionVars2</include>
-						<visible>IsEmpty(Container.PluginName) + Container.Content(plugins) + !Window.IsActive(134)</visible>
-					</control>
-					<control type="label">
-						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[132][/COLOR]</label>
+						<description>Albums</description>
+						<label>[COLOR=mainblue]$LOCALIZE[132][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(albums)</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[134][/COLOR]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[134][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(songs)</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[2][/COLOR]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[2][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
+						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(artists) + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
 					</control>
 					<control type="label">
 						<description>Video</description>
-						<label>$INFO[Container.NumItems,, $LOCALIZE[40281]] - [COLOR=mainblue]$LOCALIZE[3][/COLOR]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[3][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
-					</control>
+					</control> 
+			
+				</control>
 			</control>
 		</control>
 	</include>
+	
 	<include name="Global_Time_TopRight_OSD">
 		<control type="group">
 		<visible>Skin.HasSetting(library_global_clock)</visible>
@@ -1250,36 +738,7 @@
 		<textureradiofocus>-</textureradiofocus>
 		<textureradionofocus>-</textureradionofocus>
 	</include>
-	<include name="Global_RSS">
-		<visible>!system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
-		<control type="image"> 
-			<posx>0</posx>
-			<posy>0</posy>   
-			<width>1280</width>     
-			<height>35</height> 
-			<texture>MediaInfoBackUpper.png</texture>
-			<colordiffuse>mainblue</colordiffuse>
-			<animation effect="fade" start="0" end="70" time="400">WindowOpen</animation>
-			<animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
-			<visible>system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
-		</control>
-		<control type="rss" id="1">
-			<posx>10</posx>
-			<posy>0</posy>
-			<width>1040</width>
-			<height>40</height>
-			<aligny>bottom</aligny>
-			<font>Font_RSS_Unicode</font>
-			<textcolor>red</textcolor>
-			<headlinecolor>white</headlinecolor>
-			<highlightcolor>white</highlightcolor>
-			<titlecolor>mainblue</titlecolor>
-			<urlset>1</urlset>
-			<animation effect="fade" start="100" end="0" time="400">WindowClose</animation>
-			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
-			<visible>system.getbool(lookandfeel.enablerssfeeds) + Window.IsActive(home)</visible>
-		</control>
-	</include>
+	
 	<include name="BottomLine_RSS">
 	
 		<control type="image"> 

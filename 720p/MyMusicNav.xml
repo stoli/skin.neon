@@ -31,7 +31,7 @@
 			<fadetime>400</fadetime>
 			<include>Animation_BackdropFade</include>
 			<include>global_kenburns_fanart</include>
-			<visible>[Control.IsVisible(54) | Control.IsVisible(53) | Control.IsVisible(51) | Control.IsVisible(52)]</visible>
+			<visible>[Control.IsVisible(54) | Control.IsVisible(53) | Control.IsVisible(51) | Control.IsVisible(52) | Control.IsVisible(506)]</visible>
 		</control>
 		<control type="image">
 			<description>album and song level fanart</description>
@@ -57,15 +57,16 @@
 		<include>Viewtype_Files</include><!-- 50 -->
 		<include>Viewtype_MusicShowcase</include><!-- 58 -->
 		<include>Viewtype_3daddon</include><!-- 56 -->
-		<include>Viewtype_Songs</include><!-- 52 -->
+	<!--	<include>Viewtype_Songs</include><!-- 52 -->
 		<include>Viewtype_Shelf</include><!-- 51 -->
 		<include>Viewtype_JukeBox</include><!-- 54 -->
-		<!-- <include>Viewtype_List</include><!-- 53 -->
+		<include>Viewtype_List</include><!-- 53 -->
 		<include>MusicInfoListView</include><!-- 506 -->
 		<include>AlbumWrapView2_Fanart</include> <!-- 509 -->
 		<include>MusicVideoInfoListView</include> <!-- 511 -->
 		<include>ArtistMediaListView</include> <!-- 512 -->
 		<include>AlbumInfoListView</include> <!-- 513 -->
+		
 		
 	<control type="group">
 		<include>Animation_HiddenByInfo</include>
@@ -74,8 +75,8 @@
 		<include>Music_Global_LowerRight</include>
 	</control>
 		
-		<include>Global_Time_TopRight_Music</include>
-		<include>Global_Time_LowerLeft_music</include>
+		<include>Time</include>
+		<include>Library Totals</include>
 		
 		<include>7000_has_focus</include>
 		
@@ -167,7 +168,7 @@
 			<control type="label">
 				<include>WindowMenuLabel</include>
 				<label>$LOCALIZE[14018]</label>
-				<visible>Control.IsVisible(50) | Control.IsVisible(56) | Control.IsVisible(58)</visible>		
+				<visible>Control.IsVisible(53) | Control.IsVisible(50) | Control.IsVisible(56) | Control.IsVisible(58)</visible>		
 			</control>
 			<control type="label">
 				<include>WindowMenuLabel</include>
