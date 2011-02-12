@@ -1,6 +1,37 @@
 <includes>
 
-
+	<include name="RSS_Music">
+		<control type="group">
+			<include>Animation_CommonFade</include>
+			<control type="image"> 
+				<posx>0</posx>
+				<posy>0</posy>   
+				<width>1280</width>     
+				<height>32</height> 
+				<texture>MediaInfoBackUpper.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<animation effect="fade" start="0" end="70" time="400">WindowOpen</animation>
+				<animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
+			</control>
+		
+			<control type="label">
+				<description>Track</description>
+				<posx>217</posx>
+				<posy>3</posy>
+				<width>860</width>
+				
+				<height>18</height>
+				<font>Font_Neon_19</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<label>$INFO[MusicPlayer.Title][COLOR=red] - [/COLOR]$INFO[MusicPlayer.Artist,[COLOR=mainblue]$LOCALIZE[557]:[/COLOR] ][COLOR=red] - [/COLOR]$INFO[MusicPlayer.Album,[COLOR=mainblue]$LOCALIZE[558]:[/COLOR] ][COLOR=red] - [/COLOR]$INFO[MusicPlayer.year,[COLOR=mainblue]$LOCALIZE[345]:[/COLOR] ]</label>
+				<scroll>true</scroll>																																																							
+			</control>
+			
+	
+		</control>
+	</include>
 	<include name="Music_Global_Home">
 		<control type="group">
 		<include>Animation_CommonFade</include>

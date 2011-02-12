@@ -139,14 +139,15 @@
 		
 <control type="group">	
 		<visible>!SubString(Window(25).Property(TvTunesIsAlive),True)</visible>
-			<include>Music_Global_TopRight</include>
+		<!--	<include>Music_Global_TopRight</include>
 			<include>Music_Global_Showcase</include>
 			
 			<include>Music_Global_LowerRight</include>
 			<include>Music_Global_LowerLeft</include>
 			<include>Music_Global_Lowerleft_Music</include>
 			<include>Music_Global_TopRight_Music_Showcase</include>
-			<include>Music_Global_TopLeft_Music</include>
+			<include>Music_Global_TopLeft_Music</include> -->
+			<include>RSS_Music</include>
 			
 	</control>
 		<include>Time</include>

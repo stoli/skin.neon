@@ -34,8 +34,8 @@
         <description>Caption Label</description>
         <posx>15</posx>
         <posy>-8</posy>
-        <font>font16</font>
-        <textcolor>white</textcolor>
+        <font>Font_Neon_16</font>
+        <textcolor>selected</textcolor>
         <width>380</width>
         <height>20</height>
         <aligny>center</aligny>
