@@ -3,7 +3,7 @@
 <window id="1">
 	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,56,55</views>
+	<views>50,56,55,503</views>
 	<controls>
 		
 		<control type="image">
@@ -18,8 +18,8 @@
 		<include>Viewtype_Files</include>
 		<include>Viewtype_Poster</include>
 		<include>Viewtype_3daddon</include><!--  56  -->
+		<include>MediaListView3</include> <!-- 503 -->
 		
-		<include>Global_Time_TopRight_Files</include>
 		
 		<include>7000_has_focus</include>
 		

@@ -39,7 +39,9 @@
 			<width>1280</width>
 			<onleft>633</onleft>
 			<onright>633</onright>
-			<onup>3448</onup>
+			<onup>7000</onup>
+			
+			
 			<include condition="!Skin.HasSetting(3dland_down_plot)">3dland_down_scrollbar</include>
 			<include condition="Skin.HasSetting(3dland_down_plot)">3dland_down_plot</include>
 			<pagecontrol>6330</pagecontrol>
