@@ -189,7 +189,7 @@
 		
 		<include condition="Skin.HasSetting(homepageHideRecentlyAdded)">HomeRecentlyAddedInfo_2</include>
 		<include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
-<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include>
+		<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include>
 		<include condition="Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeBottom</include>
 
 		
