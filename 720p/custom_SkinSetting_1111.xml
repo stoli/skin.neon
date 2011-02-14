@@ -433,7 +433,7 @@
 						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.HasSetting(horizontal_bottom_align)</onclick>
+						<onclick>Skin.ToggleSetting(horizontal_bottom_align)</onclick>
 						<selected>Skin.HasSetting(horizontal_bottom_align)</selected>
 					</control>
 				<!--	<control type="radiobutton" id="203">
