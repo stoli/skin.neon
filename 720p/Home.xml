@@ -78,7 +78,7 @@
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>mainmenu/home_bottom_back.png</texture>
 			<include>Animation_CommonFadeNoHideBack-Home</include>
-			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
+			<!-- <visible>Skin.HasSetting(horizontal_bottom_align)</visible> -->
 			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
 		</control>	
 		<control type="image">
@@ -88,7 +88,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
-			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
+			<!-- <visible>Skin.HasSetting(horizontal_bottom_align)</visible> -->
 			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
 		</control>	
 		<control type="image">
@@ -99,7 +99,7 @@
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>mainmenu/home_bottom_back.png</texture>
 			<include>Animation_CommonFadeNoHideBack-Home</include>
-			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
+			<!-- <visible>Skin.HasSetting(horizontal_bottom_align)</visible> -->
 		</control>	
 		<control type="image">
 			<posx>0</posx>
@@ -108,7 +108,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
-			<visible>Skin.HasSetting(horizontal_bottom_align)</visible>
+			<!-- <visible>Skin.HasSetting(horizontal_bottom_align)</visible> -->
 		</control>	
 
 		<!-- Middle Menu -->
@@ -143,7 +143,7 @@
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>mainmenu/home_bottom_back.png</texture>
 			<include>Animation_CommonFadeNoHideBack-Home</include>
-			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+			<visible>Skin.HasSetting(horizontal_middle_align)</visible>
 			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
 		</control>
 		<control type="image">
@@ -153,7 +153,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
-			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+			<visible>Skin.HasSetting(horizontal_middle_align)</visible>
 			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
 		</control>	
 		<control type="image">
@@ -164,7 +164,7 @@
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>mainmenu/home_bottom_back.png</texture>
 			<include>Animation_CommonFadeNoHideBack-Home</include>
-			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+			<visible>Skin.HasSetting(horizontal_middle_align)</visible>
 		</control>
 		<control type="image">
 			<posx>0</posx>
@@ -173,7 +173,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
-			<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+			<visible>Skin.HasSetting(horizontal_middle_align)</visible>
 		</control>
 		<control type="image">
 			<posx>980</posx>
@@ -189,7 +189,7 @@
 		
 		<include condition="Skin.HasSetting(homepageHideRecentlyAdded)">HomeRecentlyAddedInfo_2</include>
 		<include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
-<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include>
+	<!--	<include condition="!Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeTop</include> -->
 		<include condition="Skin.HasSetting(horizontal_bottom_align)">HorizontalHomeBottom</include>
 
 		
@@ -266,9 +266,11 @@
 			</control>
 		</control>
 		<include>Global_RSS</include>
+		<!-- <include>RSS_Music</include> -->
 		<include>Time</include>
 		<include>Date</include>
 		<include>BottomLine_RSS</include>
 		<include>Music_Global_Home</include>
+		
 	</controls>
 </window>

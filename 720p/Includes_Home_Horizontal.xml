@@ -339,8 +339,8 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
+					
+
 					<onleft>9011</onleft>
 					<onright>9011</onright>
 					<focusposition>2</focusposition>
@@ -658,8 +658,7 @@
 					<orientation>horizontal</orientation>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
+					
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
@@ -1001,8 +1000,8 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
+					
+
 					<onleft>9011</onleft>
 					<onright>9011</onright>
 					<focusposition>2</focusposition>
@@ -1320,8 +1319,7 @@
 					<orientation>horizontal</orientation>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
+					
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
@@ -1594,7 +1592,7 @@
 			<height>466</height>
 			<width>2800</width>
 			
-			<onup>301</onup>
+			<onup>78881</onup>
 			<ondown>9001</ondown>
 			<onleft>301</onleft>
 			<onright>301</onright>
@@ -1857,7 +1855,7 @@
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
-					<onup></onup>
+					<onup>301</onup>
 					<ondown>301</ondown>
 					<itemgap>0</itemgap>
 					<visible>Container(301).HasFocus(2)</visible>
@@ -1922,8 +1920,6 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
 					<onleft>9011</onleft>
 					<onright>9011</onright>
 					<focusposition>2</focusposition>
@@ -2013,8 +2009,6 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_tv</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_tv</include>
 					<onleft>9012</onleft>
 					<onright>9012</onright>
 					<focusposition>2</focusposition>
@@ -2241,8 +2235,8 @@
 					<orientation>horizontal</orientation>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
+					<onup>8001</onup>
+					<ondown>301</ondown>
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
@@ -2584,8 +2578,8 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_movies</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_movies</include>
+					
+
 					<onleft>9011</onleft>
 					<onright>9011</onright>
 					<focusposition>2</focusposition>
@@ -2675,8 +2669,7 @@
 					<width>1380</width>
 					<height>465</height>
 					<orientation>horizontal</orientation>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_tv</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_tv</include>
+					
 					<onleft>9012</onleft>
 					<onright>9012</onright>
 					<focusposition>2</focusposition>
@@ -2895,7 +2888,7 @@
 						</content>
 				</control>
 				
-<!--MUSIC --><control type="wraplist" id="9017">
+<!--MUSIC --> <control type="wraplist" id="9017">
 					<posx>-30</posx>
 					<posy>30</posy>
 					<width>1380</width>
@@ -2903,8 +2896,8 @@
 					<orientation>horizontal</orientation>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
-					<include condition="!Skin.HasSetting(horizontal_bottom_align)">middle_horizontal_music</include>
-					<include condition="Skin.HasSetting(horizontal_bottom_align)">lower_horizontal_music</include>
+					<onup>301</onup>
+					<ondown>301</ondown>
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
@@ -2914,7 +2907,7 @@
 						<control type="group">	
 							<posx>20</posx>
 							<posy>-5</posy>
-								<control type="label"><!--Movie title-->
+								<control type="label">
 									<width>320</width>
 									<height>56</height>
 									<label>$INFO[ListItem.label]</label>
@@ -2928,7 +2921,7 @@
 						<control type="group">	
 							<posx>20</posx>
 							<posy>-5</posy>
-								<control type="label"><!--Movie title-->
+								<control type="label">
 									<width>320</width>
 									<height>56</height>
 									<label>$INFO[ListItem.label]</label>
@@ -2988,7 +2981,7 @@
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 						</content>
-				</control>
+				</control> -->
 <!--WEATHER --><control type="list" id="9018">
 					<posx>180</posx>
 					<posy>30</posy>

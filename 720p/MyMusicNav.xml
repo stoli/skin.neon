@@ -70,9 +70,8 @@
 		
 	<control type="group">
 		<include>Animation_HiddenByInfo</include>
-		<include>Music_Global_TopRight_Music_Showcase</include>
-		<include>Music_Global_Lowerleft_Music</include>
-		<include>Music_Global_LowerRight</include>
+		
+		<include>RSS_Music</include>
 	</control>
 		
 		<include>Time</include>

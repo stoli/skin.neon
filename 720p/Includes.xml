@@ -60,21 +60,23 @@
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
 		</control>
+	</include>
 	
-<include name="horizontal_onup_middle">
+<!--
+	<include name="horizontal_onup_middle">
 		<onup></onup>
 	</include>
 	<include name="horizontal_onup_lower">
 		<onup>78881</onup>
 	</include>
 	
-	</include>
+	
 	<include name="middle_horizontal_movies">
 		<onup>Control.SetFocus(8000,0)</onup>
 		<ondown>301</ondown>
 	</include>
 	<include name="lower_horizontal_movies">
-		<onup>Control.SetFocus(8000,0)</onup>
+		<onup>Control.SetFocus(9001,0)</onup>
 		<ondown>301</ondown>
 	</include>
 	<include name="middle_horizontal_tv">
@@ -93,7 +95,7 @@
 		<onup>Control.SetFocus(8002,0)</onup>
 		<ondown>301</ondown>
 	</include>
-	
+	-->
 	<include name="switch_vertical_home">
 		<onfocus>SetFocus(300)</onfocus>
 	</include>

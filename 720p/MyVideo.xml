@@ -46,11 +46,9 @@
 		<include>Trailer_Poster</include>
 		
 	<!--	<include>Global_Time_TopRight_Files</include>  -->
-		<include>Global_Time_LowerLeft_Files</include> 
 		
-		<include>Music_Global_TopRight</include>
-		<include>Music_Global_Showcase</include>
-		<include>Music_Global_LowerRight</include>
+		<include>RSS_Music</include>
+		<include>Time</include> 
 		
 		<control type="image">
 			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>

@@ -940,7 +940,7 @@
 			<animation effect="slide" start="0,0" end="-500,0" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(60) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">Conditional</animation>
 			<animation effect="slide" start="0,0" end="-530,0" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(60) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">Conditional</animation>
 		</control>
-	<include>Music_Global_TopLeft_Music</include>
+	
 		
 	</include>
 
