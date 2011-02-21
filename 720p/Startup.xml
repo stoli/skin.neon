@@ -4,12 +4,7 @@
 	<defaultcontrol always="true">10</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
-		<!--<control type="button" id="9">
-			
-			<onfocus>Skin.Reset(horizontal_bottom_align)</onfocus>
-			
-			<onfocus>SetFocus(13)</onfocus>
-		<control> -->
+		
 		<control type="button" id="10">
 			<description>Trigger Weather</description>
 			<posx>-20</posx>
@@ -46,8 +41,9 @@
 			<height>1</height>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=True&amp;alarm=3600)</onfocus>
-			<label>$INFO[Window.Property(LatestMovie.1.Title)]</label>
+			<description>trigger</description>
+			<onfocus>ReplaceWindow(Home)</onfocus>
+			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=true&amp;alarm=99)</onfocus>
 			<font>-</font>
 			<onfocus>SetFocus(13)</onfocus>
 		</control>
