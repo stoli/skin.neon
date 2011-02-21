@@ -15,11 +15,21 @@
 			</control>
 			<control type="image"><!-- Floor -->
 				<posx>0</posx>
-				<posy>650</posy>
+				<posy>0</posy>
 				<width>1280</width>
-				<height>70</height>
-				<texture>notification_background.png</texture>
+				<height>720</height>
+				
+				<texture>ContentPanel2.png</texture>
 			</control>
+			<control type="image"><!-- Floor -->
+				<posx>0</posx>
+				<posy>653</posy>
+				<width>1280</width>
+				<height>60</height>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>mainmenu/home_bottom_white.png</texture>
+			</control>
+			
 			<control type="group">
 				<control type="label">
 					<description>Album header label</description>
@@ -38,7 +48,7 @@
 				<control type="label">
 					<description>Artist header label</description>
 					<posx>0</posx>
-					<posy>50</posy>
+					<posy>30</posy>
 					<width>1280</width>
 					<height>30</height>
 					<font>Font_Bartowski_MainMenu_Context</font>
@@ -74,7 +84,7 @@
 							<posy>0</posy>
 							<width>675</width>
 							<height>380</height>
-							<texture>Fanart_Fallback_Music_Small.jpg</texture>
+							<texture>backgrounds/music_small.jpg</texture>
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<bordersize>4</bordersize>
 							<aspectratio>stretch</aspectratio>
@@ -251,7 +261,7 @@
 				<control type="group">
 					<visible>container.content(Artists) + !Control.HasFocus(12)</visible>
 					<posy>90</posy>
-					<posx>210</posx>
+					<posx>50</posx>
 					<!--<include>VisibleFadeEffect</include>-->
 					<control type="image">
 						<posx>0</posx>
@@ -404,10 +414,10 @@
 				</control>
 				<control type="label">
 					<posx>130r</posx>
-					<posy>480</posy>
+					<posy>470</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>Font_Alaya_Top_Volume</font>
+					<font>Font_Neon_18</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -418,10 +428,10 @@
 				</control>
 				<control type="label">
 					<posx>130r</posx>
-					<posy>480</posy>
+					<posy>470</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>Font_Alaya_Top_Volume</font>
+					<font>Font_Neon_18</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -432,10 +442,10 @@
 				</control>
 				<control type="label">
 					<posx>130r</posx>
-					<posy>480</posy>
+					<posy>470</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>Font_Alaya_Top_Volume</font>
+					<font>Font_Neon_18</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -457,11 +467,19 @@
 					<textcolor>-</textcolor>
 					<showonepage>true</showonepage>
 				</control>
-				<control type="textbox" id="4">
+				<control type="image">
+					<posx>175</posx>
+					<posy>500</posy>
+					<width>880</width>
+					<height>140</height>
+					<texture>DialogBack.png</texture>
+					<visible>!Control.IsVisible(50)</visible>
+				</control>
+				<control type="textbox" id="4">DialogBack
 					<description>Description</description>
-					<posx>210</posx>
-					<posy>515</posy>
-					<width>1030</width>
+					<posx>200</posx>
+					<posy>510</posy>
+					<width>830</width>
 					<height>120</height>
 					<font>Font_Bartowski_Showcase_plot</font>
 					<align>justify</align>
@@ -506,7 +524,7 @@
 							<posy>0</posy>
 							<width>410</width>
 							<height>40</height>
-							<font>font12</font>
+							<font>Font_Neon_18</font>
 							<align>left</align>
 							<aligny>center</aligny>
 							<selectedcolor>selected</selectedcolor>
@@ -517,7 +535,7 @@
 							<posy>0</posy>
 							<width>200</width>
 							<height>40</height>
-							<font>font12</font>
+							<font>Font_Neon_18</font>
 							<align>right</align>
 							<aligny>center</aligny>
 							<selectedcolor>selected</selectedcolor>
@@ -578,7 +596,7 @@
 							<posy>0</posy>
 							<width>410</width>
 							<height>40</height>
-							<font>font12</font>
+							<font>Font_Neon_18</font>
 							<align>left</align>
 							<aligny>center</aligny>
 							<selectedcolor>selected</selectedcolor>

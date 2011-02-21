@@ -190,7 +190,7 @@
 					<height>340</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" fallback="Fanart_Fallback_Small.jpg">$INFO[ListItem.Property(fanart_image)]</texture>
+					<texture background="true" fallback="backgrounds/tvshows.jpg">$INFO[ListItem.Property(fanart_image)]</texture>
 					<bordertexture border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
 					<visible>!Skin.HasSetting(FileFanartView)</visible>
@@ -552,7 +552,7 @@
 					<height>340</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" fallback="Fanart_Fallback_Small.jpg" >$INFO[ListItem.Property(fanart_image)]</texture>
+					<texture background="true" fallback="backgrounds/movies.jpg" >$INFO[ListItem.Property(fanart_image)]</texture>
 					<bordertexture border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
 					<visible>!Skin.HasSetting(FileFanartView)</visible>

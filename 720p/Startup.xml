@@ -4,6 +4,12 @@
 	<defaultcontrol always="true">10</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
+		<!--<control type="button" id="9">
+			
+			<onfocus>Skin.Reset(horizontal_bottom_align)</onfocus>
+			
+			<onfocus>SetFocus(13)</onfocus>
+		<control> -->
 		<control type="button" id="10">
 			<description>Trigger Weather</description>
 			<posx>-20</posx>
@@ -56,5 +62,7 @@
 			<description>Trigger</description>
 			<onfocus>ReplaceWindow(Home)</onfocus>
 		</control>
+		
+		
 	</controls>
 </window>

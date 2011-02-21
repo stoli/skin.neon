@@ -426,16 +426,17 @@
 						<aligny>center</aligny>
 					</control>
 					
-					<control type="radiobutton" id="201">
+				<!--	<control type="radiobutton" id="201">
 						<description>Toggle Home top or bottom</description>
 						<include>skin_settings_labels</include>
 						<label>31271</label>
 						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.HasSetting(horizontal_bottom_align)</onclick>
+						<onclick>Skin.ToggleSetting(horizontal_bottom_align)</onclick>
 						<selected>Skin.HasSetting(horizontal_bottom_align)</selected>
-					</control>
+						<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+					</control> -->
 				<!--	<control type="radiobutton" id="203">
 						<description>Show Recently added info</description>
 						<width>740</width>
