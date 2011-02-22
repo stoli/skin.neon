@@ -127,6 +127,11 @@
 						<label2>33063</label2>
 						<onclick>-</onclick>
 					</item>
+					<item id="8">
+						<label>31030</label>
+						<onclick>Skin.ResetSettings</onclick>
+						<onclick>ReloadSkin()</onclick>
+					</item>
 				</content>
 			</control>
 			
@@ -181,23 +186,23 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="101">
+				<!--	<control type="radiobutton" id="101">
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31032]</label>
 						<onclick>Skin.ToggleSetting(no_clock)</onclick>
 						<selected>Skin.HasSetting(no_clock)</selected>
-					</control>
+					</control> -->
 					<control type="radiobutton" id="102">
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31247]</label>
 						<onclick>Skin.ToggleSetting(library_global_clock)</onclick>
-						<selected>Skin.HasSetting(library_global_clock)</selected>
+						<selected>!Skin.HasSetting(library_global_clock)</selected>
 					</control>
 					<control type="radiobutton" id="126">
 						<include>skin_settings_labels</include>
-						<label>Enable Global Weather</label>
+						<label>Disable Global Weather</label>
 						<onclick>Skin.ToggleSetting(weather_info)</onclick>
-						<selected>Skin.HasSetting(weather_info)</selected>
+						<selected>!Skin.HasSetting(weather_info)</selected>
 					</control>
 					<control type="radiobutton" id="103">
 						<include>skin_settings_labels</include>
@@ -329,7 +334,7 @@
 						<onclick>Skin.ToggleSetting(FullscreenJukebox)</onclick>
 						<selected>Skin.HasSetting(FullscreenJukebox)</selected>
 					</control>
-					
+				<!-- -->
 					
 					<!--<control type="label" id="120">
 						<width>860</width>
@@ -401,6 +406,7 @@
 						<onclick>Skin.ToggleSetting(ShowBackgroundVis)</onclick>
 						<selected>!Skin.HasSetting(ShowBackgroundVis)</selected>
 					</control>-->
+					
 				</control>
 				<control type="grouplist" id="9002">
 					<visible>Container(9000).Hasfocus(2)</visible>

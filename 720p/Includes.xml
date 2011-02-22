@@ -390,7 +390,9 @@
 	</include>
 		<!-- Home Page Date -->
 	<include name="Date">
+
 		<control type="group">
+		<visible>Skin.HasSetting(library_global_clock)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 				<control type="group">

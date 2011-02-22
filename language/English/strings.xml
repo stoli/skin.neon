@@ -13,7 +13,7 @@
 	<string id="31326">Created</string>
 	<string id="31327">Resolution</string>
 	<string id="31029">Disable Views</string><!-- GOOD -->
-	
+	<string id="31030">Reset Skin</string>
 	<!-- Settings labels -->
 	
 	<string id="31032">Disable Clock</string><!-- GOOD -->
@@ -103,7 +103,7 @@
 	<string id="31243">Cancel Timer</string><!-- GOOD -->
 	<string id="31244">Horizontal Home Menu</string>
 	<string id="31246">Show plot</string>
-	<string id="31247">Enable Global Clock</string>
+	<string id="31247">Disable Global Clock</string>
 	<string id="31248">Use Smaller Global Now Playing for Music</string>
 	<string id="31249">Get Logo</string>
 	<string id="31251">Location</string>
