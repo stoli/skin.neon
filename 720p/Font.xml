@@ -11,14 +11,9 @@
 			<linespacing>1</linespacing>
 		</font>
 		
+		
 		<font>
-			<name>Font_Bartowski_MainMenu</name>
-			<filename>Antipasto.ttf</filename> 
-			<size>45</size>
-			<linespacing>1</linespacing>
-		</font>
-		<font>
-			<name>Font_Bartowski_MainMenu_Focus</name>
+			<name>Font_Neon_45_Focus</name>
 			<filename>Antipasto.ttf</filename> 
 			<size>55</size>
 		</font>
@@ -171,7 +166,7 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
-			<name>Font_Bartowski_Movies_Title</name>
+			<name>Font_Neon_40</name>
 			<filename>Antipasto.ttf</filename>
 			<size>40</size>
 			<linespacing>1</linespacing>
@@ -236,11 +231,7 @@
 			<filename>Antipasto.ttf</filename>
 			<size>23</size>
 		</font>
-		<font>
-			<name>Font_Bartowski_List_Main</name>
-			<filename>Antipasto.ttf</filename>
-			<size>24</size>
-		</font>
+		
 		<font>
 			<name>Font_Bartowski_Showcase_plot</name>
 			<filename>Antipasto.ttf</filename>
@@ -298,7 +289,7 @@
 			<size>22</size>
 		</font>
 		<font>
-			<name>Font_Bartowski_MainMenu_Context</name>
+			<name>Font_Neon_45_Context</name>
 			<filename>Antipasto.ttf</filename>
 			<size>44</size>
 		</font>
@@ -675,13 +666,13 @@
 		</font>
 		
 		<font>
-			<name>Font_Bartowski_MainMenu</name>
+			<name>Font_Neon_45</name>
 			<filename>Arial.ttf</filename> 
 			<size>45</size>
 			<linespacing>1</linespacing>
 		</font>
 		<font>
-			<name>Font_Bartowski_MainMenu_Focus</name>
+			<name>Font_Neon_45_Focus</name>
 			<filename>Arial.ttf</filename> 
 			<size>55</size>
 		</font>
@@ -800,7 +791,7 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
-			<name>Font_Bartowski_Movies_Title</name>
+			<name>Font_Neon_40</name>
 			<filename>Arial.ttf</filename>
 			<size>40</size>
 			<linespacing>1</linespacing>
@@ -866,7 +857,7 @@
 			<size>23</size>
 		</font>
 		<font>
-			<name>Font_Bartowski_List_Main</name>
+			<name>Font_Neon_24</name>
 			<filename>Arial.ttf</filename>
 			<size>24</size>
 		</font>
@@ -927,7 +918,7 @@
 			<size>22</size>
 		</font>
 		<font>
-			<name>Font_Bartowski_MainMenu_Context</name>
+			<name>Font_Neon_45_Context</name>
 			<filename>Arial.ttf</filename>
 			<size>44</size>
 		</font>

@@ -37,7 +37,7 @@
 					<posy>50</posy>
 					<width>1280</width>
 					<height>30</height>
-					<font>Font_Bartowski_MainMenu_Context</font>
+					<font>Font_Neon_45_Context</font>
 					<label>$INFO[Listitem.Album]</label>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -51,7 +51,7 @@
 					<posy>30</posy>
 					<width>1280</width>
 					<height>30</height>
-					<font>Font_Bartowski_MainMenu_Context</font>
+					<font>Font_Neon_45_Context</font>
 					<label>$INFO[Listitem.Artist]</label>
 					<align>center</align>
 					<aligny>center</aligny>

@@ -35,7 +35,7 @@
 		<include>Viewtype_JukeBox</include><!-- 54 -->
 		<include>Viewtype_MusicShowcase</include><!-- 58 -->
 		<include>Viewtype_3daddon</include><!-- 56 -->
-		
+		<include>Viewtype_Songs></include><!-- 52 -->
 		<include>Global_Time_TopRight_Files</include>
 		
 		<include>7000_has_focus</include>

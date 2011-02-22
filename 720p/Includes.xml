@@ -244,7 +244,7 @@
 	
 	<!-- Debug objects -->
 	
-<!--	<include name="Object_DebugGrid">
+	<include name="Object_DebugGrid">
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -269,7 +269,7 @@
 			<texture>common/debuggrid.png</texture>
 			<visible>Skin.HasSetting(debuggrid)</visible>
 		</control>
-	</include> -->
+	</include> 
 	
 	
 	<include name="DialogID">
@@ -686,7 +686,7 @@
 	
 	<include name="Global_HeadingSectionVars">
 		<width>960</width>
-		<font>Font_Bartowski_Movies_Title</font>
+		<font>Font_Neon_40</font>
 		<textcolor>ffffffff</textcolor>
 		<align>right</align>
 	</include>

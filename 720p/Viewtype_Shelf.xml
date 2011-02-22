@@ -128,7 +128,7 @@
 				<height>50</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>Font_Bartowski_Movies_Title</font>
+				<font>Font_Neon_40</font>
 				<textcolor>mainblue</textcolor>
 				<label>"[B]$INFO[ListItem.Label][/B]"</label>
 				<include>Animation_Bartowski_Context_Zoom</include>

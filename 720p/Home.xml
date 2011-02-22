@@ -194,11 +194,11 @@
 			</control>
 		</control>
 		<include>Global_RSS</include>
-		<!-- <include>RSS_Music</include> -->
+		
 		<include>Time</include>
 		<include>Date</include>
 		<include>BottomLine_RSS</include>
 		<include>Music_Global_Home</include>
-		
+		<include>Object_DebugGrid</include>
 	</controls>
 </window>

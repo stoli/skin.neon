@@ -219,7 +219,7 @@
 					<posy>20</posy>
 					<width>500</width>
 					<height>500</height>
-					<font>Font_Bartowski_MainMenu</font>
+					<font>Font_Neon_45</font>
 					<label>[COLOR 60FFFFFF]$INFO[MusicPlayer.Time][/COLOR]</label>
 				</control>
 				<control type="label">
@@ -230,7 +230,7 @@
 					<posy>20</posy>
 					<width>500</width>
 					<height>500</height>
-					<font>Font_Bartowski_MainMenu</font>
+					<font>Font_Neon_45</font>
 					<label>[COLOR 60FFFFFF] / $INFO[MusicPlayer.Duration][/COLOR]</label>
 				</control> -->
 			

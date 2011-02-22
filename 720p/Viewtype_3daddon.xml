@@ -278,7 +278,7 @@
 			<width>1200</width>
 			<height>50</height>
 			<aligny>center</aligny>
-			<font>Font_Bartowski_Movies_Title</font>
+			<font>Font_Neon_40</font>
 			<textcolor>mainblue</textcolor>
 			<label>[B]$INFO[ListItem.Album][/B]</label>
 		</control>
@@ -314,7 +314,7 @@
 			<width>1200</width>
 			<height>50</height>
 			<aligny>center</aligny>
-			<font>Font_Bartowski_Movies_Title</font>
+			<font>Font_Neon_40</font>
 			<textcolor>mainblue</textcolor>
 			<label>[B]$INFO[ListItem.Label][/B]</label>
 		</control>

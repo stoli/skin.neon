@@ -28,7 +28,7 @@
 					<posx>30</posx>
 					<posy>58</posy>
 					<align>center</align>
-					<font>Font_Bartowski_MainMenu</font>
+					<font>Font_Neon_45</font>
 					<textcolor>38b8b7b7</textcolor>
 					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 				<!--	<animation effect="slide" end="0,600" time="600" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
@@ -45,7 +45,7 @@
 					<posx>160</posx>
 					<posy>52</posy>
 					<align>center</align>
-					<font>Font_Bartowski_MainMenu_Focus</font>
+					<font>Font_Neon_45_Focus</font>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>

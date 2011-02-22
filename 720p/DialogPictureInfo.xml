@@ -28,7 +28,7 @@
 				<posy>40</posy>
 				<width>710</width>
 				<height>30</height>
-				<font>Font_Bartowski_MainMenu_Context</font>
+				<font>Font_Neon_45_Context</font>
 				<label>$LOCALIZE[13406]</label>
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
