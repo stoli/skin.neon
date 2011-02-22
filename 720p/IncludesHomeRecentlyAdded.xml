@@ -1,7 +1,4 @@
 <includes>
-
-	
-	
 	<include name="HomeRecentlyAddedInfo_2">
 		<control type="group" id="78881">
 			<visible>!Window.IsVisible(Favourites) </visible>
@@ -373,7 +370,7 @@
 					</content>
 				</control>
 			</control>
-<!-- TV Middle -->
+<!-- TV  -->
 			<control type="group">
 				<posx>275r</posx>
 				<posy>160</posy>
@@ -587,10 +584,9 @@
 					</content>
 				</control>
 			</control>
-<!-- TV Bottom -->
-	
 		</control>
-			<!--Music widget-->
+
+		<!--Music widget-->
 			<control type="group">
 				<posx>90r</posx>
 				<posy>105</posy>
@@ -743,7 +739,5 @@
 				</control>
 			</control>
 	</include>
-	
 
-	
 </includes>
