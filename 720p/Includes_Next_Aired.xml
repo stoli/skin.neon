@@ -321,9 +321,9 @@
 		<include>Animation_Viewtype_Landscape_BottomInfo</include>
 		<visible>Control.IsVisible(59) + Container.Content(tvshows) + !SubString(ListItem.Icon,DefaultFolderBack.png,Left) + !Window.IsActive(videofiles)</visible>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -332,7 +332,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.1.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -343,7 +343,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.2.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -353,7 +353,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.3.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -364,7 +364,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.4.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -375,7 +375,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.5.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -386,7 +386,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.6.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -397,7 +397,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.7.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -408,7 +408,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.8.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -419,7 +419,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.9.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -430,7 +430,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.10.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -441,7 +441,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.11.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -452,7 +452,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.12.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -463,7 +463,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.13.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -474,7 +474,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.14.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -485,7 +485,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.15.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -496,7 +496,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.16.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -507,7 +507,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.17.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -518,7 +518,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.18.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -529,7 +529,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.19.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -540,7 +540,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.20.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -551,7 +551,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.21.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -562,7 +562,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.22.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -573,7 +573,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.23.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -584,7 +584,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.24.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -595,7 +595,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.25.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -606,7 +606,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.26.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -617,7 +617,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.27.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -628,7 +628,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.28.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>
@@ -639,7 +639,7 @@
 				<visible>StringCompare(Window(Home).Property(NextAired.29.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="label">
-				<posx>-237</posx>
+				<posx>0</posx>
 				<posy>18</posy>
 				<width>570</width>
 				<height>50</height>

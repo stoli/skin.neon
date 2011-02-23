@@ -1,3 +1,20 @@
+[B]Updated 02/23/2011:[/B]
+v.9.5.0
+
+- Menu bar is only supported at the bottom of the screen now.  This eliminated several thousand lines of code that had to be messed with for any changes on the home screen.  If you really liked the menu bar in the middle, sorry. :)
+- Fixed Recently added and up/down behaviour
+- Music views fixed/updated/added
+	- Wallpaper now uses a fall-back an doesn't stick on last displayed if there is not one available
+	- Info View adjusted
+	- 2 new Media Views added
+	- Song viewtype added
+- TV / Movies Views added
+	- New Media views added
+
+- All new time/weather widget
+- New simple Now Playing at top of screen
+- Bug fixes
+
 [B]Updated 01/30/2011:[/B]
 v.9.0.0
 

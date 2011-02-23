@@ -495,8 +495,8 @@
 				<label>$INFO[ListItem.Label]</label>
 				<visible>Container.Content(movies) + !Skin.HasSetting(clean_poster)</visible>
 			</control>
-			<control type="image" id="7015">
-				<posx>20</posx>
+		<!--	<control type="image" id="7015">
+				<posx>0</posx>
 				<posy>30</posy>
 				<width>230</width>
 				<height>89</height>
@@ -507,7 +507,7 @@
 				<visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 			</control>
 			<control type="image" id="9015">
-				<posx>20</posx>
+				<posx>0</posx>
 				<posy>30</posy>
 				<width>230</width>
 				<height>89</height>
@@ -516,7 +516,7 @@
 				<aspectratio scalediffuse="false">stretch</aspectratio>
 				<include>Animation_HiddenByInfo</include>
 				<visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
-			</control>
+			</control> -->
 			<control type="label">
 				<posx>20</posx>
 				<posy>30</posy>

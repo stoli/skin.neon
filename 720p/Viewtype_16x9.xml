@@ -389,7 +389,7 @@
 		
 		<control type="group"> 
 			<visible>Control.IsVisible(59) + !IsEmpty(ListItem.Title)</visible>
-			<posx>360</posx>
+			<posx>380</posx>
 			<posy>80</posy>
 			<animation effect="slide" start="0,0" end="-1000,0" time="600" delay="2800" condition="Container.Content(episodes) + ![Container(59).OnNext | Container(59).OnPrevious]">Conditional</animation>
 			<include>Animation_HiddenByInfo</include>
@@ -471,8 +471,8 @@
 				<animation effect="slide" start="0,0" end="-1000,0" time="600" delay="2800" condition="Container.Content(episodes) + ![Container(59).OnNext | Container(59).OnPrevious]">Conditional</animation>
 				<include>Animation_Viewtype_Panel_BottomArea</include>
 				<include>Animation_HiddenByInfo</include>
-				<posx>366</posx>
-				<posy>636</posy>
+				<posx>420</posx>
+				<posy>646</posy>
 				<orientation>horizontal</orientation>
 				<control type="label">
 					<description>First Premiered in</description>
@@ -514,8 +514,8 @@
 			</control>
 		
 	<control type="label">
-		<posx>530</posx>
-		<posy>580</posy>
+		<posx>560</posx>
+		<posy>530</posy>
 		<width>300</width>
 		<height>100</height>
 		<font>Font_TVShow</font>
@@ -526,8 +526,8 @@
 	</control>
 			
 	<control type="grouplist" id="2448">
-	<posx>800</posx>
-	<posy>600</posy>
+	<posx>830</posx>
+	<posy>550</posy>
 	<onup>52</onup>
 	<ondown>69</ondown>
 	<orientation>horizontal</orientation>
@@ -626,8 +626,8 @@
 	</control>
 		
 	<control type="grouplist">
-		<posx>-30</posx>
-		<posy>614</posy>
+		<posx>0</posx>
+		<posy>564</posy>
 		<width>1280</width>
 		<align>center</align>
 		<orientation>horizontal</orientation>
@@ -716,8 +716,8 @@
 		</control>
 	
 	<control type="grouplist">
-		<posx>-30</posx>
-		<posy>614</posy>
+		<posx>0</posx>
+		<posy>564</posy>
 		<width>1280</width>
 		<align>center</align>
 		<orientation>horizontal</orientation>
@@ -796,8 +796,8 @@
 		</control>
 	
 	<control type="grouplist">
-		<posx>-30</posx>
-		<posy>690</posy>
+		<posx>0</posx>
+		<posy>640</posy>
 		<width>1280</width>
 		<align>center</align>
 		<orientation>horizontal</orientation>
