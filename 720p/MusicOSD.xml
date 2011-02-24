@@ -149,7 +149,7 @@
 					<ondown>604</ondown>
 					<onclick>Close</onclick>
 					<onclick>XBMC.RunScript($INFO[Skin.String(LyricScript_Path)])</onclick>
-					<enable>Skin.HasSetting(LyricScript_Enable) + !IsEmpty(Skin.String(LyricScript_Path))</enable>
+					<visible>Skin.HasSetting(show_lyrics) + !IsEmpty(Skin.String(LyricScript_Path))</visible>
 					<animation effect="fade" start="100" end="50" time="100" condition="![Skin.HasSetting(LyricScript_Enable) + !IsEmpty(Skin.String(LyricScript_Path))]">Conditional</animation>
 				</control>
 				<control type="button" id="704">
