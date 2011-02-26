@@ -191,7 +191,7 @@
 		</control>
 		<control type="image" id="37015">
 			<posx>20</posx>
-			<posy>0</posy>
+			<posy>30</posy>
 			<width>230</width>
 			<height>89</height>
 			<texture background="true">$INFO[ListItem.path]logo.png</texture>
@@ -200,7 +200,7 @@
 		</control>
 		<control type="image" id="39015">
 			<posx>20</posx>
-			<posy>0</posy>
+			<posy>30</posy>
 			<width>230</width>
 			<height>89</height>
 			<texture background="true">$INFO[ListItem.path]../logo.png</texture>
@@ -209,7 +209,7 @@
 		</control>
 		<control type="label">
 			<posx>20</posx>
-			<posy>0</posy>
+			<posy>30</posy>
 			<width>1200</width>
 			<height>50</height>
 			<aligny>center</aligny>
@@ -220,7 +220,7 @@
 		</control>
 		<control type="label">
 			<posx>20</posx>
-			<posy>90</posy>
+			<posy>120</posy>
 			<width>230</width>
 			<height>89</height>
 			<align>center</align>

@@ -253,38 +253,34 @@
 			<texture>common/black.png</texture>
 			<visible>Skin.HasSetting(debuggrid)</visible>
 		</control>
-		<control type="label">
-			<posx>4</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>18</height>
-			<aligny>center</aligny>
-			<font>Medium</font>
-			<textcolor>white</textcolor>
-			<label>$INFO[Window.Property(xmlfile)] / $INFO[System.Screenresolution] / $LOCALIZE[158] - $INFO[System.FreeMemory]$INFO[System.CurrentWindow / ]$INFO[System.CurrentControl, / ]</label>
-			<visible>Skin.HasSetting(debuggrid)</visible>
-		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>common/debuggrid.png</texture>
 			<visible>Skin.HasSetting(debuggrid)</visible>
 		</control>
-	</include> 
-	
-	
-	<include name="DialogID">
-		<posx>10</posx>
-		<posy>35</posy>
-		<font>Large</font>
-		<textcolor>TextDisabled</textcolor>
-		<align>left</align>
-	</include>
-	<include name="WindowID">
-		<posx>10</posx>
-		<posy>10</posy>
-		<font>Large</font>
-		<textcolor>TextDisabled</textcolor>
-		<align>left</align>
+		<control type="label">
+			<posx>4</posx>
+			<posy>20</posy>
+			<width>1280</width>
+			<height>18</height>
+			<aligny>center</aligny>
+			<font>Font_Neon_24</font>
+			<textcolor>selected</textcolor>
+			<label>$INFO[Window.Property(xmlfile)] / $INFO[System.Screenresolution] / $LOCALIZE[158] - $INFO[System.FreeMemory]$INFO[System.CurrentWindow / ]$INFO[System.CurrentControl, / ]</label>
+			<visible>Skin.HasSetting(debuggrid)</visible>
+		</control>
+		<control type="label">
+			<posx>4</posx>
+			<posy>40</posy>
+			<width>1280</width>
+			<height>18</height>
+			<aligny>center</aligny>
+			<font>Font_Neon_24</font>
+			<textcolor>selected</textcolor>
+			<label>$INFO[Window[name].Property] $INFO[System.CurrentWindow / ]$INFO[System.CurrentControl, / ]</label>
+			<visible>Skin.HasSetting(debuggrid)</visible>
+		</control>
+		
 	</include>
 	<!-- Global dimensions -->
 	<include name="Dimensions_Fullscreen">

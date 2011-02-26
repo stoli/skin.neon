@@ -1,3 +1,12 @@
+[B]Updated 02/26/2011:[/B]
+v9.5.1
+- Fixed overlapping issue in Now Playing reported by tboooe
+- Fixed some VideoOSD positioning issues
+- Fixed TV show logo positioning issues
+- Fixed 16x9 and Next Aired
+- Foxed 16x9 Logo
+- Added Media view to Now Playing
+
 [B]Updated 02/23/2011:[/B]
 v.9.5.0
 

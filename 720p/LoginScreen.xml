@@ -193,6 +193,6 @@
 			</control>
 		</control>
 		
-		<include>Global_Time</include>
+		<include>Time</include>
 	</controls>
 </window>

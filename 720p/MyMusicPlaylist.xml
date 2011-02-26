@@ -3,6 +3,7 @@
 <window id="500">
 	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
+	<views>50,54,506</views>
 	<controls>
 		<control type="image">
 			<description>artist level fanart</description>
@@ -15,11 +16,13 @@
 			<fadetime>400</fadetime>
 			<include>VisibleFadeEffect</include>
 		</control>
-		<include>Viewtype_JukeBox</include>
+		
+		
+		<include>MusicInfoListView</include>
 		<include>Viewtype_Files</include>
-
+		<include>Viewtype_JukeBox</include>
 		<!-- view options -->
-		<include>Global_Time</include>
+		<include>Time</include>
 		<include>7000_has_focus</include>
 		
 		<control type="image"><!-- Floor -->
@@ -27,15 +30,16 @@
 			<posy>650</posy>
 			<width>1280</width>
 			<height>70</height>
-			<texture>notification_background.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>mainmenu/home_bottom_white.png</texture>
 			<visible>ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
-			<include>Animation_ViewOptions_whitebar</include>
+			<include>Animation_Fade75</include>
 		</control>
 		<control type="grouplist" id="7000">
 			<visible>Window.IsActive(500)</visible>
-			<width>1100</width>
+			<width>1280</width>
 			<height>40</height>
-			<posx>180</posx>
+			<posx>190</posx>
 			<onup>50</onup>
 			<ondown>50</ondown>
 			<itemgap>0</itemgap>
@@ -49,7 +53,7 @@
 				<onclick>Container.NextViewMode</onclick>
 			</control>
 			<control type="button" id="20">
-				<description>shuffle</description>
+				<description>Shuffle</description>
 				<label>$LOCALIZE[191]</label>
 				<include>WindowMenuButton</include>
 			</control>
@@ -80,6 +84,9 @@
 			</control>
 		</control>
 		<control type="grouplist">
+			<width>1280</width>
+			<height>40</height>
+			<posx>0</posx>
 			<visible>!Skin.HasSetting(LockViews)</visible>
 			<include>WindowMenuVars</include>
 			<posy>655</posy>
@@ -113,7 +120,7 @@
 				<label>Playlist</label>
 			</control>
 		</control>
-
+	<include>Object_DebugGrid</include>
 	</controls>
 
 </window>

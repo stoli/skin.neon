@@ -325,7 +325,6 @@
 				<posy>18</posy>
 				<width>670</width>
 				<height>50</height>
-
 				<aligny>center</aligny>
 				<font>Font_TVShow</font>
 				<label>[COLOR=mainblue]Next Episode:[/COLOR] [COLOR=white]$INFO[Window(Home).Property(NextAired.1.NextDate)] - $INFO[Window(Home).Property(NextAired.1.NextTitle)][/COLOR]</label>
@@ -334,7 +333,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -345,7 +344,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 				<aligny>center</aligny>
 				<font>Font_TVShow</font>
@@ -355,7 +354,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -366,7 +365,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -377,7 +376,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -388,7 +387,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -399,7 +398,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -410,7 +409,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -421,7 +420,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -432,7 +431,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -443,7 +442,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -454,7 +453,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -465,7 +464,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -476,7 +475,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -487,7 +486,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -498,7 +497,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -509,7 +508,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -520,7 +519,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -531,7 +530,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -542,7 +541,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -553,7 +552,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -564,7 +563,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -575,7 +574,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -586,7 +585,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -597,7 +596,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -608,7 +607,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -619,7 +618,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -630,7 +629,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>
@@ -641,7 +640,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>18</posy>
-				<width>570</width>
+				<width>670</width>
 				<height>50</height>
 
 				<aligny>center</aligny>

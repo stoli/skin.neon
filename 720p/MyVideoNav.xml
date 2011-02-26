@@ -152,7 +152,7 @@
 	</control>
 		<include>Time</include>
 		<include>Library Totals</include>
-		
+		<include>Object_DebugGrid</include>
 <!--		<include>7000_has_focus</include> -->
 		
 	<control type="group">
