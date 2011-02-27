@@ -478,7 +478,7 @@
 					<posy>245</posy>
 					<width>600</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Season,[COLOR=blue] $LOCALIZE[20373] :[/COLOR] ] $INFO[ListItem.episode,[COLOR=blue] $LOCALIZE[20359] :[/COLOR] ] $INFO[ListItem.premiered,[COLOR=blue] $LOCALIZE[31322] :[/COLOR] ]</label>
+					<label>$INFO[ListItem.Season,[COLOR=mainblue] $LOCALIZE[20373] :[/COLOR] ] $INFO[ListItem.episode,[COLOR=mainblue] $LOCALIZE[20359] :[/COLOR] ] $INFO[ListItem.premiered,[COLOR=mainblue] $LOCALIZE[31322] :[/COLOR] ]</label>
 					<align>center</align>
 					<aligny>top</aligny>
 					<font>Font_Neon_24</font>
