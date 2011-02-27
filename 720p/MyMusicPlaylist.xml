@@ -23,6 +23,9 @@
 		<include>Viewtype_JukeBox</include>
 		<!-- view options -->
 		<include>Time</include>
+		
+		<include>ScrollOffsetLabel</include>
+
 		<include>7000_has_focus</include>
 		
 		<control type="image"><!-- Floor -->

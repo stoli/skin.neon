@@ -241,7 +241,33 @@
 		<textcolor>ffb8b7b7</textcolor>
 		<focusedcolor>mainblue</focusedcolor>
 	</include>
-	
+	<include name="ScrollOffsetLabel">
+                <control type="group">
+			<visible>Container.Scrolling + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[558]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[556])]</visible>
+			<animation effect="slide" start="0,0" end="0,-60" time="100">Visible</animation>
+			<animation effect="slide" start="0,-60" end="0,0" delay="400" time="100">Hidden</animation>
+			<posx>300r</posx>
+			<posy>720</posy>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>70</width>
+				<height>65</height>
+				<texture border="20,20,20,2">InfoMessagePanel.png</texture>
+			</control>
+			<control type="label">
+				<posx>5</posx>
+				<posy>0</posy>
+				<width>65</width>
+				<height>60</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<label>[B]$INFO[ListItem.SortLetter][/B]</label>
+				<textcolor>mainblue</textcolor>
+				<font>Font_Neon_30</font>
+			</control>
+                </control>
+	</include>	
 	<!-- Debug objects -->
 	
 	<include name="Object_DebugGrid">
@@ -559,7 +585,48 @@
 			</control>
 		</control>
 	</include>
-	
+	<include name="Finish_Time">
+		<control type="group">
+			<visible>Skin.HasSetting(library_global_clock)</visible>
+			<posx>0</posx>
+			<posy>0</posy>
+			<control type="group">
+				<visible>Skin.HasSetting(weather_info)</visible>
+				<animation effect="slide" start="-500,0" end="-120,0" time="500">WindowOpen</animation>
+				<animation effect="slide" start="-120,0" end="-500,0" time="400">WindowClose</animation>
+				<control type="image">
+					<colordiffuse>mainblue</colordiffuse>
+					<texture flipx="true">MenuItemFO_small.png</texture>
+				</control>
+				<control type="label">
+					<posx>265</posx>
+					<posy>2</posy>
+					<font>Font_RSS</font>
+					<width>100</width>
+					<textcolor>white</textcolor>
+					<label>$INFO[Player.FinishTime]</label>
+					<align>center</align>
+				</control>
+			</control>
+			<control type="group">
+				<animation effect="slide" start="-500,0" end="-210,0" time="400">WindowOpen</animation>
+				<animation effect="slide" start="-210,0" end="-400,0" time="300">WindowClose</animation>
+				<control type="image">
+					<colordiffuse>mainblue</colordiffuse>
+					<texture flipx="true">MenuItemFO_small.png</texture>
+				</control>
+				<control type="label">
+					<posx>195</posx>
+					<posy>2</posy>
+					<width>180</width>
+					<font>Font_RSS</font>
+					<textcolor>white</textcolor>
+					<label>$LOCALIZE[31075]</label>
+					<align>center</align>
+				</control>	
+			</control>
+		</control>
+	</include>
 	<include name="Global_Time_TopRight_OSD">
 		<control type="group">
 		<visible>Skin.HasSetting(library_global_clock)</visible>
@@ -568,6 +635,40 @@
 			<animation effect="slide" start="0,-145" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,-145" time="300" delay="150" tween="quadratic" easing="out">WindowClose</animation>
 			<animation effect="slide" start="0,0" end="0,-145" time="300" tween="quadratic" easing="out" condition="Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)">Conditional</animation>
+				
+				<control type="image">
+					<animation type="WindowOpen">
+						<effect type="fade" start="0" end="50" time="60" />
+					</animation>
+					<animation type="WindowClose">
+						<effect type="fade" start="50" end="0" time="600" />
+					</animation>
+					<description> upper backgound </description>
+					<posx>0</posx>
+					<posy>-140</posy>
+					<width>1280</width>
+					<height>256</height>
+					<colordiffuse>mainblue</colordiffuse>
+					<texture>MediaInfoBackUpper.png</texture>
+					<aspectratio>stretch</aspectratio>
+					<visible>Window.IsVisible(videoosd) | Window.IsVisible(musicosd)</visible> -->
+				</control>
+				
+				 <include>Time</include>
+				 
+			
+			<control type="group">
+			<visible>Skin.HasSetting(library_global_clock)</visible>
+				
+				<animation type="WindowOpen">
+
+					<effect type="fade" start="0" end="100" time="600" />
+					<effect type="fade" start="100" end="0" time="600" delay="3000" />
+				</animation>
+				<animation type="WindowClose">
+				<effect type="fade" start="0" end="0" time="600" />
+					<!-- <effect type="fade" start="0" end="0"/> -->
+				</animation>
 				<control type="image">
 					<animation type="WindowOpen">
 						<effect type="fade" start="0" end="50" time="60" />
@@ -579,70 +680,13 @@
 					<posx>0</posx>
 					<posy>0</posy>
 					<width>1280</width>
-					<height>40</height>
+					<height>32</height>
 					<colordiffuse>mainblue</colordiffuse>
 					<texture flipy="true">MediaInfoBacklower.png</texture>
 					<aspectratio>stretch</aspectratio>
 					<visible>!Window.IsVisible(videoosd) + !Window.IsVisible(musicosd)</visible>
+					
 				</control>
-				<control type="image">
-					<animation type="WindowOpen">
-						<effect type="fade" start="0" end="50" time="60" />
-					</animation>
-					<animation type="WindowClose">
-						<effect type="fade" start="50" end="0" time="600" />
-					</animation>
-					<description> upper backgound </description>
-					<posx>0</posx>
-					<posy>-145</posy>
-					<width>1280</width>
-					<height>256</height>
-					<colordiffuse>mainblue</colordiffuse>
-					<texture>MediaInfoBackUpper.png</texture>
-					<aspectratio>stretch</aspectratio>
-					<visible>Window.IsVisible(videoosd) | Window.IsVisible(musicosd)</visible> -->
-				</control>
-				<control type="label">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<posx>1260</posx>
-					<posy>3</posy>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=white]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]  [/COLOR][COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="label">
-					<visible>!Skin.HasSetting(weather_info)</visible>
-					<posx>1260</posx>
-					<posy>3</posy>
-					<width>300</width>
-					<font>Font_RSS_Unicode</font>
-					<textcolor>mainblue</textcolor>
-					<label>[COLOR=mainblue]$INFO[System.Time(hh:mmxx)][/COLOR]</label>
-					<align>right</align>
-				</control>
-				<control type="image">
-					<visible>Skin.HasSetting(weather_info)</visible>
-					<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
-					<width>25</width>
-					<height>25</height>
-					<posx>1065</posx>
-					<posy>5</posy>
-					<aligny>center</aligny>
-				</control>
-			<!-- JVB -->
-			<control type="group">
-			<visible>Skin.HasSetting(library_global_clock)</visible>
-				<animation type="WindowOpen">
-
-					<effect type="fade" start="0" end="100" time="600" />
-					<effect type="fade" start="100" end="0" time="600" delay="3000" />
-				</animation>
-				<animation type="WindowClose">
-				<effect type="fade" start="0" end="0" time="600" />
-					<!-- <effect type="fade" start="0" end="0"/> -->
-				</animation>
 				<control type="progress">
 					<texturebg>osd/osd_progress_back1.png</texturebg>
 					<lefttexture>osd/left.png</lefttexture>
@@ -663,7 +707,7 @@
 					<align>left</align> 
 					<font>Font_RSS_Unicode</font>
 					<textcolor>mainblue</textcolor>
-					<label>$INFO[VideoPlayer.Time]</label>
+					<label>$INFO[VideoPlayer.Duration]</label>
 					<visible>!Window.IsActive(115) + !Window.IsActive(2901) +!Window.IsVisible(musicosd)</visible>
 				</control>
 				<control type="label">
@@ -677,8 +721,8 @@
 					<visible>!Window.IsActive(115) + !Window.IsActive(2901) +!Window.IsVisible(musicosd)</visible>
 				</control>
 			</control>
-			<!-- JVB -->
-			</control>
+			
+		</control>
 		
 	</include>
 	

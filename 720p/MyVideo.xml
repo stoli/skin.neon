@@ -44,7 +44,8 @@
 		<include>Trailer_16x9</include>
 		<include>Trailer_Files</include>
 		<include>Trailer_Poster</include>
-		
+		<include>ScrollOffsetLabel</include>
+
 	<!--	<include>Global_Time_TopRight_Files</include>  -->
 		
 		<include>RSS_Music</include>

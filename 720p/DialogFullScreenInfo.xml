@@ -4,11 +4,12 @@
 	<defaultcontrol>2</defaultcontrol>
 	<controls>	
 	
-	<include>Global_Time_TopRight_OSD</include>
+	<!-- <include>Global_Time_TopRight_OSD</include> -->
+	
 	
 	<control type="group">	
 	<animation type="WindowOpen">
-				<effect type="fade" start="0" end="100" time="600" delay="3000" />
+				<effect type="fade" start="0" end="100" time="600" delay="600" />
 			</animation>	
 		<control type="group">		
 			<posy>560</posy>
@@ -244,7 +245,7 @@
 		</control>
 	</control>
 	</control>	
-			<control type="label">
+		<!--	<control type="label">
 			<animation effect="slide" start="0,-145" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,-145" time="300" delay="150" tween="quadratic" easing="out">WindowClose</animation>
 			<animation effect="slide" start="0,0" end="0,-145" time="300" tween="quadratic" easing="out" condition="Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)">Conditional</animation>
@@ -254,8 +255,13 @@
 				<textcolor>white</textcolor>
 				<font>Font_RSS_Unicode</font>
 				<visible>Skin.HasSetting(library_global_clock)</visible>
-			</control>	
+			</control>	-->
 			
+			<!-- New Finish Time -->
+			
+	<include>Finish_Time</include>	
+	<include>Time</include>
+	
 			
 	</controls> 
 </window>

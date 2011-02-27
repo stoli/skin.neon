@@ -135,7 +135,7 @@
 		<include>Trailer_16x9</include>
 		<include>Trailer_Files</include>
 		<include>Trailer_Poster</include>
-		
+		<include>ScrollOffsetLabel</include>
 		
 <control type="group">	
 		<visible>!SubString(Window(25).Property(TvTunesIsAlive),True)</visible>

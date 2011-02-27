@@ -66,6 +66,7 @@
 		<include>Viewtype_Episode</include>
 		<include>Viewtype_Newest_Episodes</include>
 		<include>Viewtype_Showcase</include>
+		<include>ScrollOffsetLabel</include>
 
 		
 		<include>7000_has_focus</include>

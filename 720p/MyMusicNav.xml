@@ -75,7 +75,9 @@
 	</control>
 		
 		<include>Time</include>
+		
 		<include>Library Totals</include>
+		<include>ScrollOffsetLabel</include>
 		
 		<include>7000_has_focus</include>
 		

@@ -19,6 +19,7 @@
 		<include>Viewtype_Poster</include>
 		<include>Viewtype_3daddon</include><!--  56  -->
 		<include>MediaListView3</include> <!-- 503 -->
+		<include>ScrollOffsetLabel</include>
 		
 		
 		<include>7000_has_focus</include>

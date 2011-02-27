@@ -420,5 +420,8 @@
 		</control>
 		<include>Time</include>
 		
+		<include>ScrollOffsetLabel</include>
+
+		
 	</controls>
 </window>

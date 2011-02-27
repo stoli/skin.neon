@@ -36,8 +36,10 @@
 		<include>Viewtype_MusicShowcase</include><!-- 58 -->
 		<include>Viewtype_3daddon</include><!-- 56 -->
 		<include>Viewtype_Songs></include><!-- 52 -->
-		<include>Global_Time_TopRight_Files</include>
+		<include>Time</include>
 		
+		<include>ScrollOffsetLabel</include>
+
 		<include>7000_has_focus</include>
 		
 	<control type="group">
