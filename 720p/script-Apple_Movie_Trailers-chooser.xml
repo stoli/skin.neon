@@ -227,7 +227,7 @@
 			</control>
 		</control>
 		<include>SideBladeRight</include>
-		<include>Global_Time_TopRight</include>
+		<include>Time</include>
 
 		<!-- ** Required ** Do not change <description> -->
 		<control type="label" id="502">

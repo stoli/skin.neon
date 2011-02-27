@@ -595,7 +595,6 @@
 	</control>
 			
 		<include>Trailer_Showcase</include>
-		<include>Music_Global_Showcase</include>
 		
 		<control type="scrollbar" id="68">
 			<include>Animation_ZoomInZoomOut</include>

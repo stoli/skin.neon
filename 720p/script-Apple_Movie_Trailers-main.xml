@@ -873,7 +873,7 @@
 				<label>$INFO[Container.Property(Category)]</label>
 			</control>
 		</control>
-		<include>Global_Time_TopRight</include>
+		<include>Time</include>
 <!-- Bunch of stuff required by amt to run proper but not in this skin -->
 		<!-- ** Required ** Do not change id or type-->
 		<control type="button" id="108">

@@ -4,7 +4,8 @@
 	<defaultcontrol>901</defaultcontrol>
 	<visible>Window.IsActive(2005) + !Window.IsActive(2901) + !Window.IsActive(142) + !Control.IsVisible(10) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 	<controls>
-		<include>Global_Time_TopRight_OSD</include>
+		<include>Time</include>
+		<include>Finish_Time</include>
 		<include>Object_DebugGrid</include>
 		<control type="group">
 			<posy>567</posy>
@@ -207,14 +208,7 @@
 				 <info>Player.StarRating</info>
 				<visible>VideoPlayer.Content(episodes) + Skin.HasSetting(library_global_clock)</visible>
 		   </control>		 -->	
-			<control type="label">
-				<posx>15</posx>
-				<posy>-562</posy>
-				<label>$LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
-				<textcolor>white</textcolor>
-				<font>Font_RSS_Unicode</font>
-				<visible>Skin.HasSetting(library_global_clock)</visible>
-			</control>					
+								
 
 			<control type ="image" id="7657"> 
 				<description>tv show image</description>

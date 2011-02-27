@@ -5,7 +5,7 @@
 
 		<!-- Poster Wrap View -->
 		
-		<include>Music_Global_TopRight_Music_Showcase</include>
+		
 		
 		<control type="wraplist" id="59">
 			<posx>0</posx>

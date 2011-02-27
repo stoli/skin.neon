@@ -364,7 +364,7 @@
 	</control>
 		
 		
-	<include>global_time_topright</include>
+	<include>Time</include>
 	</include>
 
 </includes>

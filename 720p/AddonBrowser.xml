@@ -123,6 +123,6 @@
 				</control>
 			</control>
 		</control>
-		<include>Global_Time_TopRight</include>
+		<include>Time</include>
 	</controls>
 </window>

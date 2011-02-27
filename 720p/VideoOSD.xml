@@ -10,7 +10,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackUpper.png</texture>
 			</control>  -->
-	<include>Global_Time_TopRight_OSD</include>
+	<include>Time</include>
 	<include>Finish_Time</include>
 				
 	

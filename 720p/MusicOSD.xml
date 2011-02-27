@@ -422,7 +422,7 @@
 				<shadowcolor>black</shadowcolor>
 			</control>
 
-			<include>Global_Time_TopRight_OSD</include>
+			<include>Time</include>
 		</control>
 	</controls>
 </window>

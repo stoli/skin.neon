@@ -3396,6 +3396,6 @@
 				<texture>XBMC_Logo.png</texture>
 			</control>
 		</control> 
-		<include>Global_Time_TopRight_Files</include>
+		<include>Time</include>
 	</controls>
 </window>

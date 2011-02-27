@@ -116,7 +116,7 @@
 		<include>Viewtype_List</include><!--  53  -->
 		<include>Viewtype_Episode</include><!--  51  -->
 		<include>Viewtype_Wall</include><!--  54  -->
-		<include>Viewtype_Fanart</include><!--  56  TV=Panel -->
+		<include>Viewtype_Panel</include><!--  56  TV=Panel -->
 		<include>Viewtype_PanelLandscape</include><!--  57  -->
 		<include>Viewtype_BannerPanel</include><!--  592  -->
 		<include>Viewtype_WallPanel</include><!--  597  -->
@@ -139,14 +139,7 @@
 		
 <control type="group">	
 		<visible>!SubString(Window(25).Property(TvTunesIsAlive),True)</visible>
-		<!--	<include>Music_Global_TopRight</include>
-			<include>Music_Global_Showcase</include>
-			
-			<include>Music_Global_LowerRight</include>
-			<include>Music_Global_LowerLeft</include>
-			<include>Music_Global_Lowerleft_Music</include>
-			<include>Music_Global_TopRight_Music_Showcase</include>
-			<include>Music_Global_TopLeft_Music</include> -->
+		
 			<include>RSS_Music</include>
 			
 	</control>

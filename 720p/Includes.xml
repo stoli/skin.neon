@@ -12,7 +12,7 @@
 	<include file="Viewtype_List2.xml" />
 	<include file="Viewtype_Landscape.xml" />
 	<include file="Viewtype_Landscape_Fanart.xml" />
-	<include file="Viewtype_Fanart.xml" />
+	<include file="Viewtype_Panel.xml" />
 	<include file="Viewtype_Files.xml" />
 	<include file="Viewtype_Showcase.xml" />
 	<include file="Viewtype_MusicShowcase.xml" />
@@ -62,40 +62,7 @@
 		</control>
 	</include>
 	
-<!--
-	<include name="horizontal_onup_middle">
-		<onup></onup>
-	</include>
-	<include name="horizontal_onup_lower">
-		<onup>78881</onup>
-	</include>
-	
-	
-	<include name="middle_horizontal_movies">
-		<onup>Control.SetFocus(8000,0)</onup>
-		<ondown>301</ondown>
-	</include>
-	<include name="lower_horizontal_movies">
-		<onup>Control.SetFocus(9001,0)</onup>
-		<ondown>301</ondown>
-	</include>
-	<include name="middle_horizontal_tv">
-		<onup>Control.SetFocus(8001,0)</onup>
-		<ondown>301</ondown>
-	</include>
-	<include name="lower_horizontal_tv">
-		<onup>Control.SetFocus(8001,0)</onup>
-		<ondown>301</ondown>
-	</include>
-	<include name="middle_horizontal_music">
-		<onup>Control.SetFocus(8002,0)</onup>
-		<ondown>301</ondown>
-	</include>
-	<include name="lower_horizontal_music">
-		<onup>Control.SetFocus(8002,0)</onup>
-		<ondown>301</ondown>
-	</include>
-	-->
+
 	<include name="switch_vertical_home">
 		<onfocus>SetFocus(300)</onfocus>
 	</include>
@@ -177,7 +144,13 @@
 			<animation effect="slide" start="0,0" end="26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
 		</control>
 	</include>
-
+	<include name="DialogID">
+		<posx>10</posx>
+		<posy>35</posy>
+		<font>Font_Neon_16</font>
+		<textcolor>TextDisabled</textcolor>
+		<align>left</align>
+	</include>
 	
 	<include name="ondown_small_trailer">
 		<ondown>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</ondown>
