@@ -192,6 +192,18 @@
 				<textcolor>mainblue</textcolor>
 				<label>$LOCALIZE[563]:</label>
 			</control>
+			<control type="fadelabel">
+				<description>Rating Value</description>
+				<posx>410</posx>
+				<posy>315</posy>
+				<width>460</width>
+				<height>25</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>Font_Neon_20</font>
+				<textcolor>white</textcolor>
+				<label fallback="161">$INFO[ListItem.Rating]</label>
+			</control>
 			<control type="label">
 				<description>Comment Title</description>
 				<posx>400</posx>
@@ -210,7 +222,8 @@
 				<posy>345</posy>
 				<width>460</width>
 				<height>100</height>
-				<font>Font_Neon_20_title</font>
+				<font>Font_Neon_20</font>
+				<textcolor>white</textcolor>
 				<pagecontrol>-</pagecontrol>
 				<label fallback="161">$INFO[ListItem.Comment]</label>
 			</control>
