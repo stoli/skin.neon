@@ -6,7 +6,22 @@
 			<animation effect="fade" start="0" end="100" time="600" >WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="200" >WindowClose</animation>
 			<visible>!Window.IsVisible(MusicInformation)</visible>
-			<!--<control type="label">
+			<control type="image"> 
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<texture>backgrounds/music.jpg</texture>
+			</control>
+			<control type="image"><!-- Floor -->
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				
+				<texture>ContentPanel2.png</texture>
+			</control>		
+		<!--<control type="label">
 				<description>header label</description>
 				<posx>280</posx>
 				<posy>20</posy>
@@ -35,7 +50,7 @@
 			
 		<control type="group">
 		<posx>30</posx>
-		<posy>10</posy>
+		<posy>-10</posy>
 			<control type="image">
 				<posx>100</posx>
 				<posy>160</posy>
@@ -293,7 +308,7 @@
 					<height>30</height>
 					<align>center</align>
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
-					<textcolor>ff000000</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
@@ -311,7 +326,7 @@
 					<height>30</height>
 					<align>center</align>
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
-					<textcolor>ff000000</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
@@ -329,7 +344,7 @@
 					<height>30</height>
 					<align>center</align>
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
-					<textcolor>ff000000</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>
@@ -347,7 +362,7 @@
 					<height>30</height>
 					<align>center</align>
 					<font>Font_Bartowski_Smaller_MenuTitle</font>
-					<textcolor>ff000000</textcolor>
+					<textcolor>grey</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<colordiffuse>mainblue</colordiffuse>
 					<texturefocus>button-focus.png</texturefocus>

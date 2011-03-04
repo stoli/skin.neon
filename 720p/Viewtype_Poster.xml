@@ -495,7 +495,7 @@
 				<label>$INFO[ListItem.Label]</label>
 				<visible>Container.Content(movies) + !Skin.HasSetting(clean_poster)</visible>
 			</control>
-		<!--	<control type="image" id="7015">
+			<control type="image" id="7015">
 				<posx>0</posx>
 				<posy>30</posy>
 				<width>230</width>
@@ -640,7 +640,7 @@
 			<control type="label">
 				<visible>Container.Content(seasons)</visible>
 				<posx>0</posx>
-				<posy>0</posy>
+				<posy>30</posy>
 				<width>230</width>
 				<height>89</height>
 				<font>Font_Bartowski_Movies_Duration</font>
@@ -651,7 +651,7 @@
 			<control type="label">
 				<visible>Container.Content(tvshows)</visible>
 				<posx>0</posx>
-				<posy>0</posy>
+				<posy>30</posy>
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
@@ -660,7 +660,7 @@
 			<control type="label">
 				<visible>![Container.Content(seasons) | Container.Content(episodes)]</visible>
 				<posx>0</posx>
-				<posy>30</posy>
+				<posy>60</posy>
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
@@ -669,7 +669,7 @@
 			<control type="label">
 				<visible>![Container.Content(seasons) | Container.Content(episodes)]</visible>
 				<posx>0</posx>
-				<posy>60</posy>
+				<posy>90</posy>
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
