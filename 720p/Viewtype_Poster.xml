@@ -433,6 +433,7 @@
 						</animation>
 						<visible>Skin.HasSetting(movieoverlays) + Container.Content(movies) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
+					
 					<control type="image">
 						<posx>-9</posx>
 						<posy>332</posy>
@@ -445,9 +446,20 @@
 							<effect type="slide" end="0,-60" time="600" delay="2000" />
 							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
 							<effect type="fade" start="0" end="70" time="600" />
-							
 						</animation>
-						<visible>Skin.HasSetting(tvoverlays) + !Container.Content(movies) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>Skin.HasSetting(tvoverlays) + !Container.Content(movies) + !IsEmpty(ListItem.Overlay)+ Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+						<posx>-9</posx>
+						<posy>332</posy>
+						<width>86</width>
+						<height>65</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="fade" start="0" end="70" time="600" />
+						</animation>
+						<visible>Skin.HasSetting(tvoverlays) + !Container.Content(movies) + !IsEmpty(ListItem.Overlay)+ !Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 			</control>	
 			</focusedlayout>
