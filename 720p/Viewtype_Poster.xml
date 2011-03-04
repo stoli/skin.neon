@@ -496,7 +496,7 @@
 				<visible>Container.Content(movies) + !Skin.HasSetting(clean_poster)</visible>
 			</control>
 			<control type="image" id="7015">
-				<posx>0</posx>
+				<posx>20</posx>
 				<posy>30</posy>
 				<width>230</width>
 				<height>89</height>
@@ -507,7 +507,7 @@
 				<visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 			</control>
 			<control type="image" id="9015">
-				<posx>0</posx>
+				<posx>20</posx>
 				<posy>30</posy>
 				<width>230</width>
 				<height>89</height>
