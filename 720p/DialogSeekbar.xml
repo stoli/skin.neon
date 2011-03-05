@@ -1,12 +1,35 @@
 <!--Alaska-->
 
 <window id="115">
-	<defaultcontrol>901</defaultcontrol>
+	
 	<visible>Window.IsActive(2005) + !Window.IsActive(2901) + !Window.IsActive(142) + !Control.IsVisible(10) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 	<controls>
+		
 		<include>Time</include>
 		<include>Finish_Time</include>
 		<include>Object_DebugGrid</include>
+		<control type="image">
+			<posx>450</posx>
+			<posy>-5</posy>
+			<width>325</width>
+			<height>40</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture flipy="true">InfoMessagePanel.png</texture>
+			<visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
+		</control>
+		<control type="label" id="24">
+			<description>buffering label</description>
+			<posx>465</posx>
+			<posy>15</posy>
+			<label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
+			<width>300</width>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>red</textcolor>
+			<font>Font_RSS_Unicode</font>
+			<visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
+		</control>
+		
 		<control type="group">
 			<posy>567</posy>
 			<animation type="WindowOpen">
@@ -30,9 +53,9 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackLower.png</texture>
 				<aspectratio>stretch</aspectratio>
-				<visible>!Control.IsVisible(10)</visible>
+				<visible>!Control.IsVisible(10)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
-			
+			 
 			
 			<control type="progress" id="23">
 				
@@ -45,7 +68,7 @@
 				<posy>130</posy>
 				<width>1000</width>
 				<height>19</height>
-				<visible>!VideoPlayer.Content(episodes)</visible>
+				<visible>!VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 			<control type="progress" id="23">
 				<texturebg>osd/osd_progress_back1.png</texturebg>
@@ -57,7 +80,7 @@
 				<posy>128</posy>
 				<width>950</width>
 				<height>15</height>
-				<visible>VideoPlayer.Content(episodes) + IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))</visible>
+				<visible>VideoPlayer.Content(episodes) + IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 			<control type="progress" id="23">
 				<texturebg>osd/osd_progress_back1.png</texturebg>
@@ -69,11 +92,11 @@
 				<posy>130</posy>
 				<width>706</width>
 				<height>19</height>
-				<visible>VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]</visible>
+				<visible>VideoPlayer.Content(episodes)  + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]</visible>
 			</control>
 			
 	<control type="group">
-		<visible>VideoPlayer.Content(episodes)</visible>
+		<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		<animation effect="slide" start="0,0" end="-140,8" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
 			<control type="label">
 				<posx>150</posx>
@@ -120,7 +143,7 @@
 			</control>
 		</control>
 		<control type="group">
-		<visible>!VideoPlayer.Content(episodes)</visible>
+		<visible>!VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			<control type="label">
 				<posx>100</posx>
 				<posy>92</posy>
@@ -136,7 +159,7 @@
 			
 		</control>
 		<control type="group">
-		<visible>VideoPlayer.Content(episodes)</visible>
+		<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			<control type="label">
 				<posx>140</posx>
 				<posy>120</posy>
@@ -160,7 +183,7 @@
 			</control>
 		</control>
 		<control type="group">
-		<visible>!VideoPlayer.Content(episodes)</visible>
+		<visible>!VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			<control type="label">
 				<posx>130</posx>
 				<posy>121</posy>
@@ -218,7 +241,7 @@
 				<height>185</height> 
 				<texture background="true">$INFO[Player.FolderPath]../clearart.png</texture>
 				<aspectratio>keep</aspectratio>
-				<visible>VideoPlayer.Content(episodes)</visible>
+				<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 			<control type ="image" id="7658"> 
 				<description>tv show image</description>
@@ -228,7 +251,7 @@
 				<height>185</height> 
 				<texture background="true">$INFO[Player.FolderPath]clearart.png</texture>
 				<aspectratio>keep</aspectratio>
-				<visible>VideoPlayer.Content(episodes)</visible>
+				<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 			<control type ="image"> 
 				<description>tv show image</description>
@@ -244,7 +267,7 @@
 				<animation type="WindowOpen">
 					<effect type="fade" start="0" end="100" time="900" delay="400" />
 				</animation>
-				<visible>IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658)) + VideoPlayer.Content(episodes)</visible>
+				<visible>IsEmpty(Control.GetLabel(7657))  + IsEmpty(Control.GetLabel(7658)) + VideoPlayer.Content(episodes)</visible>
 			</control>
 			
 			<control type ="image"> 
@@ -261,7 +284,7 @@
 				<animation type="WindowOpen">
 					<effect type="fade" start="0" end="100" time="900" delay="400" />
 				</animation>
-				<visible>VideoPlayer.Content(movies)</visible>
+				<visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 			
 	</control>
@@ -285,7 +308,7 @@
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Title_TVShow</font>
 			<textcolor>mainblue</textcolor>
-			<visible>VideoPlayer.Content(episodes)</visible>
+			<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label">
 			<posx>0</posx>
@@ -297,7 +320,7 @@
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Title_TVShow</font>
 			<textcolor>mainblue</textcolor>
-			<visible>!VideoPlayer.Content(episodes)</visible>
+			<visible>!VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label">
 			<posx>0</posx>
@@ -309,7 +332,7 @@
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Under_Pause</font>
 			<textcolor>white</textcolor>
-			<visible>VideoPlayer.Content(episodes)</visible>
+			<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label">
 			<posx>0</posx>
@@ -321,7 +344,7 @@
 			<aligny>center</aligny> 
 			<font>Font_Bartowski_Under_Pause</font>
 			<textcolor>white</textcolor>
-			<visible>VideoPlayer.Content(movies)</visible>
+			<visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		
 		
@@ -338,7 +361,7 @@
 			<label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.paused</visible>
+			<visible>player.paused + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -349,7 +372,7 @@
 			<label>FFx2</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.forwarding2x</visible>
+			<visible>player.forwarding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -360,7 +383,7 @@
 			<label>FFx4</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.forwarding4x</visible>
+			<visible>player.forwarding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -371,7 +394,7 @@
 			<label>FFx8</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.forwarding8x</visible>
+			<visible>player.forwarding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -382,7 +405,7 @@
 			<label>FFx16</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.forwarding16x</visible>
+			<visible>player.forwarding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -393,7 +416,7 @@
 			<label>FFx32</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.forwarding32x</visible>
+			<visible>player.forwarding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -404,7 +427,7 @@
 			<label>RWx2</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.rewinding2x</visible>
+			<visible>player.rewinding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -415,7 +438,7 @@
 			<label>RWx4</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.rewinding4x</visible>
+			<visible>player.rewinding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -426,7 +449,7 @@
 			<label>RWx8</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.rewinding8x</visible>
+			<visible>player.rewinding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -437,7 +460,7 @@
 			<label>RWx16</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.rewinding16x</visible>
+			<visible>player.rewinding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 		<control type="label" id="0">
 			<posx>0</posx>
@@ -448,7 +471,7 @@
 			<label>RWx32</label>
 			<font>Font_Bartowski_BigMusic</font>
 			<textcolor>33ffffff</textcolor>
-			<visible>player.rewinding32x</visible>
+			<visible>player.rewinding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 	</control>
 		<control type="group">
@@ -468,7 +491,7 @@
 				<aligny>center</aligny> 
 				<font>Font_Bartowski_Movies</font>
 				<textcolor>ffffffff</textcolor>
-				<visible>VideoPlayer.Content(movies)</visible>
+				<visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 			<control type="label">
 				<posx>250r</posx>
@@ -480,7 +503,7 @@
 				<aligny>center</aligny> 
 				<font>Font_Bartowski_Movies</font>
 				<textcolor>ffffffff</textcolor>
-				<visible>VideoPlayer.Content(movies)</visible>
+				<visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 			<control type="label">
 				<posx>250r</posx>
@@ -492,8 +515,9 @@
 				<aligny>center</aligny> 
 				<font>Font_Bartowski_Movies</font>
 				<textcolor>ffffffff</textcolor>
-				<visible>VideoPlayer.Content(movies)</visible>
+				<visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
 		</control>
+
 	</controls>
 </window>

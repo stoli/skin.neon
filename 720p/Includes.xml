@@ -332,7 +332,7 @@
 	
 	<include name="Time">
 		<control type="group">
-		<visible>Skin.HasSetting(library_global_clock)</visible>
+		<visible>Skin.HasSetting(library_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			<posx>1150</posx>
 			<posy>0</posy>
 				<control type="group">
@@ -560,7 +560,7 @@
 	</include>
 	<include name="Finish_Time">
 		<control type="group">
-			<visible>Skin.HasSetting(library_global_clock)</visible>
+			<visible>Skin.HasSetting(library_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<control type="group">
