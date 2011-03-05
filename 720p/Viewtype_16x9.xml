@@ -43,7 +43,7 @@
 						<posy>122</posy>
 						<width>330</width>
 						<height>186</height>
-						<texture background="true" diffuse="postermatte.png" fallback="special://skin/media/backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<visible>!Container.Content(episodes)</visible>
@@ -53,7 +53,7 @@
 						<posy>122</posy>
 						<width>330</width>
 						<height>186</height>
-						<texture background="true" diffuse="postermatte.png" fallback="special://skin/media/backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<visible>Container.Content(episodes)</visible>
@@ -146,7 +146,7 @@
 						<posy>122</posy>
 						<width>600</width>
 						<height>338</height>
-						<texture background="true" diffuse="postermatte.png" fallback="special://skin/media/backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
@@ -159,7 +159,7 @@
 						<posy>122</posy>
 						<width>600</width>
 						<height>338</height>
-						<texture background="true" diffuse="postermatte.png" fallback="special://skin/media/backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">

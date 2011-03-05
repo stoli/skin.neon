@@ -905,7 +905,7 @@
 							<item id="18">
 								<label>1036</label>
 								<onclick>-</onclick>
-								<icon>backgrounds/favourites.png</icon>
+								<icon>backgrounds/favourites.jpg</icon>
 								<thumb>$INFO[Skin.String(CustomfavouritesFolder)]</thumb>
 							</item>
 							<item id="7">

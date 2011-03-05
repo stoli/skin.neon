@@ -22,7 +22,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true" fallback="special://skin/media/backgrounds/movies.jpg">$INFO[Container(8000).ListItem.Thumb]</texture>
+			<texture background="true" fallback="backgrounds/movies.jpg">$INFO[Container(8000).ListItem.Thumb]</texture>
 			<fadetime>600</fadetime>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Control.HasFocus(8000)</visible>
@@ -32,7 +32,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true" fallback="special://skin/media/backgrounds/tvshows.jpg">$INFO[Container(8001).ListItem.Thumb]</texture>
+			<texture background="true" fallback="backgrounds/tvshows.jpg">$INFO[Container(8001).ListItem.Thumb]</texture>
 			<fadetime>600</fadetime>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Control.HasFocus(8001)</visible>
@@ -42,7 +42,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true" fallback="special://skin/media/backgrounds/music.jpg">$INFO[Container(8002).ListItem.Thumb]</texture>
+			<texture background="true" fallback="backgrounds/music.jpg">$INFO[Container(8002).ListItem.Thumb]</texture>
 			<fadetime>600</fadetime>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Control.HasFocus(8002)</visible>

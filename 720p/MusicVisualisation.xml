@@ -96,12 +96,21 @@
 		</control>
 		
 		<control type="group">
-		<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
-				<posx>-330</posx>
-				<animation effect="slide" start="-280" end="350" time="700" tween="cubic" easing="out" delay="400">WindowOpen</animation>
-				<animation effect="slide" start="350" end="-280" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
-				
-				<control type="image">
+			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
+			<posx>-330</posx>
+			<animation effect="slide" start="-280" end="350" time="700" tween="cubic" easing="out" delay="400">WindowOpen</animation>
+			<animation effect="slide" start="350" end="-280" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
+			<control type="image" id="7026">
+				<description>dirty hack for showing cdart image</description>
+				<width>200</width>
+				<height>200</height>
+				<posx>45</posx>
+				<posy>-120</posy>
+				<texture>$INFO[Player.FolderPath]cdart.png</texture>
+				<aspectratio align="bottom">keep</aspectratio>
+				<include>cdartspin</include>
+			</control>	
+			<control type="image">
 				<description>cover image</description>
 				<posx>0</posx>
 				<posy>-150</posy>
@@ -112,6 +121,22 @@
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<bordertexture border="8">ThumbShadow.png</bordertexture>
 				<bordersize>8</bordersize>
+				<visible>IsEmpty(Control.GetLabel(7026))</visible>
+
+			</control>
+			<control type="image">
+				<description>cover image</description>
+				<posx>-30</posx>
+				<posy>-150</posy>
+				<width>340</width>
+				<height>260</height>
+				<fadetime>200</fadetime>
+				<texture background="true">$INFO[MusicPlayer.cover]</texture>
+				<aspectratio aligny="bottom">keep</aspectratio>
+				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordersize>8</bordersize>
+				<visible>!IsEmpty(Control.GetLabel(7026))</visible>
+
 			</control>
 			<control type="progress">
 				<description>Progressbar</description>
@@ -142,7 +167,7 @@
 				<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1100">WindowOpen</animation>
 				<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="400">WindowClose</animation>
 				<description>Divider</description>
-				<posx>200</posx>
+				<posx>230</posx>
 				<posy>-15</posy>
 				<width>650</width>
 				<height>3</height>
