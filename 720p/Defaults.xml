@@ -148,7 +148,15 @@
 		<selectedcolor>TextFocused</selectedcolor>
 		<disabledcolor>TextDisabled</disabledcolor>
 	</default>
-
+	<default type="progress">
+		<posx>100</posx>
+		<posy>325</posy>
+		<texturebg border="6,0,6,0">osd/OSDProgressBack.png</texturebg>
+		<lefttexture>-</lefttexture>
+		<midtexture border="6,0,6,0">osd/OSDProgressMid-grey.png</midtexture>
+		<righttexture>-</righttexture>
+		<overlaytexture>-</overlaytexture>
+	</default>
 	<default type="slider">
 		<posx>0</posx>
 		<posy>0</posy>

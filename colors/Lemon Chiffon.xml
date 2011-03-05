@@ -6,7 +6,7 @@
 	<color name="grey3">33FFFFFF</color>
 	<color name="black">FF000000</color>
 	<color name="blue">FF0055be</color>
-	<color name="selected">FFC9C299</color>
+	<color name="selected">FFEB9E17</color>
 	<color name="dialogheader">DDced8da</color>
 <!--	<color name="mainblue">FF04B4AE</color> --> <!-- Original -->
 	<color name="mainblue">FFC9C299</color>

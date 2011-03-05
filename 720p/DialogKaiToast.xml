@@ -13,6 +13,7 @@
 				<posy>-5</posy>
 				<width>400</width>
 				<height>85</height>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture border="20,20,20,2">InfoMessagePanel.png</texture>
 			</control>
 			<control type="image" id="400">

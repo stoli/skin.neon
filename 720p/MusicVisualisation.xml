@@ -102,87 +102,118 @@
 				<animation effect="slide" start="350" end="-280" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
 				
 				<control type="image">
-					<description>Cover image</description>
-					<posy>-165</posy>
-					<posx>45</posx>
-					<width>260</width>
-					<height>265</height>
-					<texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.Cover]</texture>
-				</control>
-				<control type="image">
-					<posy>-190</posy>
-					<posx>20</posx>
-					<width>310</width>
-					<height>315</height>
-					<colordiffuse>black</colordiffuse>
-				<texture>music/musicwallframeF.png</texture>
-				</control> -->
-			
-			
+				<description>cover image</description>
+				<posx>0</posx>
+				<posy>-150</posy>
+				<width>340</width>
+				<height>260</height>
+				<fadetime>200</fadetime>
+				<texture background="true">$INFO[MusicPlayer.cover]</texture>
+				<aspectratio aligny="bottom">keep</aspectratio>
+				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordersize>8</bordersize>
 			</control>
-			<!-- cd mod -->
-		
-	
-			<control type="group">
-				<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>
-				<control type="label">
-					<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
-					<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="200">WindowClose</animation>
-					<posx>320</posx>
-					<posy>-70</posy><!-- -143 -->
-					<width>880</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>-</aligny>
-					<scroll>true</scroll>
-					<font>Font_Neon_45</font>
-					<label>[COLOR B5FFFFFF]$INFO[MusicPlayer.Artist][/COLOR]</label>
-					<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>
+			<control type="progress">
+				<description>Progressbar</description>
+				<posx>20</posx>
+				<posy>120</posy>
+				<width>300</width>
+				<height>14</height>
+				<info>Player.Progress</info>
+			</control>
+		</control>
+		<control type="group">
+			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>
+			<control type="label">
+				<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
+				<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="200">WindowClose</animation>
+				<posx>320</posx>
+				<posy>-70</posy><!-- -143 -->
+				<width>880</width>
+				<height>25</height>
+				<align>left</align>
+				<aligny>-</aligny>
+				<scroll>true</scroll>
+				<font>Font_Neon_45</font>
+				<label>[UPPERCASE][COLOR=mainblue][B]$INFO[MusicPlayer.Artist][/B][/COLOR][/UPPERCASE]</label>
+				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>
+			</control>
+			<control type="image">
+				<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1100">WindowOpen</animation>
+				<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="400">WindowClose</animation>
+				<description>Divider</description>
+				<posx>200</posx>
+				<posy>-15</posy>
+				<width>650</width>
+				<height>3</height>
+				<texture>common/list_divider.png</texture>
+			</control>
+			<control type="label">
+				<animation effect="slide" start="1300" end="55" time="700" tween="cubic" easing="out" delay="1200">WindowOpen</animation>
+				<animation effect="slide" start="55" end="1300" time="600" tween="cubic" easing="in" delay="450">WindowClose</animation>
+				<posx>315</posx>
+				<posy>-5</posy> <!-- -103 -->
+				<width>680</width>
+				<height>24</height>
+				<align>left</align>
+				<aligny>-</aligny>
+				<font>Font_Bartowski_MenuValue</font>
+				<label>[COLOR 80c2c4c3]$INFO[MusicPlayer.Album] [$INFO[MusicPlayer.Year]][/COLOR]</label>
+				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
+			</control>
+			<control type="label">
+				<animation effect="slide" start="1300" end="65" time="700" tween="cubic" easing="out" delay="1300">WindowOpen</animation>
+				<animation effect="slide" start="65" end="1300" time="600" tween="cubic" easing="in" delay="600">WindowClose</animation>
+				<posx>305</posx>
+				<posy>40</posy>
+				<width>550</width><!-- 1280 -->
+				<height>30</height>
+				<align>left</align>
+				<aligny>-</aligny>
+				<font>Font_Bartowski_Showcase_runtime_year</font>
+				<label>[COLOR 80c2c4c3]Track: $INFO[MusicPlayer.TrackNumber] - [/COLOR][COLOR=white]$INFO[MusicPlayer.Title][/COLOR][COLOR 60FFFFFF] - $INFO[MusicPlayer.Duration][/COLOR]</label>
+				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
+			</control>
+			<control type="grouplist">
+				<animation effect="slide" start="0,120" end="0,0" time="700" tween="cubic" easing="out" delay="1300">WindowOpen</animation>
+				<animation effect="slide" start="0,0" end="0,120" time="600" tween="cubic" easing="in" delay="600">WindowClose</animation>
+				<description>Media Codec Flagging Images</description>
+				<posx>60</posx>
+				<posy>115</posy>
+				<width>550</width>
+				<align>right</align>
+				<itemgap>0</itemgap>
+				<orientation>horizontal</orientation>
+				<control type="image">
+					<description>Rating image</description>
+					<width>120</width>
+					<height>40</height>
+					<colordiffuse>selected</colordiffuse>
+					<aspectratio align="right">keep</aspectratio>
+					<texture>LeftRating/$INFO[Player.StarRating]</texture>
 				</control>
 				<control type="image">
-					<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1100">WindowOpen</animation>
-					<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="400">WindowClose</animation>
-					<description>Divider</description>
-					<posx>200</posx>
-					<posy>-15</posy>
-					<width>650</width>
-					<height>3</height>
-					<texture>common/list_divider.png</texture>
-				</control>
-				<control type="label">
-					<animation effect="slide" start="1300" end="55" time="700" tween="cubic" easing="out" delay="1200">WindowOpen</animation>
-					<animation effect="slide" start="55" end="1300" time="600" tween="cubic" easing="in" delay="450">WindowClose</animation>
-					<posx>315</posx>
-					<posy>-5</posy> <!-- -103 -->
-					<width>680</width>
-					<height>24</height>
-					<align>left</align>
-					<aligny>-</aligny>
-					<font>Font_Bartowski_MenuValue</font>
-					<label>[COLOR 80c2c4c3]$INFO[MusicPlayer.Album] [$INFO[MusicPlayer.Year]][/COLOR]</label>
-					<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
-				</control>
-				<control type="label">
-					<animation effect="slide" start="1300" end="65" time="700" tween="cubic" easing="out" delay="1300">WindowOpen</animation>
-					<animation effect="slide" start="65" end="1300" time="600" tween="cubic" easing="in" delay="600">WindowClose</animation>
-					<posx>305</posx>
-					<posy>40</posy>
-					<width>550</width><!-- 1280 -->
+					<description>Codec Image</description>
+					<width>60</width>
 					<height>30</height>
-					<align>left</align>
-					<aligny>-</aligny>
-					<font>Font_Bartowski_Showcase_runtime_year</font>
-					<label>[COLOR 80c2c4c3]Track: $INFO[MusicPlayer.TrackNumber] - [/COLOR][COLOR A0FFFFFF]$INFO[MusicPlayer.Title][/COLOR][COLOR 60FFFFFF] - $INFO[MusicPlayer.Duration][/COLOR]</label>
-					<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
+					<aspectratio>keep</aspectratio>
+					<texture>$INFO[MusicPlayer.Codec,flagging/audio/,.png]</texture>
 				</control>
-			
- 
+				<control type="image">
+					<description>Channels Image</description>
+					<width>60</width>
+					<height>30</height>
+					<aspectratio>keep</aspectratio>
+					<texture>$INFO[MusicPlayer.Channels,flagging/audio/,.png]</texture>
+				</control>
+			</control>
+
 			<control type="group">
-			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
-			<posx>750</posx>
-			<posy>-25</posy>
-			<animation effect="slide" start="1300" end="350" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
-			<animation effect="slide" start="350" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
+				<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
+				<posx>750</posx>
+				<posy>-25</posy>
+				<animation effect="slide" start="1300" end="350" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
+				<animation effect="slide" start="350" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
 				<control type="image">
 					<description>Cover image</description>
 					<posy>10</posy>
@@ -191,10 +222,58 @@
 					<height>126</height>
 					<texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(1).Cover]</texture> -->
 				</control>
-				
-			
-				
+				<control type="label">
+					<animation effect="slide" start="0,130" end="0,0" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
+					<animation effect="slide" start="0,0" end="0,130" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
+					<posx>0</posx>
+					<posy>130</posy>
+					<width>122</width><!-- 1280 -->
+					<height>20</height>
+					<aligny>bottom</aligny>
+					<font>Font_Neon_20</font>
+					<angle>90</angle>
+					<label>[COLOR=mainblue]$INFO[MusicPlayer.offset(1).Artist][/COLOR]</label>
+					
+				</control>
+				<control type="label">
+					<animation effect="slide" start="1300" end="15" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
+					<animation effect="slide" start="15" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
+					<posx>-5</posx>
+					<posy>135</posy>
+					<width>160</width><!-- 1280 -->
+					<height>20</height>
+					<align>center</align>
+					<aligny>-</aligny>
+					<font>Font_Neon_18</font>
+					<label>[COLOR=selected]$INFO[MusicPlayer.offset(1).Title][/COLOR]</label>
+				</control>
+				<control type="label">
+					<animation effect="slide" start="0,130" end="0,0" time="700" tween="cubic" easing="out" delay="1100">WindowOpen</animation>
+					<animation effect="slide" start="0,0" end="0,130" time="600" tween="cubic" easing="in" delay="400">WindowClose</animation>
+					<posx>0</posx>
+					<posy>-20</posy>
+					<width>130</width><!-- 1280 -->
+					<height>20</height>
+					<aligny>bottom</aligny>
+					<font>Font_Neon_20</font>
+					<angle>90</angle>
+					<label>[COLOR=mainblue]$INFO[MusicPlayer.offset(2).Artist][/COLOR]</label>
+					
+				</control>
+				<control type="label">
+					<animation effect="slide" start="1300" end="15" time="700" tween="cubic" easing="out" delay="1600">WindowOpen</animation>
+					<animation effect="slide" start="15" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
+					<posx>-5</posx>
+					<posy>-13</posy>
+					<width>160</width><!-- 1280 -->
+					<height>20</height>
+					<align>center</align>
+					<aligny>-</aligny>
+					<font>Font_Neon_18</font>
+					<label>[COLOR=selected]$INFO[MusicPlayer.offset(2).Title][/COLOR]</label>
+				</control>
 			</control>
+
 			<control type="group">
 			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>	
 			<posx>750</posx>
@@ -237,19 +316,18 @@
 				<control type="fadelabel">
 					<animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
 					<animation effect="slide" start="0" end="1000" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>					<description>Previous and Next artist</description>
-					<posx>350</posx>
+					<posx>370</posx>
 					<posy>75</posy>
-					<width>500</width>
+					<width>700</width>
 					<visible>true</visible>
 					<scroll>false</scroll>
 					<scrollout>false</scrollout>
-					<scrollspeed>100</scrollspeed>
-					<pauseatend>5000</pauseatend>
-					
-					<label>Next: $INFO[MusicPlayer.offset(1).Artist]: $INFO[MusicPlayer.offset(1).Title]</label>
+					<scrollspeed>1000</scrollspeed>
+					<pauseatend>10000</pauseatend>
+					<label>Up Next: $INFO[MusicPlayer.offset(1).Artist]: $INFO[MusicPlayer.offset(1).Title]</label>
+					<label>Second: $INFO[MusicPlayer.offset(2).Artist]: $INFO[MusicPlayer.offset(2).Title]</label>
 					<font>Font_Bartowski_Episodes</font>
 					<textcolor>50FFFFFF</textcolor>
-					<textoffsetx>20</textoffsetx>
 					<align>left</align>
 				</control>		
 			</control>
