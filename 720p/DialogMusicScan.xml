@@ -1,70 +1,60 @@
+
 <window id="112">
-  <defaultcontrol always ="true">1111</defaultcontrol>
-  <include>Animation_SettingsFade</include>
-  <coordinates>
-    <system>1</system>
-    <posx>30</posx>
-    <posy>10</posy>
-  </coordinates>
-  <controls>
+	<defaultcontrol></defaultcontrol>
+		<animation effect="slide" start="0,-70" end="0,0" time="100">WindowOpen</animation>
+		<animation effect="slide" start="0,0" end="0,-70" delay="400" time="100">WindowClose</animation>
+		  <include>Animation_SettingsFade</include>
 
-    <control type="button" id="1111">
-      <description>update recently added</description>
-      <posx>-10</posx>
-      <posy>-10</posy>
-      <height>1</height>
-      <width>1</width>
-      <texturefocus></texturefocus>
-      <texturenofocus></texturenofocus>
-      <onfocus>Skin.SetBool(LibraryUpdated)</onfocus>
-    </control>
-
-    <control type="group">
-	  <posx>400</posx>
-      <visible>!Window.IsActive(2006) + !VideoPlayer.IsFullscreen</visible>
-	  <control type="image">
-			<posx>0</posx>
-			<posy>-16</posy>
-			<width>400</width>
-			<height>60</height>
-			<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
+	<controls>
+		<control type="group">
+			<posx>440</posx>
+			<posy>0</posy>
+			<animation effect="slide" end="-400,0" time="200" condition="Window.IsVisible(133)">conditional</animation>
+			<animation effect="slide" end="0,-80" time="200" condition="Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">conditional</animation>
+			<control type="image">
+				<posx>0</posx>
+				<posy>-10</posy>
+				<width>400</width>
+				<height>70</height>
+				
+				<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
+			</control>
+			<control type="label" id="401">
+				<description>Caption Label</description>
+				<posx>15</posx>
+				<posy>4</posy>
+				<width>370</width>
+				<height>18</height>
+				<font>Font_Neon_16</font>
+				<textcolor>selected</textcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+			</control>
+			<control type="label" id="402">
+				<description>Current Directory Label</description>
+				<posx>15</posx>
+				<posy>20</posy>
+				<width>370</width>
+				<height>20</height>
+				<font>Font_Neon_15</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<haspath>true</haspath>
+			</control>
+			<control type="progress" id="403">
+				<description>progress control</description>
+				<posx>15</posx>
+				<posy>42</posy>
+				<width>370</width>
+				<height>8</height>
+				<colordiffuse>mainblue</colordiffuse>
+				<texturebg border="6,0,6,0">osd/OSDProgressBack.png</texturebg>
+				<lefttexture>-</lefttexture>
+				<midtexture border="6,0,6,0">osd/OSDProgressMid.png</midtexture>
+				<righttexture>-</righttexture>
+				<overlaytexture>-</overlaytexture>
+			</control>
 		</control>
- 
-      <control type="label" id="401">
-        <description>Caption Label</description>
-        <posx>15</posx>
-        <posy>-8</posy>
-        <font>Font_Neon_16</font>
-        <textcolor>mainblue</textcolor>
-        <width>380</width>
-        <height>20</height>
-        <aligny>center</aligny>
-        <align>center</align>
-      </control>
-      <control type="label" id="402">
-        <description>Current Directory Label</description>
-        <posx>15</posx>
-        <posy>8</posy>
-        <font>Font_Neon_15</font>
-        <textcolor>white</textcolor>
-        <haspath>yes</haspath>
-        <width>380</width>
-        <height>20</height>
-        <aligny>center</aligny>
-        <align>left</align>
-      </control>
-      <control type="progress" id="404">
-        <description>progress control</description>
-        <posx>15</posx>
-        <posy>28</posy>
-        <width>370</width>
-        <height>10</height>
-		<colordiffuse>mainblue</colordiffuse>
-        <texturebg>osd_video_indicator_background1.png</texturebg>
-        <lefttexture>current_time_indicator_buffering_left.png</lefttexture>
-        <midtexture>current_time_indicator_buffering.png</midtexture>
-        <righttexture>current_time_indicator_buffering_right.png</righttexture>
-      </control>
-    </control>
-  </controls>
+	</controls>
 </window>
+ 

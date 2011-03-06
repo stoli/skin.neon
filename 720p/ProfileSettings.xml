@@ -177,7 +177,7 @@
 			<font>Font_Neon_25</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<font>font12_title</font>
+			 <font>Font_Neon_16</font>
 			<label>222</label>
 			<onleft>28</onleft>
 			<onright>28</onright>

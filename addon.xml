@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.neon"
-  version=".9.5.2"
+  version=".9.5.5"
   name="Neon"
   provider-name="stoli">
   <requires>
@@ -20,12 +20,12 @@
     effectslowdown="1"
     debugging="false"/>
   <extension point="xbmc.addon.metadata">
-    <summary>Neon skin by stoli - inspired by Night and Aeon</summary>
-    <summary lang="fr">Neon skin by stoli - inspired by Night and Aeon</summary>
-    <summary lang="de">Neon skin by stoli - inspired by Night and Aeon</summary>
-	<summary lang="nl">Neon skin by stoli - inspired by Night and Aeon</summary>
-	<summary lang="no">Neon skin by stoli - inspired by Night and Aeon</summary>
-    <description>Neon started as the excelent Night skin by mcborzu.  It was almost perfect for me but I missed some aspects of Aeon and other skins.  So credit where credit is due - the majority of this originated as mcborzu's work...and inspiration from djh_</description>
+    <summary>Neon skin by stoli - Night meets Aeon meets Confluence</summary>
+    <summary lang="fr">Neon skin by stoli - Night meets Aeon meets Confluence</summary>
+    <summary lang="de">Neon skin by stoli - Night meets Aeon meets Confluence</summary>
+	<summary lang="nl">Neon skin by stoli - Night meets Aeon meets Confluence</summary>
+	<summary lang="no">Neon skin by stoli - Night meets Aeon meets Confluence</summary>
+    <description>Neon started as the excelent Night skin by mcborzu.  It was almost perfect for me but I missed some aspects of Aeon and other skins.  So credit where credit is due - the majority of this originated as mcborzu's work...and inspiration from djh_ and huge thanks for Jezz_x's work on Conflunce where I have 'borrowed' liberal amounts of knowledge, code and graphics!</description>
  	<disclaimer>More info on the skin can be found at the XBMC Forums.</disclaimer>
     <disclaimer lang="fr">Plus d'infos sur ce thème sur les forums XBMC.</disclaimer>
     <disclaimer lang="de">Mehr Informationen über das Skin findest du in den XBMC Foren.</disclaimer>

@@ -970,7 +970,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>black</textcolor>
 						<selectedcolor>black</selectedcolor>
@@ -1001,7 +1001,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1045,7 +1045,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>black</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1076,7 +1076,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1120,7 +1120,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>black</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1151,7 +1151,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1195,7 +1195,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>black</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1226,7 +1226,7 @@
 						<posy>0</posy>
 						<width>120</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1271,7 +1271,7 @@
 						<posy>0</posy>
 						<width>30</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>black</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1302,7 +1302,7 @@
 						<posy>0</posy>
 						<width>30</width>
 						<height>30</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<selectedcolor>ffA60316</selectedcolor>
@@ -1415,7 +1415,7 @@
 			<scroll>true</scroll>
 		    <textcolor>DDFFFFFF</textcolor>
 		    <label></label>
-			<font>font10</font>
+			<font>Font_Neon_14</font>
 		</control>		
 	</controls>
 </window>

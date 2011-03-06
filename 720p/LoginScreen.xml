@@ -89,7 +89,7 @@
 						<posy>50</posy>
 						<width>580</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -141,7 +141,7 @@
 						<posy>50</posy>
 						<width>580</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -158,7 +158,7 @@
 					<posy>0</posy>
 					<width>580</width>
 					<height>35</height>
-					<font>font12caps</font>
+					<font>Font_Neon_16</font>
 					<textcolor>mainblue</textcolor>
 					<align>right</align>
 					<aligny>center</aligny>

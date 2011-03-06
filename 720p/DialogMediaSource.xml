@@ -71,7 +71,7 @@
 				<control type="image">
 					<posx>5</posx>
 					<width>380</width>
-					<height>30</height>
+					<height>35</height>
 					<colordiffuse>mainblue</colordiffuse>
 					<texture>button-focus.png</texture>
 					<visible>Control.HasFocus(10)</visible>

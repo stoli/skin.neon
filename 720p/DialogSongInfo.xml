@@ -27,7 +27,7 @@
 				<posy>20</posy>
 				<width>580</width>
 				<height>30</height>
-				<font>font30_title</font>
+				 <font>Font_Neon_30</font>
 				<label>$LOCALIZE[658]</label>
 				<align>left</align>
 				<aligny>center</aligny>

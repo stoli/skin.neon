@@ -1,11 +1,25 @@
+[B]Updated 03/06/2011:[/B]
+v.9.5.5
+- Added support for Weather.com Plus addon - Thanks to Jezz_x and Confluence
+- Standardized menu selection bar
+- Added full screen video and visualization on home screen.  Configurable in Settings
+- Can now select "Bottom Line" rss logo in settings
+- Adjusted now playing window position on home screen
+- Revised full screen music visualization window - supports CDArt
+- Added minor home screen animation - idea from the Aries mod by eckstheory (?)
+- Fixed Music and Video scan progress bars
+- Updated weather widget on home screen
+
+
+
 [B]Updated 02/27/2011:[/B]
-v9.5.2
+v.9.5.2
 - Changed Full Screen Info
 - Added Pop-Up letter when fast scrolling
 - Minor Tweeks
 
 [B]Updated 02/26/2011:[/B]
-v9.5.1
+v.9.5.1
 - Fixed overlapping issue in Now Playing reported by tboooe
 - Fixed some VideoOSD positioning issues
 - Fixed TV show logo positioning issues

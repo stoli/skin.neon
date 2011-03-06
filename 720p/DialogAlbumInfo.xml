@@ -95,7 +95,7 @@
 							<posy>0</posy>
 							<width>675</width>
 							<height>380</height>
-							<font>font30_title</font>
+							 <font>Font_Neon_30</font>
 							<textcolor>white</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>center</align>

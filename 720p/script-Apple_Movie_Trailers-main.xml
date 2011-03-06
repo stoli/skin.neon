@@ -675,7 +675,7 @@
 					<control type="label" id="200">
 						<width>220</width>
 						<height>45</height>
-						<font>font12caps</font>
+						<font>Font_Neon_16</font>
 						<label>31200</label>
 						<textcolor>dialogheader</textcolor>
 						<align>center</align>
@@ -699,7 +699,7 @@
 					<control type="label" id="201">
 						<width>220</width>
 						<height>45</height>
-						<font>font12caps</font>
+						<font>Font_Neon_16</font>
 						<label>31201</label>
 						<textcolor>dialogheader</textcolor>
 						<align>center</align>

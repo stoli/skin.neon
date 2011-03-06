@@ -48,7 +48,7 @@
 				<posy>20</posy>
 				<width>550</width>
 				<height>30</height>
-				<font>font24_title</font>
+				 <font>Font_Neon_24</font>
 				<label>$LOCALIZE[SCRIPT0]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -421,7 +421,7 @@
 					<width>190</width>
 					<height>80</height>
 					<aspectratio>keep</aspectratio>
-					<texture>Confluence_Logo.png</texture>
+					<texture>Neon.png</texture>
 				</control>
 				<control type="button" id="250">
 					<description>OK button</description>

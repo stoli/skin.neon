@@ -39,7 +39,7 @@
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
-				<font>font13</font>
+				 <font>Font_Neon_20</font>
 				<visible>false</visible>
 			</control>
 			<!-- ** Required ** Do not change id or type -->
@@ -101,7 +101,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -132,7 +132,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -214,7 +214,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -245,7 +245,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -327,7 +327,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -358,7 +358,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -440,7 +440,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -471,7 +471,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -553,7 +553,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -584,7 +584,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -666,7 +666,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -697,7 +697,7 @@
 								<posy>0</posy>
 								<width>350</width>
 								<height>40</height>
-								<font>font12</font>
+								 <font>Font_Neon_16</font>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 								<selectedcolor>selected</selectedcolor>
@@ -772,7 +772,7 @@
 					<posy>145</posy>
 					<width>895</width>
 					<align>left</align>
-					<font>font12</font>
+					 <font>Font_Neon_16</font>
 					<textcolor>white</textcolor>
 					<label />
 				</control>
@@ -790,7 +790,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>-</label>
-					<font>font12_title</font>
+					 <font>Font_Neon_16</font>
 					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<onleft>2075</onleft>
@@ -807,7 +807,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>-</label>
-					<font>font12_title</font>
+					 <font>Font_Neon_16</font>
 					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<onleft>2075</onleft>
@@ -824,7 +824,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>-</label>
-					<font>font12_title</font>
+					 <font>Font_Neon_16</font>
 					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<onleft>2075</onleft>
@@ -841,7 +841,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>-</label>
-					<font>font12_title</font>
+					 <font>Font_Neon_16</font>
 					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<onleft>2075</onleft>

@@ -167,7 +167,7 @@
 				<animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1100">WindowOpen</animation>
 				<animation effect="slide" start="45" end="1300" time="600" tween="cubic" easing="in" delay="400">WindowClose</animation>
 				<description>Divider</description>
-				<posx>230</posx>
+				<posx>230\</posx>
 				<posy>-15</posy>
 				<width>650</width>
 				<height>3</height>

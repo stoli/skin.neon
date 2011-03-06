@@ -107,7 +107,7 @@
 				<posy>530</posy>
 				<width>1220</width>
 				<height>35</height>
-				<font>font30_title</font>
+				 <font>Font_Neon_30</font>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<scroll>true</scroll>
@@ -136,7 +136,7 @@
 				<posy>510</posy>
 				<width>1220</width>
 				<height>35</height>
-				<font>font30_title</font>
+				 <font>Font_Neon_30</font>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<scroll>true</scroll>
@@ -199,7 +199,7 @@
 				<posy>530</posy>
 				<width>1220</width>
 				<height>35</height>
-				<font>font30_title</font>
+				 <font>Font_Neon_30</font>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -235,7 +235,7 @@
 				<posy>640</posy>
 				<width>1280</width>
 				<height>35</height>
-				<font>font12caps</font>
+				<font>Font_Neon_16</font>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -250,7 +250,7 @@
 				<posy>530</posy>
 				<width>1220</width>
 				<height>35</height>
-				<font>font30_title</font>
+				 <font>Font_Neon_30</font>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -286,7 +286,7 @@
 				<posy>640</posy>
 				<width>1280</width>
 				<height>35</height>
-				<font>font12caps</font>
+				<font>Font_Neon_16</font>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -411,7 +411,7 @@
 				<posy>188</posy>
 				<width>1200</width>
 				<height>30</height>
-				<font>font24_title</font>
+				 <font>Font_Neon_24</font>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<scroll>true</scroll>
@@ -457,7 +457,7 @@
 					<posy>0</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -470,7 +470,7 @@
 					<posy>30</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -485,7 +485,7 @@
 					<posy>55</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -500,7 +500,7 @@
 					<posy>80</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -515,7 +515,7 @@
 					<posy>105</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -535,7 +535,7 @@
 					<posy>0</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -548,7 +548,7 @@
 					<posy>30</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -561,7 +561,7 @@
 					<posy>75</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -574,7 +574,7 @@
 					<posy>105</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -592,7 +592,7 @@
 					<posy>0</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -605,7 +605,7 @@
 					<posy>30</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -620,7 +620,7 @@
 					<posy>55</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -635,7 +635,7 @@
 					<posy>80</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -655,7 +655,7 @@
 					<posy>0</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -668,7 +668,7 @@
 					<posy>30</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -681,7 +681,7 @@
 					<posy>55</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -694,7 +694,7 @@
 					<posy>80</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -711,7 +711,7 @@
 					<posy>0</posy>
 					<width>400</width>
 					<height>30</height>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
@@ -725,7 +725,7 @@
 					<posy>30</posy>
 					<width>850</width>
 					<height>120</height>
-					<font>font12</font>
+					 <font>Font_Neon_16</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -787,7 +787,7 @@
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -799,7 +799,7 @@
 						<posy>0</posy>
 						<width>500</width>
 						<height>40</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -846,7 +846,7 @@
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -858,7 +858,7 @@
 						<posy>0</posy>
 						<width>500</width>
 						<height>40</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -931,7 +931,7 @@
 					<label>$LOCALIZE[20360]:</label>
 					<align>right</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>blue</textcolor>
 				</control>
 				<control type="label">
@@ -943,7 +943,7 @@
 					<label fallback="416">$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<scroll>true</scroll>
 				</control>
 				<control type="label">
@@ -955,7 +955,7 @@
 					<label>$LOCALIZE[31322]:</label>
 					<align>right</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>blue</textcolor>
 				</control>
 				<control type="label">
@@ -967,7 +967,7 @@
 					<label fallback="416">$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<scroll>true</scroll>
 				</control>
 				<control type="label">
@@ -979,7 +979,7 @@
 					<label>$LOCALIZE[515]:</label>
 					<align>right</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>blue</textcolor>
 				</control>
 				<control type="label">
@@ -991,7 +991,7 @@
 					<label fallback="416">$INFO[listitem.Genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13</font>
+					 <font>Font_Neon_20</font>
 					<scroll>true</scroll>
 				</control>
 				<control type="image">
@@ -1007,7 +1007,7 @@
 					<posy>250</posy>
 					<width>600</width>
 					<height>160</height>
-					<font>font12</font>
+					 <font>Font_Neon_16</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -1061,7 +1061,7 @@
 					<label>$INFO[ListItem.Episode,, $LOCALIZE[20453]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1074,7 +1074,7 @@
 					<label>$INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1087,7 +1087,7 @@
 					<label>$INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1152,7 +1152,7 @@
 					<label>$INFO[ListItem.Episode,, $LOCALIZE[20453]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1165,7 +1165,7 @@
 					<label>$INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1178,7 +1178,7 @@
 					<label>$INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1229,7 +1229,7 @@
 					<label>$INFO[ListItem.Season,[COLOR=mainblue] $LOCALIZE[20373] :[/COLOR] ] $INFO[ListItem.episode,[COLOR=mainblue] $LOCALIZE[20359] :[/COLOR] ] $INFO[ListItem.premiered,[COLOR=mainblue] $LOCALIZE[31322] :[/COLOR] ]</label>
 					<align>center</align>
 					<aligny>top</aligny>
-					<font>font13_title</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -1247,7 +1247,7 @@
 					<posy>280</posy>
 					<width>600</width>
 					<height>140</height>
-					<font>font12</font>
+					 <font>Font_Neon_16</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -1311,7 +1311,7 @@
 					<posy>80</posy>
 					<width>270</width>
 					<height>370</height>
-					<font>font12</font>
+					 <font>Font_Neon_16</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -1350,7 +1350,7 @@
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -1362,7 +1362,7 @@
 						<posy>0</posy>
 						<width>500</width>
 						<height>40</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -1409,7 +1409,7 @@
 						<posy>0</posy>
 						<width>520</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -1421,7 +1421,7 @@
 						<posy>0</posy>
 						<width>500</width>
 						<height>40</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -1471,7 +1471,7 @@
 					<label>$INFO[ListItem.Label]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>font24_title</font>
+					 <font>Font_Neon_24</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -1544,7 +1544,7 @@
 						<label>$LOCALIZE[31322]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1556,7 +1556,7 @@
 						<label fallback="416">$INFO[listitem.premiered]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -1568,7 +1568,7 @@
 						<label>$LOCALIZE[515]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1580,7 +1580,7 @@
 						<label fallback="416">$INFO[listitem.Genre]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="image">
@@ -1596,7 +1596,7 @@
 						<posy>250</posy>
 						<width>600</width>
 						<height>160</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -1615,7 +1615,7 @@
 						<label>$LOCALIZE[31322]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1627,7 +1627,7 @@
 						<label fallback="416">$INFO[listitem.premiered]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -1639,7 +1639,7 @@
 						<label>$LOCALIZE[515]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1651,7 +1651,7 @@
 						<label fallback="416">$INFO[listitem.Genre]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -1663,7 +1663,7 @@
 						<label>$LOCALIZE[20360]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1675,7 +1675,7 @@
 						<label fallback="416">$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="image">
@@ -1691,7 +1691,7 @@
 						<posy>275</posy>
 						<width>600</width>
 						<height>290</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -1710,7 +1710,7 @@
 						<label>$LOCALIZE[515]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1722,7 +1722,7 @@
 						<label fallback="416">$INFO[listitem.Genre]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -1734,7 +1734,7 @@
 						<label>$LOCALIZE[20360]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1746,7 +1746,7 @@
 						<label fallback="416">$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="image">
@@ -1762,7 +1762,7 @@
 						<posy>275</posy>
 						<width>600</width>
 						<height>100</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -1783,7 +1783,7 @@
 					<label>$INFO[ListItem.Label]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>font24_title</font>
+					 <font>Font_Neon_24</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -1854,7 +1854,7 @@
 						<label>$LOCALIZE[345]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1866,7 +1866,7 @@
 						<label fallback="416">$INFO[listitem.Year]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -1878,7 +1878,7 @@
 						<label>$LOCALIZE[515]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1890,7 +1890,7 @@
 						<label fallback="416">$INFO[listitem.Genre]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="image">
@@ -1906,7 +1906,7 @@
 						<posy>290</posy>
 						<width>600</width>
 						<height>120</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -1945,7 +1945,7 @@
 						<label>$LOCALIZE[345]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1957,7 +1957,7 @@
 						<label fallback="416">$INFO[listitem.Year]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -1969,7 +1969,7 @@
 						<label>$LOCALIZE[515]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -1981,7 +1981,7 @@
 						<label fallback="416">$INFO[listitem.Genre]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 				</control>
@@ -1999,7 +1999,7 @@
 					<label>$INFO[ListItem.TVShowTitle]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>font24_title</font>
+					 <font>Font_Neon_24</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -2033,7 +2033,7 @@
 					<label>$INFO[ListItem.Label]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>font24_title</font>
+					 <font>Font_Neon_24</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -2066,7 +2066,7 @@
 					<label>$INFO[ListItem.Title]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>font24_title</font>
+					 <font>Font_Neon_24</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -2122,7 +2122,7 @@
 						<label>$LOCALIZE[31322]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -2134,7 +2134,7 @@
 						<label fallback="416">$INFO[listitem.premiered]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -2146,7 +2146,7 @@
 						<label>$LOCALIZE[20359]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>blue</textcolor>
 					</control>
 					<control type="label">
@@ -2158,7 +2158,7 @@
 						<label fallback="416">$INFO[listitem.Season,,x]$INFO[listitem.Episode]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="image">
@@ -2174,7 +2174,7 @@
 						<posy>290</posy>
 						<width>600</width>
 						<height>120</height>
-						<font>font12</font>
+						 <font>Font_Neon_16</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Plot]</label>

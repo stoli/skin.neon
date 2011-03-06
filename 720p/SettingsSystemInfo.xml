@@ -372,6 +372,6 @@
 				<onclick>ActivateWindow(Home)</onclick>
 			</control>
 		</control>
-		<include>Clock</include>
+		<include>Time</include>
 	</controls>
 </window>

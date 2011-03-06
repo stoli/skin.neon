@@ -176,6 +176,7 @@
 					<onup>9001</onup>
 					<ondown>9001</ondown>
 					<control type="label" id="100">
+						<description></description>
 						<width>740</width>
 						<height>45</height>
 						<font>Font_Neon_20</font>
@@ -255,12 +256,7 @@
 						<onclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</onclick>
 						<visible>Skin.HasSetting(show_lyrics)</visible>
 					</control>
-					<control type="radiobutton" id="111">
-						<include>skin_settings_labels</include>
-						<label>Global Bottom Line RSS</label>
-						<onclick>Skin.ToggleSetting(global_bottomline)</onclick>
-						<selected>Skin.HasSetting(global_bottomline)</selected>
-					</control>
+					
 					<control type="radiobutton" id="118">
 						<include>skin_settings_labels</include>
 						<label>Enable Debug Grid (development only)</label>
@@ -349,7 +345,7 @@
 					<control type="radiobutton" id="121">
 						<width>860</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<label>21398</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -362,7 +358,7 @@
 						<description>Startup Playlist Path</description>
 						<width>860</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<label>15311</label>
@@ -385,7 +381,7 @@
 					<control type="radiobutton" id="124">
 						<width>860</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<label>31124</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -397,7 +393,7 @@
 					<control type="radiobutton" id="125">
 						<width>860</width>
 						<height>40</height>
-						<font>font13</font>
+						 <font>Font_Neon_20</font>
 						<label>31125</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -421,6 +417,7 @@
 					<onup>9002</onup>
 					<ondown>9002</ondown>
 					<control type="label" id="200">
+						
 						<width>740</width>
 						<height>45</height>
 						<font>Font_Neon_20</font>
@@ -432,19 +429,40 @@
 						<aligny>center</aligny>
 					</control>
 					
-				<!--	<control type="radiobutton" id="201">
-						<description>Toggle Home top or bottom</description>
+					<control type="radiobutton" id="201">
+						<description>Toggle Videos full screen or Windowed </description>
 						<include>skin_settings_labels</include>
-						<label>31271</label>
+						<label>$LOCALIZE[31726]</label>
 						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(horizontal_bottom_align)</onclick>
-						<selected>Skin.HasSetting(horizontal_bottom_align)</selected>
-						<visible>!Skin.HasSetting(horizontal_bottom_align)</visible>
+						<onclick>Skin.ToggleSetting(ShowBackgroundVideo)</onclick>
+						<selected>!Skin.HasSetting(ShowBackgroundVideo)</selected>
 					</control> -->
-				<!--	<control type="radiobutton" id="203">
+					<control type="radiobutton" id="203">
+						<description>Show Music Vis</description>
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31727]</label>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(ShowMusicVis)</onclick>
+						<selected>!Skin.HasSetting(ShowMusicVis)</selected>
+					</control> -->
+					<control type="radiobutton" id="202">
 						<description>Show Recently added info</description>
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31117]</label>
+						<onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
+						<selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
+					</control>
+					<control type="radiobutton" id="111">
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31728]</label>
+						<onclick>Skin.ToggleSetting(global_bottomline)</onclick>
+						<selected>Skin.HasSetting(global_bottomline)</selected>
+					</control>
+					<control type="button" id="299">
 						<width>740</width>
 						<height>26</height>
 						<font>Font_KeyboardTitle</font>
@@ -454,21 +472,13 @@
 						<focusedcolor>white</focusedcolor>
 						<align>left</align>
 						<aligny>top</aligny>
-						<label>31271</label>
+						<label>Select Bottom Line Logo - [COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(horizontal_bottom_align)</onclick>
-						<selected>Skin.HasSetting(horizontal_bottom_align)</selected>
-						<visible>Skin.HasSetting(horizontal_home)</visible>
-					</control> -->
-					<control type="radiobutton" id="202">
-						<description>Show Recently added info</description>
-						<include>skin_settings_labels</include>
-						<label>31117</label>
-						<onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
-						<selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
+						<onclick>Skin.SetImage(Home_Custom_RSS_Logo)</onclick>
+						<visible>Skin.HasSetting(global_bottomline)</visible>
 					</control>
-					
 					<!--Weather Widget-->
 						<control type="radiobutton" id="204">
 						<description>Show Weather Widget</description>
@@ -2443,7 +2453,7 @@
 						<control type="radiobutton" id="420">
 							<width>860</width>
 							<height>40</height>
-							<font>font13</font>
+							 <font>Font_Neon_20</font>
 							<label>$LOCALIZE[31119]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
@@ -2455,7 +2465,7 @@
 						<control type="button" id="421">
 							<width>860</width>
 							<height>40</height>
-							<font>font12</font>
+							 <font>Font_Neon_16</font>
 							<label> - $LOCALIZE[31120]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Label)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -2468,7 +2478,7 @@
 						<control type="button" id="422">
 							<width>860</width>
 							<height>40</height>
-							<font>font12</font>
+							 <font>Font_Neon_16</font>
 							<label> - $LOCALIZE[31121]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -2493,7 +2503,7 @@
 						<control type="radiobutton" id="424">
 							<width>860</width>
 							<height>35</height>
-							<font>font13</font>
+							 <font>Font_Neon_20</font>
 							<label>$LOCALIZE[31126]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
@@ -2505,7 +2515,7 @@
 						<control type="button" id="425">
 							<width>860</width>
 							<height>35</height>
-							<font>font12</font>
+							 <font>Font_Neon_16</font>
 							<label>- $LOCALIZE[31127]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(LyricScript_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -2687,7 +2697,7 @@
 							<height>240</height>
 							<align>justify</align>
 							<label>$LOCALIZE[31265]</label>
-							<font>font13</font>
+							 <font>Font_Neon_20</font>
 							<textcolor>grey2</textcolor>
 							
 							<visible>Container(9000).Hasfocus(5)</visible>

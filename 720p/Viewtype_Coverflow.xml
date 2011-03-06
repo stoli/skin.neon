@@ -1358,7 +1358,7 @@
 				<posy>580</posy>
 				<width>1200</width>
 				<height>35</height>
-				<font>font13</font>
+				 <font>Font_Neon_20</font>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>

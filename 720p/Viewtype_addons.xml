@@ -82,7 +82,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>750</width>
+					<width>650</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -101,24 +101,17 @@
 				</control>
 			</itemlayout>
 			<focusedlayout width="600" height="36">
-				<control type="image">
-					<posx>0</posx>
-					<posy>38</posy>
-					<width>750</width>
-					<height>4</height>
-					<aspectratio>stretch</aspectratio>
-					<texture>common/separator.png</texture>
-				</control>
+				
 				<control type="image">
 					<posx>10</posx>
-					<posy>3</posy>
-					<width>640</width>
+					<posy>5</posy>
+					<width>620</width>
 					<height>37</height>
 					<colordiffuse>mainblue</colordiffuse>
-					<texture>MenuItemFO.png</texture>
-					<!--<animation type="Focus" reversible="false">
-						<effect type="fade" start="0" end="70" time="800" />
-					</animation> -->
+					<texture>MenuItemFOR.png</texture>
+					<animation type="Focus" reversible="false">
+						<effect type="fade" start="0" end="70" time="300" />
+					</animation>
 				</control>
 				<control type="label">
 					<posx>5</posx>

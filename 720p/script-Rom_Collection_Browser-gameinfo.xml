@@ -472,7 +472,7 @@
 			<scroll>true</scroll>
 		    <textcolor>DDFFFFFF</textcolor>
 		    <label></label>
-			<font>font10</font>
+			<font>Font_Neon_14</font>
 		</control>
 	</controls>
 </window>
