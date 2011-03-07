@@ -19,7 +19,7 @@
 			<animation effect="slide" start="0,-145" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,-145" time="300" delay="150" tween="quadratic" easing="out">WindowClose</animation>
 			<animation effect="slide" start="0,0" end="0,-145" time="300" tween="quadratic" easing="out" condition="Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)">Conditional</animation>
-		<!--	<control type="image">
+			<control type="image">
 				<description>media info background image</description>
 				<posx>0</posx>
 				<posy>-145</posy>
@@ -27,7 +27,7 @@
 				<height>256</height>
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackUpper.png</texture>
-			</control>  -->
+			</control>  
 			<control type="group" id="200">
 				<posx>417</posx>
 				<posy>4</posy>

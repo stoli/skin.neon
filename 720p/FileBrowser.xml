@@ -187,14 +187,14 @@
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
-							<posx>110</posx>
+							<posx>105</posx>
 							<posy>0</posy>
 							<width>500</width>
 							<height>50</height>
 							<aligny>center</aligny>
 							<visible>Control.HasFocus(450)</visible>
 							<colordiffuse>mainblue</colordiffuse>
-							<texture>MenuItemFO.png</texture>
+							<texture>MenuItemFOR.png</texture>
 						</control>
 						<control type="image">
 							<posx>10</posx>
@@ -266,14 +266,14 @@
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
-							<posx>110</posx>
+							<posx>105</posx>
 							<posy>0</posy>
 							<width>500</width>
 							<height>50</height>
 							<aligny>center</aligny>
 							<visible>Control.HasFocus(451)</visible>
 							<colordiffuse>mainblue</colordiffuse>
-							<texture>MenuItemFO.png</texture>
+							<texture>MenuItemFOR.png</texture>
 						</control>
 						<control type="image">
 							<posx>10</posx>
@@ -340,7 +340,5 @@
 				</control>
 			</control>
 		</control>
-		
-		
 	</controls>
 </window>

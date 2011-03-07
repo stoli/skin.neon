@@ -106,7 +106,7 @@
                         <ondown>1</ondown>
                         <visible>system.getbool(input.enablemouse)</visible>
                     </control-->
-                    <control type="label">
+                    <!--<control type="label">
                         <description>header label</description>
                         <posx>300</posx>
                         <posy>20</posy>
@@ -131,7 +131,7 @@
                         <textcolor>grey2</textcolor>
                         <shadowcolor>black</shadowcolor>
                         <label>$INFO[Window.Property(Updated),$LOCALIZE[31301]: ,]</label>
-                    </control>
+                    </control> -->
                     <!--include>TWC.AlertsRSS</include-->
                     <control type="image">
                         <description>LOGO</description>
@@ -459,36 +459,48 @@
                 <colordiffuse>$INFO[Window.Property(Alerts.Color)]</colordiffuse>
             </control>
             <control type="group">
-                <posx>60</posx>
-                <posy>0</posy>
-                <animation effect="slide" end="-620,0" time="600" tween="quadratic" easing="out">WindowClose</animation>
-                <animation effect="slide" start="-310,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
-                <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
-                    <width>250</width>
-                    <height>35</height>
-                    <texture border="0,0,32,0">header.png</texture>
-                </control>
-                <control type="label">
-                    <include>WindowTitleCommons</include>
-                    <posx>220</posx>
-                    <label>8</label>
-                </control>
-                <control type="image">
-                    <posx>210</posx>
-                    <posy>0</posy>
-                    <width>350</width>
-                    <height>35</height>
-                    <texture border="0,0,32,0">header.png</texture>
-                </control>
-                <control type="label">
-                    <width>270</width>
-                    <include>WindowTitleCommons</include>
-                    <posx>530</posx>
-                    <label>$INFO[Weather.Location]</label>
-                </control>
-            </control>
+        	<posx>0</posx>
+			<posy>0</posy>
+				
+				<control type="group">
+				<animation effect="slide" start="-300,0" end="300,0" time="500">WindowOpen</animation>
+				<animation effect="slide" start="300,0" end="-300,0" time="400">WindowClose</animation>
+				
+					<control type="image">
+						<posx>-250</posx>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture flipx="true">MenuItemFO_small.png</texture>
+					</control>
+					<control type="label">
+						<posy>2</posy>
+						<posx>0</posx>
+						<width>300</width>
+						<font>Font_RSS</font>
+						<textcolor>white</textcolor>
+						<label>$INFO[Weather.Location]</label>
+						<align>left</align>
+					</control> 
+				</control>
+               <control type="group">
+				<animation effect="slide" start="-300,0" end="0,0" time="500">WindowOpen</animation>
+				<animation effect="slide" start="0,0" end="-300,0" time="400">WindowClose</animation>
+				
+					<control type="image">
+						<posx>-100</posx>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture flipx="true">MenuItemFO_small.png</texture>
+					</control>
+					<control type="label">
+						<posy>2</posy>
+						<posx>10</posx>
+						<width>300</width>
+						<font>Font_RSS</font>
+						<textcolor>white</textcolor>
+						<info>System.Date</info>
+						<align>left</align>
+					</control> 
+				</control>
+            </control> 
             <include>WindowTitleHomeButton</include>
             <include>Time</include>
         </controls>
