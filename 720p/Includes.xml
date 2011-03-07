@@ -9,7 +9,7 @@
 	<include file="Viewtype_JukeBox.xml" />
 	<include file="Viewtype_MusicWall.xml" />
 	<include file="Viewtype_List.xml" />
-	<include file="Viewtype_List2.xml" />
+	<include file="Viewtype_List2.xml" /> 
 	<include file="Viewtype_Landscape.xml" />
 	<include file="Viewtype_Landscape_Fanart.xml" />
 	<include file="Viewtype_Panel.xml" />
@@ -39,7 +39,7 @@
 	<include file="Viewtype_Slide.xml" />
 	<include file="Viewtype_CoverFlow.xml" />
 	<include file="Viewtype_SlimFiles.xml" />
-	<include file="ViewsMusicLibrary.xml" />
+	<include file="ViewsMusicLibrary.xml" /> 
 	<include file="weather.com plus/CommonValues.xml" />
 	<include file="weather.com plus/Maps-List-Static-Content-Includes.xml" />
 	<include file="weather.com plus/Current.xml" />

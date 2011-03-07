@@ -58,7 +58,7 @@
 					<label>2</label>
 					<icon>backgrounds/music.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMusicFolder)]</thumb>
-					<onclick>XBMC.ActivateWindow(MyMusic,return)</onclick>
+					<onclick>ActivateWindow(MyMusic,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
 				</item>
 				<item id="2">

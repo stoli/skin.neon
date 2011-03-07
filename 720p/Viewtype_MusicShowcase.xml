@@ -160,7 +160,7 @@
 					<height>417</height>
 					<texture>music/musci_focus_glow.png</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<include>Animation_PosterInfoSlide_Showcase</include>
+					<!-- <include>Animation_PosterInfoSlide_Showcase</include> -->
 					<animation type="Focus" reversible="false">
 						<effect type="fade" start="0" end="60" time="1000" delay="800" />
 					</animation>
@@ -174,7 +174,7 @@
 					<texture background="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
 					<fadetime>200</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<include>Animation_PosterInfoSlide_Showcase</include>
+					<!-- <include>Animation_PosterInfoSlide_Showcase</include> -->
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="auto" start="80" end="100" time="400" tween="back" easing="out" />
 					</animation>
@@ -185,7 +185,7 @@
 					<width>280</width>
 					<height>270</height>
 					<texture>posterframeF.png</texture>
-					<include>Animation_PosterInfoSlide_Showcase</include>
+					<!-- <include>Animation_PosterInfoSlide_Showcase</include> -->
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="auto" start="80" end="100" time="400" tween="back" easing="out" />
 						<effect type="fade" start="60" end="60" time="400" />
