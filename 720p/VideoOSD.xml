@@ -10,8 +10,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackUpper.png</texture>
 			</control>  -->
-	<include>Time</include>
-	<include>Finish_Time</include>
+	
 				
 	
 	
@@ -277,7 +276,8 @@
 		</control>
 
 	
-
+		<include>Time</include>
+		<include>Finish_Time</include>
 	
 	</controls>
 </window>

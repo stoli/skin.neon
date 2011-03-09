@@ -23,7 +23,7 @@
 			<height>20</height>
 			<align>left</align>
 			<aligny>center</aligny>
-			<font>Font_Bartowski_ListView_Season</font>
+			<font>Font_Neon_20</font>
 			<textcolor>mainblue</textcolor>
 		</control>
 		<control type="label" id="12">
@@ -34,7 +34,7 @@
 			<height>20</height>
 			<align>right</align>
 			<aligny>center</aligny>
-			<font>Font_Bartowski_ListView_Season</font>
+			<font>Font_Neon_20</font>
 			<textcolor>mainblue</textcolor>
 		</control>
 		<control type="slider" id="11">
