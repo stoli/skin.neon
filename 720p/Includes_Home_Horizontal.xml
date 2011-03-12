@@ -651,7 +651,7 @@
 					<orientation>horizontal</orientation>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
-					<onup>8001</onup>
+					<onup>301</onup>
 					<ondown>301</ondown>
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
