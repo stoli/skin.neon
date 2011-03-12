@@ -39,6 +39,7 @@
 			<onright>51</onright>
 			<onup>7000</onup>
 			<ondown>8000</ondown>
+			<!-- View Name = Showcase -->
 			<viewtype label="$LOCALIZE[31063]">list</viewtype>
 			<orientation>horizontal</orientation>
 			<focusposition>4</focusposition>
@@ -67,7 +68,7 @@
 					<width>140</width>
 					<height>140</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
-					<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true">$INFO[ListItem.Icon]</texture>
 					<bordertexture border="5">button-nofocus.png</bordertexture>
 					<bordersize>5</bordersize>
 					<animation effect="fade" start="30" end="30" time="0" condition="true">Conditional</animation>
@@ -100,7 +101,7 @@
 					<width>250</width>
 					<height>250</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
-					<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true">$INFO[ListItem.Icon]</texture>
 					<bordertexture border="5">pic_border.png</bordertexture>
 					<bordersize>5</bordersize>
 					<animation type="Focus" reversible="false">

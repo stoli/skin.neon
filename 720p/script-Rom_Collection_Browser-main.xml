@@ -459,7 +459,7 @@
 								<width>150</width>
 								<height>260</height>
 								<aspectratio align="center" aligny="top">keep</aspectratio>
-								<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
+								<texture background="true" flipy="true">$INFO[ListItem.Icon]</texture>
 								<bordertexture border="5">button-nofocus.png</bordertexture>
 								<bordersize>5</bordersize>
 								<animation effect="fade" start="30" end="30" time="0" condition="true">Conditional</animation>
@@ -492,7 +492,7 @@
 								<width>250</width>
 								<height>300</height>
 								<aspectratio align="center" aligny="top">keep</aspectratio>
-								<texture background="true" flippy="true">$INFO[ListItem.Icon]</texture>
+								<texture background="true" flipy="true">$INFO[ListItem.Icon]</texture>
 								<bordertexture border="5">pic_border.png</bordertexture>
 								<bordersize>5</bordersize>
 								<animation type="Focus" reversible="false">

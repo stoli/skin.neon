@@ -30,7 +30,6 @@
 		<include>Viewtype_Files</include>
 		<include>Viewtype_PictureGrid</include>
 		<include>PictureThumbView</include>
-		<include>Viewtype_Comics</include>
 		<include>ScrollOffsetLabel</include>
 
 		<include>Time</include>
