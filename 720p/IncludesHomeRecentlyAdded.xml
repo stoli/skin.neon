@@ -157,6 +157,7 @@
 					</content>
 				</control>
 			</control>
+<!-- TV -->
 			<control type="group">
 				<posx>275r</posx>
 				<posy>260</posy>
@@ -198,20 +199,22 @@
 						<visible>Control.HasFocus(8001) | !Control.HasFocus(8001)</visible>
 					</control>
 					<control type="image">
-						<posx>-54</posx>
+						<posx>-53</posx>
 						<posy>217</posy>
 						<width>326</width>
-						<height>190</height>
-						<texture>tv-landscape/landscapeframeFO.png</texture>
+						<height>192</height>
+						<colordiffuse>black</colordiffuse>
+						<texture>episodeframe.png</texture>
 						<animation effect="zoom" start="70" end="100" center="auto" time="400" tween="cubic" easing="inout" condition="!Control.HasFocus(8001)">Conditional</animation>
 						<visible>!Control.HasFocus(8001)</visible>
 					</control>
 					<control type="image">
-						<posx>-54</posx>
+						<posx>-53</posx>
 						<posy>217</posy>
 						<width>326</width>
-						<height>190</height>
-						<texture>tv-landscape/landscapeframeFO.png</texture>
+						<height>192</height>
+						<colordiffuse>black</colordiffuse>
+						<texture>episodeframe.png</texture>
 						<animation effect="zoom" start="70" end="100" center="auto" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(8001)">Conditional</animation>
 						<visible>Control.HasFocus(8001)</visible>
 					</control>
@@ -230,7 +233,7 @@
 				<control type="wraplist" id="8001">
 					<posx>-10</posx>
 					<posy>30</posy>
-					<width>700</width>
+					<width>300</width>
 					<height>176</height>
 					<onleft>301</onleft>
 					<onright>301</onright>
@@ -240,7 +243,7 @@
 					<focusposition>0</focusposition>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>0</scrolltime>
-					<itemlayout height="34" width="600">
+					<itemlayout height="34">
 						<control type="label">
 							<posx>260</posx>
 							<posy>2</posy>
@@ -268,11 +271,11 @@
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
-					<focusedlayout height="44" width="500">
+					<focusedlayout height="44">
 						<control type="label">
 							<posx>260</posx>
 							<posy>6</posy>
-							<width>540</width>
+							<width>260</width>
 							<height>10</height>
 							<font>Font_Bartowski_Movies</font>
 							<textcolor>mainblue</textcolor>
@@ -280,12 +283,15 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>right</align>
 							<aligny>center</aligny>
+							<scroll>false</scroll>
 							<label>[B]$INFO[ListItem.Label2][/B]</label>
 						</control>
+						
 						<control type="label">
 							<posx>260</posx>
 							<posy>18</posy>
-							<width>540</width>
+							<width>260</width>
+							<scroll>false</scroll>
 							<height>20</height>
 							 <font>Font_Neon_16</font>
 							<textcolor>white</textcolor>
@@ -371,222 +377,10 @@
 				</control>
 			</control>
 <!-- TV  -->
-			<control type="group">
-				<posx>275r</posx>
-				<posy>160</posy>
-				<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(5) + Skin.HasSetting(horizontal_bottom_align)</visible>
-				<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
-				<animation effect="fade" start="100" end="0" time="200" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
-				<control type="group">
-					<control type="image">
-						<posx>-40</posx>
-						<posy>305</posy>
-						<width>301</width>
-						<height>168</height>
-						<texture background="true" diffuse="episodematte.png">$INFO[Container(8001).ListItem.ActualIcon]</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">scale</aspectratio>
-						<animation effect="zoom" start="70" end="100" center="auto" time="400" tween="cubic" easing="inout" condition="!Control.HasFocus(8001)">Conditional</animation>
-						<visible>!Control.HasFocus(8001)</visible>
-					</control>
-					<control type="image">
-						<posx>-40</posx>
-						<posy>305</posy>
-						<width>301</width>
-						<height>168</height>
-						<texture background="true" diffuse="episodematte.png">$INFO[Container(8001).ListItem.ActualIcon]</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">scale</aspectratio>
-						<animation effect="zoom" start="70" end="100" center="auto" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(8001)">Conditional</animation>
-						<visible>Control.HasFocus(8001)</visible>
-					</control>
-					<control type="image">
-						<posx>-54</posx>
-						<posy>295</posy>
-						<width>326</width>
-						<height>190</height>
-						<texture>tv-landscape/landscapeframeFO.png</texture>
-						<animation effect="zoom" start="70" end="100" center="auto" time="400" tween="cubic" easing="inout" condition="!Control.HasFocus(8001)">Conditional</animation>
-						<visible>!Control.HasFocus(8001)</visible>
-					</control>
-					<control type="image">
-						<posx>-54</posx>
-						<posy>295</posy>
-						<width>326</width>
-						<height>190</height>
-						<texture>tv-landscape/landscapeframeFO.png</texture>
-						<animation effect="zoom" start="70" end="100" center="auto" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(8001)">Conditional</animation>
-						<visible>Control.HasFocus(8001)</visible>
-					</control>
-					<control type="image">
-						<posx>-40</posx>
-						<posy>304</posy>
-						<width>301</width>
-						<height>168</height>
-						<texture>common/recently_black_back.png</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">scale</aspectratio>
-						<animation effect="fade" start="0" end="100" time="400" delay="200" condition="Control.HasFocus(8001)">Conditional</animation>
-						<visible>Control.HasFocus(8001) | !Control.HasFocus(8001)</visible>
-					</control>
-					<control type="label">
-						<posx>-40</posx>
-						<posy>445</posy>
-						<width>301</width>
-						<label fallback="-">"$INFO[Container(8001).ListItem.Label]"</label>
-						<align>center</align>
-						<font>Font_Bartowski_Extras_Pause</font>
-						<textcolor>ffffffff</textcolor>
-						<animation effect="fade" start="0" end="100" time="400" delay="200" condition="Control.HasFocus(8001)">Conditional</animation>
-						<visible>Control.HasFocus(8001) | !Control.HasFocus(8001)</visible>
-					</control>
-				</control>
-				<control type="wraplist" id="8001">
-					<posx>-10</posx>
-					<posy>0</posy>
-					<width>700</width>
-					<height>176</height>
-					<onleft>301</onleft>
-					<onright>301</onright>
-					<onup>8001</onup>
-					<ondown>8001</ondown>
-					<viewtype label="535">list</viewtype>
-					<focusposition>0</focusposition>
-					<pagecontrol>-</pagecontrol>
-					<scrolltime>0</scrolltime>
-					<itemlayout height="34" width="600">
-						<control type="label">
-							<posx>260</posx>
-							<posy>2</posy>
-							<width>540</width>
-							<height>10</height>
-							<font>Font_ListSmall</font>
-							<textcolor>grey</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<selectedcolor>selected</selectedcolor>
-							<align>right</align>
-							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label2]</label>
-						</control>
-						<control type="label">
-							<posx>260</posx>
-							<posy>12</posy>
-							<width>540</width>
-							<height>20</height>
-							 <font>Font_Neon_16</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<selectedcolor>selected</selectedcolor>
-							<align>right</align>
-							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label]</label>
-						</control>
-					</itemlayout>
-					<focusedlayout height="44" width="500">
-						<control type="label">
-							<posx>260</posx>
-							<posy>6</posy>
-							<width>540</width>
-							<height>10</height>
-							<font>Font_Bartowski_Movies</font>
-							<textcolor>mainblue</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<selectedcolor>selected</selectedcolor>
-							<align>right</align>
-							<aligny>center</aligny>
-							<label>[B]$INFO[ListItem.Label2][/B]</label>
-						</control>
-						<control type="label">
-							<posx>260</posx>
-							<posy>18</posy>
-							<width>540</width>
-							<height>20</height>
-							 <font>Font_Neon_16</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<selectedcolor>selected</selectedcolor>
-							<align>right</align>
-							<aligny>center</aligny>
-							<label>[B]$INFO[ListItem.Label][/B]</label>
-						</control>
-					</focusedlayout>
-					<content>
-						<item id="1">
-							<label>$INFO[Window.Property(LatestEpisode.1.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.1.ShowTitle)] - $INFO[Window.Property(LatestEpisode.1.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.1.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.1.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.1.Thumb)]</icon>
-						</item>
-						<item id="2">
-							<label>$INFO[Window.Property(LatestEpisode.2.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.2.ShowTitle)] - $INFO[Window.Property(LatestEpisode.2.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.2.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.2.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.2.Thumb)]</icon>
-						</item>
-						<item id="3">
-							<label>$INFO[Window.Property(LatestEpisode.3.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.3.ShowTitle)] - $INFO[Window.Property(LatestEpisode.3.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.3.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.3.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.3.Thumb)]</icon>
-						</item>
-						<item id="4">
-							<label>$INFO[Window.Property(LatestEpisode.4.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.4.ShowTitle)] - $INFO[Window.Property(LatestEpisode.4.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.4.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.4.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.4.Thumb)]</icon>
-						</item>
-						<item id="5">
-							<label>$INFO[Window.Property(LatestEpisode.5.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.5.ShowTitle)] - $INFO[Window.Property(LatestEpisode.5.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.5.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.5.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.5.Thumb)]</icon>
-						</item>
-						<item id="6">
-							<label>$INFO[Window.Property(LatestEpisode.6.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.6.ShowTitle)] - $INFO[Window.Property(LatestEpisode.6.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.6.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.6.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.6.Thumb)]</icon>
-						</item>
-						<item id="7">
-							<label>$INFO[Window.Property(LatestEpisode.7.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.7.ShowTitle)] - $INFO[Window.Property(LatestEpisode.7.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.7.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.7.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.7.Thumb)]</icon>
-						</item>
-						<item id="8">
-							<label>$INFO[Window.Property(LatestEpisode.8.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.8.ShowTitle)] - $INFO[Window.Property(LatestEpisode.8.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.8.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.8.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.8.Thumb)]</icon>
-						</item>
-						<item id="9">
-							<label>$INFO[Window.Property(LatestEpisode.9.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.9.ShowTitle)] - $INFO[Window.Property(LatestEpisode.9.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.9.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.9.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.9.Thumb)]</icon>
-						</item>
-						<item id="10">
-							<label>$INFO[Window.Property(LatestEpisode.10.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.10.ShowTitle)] - $INFO[Window.Property(LatestEpisode.10.EpisodeNo)]</label2>
-							<onclick>PlayMedia($INFO[Window.Property(LatestEpisode.10.Path)])</onclick>
-							<thumb>$INFO[Window.Property(LatestEpisode.10.Fanart)]</thumb>
-							<icon>$INFO[Window.Property(LatestEpisode.10.Thumb)]</icon>
-						</item>
-					</content>
-				</control>
-			</control>
+			
 		</control>
 
-		<!--Music widget-->
+	<!--Music widget-->
 			<control type="group">
 				<posx>90r</posx>
 				<posy>105</posy>

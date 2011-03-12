@@ -8,9 +8,9 @@
 	
 	
 	<control type="group">	
-	<animation type="WindowOpen">
+	<!--<animation type="WindowOpen">
 				<effect type="fade" start="0" end="100" time="600" delay="600" />
-			</animation>	
+			</animation>	-->
 		<control type="group">		
 			<posy>560</posy>
 			<visible>!Control.IsVisible(10)</visible>
