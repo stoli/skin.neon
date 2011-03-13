@@ -1,6 +1,7 @@
 <window id="12">
 	<defaultcontrol>3</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>yes</allowoverlay>
+	
 	<controls>
 		<control type="group">
 			<visible>!Window.Previous(Weather) + !Window.Previous(VideoFiles) + !Window.Previous(VideoLibrary) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>

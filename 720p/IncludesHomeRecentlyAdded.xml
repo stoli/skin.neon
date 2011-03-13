@@ -159,22 +159,36 @@
 			</control>
 <!-- TV -->
 			<control type="group">
-				<posx>275r</posx>
+				<posx>600r</posx>
 				<posy>260</posy>
 				<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(5)</visible>
-				<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
-				<animation effect="fade" start="100" end="0" time="200" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
+				<animation effect="slide" start="600" end="0" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
+				<animation effect="slide" start="0" end="600" time="200" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
 				<control type="group">
-				<control type="image">
+				<!--<control type="image">
 					<texture border="20">ContentPanel.png</texture>
 					<posx>-32</posx>
 					<posy>10</posy>
 					<width>300</width>
 					<height>220</height>
 					
+				</control> -->
+				<control type="label">
+					<description>Title label</description>
+					<posx>705r</posx>
+					<posy>190</posy>
+					<height>20</height>
+					<width>230</width>
+					<label>31324</label>
+					<align>right</align>
+					<aligny>center</aligny>
+					<font>Font_KeyboardKeys</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<animation effect="slide" start="600,0" end="0,0" time="600" delay="2400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
 				</control>
 					<control type="image">
-						<posx>-40</posx>
+						<posx>280</posx>
 						<posy>230</posy>
 						<width>301</width>
 						<height>168</height>
@@ -185,7 +199,7 @@
 						<visible>!Control.HasFocus(8001)</visible>
 					</control>
 					<control type="image">
-						<posx>-40</posx>
+						<posx>280</posx>
 						<posy>230</posy>
 						<width>301</width>
 						<height>168</height>
@@ -196,10 +210,10 @@
 						<visible>Control.HasFocus(8001)</visible>
 					</control>
 					<control type="image">
-						<posx>-41</posx>
-						<posy>227</posy>
+						<posx>281</posx>
+						<posy>193</posy>
 						<width>301</width>
-						<height>168</height>
+						<height>202</height>
 						<texture>common/recently_black_back.png</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">scale</aspectratio>
@@ -207,7 +221,7 @@
 						<visible>Control.HasFocus(8001) | !Control.HasFocus(8001)</visible>
 					</control>
 					<control type="image">
-						<posx>-53</posx>
+						<posx>270</posx>
 						<posy>217</posy>
 						<width>326</width>
 						<height>192</height>
@@ -217,7 +231,7 @@
 						<visible>!Control.HasFocus(8001)</visible>
 					</control>
 					<control type="image">
-						<posx>-53</posx>
+						<posx>270</posx>
 						<posy>217</posy>
 						<width>326</width>
 						<height>192</height>
@@ -226,7 +240,7 @@
 						<animation effect="zoom" start="70" end="100" center="auto" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(8001)">Conditional</animation>
 						<visible>Control.HasFocus(8001)</visible>
 					</control>
-					<control type="label">
+					<!--<control type="label">
 						<posx>-40</posx>
 						<posy>369</posy>
 						<width>301</width>
@@ -236,13 +250,13 @@
 						<textcolor>ffffffff</textcolor>
 						<animation effect="fade" start="0" end="100" time="400" delay="200" condition="Control.HasFocus(8001)">Conditional</animation>
 						<visible>Control.HasFocus(8001) | !Control.HasFocus(8001)</visible>
-					</control>
+					</control>-->
 				</control>
 				<control type="wraplist" id="8001">
-					<posx>-10</posx>
-					<posy>30</posy>
+					<posx>310</posx>
+					<posy>358</posy>
 					<width>300</width>
-					<height>176</height>
+					<height>35</height>
 					<onleft>301</onleft>
 					<onright>301</onright>
 					<onup>8001</onup>
@@ -255,7 +269,7 @@
 						<control type="label">
 							<posx>260</posx>
 							<posy>2</posy>
-							<width>540</width>
+							<width>260</width>
 							<height>10</height>
 							<font>Font_ListSmall</font>
 							<textcolor>grey</textcolor>
@@ -264,11 +278,12 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label2]</label>
+							
 						</control>
 						<control type="label">
 							<posx>260</posx>
 							<posy>12</posy>
-							<width>540</width>
+							<width>260</width>
 							<height>20</height>
 							 <font>Font_Neon_16</font>
 							<textcolor>white</textcolor>
@@ -277,6 +292,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label]</label>
+							
 						</control>
 					</itemlayout>
 					<focusedlayout height="44">
@@ -293,6 +309,7 @@
 							<aligny>center</aligny>
 							<scroll>false</scroll>
 							<label>[B]$INFO[ListItem.Label2][/B]</label>
+							
 						</control>
 						
 						<control type="label">
@@ -384,11 +401,9 @@
 					</content>
 				</control>
 			</control>
-<!-- TV  -->
-			
 		</control>
 
-	<!--Music widget-->
+<!--Music widget-->
 			<control type="group">
 				<posx>90r</posx>
 				<posy>105</posy>
@@ -409,13 +424,13 @@
 					<shadowcolor>black</shadowcolor>
 					<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(1)">Conditional</animation>
 				</control>
-				<control type="wraplist" id="8001">
+				<control type="wraplist" id="8002">
 					<posx>-301</posx>
 					<posy>270</posy>
 					<width>380</width>
 					<height>1000</height>
-					<onleft>8001</onleft>
-					<onright>8001</onright>
+					<onleft>8002</onleft>
+					<onright>8002</onright>
 					<onup>301</onup>
 					<ondown>301</ondown>
 					<viewtype label="535">list</viewtype>

@@ -111,6 +111,9 @@
 	<include name="switch_horizontal_fanart">
 		<imagepath background="true">$INFO[Container(301).ListItem.Icon]</imagepath>
 	</include>
+	
+
+	
 	<include name="CommonMusicBackground">
 		<control type="multiimage">
 			<posx>0</posx>
@@ -123,16 +126,7 @@
 			<fadetime>1000</fadetime>
 		</control>
 	</include>
-	<!-- Not Yet Implemented -->
-<!--	<include name="CommonMediaPlayingBackground">
-		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
-			<texture>special://skin/backgrounds/media-overlay.png</texture>
-			<visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)</visible>
-		</control> -->
+
 	<include name="dialogConfirmButton">	
 		<width>120</width>
 		<height>42</height>

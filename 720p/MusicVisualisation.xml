@@ -140,12 +140,35 @@
 			</control>
 			<control type="progress">
 				<description>Progressbar</description>
-				<posx>20</posx>
-				<posy>120</posy>
-				<width>300</width>
-				<height>14</height>
+				<posx>350</posx>
+				<posy>-20</posy>
+				<width>450</width>
+				<height>8</height>
 				<info>Player.Progress</info>
 			</control>
+			<control type="label">
+				<animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
+				<animation effect="slide" start="0" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
+				<description>Current time</description>
+				<posx>350</posx>
+				<posy>103</posy>
+				<width>500</width>
+				<height>500</height>
+				<font>music_time</font>
+				
+				<label>[COLOR 60FFFFFF]$INFO[MusicPlayer.Time][/COLOR]</label>
+			</control>  
+			<control type="label">
+				<animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
+				<animation effect="slide" start="0" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
+				<description>Current time</description>
+				<posx>485</posx>
+				<posy>103</posy>
+				<width>500</width>
+				<height>500</height>
+				<font>music_time</font>
+				<label>[COLOR 60FFFFFF] / $INFO[MusicPlayer.Duration][/COLOR]</label>
+			</control> -->
 		</control>
 		<control type="group">
 			<visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>
@@ -160,7 +183,7 @@
 				<aligny>-</aligny>
 				<scroll>true</scroll>
 				<font>Font_Neon_45</font>
-				<label>[UPPERCASE][COLOR=mainblue][B]$INFO[MusicPlayer.Artist][/B][/COLOR][/UPPERCASE]</label>
+				<label>[UPPERCASE][COLOR=white][B]$INFO[MusicPlayer.Artist][/B][/COLOR][/UPPERCASE]</label>
 				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>
 			</control>
 			<control type="image">
@@ -196,14 +219,14 @@
 				<align>left</align>
 				<aligny>-</aligny>
 				<font>Font_Bartowski_Showcase_runtime_year</font>
-				<label>[COLOR 80c2c4c3]Track: $INFO[MusicPlayer.TrackNumber] - [/COLOR][COLOR=white]$INFO[MusicPlayer.Title][/COLOR][COLOR 60FFFFFF] - $INFO[MusicPlayer.Duration][/COLOR]</label>
+				<label>[COLOR 80c2c4c3]Track: $INFO[MusicPlayer.TrackNumber] - [/COLOR][COLOR=white]$INFO[MusicPlayer.Title][/COLOR]</label>
 				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
 			</control>
 			<control type="grouplist">
 				<animation effect="slide" start="0,120" end="0,0" time="700" tween="cubic" easing="out" delay="1300">WindowOpen</animation>
 				<animation effect="slide" start="0,0" end="0,120" time="600" tween="cubic" easing="in" delay="600">WindowClose</animation>
 				<description>Media Codec Flagging Images</description>
-				<posx>60</posx>
+				<posx>-240</posx>
 				<posy>115</posy>
 				<width>550</width>
 				<align>right</align>
@@ -257,7 +280,7 @@
 					<aligny>bottom</aligny>
 					<font>Font_Neon_20</font>
 					<angle>90</angle>
-					<label>[COLOR=mainblue]$INFO[MusicPlayer.offset(1).Artist][/COLOR]</label>
+					<label>[COLOR=white]$INFO[MusicPlayer.offset(1).Artist][/COLOR]</label>
 					
 				</control>
 				<control type="label">
@@ -282,7 +305,7 @@
 					<aligny>bottom</aligny>
 					<font>Font_Neon_20</font>
 					<angle>90</angle>
-					<label>[COLOR=mainblue]$INFO[MusicPlayer.offset(2).Artist][/COLOR]</label>
+					<label>[COLOR=white]$INFO[MusicPlayer.offset(2).Artist][/COLOR]</label>
 					
 				</control>
 				<control type="label">
@@ -315,29 +338,8 @@
 				</control>
 				
 			</control>
-	<!--			<control type="label">
-					<animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
-					<animation effect="slide" start="0" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
-					<description>Current time</description>
-					<posx>400</posx>
-					<posy>20</posy>
-					<width>500</width>
-					<height>500</height>
-					<font>Font_Neon_45</font>
-					<label>[COLOR 60FFFFFF]$INFO[MusicPlayer.Time][/COLOR]</label>
-				</control>
-				<control type="label">
-					<animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
-					<animation effect="slide" start="0" end="1300" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
-					<description>Current time</description>
-					<posx>510</posx>
-					<posy>20</posy>
-					<width>500</width>
-					<height>500</height>
-					<font>Font_Neon_45</font>
-					<label>[COLOR 60FFFFFF] / $INFO[MusicPlayer.Duration][/COLOR]</label>
-				</control> -->
-			
+
+		
 				<control type="fadelabel">
 					<animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
 					<animation effect="slide" start="0" end="1000" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>					<description>Previous and Next artist</description>
@@ -357,7 +359,8 @@
 				</control>		
 			</control>
 		</control>
-	<control type="group">
+<!-- Jukebox -->
+		<control type="group">
 		<visible>Skin.HasSetting(FullscreenJukebox)</visible>
 			<control type="image">
 				<posx>370</posx>

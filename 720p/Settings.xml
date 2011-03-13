@@ -3,7 +3,7 @@
 	<allowoverlay>no</allowoverlay>
 	<controls>
 		<include>CommonSettingsBackground</include>
-	
+		<include>CommonMediaPlayingBackground</include>
 		<control type="group">
 			<posx>90</posx>
 			<posy>50</posy>

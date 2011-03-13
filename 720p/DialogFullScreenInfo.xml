@@ -46,12 +46,12 @@
 				<texturebg>osd/osd_progress_back1.png</texturebg>
 				<lefttexture>osd/left.png</lefttexture>
 				<midtexture>osd/mid.png</midtexture>
-				<righttexture>osd/slidernibfo1.png</righttexture>
+				<righttexture>osd/slidernibfo1.png</righttexture>  -->
 				<info>Player.Progress</info>
 				<posx>140</posx>
 				<posy>135</posy>
 				<width>1000</width>
-				<height>15</height>
+				<height>20</height>
 			</control>
 			<control type="label">
 				<posx>35</posx>
