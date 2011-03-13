@@ -93,23 +93,21 @@
 						<texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>102</posy>
-						<width>260</width>
-						<height>10</height>
-						<texture>dialogs/tv/$INFO[ListItem.Overlay]</texture>
-						<colordiffuse>mainblue</colordiffuse>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<posx>245</posx>
+						<posy>95</posy>
+						<width>30</width>
+						<height>30</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						
 						<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>102</posy>
-						<width>260</width>
-						<height>10</height>
-						<texture>dialogs/tv/$INFO[ListItem.Overlay]</texture>
-						<colordiffuse>mainblue</colordiffuse>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<posx>245</posx>
+						<posy>95</posy>
+						<width>30</width>
+						<height>30</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						
 						<visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay) + Container.Content(movies)</visible>
 					</control>
 					
@@ -218,12 +216,12 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posy>90</posy>
-						<width>500</width>
-						<height>12</height>
-						<texture>dialogs/tv/$INFO[ListItem.Overlay]</texture>
-						<colordiffuse>mainblue</colordiffuse>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<posx>470</posx>
+						<posy>78</posy>
+						<width>45</width>
+						<height>45</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="191,440" start="90" end="100" time="400" tween="back" easing="out" />
 							<effect type="fade" start="80" end="100" time="400" />
@@ -231,12 +229,11 @@
 						<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 					</control>
 					<control type="image">
-						<posy>90</posy>
-						<width>500</width>
-						<height>12</height>
-						<texture>dialogs/tv/$INFO[ListItem.Overlay]</texture>
-						<colordiffuse>mainblue</colordiffuse>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<posx>470</posx>
+						<posy>78</posy>
+						<width>45</width>
+						<height>45</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="191,440" start="90" end="100" time="400" tween="back" easing="out" />
 							<effect type="fade" start="80" end="100" time="400" />
