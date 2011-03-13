@@ -2,7 +2,7 @@
 
 	<include name="HorizontalHomeBottom">
 		
-		<control type="fixedlist" id="301">
+		<control type="wraplist" id="301">
 			
 			<posx>-185</posx>
 			<posy>192</posy>

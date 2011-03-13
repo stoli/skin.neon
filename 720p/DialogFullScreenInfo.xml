@@ -1,5 +1,3 @@
-<!--Alaska-->
-
 <window id="142">
 	<defaultcontrol>2</defaultcontrol>
 	<controls>	
@@ -245,19 +243,9 @@
 		</control>
 	</control>
 	</control>	
-		<!--	<control type="label">
-			<animation effect="slide" start="0,-145" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="0,-145" time="300" delay="150" tween="quadratic" easing="out">WindowClose</animation>
-			<animation effect="slide" start="0,0" end="0,-145" time="300" tween="quadratic" easing="out" condition="Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)">Conditional</animation>
-				<posx>15</posx>
-				<posy>3</posy>
-				<label>$LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
-				<textcolor>white</textcolor>
-				<font>Font_RSS_Unicode</font>
-				<visible>Skin.HasSetting(library_global_clock)</visible>
-			</control>	-->
+		
 			
-			<!-- New Finish Time -->
+		
 			
 	<include>Finish_Time</include>	
 	<include>Time</include>

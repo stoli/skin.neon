@@ -165,6 +165,14 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="1400" tween="cubic" easing="inout" condition="Container(301).HasFocus(5)">Conditional</animation>
 				<animation effect="fade" start="100" end="0" time="200" condition="[Library.HasContent(TVShows) + [Skin.HasSetting(HomeMenuNoMoviesButton) | Skin.HasSetting(HomeMenuNoTVShowsButton)]]">Conditional</animation>
 				<control type="group">
+				<control type="image">
+					<texture border="20">ContentPanel.png</texture>
+					<posx>-32</posx>
+					<posy>10</posy>
+					<width>300</width>
+					<height>220</height>
+					
+				</control>
 					<control type="image">
 						<posx>-40</posx>
 						<posy>230</posy>
