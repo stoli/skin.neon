@@ -257,43 +257,17 @@
 					<posy>358</posy>
 					<width>300</width>
 					<height>35</height>
-					<onleft>301</onleft>
-					<onright>301</onright>
-					<onup>8001</onup>
-					<ondown>8001</ondown>
+					<onleft>8001</onleft>
+					<onright>8001</onright>
+					<onup>301</onup>
+					<ondown>301</ondown>
 					<viewtype label="535">list</viewtype>
+					<orientation>horizontal</orientation>
 					<focusposition>0</focusposition>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>0</scrolltime>
 					<itemlayout height="34">
-						<control type="label">
-							<posx>260</posx>
-							<posy>2</posy>
-							<width>260</width>
-							<height>10</height>
-							<font>Font_ListSmall</font>
-							<textcolor>grey</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<selectedcolor>selected</selectedcolor>
-							<align>right</align>
-							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label2]</label>
-							
-						</control>
-						<control type="label">
-							<posx>260</posx>
-							<posy>12</posy>
-							<width>260</width>
-							<height>20</height>
-							 <font>Font_Neon_16</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<selectedcolor>selected</selectedcolor>
-							<align>right</align>
-							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label]</label>
-							
-						</control>
+						
 					</itemlayout>
 					<focusedlayout height="44">
 						<control type="label">
