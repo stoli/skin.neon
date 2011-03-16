@@ -62,7 +62,7 @@
 		<include>Viewtype_JukeBox</include><!-- 54 -->
 		<include>Viewtype_List</include><!-- 53 -->
 		<include>MusicInfoListView</include><!-- 506 -->
-		<include>AlbumWrapView2_Fanart</include> <!-- 509 -->
+		<!--<include>AlbumWrapView2_Fanart</include>  --> <!-- 509 Need to fix this view and remove hidden aspect -->
 		<include>MusicVideoInfoListView</include> <!-- 511 -->
 		<include>ArtistMediaListView</include> <!-- 512 -->
 		<include>AlbumInfoListView</include> <!-- 513 -->
