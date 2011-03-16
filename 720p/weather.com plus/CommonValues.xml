@@ -1,6 +1,7 @@
 <includes>
     <include name="TWC.ButtonCommon">
-        <height>70</height>
+        <animation effect="fade" start="0" end="50">Focus</animation>
+		<height>70</height>
         <width>241</width>
         <textoffsetx>0</textoffsetx>
         <align>right</align>
