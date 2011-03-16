@@ -591,7 +591,6 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<control type="group">
-				<visible>Skin.HasSetting(weather_info)</visible>
 				<animation effect="slide" start="-500,0" end="-120,0" time="500">WindowOpen</animation>
 				<animation effect="slide" start="-120,0" end="-500,0" time="400">WindowClose</animation>
 				<control type="image">
