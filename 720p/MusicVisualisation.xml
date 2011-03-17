@@ -102,10 +102,10 @@
 			<animation effect="slide" start="350" end="-280" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
 			<control type="image" id="7026">
 				<description>dirty hack for showing cdart image</description>
-				<width>200</width>
-				<height>200</height>
-				<posx>45</posx>
-				<posy>-120</posy>
+				<width>230</width>
+				<height>230</height>
+				<posx>15</posx>
+				<posy>-135</posy>
 				<texture>$INFO[Player.FolderPath]cdart.png</texture>
 				<aspectratio align="bottom">keep</aspectratio>
 				<include>cdartspin</include>
@@ -126,7 +126,7 @@
 			</control>
 			<control type="image">
 				<description>cover image</description>
-				<posx>-30</posx>
+				<posx>-50</posx>
 				<posy>-150</posy>
 				<width>340</width>
 				<height>260</height>
