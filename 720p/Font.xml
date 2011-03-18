@@ -34,6 +34,12 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
+			<name>Font_Neon_40</name>
+			<filename>Antipasto.ttf</filename> 
+			<size>40</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_Neon_35</name>
 			<filename>Antipasto.ttf</filename> 
 			<size>35</size>

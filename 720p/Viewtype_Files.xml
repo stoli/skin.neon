@@ -387,7 +387,7 @@
 			<posy>0</posy>
 			<width>340</width>
 			<height>340</height>
-			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.bmp">extras/musicgenres/$INFO[ListItem.Label].bmp</texture>
+			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
 			<fadetime>400</fadetime>
 		</control>
 		<control type="image">
@@ -402,7 +402,7 @@
 			<posy>0</posy>
 			<width>340</width>
 			<height>340</height>
-			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.bmp">extras/musicgenres/$INFO[ListItem(-1).Label].bmp</texture>
+			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem(-1).Label].jpg</texture>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="240,200" start="100" end="0" />
@@ -414,7 +414,7 @@
 			<posy>0</posy>
 			<width>340</width>
 			<height>340</height>
-			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.bmp">extras/musicgenres/$INFO[ListItem(1).Label].bmp</texture>
+			<texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem(1).Label].jpg</texture>
 			<animation type="Hidden">
 		<!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
 				<effect type="fade" time="400" center="240,200" start="100" end="0" />

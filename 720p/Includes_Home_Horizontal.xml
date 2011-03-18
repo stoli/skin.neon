@@ -181,6 +181,14 @@
 					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
 				</item>
+				<item id="7">
+					<description>TV GUIDE</description>
+					<label>$LOCALIZE[31972]</label>
+					<icon>-</icon>
+					<thumb>-</thumb>
+					<onclick>ActivateWindow(1116)</onclick>
+					<visible>!Skin.HasSetting(HomeMenuNoTVGuide)</visible>
+				</item>
 				<!--<item id="7">
 					<description>programs</description>
 					<label>0</label>
@@ -203,7 +211,7 @@
 					<icon>backgrounds/favourites.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomfavouritesFolder)]</thumb>	
 					<onclick>XBMC.ActivateWindow(favourites)</onclick>
-					<visible>Skin.HasSetting(HomeMenuNofavouritesButton)</visible>
+					<visible>!Skin.HasSetting(HomeMenuNofavouritesButton)</visible>
 				</item>
 				<item id="14">
 					<description>weather</description>
@@ -240,7 +248,7 @@
 					<icon>backgrounds/shutdown.jpg</icon>
 					<thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
 					<onclick>XBMC.Shutdown()</onclick>
-					<visible>Skin.HasSetting(HomeMenuNoShutdownButton)</visible>
+					<visible>!Skin.HasSetting(HomeMenuNoShutdownButton)</visible>
 				</item>
 				<item id="11">
 					<icon>backgrounds/playdisc.jpg</icon>						

@@ -83,7 +83,7 @@
 						<posy>131</posy>
 						<width>162</width>
 						<height>162</height>
-						<texture background="true" fallback="extras/musicgenres/default.bmp" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].bmp</texture>
+						<texture background="true" fallback="extras/musicgenres/default.jpg" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<visible>Container.Content(Genres)</visible>
@@ -115,7 +115,7 @@
 						<posy>290</posy>
 						<width>162</width>
 						<height>162</height>
-						<texture background="true" fallback="extras/musicgenres/default.bmp" flipy="true" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].bmp</texture>
+						<texture background="true" fallback="extras/musicgenres/default.jpg" flipy="true" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
 						<fadetime>200</fadetime>
 						<colordiffuse>89FFFFFF</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -196,7 +196,7 @@
 						<posy>90</posy>
 						<width>211</width>
 						<height>211</height>
-						<texture background="true" fallback="extras/musicgenres/default.bmp" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].bmp</texture>
+						<texture background="true" fallback="extras/musicgenres/default.jpg" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
@@ -236,7 +236,7 @@
 						<posy>298</posy>
 						<width>211</width>
 						<height>211</height>
-						<texture background="true" fallback="extras/musicgenres/default.bmp" flipy="true" diffuse="movie-poster/music_square_diffuse.bmp">extras/musicgenres/$INFO[ListItem.Label].bmp</texture>
+						<texture background="true" fallback="extras/musicgenres/default.jpg" flipy="true" diffuse="movie-poster/music_square_diffuse.jpg">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
