@@ -36,7 +36,7 @@
 	<include name="Music_Global_Home">
 		<control type="group">
 		<include>Animation_CommonFade</include>
-		<visible>Window.IsActive(Home) + Player.HasAudio + !Skin.HasSetting(zune_music)</visible>		
+		<visible>Window.IsActive(Home) + Player.HasAudio + !Skin.HasSetting(zune_music) + !Container(301).Hasfocus(7)</visible>		
 		<animation effect="slide" start="0,0" end="0,-100" time="0" condition="Window.IsActive(Home)">Conditional</animation>
 		<animation effect="fade" start="0" end="100" time="0" condition="Window.IsActive(Home)">Conditional</animation>	
 		<!--	<control type="image">

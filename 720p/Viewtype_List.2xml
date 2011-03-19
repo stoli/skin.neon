@@ -135,7 +135,7 @@
 			<control type="group">
 				<posx>50</posx>
 				<posy>250</posy>
-				<visible>Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)</visible>
+				<visible>Container.Content(TVShows) + !Skin.HasSetting(TVPosters)</visible>
 				<control type="image">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -259,7 +259,7 @@
 			<control type="group">
 				<posx>80</posx>
 				<posy>170</posy>
-				<visible>Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)</visible>
+				<visible>Container.Content(TVShows) + Skin.HasSetting(TVPosters)</visible>
 				<control type="group">
 					<posx>15</posx>
 					<camera x="640" y="200" />

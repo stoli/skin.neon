@@ -46,6 +46,7 @@
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Control.HasFocus(8002)</visible>
 		</control>
+		<include>TVGuide</include>
 		<include>CommonMediaPlayingBackground</include>
 		<control type="image">
 			<posx>0</posx>
@@ -107,7 +108,7 @@
 		
 		<include condition="Skin.HasSetting(homepageHideRecentlyAdded)">HomeRecentlyAddedInfo_2</include>
 		<include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
-	
+		
 		<include>HorizontalHomeBottom</include>
 		<!-- stoli - new home animation - 030511 -->
 		<control type="image">

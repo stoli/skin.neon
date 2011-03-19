@@ -475,7 +475,7 @@
 			<!--Show Banners-->
 
 			<!--<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>105</posy>
@@ -521,7 +521,7 @@
 			<!--Show Posters-->
 
 			<!--<control type="group">
-			<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>105</posy>
@@ -617,7 +617,7 @@
 
 
 			<!--<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>105</posy>
@@ -629,7 +629,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>245</posy>
@@ -641,7 +641,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>520</posx>
 				<posy>105</posy>
@@ -653,7 +653,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>520</posx>
 				<posy>245</posy>

@@ -1,4 +1,5 @@
 <window id="1116">
+
 	<defaultcontrol always="true">512</defaultcontrol>
 	<controls>
 		<control type="group">
@@ -10,63 +11,7 @@
 				<height>730</height>
 				<texture>background-solid.png</texture>
 			</control>
-			<!--<control type="image">
-			<posx>100</posx>
-			<posy>271</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>
-		<control type="image">
-			<posx>100</posx>
-			<posy>392</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>
-		<control type="image">
-			<posx>100</posx>
-			<posy>513</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>
-		<control type="image">
-			<posx>100</posx>
-			<posy>634</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>
 
-		<control type="image">
-			<posx>239</posx>
-			<posy>271</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>
-		<control type="image">
-			<posx>239</posx>
-			<posy>392</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>
-		<control type="image">
-			<posx>239</posx>
-			<posy>513</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>
-		<control type="image">
-			<posx>239</posx>
-			<posy>634</posy>
-			<width>119</width>
-			<height>1</height>
-			<texture>line.png</texture>
-		</control>-->
 
 			<control type="label">
 				<posx>125</posx>
@@ -477,7 +422,7 @@
 			<!--Show Banners-->
 
 			<!--<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>105</posy>
@@ -523,7 +468,7 @@
 			<!--Show Posters-->
 
 			<!--<control type="group">
-			<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>105</posy>
@@ -619,7 +564,7 @@
 
 
 			<!--<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>105</posy>
@@ -631,7 +576,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>245</posy>
@@ -643,7 +588,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>520</posx>
 				<posy>105</posy>
@@ -655,7 +600,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>!Skin.HasSetting(TVPosters)</visible>
 			<control type="image">
 				<posx>520</posx>
 				<posy>245</posy>
@@ -3155,7 +3100,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="label">
 							<posx>165</posx>
@@ -3422,7 +3367,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="image">
 							<posx>20</posx>
@@ -3759,7 +3704,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-							<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+							<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<control type="label">
 							<posx>30</posx>
@@ -4003,7 +3948,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 					<control type="group">
 						<control type="image">
@@ -4336,7 +4281,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="label">
 							<posx>165</posx>
@@ -4603,7 +4548,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="image">
 							<posx>20</posx>
@@ -4942,7 +4887,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<!--	<control type="image">
 				<posx>31.5</posx>
@@ -5223,7 +5168,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<control type="image">
 							<posx>22</posx>
@@ -5567,7 +5512,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="label">
 							<posx>165</posx>
@@ -5834,7 +5779,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="image">
 							<posx>20</posx>
@@ -6175,7 +6120,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<!--	<control type="image">
 				<posx>31.5</posx>
@@ -6455,7 +6400,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<control type="image">
 							<posx>22</posx>
@@ -6799,7 +6744,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="label">
 							<posx>165</posx>
@@ -7066,7 +7011,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="image">
 							<posx>20</posx>
@@ -7407,7 +7352,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<!--	<control type="image">
 				<posx>31.5</posx>
@@ -7690,7 +7635,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<control type="image">
 							<posx>22</posx>
@@ -8036,7 +7981,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="label">
 							<posx>165</posx>
@@ -8303,7 +8248,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="image">
 							<posx>20</posx>
@@ -8644,7 +8589,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<!--	<control type="image">
 				<posx>31.5</posx>
@@ -8927,7 +8872,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<control type="image">
 							<posx>22</posx>
@@ -9271,7 +9216,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="label">
 							<posx>165</posx>
@@ -9538,7 +9483,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="image">
 							<posx>20</posx>
@@ -9880,7 +9825,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<!--	<control type="image">
 				<posx>31.5</posx>
@@ -10163,7 +10108,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<control type="image">
 							<posx>22</posx>
@@ -10508,7 +10453,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="label">
 							<posx>165</posx>
@@ -10775,7 +10720,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="246" width="403">
 						<control type="image">
 							<posx>20</posx>
@@ -11118,7 +11063,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<!--	<control type="image">
 				<posx>31.5</posx>
@@ -11401,7 +11346,7 @@
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>
+					<visible>!Skin.HasSetting(TVPosters)</visible>
 					<itemlayout height="160" width="600">
 						<control type="image">
 							<posx>22</posx>
@@ -11727,7 +11672,6 @@
 
 
 		</control>
-		<include>Clock</include>
+		<include>Time</include>
 	</controls>
 </window>
-

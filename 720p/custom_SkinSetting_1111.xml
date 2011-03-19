@@ -266,6 +266,7 @@
 					<control type="label" id="112">
 						<width>740</width>
 						<height>45</height>
+						<textoffsetx>15</textoffsetx>
 						<font>Font_Neon_20</font>
 						<label>$LOCALIZE[31038]</label>
 						<textcolor>mainblue</textcolor>
@@ -543,6 +544,7 @@
 						<width>860</width>
 						<height>45</height>
 						<font>Font_Neon_20</font>
+						<textoffsetx>15</textoffsetx>
 						<label>$LOCALIZE[31042]</label>
 						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
@@ -2562,6 +2564,7 @@
 							<width>860</width>
 							<height>45</height>
 							<font>Font_Neon_20</font>
+							<textoffsetx>15</textoffsetx>
 							<label>$LOCALIZE[31043]</label>
 							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
@@ -2668,18 +2671,21 @@
 							<width>860</width>
 							<height>45</height>
 							<font>Font_Neon_20</font>
+							<textoffsetx>15</textoffsetx>
 							<label>$LOCALIZE[31263]</label>
 							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
+							
+						
 						<control type="button" id="514">
 							<posx>0</posx>
 							<width>740</width>
 							<height>40</height>
-							<font>Font_Neon_25</font>
-							<textoffsetx>20</textoffsetx>
+							<font>Font_Neon_24</font>
+							<textoffsetx>25</textoffsetx>
 							<label>$LOCALIZE[31264]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
@@ -2689,19 +2695,79 @@
 							<!--<onclick>RunScript(script.logo-downloader)</onclick>-->
 							<onclick>XBMC.RunScript(script.logo-downloader,mode=bulk,clearart=False,logo=True,showthumb=False)</onclick>
 						</control>
+						<control type="button" id="517">
+							<posx>0</posx>
+							<width>740</width>
+							<height>40</height>
+							<font>Font_Neon_24</font>
+							<textoffsetx>25</textoffsetx>
+							<label>$LOCALIZE[31973]</label>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<colordiffuse>mainblue</colordiffuse>
+							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<!--<onclick>RunScript(script.logo-downloader)</onclick>-->
+							<onclick>XBMC.RunScript(script.logo-downloader,mode=bulk,clearart=False,logo=False,poster=poster.jpg)</onclick>
+						</control>
+						<control type="button" id="518">
+							<posx>0</posx>
+							<width>740</width>
+							<height>40</height>
+							<font>Font_Neon_24</font>
+							<textoffsetx>25</textoffsetx>
+							<label>$LOCALIZE[31974]</label>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<colordiffuse>mainblue</colordiffuse>
+							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<!--<onclick>RunScript(script.logo-downloader)</onclick>-->
+							<onclick>XBMC.RunScript(script.logo-downloader,mode=bulk,clearart=False,logo=False,banner=banner.jpg)</onclick>
+						</control>
+						<control type="button" id="519">
+							<posx>0</posx>
+							<width>740</width>
+							<height>40</height>
+							<font>Font_Neon_24</font>
+							<textoffsetx>25</textoffsetx>
+							<label>$LOCALIZE[31975]</label>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<colordiffuse>mainblue</colordiffuse>
+							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<!--<onclick>RunScript(script.logo-downloader)</onclick>-->
+							<onclick>XBMC.RunScript(script.logo-downloader,mode=bulk,clearart=False,logo=False,banner=False,showthumb=landscape.jpg)</onclick>
+						</control>
+						<control type="button" id="520">
+							<posx>0</posx>
+							<width>740</width>
+							<height>40</height>
+							<font>Font_Neon_24</font>
+							<textoffsetx>25</textoffsetx>
+							<label>$LOCALIZE[31976]</label>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<colordiffuse>mainblue</colordiffuse>
+							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<!--<onclick>RunScript(script.logo-downloader)</onclick>-->
+							<onclick>XBMC.RunScript(script.logo-downloader,mode=bulk,clearart=True,logo=False)</onclick>
+						</control>
 					</control>
-						<control type="textbox" id="515">
-							<posx>340</posx>
-							<posy>565</posy>
+				<!--	<control type="textbox" id="521">
+							<posx>380</posx>
+							<posy>560</posy>
 							<width>690</width>
-							<height>240</height>
+							<height>50</height>
+							<textoffsetx>40</textoffsetx>
 							<align>justify</align>
-							<label>$LOCALIZE[31265]</label>
+							<label>$LOCALIZE[31977]</label>
 							 <font>Font_Neon_20</font>
 							<textcolor>grey2</textcolor>
-							
 							<visible>Container(9000).Hasfocus(5)</visible>
-						</control>
+						</control> -->
 				</control>
 				<control type="group"><!--mcborzu Disable Views-->
 					<control type="grouplist" id="9006">
@@ -2871,6 +2937,7 @@
 							<width>860</width>
 							<height>45</height>
 							<font>Font_Neon_20</font>
+							<textoffsetx>15</textoffsetx>
 							<label>$LOCALIZE[31260]</label>
 							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
@@ -3156,6 +3223,7 @@
 								<width>860</width>
 								<height>45</height>
 								<font>Font_Neon_20</font>
+								<textoffsetx>15</textoffsetx>
 								<label>$LOCALIZE[31292]</label>
 								<textcolor>mainblue</textcolor>
 								<shadowcolor>black</shadowcolor>
@@ -3166,6 +3234,7 @@
 							<control type="radiobutton" id="713">
 								<description>custom home 11</description>
 								<include>skin_settings_labels</include>
+								
 								<label>$LOCALIZE[31293] 1</label>
 								<onfocus>Skin.SetString(MoviesCustom,11)</onfocus>
 								<onclick>Skin.ToggleSetting(Menu_Custom11)</onclick>
@@ -3220,6 +3289,7 @@
 								<width>860</width>
 								<height>45</height>
 								<font>Font_Neon_20</font>
+								<textoffsetx>15</textoffsetx>
 								<label>$LOCALIZE[31295]</label>
 								<textcolor>mainblue</textcolor>
 								<shadowcolor>black</shadowcolor>
@@ -3284,6 +3354,7 @@
 								<width>860</width>
 								<height>45</height>
 								<font>Font_Neon_20</font>
+								<textoffsetx>15</textoffsetx>
 								<label>Custom Music Submenus</label>
 								<textcolor>mainblue</textcolor>
 								<shadowcolor>black</shadowcolor>
