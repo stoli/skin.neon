@@ -42,7 +42,7 @@
 						<posy>0</posy>
 						<width>725</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -54,7 +54,7 @@
 						<posy>0</posy>
 						<width>700</width>
 						<height>40</height>
-						<font>Font_Neon_16</font>
+						<font>Font_Neon_18</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -88,7 +88,7 @@
 						<posy>0</posy>
 						<width>725</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -100,7 +100,7 @@
 						<posy>0</posy>
 						<width>700</width>
 						<height>40</height>
-						<font>Font_Neon_16</font>
+						<font>Font_Neon_18</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -161,11 +161,11 @@
 					<posy>390</posy>
 					<width>400</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Artist]</label>
+					<label>[B]$INFO[ListItem.Artist][/B]</label>
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_30</font>
+					<font>Font_Neon_35</font>
 					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -178,7 +178,7 @@
 					<wrapmultiline>true</wrapmultiline>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -191,7 +191,7 @@
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>top</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -206,7 +206,7 @@
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>top</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -221,7 +221,7 @@
 					<label>$INFO[listitem.TrackNumber,[COLOR=mainblue]$LOCALIZE[31724]: [/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>white</textcolor>
 					<visible>!Container.Content(Albums)</visible>
 				</control>
@@ -234,7 +234,7 @@
 					<label>$INFO[listitem.Year,[COLOR=mainblue]$LOCALIZE[345]: [/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>white</textcolor>
 				</control>
 				<control type="image">
@@ -349,13 +349,13 @@
 				<posy>195</posy>
 				<width>1200</width>
 				<height>30</height>
-				<font>Font_Neon_30</font>
+				<font>Font_Neon_35</font>
 				<textcolor>mainblue</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
+				<label>[B]$INFO[ListItem.Label][/B]</label>
 			</control>
 			<control type="scrollbar" id="60">
 				<posx>100</posx>
@@ -407,7 +407,7 @@
 						<posy>0</posy>
 						<width>720</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -419,7 +419,7 @@
 						<posy>0</posy>
 						<width>700</width>
 						<height>40</height>
-						<font>Font_Neon_16</font>
+						<font>Font_Neon_18</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -460,7 +460,7 @@
 						<posy>0</posy>
 						<width>720</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -472,7 +472,7 @@
 						<posy>0</posy>
 						<width>700</width>
 						<height>40</height>
-						<font>Font_Neon_16</font>
+						<font>Font_Neon_18</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -550,11 +550,11 @@
 					<posy>410</posy>
 					<width>400</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Artist]</label>
+					<label>[B]$INFO[ListItem.Artist][/B]</label>
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_30</font>
+					<font>Font_Neon_35</font>
 					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -567,7 +567,7 @@
 					<wrapmultiline>true</wrapmultiline>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -580,7 +580,7 @@
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>top</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -595,7 +595,7 @@
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>top</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -609,7 +609,7 @@
 					<label>$INFO[listitem.Year,[COLOR=mainblue]$LOCALIZE[345]: [/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_22</font>
 					<textcolor>white</textcolor>
 				</control>
 				<control type="image">
@@ -656,7 +656,7 @@
 						<posy>0</posy>
 						<width>560</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -689,7 +689,7 @@
 						<posy>0</posy>
 						<width>560</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -727,10 +727,10 @@
 					<posy>0</posy>
 					<width>600</width>
 					<height>15</height>
-					<label>$INFO[ListItem.Label]</label>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_30</font>
+					<font>Font_Neon_35</font>
 					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -787,7 +787,7 @@
 						<label>$LOCALIZE[21893]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>mainblue</textcolor>
 						<visible>!IsEmpty(ListItem.Property(Artist_Born))</visible>
 					</control>
@@ -800,7 +800,7 @@
 						<label>$INFO[ListItem.Property(Artist_Born)]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<scroll>true</scroll>
 						<visible>!IsEmpty(ListItem.Property(Artist_Born))</visible>
 					</control>
@@ -813,7 +813,7 @@
 						<label>$LOCALIZE[21894]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>mainblue</textcolor>
 						<visible>!IsEmpty(ListItem.Property(Artist_Formed))</visible>
 					</control>
@@ -826,7 +826,7 @@
 						<label>$INFO[ListItem.Property(Artist_Formed)]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<scroll>true</scroll>
 						<visible>!IsEmpty(ListItem.Property(Artist_Formed))</visible>
 					</control>
@@ -839,7 +839,7 @@
 						<label>$LOCALIZE[515]:</label>
 						<align>right</align>
 						<aligny>center</aligny>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
@@ -851,7 +851,7 @@
 						<label fallback="416">$INFO[ListItem.Property(Artist_Genre)]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<scroll>true</scroll>
 					</control>
 					<control type="image">
@@ -867,7 +867,7 @@
 						<posy>290</posy>
 						<width>600</width>
 						<height>120</height>
-						<font>Font_Neon_16</font>
+						<font>Font_Neon_20</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Property(Artist_Description)]</label>
@@ -909,7 +909,7 @@
 						<posy>0</posy>
 						<width>730</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -921,7 +921,7 @@
 						<posy>0</posy>
 						<width>700</width>
 						<height>40</height>
-						<font>Font_Neon_16</font>
+						<font>Font_Neon_18</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -955,7 +955,7 @@
 						<posy>0</posy>
 						<width>730</width>
 						<height>40</height>
-						<font>Font_Neon_20</font>
+						<font>Font_Neon_22</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -967,7 +967,7 @@
 						<posy>0</posy>
 						<width>700</width>
 						<height>40</height>
-						<font>Font_Neon_16</font>
+						<font>Font_Neon_18</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -1043,11 +1043,11 @@
 					<posy>450</posy>
 					<width>400</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Artist]</label>
+					<label>[B]$INFO[ListItem.Artist][/B]</label>
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_30</font>
+					<font>Font_Neon_35</font>
 					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1060,7 +1060,7 @@
 					<wrapmultiline>true</wrapmultiline>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_24</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
@@ -1073,7 +1073,7 @@
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>top</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_24</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
@@ -1087,7 +1087,7 @@
 					<label>$INFO[listitem.Year,[COLOR=mainblue]$LOCALIZE[345]: [/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_24</font>
 					<textcolor>white</textcolor>
 				</control>
 				<control type="image">
@@ -1096,6 +1096,7 @@
 					<posy>630</posy>
 					<width>150</width>
 					<height>30</height>
+					<colordiffuse>selected</colordiffuse>
 					<texture>CenterRating/$INFO[ListItem.StarRating]</texture>
 				</control>
 				<control type="image">
@@ -1115,17 +1116,18 @@
 					<label>21821</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>Font_Neon_20</font>
+					<font>Font_Neon_24</font>
 					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
+				
 				<control type="textbox">
 					<description>Description Value for Album</description>
 					<posx>460</posx>
 					<posy>490</posy>
 					<width>750</width>
 					<height>165</height>
-					<font>Font_Neon_16</font>
+					<font>Font_Neon_20</font>
 					<align>justify</align>
 					<pagecontrol>51361</pagecontrol>
 					<textcolor>white</textcolor>

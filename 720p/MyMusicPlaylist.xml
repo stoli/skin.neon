@@ -1,9 +1,9 @@
 <!--Alaska-->
 
 <window id="500">
-	<defaultcontrol>50</defaultcontrol>
+	<defaultcontrol>506</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,54,506</views>
+	<views>506,50,54,508,511,512</views>
 	<controls>
 		<control type="image">
 			<description>artist level fanart</description>
@@ -26,7 +26,7 @@
 		
 		<include>ScrollOffsetLabel</include>
 
-		<include>7000_has_focus</include>
+		<!-- <include>7000_has_focus</include>-->
 		
 		<control type="image"><!-- Floor -->
 			<posx>0</posx>

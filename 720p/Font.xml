@@ -64,6 +64,12 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
+			<name>Font_Neon_22</name>
+			<filename>Antipasto.ttf</filename>
+			<size>22</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_Neon_21</name>
 			<filename>Antipasto.ttf</filename>
 			<size>21</size>
@@ -341,7 +347,7 @@
 		<font>
 			<name>font13</name>
 			<filename>Antipasto.ttf</filename>
-			<size>14</size>
+			<size>24</size>
 		</font>
 
 	
@@ -970,7 +976,7 @@
 		<font>
 			<name>font13</name>
 			<filename>Arial.ttf</filename>
-			<size>14</size>
+			<size>24</size>
 		</font>
 
 	
