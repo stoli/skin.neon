@@ -1,3 +1,9 @@
+[B]Updated 03/22/2011:[/B]
+v1.1.0
+- Version 1.0 release
+- Updated Music Info Views
+- Added TV Guide from Simplicity - thanks to igotdvd's!
+
 [B]Updated 03/06/2011:[/B]
 v.9.5.5
 - Added support for Weather.com Plus addon - Thanks to Jezz_x and Confluence
