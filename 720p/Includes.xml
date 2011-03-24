@@ -51,6 +51,7 @@
 	<include file="weather.com plus/WeatherPluginView.xml" />
 	<include file="WeatherStandardView.xml" />
 	<include file="Includes_TVGuide.xml" />
+	<include file="Viewtype_3dLandscape.xml" />
 	
 <!--	<include file="Viewtype_Newest_Episodes.xml" /> -->
 	
