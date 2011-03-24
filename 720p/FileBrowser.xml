@@ -30,7 +30,7 @@
 				<width>1280</width>
 				<height>720</height>
 				<colordiffuse>black</colordiffuse>
-				<texture flipx=true>DialogBack.png</texture>
+				<texture flipx="true">DialogBack.png</texture>
 			</control>
 			<control type="image">
 				<posx>20</posx>

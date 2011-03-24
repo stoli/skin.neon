@@ -1,5 +1,10 @@
+[B]Updated 03/24/2011:[/B]
+v1.0.1
+Minor XML cleanup
+Add 3d Landscape support
+
 [B]Updated 03/22/2011:[/B]
-v1.1.0
+v1.0.0
 - Version 1.0 release
 - Updated Music Info Views
 - Added TV Guide from Simplicity - thanks to igotdvd's!
