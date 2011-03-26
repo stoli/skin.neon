@@ -486,7 +486,7 @@
 				<posy>620</posy>
 				<width>1000</width> 
 				<height>25</height> 
-				<label>IMDB: $INFO[VideoPlayer.RatingAndVotes ]</label>
+				<label>[COLOR=mainblue]IMDB:[/COLOR] $INFO[VideoPlayer.RatingAndVotes ]</label>
 				<align>right</align> 
 				<aligny>center</aligny> 
 				<font>Font_Bartowski_Movies</font>
@@ -498,7 +498,7 @@
 				<posy>645</posy>
 				<width>1000</width> 
 				<height>25</height> 
-				<label>Directed by: $INFO[VideoPlayer.Director]</label>
+				<label>[COLOR=mainblue]Directed by:[/COLOR] $INFO[VideoPlayer.Director]</label>
 				<align>right</align> 
 				<aligny>center</aligny> 
 				<font>Font_Bartowski_Movies</font>
@@ -510,7 +510,7 @@
 				<posy>675</posy>
 				<width>1000</width> 
 				<height>25</height> 
-				<label>$INFO[VideoPlayer.mpaa]</label>
+				<label>$INFO[Player.Chapter,[COLOR=mainblue]$LOCALIZE[21396]:[/COLOR] ]$INFO[Player.ChapterCount, / ]</label>
 				<align>right</align> 
 				<aligny>center</aligny> 
 				<font>Font_Bartowski_Movies</font>

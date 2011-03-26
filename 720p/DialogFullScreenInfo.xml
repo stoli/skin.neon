@@ -137,7 +137,7 @@
 					<posy>80</posy>
 					<width>412</width> 
 					<height>25</height> 
-					<label>IMDB: $INFO[VideoPlayer.RatingAndVotes ]</label>
+					<label>[COLOR=mainblue]IMDB:[/COLOR] $INFO[VideoPlayer.RatingAndVotes ]</label>
 					<align>right</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
@@ -149,7 +149,7 @@
 					<posy>105</posy>
 					<width>600</width> 
 					<height>25</height> 
-					<label>Directed by: $INFO[VideoPlayer.Director]</label>
+					<label>[COLOR=mainblue]Directed by:[/COLOR] $INFO[VideoPlayer.Director]</label>
 					<align>right</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
@@ -161,7 +161,7 @@
 					<posy>130</posy>
 					<width>600</width> 
 					<height>25</height> 
-					<label>$INFO[VideoPlayer.mpaa]</label>
+					<label>$INFO[Player.Chapter,[COLOR=mainblue]$LOCALIZE[21396]:[/COLOR] ]$INFO[Player.ChapterCount, / ]</label>
 					<align>right</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
@@ -241,7 +241,37 @@
 			</animation>
 			<visible>!Control.IsVisible(10)</visible>
 		</control>
-	</control>
+		<control type ="image" id="7657"> 
+			<description>tv show image</description>
+			<posx>120r</posx>     
+			<posy>70</posy>    
+			<width>100</width>     
+			<height>40</height> 
+			
+			<texture background="true">$INFO[Player.FolderPath]../logo.png</texture>
+			<aspectratio>keep</aspectratio>
+			<!--<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible> -->
+		</control>
+		<control type ="image" id="7658"> 
+			<description>tv show image</description>
+			<posx>120r</posx>     
+			<posy>70</posy>    
+			<width>100</width>     
+			<height>40</height> 
+			
+			<texture background="true">$INFO[Player.FolderPath]logo.png</texture>
+			<aspectratio>keep</aspectratio>
+			<!--<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible> -->
+		</control>
+		<control type="image">
+			<posx>975</posx>
+			<posy>80</posy>
+			<width>59</width>
+			<height>40</height>
+			<aspectratio>keep</aspectratio>
+			<texture>$INFO[videoplayer.studio,extras/Studios/,.png]</texture>
+		</control>
+	</control> 
 	</control>	
 		
 			
