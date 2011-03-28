@@ -154,8 +154,21 @@
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
 					<textcolor>ffffffff</textcolor>
-					<visible>VideoPlayer.Content(movies)</visible>
+					<visible>VideoPlayer.Content(movies) + !Player.ChapterName</visible>
 				</control>
+				<control type="label">
+					<posx>200r</posx>
+					<posy>105</posy>
+					<width>600</width> 
+					<height>25</height> 
+					<label>[COLOR=mainblue]Chapter Name:[/COLOR] $INFO[Player.ChapterName]</label>
+					<align>right</align> 
+					<aligny>center</aligny> 
+					<font>Font_Bartowski_Movies</font>
+					<textcolor>ffffffff</textcolor>
+					<visible>VideoPlayer.Content(movies) + Player.ChapterName</visible> -->
+				</control>
+				
 				<control type="label">
 					<posx>200r</posx>
 					<posy>130</posy>
@@ -166,9 +179,21 @@
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
 					<textcolor>ffffffff</textcolor>
-					<visible>VideoPlayer.Content(movies)</visible>
+					<visible>VideoPlayer.Content(movies) + Player.ChapterCount</visible>
 				</control>
 				
+				<control type="label">
+					<posx>200r</posx>
+					<posy>130</posy>
+					<width>600</width> 
+					<height>25</height> 
+					<label>[COLOR=mainblue]$LOCALIZE[31226]:[/COLOR] $INFO[VideoPlayer.mpaa]</label>
+					<align>right</align> 
+					<aligny>center</aligny> 
+					<font>Font_Bartowski_Movies</font>
+					<textcolor>ffffffff</textcolor>
+					<visible>VideoPlayer.Content(movies) + !Player.ChapterCount</visible>
+				</control>
 				<control type="label">
 					<posx>0</posx>
 					<posy>50</posy>
@@ -270,6 +295,7 @@
 			<height>40</height>
 			<aspectratio>keep</aspectratio>
 			<texture>$INFO[videoplayer.studio,extras/Studios/,.png]</texture>
+			<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>
 	</control> 
 	</control>	
