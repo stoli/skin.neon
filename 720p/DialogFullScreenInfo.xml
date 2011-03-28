@@ -189,7 +189,7 @@
 				<height>25</height>
 				<label>$LOCALIZE[31074] [COLOR=mainblue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=mainblue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
 				<textcolor>ffffffff</textcolor>
-				<font>Font_Bartowski_Extras_Pause</font>
+				<font>Font_Neon_22</font>
 				<align>center</align>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
 				<visible>!Skin.HasSetting(library_global_clock)</visible>

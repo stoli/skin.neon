@@ -246,7 +246,7 @@
 						<width>301</width>
 						<label fallback="-">"$INFO[Container(8001).ListItem.Label]"</label>
 						<align>center</align>
-						<font>Font_Bartowski_Extras_Pause</font>
+						<font>Font_Neon_22</font>
 						<textcolor>ffffffff</textcolor>
 						<animation effect="fade" start="0" end="100" time="400" delay="200" condition="Control.HasFocus(8001)">Conditional</animation>
 						<visible>Control.HasFocus(8001) | !Control.HasFocus(8001)</visible>

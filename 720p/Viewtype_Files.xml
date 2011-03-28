@@ -750,7 +750,7 @@
 				<width>630</width>
 				<height>89</height>
 				<align>center</align>
-				<font>Font_Bartowski_Movies_Duration</font>
+				<font>Font_Neon_26</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[ListItem.label]</label>
 			</control>
