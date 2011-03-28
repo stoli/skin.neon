@@ -20,7 +20,7 @@
 				<textcolor>white</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>MONDAY</label>
+				<label>Monday</label>
 			</control>		
 
 			<control type="button" id="512">
@@ -85,66 +85,7 @@
 				<onclick>XBMC.ReloadSkin</onclick>
 			</control>
 
-			<posy>-30</posy>
-			<control type="label">
-				<posx>535</posx>
-				<posy>130</posy>
-				<width>400</width>
-				<height>30</height>
-				<font>Simplicity_18_Bold</font>
-				<textcolor>white</textcolor>
-				<align>left</align>
-				<aligny>center</aligny>
-				<label>[B]Next Episode:[/B] "$INFO[Window(Home).Property(NextAired.1.NextTitle)]"</label>
-			</control>		
-			<control type="label">
-				<posx>535</posx>
-				<posy>258</posy>
-				<width>400</width>
-				<height>30</height>
-				<font>Simplicity_18_Bold</font>
-				<textcolor>white</textcolor>
-				<align>left</align>
-				<aligny>center</aligny>
-				<label>[B]Next Episode:[/B] "$INFO[Window(Home).Property(NextAired.2.NextTitle)]"</label>
-			</control>		
-			<control type="label">
-				<posx>535</posx>
-				<posy>386</posy>
-				<width>400</width>
-				<height>30</height>
-				<font>Simplicity_18_Bold</font>
-				<textcolor>white</textcolor>
-				<align>left</align>
-				<aligny>center</aligny>
-				<label>[B]Next Episode:[/B] "$INFO[Window(Home).Property(NextAired.3.NextTitle)]"</label>
-			</control>		
-			<control type="label">
-				<posx>535</posx>
-				<posy>514</posy>
-				<width>400</width>
-				<height>30</height>
-				<font>Simplicity_18_Bold</font>
-				<textcolor>white</textcolor>
-				<align>left</align>
-				<aligny>center</aligny>
-				<label>[B]Next Episode:[/B] "$INFO[Window(Home).Property(NextAired.4.NextTitle)]"</label>
-			</control>		
-			<control type="label">
-				<posx>535</posx>
-				<posy>642</posy>
-				<width>400</width>
-				<height>30</height>
-				<font>Simplicity_18_Bold</font>
-				<textcolor>white</textcolor>
-				<align>left</align>
-				<aligny>center</aligny>
-				<label>[B]Next Episode:[/B] "$INFO[Window(Home).Property(NextAired.5.NextTitle)]"</label>
-			</control>		
-		</control>	
-
-
-
+	
 			<control type="group">
 				<posx>10</posx>
 				<posy>0</posy>
