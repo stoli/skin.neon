@@ -153,7 +153,7 @@
 		<posy>325</posy>
 		<texturebg border="6,0,6,0">osd/OSDProgressBack.png</texturebg>
 		<lefttexture>-</lefttexture>
-		<midtexture border="6,0,6,0">osd/OSDProgressMid-grey.png</midtexture>
+		<midtexture border="6,0,6,0">osd/OSDProgressMid.png</midtexture>
 		<righttexture>-</righttexture>
 		<overlaytexture>-</overlaytexture>
 	</default>
