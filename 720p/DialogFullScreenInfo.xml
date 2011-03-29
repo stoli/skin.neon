@@ -192,7 +192,7 @@
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
 					<textcolor>ffffffff</textcolor>
-					<visible>VideoPlayer.Content(movies) + !Player.ChapterCount</visible>
+					<visible>VideoPlayer.Content(movies) + !Player.ChapterCount + !Skin.HasSetting(library_global_clock)</visible>
 				</control>
 				<control type="label">
 					<posx>0</posx>
@@ -209,10 +209,10 @@
 			</control>
 			<control type="label">
 				<posx>100</posx>
-				<posy>104</posy>
+				<posy>112</posy>
 				<width>1080</width>
 				<height>25</height>
-				<label>$LOCALIZE[31074] [COLOR=mainblue][B]$INFO[System.Time][/COLOR][/B] | $LOCALIZE[31075]: [COLOR=mainblue][B]$INFO[Player.FinishTime][/B][/COLOR]</label>
+				<label>$LOCALIZE[31074] [COLOR=mainblue]$INFO[System.Time][/COLOR] | $LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
 				<textcolor>ffffffff</textcolor>
 				<font>Font_Neon_22</font>
 				<align>center</align>
