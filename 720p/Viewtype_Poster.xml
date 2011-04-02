@@ -749,7 +749,7 @@
 			<control type="label"><!--Trailer Stop-->
 				<visible>Control.IsVisible(55) + Container.Content(movies) + Player.HasVideo + !Skin.HasSetting(clean_poster)</visible>
 				<posx>60</posx>
-				<posy>26</posy>
+				<posy>65</posy>
 				<width>370</width>
 				<height>50</height>
 				<aligny>center</aligny>

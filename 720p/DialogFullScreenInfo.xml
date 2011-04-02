@@ -156,30 +156,18 @@
 					<textcolor>ffffffff</textcolor>
 					<visible>VideoPlayer.Content(movies) + !Player.ChapterName</visible>
 				</control>
-				<control type="label">
-					<posx>200r</posx>
-					<posy>105</posy>
-					<width>600</width> 
-					<height>25</height> 
-					<label>[COLOR=mainblue]Chapter Name:[/COLOR] $INFO[Player.ChapterName]</label>
-					<align>right</align> 
-					<aligny>center</aligny> 
-					<font>Font_Bartowski_Movies</font>
-					<textcolor>ffffffff</textcolor>
-					<visible>VideoPlayer.Content(movies) + Player.ChapterName</visible> -->
-				</control>
 				
 				<control type="label">
 					<posx>200r</posx>
 					<posy>130</posy>
 					<width>600</width> 
 					<height>25</height> 
-					<label>$INFO[Player.Chapter,[COLOR=mainblue]$LOCALIZE[21396]:[/COLOR] ]$INFO[Player.ChapterCount, / ]</label>
+					<label>$INFO[Player.Chapter,[COLOR=mainblue]$LOCALIZE[21396]:[/COLOR] ]$INFO[Player.ChapterCount, / ] [COLOR=mainblue]-[/COLOR] $INFO[Player.ChapterName]</label>
 					<align>right</align> 
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
 					<textcolor>ffffffff</textcolor>
-					<visible>VideoPlayer.Content(movies) + Player.ChapterCount</visible>
+					<visible>Player.ChapterCount</visible>
 				</control>
 				
 				<control type="label">

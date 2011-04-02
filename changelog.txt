@@ -1,4 +1,13 @@
 [B]Updated 03/24/2011:[/B]
+v1.0.2
+Bug Fixes
+- Fixed Chapter names
+- Changed Playlist behaviour
+- VC-1 Codec image
+- Now playing windows adjusted
+- TV Guide fixes
+
+[B]Updated 03/24/2011:[/B]
 v1.0.1
 Minor XML cleanup
 Add 3d Landscape support

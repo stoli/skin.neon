@@ -1336,7 +1336,7 @@
 				<viewtype label="$LOCALIZE[544]">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<visible>[Container.Content(TVShows) | Container.Content(Movies) | Container.Content(Seasons) | Container.Content(Episodes)] | [Control.IsVisible(504) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
+				<visible>[Container.Content(TVShows) |Container.Content(Videos) | Container.Content(Movies) | Container.Content(Seasons) | Container.Content(Episodes)] | [Control.IsVisible(504) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
 				<itemlayout height="40" width="580">
 					<control type="image">
 						<posx>0</posx>

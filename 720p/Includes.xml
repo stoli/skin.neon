@@ -193,7 +193,12 @@
 	<include name="onleft_big_trailer">
 		<onleft>XBMC.PlayMedia($INFO[ListItem.Trailer],noresume)</onleft>
 	</include>
-	
+	<include name="onclick_small_trailer">
+		<onclick>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</onclick>
+	</include>
+	<include name="onclick_big_trailer">
+		<onclick>XBMC.PlayMedia($INFO[ListItem.Trailer],noresume)</onclick>
+	</include>
 	
 	
 	<include name="poster_focusposition_dark">
@@ -374,7 +379,7 @@
 						<texture>MenuItemFO_small.png</texture>
 					</control>
 					<control type="image">
-						<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+						<texture>$INFO[Weather.Conditions]</texture>
 						<width>21</width>
 						<height>21</height>
 						<posx>12</posx>
