@@ -317,6 +317,21 @@ just copy the translations from Confluence to here
 	<string id="31974">Click to Download [COLOR=selected]banner.jpg[/COLOR]</string>
 	<string id="31975">Click to Download [COLOR=selected]landscape.jpg[/COLOR]</string>
 	<string id="31976">Click to Download [COLOR=selected]clearart.png[/COLOR]</string>
+	
+	<!-- Extra Unified PVR labels -->
+	  <string id="31500">Recording Timers</string>
+	  <string id="31501">Scheduled Time</string>
+	  <string id="31502">Live TV</string>
+	  <string id="31503">Add Group</string>
+	  <string id="31504">Rename Group</string>
+	  <string id="31505">Delete Group</string>
+	  <string id="31506">Available[CR]Groups</string>
+	  <string id="31507">Ungrouped[CR]Channels</string>
+	  <string id="31508">Channels in Group</string>
+	  <string id="31509">Channel Group</string>
+	  <string id="31510">Timer Set</string>
+	</strings>
+	
   </strings>
 
   
