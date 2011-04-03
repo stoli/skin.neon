@@ -611,7 +611,7 @@
 						<selected>Skin.HasSetting(HomeMenuNoScriptsButton)</selected>
 					</control>
 					<control type="radiobutton" id="218">
-						<description>Hide Weather Button</description>
+						<description>Hide Favorites Button</description>
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31111] - $LOCALIZE[1036]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNofavouritesButton)</onclick>
@@ -630,6 +630,13 @@
 						<label>$LOCALIZE[31111] - $LOCALIZE[13005]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoShutdownButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoShutdownButton)</selected>
+					</control>
+						<control type="radiobutton" id="222">
+						<description>Hide Logoff Button</description>
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31111] - $LOCALIZE[20126]</label>
+						<onclick>Skin.ToggleSetting(signout)</onclick>
+						<selected>!Skin.HasSetting(signout)</selected>
 					</control>
 					<control type="radiobutton" id="230">
 						<description>Hide Settings Button</description>

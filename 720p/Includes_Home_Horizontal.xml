@@ -238,12 +238,13 @@
 					<onclick>XBMC.ActivateWindow(settings)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoSettingsButton)</visible>
 				</item>
-				<!--<item id="12">
+				<item id="12">
 					<include>BackgroundVarsSignOut</include>					
-					<label>31209</label>
+					<label>20126</label>
+					<icon>backgrounds/logoff.jpg</icon>
 					<onclick>System.LogOff</onclick>
 					<visible>Skin.HasSetting(signout)</visible>
-				</item>-->	
+				</item>	
 				<item id="13">
 					<label>13005</label>
 					<icon>backgrounds/shutdown.jpg</icon>
