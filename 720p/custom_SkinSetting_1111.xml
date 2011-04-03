@@ -582,6 +582,14 @@
 						<selected>Skin.HasSetting(HomeMenuNoTVShowsButton)</selected>
 						<enable>Library.HasContent(TVShows)</enable>
 					</control>
+					<control type="radiobutton" id="223">
+						<description>Hide Live TV Button</description>
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31111] - Live TV</label>
+						<onclick>Skin.ToggleSetting(HomeNoMenuLiveTV)</onclick>
+						<selected>Skin.HasSetting(HomeNoMenuLiveTV)</selected>
+						
+					</control>
 					<control type="radiobutton" id="215">
 						<description>Hide Music Button</description>
 						<include>skin_settings_labels</include>

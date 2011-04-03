@@ -78,7 +78,7 @@
 					<visible>!Skin.HasSetting(HomeMenuNoMoviesButton) + Library.HasContent(Movies)</visible>
 				</item>
 				<item id="4">
-					<description>movies</description>
+					<description>hd movies</description>
 					<label>$LOCALIZE[31280]</label>
 					<icon>backgrounds/HDmovies.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomHDMoviesFolder)]</thumb>			
@@ -92,6 +92,13 @@
 					<thumb>$INFO[Skin.String(CustomTVShowsFolder)]</thumb>			
 					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoTVShowsButton) + Library.HasContent(TVShows)</visible>
+				</item>
+				<item id="26">
+					<label>Live TV</label>
+					<onclick>ActivateWindow(TV)</onclick>
+					<icon>backgrounds/tv.jpg</icon>
+					<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
+					<visible>!Skin.HasSetting(HomeNoMenuLiveTV)</visible>
 				</item>
 				<item id="21">
 					<description>Custom Playlist 1</description>

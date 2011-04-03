@@ -1009,13 +1009,7 @@
 						<visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(big_trailer)</visible>
 						<onclick>XBMC.PlayMedia($INFO[ListItem.Trailer],noresume</onclick>
 					</control>
-					<control type="button" id="11">
-						<description>Play Trailer</description>
-						<include>ButtonInfoDialogsCommonValues</include>
-						<label>$LOCALIZE[20410]</label>
-						<visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(big_trailer)</visible>
-						<onclick>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume</onclick>
-					</control>
+					
 					<control type="button" id="13">
 						<description>Cinema Script</description>
 						<include>ButtonInfoDialogsCommonValues</include>
