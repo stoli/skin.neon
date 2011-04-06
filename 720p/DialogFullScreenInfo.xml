@@ -30,6 +30,17 @@
 				<aspectratio>stretch</aspectratio>
 				<visible>!Control.IsVisible(10)</visible>
 			</control>
+		<!--	<control type="image">
+				<description> lower backgound </description>
+				<posx>0</posx>
+				<posy>-575</posy>
+				<width>1280</width>
+				<height>50</height>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>MediaInfoBackUpper.png</texture>
+				<aspectratio>stretch</aspectratio>
+				<visible>!Skin.HasSetting(library_global_clock) + !Control.IsVisible(602)</visible>
+			</control> -->
 
 		</control>
 		<control type="group">		
@@ -48,10 +59,24 @@
 				<midtexture>osd/mid.png</midtexture>
 				<righttexture>osd/slidernibfo1.png</righttexture>  -->
 				<info>Player.Progress</info>
+				<posx>345</posx>
+				<posy>139</posy>
+				<width>400</width>
+				<height>20</height>
+				<visible>!Skin.HasSetting(library_global_clock)</visible>
+			</control>
+			<control type="progress" id="23">
+			
+				<texturebg>osd/osd_progress_back1.png</texturebg>
+				<lefttexture>osd/left.png</lefttexture>
+				<midtexture>osd/mid.png</midtexture>
+				<righttexture>osd/slidernibfo1.png</righttexture>  -->
+				<info>Player.Progress</info>
 				<posx>140</posx>
 				<posy>135</posy>
 				<width>1000</width>
 				<height>20</height>
+				<visible>Skin.HasSetting(library_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>35</posx>
@@ -62,6 +87,18 @@
 				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Time]</label>
+				<visible>Skin.HasSetting(library_global_clock)</visible>
+			</control>
+			<control type="label">
+				<posx>255</posx>
+				<posy>133</posy>
+				<width>300</width>
+				<height>25</height>
+				<align>left</align> 
+				<font>Font_Neon_22</font>
+				<textcolor>mainblue</textcolor>
+				<label>$INFO[VideoPlayer.Time]</label>
+				<visible>!Skin.HasSetting(library_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>1155</posx>
@@ -71,8 +108,18 @@
 				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Duration]</label>
+				<visible>Skin.HasSetting(library_global_clock)</visible>
 			</control>
-
+			<control type="label">
+				<posx>755</posx>
+				<posy>133</posy>
+				<width>300</width>
+				<height>25</height>
+				<font>Font_Neon_22</font>
+				<textcolor>mainblue</textcolor>
+				<label>$INFO[VideoPlayer.Duration]</label>
+				<visible>!Skin.HasSetting(library_global_clock)</visible>
+			</control>
 			<control type="group">
 				<posx>20</posx>
 				<posy>-20</posy>
@@ -180,7 +227,7 @@
 					<aligny>center</aligny> 
 					<font>Font_Bartowski_Movies</font>
 					<textcolor>ffffffff</textcolor>
-					<visible>VideoPlayer.Content(movies) + !Player.ChapterCount + !Skin.HasSetting(library_global_clock)</visible>
+					<visible>VideoPlayer.Content(movies) + !Player.ChapterCount</visible>
 				</control>
 				<control type="label">
 					<posx>0</posx>
@@ -196,14 +243,26 @@
 				</control>
 			</control>
 			<control type="label">
-				<posx>100</posx>
-				<posy>112</posy>
-				<width>1080</width>
+				<posx>200r</posx>
+				<posy>133</posy>
+				<width>500</width>
 				<height>25</height>
-				<label>$LOCALIZE[31074] [COLOR=mainblue]$INFO[System.Time][/COLOR] | $LOCALIZE[31075]: [COLOR=mainblue]$INFO[Player.FinishTime][/COLOR]</label>
+				<label>[COLOR=mainblue]$LOCALIZE[31075]:[/COLOR] $INFO[Player.FinishTime]</label>
 				<textcolor>ffffffff</textcolor>
 				<font>Font_Neon_22</font>
-				<align>center</align>
+				<align>right</align>
+				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
+				<visible>!Skin.HasSetting(library_global_clock)</visible>
+			</control>
+			<control type="label">
+				<posx>200</posx>
+				<posy>133</posy>
+				<width>500</width>
+				<height>25</height>
+				<label>[COLOR=mainblue]$LOCALIZE[31074][/COLOR] $INFO[System.Time]</label>
+				<textcolor>ffffffff</textcolor>
+				<font>Font_Neon_22</font>
+				<align>right</align>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
 				<visible>!Skin.HasSetting(library_global_clock)</visible>
 			</control>
