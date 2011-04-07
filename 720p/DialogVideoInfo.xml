@@ -1,5 +1,5 @@
 <window id="2003">
-	<defaultcontrol always="true">7050</defaultcontrol>
+	<defaultcontrol always="true">8</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 
 	<controls>
@@ -995,19 +995,29 @@
 					<onup>50</onup>
 					<ondown>50</ondown>
 					
-					<control type="button" id="7050"> 
+					<control type="togglebutton" id="8"> 
 						<description>Play</description>
 						<include>ButtonInfoDialogsCommonValues</include>
-						<label>$LOCALIZE[208]</label>
-						<onclick>Dialog.Close(movieinformation)</onclick> 
-						<onclick>PlayMedia($INFO[ListItem.FileNameAndPath])</onclick> 
+						<label>208</label>
+						<alttexturefocus border="2">button-focus.png</alttexturefocus>
+						<alttexturenofocus border="2">button-nofocus.png</alttexturenofocus>
+						<altlabel>1024</altlabel>
+						<usealttexture>Container.Content(TVShows)</usealttexture>
 					</control>
 					<control type="button" id="11">
 						<description>Play Trailer</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>$LOCALIZE[20410]</label>
 						<visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(big_trailer)</visible>
-						<onclick>XBMC.PlayMedia($INFO[ListItem.Trailer],noresume</onclick>
+						<onclick>PlayMedia($INFO[ListItem.Trailer],noresume</onclick>
+					</control>
+					<control type="button" id="15">
+						<description>Play Trailer</description>
+						<include>ButtonInfoDialogsCommonValues</include>
+						<label>$LOCALIZE[20410]</label>
+						<visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(big_trailer)</visible>
+						<onclick>Dialog.Close(MovieInformation)</onclick>
+						<onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
 					</control>
 					
 					<control type="button" id="13">
