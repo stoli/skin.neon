@@ -375,12 +375,12 @@
 					</content>
 				</control>
 			</control>
-		</control>
+		
 
 <!--Music widget-->
 			<control type="group">
 				<posx>90r</posx>
-				<posy>105</posy>
+				<posy>205</posy>
 				<visible>Library.HasContent(Music)</visible>
 				<visible>Container(301).Hasfocus(1)</visible>
 				<include>VisibleFadeEffect</include>
@@ -529,6 +529,7 @@
 					</content>
 				</control>
 			</control>
+		</control>
 	</include>
 
 </includes>
