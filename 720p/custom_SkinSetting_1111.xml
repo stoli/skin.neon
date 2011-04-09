@@ -331,25 +331,28 @@
 						<onclick>Skin.ToggleSetting(FullscreenJukebox)</onclick>
 						<selected>Skin.HasSetting(FullscreenJukebox)</selected>
 					</control>
-				<!-- -->
+				<!-- Playlist -->
 					
-					<!--<control type="label" id="120">
-						<width>860</width>
+					<control type="label" id="120">
+						<width>740</width>
 						<height>45</height>
-						<font>Font_KeyboardKeys</font>
-						<label>512</label>
+						<label>$LOCALIZE[512]</label>
+						<textoffsetx>15</textoffsetx>
+						<font>Font_Neon_20</font>
 						<textcolor>mainblue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
 					<control type="radiobutton" id="121">
-						<width>860</width>
+						<width>770</width>
 						<height>40</height>
-						 <font>Font_Neon_20</font>
-						<label>21398</label>
+						<font>Font_KeyboardKeys</font>
+						<label>$LOCALIZE[21398]</label>
+						<textoffsetx>30</textoffsetx>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
 						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(Use_Startup_Playlist)</onclick>
@@ -357,21 +360,24 @@
 					</control>
 					<control type="button" id="122">
 						<description>Startup Playlist Path</description>
-						<width>860</width>
-						<height>40</height>
-						 <font>Font_Neon_20</font>
-						<textcolor>grey2</textcolor>
+						<width>740</width>
+						<height>30</height>
+						 <font>Font_KeyboardTitle</font>
+						<textcolor>selected</textcolor>
 						<focusedcolor>white</focusedcolor>
+						<textoffsetx>40</textoffsetx>
 						<label>15311</label>
 						<label2>$INFO[Skin.String(Startup_Playlist_Path)]</label2>
-						<onclick>Skin.SetFile(Startup_Playlist_Path,.m3u,t:\playlists\music\)</onclick>
-						<texturefocus>MenuItemFO1.png</texturefocus>
+						<onclick>Skin.SetFile(Startup_Playlist_Path,.xsp,t:\playlists\music\)</onclick>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>Skin.HasSetting(Use_Startup_Playlist)</enable>
 					</control>
-					<control type="label" id="123">
-						<width>860</width>
+					<!-- <control type="label" id="123">
+						<width>740</width>
 						<height>45</height>
+						<textoffsetx>40</textoffsetx>
 						<font>Font_KeyboardKeys</font>
 						<label>31102</label>
 						<textcolor>mainblue</textcolor>
@@ -379,6 +385,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
+					
 					<control type="radiobutton" id="124">
 						<width>860</width>
 						<height>40</height>
