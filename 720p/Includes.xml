@@ -181,7 +181,7 @@
 		<textcolor>TextDisabled</textcolor>
 		<align>left</align>
 	</include>
-	
+
 	<include name="ondown_small_trailer">
 		<ondown>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</ondown>
 	</include>
@@ -216,6 +216,19 @@
 		<ondown>8374</ondown>		
 
 	</include>
+	<!-- Below from Confluence for Weather -->
+	<include name="SideBladeLeft">
+		<control type="image">
+			<posx>-820</posx>
+			<posy>0</posy>
+			<width>846</width>
+			<height>720</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>HomeBlade.png</texture>
+			<animation effect="slide" start="-26,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
+		</control>
+	</include>
 	
 	<include name="WindowTitleCommons">
 		<posy>0</posy>
@@ -248,6 +261,20 @@
 		<font>Font_Bartowski_Main_SubMenu</font>
 		<textcolor>ffb8b7b7</textcolor>
 		<focusedcolor>mainblue</focusedcolor>
+	</include>
+	<include name="ButtonMediaSubCommonValues">
+		<height>40</height>
+		<width>221</width>
+		<textoffsetx>20</textoffsetx>
+		<textwidth>195</textwidth>
+		<aligny>center</aligny>
+		<font>font12_title</font>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<colordiffuse>mainblue</colordiffuse>
+		<texturefocus border="5">button-focus.png</texturefocus>
+		<texturenofocus border="5">button-nofocus.png</texturenofocus>
+		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="ScrollOffsetLabel">
                 <control type="group">
@@ -927,8 +954,9 @@
 			<timeperimage>10000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
-			<!-- <visible>![Skin.HasSetting(ShowWeatherFanart) + !IsEmpty(Skin.String(WeatherFanartDir))]</visible> -->
+			<visible>Skin.HasSetting(conditions_weather_backdrop)</visible> -->
 		</control>
+
 		<control type="multiimage">
 			<posx>0</posx>
 			<posy>0</posy>
