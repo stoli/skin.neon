@@ -145,11 +145,11 @@
 	</include>
 	<include name="cdartspin3">
 		<animation type="WindowOpen">
-			<effect type="slide" end="70" tween="cubic" easing="out" delay="1000" time="2000" />
+			<effect type="slide" end="50" tween="cubic" easing="out" delay="1000" time="2000" />
 			<effect type="rotate" center="auto" end="234" time="3250" />
 		</animation>
 		<animation type="WindowClose" reversible="false" condition="Player.Playing">
-			<effect type="slide" start="70" end="0" tween="cubic" easing="out" time="2000" />
+			<effect type="slide" start="50" end="0" tween="cubic" easing="out" time="2000" />
 			<effect type="rotate" center="auto" start="0" end="20" time="500" />
 			<effect type="rotate" center="auto" start="0" end="25" time="500" delay="500" />
 			<effect type="rotate" center="auto" start="0" end="30" time="500" delay="1000" />
