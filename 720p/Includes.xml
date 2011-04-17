@@ -68,7 +68,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<imagepath fallback="backgrounds/settings.jpg" background="true">$INFO[Skin.String(CustomSettingsFolder)]</imagepath>
+			<imagepath fallback="special://skin/backgrounds/settings.jpg" background="true">$INFO[Skin.String(CustomSettingsFolder)]</imagepath>
 			<timeperimage>10000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>

@@ -1,3 +1,12 @@
+[B]Updated 04/16/2011:[/B]
+v1.5.0
+Preliminary Live TV/PVR Support
+Reworked TV/Movie Info screens
+Tweaks to Home Screen positioning - couldn't take it not being centered just right. :)
+Added Startup Playlist in Partymode to enable fanart
+
+
+
 [B]Updated 03/24/2011:[/B]
 v1.0.2
 Bug Fixes

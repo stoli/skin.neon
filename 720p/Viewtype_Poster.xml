@@ -611,6 +611,33 @@
 				<include>Poster_Next_Aired</include>
 				<visible>!Skin.HasSetting(Poster_Fanart)</visible>
 			</control>
+			<control type="label"><!--Trailer Start-->
+				<visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(clean_poster) + !IsEmpty(ListItem.Trailer) + !Player.HasVideo</visible>
+				<posx>20</posx>
+				<posy>108</posy>
+				<width>370</width>
+				<height>50</height>
+				<aligny>center</aligny>
+				<font>Font_Alaya_Movie-trailer</font>
+				<textcolor>ffffffff</textcolor>
+				<label>*$LOCALIZE[31237]*</label>
+				<shadowcolor>black</shadowcolor>
+				<include>Animation_ZoomInZoomOut</include>
+				<animation effect="fade"  start="0" end="100" time="400" delay="1000" condition="![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
+			</control>	
+			<control type="label"><!--Trailer Stop-->
+				<visible>Control.IsVisible(55) + Container.Content(movies) + Player.HasVideo + !Skin.HasSetting(clean_poster)</visible>
+				<posx>60</posx>
+				<posy>65</posy>
+				<width>370</width>
+				<height>50</height>
+				<aligny>center</aligny>
+				<font>Font_Alaya_Movie-trailer</font>
+				<textcolor>ffffffff</textcolor>
+				<label>*$LOCALIZE[31238]*</label>
+				<shadowcolor>black</shadowcolor>
+				<include>Animation_ZoomInZoomOut</include>
+			</control>
 		</control>
 		
 	<control type="grouplist">
@@ -746,33 +773,7 @@
 			</control>
 		</control>
 		
-		<control type="label"><!--Trailer Start-->
-				<visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(clean_poster) + !IsEmpty(ListItem.Trailer) + !Player.HasVideo</visible>
-				<posx>20</posx>
-				<posy>108</posy>
-				<width>370</width>
-				<height>50</height>
-				<aligny>center</aligny>
-				<font>Font_Alaya_Movie-trailer</font>
-				<textcolor>ffffffff</textcolor>
-				<label>*$LOCALIZE[31237]*</label>
-				<shadowcolor>black</shadowcolor>
-				<include>Animation_ZoomInZoomOut</include>
-				<animation effect="fade"  start="0" end="100" time="400" delay="1000" condition="![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
-			</control>	
-			<control type="label"><!--Trailer Stop-->
-				<visible>Control.IsVisible(55) + Container.Content(movies) + Player.HasVideo + !Skin.HasSetting(clean_poster)</visible>
-				<posx>60</posx>
-				<posy>65</posy>
-				<width>370</width>
-				<height>50</height>
-				<aligny>center</aligny>
-				<font>Font_Alaya_Movie-trailer</font>
-				<textcolor>ffffffff</textcolor>
-				<label>*$LOCALIZE[31238]*</label>
-				<shadowcolor>black</shadowcolor>
-				<include>Animation_ZoomInZoomOut</include>
-			</control>
+			
 		<control type="grouplist">
 			<visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(clean_poster) + !Skin.HasSetting(no_media_flags) + !Control.IsVisible(65)</visible>
 			<description>Media Codec Flagging Images</description>

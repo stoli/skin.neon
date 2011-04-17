@@ -113,7 +113,7 @@
 	<string id="31246">Show plot</string>
 	<string id="31247">Disable Global Clock</string>
 	<string id="31248">Use Smaller Global Now Playing for Music</string>
-	<string id="31249">Get Logo</string>
+	<string id="31249">Get Artwork</string>
 	<string id="31251">Location</string>
 	<string id="31252">Last Updated</string><!-- GOOD -->
 	<string id="31253">Latests Albums</string><!-- GOOD -->
@@ -331,6 +331,7 @@ just copy the translations from Confluence to here
 	<string id="31974">Click to Download [COLOR=selected]banner.jpg[/COLOR]</string>
 	<string id="31975">Click to Download [COLOR=selected]landscape.jpg[/COLOR]</string>
 	<string id="31976">Click to Download [COLOR=selected]clearart.png[/COLOR]</string>
+	<string id="31978">These are all of the currently installed custom images used in the TV Views.  When updating it may take time for XBMC to update the image in its cache.</string>
 	
 	<!-- Extra Unified PVR labels -->
 	  <string id="31500">Recording Timers</string>
