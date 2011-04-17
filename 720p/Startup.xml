@@ -31,20 +31,21 @@
 			<onfocus>SetFocus(13)</onfocus>
 		</control>
 		<control type="button" id="13">
-			<description>trigger with startup Playlist</description>
-			<texturenofocus>-</texturenofocus>
-			<texturefocus>-</texturefocus>
-			<onfocus>XBMC.PlayerControl(PartyMode) $INFO[Skin.String(startup_playlist_path)])</onfocus>
-			<onfocus>Notification(Startup,Starting Playlist)</onfocus>
-			<onfocus>SetFocus(14)</onfocus>
-			<onfocus>ReplaceWindow(Home)</onfocus>
-			<visible>Skin.HasSetting(use_startup_playlist)</visible>
-		</control>	
-		<control type="button" id="14">
 			<description>trigger</description>
 			<onfocus>ReplaceWindow(Home)</onfocus>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
+			<visible>!Skin.HasSetting(Use_Startup_Playlist)</visible>
 		</control>
+		<control type="button" id="13">
+			<description>trigger with startup Playlist</description>
+			<texturenofocus>-</texturenofocus>
+			<texturefocus>-</texturefocus>
+			<onfocus>XBMC.PlayerControl(PartyMode) $INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
+			<onfocus>Notification(Startup,Starting Playlist)</onfocus>
+			<onfocus>ReplaceWindow(Home)</onfocus>
+			<visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
+		</control>	
+		
 	</controls>
 </window>

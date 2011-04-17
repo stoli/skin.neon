@@ -724,6 +724,7 @@
 						<width>1140</width>
 						<height>4</height>
 						<aspectratio>stretch</aspectratio>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture>separator2.png</texture>
 					</control>
 				</control>
@@ -895,6 +896,7 @@
 						<posy>370</posy>
 						<width>740</width>
 						<height>4</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<aspectratio>stretch</aspectratio>
 						<texture>separator2.png</texture>
 					</control>
@@ -1136,6 +1138,7 @@
 						<posy>460</posy>
 						<width>1080</width>
 						<height>4</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<aspectratio>stretch</aspectratio>
 						<texture>separator2.png</texture>
 					</control>
