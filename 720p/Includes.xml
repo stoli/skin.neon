@@ -758,7 +758,10 @@
 		</control>
 		
 	</include>
-	
+	<include name="global_kenburns_fanart">
+		<animation effect="zoom" start="110" end="130" center="auto" time="16000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg) + Skin.HasSetting(animation_bg_global)">Conditional</animation>
+		<animation effect="slide" start="-10,-10" end="20,20" time="8000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg) + Skin.HasSetting(animation_bg_global)">Conditional</animation>
+	</include>
 	<include name="Global_HeadingSectionVars">
 		<width>960</width>
 		<font>Font_Neon_40</font>

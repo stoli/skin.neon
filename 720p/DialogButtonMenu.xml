@@ -7,12 +7,7 @@
 			<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
 	<controls>
 		
-		<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<texture>common/7000_focus.png</texture>
-			<animation effect="fade" start="0" end="10" time="300">Visible</animation>
-			<animation effect="fade" start="20" end="0" time="300">Hidden</animation>
-		</control>
+		
 		<control type="button" id="410">
 			<onfocus>Dialog.Close(2003)</onfocus>
 			<onfocus>Dialog.Close(106)</onfocus>
