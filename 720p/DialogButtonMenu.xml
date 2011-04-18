@@ -15,49 +15,49 @@
 		</control>
 		
 		<control type="image"><!-- Floor -->
-			<posx>490</posx>
-			<posy>50</posy>
-			<width>300</width>
+			<posx>458</posx>
+			<posy>54</posy>
+			<width>370</width>
 			<height>80</height>
 			<colordiffuse>mainblue</colordiffuse>
-			<texture>DialogContextTop.png</texture>
+			<texture border="45,45,45,0">DialogContextTop.png</texture>
 		</control>
 		<control type="image"><!-- Floor -->
-			<posx>490</posx>
+			<posx>458</posx>
 			<posy>130</posy>
-			<width>300</width>
+			<width>370</width>
 			<height>400</height>
 			<colordiffuse>mainblue</colordiffuse>
-			<texture>DialogContextMiddle.png</texture>
+			<texture border="45,0,45,0">DialogContextMiddle.png</texture>
 		</control>
 		<control type="image"><!-- Floor -->
-			<posx>490</posx>
+			<posx>458</posx>
 			<posy>530</posy>
-			<width>300</width>
-			<height>80</height>
+			<width>370</width>
+			<height>50</height>
 			<colordiffuse>mainblue</colordiffuse>
-			<texture>DialogContextBottom.png</texture>
+			<texture border="45,0,45,49">DialogContextBottom.png</texture>
 		</control>
 		<control type="image"><!-- Floor -->
-			<posx>560</posx>
-			<posy>90</posy>
-			<width>150</width>
-			<height>30</height>
+			<posx>530</posx>
+			<posy>83</posy>
+			<width>220</width>
+			<height>35</height>
 			<aspectratio scalediffuse="false">keep</aspectratio>
-			<colordiffuse>mainblue</colordiffuse>
+			
 			<texture>XBMC_Logo.png</texture>
 		</control>
 		<control type="image">
-			<posx>530</posx>
+			<posx>500</posx>
 			<posy>120</posy>
-			<width>200</width>
+			<width>270</width>
 			<height>2</height>
 			<aspectratio>stretch</aspectratio>
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>separator2.png</texture>
 		</control>
 		<control type="grouplist" id="1">
-			<posx>530</posx>
+			<posx>492</posx>
 			<posy>140</posy>
 			<onleft>-</onleft>
 			<onright>-</onright>
@@ -69,7 +69,7 @@
 			<control type="button" id="3110">
 				<description>Settings</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -86,7 +86,7 @@
 			<control type="button" id="3117">
 				<description>Favourites</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -103,7 +103,7 @@
 			<control type="button" id="3112">
 				<description>Reload Skin</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -118,9 +118,8 @@
 				<onclick>ReloadSkin()</onclick>
 				<ondown>SetFocus(3111)</ondown>
 			</control>
-			
-		
 		</control>
+		
 		<control type="label">
 			<posx>490</posx>
 			<posy>300</posy>
@@ -142,7 +141,7 @@
 			<texture>separator2.png</texture>
 		</control>
 		<control type="grouplist" id="2">
-			<posx>530</posx>
+			<posx>492</posx>
 			<posy>340</posy>
 			<onleft>-</onleft>
 			<onright>-</onright>
@@ -153,7 +152,7 @@
 			<control type="button" id="3111">
 				<description>Shutdown Timer</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -171,7 +170,7 @@
 			<control type="button" id="3116">
 				<description>Cancel Shutdown Timer</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -188,7 +187,7 @@
 			<control type="button" id="3118">
 				<description>Logoff</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -205,7 +204,7 @@
 			<control type="button" id="3113">
 				<description>Shutdown</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -221,7 +220,7 @@
 			<control type="button" id="3114">
 				<description>Restart Xbmc</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
@@ -237,7 +236,7 @@
 			<control type="button" id="3115">
 				<description>System Info Button</description>
 				<height>35</height>
-				<width>214</width>
+				<width>297</width>
 				<textoffsety>2</textoffsety>
 				<font>Font_Bartowski_Press_S</font>
 				<textcolor>grey</textcolor>
