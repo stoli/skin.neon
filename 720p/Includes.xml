@@ -394,11 +394,11 @@
 	
 	<include name="Time">
 		<control type="group">
-		<visible>Skin.HasSetting(library_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+		<visible>!Skin.HasSetting(no_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			<posx>1150</posx>
 			<posy>0</posy>
 				<control type="group">
-				<visible>Skin.HasSetting(weather_info) + ![Window.IsActive(142) + VideoPlayer.Content(episodes)]</visible>
+				<visible>!Skin.HasSetting(no_weather_info) + ![Window.IsActive(142) + VideoPlayer.Content(episodes)]</visible>
 				<animation effect="slide" start="300,0" end="-70,0" time="500">WindowOpen</animation>
 				<animation effect="slide" start="-70,0" end="300,0" time="400">WindowClose</animation>
 					<control type="image">
@@ -448,7 +448,7 @@
 	<include name="Date">
 
 		<control type="group">
-		<visible>Skin.HasSetting(library_global_clock)</visible>
+		<visible>!Skin.HasSetting(no_global_clock)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 				<control type="group">
@@ -621,7 +621,7 @@
 	</include>
 	<include name="Finish_Time">
 		<control type="group">
-			<visible>Skin.HasSetting(library_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+			<visible>!Skin.HasSetting(no_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<control type="group">
@@ -662,7 +662,7 @@
 	</include>
 	<include name="Global_Time_TopRight_OSD">
 		<control type="group">
-		<visible>Skin.HasSetting(library_global_clock)</visible>
+		<visible>!Skin.HasSetting(no_global_clock)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<animation effect="slide" start="0,-145" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
@@ -691,7 +691,7 @@
 				 
 			
 			<control type="group">
-			<visible>Skin.HasSetting(library_global_clock)</visible>
+			<visible>!Skin.HasSetting(no_global_clock)</visible>
 				
 				<animation type="WindowOpen">
 

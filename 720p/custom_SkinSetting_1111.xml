@@ -187,23 +187,23 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-				<!--	<control type="radiobutton" id="101">
+					<control type="radiobutton" id="101">
 						<include>skin_settings_labels</include>
-						<label>$LOCALIZE[31032]</label>
-						<onclick>Skin.ToggleSetting(no_clock)</onclick>
-						<selected>Skin.HasSetting(no_clock)</selected>
-					</control> -->
+						<label>Enable ABC Keyboard</label>
+						<onclick>Skin.ToggleSetting(ABCKeyBoard)</onclick>
+						<selected>Skin.HasSetting(ABCKeyBoard)</selected>
+					</control> 
 					<control type="radiobutton" id="102">
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31247]</label>
-						<onclick>Skin.ToggleSetting(library_global_clock)</onclick>
-						<selected>!Skin.HasSetting(library_global_clock)</selected>
+						<onclick>Skin.ToggleSetting(no_global_clock)</onclick>
+						<selected>Skin.HasSetting(!no_global_clock)</selected>
 					</control>
 					<control type="radiobutton" id="126">
 						<include>skin_settings_labels</include>
 						<label>Disable Global Weather</label>
-						<onclick>Skin.ToggleSetting(weather_info)</onclick>
-						<selected>!Skin.HasSetting(weather_info)</selected>
+						<onclick>Skin.ToggleSetting(no_weather_info)</onclick>
+						<selected>Skin.HasSetting(no_weather_info)</selected>
 					</control>
 					<control type="radiobutton" id="103">
 						<include>skin_settings_labels</include>
