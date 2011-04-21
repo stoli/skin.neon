@@ -4,59 +4,48 @@
 	<defaultcontrol always="true">10</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
-
 		<control type="button" id="10">
-			<description>trigger with startup Playlist</description>
-			<onfocus>XBMC.PlayMedia($INFO[Skin.String(startup_playlist_path)])</onfocus>
-				<texturenofocus>-</texturenofocus>
-			<texturefocus>-</texturefocus>
-			<visible>Skin.HasSetting(use_startup_playlist)</visible>
-			<onfocus>Notification(Startup,Starting Playlist)</onfocus>
-			<onfocus>SetFocus(11)</onfocus>
-		</control>	
-		<control type="button" id="10">
-			<description>trigger with startup Playlist</description>
-			<texturenofocus>-</texturenofocus>
-			<texturefocus>-</texturefocus>
-			<visible>!Skin.HasSetting(use_startup_playlist)</visible>
-			<onfocus>SetFocus(11)</onfocus>
-		</control>	
-		<control type="button" id="11">
 			<description>Trigger Weather</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
 			<label>$INFO[Weather.Conditions]</label>
 			<font>-</font>
 			<onfocus>Notification(Startup,Weather Updated)</onfocus>
-			<onfocus>SetFocus(12)</onfocus>
-			
+			<onfocus>SetFocus(11)</onfocus>
 		</control>
-		<control type="button" id="12">
+		<control type="button" id="11">
 			<description>Trigger Latest Added</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
 			<onfocus>XBMC.RunScript(script.recentlyadded,limit=10)</onfocus>
 			<label>$INFO[Window.Property(LatestMovie.1.Title)]</label>
 			<onfocus>Notification(Startup,Recently Added Updated)</onfocus>
-			<onfocus>SetFocus(13)</onfocus>
+			<onfocus>SetFocus(12)</onfocus>
 		</control>
-		
-		<control type="button" id="13">
+		<control type="button" id="12">
 			<description>Trigger Next Aired</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
 			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=true&amp;alarm=99)</onfocus>
 			<onfocus>Notification(Startup,TV Guide Updated)</onfocus>
-			<onfocus>SetFocus(14)</onfocus>
+			<onfocus>SetFocus(13)</onfocus>
 		</control>
-
-		<control type="button" id="14">
+		<control type="button" id="13">
 			<description>trigger</description>
 			<onfocus>ReplaceWindow(Home)</onfocus>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
+			<visible>!Skin.HasSetting(Use_Startup_Playlist)</visible>
 		</control>
-		
+		<control type="button" id="13">
+			<description>trigger with startup Playlist</description>
+			<texturenofocus>-</texturenofocus>
+			<texturefocus>-</texturefocus>
+			<onfocus>XBMC.PlayerControl(PartyMode) $INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
+			<onfocus>Notification(Startup,Starting Playlist)</onfocus>
+			<onfocus>ReplaceWindow(Home)</onfocus>
+			<visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
+		</control>	
 		
 	</controls>
 </window>
