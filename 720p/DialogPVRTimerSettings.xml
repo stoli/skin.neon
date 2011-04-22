@@ -71,6 +71,7 @@
 			<font>font13</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
@@ -80,6 +81,7 @@
 			<font>font13</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
@@ -88,6 +90,7 @@
 			<height>40</height>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 			<font>font13</font>
@@ -97,6 +100,7 @@
 		<control type="sliderex" id="10">
 			<description>Default Slider</description>
 			<height>40</height>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 			<font>font13</font>
@@ -114,6 +118,7 @@
 			<font>font13</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<colordiffuse>mainblue</colordiffuse>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>

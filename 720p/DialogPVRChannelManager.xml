@@ -29,7 +29,8 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
-				<texture>Confluence_Logo.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>Neon.png</texture>
 			</control>
 			<control type="button" id ="4">
 				<description>OK Button</description>
@@ -42,6 +43,7 @@
 				<font>font13_title</font>
 				<align>right</align>
 				<aligny>top</aligny>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 				<texturefocus border="5">MenuItemFO.png</texturefocus>
 				<onleft>60</onleft>
@@ -60,6 +62,7 @@
 				<font>font13_title</font>
 				<align>right</align>
 				<aligny>top</aligny>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 				<texturefocus border="5">MenuItemFO.png</texturefocus>
 				<onleft>60</onleft>
@@ -78,6 +81,7 @@
 				<font>font13_title</font>
 				<align>right</align>
 				<aligny>top</aligny>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 				<texturefocus border="5">MenuItemFO.png</texturefocus>
 				<onleft>60</onleft>
@@ -97,6 +101,7 @@
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<pulseonselect>no</pulseonselect>
@@ -116,6 +121,7 @@
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<shadowcolor>black</shadowcolor>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19201</label>
@@ -131,6 +137,7 @@
 				<width>380</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19202</label>
@@ -155,6 +162,7 @@
 				<width>380</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19207</label>
@@ -175,6 +183,7 @@
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<pulseonselect>no</pulseonselect>
@@ -191,6 +200,7 @@
 				<width>380</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19200</label>
@@ -206,6 +216,7 @@
 				<width>190</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<align>center</align>
@@ -222,6 +233,7 @@
 				<width>190</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<visible>IsEmpty(Window.Property(IsRadio))</visible>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -239,6 +251,7 @@
 				<width>190</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<visible>!IsEmpty(Window.Property(IsRadio))</visible>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -256,6 +269,7 @@
 				<width>380</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<align>center</align>
@@ -272,6 +286,7 @@
 				<width>380</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<align>center</align>
@@ -288,6 +303,7 @@
 				<width>380</width>
 				<height>35</height>
 				<font>font12</font>
+				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<align>center</align>
@@ -414,6 +430,7 @@
             <posy>0</posy>
             <width>350</width>
             <height>60</height>
+			<colordiffuse>mainblue</colordiffuse>
             <texture border="5">MenuItemFO.png</texture>
             <visible>Control.HasFocus(20)</visible>
             <include>VisibleFadeEffect</include>

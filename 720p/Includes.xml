@@ -53,6 +53,7 @@
 	<include file="Includes_TVGuide.xml" />
 	<include file="Viewtype_3dLandscape.xml" />
 	<include file="ViewsLiveTV.xml" />
+	<include file="ViewsPVR.xml" />
 	
 <!--	<include file="Viewtype_Newest_Episodes.xml" /> -->
 	

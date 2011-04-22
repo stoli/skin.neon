@@ -164,6 +164,7 @@
 						<posy>0</posy>
 						<width>390</width>
 						<height>61</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="2">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(11)</visible>
 						<include>VisibleFadeEffect</include>
