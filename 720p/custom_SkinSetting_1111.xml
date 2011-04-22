@@ -197,7 +197,7 @@
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31247]</label>
 						<onclick>Skin.ToggleSetting(no_global_clock)</onclick>
-						<selected>Skin.HasSetting(!no_global_clock)</selected>
+						<selected>Skin.HasSetting(no_global_clock)</selected>
 					</control>
 					<control type="radiobutton" id="126">
 						<include>skin_settings_labels</include>
