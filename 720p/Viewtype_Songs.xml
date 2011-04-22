@@ -249,7 +249,7 @@
 		<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
 		<include>Animation_HiddenByInfo</include>
 		<include>Animation_Viewtype_3dland_Leftplot</include>
-		<visible>Skin.HasSetting(library_global_clock)</visible>
+		<visible>!Skin.HasSetting(no_global_clock)</visible>
 	</control>
 	<control type="textbox">
 		<visible>Control.IsVisible(52) + Container.Content(artists) + !Player.HasAudio</visible>
@@ -264,7 +264,7 @@
 		<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
 		<include>Animation_HiddenByInfo</include>
 		<include>Animation_Viewtype_3dland_Leftplot</include>
-		<visible>!Skin.HasSetting(library_global_clock)</visible>
+		<visible>Skin.HasSetting(no_global_clock)</visible>
 	</control>
 		<control type="scrollbar" id="62">
 			<include>Animation_ZoomInZoomOut</include>

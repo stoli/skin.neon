@@ -55,7 +55,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>MediaInfoBackUpper.png</texture>
 				<aspectratio>stretch</aspectratio>
-				<visible>!Skin.HasSetting(library_global_clock) + !Control.IsVisible(602)</visible>
+				<visible>Skin.HasSetting(no_global_clock) + !Control.IsVisible(602)</visible>
 			</control> -->
 
 		</control>
@@ -79,7 +79,7 @@
 				<posy>139</posy>
 				<width>400</width>
 				<height>20</height>
-				<visible>!Skin.HasSetting(library_global_clock)</visible>
+				<visible>Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="progress" id="23">
 			
@@ -92,7 +92,7 @@
 				<posy>135</posy>
 				<width>400</width>
 				<height>20</height>
-				<visible>Skin.HasSetting(library_global_clock)</visible>
+				<visible>!Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>125</posx>
@@ -103,7 +103,7 @@
 				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Time]</label>
-				<visible>Skin.HasSetting(library_global_clock)</visible>
+				<visible>!Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>255</posx>
@@ -114,7 +114,7 @@
 				<font>Font_Neon_22</font>
 				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Time]</label>
-				<visible>!Skin.HasSetting(library_global_clock)</visible>
+				<visible>Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>540</posx>
@@ -125,7 +125,7 @@
 				<font>Font_RSS_Unicode</font>
 				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Duration]</label>
-				<visible>Skin.HasSetting(library_global_clock)</visible>
+				<visible>!Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>755</posx>
@@ -135,7 +135,7 @@
 				<font>Font_Neon_22</font>
 				<textcolor>mainblue</textcolor>
 				<label>$INFO[VideoPlayer.Duration]</label>
-				<visible>!Skin.HasSetting(library_global_clock)</visible>
+				<visible>Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="group">
 				<posx>20</posx>
@@ -271,7 +271,7 @@
 				<font>Font_Neon_22</font>
 				<align>right</align>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
-				<visible>!Skin.HasSetting(library_global_clock)</visible>
+				<visible>Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="label">
 				<posx>200</posx>
@@ -283,7 +283,7 @@
 				<font>Font_Neon_22</font>
 				<align>right</align>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
-				<visible>!Skin.HasSetting(library_global_clock)</visible>
+				<visible>Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="image">
 				<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
@@ -314,7 +314,7 @@
 					 <aligny>center</aligny>
 					 <colordiffuse>d0FDD017</colordiffuse>
 					 <info>Player.StarRating</info>
-					<visible>VideoPlayer.Content(movies) + Skin.HasSetting(library_global_clock)</visible>
+					<visible>VideoPlayer.Content(movies) + !Skin.HasSetting(no_global_clock)</visible>
 				</control>-->
 				<control type="label">
 					<label>Air Date</label>
@@ -348,7 +348,7 @@
 					 <aligny>center</aligny>
 					 <colordiffuse>mainblue</colordiffuse>
 					 <info>Player.StarRating</info>
-					<visible>VideoPlayer.Content(episodes) + Skin.HasSetting(library_global_clock)</visible>
+					<visible>VideoPlayer.Content(episodes) + !Skin.HasSetting(no_global_clock)</visible>
 			   </control>			
 				
 		</control> 

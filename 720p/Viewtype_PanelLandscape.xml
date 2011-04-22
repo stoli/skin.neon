@@ -379,7 +379,7 @@
 		<visible>Control.IsVisible(57)</visible>
 	</control>
 		<control type="grouplist">
-			<visible>Control.IsVisible(57) + Container.Content(episodes) + !Skin.HasSetting(no_media_flags) + !Player.HasAudio + !Skin.HasSetting(library_global_clock)</visible>
+			<visible>Control.IsVisible(57) + Container.Content(episodes) + !Skin.HasSetting(no_media_flags) + !Player.HasAudio + Skin.HasSetting(no_global_clock)</visible></visible>
 			<description>Media Codec Flagging Images</description>
 			<posx>20</posx>
 			<posy>680</posy>

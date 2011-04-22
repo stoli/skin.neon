@@ -113,7 +113,7 @@
 					<effect type="fade" start="100" end="0" time="500" delay="14000" />
 				</animation>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
-				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
+				<visible>Player.Paused + Skin.HasSetting(no_global_clock)</visible></visible>
 			</control>
 			<control type="label">
 				<posx>100</posx>
@@ -123,7 +123,7 @@
 				<label>"$INFO[VideoPlayer.Title]"</label>
 				<textcolor>white</textcolor>
 				<font>Font_Neon_22</font>
-				<visible>Player.Paused + Skin.HasSetting(library_global_clock)</visible>
+				<visible>Player.Paused + !Skin.HasSetting(no_global_clock)</visible>
 				<align>center</align>
 			</control>
 			<control type="label">
@@ -135,7 +135,7 @@
 				<textcolor>white</textcolor>
 				<font>Font_Neon_22</font>
 				<align>center</align>
-				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
+				<visible>Player.Paused + Skin.HasSetting(no_global_clock)</visible></visible>
 				<animation type="Conditional" reversible="false" condition="Player.Paused" loop="true">
 					<effect type="fade" start="0" end="100" time="500" delay="7500" />
 					<effect type="fade" start="100" end="0" time="500" delay="14000" />
@@ -153,7 +153,7 @@
 				<textcolor>white</textcolor>
 				<font>Font_Neon_22</font>
 				<align>center</align>
-				<visible>Player.Paused + !Skin.HasSetting(library_global_clock)</visible>
+				<visible>Player.Paused + Skin.HasSetting(no_global_clock)</visible></visible>
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
 			</control>
 			
@@ -217,7 +217,7 @@
 				 <aligny>center</aligny>
 				 <colordiffuse>d0FDD017</colordiffuse>
 				 <info>Player.StarRating</info>
-				<visible>VideoPlayer.Content(movies) + Skin.HasSetting(library_global_clock)</visible>
+				<visible>VideoPlayer.Content(movies) + !Skin.HasSetting(no_global_clock)</visible>
 			</control>
 			<control type="image">
 				 <description>IMDB Rating</description>
@@ -229,7 +229,7 @@
 				 <aligny>center</aligny>
 				 <colordiffuse>d0FDD017</colordiffuse>
 				 <info>Player.StarRating</info>
-				<visible>VideoPlayer.Content(episodes) + Skin.HasSetting(library_global_clock)</visible>
+				<visible>VideoPlayer.Content(episodes) + !Skin.HasSetting(no_global_clock)</visible>
 		   </control>		 -->	
 								
 
