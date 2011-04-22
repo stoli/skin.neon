@@ -152,6 +152,17 @@
 		<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 		<texturenofocus>MenuItemNF.png</texturenofocus>
 	</include>
+	<include name="skin_settings_sub_labels">
+		<width>740</width>
+		<height>34</height>
+		<textoffsetx>40</textoffsetx>
+		<font>Font_Neon_25</font>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<colordiffuse>mainblue</colordiffuse>
+		<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+		<texturenofocus>MenuItemNF.png</texturenofocus>
+	</include>
 	<include name="skin_settings_button">
 		<width>740</width>
 		<height>34</height>

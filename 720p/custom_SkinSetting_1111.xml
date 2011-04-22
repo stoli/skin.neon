@@ -2985,15 +2985,17 @@
 								<onclick>Skin.SetString(Menu_Custom1_Label)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom1) + Skin.String(MoviesCustom,1)</visible>
 							</control>
+							
 							<control type="button" id="8202">
 								<description>Menu Movies Sub Custom8 Path</description>
-								<label>- $LOCALIZE[31290]</label>
+								<label>- $LOCALIZE[31290] Testing</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom1_Path)][/COLOR]</label2>
 								<include>skin_settings_button</include>
 								<onclick>Skin.SetString(Menu_Sub_Custom_Favourites_Path,Menu_Custom1_Path)</onclick>
 								<onclick>ActivateWindow(1114)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom1) + Skin.String(MoviesCustom,1)</visible>
 							</control>
+							
 						<control type="radiobutton" id="703">
 							<description>custom home 2</description>
 							<include>skin_settings_labels</include>
@@ -3106,6 +3108,7 @@
 								<onclick>ActivateWindow(1114)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom5) + Skin.String(MoviesCustom,5)</visible>
 							</control>
+						<!-- PlayLists -->
 							<control type="radiobutton" id="707">
 								<description>custom home 6</description>
 								<include>skin_settings_labels</include>
@@ -3119,7 +3122,7 @@
 						
 							
 							<control type="button" id="8211">
-								<description>custom home 6</description>
+								<description>Custom Home 6 - Playlist</description>
 								<label>- $LOCALIZE[31262]</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom6_Label)][/COLOR]</label2>
 								<include>skin_settings_button</include>
@@ -3127,15 +3130,23 @@
 								<visible>Skin.HasSetting(Menu_Custom6) + Skin.String(MoviesCustom,6)</visible>
 							</control>
 							<control type="button" id="8212">
-								<description>custom home 6</description>
+								<description>Custom Home 6 - Playlist</description>
 								<label>- $LOCALIZE[31291]</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom6_Path)][/COLOR]</label2>
 								<include>skin_settings_button</include>
 								<onclick>Skin.SetFile(Menu_Custom6_Path,.xsp,special://videoplaylists)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom6) + Skin.String(MoviesCustom,6)</visible>
 							</control>
+							<control type="radiobutton" id="82122">
+								<description>Start Playlist or Present</description>
+								<label>- Start Playing Automatically</label>
+								<include>skin_settings_sub_labels</include>
+								<onclick>Skin.ToggleSetting(Menu_Custom6_Play)</onclick>
+								<selected>Skin.HasSetting(Menu_Custom6_Play)</selected>
+								<visible>Skin.HasSetting(Menu_Custom6) + Skin.String(MoviesCustom,6)</visible>
+							</control>
 							<control type="radiobutton" id="708">
-								<description>custom home 7</description>
+								<description>cCustom Home 7 - Playlist</description>
 								<include>skin_settings_labels</include>
 								<label>$LOCALIZE[31003] 2</label>
 								<onfocus>Skin.SetString(MoviesCustom,7)</onfocus>
@@ -3143,8 +3154,7 @@
 								<selected>Skin.HasSetting(Menu_Custom7)</selected>
 								<enable>!Skin.HasSetting(Menu_Movies_Sub7)</enable>
 							</control>
-						
-							
+													
 							<control type="button" id="8213">
 								<description>custom home 7</description>
 								<label>- $LOCALIZE[31262]</label>
@@ -3159,6 +3169,14 @@
 								<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom7_Path)][/COLOR]</label2>
 								<include>skin_settings_button</include>
 								<onclick>Skin.SetFile(Menu_Custom7_Path,.xsp,special://videoplaylists)</onclick>
+								<visible>Skin.HasSetting(Menu_Custom7) + Skin.String(MoviesCustom,7)</visible>
+							</control>
+							<control type="radiobutton" id="82144">
+								<description>Start Playlist or Present</description>
+								<label>- Start Playing Automatically</label>
+								<include>skin_settings_sub_labels</include>
+								<onclick>Skin.ToggleSetting(Menu_Custom7_Play)</onclick>
+								<selected>Skin.HasSetting(Menu_Custom7_Play)</selected>
 								<visible>Skin.HasSetting(Menu_Custom7) + Skin.String(MoviesCustom,7)</visible>
 							</control>
 							<control type="radiobutton" id="709">
@@ -3188,7 +3206,14 @@
 								<onclick>Skin.SetFile(Menu_Custom8_Path,.xsp,special://videoplaylists)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom8) + Skin.String(MoviesCustom,8)</visible>
 							</control>
-							
+							<control type="radiobutton" id="82166">
+								<description>Start Playlist or Present</description>
+								<label>- Start Playing Automatically</label>
+								<include>skin_settings_sub_labels</include>
+								<onclick>Skin.ToggleSetting(Menu_Custom8_Play)</onclick>
+								<selected>Skin.HasSetting(Menu_Custom8_Play)</selected>
+								<visible>Skin.HasSetting(Menu_Custom8) + Skin.String(MoviesCustom,8)</visible>
+							</control>
 							<control type="radiobutton" id="710">
 								<description>custom home 9</description>
 								<include>skin_settings_labels</include>
@@ -3214,7 +3239,14 @@
 								<onclick>Skin.SetFile(Menu_Custom9_Path,.xsp,special://videoplaylists)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom9) + Skin.String(MoviesCustom,9)</visible>
 							</control>
-							
+							<control type="radiobutton" id="82188">
+								<description>Start Playlist or Present</description>
+								<label>- Start Playing Automatically</label>
+								<include>skin_settings_sub_labels</include>
+								<onclick>Skin.ToggleSetting(Menu_Custom9_Play)</onclick>
+								<selected>Skin.HasSetting(Menu_Custom9_Play)</selected>
+								<visible>Skin.HasSetting(Menu_Custom9) + Skin.String(MoviesCustom,9)</visible>
+							</control>
 							<control type="radiobutton" id="711">
 								<description>custom home 10</description>
 								<include>skin_settings_labels</include>
@@ -3240,7 +3272,14 @@
 								<onclick>Skin.SetFile(Menu_Custom10_Path,.xsp,special://videoplaylists)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom10) + Skin.String(MoviesCustom,10)</visible>
 							</control>
-							
+							<control type="radiobutton" id="82220">
+								<description>Start Playlist or Present</description>
+								<label>- Start Playing Automatically</label>
+								<include>skin_settings_sub_labels</include>
+								<onclick>Skin.ToggleSetting(Menu_Custom10_Play)</onclick>
+								<selected>Skin.HasSetting(Menu_Custom10_Play)</selected>
+								<visible>Skin.HasSetting(Menu_Custom10) + Skin.String(MoviesCustom,10)</visible>
+							</control>
 							<control type="label" id="712">
 								<width>860</width>
 								<height>45</height>
