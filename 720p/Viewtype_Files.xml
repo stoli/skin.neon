@@ -834,7 +834,7 @@
 			</control>
 		</control>
 		<control type="grouplist">
-			<visible>Container.Content(episodes) + !Skin.HasSetting(no_media_flags) + !Control.IsVisible(51) + !Control.IsVisible(52) + !Control.IsVisible(59) + !Control.IsVisible(633)</visible>
+			<visible>Container.Content(episodes) + !Skin.HasSetting(no_media_flags) + !Control.IsVisible(51) + !Control.IsVisible(52) + !Control.IsVisible(59) + !Control.IsVisible(633) + !Control.IsVisible(596) + !Control.IsVisible(598)</visible>
 			<description>Media Codec Flagging Images</description>
 			<posx>445</posx>
 			<posy>680</posy>
