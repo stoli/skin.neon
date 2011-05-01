@@ -107,6 +107,7 @@
 					<thumb>$INFO[Skin.String(Menu_Custom6_Folder)]</thumb>
 					<!-- <onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom6_Path)],return)</onclick> -->
 					<onclick>XBMC.PlayMedia($INFO[Skin.String(Menu_Custom6_Path)])</onclick>
+					<onclick>ReplaceWindow(Home)</onclick>
 					<visible>Skin.HasSetting(Menu_Custom6) + Skin.HasSetting(Menu_Custom6_Play)</visible>
 				</item>
 				<item id="21">
@@ -288,7 +289,7 @@
 					<visible>!Skin.HasSetting(HomeMenuNoSettingsButton)</visible>
 				</item>
 				<item id="12">
-					<include>BackgroundVarsSignOut</include>					
+					<!-- <include>BackgroundVarsSignOut</include> -->					
 					<label>20126</label>
 					<icon>special://skin/backgrounds/logoff.jpg</icon>
 					<onclick>System.LogOff</onclick>

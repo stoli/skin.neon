@@ -2,7 +2,7 @@
 	<defaultcontrol always="true">512</defaultcontrol>
 	<controls>
 		<control type="group">
-			<include>Zoom</include>
+			<!-- <include>Zoom</include> -->
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
