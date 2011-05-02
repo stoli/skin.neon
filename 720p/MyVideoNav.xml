@@ -7,7 +7,7 @@
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
-            <onfocus>XBMC.RunScript(script.TvTunes,backend=True&amp;loop=False)</onfocus>
+            <onfocus>XBMC.RunScript(script.tvtunes,backend=True&amp;loop=False)</onfocus>
             <onfocus>SetFocus(50)</onfocus>
             <texturenofocus>-</texturenofocus>
             <texturefocus>-</texturefocus>
