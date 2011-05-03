@@ -1,5 +1,5 @@
 [B]Updated 05/01/2011:[/B]
-v1.6.0 - First update to xmbc repository
+v1.6.2 - First update to xmbc repository
 Major New features for Repo version:
 
 - Added support for QWERTY virtual keyboard
