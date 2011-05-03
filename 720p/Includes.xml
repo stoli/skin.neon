@@ -948,12 +948,38 @@
 		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
 		<orientation>horizontal</orientation>
 	</include>
+	<include name="WindowMenuVars_Vertical">
+		<width>300</width>
+		<height>600</height>
+		<posx>0</posx>
+		<onleft>50</onleft>
+		<onright>50</onright>
+		<itemgap>0</itemgap>
+		<align>left</align>
+		
+		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+		<orientation>vertical</orientation>
+	</include>
 	<include name="WindowMenuButton">
 		<posx>0</posx>
 		<posy>30</posy>
 		<width>150</width>
 		<height>30</height>
 		<align>center</align>
+		<font>Font_Bartowski_Smaller_MenuTitle</font>
+		<textcolor>grey</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<colordiffuse>mainblue</colordiffuse>
+		<texturefocus>button-focus.png</texturefocus>
+		<alttexturefocus>button-focus.png</alttexturefocus>
+		
+	</include>
+	<include name="WindowMenuButton_Vertical">
+		<posx>0</posx>
+		<posy>30</posy>
+		<width>150</width>
+		<height>30</height>
+		<align>left</align>
 		<font>Font_Bartowski_Smaller_MenuTitle</font>
 		<textcolor>grey</textcolor>
 		<focusedcolor>white</focusedcolor>
@@ -1032,6 +1058,17 @@
 		<!--<shadowcolor>black</shadowcolor>-->
 		<aligny>bottom</aligny>
 	</include>
+	<include name="WindowMenuLabel_Vertical">
+		<posx>0</posx>
+		<posy>0</posy>
+		<width>150</width>
+		<height>30</height>
+		<align>left</align>
+		<font>Font_Bartowski_Smaller_MenuTitle</font>
+		<textcolor>mainblue</textcolor>
+		<!--<shadowcolor>black</shadowcolor>-->
+		<aligny>bottom</aligny>
+	</include>
 	<include name="WeatherMenuLabel">
 		<posx>0</posx>
 		<posy>0</posy>
@@ -1056,5 +1093,338 @@
 	</include>
 	<!-- Player OSD Status -->
 	
-
+	<!-- Now Playing Includes from Confluence -->
+	
+	<include name="CommonNowPlaying_Controls">
+		<visible>[Player.HasAudio | Player.HasVideo]</visible>
+		<include>VisibleFadeEffect</include>
+		<control type="label">
+			<posx>250</posx>
+			<posy>0</posy>
+			<width>250</width>
+			<height>40</height>
+			<font>font28_title</font>
+			<textcolor>grey2</textcolor>
+			<align>right</align>
+			<aligny>center</aligny>
+			<label>31023</label>
+		</control>
+		<control type="group" id="9005">
+			<posx>12</posx>
+			<posy>40</posy>
+			<control type="button" id="600">
+				<posx>0</posx>
+				<posy>2</posy>
+				<width>39</width>
+				<height>39</height>
+				<label>-</label>
+				<texturefocus>osd/OSDPrevTrackFO.png</texturefocus>
+				<texturenofocus>osd/OSDPrevTrackNF.png</texturenofocus>
+				<onleft>50</onleft>
+				<onright>606</onright>
+				<onup>610</onup>
+				<ondown>608</ondown>
+				<onclick>XBMC.PlayerControl(Previous)</onclick>
+			</control>
+			<control type="button" id="606">
+				<posx>40</posx>
+				<posy>2</posy>
+				<width>39</width>
+				<height>39</height>
+				<label>-</label>
+				<texturefocus>osd/OSDRewindFO.png</texturefocus>
+				<texturenofocus>osd/OSDRewindNF.png</texturenofocus>
+				<onleft>600</onleft>
+				<onright>603</onright>
+				<onup>610</onup>
+				<ondown>608</ondown>
+				<onclick>XBMC.PlayerControl(Rewind)</onclick>
+				<visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
+			</control>
+			<control type="group">
+				<animation effect="slide" start="0,0" end="40,0" time="0" condition="Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo">Conditional</animation>
+				<control type="togglebutton" id="603">
+					<posx>40</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<label>-</label>
+					<texturefocus>osd/OSDPauseFO.png</texturefocus>
+					<texturenofocus>osd/OSDPauseNF.png</texturenofocus>
+					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+					<alttexturefocus>osd/OSDPlayFO.png</alttexturefocus>
+					<alttexturenofocus>osd/OSDPlayNF.png</alttexturenofocus>
+					<onleft>606</onleft>
+					<onright>601</onright>
+					<onup>610</onup>
+					<ondown>608</ondown>
+					<onclick>XBMC.PlayerControl(Play)</onclick>
+				</control>
+				<control type="button" id="601">
+					<posx>80</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<label>-</label>
+					<texturefocus>osd/OSDStopFO.png</texturefocus>
+					<texturenofocus>osd/OSDStopNF.png</texturenofocus>
+					<onleft>603</onleft>
+					<onright>607</onright>
+					<onup>610</onup>
+					<ondown>608</ondown>
+					<onclick>down</onclick>
+					<onclick>XBMC.PlayerControl(Stop)</onclick>
+				</control>
+				<control type="button" id="607">
+					<posx>120</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<label>-</label>
+					<texturefocus>osd/OSDForwardFO.png</texturefocus>
+					<texturenofocus>osd/OSDForwardNF.png</texturenofocus>
+					<onleft>601</onleft>
+					<onright>602</onright>
+					<onup>610</onup>
+					<ondown>608</ondown>
+					<onclick>XBMC.PlayerControl(Forward)</onclick>
+					<visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
+				</control>
+				<control type="button" id="602">
+					<posx>120</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<label>-</label>
+					<texturefocus>osd/OSDNextTrackFO.png</texturefocus>
+					<texturenofocus>osd/OSDNextTrackNF.png</texturenofocus>
+					<onleft>607</onleft>
+					<onright>604</onright>
+					<onup>610</onup>
+					<ondown>608</ondown>
+					<onclick>XBMC.PlayerControl(Next)</onclick>
+					<animation effect="slide" start="0,0" end="40,0" time="0" condition="Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo">Conditional</animation>
+				</control>
+			</control>
+			<control type="group">
+				<visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist) + !Player.HasVideo</visible>
+				<control type="button" id="604">
+					<posx>160</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<label>-</label>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<onclick>XBMC.PlayerControl(Repeat)</onclick>
+					<onleft>602</onleft>
+					<onright>605</onright>
+					<onup>610</onup>
+					<ondown>608</ondown>
+				</control>
+				<control type="image">
+					<posx>160</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<texture>osd/OSDRepeatNF.png</texture>
+					<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
+					<visible>!Control.HasFocus(604)</visible>
+				</control>
+				<control type="image">
+					<posx>160</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<texture>osd/OSDRepeatFO.png</texture>
+					<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
+					<visible>Control.HasFocus(604)</visible>
+				</control>
+				<control type="image">
+					<posx>160</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<texture>osd/OSDRepeatOneNF.png</texture>
+					<visible>Playlist.IsRepeatOne</visible>
+					<visible>!Control.HasFocus(604)</visible>
+				</control>
+				<control type="image">
+					<posx>160</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<texture>osd/OSDRepeatOneFO.png</texture>
+					<visible>Playlist.IsRepeatOne</visible>
+					<visible>Control.HasFocus(604)</visible>
+				</control>
+				<control type="image">
+					<posx>160</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<texture>osd/OSDRepeatAllNF.png</texture>
+					<visible>Playlist.IsRepeat</visible>
+					<visible>!Control.HasFocus(604)</visible>
+				</control>
+				<control type="image">
+					<posx>160</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<texture>osd/OSDRepeatAllFO.png</texture>
+					<visible>Playlist.IsRepeat</visible>
+					<visible>Control.HasFocus(604)</visible>
+				</control>
+				<control type="togglebutton" id="605">
+					<posx>200</posx>
+					<posy>2</posy>
+					<width>39</width>
+					<height>39</height>
+					<label>-</label>
+					<texturefocus>osd/OSDRandomOffFO.png</texturefocus>
+					<texturenofocus>osd/OSDRandomOffNF.png</texturenofocus>
+					<usealttexture>Playlist.IsRandom</usealttexture>
+					<alttexturefocus>osd/OSDRandomOnFO.png</alttexturefocus>
+					<alttexturenofocus>osd/OSDRandomOnNF.png</alttexturenofocus>
+					<onclick>XBMC.PlayerControl(Random)</onclick>
+					<onleft>604</onleft>
+					<onright>50</onright>
+					<onup>610</onup>
+					<ondown>608</ondown>
+				</control>
+			</control>
+		</control>
+	</include>
+	
+	<include name="CommonNowPlaying">
+		<control type="group">
+			<posx>10</posx>
+			<posy>345</posy>
+			<visible>Player.HasAudio</visible>
+			<include>VisibleFadeEffect</include>
+			<control type="button" id="608">
+				<posx>38</posx>
+				<posy>0</posy>
+				<width>164</width>
+				<height>164</height>
+				<label>-</label>
+				<texturefocus border="5">folder-focus.png</texturefocus>
+				<texturenofocus>-</texturenofocus>
+				<onleft>50</onleft>
+				<onright>50</onright>
+				<onup>603</onup>
+				<ondown>611</ondown>
+				<onclick>fullscreen</onclick>
+			</control>
+			<control type="image">
+				<posx>40</posx>
+				<posy>2</posy>
+				<width>160</width>
+				<height>160</height>
+				<texture>$INFO[MusicPlayer.Cover]</texture>
+				<bordertexture border="3">black-back2.png</bordertexture>
+				<bordersize>5</bordersize>
+				<aspectratio align="center">keep</aspectratio>
+			</control>
+			<control type="fadelabel">
+				<posx>0</posx>
+				<posy>170</posy>
+				<width>240</width>
+				<height>20</height>
+				<label>$INFO[MusicPlayer.Title]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+			</control>
+			<control type="fadelabel">
+				<posx>0</posx>
+				<posy>190</posy>
+				<width>240</width>
+				<height>20</height>
+				<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, | ]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font10</font>
+				<textcolor>grey2</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+			</control>
+		</control>
+		<control type="group">
+			<posx>10</posx>
+			<posy>345</posy>
+			<visible>Player.HasVideo</visible>
+			<include>VisibleFadeEffect</include>
+			<control type="button" id="608">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>240</width>
+				<height>164</height>
+				<label>-</label>
+				<texturefocus border="5">folder-focus.png</texturefocus>
+				<texturenofocus>-</texturenofocus>
+				<onleft>50</onleft>
+				<onright>50</onright>
+				<onup>603</onup>
+				<ondown>611</ondown>
+				<onclick>fullscreen</onclick>
+			</control>
+			<control type="videowindow">
+				<posx>2</posx>
+				<posy>2</posy>
+				<width>236</width>
+				<height>160</height>
+			</control>
+			<control type="fadelabel">
+				<posx>0</posx>
+				<posy>170</posy>
+				<width>240</width>
+				<height>20</height>
+				<label>$INFO[VideoPlayer.Title]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+			</control>
+			<control type="fadelabel">
+				<posx>0</posx>
+				<posy>190</posy>
+				<width>240</width>
+				<height>20</height>
+				<label>$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font10</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+				<visible>VideoPlayer.Content(Episodes)</visible>
+			</control>
+			<control type="fadelabel">
+				<posx>0</posx>
+				<posy>190</posy>
+				<width>240</width>
+				<height>20</height>
+				<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Director, | ]$INFO[VideoPlayer.Genre, | ]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font10</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+				<visible>VideoPlayer.Content(Movies)</visible>
+			</control>
+		</control>
+	</include>
 </includes>

@@ -620,7 +620,7 @@
 				<include>Poster_Next_Aired</include>
 		</control>
 		<control type="grouplist">
-			<visible>!Skin.HasSetting(3dLandscape_Fanart) + Skin.HasSetting(back_flags) + !Skin.HasSetting(no_media_flags)</visible>
+			<visible>!Skin.HasSetting(3dLandscape_Fanart) + !Skin.HasSetting(no_media_flags)</visible>
 			<description>Media Codec Flagging Images</description>
 			<posx>20</posx>
 			<posy>674</posy>
@@ -628,7 +628,6 @@
 			<align>left</align>
 			<itemgap>0</itemgap>
 			<orientation>horizontal</orientation>
-			<include>back_flags</include>
 			<include>Animation_ZoomInZoomOut</include>
 		</control>
 		<control type="grouplist">
@@ -640,10 +639,6 @@
 			<align>left</align>
 			<itemgap>0</itemgap>
 			<orientation>horizontal</orientation>
-			<include condition="!Skin.HasSetting(vanilla_flags) + !Skin.HasSetting(original_flags) + !Skin.HasSetting(flat_flags)">color_flags</include>
-			<include condition="Skin.HasSetting(vanilla_flags) + !Skin.HasSetting(original_flags) + !Skin.HasSetting(flat_flags)">vanilla_flags</include>
-			<include condition="Skin.HasSetting(original_flags) + !Skin.HasSetting(vanilla_flags) + !Skin.HasSetting(flat_flags)">original_flags</include>
-			<include condition="Skin.HasSetting(flat_flags) + !Skin.HasSetting(vanilla_flags) + !Skin.HasSetting(original_flags)">flat_flags</include>
 			<include>Animation_ZoomInZoomOut</include>
 		</control>
 		<control type="grouplist">
