@@ -158,7 +158,7 @@
 				</control>
 			</control>
 <!-- TV Large -->
-			<control type="group">
+			<control type="group" id="8888">
 				<posx>0</posx>
 				<posy>162</posy>
 				<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(5) + Skin.HasSetting(BigRecentTV)</visible>
