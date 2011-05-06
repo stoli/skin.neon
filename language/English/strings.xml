@@ -3,10 +3,7 @@
 <strings>
 
 	<!-- Main Labels -->
-	
-	
-	
-	
+
 	<string id="31007">Plugins</string><!-- GOOD -->
 	<string id="31024">Page</string><!-- GOOD -->
 	<string id="31025">Items</string><!-- GOOD -->
@@ -348,6 +345,5 @@ just copy the translations from Confluence to here
 	  <string id="31509">Channel Group</string>
 	  <string id="31510">Timer Set</string>
 	</strings>
-
   
   
