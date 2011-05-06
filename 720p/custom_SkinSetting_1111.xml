@@ -464,6 +464,38 @@
 						<onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
 						<selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
 					</control>
+					<control type="radiobutton" id="2022">
+						<description>Show Big Recently added tvinfo</description>
+						<width>740</width>
+						<height>30</height>
+						<font>Font_KeyboardTitle</font>
+						<textoffsetx>40</textoffsetx>
+						<label>$LOCALIZE[31979]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(BigRecentTV)</onclick>
+						<selected>Skin.HasSetting(BigRecentTV)</selected>
+						<visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+					</control>
+					<control type="radiobutton" id="2023">
+						<description>Show Big Recently added tvinfo</description>
+						<width>740</width>
+						<height>30</height>
+						<font>Font_KeyboardTitle</font>
+						<textoffsetx>40</textoffsetx>
+						<label>$LOCALIZE[31980]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(BigRecentMovie)</onclick>
+						<selected>Skin.HasSetting(BigRecentMovie)</selected>
+						<visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+					</control>
 					<control type="radiobutton" id="111">
 						<include>skin_settings_labels</include>
 						<label>$LOCALIZE[31728]</label>

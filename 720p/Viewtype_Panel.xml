@@ -393,7 +393,7 @@
 			</control>
 			<control type="group">
 				<control type="textbox">
-					<visible>[Container.Content(movies) | Container.Content(tvshows)] + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)]</visible>
+					<visible>[Container.Content(movies) | Container.Content(tvshows)] + ![Player.HasAudio + !SubString(Window(10025).Property(tvtunesIsAlive),True)]</visible>
 					<posx>15</posx>
 					<posy>390</posy>
 					<width>540</width>
@@ -406,7 +406,7 @@
 					<include>Animation_Viewtype_Panel_BottomArea</include>
 				</control>
 				<control type="textbox">
-					<visible>[Container.Content(movies) | Container.Content(tvshows)] + [Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)]</visible>
+					<visible>[Container.Content(movies) | Container.Content(tvshows)] + [Player.HasAudio + !SubString(Window(10025).Property(tvtunesIsAlive),True)]</visible>
 					<posx>15</posx>
 					<posy>390</posy>
 					<width>540</width>
@@ -418,7 +418,7 @@
 					<include>Animation_Viewtype_Panel_BottomArea</include>
 				</control>
 				<control type="grouplist">
-					<visible>Container.Content(movies) + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + !Skin.HasSetting(no_media_flags)</visible>
+					<visible>Container.Content(movies) + !SubString(Window(10025).Property(tvtunesIsAlive),True)] + !Skin.HasSetting(no_media_flags)</visible>
 					<description>Media Codec Flagging Images</description>
 					<posx>20</posx>
 					<posy>674</posy>
@@ -429,7 +429,7 @@
 					<include>Animation_ZoomInZoomOut</include>
 				</control>
 				<control type="grouplist">
-					<visible>Container.Content(movies) + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + !Skin.HasSetting(no_media_flags)</visible>
+					<visible>Container.Content(movies) + !SubString(Window(10025).Property(tvtunesIsAlive),True)] + !Skin.HasSetting(no_media_flags)</visible>
 					<description>Media Codec Flagging Images</description>
 					<posx>20</posx>
 					<posy>674</posy>
@@ -444,7 +444,7 @@
 					<include>Animation_ZoomInZoomOut</include>
 				</control>
 				<control type="grouplist">
-					<visible>Container.Content(movies) + !Skin.HasSetting(no_frame_flags) + ![Player.HasAudio + !SubString(Window(10025).Property(TvTunesIsAlive),True)] + !Skin.HasSetting(no_media_flags)</visible>
+					<visible>Container.Content(movies) + !Skin.HasSetting(no_frame_flags) + ![Player.HasAudio + !SubString(Window(10025).Property(tvtunesIsAlive),True)] + !Skin.HasSetting(no_media_flags)</visible>
 					<description>Media Codec Flagging Images</description>
 					<posx>20</posx>
 					<posy>674</posy>

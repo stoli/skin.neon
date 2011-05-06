@@ -13,7 +13,7 @@
 			<onfocus>Notification(Startup,Weather Updated)</onfocus>
 			<onfocus>SetFocus(12)</onfocus>
 		</control>
-		<control type="button" id="11">
+	<!--	<control type="button" id="11">
 			<description>Trigger Latest Added</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>

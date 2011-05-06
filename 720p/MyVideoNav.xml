@@ -3,11 +3,11 @@
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>596,50,55,58,595,51,52,633,53,54,597,56,57,59,500,501,503,508,592,593,594,598,599</views>
+	<views>50,55,58,595,51,596,52,633,53,54,597,56,57,59,500,501,503,508,592,593,594,598,599</views>
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
-            <onfocus>XBMC.RunScript(script.TvTunes,backend=True&amp;loop=False)</onfocus>
+            <onfocus>XBMC.RunScript(script.tvtunes,backend=True&amp;loop=False)</onfocus>
             <onfocus>SetFocus(50)</onfocus>
             <texturenofocus>-</texturenofocus>
             <texturefocus>-</texturefocus>
@@ -115,7 +115,7 @@
 		<include>Viewtype_Landscape_Fanart</include> <!--  633  -->
 		<include>Viewtype_List</include><!--  53  -->
 		<include>Viewtype_Episode</include><!--  51  -->
-	<!--	<include>Viewtype_Wall</include> --> <!--  54  -->
+		<include>Viewtype_Wall</include> <!--  54  -->
 		<include>Viewtype_Panel</include><!--  56  TV=Panel -->
 		<include>Viewtype_PanelLandscape</include><!--  57  -->
 		<include>Viewtype_BannerPanel</include><!--  592  -->
@@ -137,7 +137,7 @@
 		<include>Trailer_Poster</include>
 		<include>ScrollOffsetLabel</include>
 		<include>Trailer_Media_View</include>
-		<include>MovieWall</include>
+		
 	
 	<control type="group">	
 		<visible>!SubString(Window(25).Property(tvtunesIsAlive),True)</visible>

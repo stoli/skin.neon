@@ -15,8 +15,7 @@
 			</control> 
 			
 		</control>
-		
-		<control type="fixedlist" id="596">
+		<control type="wraplist" id="596">
 			<viewtype label="$LOCALIZE[31296]">list</viewtype>
 			<posx>-20</posx>
 			<posy>35</posy>
@@ -33,7 +32,7 @@
 			<movement>0</movement>
 			<include>Animation_ZoomInZoomOut</include>
 			<include>Animation_HiddenByInfo</include>
-			<visible>stringcompare(container.folderpath,videodb://5/) | Window.IsActive(videoplaylist)</visible>
+			<visible>Container.Content(episodes)</visible>
 			<itemlayout width="633" height="172">
 				<control type="group">
 					<posx>20</posx>
@@ -75,7 +74,7 @@
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 						</control> -->
 						
-						<control type="image">
+						<!--<control type="image">
 							<posx>300</posx>
 							<posy>0</posy>
 							<width>110</width>
@@ -92,10 +91,10 @@
 							<texture>$INFO[ListItem.path]logo.png</texture>
 							<fadetime>300</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-						</control>
+						</control>-->
 						<control type="label">
 							<description>Episode Title</description>
-							<posx>430</posx>
+							<posx>300</posx>
 							<posy>6</posy>
 							<width>460</width>
 							<height>50</height>
@@ -187,42 +186,50 @@
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 						</control> -->
 						<control type="image">
-							<posx>300</posx>
-							<posy>0</posy>
+							<posx>170</posx>
+							<posy>110</posy>
 							<width>110</width>
 							<height>43</height>
 							<texture background="true">$INFO[ListItem.path]../logo.png</texture>
 							<fadetime>300</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
+							<animation type="Focus" reversible="false">
+								<effect type="zoom" center="127,70" start="50" end="100" time="200" tween="cubic" easing="out" />
+								<effect type="fade" start="0" end="100" time="200" />
+							</animation>
 						</control>
 						<control type="image">
-							<posx>300</posx>
-							<posy>0</posy>
+							<posx>170</posx>
+							<posy>110</posy>
 							<width>110</width>
 							<height>43</height>
 							<texture background="true">$INFO[ListItem.path]logo.png</texture>
 							<fadetime>300</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
+							<animation type="Focus" reversible="false">
+								<effect type="zoom" center="127,70" start="50" end="100" time="200" tween="cubic" easing="out" />
+								<effect type="fade" start="0" end="100" time="200" />
+							</animation>
 						</control>
 						<control type="label">
-							<description>Director</description>
-							<posx>430</posx>
-							<posy>6</posy>
+							<description>Episode Title</description>
+							<posx>300</posx>
+							<posy>-10</posy>
 							<width>460</width>
 							<height>50</height>
 							<aligny>center</aligny>
-							<font>Font_Neon_30</font>
+							<font>Font_Neon_35</font>
 							<textcolor>mainblue</textcolor>
 							<label>$INFO[ListItem.Title]</label>
 						</control>
 						<control type="label">
-							<description>Director</description>
+							<description>Season and Air Date</description>
 							<posx>300</posx>
-							<posy>28</posy>
+							<posy>20</posy>
 							<width>460</width>
 							<height>50</height>
 							<aligny>center</aligny>
-							<font>Font_EpisodePlot2</font>
+							<font>Font_Neon_20</font>
 							<textcolor>ListTrackF</textcolor>
 							<label>$LOCALIZE[20373] $INFO[ListItem.Season]/$LOCALIZE[20359] $INFO[ListItem.Episode] - Aired $INFO[ListItem.Date]</label>
 							<visible>!IsEmpty(ListItem.Title)</visible>
@@ -245,7 +252,7 @@
 			<include>Animation_CommonFade</include>
 			<visible>Control.IsVisible(596)</visible>
 			<description>Media Codec Flagging Images</description>
-			<posx>880</posx>
+			<posx>850</posx>
 			<posy>385</posy>
 			<width>390</width>
 			<align>right</align>
@@ -255,6 +262,7 @@
 			<include>AudioCodecFlaggingConditions</include>
 			<include>AspectCodecFlaggingConditions</include>
 			<include>VideoTypeHackFlaggingConditions</include>
+			<include>StudioFlags</include>
 		</control>
 	
 	</include>

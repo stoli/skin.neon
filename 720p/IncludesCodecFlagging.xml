@@ -96,15 +96,15 @@
 			<aspectratio>keep</aspectratio>
 			<texture>flagging/video/hddvd.png</texture>
 			<visible>substring(ListItem.FilenameAndPath,hddvd)</visible>
-		</control>
-<!-- 		<control type="image">
+		</control> 
+ 	<!--	<control type="image">
 			<description>TV Image</description>
 			<width>60</width>
 			<height>40</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flagging/video/tv.png</texture>
 			<visible>[substring(ListItem.FilenameAndPath,pdtv) | substring(ListItem.FilenameAndPath,hdtv) | substring(ListItem.FilenameAndPath,dsr)]</visible>
-		</control> -->
+		</control> 
 		<control type="image">
 			<width>60</width>
 			<height>40</height>
@@ -116,15 +116,15 @@
 			<height>40</height>
 			<texture>flagging/video/hdtv.png</texture>
 			<visible>substring(ListItem.Filename,hdtv) | substring(ListItem.Filename,pdtv) | [[!substring(ListItem.Filename,sdtv) + !substring(ListItem.Filename,bluray) + !substring(ListItem.Filename,hddvd) + !substring(ListItem.Filename,dvdrip) + !substring(ListItem.Filename,sddvd) + !substring(ListItem.Filename,blu-ray) + !substring(ListItem.Filename,brrip) + !substring(ListItem.Filename,tvrip) + !substring(ListItem.Filename,.evo,Right) + !substring(ListItem.Filename,.m2ts,Right) + !substring(ListItem.Filename,.bdmv,Right) + !substring(ListItem.Filename,.ifo,Right) + !substring(ListItem.Filename,.vob,Right)] + [Container.Content(Episodes) | Container.Content(MusicVideos)] + [stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)]]</visible>
-		</control>
-	<!--	<control type="image">
+		</control> -->
+		<control type="image">
 			<description>DVD Image</description>
 			<width>60</width>
 			<height>40</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flagging/video/dvd.png</texture>
 			<visible>substring(ListItem.FilenameAndPath,dvd) + !substring(ListItem.FilenameAndPath,hddvd)</visible>
-		</control> -->
+		</control>
 	</include>
 	<include name="VideoMPAAFlaggingConditions_Grey">
 		<control type="image">
@@ -367,6 +367,15 @@
 			<height>40</height>
 			<aspectratio>keep</aspectratio>
 			<texture>$INFO[ListItem.VideoAspect,flagging/aspectratio/,.png]</texture>
+		</control>
+	</include>
+	<include name="StudioFlags">
+		<control type="image">
+			<description>Studio Flags</description>
+			<width>60</width>
+			<height>40</height>
+			<aspectratio>keep</aspectratio>
+			<texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
 		</control>
 	</include>
 </includes>

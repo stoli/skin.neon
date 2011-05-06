@@ -116,7 +116,7 @@
 	<string id="31249">Get Artwork</string>
 	<string id="31251">Location</string>
 	<string id="31252">Last Updated</string><!-- GOOD -->
-	<string id="31253">Latests Albums</string><!-- GOOD -->
+	<string id="31253">Latest Albums</string><!-- GOOD -->
 	<string id="31254">3 Days - Mini</string>
 	<string id="31255">4 Days - Full</string>
 	<string id="31256">Global Settings</string>
@@ -238,7 +238,7 @@ just copy the translations from Confluence to here
   <string id="31293">Set Custom Submenu Favorite</string>
   <string id="31294">Set Custom Submenu Playlist</string>
   <string id="31295">Custom TV Show Submenus</string>
-  <string id="31296">Newest</string>
+  <string id="31296">Espisode Details</string>
   <!-- Weather Plus -->
   <string id="31300">Current Temp</string>
   <string id="31301">Last Updated</string>
@@ -332,6 +332,8 @@ just copy the translations from Confluence to here
 	<string id="31975">Click to Download [COLOR=selected]landscape.jpg[/COLOR]</string>
 	<string id="31976">Click to Download [COLOR=selected]clearart.png[/COLOR]</string>
 	<string id="31978">These are all of the currently installed custom images used in the TV Views.  When updating it may take time for XBMC to update the image in its cache.</string>
+	<string id="31979">Use Large Recently Added for TV</string>
+	<string id="31980">Use Large Recently Added for Movies</string>
 	
 	<!-- Extra Unified PVR labels -->
 	  <string id="31500">Recording Timers</string>
@@ -346,8 +348,6 @@ just copy the translations from Confluence to here
 	  <string id="31509">Channel Group</string>
 	  <string id="31510">Timer Set</string>
 	</strings>
-	
-  </strings>
 
   
   
