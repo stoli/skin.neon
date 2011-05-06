@@ -15,7 +15,7 @@
 			</control> 
 			
 		</control>
-		<control type="wraplist" id="596">
+		<control type="fixedlist" id="596">
 			<viewtype label="$LOCALIZE[31296]">list</viewtype>
 			<posx>-20</posx>
 			<posy>35</posy>
@@ -74,9 +74,9 @@
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 						</control> -->
 						
-						<!--<control type="image">
-							<posx>300</posx>
-							<posy>0</posy>
+						<control type="image">
+							<posx>170</posx>
+							<posy>110</posy>
 							<width>110</width>
 							<height>43</height>
 							<texture>$INFO[ListItem.path]../logo.png</texture>
@@ -84,14 +84,14 @@
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 						</control>
 						<control type="image">
-							<posx>300</posx>
-							<posy>0</posy>
+							<posx>170</posx>
+							<posy>110</posy>
 							<width>110</width>
 							<height>43</height>
 							<texture>$INFO[ListItem.path]logo.png</texture>
 							<fadetime>300</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-						</control>-->
+						</control>
 						<control type="label">
 							<description>Episode Title</description>
 							<posx>300</posx>

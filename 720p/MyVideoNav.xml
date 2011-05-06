@@ -313,12 +313,12 @@
 					<!-- LOC -->
 					<altlabel>$LOCALIZE[31097]</altlabel>				
 				</control>
-				<control type="button" id="21">
+				<!--<control type="button" id="21">
 					<include>WindowMenuButton</include>
 					<label>29800</label>
 					<onclick>ReplaceWindow(VideoFiles)</onclick>
 					<visible>![Control.IsVisible(55) + Container.Content(movies)]</visible>
-				</control>
+				</control>-->
 				<control type="button" id="8">
 					<include>WindowMenuButton</include>
 					<description>Search</description>
@@ -385,12 +385,12 @@
 					<label>$LOCALIZE[31098]</label>
 				</control>
 					
-				<control type="label">
+				<!--<control type="label">
 					<include>WindowMenuLabel</include>
-					<!-- LOC -->
+					<!{1}** LOC **{1}>
 					<label>$LOCALIZE[240]</label>
 					<visible>![Control.IsVisible(55) + Container.Content(movies)]</visible>
-				</control>	
+				</control>-->	
 				<control type="label">
 					<include>WindowMenuLabel</include>
 					<description>Search</description>
