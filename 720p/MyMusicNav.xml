@@ -1,7 +1,7 @@
 <!--Alaska-->
 
 <window id="502">
-	<defaultcontrol>50</defaultcontrol>
+	<defaultcontrol>506</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 	<views>50,56,58,51,52,54,53,506,509,511,512,513</views>
 	<controls>

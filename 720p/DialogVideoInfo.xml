@@ -9,20 +9,21 @@
 			<animation effect="fade" start="0" end="100" time="400" >WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="400" delay="200" >WindowClose</animation>
 			
-			<control type="image">
+		<!--	<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>DialogBackwht.png</texture>
-			</control>
+			</control>-->
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>1280</width>
+				<width>1300</width>
 				<height>720</height>
-				<texture>DialogBack.png</texture>
+				<colordiffuse>black</colordiffuse>
+				<texture >background-solid.png</texture>
 			</control>
 				
 			
@@ -304,13 +305,15 @@
 							<visible>false</visible>
 						</control>
 						<control type="image" id="200302">
-							<posx>-135</posx>
-							<posy>0</posy>
-							<height>580</height>
-							<width>387</width>
-							<texture background="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
+							<posx>-155</posx>
+							<posy>-30</posy>
+							<height>630</height>
+							<width>420</width>
+							<texture background="true">$INFO[ListItem.Icon]</texture>
 							<fadetime>200</fadetime>
-							<aspectratio scalediffuse="false">stretch</aspectratio>
+							<bordertexture border="8">ThumbShadow.png</bordertexture>
+							<bordersize>8</bordersize>
+							<aspectratio scalediffuse="false">keep</aspectratio>
 							<visible>!Container.Content(episodes) + IsEmpty(Control.GetLabel(200300)) + IsEmpty(Control.GetLabel(200301))</visible>
 						</control>
 					<!--	<control type="image">
@@ -320,22 +323,38 @@
 							<height>650</height>
 							<texture>posterframeF.png</texture>
 						</control> -->
-						
+						<control type="image">
+							<posx>-147</posx>
+							<posy>573</posy>
+							<width>405</width>
+							<height>630</height>
+							<aspectratio aligny="top">keep</aspectratio>
+							<fadetime>IconCrossfadeTime</fadetime>
+							<texture diffuse="diffuse_mirror3.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
+						</control>
 					</control>
+				<!--	<control type="group">
+						<posx>-240</posx>
+						<posy>345</posy>
+						<width>490</width>
+						<align>left</align>
+						<include>VideoMPAAFlaggingConditions</include>
+					</control> -->
 					<control type="grouplist">
 						<description>Movie Codec Flagging Images</description>
-						<posx>570</posx>
-						<posy>565</posy>
+						<posx>-100</posx>
+						<posy>340</posy>
 						<width>490</width>
 						<align>center</align>
 						<itemgap>0</itemgap>
 						<orientation>horizontal</orientation>
+						<!-- <include>VideoMPAAFlaggingConditions</include> -->
 						<include>VisibleFadeEffect</include>
 						<include>VideoCodecFlaggingConditions</include>
 						<include>AudioCodecFlaggingConditions</include>
 						<include>AspectCodecFlaggingConditions</include>
 						<include>VideoTypeHackFlaggingConditions</include>
-						
+						<include>StudioFlags</include>
 					</control>
 					
 					
@@ -473,7 +492,7 @@
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
 								<onclick>-</onclick>
-								<visible>!IsEmpty(ListItem.FilenameAndPath)</visible>
+								<visible>!IsEmpty(ListItem.FilenameAndPath) + Skin.HasSetting(showpathininfo)</visible>
 							</item>
 						</content>
 					</control>
@@ -603,7 +622,7 @@
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
 								<onclick>-</onclick>
-								<visible>!IsEmpty(ListItem.FilenameAndPath)</visible>
+								<visible>!IsEmpty(ListItem.FilenameAndPath) + Skin.HasSetting(showpathininfo)</visible>
 							</item>
 						</content>
 					</control>
@@ -887,7 +906,7 @@
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
 								<onclick>-</onclick>
-								<visible>!IsEmpty(ListItem.FilenameAndPath)</visible>
+								<visible>!IsEmpty(ListItem.FilenameAndPath) + Skin.HasSetting(showpathininfo)</visible>
 							</item>
 						</content>
 					</control>
@@ -1061,7 +1080,7 @@
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
 								<onclick>-</onclick>
-								<visible>!IsEmpty(ListItem.FilenameAndPath)</visible>
+								<visible>!IsEmpty(ListItem.FilenameAndPath) + Skin.HasSetting(showpathininfo)</visible>
 							</item>
 						</content>
 					</control>

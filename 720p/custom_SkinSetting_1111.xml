@@ -2670,6 +2670,12 @@
 							<onclick>Skin.ToggleSetting(tvoverlays)</onclick>
 							<selected>Skin.HasSetting(tvoverlays)</selected>
 						</control>
+						<control type="radiobutton" id="522">
+							<include>skin_settings_labels</include>
+							<label>$LOCALIZE[31131]</label>
+							<onclick>Skin.ToggleSetting(ShowPathInInfo)</onclick>
+							<selected>Skin.HasSetting(ShowPathInInfo)</selected>
+						</control>
 						<control type="radiobutton" id="507">
 							<include>skin_settings_labels</include>
 							<label>$LOCALIZE[31282]</label>

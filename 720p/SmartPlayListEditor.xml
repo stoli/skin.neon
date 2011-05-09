@@ -25,6 +25,7 @@
 				<width>640</width>
 				<height>90</height>
 				<aspectratio>stretch</aspectratio>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>GlassTitleBar.png</texture>
 			</control>
 			<control type="button">
@@ -91,10 +92,12 @@
 				<posy>155</posy>
 				<width>760</width>
 				<height>40</height>
-				<textoffsetx>10</textoffsetx>
+				<textoffsetx>15</textoffsetx>
+				<textoffsety>5</textoffsety>
 				<textwidth>750</textwidth>
 				<font>Font_Neon_24</font>
 				<focusedcolor>white</focusedcolor>
+				<textcolor>grey2</textcolor>
 				<align>center</align>
 				<colordiffuse>mainblue</colordiffuse>
 				<textoffsetx>20</textoffsetx>

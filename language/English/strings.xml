@@ -344,6 +344,10 @@ just copy the translations from Confluence to here
 	  <string id="31508">Channels in Group</string>
 	  <string id="31509">Channel Group</string>
 	  <string id="31510">Timer Set</string>
+	 
+	 <!-- Addded 05/08/2011  -->
+	 <string id="31131">Show Video Path in Info Screen</string>
+	  
 	</strings>
   
   
