@@ -74,11 +74,11 @@
 					</control>
 					<control type="image">
 						<posx>665</posx>
-						<posy>14</posy>
-						<width>30</width>
-						<height>30</height>
+						<posy>10</posy>
+						<width>25</width>
+						<height>25</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-						<visible>Window.IsVisible(Videos)</visible>
+						<visible>Window.IsVisible(Videos)+ [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="40" width="580">
@@ -158,11 +158,11 @@
 					</control>
 					<control type="image">
 						<posx>665</posx>
-						<posy>14</posy>
+						<posy>10</posy>
 						<width>25</width>
 						<height>25</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-						<visible>Window.IsVisible(Videos)</visible>
+						<visible>Window.IsVisible(Videos) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</focusedlayout>
 			</control>
@@ -263,10 +263,11 @@
 					<control type="image">
 						<posx>180</posx>
 						<posy>130</posy>
-						<width>30</width>
-						<height>30</height>
+						<width>25</width>
+						<height>25</height>
 						<aspectratio>keep</aspectratio>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						<visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="186" width="216">
@@ -306,10 +307,11 @@
 					<control type="image">
 						<posx>180</posx>
 						<posy>130</posy>
-						<width>30</width>
-						<height>30</height>
+						<width>25</width>
+						<height>25</height>
 						<aspectratio>keep</aspectratio>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						<visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</focusedlayout>
 			</control>
@@ -362,10 +364,11 @@
 					<control type="image">
 						<posx>500</posx>
 						<posy>70</posy>
-						<width>35</width>
-						<height>35</height>
+						<width>25</width>
+						<height>25</height>
 						<aspectratio>keep</aspectratio>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						<visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="110" width="540">
@@ -381,10 +384,11 @@
 					<control type="image">
 						<posx>500</posx>
 						<posy>70</posy>
-						<width>35</width>
-						<height>35</height>
+						<width>25</width>
+						<height>25</height>
 						<aspectratio>keep</aspectratio>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+						<visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</focusedlayout>
 			</control>
@@ -486,11 +490,11 @@
 					</control>
 					<control type="image">
 						<posx>1050</posx>
-						<posy>14</posy>
+						<posy>10</posy>
 						<width>25</width>
 						<height>25</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-						<visible>Window.IsVisible(Videos)</visible>
+						<visible>Window.IsVisible(Videos) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="40" width="1080">
@@ -572,15 +576,15 @@
 						<width>40</width>
 						<height>26</height>
 						<texture>$INFO[ListItem.VideoResolution,flagging/video/,.png]</texture>
-						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
+						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)] + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 					<control type="image">
 						<posx>1050</posx>
-						<posy>14</posy>
+						<posy>10</posy>
 						<width>25</width>
 						<height>25</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-						<visible>Window.IsVisible(Videos)</visible>
+						<visible>Window.IsVisible(Videos) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
 				</focusedlayout>
 			</control>
