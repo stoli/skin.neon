@@ -69,15 +69,15 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$INFO[ListItem.VideoResolution,flagging/video/,.png]</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
 						<posx>665</posx>
 						<posy>14</posy>
-						<width>20</width>
-						<height>16</height>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<width>30</width>
+						<height>30</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos)</visible>
 					</control>
 				</itemlayout>
@@ -153,15 +153,15 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$INFO[ListItem.VideoResolution,flagging/video/,.png]</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
 						<posx>665</posx>
 						<posy>14</posy>
-						<width>20</width>
-						<height>16</height>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<width>25</width>
+						<height>25</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos)</visible>
 					</control>
 				</focusedlayout>
@@ -266,7 +266,7 @@
 						<width>30</width>
 						<height>30</height>
 						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					</control>
 				</itemlayout>
 				<focusedlayout height="186" width="216">
@@ -309,7 +309,7 @@
 						<width>30</width>
 						<height>30</height>
 						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					</control>
 				</focusedlayout>
 			</control>
@@ -365,7 +365,7 @@
 						<width>35</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					</control>
 				</itemlayout>
 				<focusedlayout height="110" width="540">
@@ -384,7 +384,7 @@
 						<width>35</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					</control>
 				</focusedlayout>
 			</control>
@@ -481,15 +481,15 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$INFO[ListItem.VideoResolution,flagging/video/,.png]</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
 						<posx>1050</posx>
 						<posy>14</posy>
-						<width>20</width>
-						<height>16</height>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<width>25</width>
+						<height>25</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos)</visible>
 					</control>
 				</itemlayout>
@@ -571,15 +571,15 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$INFO[ListItem.VideoResolution,flagging/video/,.png]</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
 						<posx>1050</posx>
 						<posy>14</posy>
-						<width>20</width>
-						<height>16</height>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<width>25</width>
+						<height>25</height>
+						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos)</visible>
 					</control>
 				</focusedlayout>
