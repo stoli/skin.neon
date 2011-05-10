@@ -39,6 +39,7 @@
 	<include file="IncludesCodecFlagging.xml" />
 	<include file="IncludesHomepageWeatherWidget.xml" />
 	<include file="Includes_Home_Horizontal.xml" />
+	<include file="Viewtype_Multiplex.xml" />
 	
 	<include file="ViewsMusicLibrary.xml" /> 
 	<include file="weather.com plus/CommonValues.xml" />
@@ -912,7 +913,12 @@
 			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
 		</control>
 	</include>	
-	
+	<include name="MultiplexIconDimensionsWrap">
+		<posx>0</posx>
+		<posy>20</posy>
+		<width>89</width>
+		<height>129</height>
+	</include>
 	<!-- Window menus -->
 	<include name="WindowMenuVars_Library">
 		<width>440</width>

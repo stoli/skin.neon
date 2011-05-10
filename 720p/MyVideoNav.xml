@@ -3,7 +3,7 @@
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,55,58,595,51,596,52,633,53,54,597,56,57,59,500,501,503,508,592,593,594,598,599</views>
+	<views>50,55,58,595,51,596,52,633,53,54,597,56,57,59,500,501,503,508,592,593,594,598,599,588</views>
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
@@ -129,6 +129,7 @@
 		<include>PosterWrapView2_Fanart</include> <!-- 508 -->
 		<include>MediaListView3</include> <!-- 503 -->
 		<include>Viewtype_3DLandscape</include> <!-- 599 -->
+		<include>Viewtype_Multiplex</include> <!-- 588 -->
 		<include>Trailer</include>
 		<include>Trailer_TVLandscape</include>
 		<include>Trailer_Landscape_Fanart</include>
@@ -347,7 +348,7 @@
 				<control type="label">
 					<include>WindowMenuLabel</include>
 					<label>$LOCALIZE[14018]</label>
-					<visible>[Control.IsVisible(55) | Control.IsVisible(53) | Control.IsVisible(58)] + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] | [Control.IsVisible(50) + Container.Content(movies)] | [Control.IsVisible(59) + Container.Content(tvshows)] | [Control.IsVisible(55) + Container.Content(Genres)]</visible>		
+					<visible>[Control.IsVisible(55) | Control.IsVisible(53) | Control.IsVisible(58) | Control.IsVisible(588)] + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] | [Control.IsVisible(50) + Container.Content(movies)] | [Control.IsVisible(59) + Container.Content(tvshows)] | [Control.IsVisible(55) + Container.Content(Genres)]</visible>		
 				</control>
 				<control type="label">
 					<include>WindowMenuLabel</include>

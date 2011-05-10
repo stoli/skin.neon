@@ -378,4 +378,166 @@
 			<texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
 		</control>
 	</include>
+	<include name="VideoCodecFlaggingConditionsFlip">
+		<control type="image">
+			<description>Video rez Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">$INFO[ListItem.VideoResolution,flagging/video/,.png]</texture>
+		</control>
+		<control type="image">
+			<description>Xvid Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/xvid.png</texture>
+			<visible>substring(ListItem.VideoCodec,xvid)</visible>
+		</control>
+		<control type="image">
+			<description>Mpeg4 Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/mp4.png</texture>
+			<visible>substring(ListItem.VideoCodec,fmp4)</visible>
+		</control>
+		<control type="image">
+			<description>Divx Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/divx.png</texture>
+			<visible>substring(ListItem.VideoCodec,divx)| substring(ListItem.VideoCodec,dx50) | substring(ListItem.VideoCodec,div3) |substring(ListItem.VideoCodec,div4) | substring(ListItem.VideoCodec,div5)</visible>
+		</control>
+		<control type="image">
+			<description>h264 Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/h264.png</texture>
+			<visible>substring(ListItem.VideoCodec,h264)</visible>
+		</control>
+		<control type="image">
+			<description>avc1 Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/avc1.png</texture>
+			<visible>substring(ListItem.VideoCodec,avc1)</visible>
+		</control>
+		<control type="image">
+			<description>wvc1 Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/wvc1.png</texture>
+			<visible>substring(ListItem.VideoCodec,wvc1)</visible>
+		</control>
+		<control type="image">
+			<description>mpeg1video Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/mpeg1video.png</texture>
+			<visible>substring(ListItem.VideoCodec,mpeg1video)</visible>
+		</control>
+		<control type="image">
+			<description>mpeg2video Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/video/mpeg2video.png</texture>
+			<visible>substring(ListItem.VideoCodec,mpeg2video) | substring(ListItem.VideoCodec,v_mpeg2)</visible>
+		</control>
+	</include>
+	<include name="AudioCodecFlaggingConditionsFlip">
+		<control type="image">
+			<description>mp3 Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/mp3.png</texture>
+			<visible>substring(ListItem.AudioCodec,mp3)</visible>
+		</control>
+		<control type="image">
+			<description>dts Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/dts.png</texture>
+			<visible>substring(ListItem.AudioCodec,dca)</visible>
+		</control>
+		<control type="image">
+			<description>ac3 Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/ac3.png</texture>
+			<visible>substring(ListItem.AudioCodec,ac3) + !substring(ListItem.AudioChannels,6)</visible>
+		</control>
+		<control type="image">
+			<description>aac Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/aac.png</texture>
+			<visible>substring(ListItem.AudioCodec,aac)</visible>
+		</control>
+		<control type="image">
+			<description>Dolby Digital Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/dolbydigital.png</texture>
+			<visible>substring(ListItem.AudioCodec,ac3) + substring(ListItem.AudioChannels,6)</visible>
+		</control>
+		<control type="image">
+			<description>WMA Pro Codec Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/wmapro.png</texture>
+			<visible>substring(ListItem.AudioCodec,wmapro)</visible>
+		</control>
+		 <control type="image">
+			<description>vorbis Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/vorbis.png</texture>
+			<visible>substring(ListItem.AudioCodec,vorbis)</visible>
+		</control>
+		<control type="image">
+			<description>Audio Channels Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">$INFO[ListItem.AudioChannels,flagging/audio/,.png]</texture>
+		</control>
+		<control type="image">
+			<description>dtsma Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/dtsma.png</texture>
+			<visible>substring(ListItem.AudioCodec,dtsma) + substring(ListItem.AudioChannels,6)</visible>
+		</control>
+		<control type="image">
+			<description>truehd Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/truehd.png</texture>
+			<visible>substring(ListItem.AudioCodec,truehd) + substring(ListItem.AudioChannels,6)</visible>
+		</control>
+		<control type="image">
+			<description>flac Image</description>
+			<width>80</width>
+			<height>54</height>
+			<aspectratio>keep</aspectratio>
+			<texture flipy="true" diffuse="mod/mask.png">flagging/audio/flac.png</texture>
+			<visible>substring(ListItem.AudioCodec,flac) + substring(ListItem.AudioChannels,6)</visible>
+		</control>
+	</include>
 </includes>
