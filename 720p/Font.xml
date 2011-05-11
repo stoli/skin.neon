@@ -122,6 +122,11 @@
 			<size>15</size>
 		</font>
 		<font>
+			<name>Font_Neon_14</name>
+			<filename>Antipasto.ttf</filename>
+			<size>14</size>
+		</font>
+		<font>
 			<name>Font_Neon_12</name>
 			<filename>Antipasto.ttf</filename>
 			<size>12</size>

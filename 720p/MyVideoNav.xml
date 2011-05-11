@@ -194,6 +194,16 @@
 					<visible>Control.IsVisible(58)</visible>
 					<include>WindowMenuButton</include>
 				</control>
+				<control type="togglebutton" id="37">
+					<description>Toggle MoviesFanart</description>
+					<include>WindowMenuButton</include>
+					<label>$LOCALIZE[31133]</label>
+					<altlabel>$LOCALIZE[31132]</altlabel>
+					<onclick>Skin.ToggleSetting(MultiPlexFanart)</onclick>
+					<selected>Skin.HasSetting(MultiPlexFanart)</selected>
+					<visible>Control.IsVisible(588)</visible>
+					<include>WindowMenuButton</include>
+				</control>
 				<control type="togglebutton" id="25">
 					<description>Toggle MoviesFanart</description>
 					<include>WindowMenuButton</include>
@@ -202,6 +212,15 @@
 					<onclick>Skin.ToggleSetting(extrathumbs)</onclick>
 					<selected>Skin.HasSetting(extrathumbs)</selected>
 					<visible>Control.IsVisible(58)</visible>
+				</control>
+				<control type="togglebutton" id="38">
+					<description>Toggle MoviesFanart</description>
+					<include>WindowMenuButton</include>
+					<label>$LOCALIZE[31201]</label>
+					<altlabel>$LOCALIZE[31200]</altlabel>
+					<onclick>Skin.ToggleSetting(extrathumbs)</onclick>
+					<selected>Skin.HasSetting(extrathumbs)</selected>
+					<visible>Control.IsVisible(588)</visible>
 				</control>
 				<control type="togglebutton" id="26">
 					<description>Toggle MoviesFanart</description>
@@ -354,6 +373,11 @@
 					<include>WindowMenuLabel</include>
 					<label>$LOCALIZE[31206]</label>
 					<visible>Control.IsVisible(58)</visible>		
+				</control>
+				<control type="label">
+					<include>WindowMenuLabel</include>
+					<label>$LOCALIZE[31206]</label>
+					<visible>Control.IsVisible(588)</visible>		
 				</control>
 				<control type="label">
 					<include>WindowMenuLabel</include>
