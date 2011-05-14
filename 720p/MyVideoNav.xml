@@ -145,7 +145,7 @@
 		<include>Viewtype_Panel</include><!--  56  TV=Panel -->
 		<include>Viewtype_PanelLandscape</include><!--  57  -->
 		<include>Viewtype_BannerPanel</include><!--  592  -->
-		<include>Viewtype_WallPanel</include><!--  597  -->
+		<!-- <include>Viewtype_WallPanel</include><!--  597  --> -->
 		<include>Viewtype_16x9</include><!--  59  -->
 		<include>Viewtype_3dbanner</include><!--  593  --> 
 		<include>Viewtype_Logo</include><!--  594  -->
