@@ -27,7 +27,6 @@
 			<!-- <texture>tv-landscape/landscape_fanart_back.png</texture> -->
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<aspectratio>stretch</aspectratio>
-			
 			<include>Animation_Fade75</include>
 		</control>
 		
@@ -40,8 +39,6 @@
 			<onleft>633</onleft>
 			<onright>633</onright>
 			<onup>7000</onup>
-			
-			
 			<include condition="!Skin.HasSetting(3dland_down_plot)">3dland_down_scrollbar</include>
 			<include condition="Skin.HasSetting(3dland_down_plot)">3dland_down_plot</include>
 			<pagecontrol>6330</pagecontrol>
@@ -53,10 +50,10 @@
 			<include>Animation_Viewtype_Landscape_Fanart_FocusArea</include>
 			<include>Animation_HiddenByInfo</include>
 			<animation effect="slide" start="0,0" end="0,-40" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(6330)">Conditional</animation>
-			<visible>!Skin.HasSetting(no_Landscape_Fanart) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
+			<visible>!Skin.HasSetting(no_Landscape_Fanart) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] | Container.Content(artists)</visible>
 			<itemlayout width="250" height="225">
 				<control type="image">
-					<visible>Container.Content(tvshows) + !IsEmpty(ListItem.Title)</visible>
+					<visible>[Container.Content(tvshows) | Container.Content(artists)] + !IsEmpty(ListItem.Title) </visible>
 					<posx>1</posx>
 					<posy>50</posy>
 					<width>230</width>
@@ -67,7 +64,7 @@
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 				</control>	
 				<control type="label">
-					<visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
+					<visible>[Container.Content(episodes) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
 					<posx>115</posx>
 					<posy>100</posy>
 					<width>230</width>
@@ -78,7 +75,7 @@
 					<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
 				</control>
 				<control type="label">
-					<visible>Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
+					<visible>Container.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
 					<posx>115</posx>
 					<posy>100</posy>
 					<width>230</width>
@@ -121,7 +118,7 @@
 					<animation effect="zoom" start="130,120,1,1" end="0,0,234,4" time="200" delay="200">Focus</animation>
 				</control>-->
 				<control type="image">
-					<visible>Container.Content(tvshows) + !IsEmpty(ListItem.Title)</visible>
+					<visible>[Container.Content(tvshows) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
 					<posx>20</posx>
 					<posy>50</posy>
 					<width>230</width>
@@ -131,7 +128,7 @@
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 				</control>
 				<control type="label">
-					<visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
+					<visible>[Container.Content(episodes) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
 					<posx>135</posx>
 					<posy>100</posy>
 					<width>230</width>
@@ -143,7 +140,7 @@
 					<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
 				</control>
 				<control type="label">
-					<visible>Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
+					<visible>Containter.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
 					<posx>135</posx>
 					<posy>100</posy>
 					<width>230</width>

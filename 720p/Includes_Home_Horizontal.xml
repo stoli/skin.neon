@@ -58,7 +58,7 @@
 					<label>2</label>
 					<icon>special://skin/backgrounds/music.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMusicFolder)]</thumb>
-					<onclick>ActivateWindow(MyMusic)</onclick>
+					<onclick>ActivateWindow(MusicLibrary)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
 				</item>
 				<item id="2">
@@ -754,33 +754,33 @@
 							</item>
 							<item id="2">
 								<label>$INFO[Skin.String(Menu_Custom16_Label)]</label>
-								<onclick>XBMC.ActivateWindow(musiclibrary,$INFO[Skin.String(Menu_Custom16_Path)],return)</onclick>
+								<onclick>XBMC.ActivateWindow(MusicLibrary,$INFO[Skin.String(Menu_Custom16_Path)],return)</onclick>
 								
 								<visible>Skin.HasSetting(Menu_Custom16)</visible>
 							</item>
 							<item id="3">
 								<label>$INFO[Skin.String(Menu_Custom17_Label)]</label>
-								<onclick>XBMC.ActivateWindow(musiclibrary,$INFO[Skin.String(Menu_Custom17_Path)],return)</onclick>
+								<onclick>XBMC.ActivateWindow(MusicLibrary,$INFO[Skin.String(Menu_Custom17_Path)],return)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom17)</visible>
 							</item>
 							<item id="4">
 								<label>$INFO[Skin.String(Menu_Custom18_Label)]</label>
-								<onclick>XBMC.ActivateWindow(musiclibrary,$INFO[Skin.String(Menu_Custom18_Path)],return)</onclick>
+								<onclick>XBMC.ActivateWindow(MusicLibrary,$INFO[Skin.String(Menu_Custom18_Path)],return)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom18)</visible>
 							</item>
 							<item id="5">
 								<label>$LOCALIZE[133]</label>
-								<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
+								<onclick>ActivateWindow(Music,Artists,return)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 							<item id="6">
 								<label>$LOCALIZE[132]</label>
-								<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
+								<onclick>ActivateWindow(Music,Albums,return)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 							<item id="7">
 								<label>$LOCALIZE[134]</label>
-								<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
+								<onclick>ActivateWindow(Music,Songs,return)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 							<item id="8">
@@ -789,11 +789,11 @@
 							</item>
 							<item id="9">
 								<label>$LOCALIZE[136]</label>
-								<onclick>ActivateWindow(MusicLibrary,Playlists,return)</onclick>
+								<onclick>ActivateWindow(Music,Playlists,return)</onclick>
 							</item>
 							<item id="10">
 								<label>$LOCALIZE[31007]</label>
-								<onclick>ActivateWindow(MusicLibrary,Plugins)</onclick>
+								<onclick>ActivateWindow(Music,Plugins)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 						</content>
@@ -1416,32 +1416,32 @@
 							</item>
 							<item id="2">
 								<label>$INFO[Skin.String(Menu_Custom16_Label)]</label>
-								<onclick>XBMC.ActivateWindow(musiclibrary,$INFO[Skin.String(Menu_Custom16_Path)],return)</onclick>
+								<onclick>XBMC.ActivateWindow(MusicLibrary,$INFO[Skin.String(Menu_Custom16_Path)],return)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom16)</visible>
 							</item>
 							<item id="3">
 								<label>$INFO[Skin.String(Menu_Custom17_Label)]</label>
-								<onclick>XBMC.ActivateWindow(musiclibrary,$INFO[Skin.String(Menu_Custom17_Path)],return)</onclick>
+								<onclick>XBMC.ActivateWindow(MusicLibrary,$INFO[Skin.String(Menu_Custom17_Path)],return)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom17)</visible>
 							</item>
 							<item id="4">
 								<label>$INFO[Skin.String(Menu_Custom18_Label)]</label>
-								<onclick>XBMC.ActivateWindow(musiclibrary,$INFO[Skin.String(Menu_Custom18_Path)],return)</onclick>
+								<onclick>XBMC.ActivateWindow(MusicLibrary,$INFO[Skin.String(Menu_Custom18_Path)],return)</onclick>
 								<visible>Skin.HasSetting(Menu_Custom18)</visible>
 							</item>
 							<item id="5">
 								<label>$LOCALIZE[133]</label>
-								<onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
+								<onclick>ActivateWindow(Music,Artists,return)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 							<item id="6">
 								<label>$LOCALIZE[132]</label>
-								<onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
+								<onclick>ActivateWindow(Music,Albums,return)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 							<item id="7">
 								<label>$LOCALIZE[134]</label>
-								<onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
+								<onclick>ActivateWindow(Music,Songs,return)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
 							<item id="8">
@@ -1450,13 +1450,14 @@
 							</item>
 							<item id="9">
 								<label>$LOCALIZE[136]</label>
-								<onclick>ActivateWindow(MusicLibrary,Playlists,return)</onclick>
+								<onclick>ActivateWindow(Music,Playlists,return)</onclick>
 							</item>
 							<item id="10">
 								<label>$LOCALIZE[31007]</label>
-								<onclick>ActivateWindow(MusicLibrary,Plugins)</onclick>
+								<onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
 								<visible>Library.HasContent(Music)</visible>
 							</item>
+							
 						</content>
 				</control> -->
 <!--WEATHER --><control type="list" id="9018">

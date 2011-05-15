@@ -1,10 +1,9 @@
 <!--Alaska-->
 
 <window id="501">
-	<defaultcontrol>55</defaultcontrol>
+	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 	<controls>
-		
 		<control type="image" id="5019">
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
@@ -31,12 +30,12 @@
 			<include>Animation_MyVideoNav_Fanart</include>
 			<visible>IsEmpty(ListItem.Property(Fanart_Image))</visible>
 		</control>
-		<include>Viewtype_List</include><!-- 53 -->
+		<include>Viewtype_List</include><!-- 50 -->
 		<include>Viewtype_Files</include><!-- 55  -->
 		<include>Viewtype_JukeBox</include><!-- 54 -->
 		<include>Viewtype_MusicShowcase</include><!-- 58 -->
 		<include>Viewtype_3daddon</include><!-- 56 -->
-		<include>Viewtype_Songs></include> <!-- 52 -->
+		<include>Viewtype_Songs</include> <!-- 52 -->
 		<include>Time</include>
 		
 		<include>ScrollOffsetLabel</include>

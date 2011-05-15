@@ -1,6 +1,6 @@
 <window type="dialog" id="114">
 	<defaultcontrol always="true">603</defaultcontrol>
-	<include>dialogeffect</include>
+	
 	<visible>Player.HasMedia + Window.IsActive(PlayerControls) + !Window.IsActive(FullscreenVideo) + !Window.IsActive(Visualisation)</visible>
 	<coordinates>
 		<system>1</system>
@@ -13,6 +13,7 @@
 			<posy>156</posy>
 			<width>483</width>
 			<height>53</height>
+			<colordiffuse>mainblue</colordiffuse>
 			<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
 		</control>
 		<control type="group" id="100">
@@ -217,7 +218,7 @@
 			<posy>0</posy>
 			<width>500</width>
 			<height>165</height>
-			<colordiffuse>CCFFFFFF</colordiffuse>
+			<colordiffuse>mainblue</colordiffuse>
 			<visible>Window.IsVisible(home)</visible>
 			<texture border="20">OverlayDialogBackground.png</texture>
 		</control>
