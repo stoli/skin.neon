@@ -536,7 +536,7 @@
 						<selected>Skin.HasSetting(conditions_weather_backdrop)</selected>
 					</control>
 					<control type="button" id="206">
-						<width>740</width>
+						<width>770</width>
 						<height>26</height>
 						<font>Font_KeyboardTitle</font>
 						<textoffsetx>40</textoffsetx>
@@ -561,7 +561,7 @@
 					</control>
 					<control type="radiobutton" id="208">
 						<description>Global Ken Burns</description>
-						<width>860</width>
+						<width>770</width>
 						<height>26</height>
 						<font>Font_KeyboardTitle</font>
 						<textoffsetx>40</textoffsetx>
