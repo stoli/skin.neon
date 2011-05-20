@@ -536,7 +536,7 @@
 						<selected>Skin.HasSetting(conditions_weather_backdrop)</selected>
 					</control>
 					<control type="button" id="206">
-						<width>740</width>
+						<width>770</width>
 						<height>26</height>
 						<font>Font_KeyboardTitle</font>
 						<textoffsetx>40</textoffsetx>
@@ -561,7 +561,7 @@
 					</control>
 					<control type="radiobutton" id="208">
 						<description>Global Ken Burns</description>
-						<width>860</width>
+						<width>770</width>
 						<height>26</height>
 						<font>Font_KeyboardTitle</font>
 						<textoffsetx>40</textoffsetx>
@@ -2683,6 +2683,7 @@
 							<onclick>Skin.Reset(extrafanart)</onclick> 
 							<selected>Skin.HasSetting(genrefanart)</selected>
 						</control>
+						
 						<control type="radiobutton" id="508">
 							<include>skin_settings_labels</include>
 							<label>$LOCALIZE[31269]</label>
@@ -2717,6 +2718,22 @@
 							<align>left</align>
 							<aligny>top</aligny>
 						</control>
+						<control type="radiobutton" id="5100">
+							<width>770</width>
+							<height>45</height>
+							<font>Font_Neon_24</font>
+							<textoffsetx>40</textoffsetx>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<colordiffuse>mainblue</colordiffuse>
+							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<label>Use extrathumbs instead of exrafanart folder</label>
+							<onclick>Skin.ToggleSetting(usethumbs)</onclick>
+							<selected>Skin.HasSetting(usethumbs)</selected>
+							<visible>Skin.HasSetting(extrafanart)</visible>
+						</control>
+						
 						<!--<control type="label" id="512">
 							<width>860</width>
 							<height>45</height>

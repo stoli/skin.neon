@@ -155,9 +155,10 @@
 	<default type="progress">
 		<posx>100</posx>
 		<posy>325</posy>
+		<colordiffuse>mainblue</colordiffuse>
 		<texturebg border="6,0,6,0">osd/OSDProgressBack.png</texturebg>
 		<lefttexture>-</lefttexture>
-		<midtexture border="6,0,6,0">osd/OSDProgressMid.png</midtexture>
+		<midtexture>current_time_indicator_buffering.png</midtexture>
 		<righttexture>-</righttexture>
 		<overlaytexture>-</overlaytexture>
 	</default>

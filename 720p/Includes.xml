@@ -19,7 +19,7 @@
 	<include file="Viewtype_Songs.xml" />
 	<include file="Viewtype_16x9.xml" />
 	<include file="Viewtype_Wall.xml" />
-	<include file="Viewtype_WallPanel.xml" />
+	<!-- <include file="Viewtype_WallPanel.xml" /> -->
 	<include file="Viewtype_Shelf.xml" />
 	<include file="Viewtype_addons.xml" />
 	<include file="Viewtype_3dbanner.xml" />
@@ -586,7 +586,7 @@
 						<description>Music</description>
 						<label>[COLOR=mainblue]$LOCALIZE[2][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)+ !Container.Content(artists)</visible>
+						<visible>[Window.IsActive(502) + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)+ !Container.Content(artists)</visible>
 					</control> 
 					<control type="label">
 						<description>Video</description>
@@ -610,19 +610,19 @@
 						<description>Albums</description>
 						<label>[COLOR=mainblue]$LOCALIZE[132][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(albums)</visible>
+						<visible>Window.IsActive(502) + Container.Content(albums)</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
 						<label>[COLOR=mainblue]$LOCALIZE[134][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(501) | Window.IsActive(502)] + Container.Content(songs)</visible>
+						<visible>Window.IsActive(502) + Container.Content(songs)</visible>
 					</control>
 					<control type="label">
 						<description>Music</description>
 						<label>[COLOR=mainblue]$LOCALIZE[2][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[[Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(artists) + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
+						<visible>Window.IsActive(502) + !Container.Content(artists) + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
 					</control>
 					<control type="label">
 						<description>Video</description>
@@ -1431,6 +1431,225 @@
 				<pauseatend>2000</pauseatend>
 				<visible>VideoPlayer.Content(Movies)</visible>
 			</control>
+		</control>
+	</include>
+	<include name="SmallMusicInfo">
+		<control type="image">
+			<description>gradient</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>500</width>
+			<height>165</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture border="20">OverlayDialogBackground.png</texture>
+		</control>
+		<control type="image">
+			<description>Cover image</description>
+			<posx>20</posx>
+			<posy>17</posy>
+			<width>130</width>
+			<height>130</height>
+			<texture>$INFO[MusicPlayer.Cover]</texture>
+		</control>
+		<control type="label">
+			<description>Artist label</description>
+			<posx>160</posx>
+			<posy>20</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[MusicPlayer.Artist]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12_title</font>
+			<textcolor>grey2</textcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="fadelabel">
+			<description>Title label</description>
+			<posx>160</posx>
+			<posy>43</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[MusicPlayer.Title]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font13_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<scrollout>false</scrollout>
+			<pauseatend>2000</pauseatend>
+		</control>
+		<control type="label">
+			<description>Album Label</description>
+			<posx>160</posx>
+			<posy>70</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="label">
+			<description>Time Label</description>
+			<posx>160</posx>
+			<posy>95</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, / ]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="label">
+			<description>Next Label</description>
+			<posx>485</posx>
+			<posy>120</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>[COLOR=blue]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
+			<align>right</align>
+			<aligny>center</aligny>
+			<font>font12</font>
+			<textcolor>grey</textcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+	</include>
+	<include name="SmallVideoInfo">
+		<control type="image">
+			<description>gradient</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>500</width>
+			<height>165</height>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture border="20">OverlayDialogBackground.png</texture>
+		</control>
+		<control type="image">
+			<description>Cover image</description>
+			<posx>20</posx>
+			<posy>17</posy>
+			<width>130</width>
+			<height>130</height>
+			<aspectratio>keep</aspectratio>
+			<texture>$INFO[VideoPlayer.cover]</texture>
+		</control>
+		<control type="label">
+			<description>Studio label</description>
+			<posx>160</posx>
+			<posy>20</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[VideoPlayer.Studio]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12_title</font>
+			<textcolor>grey2</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
+		</control>
+		<control type="label">
+			<description>TV Show Title label</description>
+			<posx>160</posx>
+			<posy>20</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[VideoPlayer.tvshowtitle]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>videoplayer.content(episodes)</visible>
+		</control>
+		<control type="fadelabel">
+			<description>Music Video Artist label</description>
+			<posx>160</posx>
+			<posy>20</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[VideoPlayer.Artist]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>videoplayer.content(musicvideos)</visible>
+			<scrollout>false</scrollout>
+			<pauseatend>2000</pauseatend>
+		</control>
+		<control type="fadelabel">
+			<description>Title label</description>
+			<posx>160</posx>
+			<posy>43</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[VideoPlayer.Title]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font13_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<scrollout>false</scrollout>
+			<pauseatend>2000</pauseatend>
+		</control>
+		<control type="label">
+			<description>Genre label</description>
+			<posx>160</posx>
+			<posy>70</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[VideoPlayer.Genre]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
+		</control>
+		<control type="label">
+			<posx>160</posx>
+			<posy>70</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[VideoPlayer.Album]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>videoplayer.content(musicvideos)</visible>
+		</control>
+		<control type="label">
+			<description>Season and Episode label</description>
+			<posx>160</posx>
+			<posy>70</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$LOCALIZE[20373] $INFO[VideoPlayer.Season] - $LOCALIZE[20359] $INFO[VideoPlayer.episode]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>videoplayer.content(episodes)</visible>
+		</control>
+		<control type="label">
+			<description>Time Label</description>
+			<posx>160</posx>
+			<posy>95</posy>
+			<height>30</height>
+			<width>325</width>
+			<label>$INFO[VideoPlayer.Time]$INFO[VideoPlayer.Duration, / ]</label>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font12</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
 		</control>
 	</include>
 </includes>

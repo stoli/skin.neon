@@ -36,18 +36,12 @@
 				<align>left</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="progress" id="403">
+			<control type="progress" id="404">
 				<description>progress control</description>
 				<posx>15</posx>
 				<posy>42</posy>
 				<width>370</width>
 				<height>8</height>
-				<colordiffuse>mainblue</colordiffuse>
-				<texturebg border="6,0,6,0">osd/OSDProgressBack.png</texturebg>
-				<lefttexture>-</lefttexture>
-				<midtexture border="6,0,6,0">osd/OSDProgressMid.png</midtexture>
-				<righttexture>-</righttexture>
-				<overlaytexture>-</overlaytexture>
 			</control>
 		</control>
 	</controls>

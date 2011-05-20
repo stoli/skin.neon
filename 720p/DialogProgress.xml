@@ -105,10 +105,10 @@
 				<height>16</height>
 				<info>System.Progressbar</info>
 				<colordiffuse>mainblue</colordiffuse>
-				<texturebg>osd_video_indicator_background1.png</texturebg>
-				<lefttexture>current_time_indicator_buffering_left.png</lefttexture>
+				<texturebg border="6,0,6,0">osd/OSDProgressBack.png</texturebg>
+				<lefttexture>-</lefttexture>
 				<midtexture>current_time_indicator_buffering.png</midtexture>
-				<righttexture>current_time_indicator_buffering_right.png</righttexture>
+				<righttexture>-</righttexture>
 			</control>
 			<control type="button" id="10">
 				<description>Cancel button</description>

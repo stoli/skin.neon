@@ -200,7 +200,7 @@ just copy the translations from Confluence to here
  
   <string id="31090">Order</string>
   <string id="31093">Sequence</string>
-  <string id="31266">Enable 'extrafanart' - allows random cycling of fanart in Library mode</string>
+  <string id="31266">Enable 'extrafanart' - random cycling of fanart in Library mode</string>
   <string id="31267">User needs the 'extrafanart' folder at the root of TV Show or Movie folder</string>
   <string id="31268">Logo</string>
   <string id="31269">Use a local landcape.jpg instead of regular thumb on TV level</string>
@@ -351,6 +351,8 @@ just copy the translations from Confluence to here
 	  
 	 <!-- Added 05/10/2011 -->
 	 <string id="31132">MultiPlex</string>
+	 <string id="31133">Fanart</string>
+	 
 	</strings>
   
   
