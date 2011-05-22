@@ -24,6 +24,7 @@
 				<height>592</height>
 				<posx>10</posx>
 				<posy>0</posy>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>DialogBack.png</texture>
 			
 			</control>
@@ -137,6 +138,7 @@
 				<height>592</height>
 				<posx>10</posx>
 				<posy>0</posy>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture>DialogBack.png</texture>
 			</control>
 			<control type="label" id="102">

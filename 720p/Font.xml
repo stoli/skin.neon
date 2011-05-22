@@ -111,6 +111,12 @@
 			<linespacing>1</linespacing>
 		</font>
 		<font>
+			<name>Font_Neon_20_caps</name>
+			<filename>Antipasto-caps.ttf</filename>
+			<size>20</size>
+			<linespacing>1</linespacing>
+		</font>
+		<font>
 			<name>Font_Neon_19</name>
 			<filename>Antipasto.ttf</filename>
 			<size>19</size>
@@ -126,6 +132,12 @@
 			<name>Font_Neon_16</name>
 			<filename>Antipasto.ttf</filename>
 			<size>16</size>
+		</font>
+		<font>
+			<name>Font_Neon_16_Bold</name>
+			<filename>Antipasto.ttf</filename>
+			<size>16</size>
+			<style>bold</style>
 		</font>
 		<font>
 			<name>Font_Neon_15</name>

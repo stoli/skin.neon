@@ -106,6 +106,7 @@
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(seasons) | Container.Content(episodes)]</visible>
 				</control>
+				
 			</itemlayout>
 			<focusedlayout width="280" height="1285">
 				<!--<control type="image">

@@ -30,6 +30,7 @@
 	<include file="Viewtype_SlimFiles.xml" />
 	<include file="Viewtype_Newest_Episodes.xml" />
 	<include file="Viewtype_3dLandscape.xml" />
+	<include file="Viewtype_MusicLogo.xml" />
 	<include file="Includes_Animations.xml" />
 	<include file="Includes_Trailer.xml" />
 	<include file="Includes_Objects.xml" />
@@ -1651,5 +1652,8 @@
 			<textcolor>white</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
+	</include>
+	<include name="musiclogos">
+		<texture fallback="logo.png" background="true">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]$INFO[ListItem.Album,/,/logo.png]</texture>
 	</include>
 </includes>

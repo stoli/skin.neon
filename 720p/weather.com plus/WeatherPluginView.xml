@@ -71,6 +71,7 @@
                         <posy>0</posy>
                         <width>1160</width>
                         <height>670</height>
+						<colordiffuse>mainblue</colordiffuse>
                         <texture border="20">DialogBack.png</texture>
                     </control>
                     <control type="image">

@@ -25,6 +25,7 @@
 			<posy>90</posy>
 			<width>680</width>
 			<height>540</height>
+			<colordiffuse>mainblue</colordiffuse>
 			<texture>DialogBack.png</texture>
 			<visible>Control.IsVisible(50)</visible>
 		</control>
@@ -44,6 +45,7 @@
 			<posy>50</posy>
 			<width>500</width>
 			<height>320</height>
+			<colordiffuse>mainblue</colordiffuse>
 			<texture>DialogBack.png</texture>
 			<visible>Control.IsVisible(50)</visible>
 		</control>

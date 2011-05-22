@@ -42,7 +42,7 @@
 				<width>800</width>
 				<height>544</height>
 				<texture>dialogback.png</texture>
-				<!--<colordiffuse>FavListPanel</colordiffuse>-->
+				<colordiffuse>mainblue</colordiffuse>
 			</control>
 			<control type="label">
 				<description>Favourites Label</description>

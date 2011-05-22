@@ -12,6 +12,7 @@
 			<width>600</width>
 			<height>230</height>
 			<!-- <include>Dimensions_Fullscreen</include> -->
+			<colordiffuse>mainblue</colordiffuse>
 			<texture>DialogBack.png</texture>
 			<visible>!Player.HasVideo</visible>
 		</control>

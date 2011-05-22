@@ -19,6 +19,7 @@
 				<posy>0</posy>
 				<width>1100</width>
 				<height>640</height>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture border="20">DialogBack.png</texture>
 			</control>
 			<control type="image">
@@ -122,12 +123,17 @@
 						<label2>33063</label2>
 						<onclick>-</onclick>
 					</item>
-					<item id="6">
-						<label>31029</label>
+					<item id ="6">
+						<label>$LOCALIZE[2]</label>
 						<label2>33063</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="8">
+						<label>31029</label>
+						<label2>33063</label2>
+						<onclick>-</onclick>
+					</item>
+					<item id="9">
 						<label>31030</label>
 						<onclick>Skin.ResetSettings</onclick>
 						<onclick>ReloadSkin()</onclick>
@@ -243,19 +249,7 @@
 						<onclick>Skin.ToggleSetting(big_trailer)</onclick>
 						<selected>Skin.HasSetting(big_trailer)</selected>
 					</control>
-					<control type="radiobutton" id="109">
-						<include>skin_settings_labels</include>
-						<label>$LOCALIZE[31277]</label>
-						<onclick>Skin.ToggleSetting(show_lyrics)</onclick>
-						<selected>Skin.HasSetting(show_lyrics)</selected>
-					</control>
-					<control type="button" id="110">
-						<include>skin_settings_button</include>
-						<label>- $LOCALIZE[31127]</label>
-						<label2>[COLOR=selected]$INFO[Skin.String(LyricScript_Path)][/COLOR]</label2>
-						<onclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</onclick>
-						<visible>Skin.HasSetting(show_lyrics)</visible>
-					</control>
+					
 					
 					<control type="radiobutton" id="118">
 						<include>skin_settings_labels</include>
@@ -2601,7 +2595,7 @@
 					<orientation>vertical</orientation>
 					<visible>Container(9000).Hasfocus(4)</visible>
 				</control>
-				<control type="group"><!--mcborzu tv-->
+				<control type="group"><!--Movies/TV-->
 					<control type="grouplist" id="9005">
 						<visible>Container(9000).Hasfocus(5)</visible>
 						<posx>290</posx>
@@ -2846,9 +2840,57 @@
 							<visible>Container(9000).Hasfocus(5)</visible>
 						</control> -->
 				</control>
-				<control type="group"><!--mcborzu Disable Views-->
-					<control type="grouplist" id="9006">
+				<control type="group"><!--Music-->
+					<control type="grouplist" id="9008">
 						<visible>Container(9000).Hasfocus(6)</visible>
+						<posx>290</posx>
+						<posy>60</posy>
+						<width>860</width>
+						<height>530</height>
+						<itemgap>-1</itemgap>
+						<pagecontrol>61</pagecontrol>
+						<onleft>9000</onleft>
+						<onright>61</onright>
+						<onup>9005</onup>
+						<ondown>9005</ondown>
+						<control type="label" id="900">
+							<width>860</width>
+							<height>45</height>
+							<font>Font_Neon_20</font>
+							<textoffsetx>15</textoffsetx>
+							<label>$LOCALIZE[2]</label>
+							<textcolor>mainblue</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>left</align>
+							<aligny>center</aligny>
+						</control>
+
+						<control type="radiobutton" id="901">
+							<include>skin_settings_labels</include>
+							<label>$LOCALIZE[31277]</label>
+							<onclick>Skin.ToggleSetting(show_lyrics)</onclick>
+							<selected>Skin.HasSetting(show_lyrics)</selected>
+						</control>
+						<control type="button" id="902">
+							<include>skin_settings_button</include>
+							<label>- $LOCALIZE[31127]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(LyricScript_Path)][/COLOR]</label2>
+							<onclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</onclick>
+							<visible>Skin.HasSetting(show_lyrics)</visible>
+						</control>
+						<control type="button" id="903">
+							<description>Music Folder Path</description>
+							<include>skin_settings_button</include>
+							<label>Path to Music Library</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(Music_Folder_Path)][/COLOR]</label2>
+							<onclick>Skin.SetPath(Music_Folder_Path)</onclick>
+							<!-- <enable>!Skin.HasSetting(CDArt) | Skin.HasSetting(MusicExtraFanart)</enable> -->
+						</control>
+                     </control>  
+				</control>
+				<control type="group"><!--Disable Views-->
+					<control type="grouplist" id="9006">
+						<visible>Container(9000).Hasfocus(8)</visible>
 						<posx>290</posx>
 						<posy>60</posy>
 						<width>860</width>
