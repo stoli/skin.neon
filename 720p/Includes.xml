@@ -41,7 +41,7 @@
 	<include file="IncludesHomepageWeatherWidget.xml" />
 	<include file="Includes_Home_Horizontal.xml" />
 	<include file="Viewtype_Multiplex.xml" />
-	
+	<include file="ViewsVideoLibrary.xml" /> 
 	<include file="ViewsMusicLibrary.xml" /> 
 	<include file="weather.com plus/CommonValues.xml" />
 	<include file="weather.com plus/Maps-List-Static-Content-Includes.xml" />

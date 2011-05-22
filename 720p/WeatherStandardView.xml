@@ -920,7 +920,7 @@
 				<align>left</align>
 			</control> 
 		</control>
-		<include>WindowTitleHomeButton</include>
+		
 		<include>Time</include>
 	</controls>
     </include>

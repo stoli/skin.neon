@@ -82,7 +82,7 @@
 						<width>200</width>
 						<height>30</height>
 						<font>font13</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>

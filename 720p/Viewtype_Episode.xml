@@ -282,7 +282,7 @@
 				<label>$LOCALIZE[31231]: $INFO[ListItem.Date]</label>
 			</control>
 						
-				<include>Episode_Next_Aired</include>	
+			<!--	<include>Episode_Next_Aired</include>	 -->
 			
 		</control>
 		<control type="grouplist">

@@ -64,7 +64,7 @@
 			<label>$LOCALIZE[19133]</label>
 			<align>left</align>
 			<aligny>center</aligny>
-			<textcolor>blue</textcolor>
+			<textcolor>mainblue</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="image">

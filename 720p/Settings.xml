@@ -233,7 +233,7 @@
 			</control>
 			
 		</control> 
-		<include>WindowTitleHomeButton</include> 
-		<include>Global_Clock</include>
+		 
+		<include>Time</include>
 	</controls>
 </window>

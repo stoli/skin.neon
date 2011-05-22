@@ -635,7 +635,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>Font_Neon_20</font>
-					<textcolor>blue</textcolor>
+					<textcolor>mainblue</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scrollout>false</scrollout>
 					<pauseatend>1000</pauseatend>

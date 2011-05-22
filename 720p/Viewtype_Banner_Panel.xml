@@ -29,7 +29,7 @@
 		<control type="fixedlist" id="592">
 			<visible>!Skin.HasSetting(no_BannerPanel) + Container.Content(tvshows) + Skin.HasSetting(TVBanners)</visible>
 			<posx>560</posx>
-			<posy>6</posy>
+			<posy>25</posy>
 			<height>885</height>
 			<width>880</width>
 			<onup>592</onup>
@@ -57,7 +57,17 @@
 						<height>126</height>
 						<texture>panel/bannermatte.png</texture>
 					</control>
-					<control type="image">
+					<control type="image" id="5921">
+						<posx>1</posx>
+						<posy>0</posy>
+						<width>646</width>
+						<height>126</height>
+						<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Path]banner.jpg</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+					</control>
+			
+					<!-- <control type="image">
 						<posx>1</posx>
 						<posy>0</posy>
 						<width>646</width>
@@ -65,6 +75,7 @@
 						<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<visible>IsEmpty(Control.GetLabel(5921))</visible>
 					</control>
 					<control type="image">
 						<posx>1</posx>
@@ -74,12 +85,12 @@
 						<texture>panel/bannermatte.png</texture>
 						<colordiffuse>black</colordiffuse>
 						<animation effect="fade" start="10" end="70" time="0" condition="true">Conditional</animation>
-					</control>
+					</control>  -->
 					<control type="image">
-						<posx>576</posx>
-						<posy>76</posy>
-						<width>100</width>
-						<height>76</height>
+						<posx>575</posx>
+						<posy>66</posy>
+						<width>75</width>
+						<height>75</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]+ !IsEmpty(ListItem.Overlay)</visible>
 					</control>
@@ -115,7 +126,7 @@
 					<posy>0</posy>
 					<width>646</width>
 					<height>126</height>
-					<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
+					<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Path]banner.jpg</texture>
 					<fadetime>200</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<visible>!Container.Content(Genres)</visible>
@@ -123,11 +134,24 @@
 						<effect type="zoom" center="auto" start="51" end="104" time="600" tween="back" easing="out" />
 					</animation>
 				</control>
+			<!--	<control type="image">
+					<posx>1</posx>
+					<posy>0</posy>
+					<width>646</width>
+					<height>126</height>
+					<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
+					<fadetime>200</fadetime>
+					<aspectratio scalediffuse="false">stretch</aspectratio>
+					<visible>!Container.Content(Genres)</visible>
+					<animation type="Focus" reversible="false">
+						<effect type="zoom" center="auto" start="51" end="104" time="600" tween="back" easing="out" />
+					</animation>
+				</control> -->
 				<control type="image">
-					<posx>588</posx>
-					<posy>78</posy>
-					<width>100</width>
-					<height>76</height>
+					<posx>585</posx>
+					<posy>65</posy>
+					<width>75</width>
+					<height>75</height>
 					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="auto" start="51" end="104" time="600" tween="back" easing="out" />

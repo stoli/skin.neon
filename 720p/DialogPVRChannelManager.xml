@@ -616,7 +616,7 @@
 				<label>$LOCALIZE[19199]</label>
 			</control>
 		</control>
-		<include>WindowTitleHomeButton</include>
+		
 		<include>Time</include>
 	</controls>
 </window>
