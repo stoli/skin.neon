@@ -15,7 +15,7 @@
 				<posy>0</posy>
 				<width>730</width>
 				<height>660</height>
-				<colordiffuse>EEFFFFFF</colordiffuse>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture border="40">DialogBack.png</texture>
 			</control>
 			<control type="button">
@@ -82,7 +82,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>$LOCALIZE[552]:</label>
 					</control>
 					<control type="label">
@@ -106,7 +106,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>$LOCALIZE[142]</label>
 					</control>
 					<control type="label">
@@ -130,7 +130,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>$LOCALIZE[19148]:</label>
 					</control>
 					<control type="fadelabel">
@@ -154,7 +154,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>$LOCALIZE[180]:</label>
 					</control>
 					<control type="label">
@@ -176,7 +176,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<label>$LOCALIZE[135]:</label>
 					</control>
 					<control type="label">
@@ -197,7 +197,7 @@
 						<label>$INFO[ListItem.PlotOutline]</label>
 						<align>center</align>
 						<font>font13caps</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 						<scroll>true</scroll>
 						<visible>!IsEmpty(ListItem.PlotOutline)</visible>
 					</control>

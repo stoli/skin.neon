@@ -80,6 +80,7 @@
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos)+ [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]</visible>
 					</control>
+					
 				</itemlayout>
 				<focusedlayout height="40" width="580">
 					<control type="image">
@@ -206,6 +207,15 @@
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture diffuse="diffuse_mirror3.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
 				</control>
+				<control type="image">
+						<posx>-50</posx>
+						<posy>10</posy>
+						<width>400</width>
+						<height>155</height>
+						
+						<texture>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
+						
+					</control>
 			</control>
 		</control>
 	</include>

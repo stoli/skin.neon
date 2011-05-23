@@ -59,7 +59,7 @@
 						<label>31506</label>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -164,7 +164,7 @@
 						<label>31507</label>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -283,7 +283,7 @@
 						<label>$LOCALIZE[31508][CR]$INFO[Control.GetLabel(20)]</label>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -428,7 +428,7 @@
 			</control>
 		</control>
 		<include>SideBladeRight</include>
-		<include>Clock</include>
+		<include>Time</include>
 
 		<control type="label" id="20">
 			<description>Fake Label used to pass on name label</description>

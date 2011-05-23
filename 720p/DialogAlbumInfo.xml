@@ -480,6 +480,7 @@
 					<posy>500</posy>
 					<width>880</width>
 					<height>140</height>
+					<colordiffuse>mainblue</colordiffuse>
 					<texture>DialogBack.png</texture>
 					<visible>!Control.IsVisible(50)</visible>
 				</control>-->

@@ -1287,7 +1287,7 @@
 
 
 		</control>
-		<include>Clock</include>
+		<include>Time</include>
 	</controls>
 </window>
 

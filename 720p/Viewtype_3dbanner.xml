@@ -76,7 +76,16 @@
 						<texture>movie-poster/xper_test.png</texture>
 						<colordiffuse>BackgroundColor</colordiffuse>
 					</control>
-					<control type="image">
+					<control type="image" id="7888">
+						<posx>-150</posx>
+						<posy>220</posy>
+						<width>304</width>
+						<height>80</height>
+						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+					</control>
+				<!--	<control type="image">
 						<posx>-150</posx>
 						<posy>220</posy>
 						<width>304</width>
@@ -84,8 +93,19 @@
 						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-					</control>
+						<visible>IsEmpty(Control.GetLabel(7888))</visible>
+					</control> -->
 					<control type="image">
+						<posx>-150</posx>
+						<posy>298</posy>
+						<width>304</width>
+						<height>80</height>
+						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<fadetime>200</fadetime>
+						<colordiffuse>89FFFFFF</colordiffuse>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+					</control>
+				<!--	<control type="image">
 						<posx>-150</posx>
 						<posy>298</posy>
 						<width>304</width>
@@ -94,12 +114,13 @@
 						<fadetime>200</fadetime>
 						<colordiffuse>89FFFFFF</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-					</control>
+						<visible>IsEmpty(Control.GetLabel(7888))</visible>
+					</control>  -->
 					<control type="image">
-						<posx>90</posx>
-						<posy>266</posy>
-						<width>78</width>
-						<height>60</height>
+						<posx>110</posx>
+						<posy>265</posy>
+						<width>40</width>
+						<height>40</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
@@ -171,7 +192,20 @@
 							<effect type="fade" start="0" end="100" time="600" />
 						</animation>
 					</control>
-					<control type="image">
+					<control type="image" id="7889">
+						<posx>-150</posx>
+						<posy>312</posy>
+						<width>440</width>
+						<height>110</height>
+						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="fade" start="0" end="70" time="600" />
+						</animation>
+					</control>
+				<!--	<control type="image">
 						<posx>-150</posx>
 						<posy>312</posy>
 						<width>440</width>
@@ -183,8 +217,21 @@
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
 							<effect type="fade" start="0" end="70" time="600" />
 						</animation>
+						<visible>IsEmpty(Control.GetLabel(7889))</visible>
+					</control>  -->
+					<control type="image" id="7890">
+						<posx>-150</posx>
+						<posy>204</posy>
+						<width>440</width>
+						<height>110</height>
+						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+						</animation>
 					</control>
-					<control type="image">
+				<!--	<control type="image">
 						<posx>-150</posx>
 						<posy>204</posy>
 						<width>440</width>
@@ -195,12 +242,13 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
 						</animation>
-					</control>
+						<visible>IsEmpty(Control.GetLabel(7890))</visible>
+					</control> -->
 					<control type="image">
-						<posx>210</posx>
-						<posy>270</posy>
-						<width>100</width>
-						<height>76</height>
+						<posx>225</posx>
+						<posy>260</posy>
+						<width>60</width>
+						<height>60</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
@@ -238,7 +286,7 @@
 		<control type="group">
 			<visible>Control.IsVisible(593) + !Skin.HasSetting(3dbanner_fanart)</visible>
 			<posx>0</posx>
-			<posy>0</posy>
+			<posy>30</posy>
 			<include>Animation_HiddenByInfo</include>
 			<control type="image" id="7198">
 				<posx>20</posx>
@@ -293,7 +341,7 @@
 	<control type="group">
 		<visible>Control.IsVisible(593) + !Window.IsActive(videoplaylist) + !IsEmpty(ListItem.Title) + !Skin.HasSetting(3dbanner_fanart)</visible>
 		<posx>20</posx>
-		<posy>90</posy>
+		<posy>120</posy>
 		<include>Animation_Viewtype_3dland_Lefttop</include>
 		<include>Animation_HiddenByInfo</include>
 		<animation effect="slide" start="0,0" end="0,-40" time="0" condition="IsEmpty(Control.GetLabel(7198))">Conditional</animation>

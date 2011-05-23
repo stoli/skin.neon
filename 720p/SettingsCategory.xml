@@ -13,11 +13,11 @@
 		</control>
 		<control type="group">
 			<visible>Window.Previous(Programs)</visible>
-			<include>CommonProgramsBackground</include>
+			
 		</control>
 		<control type="group">
 			<visible>Window.Previous(VideoFiles) | Window.Previous(VideoLibrary)</visible>
-			<include>CommonVideoBackground</include>
+			
 		</control>
 		<control type="group">
 			<visible>Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
@@ -25,7 +25,7 @@
 		</control>
 		<control type="group">
 			<visible>Window.Previous(Pictures)</visible>
-			<include>CommonPictureBackground</include>
+			
 		</control>
 		<include>CommonMediaPlayingBackground</include>
 		<control type="group">
@@ -44,6 +44,7 @@
 				<posy>0</posy>
 				<width>1100</width>
 				<height>640</height>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture border="20">DialogBack.png</texture>
 			</control>
 			<control type="button">
@@ -241,7 +242,7 @@
 			</control>
 			
 		</control> 
-		<include>WindowTitleHomeButton</include>
+		
 		<include>Time</include>
 	</controls>
 </window>

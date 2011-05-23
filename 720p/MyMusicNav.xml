@@ -3,7 +3,7 @@
 <window id="502">
 	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,56,58,51,52,54,53,500,506,509,511,512,513,633</views>
+	<views>50,511,513,598,599,512,56,58,51,52,54,53,500,506,509</views>
 	<controls>
 		
 
@@ -70,7 +70,8 @@
 			<include>MusicVideoInfoListView</include> <!-- 511 -->
 			<include>ArtistMediaListView</include> <!-- 512 -->
 			<include>AlbumInfoListView</include> <!-- 513 -->
-			<include>Viewtype_Landscape_Fanart</include> <!-- 633 -->
+			<include>Viewtype_MusicLogo</include>
+			<include>Viewtype_SlimFiles</include> <!-- 598 -->
 		</control>
 	<control type="group">
 		<include>Animation_HiddenByInfo</include>
@@ -143,6 +144,15 @@
 				<selected>Skin.HasSetting(music_files_fanart)</selected>
 				<visible>Control.IsVisible(50)</visible>
 			</control>
+			<control type="togglebutton" id="30">
+				<description>Toggle Music Icon/Logo</description>
+				<include>WindowMenuButton</include>
+				<label>Icon</label>
+				<altlabel>Logo</altlabel>
+				<onclick>Skin.ToggleSetting(MusicLogo)</onclick>
+				<selected>Skin.HasSetting(MusicLogo)</selected>
+				<visible>Control.IsVisible(598)</visible>
+			</control>
 			<control type="button" id="3">
 				<include>WindowMenuButton</include>
 				<label>103</label>
@@ -169,6 +179,11 @@
 			<control type="label">
 				<include>WindowMenuLabel</include>
 				<label>$LOCALIZE[31088]</label>
+			</control>
+			<control type="label">
+				<include>WindowMenuLabel</include>
+				<label>Icon/Logo</label>
+				<visible>Control.IsVisible(598)</visible>
 			</control>
 			<control type="label">
 				<include>WindowMenuLabel</include>

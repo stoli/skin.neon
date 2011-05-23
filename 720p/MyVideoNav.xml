@@ -3,7 +3,7 @@
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,55,58,595,51,596,52,633,53,54,597,56,57,59,500,501,503,508,592,593,594,598,599,588</views>
+	<views>50,55,58,595,51,596,52,633,53,503,54,597,56,57,59,500,501,508,592,593,594,598,599,588</views>
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
@@ -230,6 +230,17 @@
 					<visible>Control.IsVisible(588)</visible>
 					<include>WindowMenuButton</include>
 				</control>
+				
+				<control type="togglebutton" id="39">
+					<description>Toggle Poster Info</description>
+					<include>WindowMenuButton</include>
+					<label>$LOCALIZE[31285]</label>
+					<altlabel>$LOCALIZE[31133]</altlabel>
+					<onclick>Skin.ToggleSetting(View508HideInfo)</onclick>
+					<selected>Skin.HasSetting(View508HideInfo)</selected>
+					<visible>Control.IsVisible(508)</visible>
+					<include>WindowMenuButton</include>
+				</control>
 				<control type="togglebutton" id="25">
 					<description>Toggle MoviesFanart</description>
 					<include>WindowMenuButton</include>
@@ -251,20 +262,20 @@
 				<control type="togglebutton" id="26">
 					<description>Toggle MoviesFanart</description>
 					<include>WindowMenuButton</include>
-					<label>$LOCALIZE[31094]</label>
+					<label>$LOCALIZE[31062]</label>
 					<altlabel>$LOCALIZE[31086]</altlabel>
-					<onclick>Skin.ToggleSetting(3dLandscape_Fanart)</onclick>
-					<selected>Skin.HasSetting(3dLandscape_Fanart)</selected>
+					<onclick>Skin.ToggleSetting(FileFanartView)</onclick>
+					<selected>Skin.HasSetting(FileFanartView)</selected>
 					<visible>Control.IsVisible(53) + Container.Content(Movies) </visible>
 				</control>
 				<control type="togglebutton" id="36">
 					<description>Toggle Fanart</description>
 					<include>WindowMenuButton</include>
-					<label>$LOCALIZE[31086]</label>
-					<altlabel>$LOCALIZE[31721]</altlabel>
+					<label>$LOCALIZE[31721]</label>
+					<altlabel>$LOCALIZE[31086]</altlabel>
 					<onclick>Skin.ToggleSetting(FileFanartView)</onclick>
 					<selected>!Skin.HasSetting(FileFanartView)</selected>
-					<visible>[Control.IsVisible(53) + Container.Content(TVShows)]</visible>
+					<visible>[Control.IsVisible(53) + [Container.Content(TVShows)] + !Container.Content(seasons) + !Container.Content(episodes)]]</visible>
 				</control>
 				<control type="togglebutton" id="27">
 					<description>Toggle MoviesFanart</description>
@@ -393,7 +404,7 @@
 				<control type="label">
 					<include>WindowMenuLabel</include>
 					<label>$LOCALIZE[14018]</label>
-					<visible>[Control.IsVisible(55) | Control.IsVisible(53) | Control.IsVisible(58) | Control.IsVisible(588)] + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] | [Control.IsVisible(50) + Container.Content(movies)] | [Control.IsVisible(59) + Container.Content(tvshows)] | [Control.IsVisible(55) + Container.Content(Genres)]</visible>		
+					<visible>[Control.IsVisible(55) | Control.IsVisible(53) | Control.IsVisible(58) | Control.IsVisible(588)] + ![Control.IsVisible(53) + [Container.Content(episodes) | Container.Content(seasons)]] | [Control.IsVisible(588) + Container.Content(episodes)] | [Control.IsVisible(50) + Container.Content(movies)] | [Control.IsVisible(59) + Container.Content(tvshows)] | [Control.IsVisible(55) + Container.Content(Genres)]</visible>		
 				</control>
 				<control type="label">
 					<include>WindowMenuLabel</include>
@@ -404,6 +415,11 @@
 					<include>WindowMenuLabel</include>
 					<label>$LOCALIZE[31206]</label>
 					<visible>Control.IsVisible(588)</visible>		
+				</control>
+				<control type="label">
+					<include>WindowMenuLabel</include>
+					<label>Display Info</label>
+					<visible>Control.IsVisible(508)</visible>		
 				</control>
 				<control type="label">
 					<include>WindowMenuLabel</include>

@@ -1,4 +1,5 @@
 <includes>
+	
 	<include name="PosterWrapView">
 		<control type="group">
 			<visible>Control.IsVisible(501)</visible>
@@ -297,10 +298,15 @@
 	</include>
 	<include name="PosterWrapView2_Fanart">
 		<control type="group">
+			<include>ContentPanelBackgrounds</include>
+			<visible>Control.IsVisible(508)</visible>
+		</control></control>
+		
+		<control type="group">
 			<visible>Control.IsVisible(508)</visible>
 			<include>VisibleFadeEffect</include>
 			<posx>0</posx>
-			<posy>440</posy>
+			<posy>445</posy>
 			<control type="fixedlist" id="508">
 				<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVPosters)]</visible>
 				<posx>-20</posx>
@@ -309,9 +315,9 @@
 				<height>250</height>
 				<onleft>508</onleft>
 				<onright>508</onright>
-				<onup>2</onup>
-				<ondown>60</ondown>
-				<viewtype label="31029">wrap</viewtype>
+				<onup>7000</onup>
+				<ondown>2</ondown>
+				<viewtype label="Poster Wrap">wrap</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
 				<focusposition>5</focusposition>
@@ -393,7 +399,7 @@
 				<orientation>horizontal</orientation>
 				<include>VideoCodecFlaggingConditions</include>
 				<include>VideoTypeHackFlaggingConditions</include>
-				<visible>Skin.HasSetting(View508HideInfo)</visible>
+				<visible>!Skin.HasSetting(No_Media_Flags)</visible> 
 			</control>
 			<control type="grouplist">
 				<description>Media Codec Flagging Images</description>
@@ -404,7 +410,8 @@
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>
 				<include>AudioCodecFlaggingConditions</include>
-				<visible>Skin.HasSetting(View508HideInfo)</visible>
+				<include>StudioFlags</include>
+				<visible>!Skin.HasSetting(No_Media_Flags)</visible> 
 			</control>
 			<control type="label">
 				<posx>40</posx>
@@ -983,7 +990,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Aired Value</description>
@@ -1007,7 +1014,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Genre Value</description>
@@ -1054,7 +1061,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Aired Value</description>
@@ -1078,7 +1085,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Genre Value</description>
@@ -1102,7 +1109,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Episodes Value</description>
@@ -1149,7 +1156,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Genre Value</description>
@@ -1173,7 +1180,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Episodes Value</description>
@@ -1293,7 +1300,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Year Value</description>
@@ -1317,7 +1324,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Genre Value</description>
@@ -1384,7 +1391,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Year Value</description>
@@ -1408,7 +1415,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Genre Value</description>
@@ -1561,7 +1568,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Aired Value</description>
@@ -1585,7 +1592,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Font_Neon_20</font>
-						<textcolor>blue</textcolor>
+						<textcolor>mainblue</textcolor>
 					</control>
 					<control type="label">
 						<description>Genre Value</description>

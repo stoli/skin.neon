@@ -27,6 +27,7 @@
 			<width>500</width>
 			<height>544</height>
 			<texture>DialogBack.png</texture>
+			<colordiffuse>mainblue</colordiffuse>
 			<!-- <colordiffuse>clearblack</colordiffuse> -->
 		</control>
 

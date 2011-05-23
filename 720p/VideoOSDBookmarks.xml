@@ -13,7 +13,7 @@
 			<posy>0</posy>
 			<width>800</width>
 			<height>490</height>
-			<colordiffuse>DDFFFFFF</colordiffuse>
+			<colordiffuse>mainblue</colordiffuse>
 			<texture border="40">DialogBack.png</texture>
 		</control>
 		<control type="label">

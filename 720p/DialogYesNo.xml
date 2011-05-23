@@ -35,6 +35,7 @@
 			<posy>170</posy>
 			<width>550</width>
 			<height>292</height>
+			<colordiffuse>mainblue</colordiffuse>
 			<texture>DialogBack.png</texture>
 		</control>
 		<control type="label" id="1">
