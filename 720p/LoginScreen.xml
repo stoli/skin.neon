@@ -12,7 +12,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<imagepath fallback="special://skin/media/backgrounds/videos.jpg" background="true">$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</imagepath>
+			<imagepath fallback="special://skin/backgrounds/logoff.jpg" background="true">$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</imagepath>
 			<timeperimage>10000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
@@ -25,6 +25,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
+				
 				<texture border="20">black-back.png</texture>
 			</control>
 			<control type="image">
@@ -39,6 +40,7 @@
 				<posy>60</posy>
 				<width>750</width>
 				<height>600</height>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture border="20">ContentPanel.png</texture>
 			</control>
 			<control type="image">
@@ -46,15 +48,16 @@
 				<posy>645</posy>
 				<width>750</width>
 				<height>600</height>
+				<colordiffuse>mainblue</colordiffuse>
 				<aspectratio aligny="top">keep</aspectratio>
 				<texture diffuse="diffuse_mirror3.png" flipy="true" border="20">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<description>LOGO</description>
-				<posx>250r</posx>
-				<posy>80r</posy>
-				<width>220</width>
-				<height>80</height>
+				<posx>200r</posx>
+				<posy>60r</posy>
+				<width>140</width>
+				<height>40</height>
 				<aspectratio>keep</aspectratio>
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>Neon.png</texture>
@@ -73,7 +76,7 @@
 				<width>690</width>
 				<height>40</height>
 				<font>Font_Neon_24</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>white</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$LOCALIZE[31421]</label>
@@ -95,18 +98,18 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>690</width>
-						<height>101</height>
+						<height>131</height>
 						<texture border="0,5,0,5">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
 						<posx>10</posx>
-						<posy>10</posy>
-						<width>80</width>
-						<height>80</height>
+						<posy>15</posy>
+						<width>100</width>
+						<height>100</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>110</posx>
+						<posx>120</posx>
 						<posy>10</posy>
 						<width>580</width>
 						<height>40</height>
@@ -118,7 +121,7 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>110</posx>
+						<posx>120</posx>
 						<posy>50</posy>
 						<width>580</width>
 						<height>40</height>
@@ -135,7 +138,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>690</width>
-						<height>101</height>
+						<height>131</height>
 						<texture border="0,5,0,5">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(52)</visible>
 						<include>VisibleFadeEffect</include>
@@ -144,7 +147,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>690</width>
-						<height>101</height>
+						<height>131</height>
 						<colordiffuse>mainblue</colordiffuse>
 						<texture border="0,5,0,5">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(52)</visible>
@@ -152,13 +155,13 @@
 					</control>
 					<control type="image">
 						<posx>10</posx>
-						<posy>10</posy>
-						<width>80</width>
-						<height>80</height>
+						<posy>15</posy>
+						<width>100</width>
+						<height>100</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>110</posx>
+						<posx>120</posx>
 						<posy>10</posy>
 						<width>580</width>
 						<height>40</height>
@@ -170,7 +173,7 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>110</posx>
+						<posx>120</posx>
 						<posy>50</posy>
 						<width>580</width>
 						<height>40</height>
