@@ -137,7 +137,8 @@
 						<posy>0</posy>
 						<width>390</width>
 						<height>61</height>
-						<texture border="2">MenuItemFO.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>MenuItemFO.png</texture>
 						<visible>Control.HasFocus(11)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -234,7 +235,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
+				<label>([COLOR=mainblue]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
 				<include>Window_OpenClose_Animation</include>
 			</control>
 		</control>
@@ -370,7 +371,8 @@
 						<posy>0</posy>
 						<width>390</width>
 						<height>61</height>
-						<texture border="2">MenuItemFO.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>MenuItemFO.png</texture>
 						<visible>Control.HasFocus(12)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -459,7 +461,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(12).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(12).CurrentPage]/$INFO[Container(12).NumPages][/COLOR])</label>
+				<label>([COLOR=mainblue]$INFO[Container(12).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(12).CurrentPage]/$INFO[Container(12).NumPages][/COLOR])</label>
 				<include>Window_OpenClose_Animation</include>		
 			</control>
 		</control>
@@ -529,7 +531,8 @@
 						<posy>0</posy>
 						<width>760</width>
 						<height>41</height>
-						<texture border="2">MenuItemFO.png</texture>
+						<colordiffuse>mainblue</colordiffuse>
+						<texture>MenuItemFO.png</texture>
 						<visible>Control.HasFocus(13)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -609,7 +612,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(13).NumItems][/COLOR]) $LOCALIZE[19163] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(13).CurrentPage]/$INFO[Container(13).NumPages][/COLOR])</label>
+				<label>([COLOR=mainblue]$INFO[Container(13).NumItems][/COLOR]) $LOCALIZE[19163] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(13).CurrentPage]/$INFO[Container(13).NumPages][/COLOR])</label>
 				<include>Window_OpenClose_Animation</include>		
 			</control>
 			<control type="group">
@@ -1141,7 +1144,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(14).NumItems][/COLOR]) $LOCALIZE[19040] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(14).CurrentPage]/$INFO[Container(14).NumPages][/COLOR])</label>
+				<label>([COLOR=mainblue]$INFO[Container(14).NumItems][/COLOR]) $LOCALIZE[19040] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(14).CurrentPage]/$INFO[Container(14).NumPages][/COLOR])</label>
 				<include>Window_OpenClose_Animation</include>		
 			</control>
 		</control>
@@ -1495,7 +1498,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(17).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(17).CurrentPage]/$INFO[Container(17).NumPages][/COLOR])</label>
+				<label>([COLOR=mainblue]$INFO[Container(17).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(17).CurrentPage]/$INFO[Container(17).NumPages][/COLOR])</label>
 			</control>
 		</control>
 	</include>
@@ -1818,7 +1821,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(15).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(15).CurrentPage]/$INFO[Container(15).NumPages][/COLOR])</label>
+				<label>([COLOR=mainblue]$INFO[Container(15).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(15).CurrentPage]/$INFO[Container(15).NumPages][/COLOR])</label>
 			</control>
 		</control>
 	</include>
@@ -2192,7 +2195,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(16).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(16).CurrentPage]/$INFO[Container(16).NumPages][/COLOR])</label>
+				<label>([COLOR=mainblue]$INFO[Container(16).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(16).CurrentPage]/$INFO[Container(16).NumPages][/COLOR])</label>
 			</control>
 		</control>
 	</include>
