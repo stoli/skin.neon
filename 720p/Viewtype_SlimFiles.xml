@@ -1,5 +1,4 @@
 
-
 <includes>
 	<include name="Viewtype_SlimFiles">
 
@@ -10,8 +9,14 @@
 			<visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
 		</control>
 		<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<texture>list/file-black-background1.png</texture>
+			<posx>0</posx>
+			<posy>515</posy>
+			<height>200</height>
+			<width>480</width>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>dialog.png</texture>
+			<include>Animation_HiddenByInfo</include>
+			<include>Animation_Viewtype_Files_LeftArea</include>
 			<visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
 		</control>
 		<control type="image">
@@ -25,9 +30,15 @@
 			<visible>Control.IsVisible(598) + Container.Content(movies) + Skin.HasSetting(Files_Fanart)</visible>
 		</control>
 		<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<texture>list/files_fanart_background.png</texture>
+			<posx>0</posx>
+			<posy>515</posy>
+			<height>200</height>
+			<width>480</width>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>dialog.png</texture>
 			<visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)</visible>
+			<include>Animation_HiddenByInfo</include>
+			<include>Animation_Viewtype_Files_LeftArea</include>
 		</control>
 		
 		
@@ -37,7 +48,7 @@
 			<height>185</height>
 			<width>480</width>
 			<onup>50</onup>
-			<ondown>50</ondown>
+			<ondown>60</ondown>
 			<onleft>7000</onleft>
 			<onright>60</onright>
 			<scrolltime>0</scrolltime>
@@ -86,7 +97,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>480</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -145,7 +156,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>480</width>
+					<width>450</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -362,26 +373,26 @@
 		<visible>Control.IsVisible(598) + IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible>
 	</control>
 	<control type="textbox"><!-- Plot and TV -->
-	<include>Animation_HiddenByInfo</include>
-				<posx>460</posx>
-				<posy>545</posy>
-				<width>610</width>
-				<height>120</height>
-				<align>justify</align>
-				<info>ListItem.Plot</info>
-				<font>Font_Bartowski_Showcase_plot</font>
-				<textcolor>ffffffff</textcolor>
-				<autoscroll time="3000" delay="7000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-				<animation type="WindowOpen">
-					<effect type="fade" start="0" end="100" time="600" delay="4000" tween="cubic" easing="inout" />
-				</animation>			
-				<animation type="WindowClose">
-					<effect type="fade" start="100" end="0" time="600" delay="0" tween="cubic" easing="inout" />
-				</animation>	
-				<animation effect="fade" start="0" end="100" time="600" delay="4000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
-				
-				<visible>Control.IsVisible(598) + Container.Content(movies)]</visible>
-			</control>	
+		<include>Animation_HiddenByInfo</include>
+		<posx>460</posx>
+		<posy>545</posy>
+		<width>610</width>
+		<height>120</height>
+		<align>justify</align>
+		<info>ListItem.Plot</info>
+		<font>Font_Bartowski_Showcase_plot</font>
+		<textcolor>ffffffff</textcolor>
+		<autoscroll time="3000" delay="7000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
+		<animation type="WindowOpen">
+			<effect type="fade" start="0" end="100" time="600" delay="4000" tween="cubic" easing="inout" />
+		</animation>			
+		<animation type="WindowClose">
+			<effect type="fade" start="100" end="0" time="600" delay="0" tween="cubic" easing="inout" />
+		</animation>	
+		<animation effect="fade" start="0" end="100" time="600" delay="4000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
+		
+		<visible>Control.IsVisible(598) + Container.Content(movies)]</visible>
+	</control>	
 	<!--<control type="image">
 		<posx>980</posx>
 		<posy>180</posy>
@@ -501,9 +512,9 @@
 		</control>
 	</control>
 	<control type="group">
-	<include>Animation_HiddenByInfo</include>
-	<visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
-	<include>Animation_Viewtype_Files_RightArea</include>	
+		<include>Animation_HiddenByInfo</include>
+		<visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
+		<include>Animation_Viewtype_Files_RightArea</include>	
 		<control type="image">
 			<posx>770</posx>
 			<posy>190</posy>
@@ -557,10 +568,10 @@
 			<visible>Container(598).OnPrevious + !IsEmpty(ListItem.Title)</visible>
 		</control>
 	</control>
-	<control type="group">
-	<include>Animation_HiddenByInfo</include>
-	<visible>Control.IsVisible(598) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
-	<include>Animation_Viewtype_Files_RightArea</include>	
+		<control type="group">
+		<include>Animation_HiddenByInfo</include>
+		<visible>Control.IsVisible(598) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
+		<include>Animation_Viewtype_Files_RightArea</include>	
 		<control type="image">
 			<posx>770</posx>
 			<posy>370</posy>
@@ -574,13 +585,22 @@
 			<visible>!Skin.HasSetting(MusicLogo)</visible>
 		</control>
 		<control type="image">
-			<posx>770</posx>
-			<posy>560</posy>
+			<posx>1020</posx>
+			<posy>600</posy>
+			<width>230</width>
+			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
+			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
 			<fadetime>100</fadetime>
 			<visible>Skin.HasSetting(MusicLogo)</visible>
 		</control>
+		<!-- For Debugging logo path
+		<control type="label">
+			<posx>770</posx>
+			<posy>560</posy>
+			<label>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</label>
+			<visible>Skin.HasSetting(MusicLogo)</visible>
+		</control> -->
 		<control type="image">
 			<posx>770</posx>
 			<posy>360</posy>
@@ -597,10 +617,12 @@
 			<visible>Container(598).OnNext + !Skin.HasSetting(MusicLogo)</visible>
 		</control>
 		<control type="image">
-			<posx>770</posx>
-			<posy>560</posy>
+			<posx>1020</posx>
+			<posy>600</posy>
+			<width>230</width>
+			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(-1).Artist]/logo.png</texture>
+			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(-1).Artist]/logo.png</texture>
 			<animation type="Hidden">
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
@@ -621,10 +643,12 @@
 			<visible>Container(598).OnNext + !Skin.HasSetting(MusicLogo)</visible>
 		</control>
 		<control type="image">
-			<posx>770</posx>
-			<posy>560</posy>
+			<posx>1020</posx>
+			<posy>600</posy>
+			<width>230</width>
+			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(1).Artist]/logo.png</texture>
+			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(1).Artist]/logo.png</texture>
 			<animation type="Hidden">
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
@@ -632,9 +656,9 @@
 		</control>
 	</control>
 	<control type="group">
-	<include>Animation_HiddenByInfo</include>
-	<visible>Control.IsVisible(598) + Window.IsActive(musicfiles)</visible>
-	<include>Animation_Viewtype_Files_RightArea</include>	
+		<include>Animation_HiddenByInfo</include>
+		<visible>Control.IsVisible(598) + Window.IsActive(musicfiles)</visible>
+		<include>Animation_Viewtype_Files_RightArea</include>	
 		<control type="image">
 			<posx>770</posx>
 			<posy>370</posy>

@@ -85,7 +85,7 @@
 					<posy>50</posy>
 					<width>230</width>
 					<height>89</height>
-					<texture background="true" fallback="backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
+					<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
 					<fadetime>300</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<animation effect="fade" start="60" end="60" time="0" condition="true">conditional</animation>
@@ -131,7 +131,7 @@
 					<posy>50</posy>
 					<width>230</width>
 					<height>89</height>
-					<texture background="true" fallback="backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
+					<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
 					<fadetime>200</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 				</control>

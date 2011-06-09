@@ -199,17 +199,18 @@
 			<control type="grouplist">
 				<visible>!Skin.HasSetting(clean_poster) + !Skin.HasSetting(no_media_flags) + ![Control.IsVisible(65) | Control.IsVisible(508)]</visible>
 				<description>Media Codec Flagging Images</description>
-				<posx>20</posx>
+				<posx>60</posx>
 				<posy>680</posy>
 				<width>1280</width>
 				<align>left</align>
-				<itemgap>0</itemgap>
+				<itemgap>5</itemgap>
 				<orientation>horizontal</orientation>
+				<include>StudioFlags</include>
 				<include>VideoCodecFlaggingConditions</include>
 				<include>AudioCodecFlaggingConditions</include>
 				<include>AspectCodecFlaggingConditions</include>
 				<include>VideoTypeHackFlaggingConditions</include>
-				<include>StudioFlags</include>
+				
 				<include>Animation_HiddenByInfo</include>
 				<include>Animation_ZoomInZoomOut</include>
 			</control>
