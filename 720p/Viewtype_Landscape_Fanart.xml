@@ -72,7 +72,7 @@
 					<align>center</align>
 					<font>Font_Neon_44</font>
 					<textcolor>ListTrackF</textcolor>
-					<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
+					<label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
 				</control>
 				<control type="label">
 					<visible>Container.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
@@ -83,7 +83,7 @@
 					<align>center</align>
 					<font>Font_Neon_44</font>
 					<textcolor>ListTrackF</textcolor>
-					<label>[B]$INFO[ListItem.Label][/B]</label>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
 					<posx>115</posx>
@@ -93,7 +93,7 @@
 					<align>center</align>
 					<font>Font_Neon_16</font>
 					<textcolor>ListTrackNF</textcolor>
-					<label>[B]-$LOCALIZE[16102]-[/B]</label>
+					<label>-$LOCALIZE[16102]-</label>
 					<visible>Skin.HasSetting(tvoverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 				</control>
 				<control type="image">
@@ -142,6 +142,18 @@
 				</control>
 				<control type="label">
 					<visible>Containter.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
+					<posx>135</posx>
+					<posy>100</posy>
+					<width>230</width>
+					<height>89</height>
+					<align>center</align>
+					<aligny>bottom</aligny>
+					<font>Font_Neon_44</font>
+					<textcolor>ffffffff</textcolor>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
+				</control>
+				<control type="label">
+					<visible>Container.Content(seasons)</visible>
 					<posx>135</posx>
 					<posy>100</posy>
 					<width>230</width>

@@ -73,7 +73,14 @@
 							<fadetime>300</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 						</control> -->
-						
+						<control type="image">
+							<posx>240</posx>
+							<posy>0</posy>
+							<width>40</width>
+							<height>40</height>
+							<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+							<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay)</visible>
+						</control>
 						<control type="image">
 							<posx>170</posx>
 							<posy>110</posy>
@@ -185,6 +192,14 @@
 							<fadetime>300</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 						</control> -->
+						<control type="image">
+							<posx>245</posx>
+							<posy>0</posy>
+							<width>40</width>
+							<height>40</height>
+							<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+							<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay)</visible>
+						</control>
 						<control type="image">
 							<posx>170</posx>
 							<posy>110</posy>

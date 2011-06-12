@@ -93,19 +93,19 @@
 						<texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
 					</control>
 					<control type="image">
-						<posx>245</posx>
-						<posy>95</posy>
-						<width>30</width>
-						<height>30</height>
+						<posx>290</posx>
+						<posy>270</posy>
+						<width>40</width>
+						<height>40</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						
 						<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 					</control>
 					<control type="image">
-						<posx>245</posx>
-						<posy>95</posy>
-						<width>30</width>
-						<height>30</height>
+						<posx>290</posx>
+						<posy>270</posy>
+						<width>40</width>
+						<height>40</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						
 						<visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay) + Container.Content(movies)</visible>
@@ -216,10 +216,10 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>470</posx>
-						<posy>78</posy>
-						<width>45</width>
-						<height>45</height>
+						<posx>550</posx>
+						<posy>415</posy>
+						<width>50</width>
+						<height>50</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						
 						<animation type="Focus" reversible="false">
