@@ -785,7 +785,7 @@
 							</item>
 							<item id="8">
 								<label>$LOCALIZE[744]</label>
-								<onclick>ActivateWindow(Music)</onclick>
+								<onclick>ActivateWindow(MusicFiles)</onclick>
 							</item>
 							<item id="9">
 								<label>$LOCALIZE[136]</label>
