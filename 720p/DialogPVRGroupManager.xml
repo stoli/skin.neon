@@ -10,7 +10,7 @@
 				<posy>0</posy>
 				<width>1150</width>
 				<height>720</height>
-				<texture border="15,0,0,0" flipx="true">MediaBladeSub.png</texture>
+				<texture border="15,0,0,0" flipx="true">background-solid.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>

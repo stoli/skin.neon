@@ -3,7 +3,7 @@
 <window id="502">
 	<defaultcontrol>50</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,511,513,598,599,512,56,58,51,52,54,53,500,506,509</views>
+	<views>50,511,513,598,599,512,56,58,51,52,54,53,500,506,509,633</views>
 	<controls>
 		
 
@@ -13,7 +13,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+			<texture background="true" fallback="special://skin/backgrounds/music.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>400</fadetime>
 			<include>Animation_BackdropFade</include>
@@ -26,7 +26,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+			<texture background="true" fallback="special://skin/backgrounds/music.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>400</fadetime>
 			<include>Animation_BackdropFade</include>

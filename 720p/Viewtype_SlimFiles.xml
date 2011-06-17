@@ -1,5 +1,4 @@
 
-
 <includes>
 	<include name="Viewtype_SlimFiles">
 
@@ -10,8 +9,14 @@
 			<visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
 		</control>
 		<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<texture>list/file-black-background1.png</texture>
+			<posx>0</posx>
+			<posy>515</posy>
+			<height>200</height>
+			<width>480</width>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>dialog.png</texture>
+			<include>Animation_HiddenByInfo</include>
+			<include>Animation_Viewtype_Files_LeftArea</include>
 			<visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
 		</control>
 		<control type="image">
@@ -25,9 +30,15 @@
 			<visible>Control.IsVisible(598) + Container.Content(movies) + Skin.HasSetting(Files_Fanart)</visible>
 		</control>
 		<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<texture>list/files_fanart_background.png</texture>
+			<posx>0</posx>
+			<posy>515</posy>
+			<height>200</height>
+			<width>480</width>
+			<colordiffuse>mainblue</colordiffuse>
+			<texture>dialog.png</texture>
 			<visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)</visible>
+			<include>Animation_HiddenByInfo</include>
+			<include>Animation_Viewtype_Files_LeftArea</include>
 		</control>
 		
 		
@@ -86,7 +97,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>880</width>
+					<width>480</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -118,9 +129,10 @@
 					<width>22</width>
 					<height>25</height>
 					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+					
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<animation effect="fade" start="60" end="60" time="0" condition="true">Conditional</animation>
-					<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
+					<visible>Skin.HasSetting(tvoverlays) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 				</control>
 				<control type="image">
 					<posx>24</posx>
@@ -145,7 +157,7 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>38</posy>
-					<width>480</width>
+					<width>450</width>
 					<height>4</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>common/separator.png</texture>
@@ -362,26 +374,26 @@
 		<visible>Control.IsVisible(598) + IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible>
 	</control>
 	<control type="textbox"><!-- Plot and TV -->
-	<include>Animation_HiddenByInfo</include>
-				<posx>460</posx>
-				<posy>545</posy>
-				<width>610</width>
-				<height>120</height>
-				<align>justify</align>
-				<info>ListItem.Plot</info>
-				<font>Font_Bartowski_Showcase_plot</font>
-				<textcolor>ffffffff</textcolor>
-				<autoscroll time="3000" delay="7000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-				<animation type="WindowOpen">
-					<effect type="fade" start="0" end="100" time="600" delay="4000" tween="cubic" easing="inout" />
-				</animation>			
-				<animation type="WindowClose">
-					<effect type="fade" start="100" end="0" time="600" delay="0" tween="cubic" easing="inout" />
-				</animation>	
-				<animation effect="fade" start="0" end="100" time="600" delay="4000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
-				
-				<visible>Control.IsVisible(598) + Container.Content(movies)]</visible>
-			</control>	
+		<include>Animation_HiddenByInfo</include>
+		<posx>460</posx>
+		<posy>545</posy>
+		<width>610</width>
+		<height>120</height>
+		<align>justify</align>
+		<info>ListItem.Plot</info>
+		<font>Font_Bartowski_Showcase_plot</font>
+		<textcolor>ffffffff</textcolor>
+		<autoscroll time="3000" delay="7000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
+		<animation type="WindowOpen">
+			<effect type="fade" start="0" end="100" time="600" delay="4000" tween="cubic" easing="inout" />
+		</animation>			
+		<animation type="WindowClose">
+			<effect type="fade" start="100" end="0" time="600" delay="0" tween="cubic" easing="inout" />
+		</animation>	
+		<animation effect="fade" start="0" end="100" time="600" delay="4000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
+		
+		<visible>Control.IsVisible(598) + Container.Content(movies)]</visible>
+	</control>	
 	<!--<control type="image">
 		<posx>980</posx>
 		<posy>180</posy>
@@ -449,17 +461,7 @@
 	<include>Animation_HiddenByInfo</include>
 	<visible>Control.IsVisible(598) + Container.Content(genres) + Window.IsActive(musiclibrary)</visible>
 	<include>Animation_Viewtype_Files_RightArea</include>
-		<control type="image">
-			<posx>-166</posx>
-			<posy>-166</posy>
-			<width>513</width>
-			<height>518</height>
-			<texture>music/music_list_glow1.png</texture>
-			<animation type="Visible">
-				<effect type="fade" start="0" end="100" delay="400" time="1200" />
-			</animation>
-			<visible>![Container(598).OnNext | Container(598).OnPrevious]</visible>
-		</control>
+		
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -501,9 +503,9 @@
 		</control>
 	</control>
 	<control type="group">
-	<include>Animation_HiddenByInfo</include>
-	<visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
-	<include>Animation_Viewtype_Files_RightArea</include>	
+		<include>Animation_HiddenByInfo</include>
+		<visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
+		<include>Animation_Viewtype_Files_RightArea</include>	
 		<control type="image">
 			<posx>770</posx>
 			<posy>190</posy>
@@ -557,10 +559,10 @@
 			<visible>Container(598).OnPrevious + !IsEmpty(ListItem.Title)</visible>
 		</control>
 	</control>
-	<control type="group">
-	<include>Animation_HiddenByInfo</include>
-	<visible>Control.IsVisible(598) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
-	<include>Animation_Viewtype_Files_RightArea</include>	
+		<control type="group">
+		<include>Animation_HiddenByInfo</include>
+		<visible>Control.IsVisible(598) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
+		<include>Animation_Viewtype_Files_RightArea</include>	
 		<control type="image">
 			<posx>770</posx>
 			<posy>370</posy>
@@ -574,13 +576,22 @@
 			<visible>!Skin.HasSetting(MusicLogo)</visible>
 		</control>
 		<control type="image">
-			<posx>770</posx>
-			<posy>560</posy>
+			<posx>1020</posx>
+			<posy>600</posy>
+			<width>230</width>
+			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
+			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
 			<fadetime>100</fadetime>
 			<visible>Skin.HasSetting(MusicLogo)</visible>
 		</control>
+		<!-- For Debugging logo path
+		<control type="label">
+			<posx>770</posx>
+			<posy>560</posy>
+			<label>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</label>
+			<visible>Skin.HasSetting(MusicLogo)</visible>
+		</control> -->
 		<control type="image">
 			<posx>770</posx>
 			<posy>360</posy>
@@ -597,10 +608,12 @@
 			<visible>Container(598).OnNext + !Skin.HasSetting(MusicLogo)</visible>
 		</control>
 		<control type="image">
-			<posx>770</posx>
-			<posy>560</posy>
+			<posx>1020</posx>
+			<posy>600</posy>
+			<width>230</width>
+			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(-1).Artist]/logo.png</texture>
+			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(-1).Artist]/logo.png</texture>
 			<animation type="Hidden">
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
@@ -621,10 +634,12 @@
 			<visible>Container(598).OnNext + !Skin.HasSetting(MusicLogo)</visible>
 		</control>
 		<control type="image">
-			<posx>770</posx>
-			<posy>560</posy>
+			<posx>1020</posx>
+			<posy>600</posy>
+			<width>230</width>
+			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(1).Artist]/logo.png</texture>
+			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(1).Artist]/logo.png</texture>
 			<animation type="Hidden">
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
@@ -632,9 +647,9 @@
 		</control>
 	</control>
 	<control type="group">
-	<include>Animation_HiddenByInfo</include>
-	<visible>Control.IsVisible(598) + Window.IsActive(musicfiles)</visible>
-	<include>Animation_Viewtype_Files_RightArea</include>	
+		<include>Animation_HiddenByInfo</include>
+		<visible>Control.IsVisible(598) + Window.IsActive(musicfiles)</visible>
+		<include>Animation_Viewtype_Files_RightArea</include>	
 		<control type="image">
 			<posx>770</posx>
 			<posy>370</posy>
@@ -707,17 +722,7 @@
 	<include>Animation_HiddenByInfo</include>
 	<visible>Control.IsVisible(598) + !Skin.HasSetting(music_files_fanart) + [Container.Content(albums) | Container.Content(songs)]</visible>
 	<include>Animation_Viewtype_Files_RightArea</include>
-		<control type="image">
-			<posx>-166</posx>
-			<posy>-166</posy>
-			<width>513</width>
-			<height>518</height>
-			<texture>music/music_list_glow1.png</texture>
-			<animation type="Visible">
-				<effect type="fade" start="0" end="100" delay="400" time="1200" />
-			</animation>
-			<visible>![Container(598).OnNext | Container(598).OnPrevious]</visible>
-		</control>
+		
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -764,17 +769,7 @@
 	<include>Animation_HiddenByInfo</include>
 	<visible>Control.IsVisible(598) + Container.Content(episodes)</visible>
 	<include>Animation_Viewtype_Files_RightArea</include>
-		<control type="image">
-			<posx>726</posx>
-			<posy>326</posy>
-			<width>559</width>
-			<height>370</height>
-			<texture>list/file_glow1.png</texture>
-			<animation type="Visible">
-				<effect type="fade" start="0" end="100" delay="400" time="1200" />
-			</animation>
-			<visible>![Container(598).OnNext | Container(598).OnPrevious]</visible>
-		</control>
+		
 		<control type="image">
 			<posx>854</posx>
 			<posy>454</posy>
@@ -817,8 +812,8 @@
 	</control>
 		<control type="image" id="7019">
 			<visible>Control.IsVisible(598) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
-			<posx>920</posx>
-			<posy>0</posy>
+			<posx>975</posx>
+			<posy>30</posy>
 			<width>230</width>
 			<height>89</height>
 			<texture background="true">$INFO[ListItem.path]logo.png</texture>
@@ -829,8 +824,8 @@
 		</control>
 		<control type="image" id="9019">
 			<visible>Control.IsVisible(598) + Container.Content(episodes)</visible>
-			<posx>920</posx>
-			<posy>0</posy>
+			<posx>930</posx>
+			<posy>30</posy>
 			<width>230</width>
 			<height>89</height>
 			<texture background="true">$INFO[ListItem.path]../logo.png</texture>
@@ -847,13 +842,13 @@
 			<align>center</align>
 			<font>Font_Bartowski_TV_Title</font>
 			<textcolor>mainblue</textcolor>
-			<label>[B]$INFO[ListItem.TVShowtitle][/B]</label>
+			<label>$INFO[ListItem.TVShowtitle]</label>
 			<include>Animation_Viewtype_Files_RightArea</include>
 			<visible>Control.IsVisible(598) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7019)) + IsEmpty(Control.GetLabel(9019))</visible>
 		</control>
 	<control type="group">
 		<visible>Control.IsVisible(598) + !Window.IsActive(videoplaylist) + !IsEmpty(ListItem.Title)</visible>
-		<posx>720</posx>
+		<posx>775</posx>
 		<posy>96</posy>
 		<include>Animation_Viewtype_Wall_UnderInfo</include>
 		<include>Animation_HiddenByInfo</include>
@@ -861,15 +856,16 @@
 			<control type="label">
 				<visible>Container.Content(seasons)</visible>
 				<posx>0</posx>
-				<posy>-4</posy>
+				<posy>40</posy>
 				<width>630</width>
 				<height>89</height>
 				<align>center</align>
 				<font>Font_Neon_26</font>
 				<textcolor>white</textcolor>
-				<label>[B]$INFO[ListItem.label][/B]</label>
+				<label>$INFO[ListItem.label]</label>
 			</control>
-			<control type="label">
+		<!-- Remove Genre 
+		<control type="label">
 				<visible>Container.Content(tvshows)</visible>
 				<posx>0</posx>
 				<posy>0</posy>
@@ -877,8 +873,8 @@
 				<height>89</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
-				<label>[B][COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [B][COLOR=white]$INFO[ListItem.Genre][/B][/COLOR]</label>
-			</control>
+				<label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
+			</control> -->
 			<control type="label">
 				<visible>Container.Content(tvshows)</visible>
 				<posx>0</posx>
@@ -887,7 +883,7 @@
 				<height>89</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(tvshows)</visible>
@@ -897,11 +893,11 @@
 				<height>89</height>
 				<align>center</align>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
 			</control>
 	</control>
 		<control type="group">
-		<posx>40</posx>
+		<posx>60</posx>
 		<posy>0</posy>
 		<include>Animation_HiddenByInfo</include>
 		<include>Animation_Viewtype_Files_RightArea</include>
@@ -909,37 +905,38 @@
 			<control type="label">
 				<visible>Container.Content(episodes)</visible>
 				<posx>830</posx>
-				<posy>90</posy>
-				<width>630</width>
+				<posy>120</posy>
+				<width>530</width>
 				<height>89</height>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>Text-Filemode</textcolor>
-				<label>[B]$LOCALIZE[20373] $INFO[ListItem.Season]     $LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
+				<label>$LOCALIZE[20373] $INFO[ListItem.Season]     $LOCALIZE[20359] $INFO[ListItem.Episode]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(episodes)</visible>
-				<posx>770</posx>
-				<posy>136</posy>
-				<width>630</width>
+				<posx>830</posx>
+				<posy>166</posy>
+				<width>530</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>Container.Content(episodes)</visible>
-				<posx>770</posx>
-				<posy>162</posy>
-				<width>630</width>
+				<posx>830</posx>
+				<posy>192</posy>
+				<width>530</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
+				
+				<label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
 			</control>
 			<control type="textbox"><!-- Plot TV -->
 				<visible>Container.Content(episodes)</visible>
-				<posx>750</posx>
-				<posy>190</posy>
-				<width>476</width>
-				<height>280</height>
+				<posx>785</posx>
+				<posy>220</posy>
+				<width>400</width>
+				<height>250</height>
 				<align>justify</align>
 				<info>ListItem.Plot</info>
 				<font>Font_Bartowski_Movies</font>

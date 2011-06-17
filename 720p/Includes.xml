@@ -200,22 +200,23 @@
 	</include>
 
 	<include name="ondown_small_trailer">
-		<ondown>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</ondown>
+		
+		<ondown>PlayMedia($INFO[ListItem.Trailer],1)</ondown>
 	</include>
 	<include name="ondown_big_trailer">
-		<ondown>XBMC.PlayMedia($INFO[ListItem.Trailer],noresume)</ondown>
+		<ondown>PlayMedia($INFO[ListItem.Trailer])</ondown>
 	</include>
 	<include name="onleft_small_trailer">
-		<onleft>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</onleft>
+		<onleft>PlayMedia($INFO[ListItem.Trailer],1)</onleft>
 	</include>
 	<include name="onleft_big_trailer">
-		<onleft>XBMC.PlayMedia($INFO[ListItem.Trailer],noresume)</onleft>
+		<onleft>PlayMedia($INFO[ListItem.Trailer])</onleft>
 	</include>
 	<include name="onclick_small_trailer">
-		<onclick>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</onclick>
+		<onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
 	</include>
 	<include name="onclick_big_trailer">
-		<onclick>XBMC.PlayMedia($INFO[ListItem.Trailer],noresume)</onclick>
+		<onclick>PlayMedia($INFO[ListItem.Trailer])</onclick>
 	</include>
 	
 	

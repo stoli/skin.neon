@@ -1,5 +1,5 @@
 <includes>
-	<include name="Viewtype_Files">
+	<include name="Viewtype_Files"> <!-- List View -->
 		<control type="group">
 			<visible>Control.IsVisible(50)</visible>
 			<include>VisibleFadeEffect</include>

@@ -63,6 +63,7 @@
 			</control>
 		</control>
 	</include>
+	
 	<include name="Trailer_Landscape_Fanart"><!--Landscape Season Episodes-->
 		<control type="group">
 			<visible>Player.HasVideo + [Control.IsVisible(633) | Control.IsVisible(593)]</visible>
@@ -156,7 +157,7 @@
 	</include>
 	<include name="Trailer_Poster">
 	<control type="group">
-			<visible>Control.IsVisible(55) + !Control.IsVisible(50) + Player.HasVideo</visible>
+			<visible>Control.IsVisible(55) + !Control.IsVisible(50) + Player.HasVideo + Container.Content(tvshows)</visible>
 			<animation effect="zoom" start="0" end="68" time="0" delay="0" condition="true">Conditional</animation>
 			<animation effect="fade" start="0" end="100" time="800" delay="800" condition="true">Conditional</animation>
 			<animation effect="slide" start="0,0" end="-20,80" time="0" condition="Container.Content(tvshows) | Container.Content(seasons)">Conditional</animation>
@@ -229,6 +230,38 @@
 			</control>
 		</control>
 	</include>
+		<include name="Trailer_Multiplex">
+		<control type="group">
+			<visible>Control.IsVisible(588) + Player.HasVideo</visible>
+			<animation effect="zoom" start="0" end="78" time="400" delay="0" condition="Player.HasVideo">Conditional</animation>
+			<animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
+			<posx>-10</posx>
+			<posy>35</posy>
+			<control type="image"> 
+				<description>trailer background</description>
+				<posx>40</posx>
+				<posy>10</posy>   
+				<width>510</width>     
+				<height>295</height> 
+				<texture>tv-episodes/context-back.png</texture>
+			</control>
+			<control type="videowindow" id="2">
+				<posx>30</posx>
+				<posy>15</posy>
+				<width>531</width>
+				<height>285</height>
+			</control>
+			<control type="image"> 
+				<description>trailer image</description>
+				<posx>15</posx>
+				<posy>-9</posy>   
+				<width>560</width>     
+				<height>335</height> 
+				<colordiffuse>black</colordiffuse>
+				<texture>episodeframe.png</texture>
+			</control>
+		</control>
+	</include>
 	<include name="Trailer_16x9">
 		<control type="group">
 			<visible>Control.IsVisible(59) + Player.HasVideo</visible>
@@ -256,23 +289,23 @@
 	</include>
 	<include name="Trailer_Files">
 		<control type="group">
-			<visible>Control.IsVisible(50) + Player.HasVideo</visible>
+			<visible>Control.IsVisible(50) + Player.HasVideo + Container.Content(episodes)</visible>
 			<animation effect="zoom" start="0" end="60" time="0" delay="0" condition="Player.HasVideo">Conditional</animation>
 			<animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
-			<posx>800</posx>
-			<posy>900</posy>
+			<posx>1380</posx>
+			<posy>95</posy>
 			<control type="videowindow" id="8">
 				<posx>30</posx>
 				<posy>26</posy>
-				<width>500</width>
-				<height>256</height>
+				<width>600</width>
+				<height>338</height>
 			</control>
 			<control type="image"> 
 				<description>trailer image</description>
-				<posx>30</posx>
-				<posy>8</posy>   
-				<width>498</width>     
-				<height>295</height> 
+				<posx>5</posx>
+				<posy>-2</posy>   
+				<width>650</width>     
+				<height>390</height> 
 				<colordiffuse>black</colordiffuse>
 				<texture>episodeframe.png</texture>
 			</control>

@@ -716,72 +716,82 @@
 						<item id="1">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.1.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.1.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.1.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.1.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.1.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.1.Fanart)]</thumb>
 						</item>
 						<item id="2">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.2.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.2.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.2.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.2.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.2.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.2.Fanart)]</thumb>
 						</item>
 						<item id="3">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.3.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.3.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.3.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.3.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.3.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.3.Fanart)]</thumb>
 						</item>
 						<item id="4">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.4.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.4.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.4.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.4.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.4.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.4.Fanart)]</thumb>
 						</item>
 						<item id="5">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.5.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.5.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.5.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.5.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.5.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.5.Fanart)]</thumb>
 						</item>
 						<item id="6">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.6.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.6.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.6.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.6.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.6.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.6.Fanart)]</thumb>
 						</item>
 						<item id="7">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.7.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.7.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.7.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.7.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.7.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.7.Fanart)]</thumb>
 						</item>
 						<item id="8">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.8.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.8.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.8.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.8.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.8.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.8.Fanart)]</thumb>
 						</item>
 						<item id="9">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.9.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.9.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.9.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.9.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.9.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.9.Fanart)]</thumb>
 						</item>
 						<item id="10">
 							<label>-</label>
 							<label2></label2>
-							<onclick>$INFO[Window.Property(LatestSong.10.Path)]</onclick>
-							<icon>$INFO[Window.Property(LatestSong.10.Thumb)]</icon>
-							<thumb>$INFO[Window.Property(LatestSong.10.Fanart)]</thumb>
+							<onclick>PlayList.Clear</onclick>
+							<onclick>PlayMedia(&quot;$INFO[Window.Property(LatestAlbum.10.Path)]&quot;)</onclick>
+							<icon>$INFO[Window.Property(LatestAlbum.10.Thumb)]</icon>
+							<thumb>$INFO[Window.Property(LatestAlbum.10.Fanart)]</thumb>
 						</item>
 					</content>
 				</control>

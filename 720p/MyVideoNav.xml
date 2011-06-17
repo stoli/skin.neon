@@ -59,7 +59,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
 			<include>Animation_MyVideoNav_Fanart</include>
-			<texture background="true" fallback="backgrounds/movies.jpg">extras/genrefanart/$INFO[ListItem.Label].jpg</texture>
+			<texture background="true" fallback="special://skin/backgrounds/movies.jpg">extras/genrefanart/$INFO[ListItem.Label].jpg</texture>
 			<include>global_kenburns_fanart</include>
 			<visible>Container.Content(genres)</visible>
 		</control>

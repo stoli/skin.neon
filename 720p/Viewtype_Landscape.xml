@@ -14,7 +14,7 @@
 			<aspectratio>stretch</aspectratio>
 			<include>Animation_BackdropFade</include>
 		</control>
-		<control type="image">
+	<!--	<control type="image">
 			<visible>Control.IsVisible(52) + !Skin.HasSetting(TVPosters) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
 			<posx>0</posx>
 			<posy>0</posy>
@@ -57,7 +57,7 @@
 			<aspectratio>stretch</aspectratio>
 			<include>Animation_LandscapeFade</include>
 			<include>Animation_HiddenByInfo</include>
-		</control>
+		</control>  -->
 		
 		<control type="wraplist" id="52">
 			<posx>10</posx>
@@ -85,7 +85,7 @@
 					<posy>50</posy>
 					<width>230</width>
 					<height>89</height>
-					<texture background="true" fallback="backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
+					<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
 					<fadetime>300</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<animation effect="fade" start="60" end="60" time="0" condition="true">conditional</animation>
@@ -131,7 +131,7 @@
 					<posy>50</posy>
 					<width>230</width>
 					<height>89</height>
-					<texture background="true" fallback="backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
+					<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[ListItem.path]logo.png</texture>
 					<fadetime>200</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 				</control>
@@ -247,10 +247,10 @@
 				<!--<animation effect="zoom" start="2,122,0,281" end="0,0,500,281" time="800" delay="200">Visible</animation>-->
 			</control>
 			<control type="image">
-				<posx>410</posx>
-				<posy>340</posy>
-				<width>120</width>
-				<height>91</height>
+				<posx>440</posx>
+				<posy>345</posy>
+				<width>65</width>
+				<height>65</height>
 				<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 				<visible>Skin.HasSetting(tvoverlays) + !Skin.HasSetting(TVPosters) + Container.Content(tvshows) + !IsEmpty(ListItem.Overlay)</visible>
 			</control>

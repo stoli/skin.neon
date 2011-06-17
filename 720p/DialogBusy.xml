@@ -8,14 +8,15 @@
 	</coordinates>
 	<controls>
 		<control type="group">
-			<posx>1070</posx>
-			<posy>638</posy>
+			<posx>1078</posx>
+			<posy>648</posy>
 			<control type="image">
 				<description>background image</description>
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>200</width>
 				<height>72</height>
+				<colordiffuse>mainblue</colordiffuse>
 				<texture border="20">OverlayDialogBackground.png</texture>
 			</control>
 			<control type="image">
@@ -27,7 +28,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>busy.png</texture>
 				<aspectratio>keep</aspectratio>
-				<animation effect="rotate" start="0" end="360" center="36,36" time="1200" loop="true" condition="true">conditional</animation>
+				<animation effect="rotate" start="360" end="0" center="36,36" time="1200" loop="true" condition="true">conditional</animation>
 			</control> 
 			
 			<!-- <control type="multiimage">

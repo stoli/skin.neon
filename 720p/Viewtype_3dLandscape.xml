@@ -51,7 +51,7 @@
 				<posx>150</posx>
 				<posy>60</posy>
 					<control type="image">
-						<posx>136</posx>
+						<posx>137</posx>
 						<posy>132</posy>
 						<width>28</width>
 						<height>168</height>
@@ -67,19 +67,12 @@
 						<colordiffuse>89FFFFFF</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
+					
 					<control type="image">
 						<posx>-150</posx>
 						<posy>130</posy>
 						<width>304</width>
-						<height>172</height>
-						<texture>movie-poster/xper_test.png</texture>
-						<colordiffuse>BackgroundColor</colordiffuse>
-					</control>
-					<control type="image">
-						<posx>-150</posx>
-						<posy>130</posy>
-						<width>304</width>
-						<height>172</height>
+						<height>170</height>
 						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -97,9 +90,9 @@
 					</control>
 					<control type="image">
 						<posx>-150</posx>
-						<posy>130</posy>
-						<width>304</width>
-						<height>172</height>
+						<posy>127</posy>
+						<width>302</width>
+						<height>174</height>
 						<texture>list/3d_back_overlay1.png</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -107,11 +100,11 @@
 					</control>
 					<control type="label"><!-- Episode Description -->
 						<posx>5</posx>
-						<posy>274</posy>
+						<posy>273</posy>
 						<width>300</width>
 						<height>50</height>
 						<align>center</align>
-						<font>LiberationSans_Regular_18</font>
+						<font>Font_Neon_18</font>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="60" end="60" time="0" condition="stringcompare(ListItem.Overlay,OverlayWatched.png)">Conditional</animation>
@@ -123,7 +116,7 @@
 						<width>294</width>
 						<height>50</height>
 						<align>center</align>
-						<font>LiberationSans_Regular_18</font>
+						<font>Font_Neon_18</font>
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="rotatex" start="180" end="180" center="330" time="0" condition="true">Conditional</animation>
@@ -152,12 +145,12 @@
 						<visible>Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>100</posx>
+						<posx>95</posx>
 						<posy>264</posy>
-						<width>60</width>
+						<width>45</width>
 						<height>45</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-						<colordiffuse>mainblue</colordiffuse>
+						
 						<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
 					<control type="image">
@@ -189,9 +182,9 @@
 					</control>
 					<control type="image">
 						<posx>236</posx>
-						<posy>90</posy>
+						<posy>93</posy>
 						<width>38</width>
-						<height>226</height>
+						<height>223</height>
 						<texture>movie-poster/newcase.png</texture>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
@@ -199,42 +192,9 @@
 							<effect type="fade" start="0" end="100" time="600" />
 						</animation>
 					</control>
-					<control type="image">
-						<posx>238</posx>
-						<posy>306</posy>
-						<width>54</width>
-						<height>304</height>
-						<texture>movie-poster/test2.png</texture>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="fade" start="0" end="800" time="800" />
-						</animation>
-					</control>
-					<control type="image">
-						<posx>-150</posx>
-						<posy>86</posy>
-						<width>407</width>
-						<height>232</height>
-						<texture>movie-poster/xper_test.png</texture>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-						</animation>
-					</control>
-					<control type="image">
-						<posx>-148</posx>
-						<posy>314</posy>
-						<width>402</width>
-						<height>226</height>
-						<texture>movie-poster/mask_border2_3d1.png</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="fade" start="0" end="50" time="600" />
-						</animation>
-					</control>
+					
+					
+					
 					<control type="image">
 						<posx>-148</posx>
 						<posy>310</posy>
@@ -266,7 +226,7 @@
 					<control type="image">
 						<posx>-150</posx>
 						<posy>312</posy>
-						<width>407</width>
+						<width>405</width>
 						<height>224</height>
 						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]landscape.jpg</texture>
 						<fadetime>200</fadetime>
@@ -279,9 +239,9 @@
 					</control>
 					<control type="image">
 						<posx>-150</posx>
-						<posy>86</posy>
-						<width>407</width>
-						<height>232</height>
+						<posy>90</posy>
+						<width>405</width>
+						<height>226</height>
 						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -318,9 +278,9 @@
 						</animation>
 					</control>-->
 					<control type="image">
-						<posx>-150</posx>
-						<posy>86</posy>
-						<width>407</width>
+						<posx>-147</posx>
+						<posy>81</posy>
+						<width>401</width>
 						<height>232</height>
 						<texture>list/3d_back_overlay1.png</texture>
 						<fadetime>200</fadetime>
@@ -331,12 +291,12 @@
 						<visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left) + [Container.Content(episodes) | Window.IsActive(videoplaylist)]</visible>
 					</control>
 					<control type="image">
-						<posx>188</posx>
-						<posy>266</posy>
-						<width>80</width>
+						<posx>195</posx>
+						<posy>263</posy>
+						<width>60</width>
 						<height>60</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-						<colordiffuse>mainblue</colordiffuse>
+						
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
 						</animation>

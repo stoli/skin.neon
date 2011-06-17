@@ -43,7 +43,7 @@
 						<posy>122</posy>
 						<width>330</width>
 						<height>186</height>
-						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="special://skin/backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<visible>!Container.Content(episodes)</visible>
@@ -53,7 +53,7 @@
 						<posy>122</posy>
 						<width>330</width>
 						<height>186</height>
-						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="special://skin/backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<visible>Container.Content(episodes)</visible>
@@ -93,19 +93,19 @@
 						<texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
 					</control>
 					<control type="image">
-						<posx>245</posx>
-						<posy>95</posy>
-						<width>30</width>
-						<height>30</height>
+						<posx>290</posx>
+						<posy>270</posy>
+						<width>40</width>
+						<height>40</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						
 						<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 					</control>
 					<control type="image">
-						<posx>245</posx>
-						<posy>95</posy>
-						<width>30</width>
-						<height>30</height>
+						<posx>290</posx>
+						<posy>270</posy>
+						<width>40</width>
+						<height>40</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						
 						<visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay) + Container.Content(movies)</visible>
@@ -144,7 +144,7 @@
 						<posy>122</posy>
 						<width>600</width>
 						<height>338</height>
-						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="special://skin/backgrounds/missing.jpg">$INFO[ListItem.Property(Fanart_Image)]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
@@ -157,7 +157,7 @@
 						<posy>122</posy>
 						<width>600</width>
 						<height>338</height>
-						<texture background="true" diffuse="postermatte.png" fallback="backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="postermatte.png" fallback="special://skin/backgrounds/missing.jpg">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>					
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
@@ -216,10 +216,10 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>470</posx>
-						<posy>78</posy>
-						<width>45</width>
-						<height>45</height>
+						<posx>550</posx>
+						<posy>415</posy>
+						<width>50</width>
+						<height>50</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						
 						<animation type="Focus" reversible="false">
@@ -229,10 +229,10 @@
 						<visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
 					</control>
 					<control type="image">
-						<posx>470</posx>
-						<posy>78</posy>
-						<width>45</width>
-						<height>45</height>
+						<posx>550</posx>
+						<posy>405</posy>
+						<width>60</width>
+						<height>60</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="191,440" start="90" end="100" time="400" tween="back" easing="out" />
