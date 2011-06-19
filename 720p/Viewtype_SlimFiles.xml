@@ -559,7 +559,7 @@
 			<visible>Container(598).OnPrevious + !IsEmpty(ListItem.Title)</visible>
 		</control>
 	</control>
-		<control type="group">
+	<control type="group">
 		<include>Animation_HiddenByInfo</include>
 		<visible>Control.IsVisible(598) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
 		<include>Animation_Viewtype_Files_RightArea</include>	
@@ -575,6 +575,7 @@
 			<fadetime>100</fadetime>
 			<visible>!Skin.HasSetting(MusicLogo)</visible>
 		</control>
+		
 		<control type="image">
 			<posx>1020</posx>
 			<posy>600</posy>
