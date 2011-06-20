@@ -559,7 +559,7 @@
 			<visible>Container(598).OnPrevious + !IsEmpty(ListItem.Title)</visible>
 		</control>
 	</control>
-		<control type="group">
+	<control type="group">
 		<include>Animation_HiddenByInfo</include>
 		<visible>Control.IsVisible(598) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
 		<include>Animation_Viewtype_Files_RightArea</include>	
@@ -575,6 +575,7 @@
 			<fadetime>100</fadetime>
 			<visible>!Skin.HasSetting(MusicLogo)</visible>
 		</control>
+		
 		<control type="image">
 			<posx>1020</posx>
 			<posy>600</posy>
@@ -602,7 +603,7 @@
 			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-		<!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
+			<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> 
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(598).OnNext + !Skin.HasSetting(MusicLogo)</visible>
@@ -614,9 +615,7 @@
 			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(-1).Artist]/logo.png</texture>
-			<animation type="Hidden">
-				<effect type="fade" time="400" start="100" end="0" />
-			</animation>
+			
 			<visible>Container(598).OnNext + Skin.HasSetting(MusicLogo)</visible>
 		</control>
 		<control type="image">
@@ -640,9 +639,7 @@
 			<height>89</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
 			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(1).Artist]/logo.png</texture>
-			<animation type="Hidden">
-				<effect type="fade" time="400" start="100" end="0" />
-			</animation>
+			
 			<visible>Container(598).OnNext + Skin.HasSetting(MusicLogo)</visible>
 		</control>
 	</control>
@@ -668,7 +665,7 @@
 			<width>400</width>
 			<height>155</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
+			<texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
 			
 			<bordersize>5</bordersize>
 			<fadetime>100</fadetime>
@@ -695,7 +692,7 @@
 			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
+			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> 
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(598).OnNext</visible>
@@ -710,7 +707,7 @@
 			<bordertexture border="5">button-nofocus.png</bordertexture>
 			<bordersize>5</bordersize>
 			<animation type="Hidden">
-		<!--	<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
+			<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> 
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
 			<visible>Container(598).OnPrevious</visible>

@@ -72,6 +72,7 @@
 			<include>AlbumInfoListView</include> <!-- 513 -->
 			<include>Viewtype_MusicLogo</include>
 			<include>Viewtype_SlimFiles</include> <!-- 598 -->
+		
 		</control>
 	<control type="group">
 		<include>Animation_HiddenByInfo</include>
