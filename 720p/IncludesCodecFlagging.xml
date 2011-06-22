@@ -123,7 +123,7 @@
 			<height>40</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flagging/video/dvd.png</texture>
-			<visible>substring(ListItem.FilenameAndPath,dvd) + !substring(ListItem.FilenameAndPath,hddvd)</visible>
+			<visible>substring(ListItem.FilenameAndPath,dvd) + !substring(ListItem.FilenameAndPath,hddvd) + ![substring(ListItem.Filename,bluray) | substring(ListItem.Filename,blu-ray) | substring(ListItem.Filename,brrip) | substring(ListItem.Filename,.m2ts,Right) | substring(ListItem.Filename,.bdmv,Right) | [[!substring(ListItem.Filename,dvdrip) + !substring(ListItem.Filename,sddvd) + !substring(ListItem.Filename,blu-ray) + !substring(ListItem.Filename,brrip) + !substring(ListItem.Filename,tvrip) + !substring(ListItem.Filename,pdtv) + !substring(ListItem.Filename,hddvd) + !substring(ListItem.Filename,sdtv) + !substring(ListItem.Filename,hdtv) + !substring(ListItem.Filename,.evo,Right) + !substring(ListItem.Filename,.ifo,Right) + !substring(ListItem.Filename,.vob,Right)] + [Container.Content(Movies) | Window.IsVisible(VideoPlaylist)] + [stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)]]]</visible>
 		</control>
 	</include>
 	<include name="VideoMPAAFlaggingConditions_Grey">

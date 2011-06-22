@@ -201,7 +201,7 @@
 		<visible>Control.IsVisible(595) + [Container.Content(movies) | Container.Content(videos)] + Control.HasFocus(8241) + ![Control.HasFocus(8241) + Player.HasVideo]</visible>
 		<include>Animation_HiddenByInfo</include>		
 		<include>Animation_BackdropFade</include>
-			<control type="image" id="8241">
+			<control type="image" id="8243">
 				<posx>680</posx>
 				<posy>200</posy>
 				<width>261</width>
@@ -216,7 +216,7 @@
 				<width>284</width>
 				<height>166</height>
 				<texture>tv-landscape/landscapeframeFO.png</texture>
-				<visible>![IsEmpty(Control.GetLabel(8241)) + IsEmpty(Control.GetLabel(8242))]</visible>
+				<visible>![IsEmpty(Control.GetLabel(8243)) + IsEmpty(Control.GetLabel(8242))]</visible>
 			</control>
 			<control type="image" id="8242">
 				<posx>980</posx>
@@ -233,7 +233,7 @@
 				<width>284</width>
 				<height>166</height>
 				<texture>tv-landscape/landscapeframeFO.png</texture>
-				<visible>![IsEmpty(Control.GetLabel(8241)) + IsEmpty(Control.GetLabel(8242))]</visible>
+				<visible>![IsEmpty(Control.GetLabel(8242))]</visible>
 			</control>
 	</control>
 	
@@ -247,7 +247,7 @@
 		<info>ListItem.Plot</info>
 		<font>Font_Bartowski_Movies_Plot</font>
 		<textcolor>ffffffff</textcolor>
-		<animation effect="slide" start="0,0" end="0,180" time="0" condition="![IsEmpty(Control.GetLabel(8241)) + IsEmpty(Control.GetLabel(8242))]">Conditional</animation>
+		<animation effect="slide" start="0,0" end="0,180" time="0" condition="![IsEmpty(Control.GetLabel(8243)) + IsEmpty(Control.GetLabel(8242))]">Conditional</animation>
 		<animation effect="slide" start="1000,0" end="0,0" time="400" delay="600">Visible</animation>
 		<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
 		<include>Animation_HiddenByInfo</include>
@@ -258,21 +258,28 @@
 	<control type="group">
 		<visible>Control.IsVisible(595) + Control.HasFocus(8241) + Player.HasVideo</visible>
 		<animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
-		<posx>666</posx>
-		<posy>250</posy>
-		
+		<posx>638</posx>
+		<posy>230</posy>
+		<control type="image"> 
+			<description>trailer image</description>
+			<posx>30</posx>
+			<posy>26</posy>   
+			<width>500</width>     
+			<height>282</height> 
+			<texture>tv-episodes/context-back.png</texture>
+		</control>
 		<control type="videowindow" id="4">
 			<posx>30</posx>
 			<posy>26</posy>
 			<width>500</width>
-			<height>256</height>
+			<height>282</height>
 		</control>
 		<control type="image"> 
 			<description>trailer image</description>
-			<posx>20</posx>
-			<posy>15</posy>   
-			<width>590</width>     
-			<height>351</height> 
+			<posx>5</posx>
+			<posy>5</posy>   
+			<width>550</width>     
+			<height>325</height> 
 			<colordiffuse>black</colordiffuse>
 			<texture>episodeframe.png</texture>
 		</control>
@@ -280,7 +287,7 @@
 		
 	<control type="label">
 		<visible>Control.IsVisible(595) + !Control.HasFocus(8241) + !IsEmpty(ListItem.Title)</visible>
-		<posx>410</posx>
+		<posx>380</posx>
 		<posy>664</posy>
 		<width>370</width>
 		<height>50</height>
@@ -294,7 +301,7 @@
 	</control>	
 	<control type="label">
 		<visible>Control.IsVisible(595) + Control.HasFocus(8241) + !Player.HasVideo</visible>
-		<posx>410</posx>
+		<posx>380</posx>
 		<posy>664</posy>
 		<width>370</width>
 		<height>50</height>
@@ -307,7 +314,7 @@
 	</control>
 	<control type="label">
 		<visible>Control.IsVisible(595) + Control.HasFocus(8241) + Player.HasVideo + !IsEmpty(ListItem.Trailer)</visible>
-		<posx>410</posx>
+		<posx>380</posx>
 		<posy>664</posy>
 		<width>370</width>
 		<height>50</height>

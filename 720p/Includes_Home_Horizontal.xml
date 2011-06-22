@@ -401,7 +401,7 @@
 					<focusposition>2</focusposition>
 					<scrolltime>200</scrolltime>
 					<preloaditems>2</preloaditems>
-					<onup></onup>
+					<onup>301</onup>
 					<ondown>301</ondown>
 					<itemgap>0</itemgap>
 					<visible>Container(301).HasFocus(3)</visible>
