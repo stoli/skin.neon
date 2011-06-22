@@ -74,8 +74,8 @@
 			<preloaditems>2</preloaditems>
 			<pagecontrol>68</pagecontrol>
 			<include>Animation_Viewtype_Showcase_FocusArea</include>
-			<visible>!Skin.HasSetting(no_Showcase) + [Container.Content(movies) | substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)]</visible>
-			<itemlayout width="168" height="245">
+			<visible>!Skin.HasSetting(no_Showcase) + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)]</visible>
+			<itemlayout width="168" height="2875">
 				
 				<control type="image">
 					<posx>1</posx>
@@ -98,20 +98,22 @@
 				<!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
 				</control>
 				<control type="image">
-					<posx>-6</posx>
-					<posy>110</posy>
-					<width>180</width>
-					<height>275</height>
-					<texture>case-bluray.png</texture>
-					<visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
+					<posx>-7</posx>
+					<posy>108</posy>
+					<width>181</width>
+					<height>281</height>
+					<texture fallback="case-sets.png">case$INFO[ListItem.VideoResolution].png</texture>
+					<visible>!stringcompare(ListItem.Label,..) + !Skin.HasSetting(HideVideoCase) + !Container.Content(tvshows)</visible>
+					<aspectratio scalediffuse="false">stretch</aspectratio>
 				</control>
 				<control type="image">
-					<posx>-6</posx>
-					<posy>110</posy>
-					<width>180</width>
-					<height>275</height>
-					<texture>case-cd.png</texture>
-					<visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
+					<posx>-7</posx>
+					<posy>108</posy>
+					<width>181</width>
+					<height>281</height>
+					<texture>case-tv.png</texture>
+					<visible>!stringcompare(ListItem.Label,..) + !Skin.HasSetting(HideVideoCase) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
+					<aspectratio scalediffuse="false">stretch</aspectratio>
 				</control>
 				<control type="image">
 					<posx>1</posx>
@@ -125,10 +127,10 @@
 				<!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
 				</control>
 				<control type="image">
-					<posx>105</posx>
-					<posy>324</posy>
-					<width>80</width>
-					<height>60</height>
+					<posx>115</posx>
+					<posy>328</posy>
+					<width>50</width>
+					<height>50</height>
 					<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
 					<visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
 				</control>
@@ -184,19 +186,32 @@
 						<posy>60</posy>
 						<width>225</width>
 						<height>350</height>
-						<texture>case-bluray.png</texture>
-						<visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
+						<texture fallback="case-sets.png">case$INFO[ListItem.VideoResolution].png</texture>
+						<visible>!stringcompare(ListItem.Label,..) + !Skin.HasSetting(HideVideoCase) + !Container.Content(tvshows)</visible>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
 						</animation>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
-					<control type="image" id="61">
+					<control type="image">
 						<posx>-7</posx>
 						<posy>60</posy>
 						<width>225</width>
 						<height>350</height>
-						<texture>case-cd.png</texture>
-						<visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
+						<texture>case-tv.png</texture>
+						<visible>!stringcompare(ListItem.Label,..) + !Skin.HasSetting(HideVideoCase) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
+						</animation>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+					</control>
+					<control type="image">
+						<posx>90</posx>
+						<posy>70</posy>
+						<width>27</width>
+						<height>16</height>
+						<texture>movieset.png</texture>
+						<visible>ListItem.IsFolder + !stringcompare(ListItem.Label,..) + !SubString(Container.Folderpath,plugin://,left) + !Container.Content(tvshows)</visible>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="80,238" start="81" end="100" time="400" tween="back" easing="out" />
 						</animation>
@@ -227,8 +242,8 @@
 						<visible>!Control.IsVisble(60) | !Control.IsVisible(61)</visible>
 					</control>
 					<control type="image">
-						<posx>137</posx>
-						<posy>335</posy>
+						<posx>140</posx>
+						<posy>330</posy>
 						<width>68</width>
 						<height>68</height>
 						<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>

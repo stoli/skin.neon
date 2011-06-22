@@ -321,7 +321,23 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
 						</animation>
-						<visible>Container.Content(Genres)</visible>
+						<visible>Container.Content(Genres) + !Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+						<posx>-148</posx>
+						<posy>90</posy>
+						<width>211</width>
+						<height>300</height>
+						<texture diffuse="movie-poster/posterview_diffuse.png" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem.Label].jpg</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
+						</animation>
+						<visible>Container.Content(Genres) + Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 					<!--<control type="image">
 						<posx>-148</posx>
@@ -414,7 +430,25 @@
 							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
 							<effect type="fade" start="0" end="70" time="600" />
 						</animation>
-						<visible>Container.Content(Genres)</visible>
+						<visible>Container.Content(Genres) + !Skin.HasSetting(Poster_Fanart)</visible>
+					</control>
+					<control type="image">
+						<posx>-148</posx>
+						<posy>390</posy>
+						<width>211</width>
+						<height>300</height>
+						<texture diffuse="movie-poster/posterview_diffuse.png" fallback="defaultmoviegenre.jpg">extras/moviegenres/$INFO[ListItem.Label].jpg</texture>
+						<fadetime>200</fadetime>
+						<aspectratio scalediffuse="false">stretch</aspectratio>
+						<animation type="Focus" reversible="false">
+							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+							<effect type="zoom" center="60,238" start="100" end="145,155" time="600" delay="2000" tween="back" easing="out" />
+							<effect type="slide" end="0,-60" time="600" delay="2000" />
+							<effect type="rotatey" center="50" start="0" end="-9" time="600" delay="2000" />
+							<effect type="fade" start="0" end="70" time="600" />
+							
+						</animation>
+						<visible>Container.Content(Genres) + Skin.HasSetting(Poster_Fanart)</visible>
 					</control>
 					<control type="image">
 						<posx>-9</posx>
