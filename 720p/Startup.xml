@@ -41,8 +41,8 @@
 			<description>trigger with startup Playlist</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onfocus>XBMC.PlayerControl(PartyMode) $INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
-			<onfocus>Notification(Startup,Starting Playlist)</onfocus>
+			<onfocus>XBMC.PlayMedia($INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
+			<!--<onfocus>Notification(Startup,Starting Playlist)</onfocus>-->
 			<onfocus>ReplaceWindow(Home)</onfocus>
 			<visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
 		</control>	
