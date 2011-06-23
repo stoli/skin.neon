@@ -95,9 +95,9 @@
 	<string id="31233">Wähle einen Song</string><!-- GOOD -->
 	<string id="31234">on</string><!-- GODD -->
 	<string id="31235">GEHE ZURÜCK</string>
-	<string id="31237">Dürck Runter für Trailer</string>
-	<string id="31238">Dürck "X" zum Stoppen</string>
-	<string id="31240">Dürck "Left" für Trailer</string>
+	<string id="31237">Drücke "Runter" für Trailer</string>
+	<string id="31238">Drücke "X" zum Stoppen</string>
+	<string id="31240">Drücke "Links" für Trailer</string>
 	<string id="31241">Zeige Wetter Widget</string>
 	<string id="31242">Setze Timer</string><!-- GOOD -->
 	<string id="31243">Lösche Timer</string><!-- GOOD -->
@@ -110,7 +110,7 @@
 	<string id="31252">Letztes Update</string><!-- GOOD -->
 	<string id="31253">Letztes Album</string><!-- GOOD -->
 	<string id="31254">3 Tage - Mini</string>
-	<string id="31255">4 Tage - Full</string>
+	<string id="31255">4 Tage - Voll</string>
 	<string id="31256">Globale Einstellungen</string>
 	<string id="31257">Aktiviere zufälligen Musik Hintergrund - Wie im HauptMenu</string>
 	<string id="31258">Aktiviere zufälligen Bilder Hintergrund - Wie im HauptMenu</string>
@@ -120,7 +120,7 @@
 	<string id="31262">Setze Label</string>
 	<string id="31263">Script zum automatischen Logo Download</string>
 	<string id="31264">Starte Logo Script</string>
-	<string id="31265">Beim Starten des Scripts wird automatisch deine TV Serien Datenbank durchsucht und passendes Logo als Logo.png in den passenden Ordner gespeichert.[CR]*** Besuche www.lockstockmods.net für Infos und manuellen Download ***</string>
+	<string id="31265">Beim Starten des Scripts wird automatisch deine TV Serien Datenbank durchsucht und passende Logos als Logo.png in den passenden Ordner gespeichert.[CR]*** Besuche www.lockstockmods.net für Infos und manuellen Download ***</string>
 	
 
 
@@ -241,6 +241,3 @@ just copy the translations from Confluence to here
   <string id="31510">Timer Set</string>  
   
   </strings>
-
-  
-  

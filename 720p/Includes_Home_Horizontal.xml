@@ -785,7 +785,7 @@
 							</item>
 							<item id="8">
 								<label>$LOCALIZE[744]</label>
-								<onclick>ActivateWindow(Music)</onclick>
+								<onclick>ActivateWindow(MusicFiles)</onclick>
 							</item>
 							<item id="9">
 								<label>$LOCALIZE[136]</label>
@@ -917,8 +917,8 @@
 								<onclick>Hibernate()</onclick>
 							</item>
 							<item id="5">
-								<label>13313</label>
-								<onclick>RestartApp()</onclick>
+								<label>13013</label>
+								<onclick>Reboot()</onclick>
 							</item>
 							<item id="6">
 								<label>13012</label>
