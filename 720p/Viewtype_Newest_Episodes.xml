@@ -276,7 +276,7 @@
 			<include>VideoCodecFlaggingConditions</include>
 			<include>AudioCodecFlaggingConditions</include>
 			<include>AspectCodecFlaggingConditions</include>
-			<include>VideoTypeHackFlaggingConditions</include>
+			<!-- <include>VideoTypeHackFlaggingConditions</include> -->
 			<include>StudioFlags</include>
 		</control>
 	
