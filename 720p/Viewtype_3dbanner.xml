@@ -307,7 +307,7 @@
 				<aligny>center</aligny>
 				<font>Font_Neon_50</font>
 				<textcolor>mainblue</textcolor>
-				<label>[B]$INFO[ListItem.TVShowTitle][/B]</label>
+				<label>$INFO[ListItem.TVShowTitle]</label>
 				<include>Animation_Viewtype_3dland_Lefttop</include>
 				<visible>IsEmpty(Control.GetLabel(7198))</visible>
 			</control>
@@ -353,7 +353,7 @@
 				<height>89</height>
 				<font>Font_Neon_26</font>
 				<textcolor>white</textcolor>
-				<label>[B]$LOCALIZE[20373] $INFO[ListItem.season][/B]</label>
+				<label>$LOCALIZE[20373] $INFO[ListItem.season]</label>
 			</control>
 			<control type="label">
 				<visible>![Container.Content(seasons) | Container.Content(episodes)]</visible>
@@ -362,7 +362,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[B][COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [B][COLOR=white]$INFO[ListItem.Genre][/B][/COLOR]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>![Container.Content(seasons) | Container.Content(episodes)]</visible>
@@ -371,7 +371,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
 			</control>
 			<control type="label">
 				<visible>![Container.Content(seasons) | Container.Content(episodes)]</visible>
@@ -380,7 +380,7 @@
 				<width>630</width>
 				<height>89</height>
 				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF][B]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR][/B]      [COLOR=ListTrackF][B]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR][/B]</label>
+				<label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
 			</control>
 		<include>"Poster_Next_Aired"</include>
 	</control>	

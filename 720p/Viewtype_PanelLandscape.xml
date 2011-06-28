@@ -86,7 +86,7 @@
 					<width>298</width>
 					<label>$INFO[ListItem.Label]</label>
 					<align>center</align>
-					<font>Font_KeyboardKeys</font>
+					<font>Font_Neon_18</font>
 					<textcolor>ffffffff</textcolor>
 					<include>Animation_HiddenByInfo</include>
 					<visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
@@ -174,7 +174,7 @@
 					<width>298</width>
 					<label>$INFO[ListItem.Label]</label>
 					<align>center</align>
-					<font>Font_KeyboardKeys</font>
+					<font>Font_Neon_18</font>
 					<textcolor>ffffffff</textcolor>
 					<include>Animation_HiddenByInfo</include>
 					<animation type="Focus" reversible="false">

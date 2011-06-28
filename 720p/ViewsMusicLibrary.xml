@@ -161,7 +161,7 @@
 					<posy>390</posy>
 					<width>400</width>
 					<height>25</height>
-					<label>[B]$INFO[ListItem.Artist][/B]</label>
+					<label>$INFO[ListItem.Artist]</label>
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>center</aligny>

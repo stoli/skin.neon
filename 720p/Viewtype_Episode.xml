@@ -70,7 +70,7 @@
 					<posx>130</posx>
 					<posy>112</posy>
 					<width>235</width>
-					<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
+					<label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
 					<align>center</align>
 					<font>Font_Neon_22</font>
 					<textcolor>ffffffff</textcolor>
@@ -128,7 +128,7 @@
 					<posx>130</posx>
 					<posy>112</posy>
 					<width>235</width>
-					<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
+					<label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
 					<align>center</align>
 					<font>Font_Neon_22</font>
 					<textcolor>ffffffff</textcolor>
@@ -201,7 +201,7 @@
 			<align>justify</align>
 			<info>Container(51).ListItem.Plot</info>
 			<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-			<font>Font_RSS_Unicode</font>
+			<font>Font_EpisodePlot</font>
 			<textcolor>ffffffff</textcolor>
 			<include>Animation_HiddenByInfo</include>
 			<include>Animation_Viewtype_Episode_LeftSide</include>
@@ -258,7 +258,7 @@
 				<align>center</align>
 				<font>Font_Bartowski_Title_TVShow</font>
 				<textcolor>mainblue</textcolor>
-				<label>[UPPERCASE][B]$INFO[ListItem.Title][/B][/UPPERCASE]</label>
+				<label>[UPPERCASE]$INFO[ListItem.Title][/UPPERCASE]</label>
 				<visible>Window.IsActive(videoplaylist)</visible>
 			</control>
 			<control type="label"><!-- Episode season episode -->
@@ -309,7 +309,7 @@
 			<height>300</height>
 			<font>Font_Episode_Landscape_TVTitle</font>
 			<textcolor>mainblue</textcolor>
-			<label>[B]$INFO[ListItem.TVShowtitle][/B]</label>
+			<label>$INFO[ListItem.TVShowtitle]</label>
 			<include>Animation_HiddenByInfo</include>
 			<include>Animation_Viewtype_Episode_LeftSide</include>
 			<visible>Control.IsVisible(51) + [Container.Content(episodes) | Window.IsActive(videoplaylist)] + IsEmpty(Control.GetLabel(7016)) + IsEmpty(Control.GetLabel(9016))</visible>

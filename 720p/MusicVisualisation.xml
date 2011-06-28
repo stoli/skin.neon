@@ -219,7 +219,7 @@
 				<height>30</height>
 				<align>left</align>
 				<aligny>-</aligny>
-				<font>Font_Bartowski_Showcase_runtime_year</font>
+				<font>Font_Neon_22</font>
 				<label>[COLOR 80c2c4c3]Track: $INFO[MusicPlayer.TrackNumber] - [/COLOR][COLOR=white]$INFO[MusicPlayer.Title][/COLOR]</label>
 				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
 			</control>
@@ -352,7 +352,7 @@
 					<scrollout>false</scrollout>
 					<scrollspeed>1000</scrollspeed>
 					<pauseatend>10000</pauseatend>
-					<label>Up Next: $INFO[MusicPlayer.offset(1).Artist]: $INFO[MusicPlayer.offset(1).Title]</label>
+					<label>Next: $INFO[MusicPlayer.offset(1).Artist]: $INFO[MusicPlayer.offset(1).Title]</label>
 					<label>Second: $INFO[MusicPlayer.offset(2).Artist]: $INFO[MusicPlayer.offset(2).Title]</label>
 					<font>Font_Bartowski_Episodes</font>
 					<textcolor>50FFFFFF</textcolor>

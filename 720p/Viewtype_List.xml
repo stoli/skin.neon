@@ -338,9 +338,9 @@
 					<control type="textbox">
 						<description>Description Value for TVShows</description>
 						<posx>0</posx>
-						<posy>250</posy>
+						<posy>255</posy>
 						<width>600</width>
-						<height>160</height>
+						<height>150</height>
 						<font>Font_Neon_20</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
@@ -676,9 +676,9 @@
 					<control type="textbox">
 						<description>Description Value for Movie</description>
 						<posx>0</posx>
-						<posy>290</posy>
+						<posy>270</posy>
 						<width>600</width>
-						<height>120</height>
+						<height>132</height>
 						<font>Font_Neon_20</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>

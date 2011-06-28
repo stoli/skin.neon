@@ -33,6 +33,7 @@
 			<height>700</height>
 			<scrolltime>300</scrolltime>
 			<orientation>horizontal</orientation>
+			<pagecontrol>60</pagecontrol>
 			<viewtype label="$LOCALIZE[31268]">Panel</viewtype>
 			<onleft>594</onleft>
 			<onright>594</onright>
@@ -40,11 +41,11 @@
 			<ondown>7000</ondown>
 			<preloaditems>2</preloaditems>
 			<include>Animation_BackdropFade</include>
-			<visible>!Skin.HasSetting(no_Logo) + Container.Content(tvshows)</visible>
+			<visible>!Skin.HasSetting(no_Logo) + !Container.Content(Movies)</visible>
 			<itemlayout width="330" height="160">
 				<control type="group">
-				<posx>0</posx>
-				<posy>0</posy>
+					<posx>0</posx>
+					<posy>0</posy>
 					<control type="label">
 						<visible>IsEmpty(ListItem.Title)</visible>
 						<posx>115</posx>
@@ -71,17 +72,8 @@
 			</itemlayout>
 			<focusedlayout width="340" height="140">
 				<control type="group">
-				<posx>10</posx>
-				<posy>0</posy>
-					<!--<control type="image">
-						<posx>0</posx>
-						<posy>110</posy>
-						<width>234</width>
-						<height>4</height>
-						<texture>tv-landscape/highlight.png</texture>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation effect="zoom" start="130,80,1,1" end="0,0,234,4" time="200" delay="100">Focus</animation>
-					</control>-->
+					<posx>10</posx>
+					<posy>0</posy>
 					<control type="label">
 						<visible>IsEmpty(ListItem.Title)</visible>
 						<posx>115</posx>
@@ -110,9 +102,5 @@
 				</control>
 			</focusedlayout>
 		</control>
-		
-	
-	
-	
 	</include>
 </includes>

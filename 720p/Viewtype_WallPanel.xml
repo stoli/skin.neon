@@ -502,7 +502,7 @@
 			<width>370</width>
 			<height>50</height>
 			<aligny>center</aligny>
-			<font>Font_Alaya_Movie-trailer</font>
+			<font>Font_Neon_16</font>
 			<textcolor>ffffffff</textcolor>
 			<label>*$LOCALIZE[31240]*</label>
 			<shadowcolor>black</shadowcolor>
@@ -515,7 +515,7 @@
 			<width>370</width>
 			<height>50</height>
 			<aligny>center</aligny>
-			<font>Font_Alaya_Movie-trailer</font>
+			<font>Font_Neon_16</font>
 			<textcolor>ffffffff</textcolor>
 			<label>*$LOCALIZE[31238]*</label>
 			<shadowcolor>black</shadowcolor>

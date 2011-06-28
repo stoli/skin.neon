@@ -3,7 +3,7 @@
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,55,58,595,51,596,52,633,53,503,54,597,56,57,59,500,501,508,592,593,594,598,599,588</views>
+	<views>50,55,58,595,51,596,52,633,594,53,503,54,597,56,57,59,500,501,508,592,593,598,599,588</views>
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
@@ -113,7 +113,7 @@
 			<fadetime>1000</fadetime>
 			<include>Animation_MyVideoNav_Fanart</include>
 			<include>global_kenburns_fanart</include>
-			<visible>Skin.HasSetting(extrafanart) + Skin.HasSetting(usethumbs) + Container.Content(episodes) + ![Control.IsVisible(59) | Control.IsVisible(54) | Control.IsVisible(57) | Control.IsVisible(56) | Control.IsVisible(592) | Control.IsVisible(597) | Control.IsVisible(596)]</visible>
+			<visible>Skin.HasSetting(extrafanart) + Skin.HasSetting(usethumbs) + Container.Content(episodes) + ![Control.IsVisible(59) | Control.IsVisible(54) | Control.IsVisible(57) | Control.IsVisible(56) | Control.IsVisible(592) | Control.IsVisible(597) | Control.IsVisible(596) | Control.IsVisible(594)]</visible>
 		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
@@ -127,7 +127,7 @@
 			<fadetime>400</fadetime>
 			<texture>backdrops/curtains_diffuse.jpg</texture>
 			<include>Animation_MyVideoNav_Fanart</include>
-			<visible>Control.IsVisible(59)[Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
+			<visible>Control.IsVisible(59) + [Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
 		</control>
 
 

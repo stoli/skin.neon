@@ -94,7 +94,7 @@
 					<height>260</height>
 					<texture>posterframeF.png</texture>
 					<colordiffuse>39FFFFFF</colordiffuse>
-					<visible>!Control.IsVisble(60) | !Control.IsVisible(61)</visible>
+					<visible>(Control.IsVisible(60) | !Control.IsVisible(61)</visible>
 				<!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
 				</control>
 				<control type="image">
@@ -239,7 +239,7 @@
 							<effect type="zoom" center="90,258" start="81" end="100" time="300" tween="back" easing="out" />
 							<effect type="fade" start="0" end="60" time="600" />
 						</animation>
-						<visible>!Control.IsVisble(60) | !Control.IsVisible(61)</visible>
+						<visible>!Control.IsVisible(60) | !Control.IsVisible(61)</visible>
 					</control>
 					<control type="image">
 						<posx>140</posx>
@@ -285,7 +285,7 @@
 			<control type="textbox">
 				<visible>!Skin.HasSetting(ShowcaseFanart)</visible>
 				<posx>450</posx>
-				<posy>25</posy>
+				<posy>55</posy>
 				<width>540</width>
 				<height>300</height>
 				<font>Font_Bartowski_Showcase_plot</font>
@@ -399,7 +399,7 @@
 				<width>370</width>
 				<height>50</height>
 				<aligny>center</aligny>
-				<font>Font_Alaya_Movie-trailer</font>
+				<font>Font_Neon_16</font>
 				<textcolor>white</textcolor>
 				<label>*$LOCALIZE[31237]*</label>
 				<shadowcolor>black</shadowcolor>
@@ -414,7 +414,7 @@
 				<width>370</width>
 				<height>50</height>
 				<aligny>center</aligny>
-				<font>Font_Alaya_Movie-trailer</font>
+				<font>Font_Neon_16</font>
 				<textcolor>white</textcolor>
 				<label>*$LOCALIZE[31238]*</label>
 				<shadowcolor>black</shadowcolor>

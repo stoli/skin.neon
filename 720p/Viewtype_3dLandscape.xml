@@ -529,7 +529,7 @@
 					<height>234</height>
 					<align>justify</align>
 					<info>ListItem.Plot</info>
-					<font>Font_3dland_plot</font>
+					<font>Font_Neon_20</font>
 					<textcolor>white</textcolor>
 					<autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
 				</control>

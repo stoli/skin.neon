@@ -141,7 +141,7 @@
 					<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
 				</control>
 				<control type="label">
-					<visible>Containter.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
+					<visible>Container.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
 					<posx>135</posx>
 					<posy>100</posy>
 					<width>230</width>

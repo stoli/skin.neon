@@ -380,9 +380,10 @@
 	      <visible>!Container(588).OnNext + !Container(588).OnPrevious</visible>
           <animation effect="fade"  start="0" end="100" time="500" delay="1500">Visible</animation>
 	      <control type="image">
-	        <posx>164</posx>
+	        <posx>114</posx>
+			<posy>4</posy>
 	        <align>center</align>
-	        <width>162</width>
+	        <width>262</width>
 	        <height>28</height>
 	        <texture>mod/progress_back.png</texture>
 	        <animation effect="fade" start="20" time="800" condition="!IsEmpty(ListItem.Year)">Conditional</animation>

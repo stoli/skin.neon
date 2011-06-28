@@ -292,7 +292,7 @@
 		<width>370</width>
 		<height>50</height>
 		<aligny>center</aligny>
-		<font>Font_Alaya_Movie-trailer</font>
+		<font>Font_Neon_16</font>
 		<textcolor>mainblue</textcolor>
 		<label>*Press Down For Info*</label>
 		<shadowcolor>black</shadowcolor>
@@ -306,7 +306,7 @@
 		<width>370</width>
 		<height>50</height>
 		<aligny>center</aligny>
-		<font>Font_Alaya_Movie-trailer</font>
+		<font>Font_Neon_16</font>
 		<textcolor>mainblue</textcolor>
 		<label>*Press Down to Play Trailer*</label>
 		<shadowcolor>black</shadowcolor>
@@ -319,7 +319,7 @@
 		<width>370</width>
 		<height>50</height>
 		<aligny>center</aligny>
-		<font>Font_Alaya_Movie-trailer</font>
+		<font>Font_Neon_16</font>
 		<textcolor>mainblue</textcolor>
 		<label>*Press Up or "X" to stop Trailer*</label>
 		<shadowcolor>black</shadowcolor>

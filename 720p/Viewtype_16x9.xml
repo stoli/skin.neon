@@ -4,9 +4,6 @@
 	<include name="Viewtype_16x9">
 
 		<!-- Poster Wrap View -->
-		
-		
-		
 		<control type="wraplist" id="59">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -68,9 +65,9 @@
 					<control type="image">
 						<visible>Skin.HasSetting(ClearTitle) + !Container.Content(episodes)</visible>
 						<posx>10</posx>
-						<posy>88</posy>
-						<width>90</width>
-						<height>35</height>
+						<posy>92</posy>
+						<width>77</width>
+						<height>30</height>
 						<texture background="true">$INFO[ListItem.path]logo.png</texture>
 						<fadetime>300</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -86,10 +83,10 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="image">
-						<posx>266</posx>
-						<posy>86</posy>
-						<width>59</width>
-						<height>40</height>
+						<posx>270</posx>
+						<posy>90</posy>
+						<width>51</width>
+						<height>35</height>
 						<texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
 					</control>
 					<control type="image">
@@ -193,7 +190,7 @@
 					<control type="label"><!--Movie title-->
 						<visible>!Skin.HasSetting(ClearTitle) | Container.Content(movies) | Container.Content(episodes)</visible>
 						<posx>10</posx>
-						<posy>76</posy>
+						<posy>65</posy>
 						<width>500</width>
 						<height>50</height>
 						<font>Font_InfoYear2</font>
@@ -205,10 +202,10 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>500</posx>
-						<posy>56</posy>
-						<width>104</width>
-						<height>70</height>
+						<posx>505</posx>
+						<posy>62</posy>
+						<width>88</width>
+						<height>60</height>
 						<texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="191,440" start="90" end="100" time="400" tween="back" easing="out" />
@@ -250,7 +247,7 @@
 						<width>370</width>
 						<height>50</height>
 						<aligny>center</aligny>
-						<font>Font_Alaya_Movie-trailer</font>
+						<font>Font_Neon_16</font>
 						<textcolor>ffffffff</textcolor>
 						<label>*$LOCALIZE[31237]*</label>
 						<shadowcolor>black</shadowcolor>
@@ -265,7 +262,7 @@
 						<width>370</width>
 						<height>50</height>
 						<aligny>center</aligny>
-						<font>Font_Alaya_Movie-trailer</font>
+						<font>Font_Neon_16</font>
 						<textcolor>ffffffff</textcolor>
 						<label>*$LOCALIZE[31238]*</label>
 						<shadowcolor>black</shadowcolor>
@@ -377,7 +374,7 @@
 				<label>[COLOR=mainblue]$LOCALIZE[31226]:[/COLOR]</label>
 			</control>
 			<control type="group">
-				<posx>116</posx>
+				<posx>130</posx>
 				<posy>547</posy>
 				<include>VideoMPAAFlaggingConditions</include>
 				<animation effect="zoom" start="70" end="70" time="0" condition="true">Conditional</animation>
@@ -818,7 +815,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.2.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.2.ShowTitle),ListItem.Label)</visible>
@@ -827,7 +824,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.3.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.3.ShowTitle),ListItem.Label)</visible>
@@ -836,7 +833,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.4.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.4.ShowTitle),ListItem.Label)</visible>
@@ -845,7 +842,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.5.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.5.ShowTitle),ListItem.Label)</visible>
@@ -854,7 +851,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.6.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.6.ShowTitle),ListItem.Label)</visible>
@@ -863,7 +860,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.7.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.7.ShowTitle),ListItem.Label)</visible>
@@ -872,7 +869,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.8.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.Label)</visible>
@@ -881,7 +878,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.9.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.Label)</visible>
@@ -890,7 +887,7 @@
 				<width>180</width>
 				<height>100</height>
 				<align>center</align>
-				<font>Font_TVShow</font>
+				<font>Font_Neon_18</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[Window(Home).Property(LatestEpisode.10.EpisodeTitle)]</label>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.Label)</visible>
