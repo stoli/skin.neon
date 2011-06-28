@@ -88,7 +88,7 @@
 			<onleft>595</onleft>
 			<onright>595</onright>
 			<onup>stop</onup>
-			<ondown>XBMC.PlayMedia($INFO[ListItem.Trailer],1,noresume)</ondown>
+			<ondown>XBMC.PlayMedia("$INFO[ListItem.Trailer]",1,noresume)</ondown>
 			<onclick>PlayMedia($INFO[ListItem.FileNameAndPath])</onclick> 
 			<visible allowhiddenfocus="true">ControlGroup(8240).HasFocus</visible>
 		</control>
