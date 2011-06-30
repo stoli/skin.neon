@@ -1118,7 +1118,7 @@
 		<font>
 			<name>Font_RSS_Unicode</name>
 			<filename>DejeVu.ttf</filename>
-			<size>25</size>
+			<size>21</size>
 		</font>
 
 		<font>
@@ -1197,7 +1197,7 @@
 		<font>
 			<name>Font_TVShow</name>
 			<filename>DejeVu.ttf</filename>
-			<size>21</size>
+			<size>18</size>
 			<linespacing>1</linespacing>
 		</font>
 
