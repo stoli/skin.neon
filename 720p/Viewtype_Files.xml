@@ -13,7 +13,7 @@
 				<onright>60</onright>
 				<onup>50</onup>
 				<ondown>50</ondown>
-				<viewtype label="535">list</viewtype>
+				<viewtype label="$LOCALIZE[31135]">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
 				<visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>

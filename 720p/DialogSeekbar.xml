@@ -353,13 +353,15 @@
 	<posx>-300</posx>
 	<posy>0</posy>
 		<control type="label" id="0">
-			<posx>0</posx>
-			<posy>50</posy>
+			<posx>-365</posx>
+			<posy>340</posy>
 			<width>1920</width>
 			<align>center</align>
 			<aligny>top</aligny>
-			<label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label>
-			<font>Font_Bartowski_BigMusic</font>
+			<!-- <label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label> -->
+			<label>[B]=[/B]</label>
+			<font>Font_Neon_Pause</font>
+			<angle>90</angle>
 			<textcolor>33ffffff</textcolor>
 			<visible>player.paused + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 		</control>

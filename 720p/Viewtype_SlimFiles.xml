@@ -52,7 +52,7 @@
 			<onleft>7000</onleft>
 			<onright>60</onright>
 			<scrolltime>0</scrolltime>
-			<viewtype label="Slim List">list</viewtype>
+			<viewtype label="$LOCALIZE[31134]">list</viewtype>
 			<orientation>vertical</orientation>
 			<focusposition>2</focusposition>
 			<movement>2</movement>

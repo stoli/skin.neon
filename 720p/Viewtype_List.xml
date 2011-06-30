@@ -21,7 +21,7 @@
 				<onright>60</onright>
 				<onup>53</onup>
 				<ondown>53</ondown>
-				<viewtype label="Media View">list</viewtype>
+				<viewtype label="$LOCALIZE[31137]">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<focusposition>7</focusposition>
 				<movement>0</movement>

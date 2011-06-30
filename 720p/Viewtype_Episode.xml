@@ -24,7 +24,7 @@
 			<aspectratio>stretch</aspectratio>
 		</control>
 		<control type="fixedlist" id="51">
-			<viewtype label="$LOCALIZE[20359]">list</viewtype>
+			<viewtype label="$LOCALIZE[31143]">list</viewtype>
 			<posx>1010</posx>
 			<posy>0</posy>
 			<width>933</width>

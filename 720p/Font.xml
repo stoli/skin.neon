@@ -271,6 +271,11 @@
 			<size>24</size>
 		</font>
 		<font>
+			<name>Font_Neon_Pause</name>
+			<filename>Antipasto.ttf</filename>
+			<size>600</size>
+		</font>
+		<font>
 			<name>Font_Bartowski_Episode_ContextMenu</name>
 			<filename>Antipasto.ttf</filename>
 			<size>30</size>
@@ -953,6 +958,11 @@
 			<filename>DejeVu.ttf</filename>
 			<size>26</size>
 			<linespacing>1</linespacing>
+		</font>
+		<font>
+			<name>Font_Neon_Pause</name>
+			<filename>DejaVu.ttf</filename>
+			<size>415</size>
 		</font>
 		<font>
 			<name>Font_Bartowski_Title_Pause</name>

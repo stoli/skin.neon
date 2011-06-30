@@ -16,7 +16,7 @@
 			
 		</control>
 		<control type="fixedlist" id="596">
-			<viewtype label="$LOCALIZE[31296]">list</viewtype>
+			<viewtype label="$LOCALIZE[31144]">list</viewtype>
 			<posx>-20</posx>
 			<posy>35</posy>
 			<width>1300</width>

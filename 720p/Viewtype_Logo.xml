@@ -34,7 +34,7 @@
 			<scrolltime>300</scrolltime>
 			<orientation>horizontal</orientation>
 			<pagecontrol>60</pagecontrol>
-			<viewtype label="$LOCALIZE[31268]">Panel</viewtype>
+			<viewtype label="$LOCALIZE[31141]">Panel</viewtype>
 			<onleft>594</onleft>
 			<onright>594</onright>
 			<onup>7000</onup>

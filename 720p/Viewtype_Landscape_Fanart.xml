@@ -42,7 +42,7 @@
 			<include condition="!Skin.HasSetting(3dland_down_plot)">3dland_down_scrollbar</include>
 			<include condition="Skin.HasSetting(3dland_down_plot)">3dland_down_plot</include>
 			<pagecontrol>6330</pagecontrol>
-			<viewtype label="$LOCALIZE[20445]">list</viewtype>
+			<viewtype label="$LOCALIZE[31142]">list</viewtype>
 			<orientation>horizontal</orientation>
 			<scrolltime>300</scrolltime>
 			<focusposition>2</focusposition>

@@ -3,7 +3,7 @@
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,55,58,595,51,596,52,633,594,53,503,54,597,56,57,59,500,501,508,592,593,598,599,588</views>
+	<views>50,55,58,595,51,596,52,633,594,53,504,503,54,597,56,57,59,500,501,508,592,593,598,599,588</views>
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
@@ -89,32 +89,6 @@
 			<include>global_kenburns_fanart</include>
 			<visible>Skin.HasSetting(extrafanart) + Container.Content(episodes) + ![Control.IsVisible(59) | Control.IsVisible(54) | Control.IsVisible(57) | Control.IsVisible(56) | Control.IsVisible(592) | Control.IsVisible(597) | Control.IsVisible(596)]</visible>
 		</control>
-		<control type="multiimage">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
-			<imagepath background="true">$INFO[ListItem.Path]/extrathumbs</imagepath>
-			<timeperimage>7000</timeperimage>
-			<randomize>true</randomize>
-			<fadetime>1000</fadetime>
-			<include>Animation_MyVideoNav_Fanart</include>
-			<include>global_kenburns_fanart</include>
-			<visible>Skin.HasSetting(extrafanart) + Skin.HasSetting(usethumbs) + ![Control.IsVisible(59) | Control.IsVisible(54) | Control.IsVisible(57) | Control.IsVisible(56) | Control.IsVisible(592) | Control.IsVisible(597) | Control.IsVisible(596)]</visible>
-		</control>
-		<control type="multiimage">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
-			<imagepath background="true">$INFO[ListItem.Path]../extrathumbs</imagepath>
-			<timeperimage>7000</timeperimage>
-			<randomize>true</randomize>
-			<fadetime>1000</fadetime>
-			<include>Animation_MyVideoNav_Fanart</include>
-			<include>global_kenburns_fanart</include>
-			<visible>Skin.HasSetting(extrafanart) + Skin.HasSetting(usethumbs) + Container.Content(episodes) + ![Control.IsVisible(59) | Control.IsVisible(54) | Control.IsVisible(57) | Control.IsVisible(56) | Control.IsVisible(592) | Control.IsVisible(597) | Control.IsVisible(596) | Control.IsVisible(594)]</visible>
-		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<fadetime>400</fadetime>
@@ -127,7 +101,7 @@
 			<fadetime>400</fadetime>
 			<texture>backdrops/curtains_diffuse.jpg</texture>
 			<include>Animation_MyVideoNav_Fanart</include>
-			<visible>Control.IsVisible(59) + [Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
+			<visible>Control.IsVisible(59)[Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
 		</control>
 
 
@@ -141,11 +115,11 @@
 		<include>Viewtype_Landscape_Fanart</include> <!--  633  -->
 		<include>Viewtype_List</include><!--  53  -->
 		<include>Viewtype_Episode</include><!--  51  -->
-		<include>Viewtype_Wall</include> <!--  54  -->
+		<include>Viewtype_Wall</include><!--  54  -->
 		<include>Viewtype_Panel</include><!--  56  TV=Panel -->
 		<include>Viewtype_PanelLandscape</include><!--  57  -->
 		<include>Viewtype_BannerPanel</include><!--  592  -->
-		<!-- <include>Viewtype_WallPanel</include><!--  597  --> -->
+		<include>Viewtype_WallPanel</include><!--  597  -->
 		<include>Viewtype_16x9</include><!--  59  -->
 		<include>Viewtype_3dbanner</include><!--  593  --> 
 		<include>Viewtype_Logo</include><!--  594  -->
@@ -155,7 +129,6 @@
 		<include>PosterWrapView2_Fanart</include> <!-- 508 -->
 		<include>MediaListView3</include> <!-- 503 -->
 		<include>Viewtype_3DLandscape</include> <!-- 599 -->
-		<include>Viewtype_Multiplex</include> <!-- 588 -->
 		<include>Trailer</include>
 		<include>Trailer_TVLandscape</include>
 		<include>Trailer_Landscape_Fanart</include>
@@ -165,121 +138,99 @@
 		<include>ScrollOffsetLabel</include>
 		<include>Trailer_Media_View</include>
 		
-	
-	<control type="group">	
+<control type="group">	
 		<visible>!SubString(Window(25).Property(tvtunesIsAlive),True)</visible>
 		
 			<include>RSS_Music</include>
 			
 	</control>
-		<include>Time</include>
-		<include>Library Totals</include>
-		<include>Object_DebugGrid</include>
+		
 <!--		<include>7000_has_focus</include> -->
 		
 	<control type="group">
-		<width>1280</width>
-		<visible>!Skin.HasSetting(LockViews)</visible>
-		<include>Animation_CommonFade_ViewOptions</include>	
-		<control type="image"><!-- Floor -->
-			<posx>0</posx>
-			<posy>555</posy>
-			<width>1280</width>
-			<height>160</height>
-			<colordiffuse>mainblue</colordiffuse>
-			<texture>mainmenu/home_bottom_backthin.png</texture>
-			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
-		</control>
-		<control type="image"><!-- Floor -->
-			<posx>0</posx>
-			<posy>555</posy>
-			<width>1280</width>
-			<height>160</height>
-			<texture>mainmenu/home_bottom_align.png</texture>
-			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
-		</control>
+		<include>Animation_SettingsFade</include>	
+			<animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">Conditional</animation>
+			<animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">WindowClose</animation>
+			<include>SideBladeLeft</include>
+		<!--	<control type="image">
+				<description>LOGO</description>
+				<posx>-250</posx>
+				<posy>40</posy>
+				<width>220</width>
+				<height>60</height>
+				<aspectratio>keep</aspectratio>
+				<colordiffuse>mainblue</colordiffuse>
+				<texture>neon.png</texture>
+			</control> -->
 		
 			<control type="grouplist" id="7000">
-				<posx>25</posx>
-				<posy>680</posy>
-				<include>WindowMenuVars</include>
+				<posx>-250</posx>
+				<posy>30</posy>
 				
-				
+				<include>WindowMenuVars_Vertical</include>
+				<control type="label" id="204">
+					<width>250</width>
+					<height>35</height>
+					<font>Font_Neon_26</font>
+					<label>$LOCALIZE[31513]</label>
+					<textcolor>mainblue</textcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+				</control>
+				<control type="image" id="203">>
+					<description>separator</description>
+					<posx>-250</posx>
+					<posy>40</posy>
+					<width>240</width>
+					<aspectratio>keep</aspectratio>
+					<colordiffuse>mainblue</colordiffuse>
+					<texture>separator2.png</texture>
+				</control> -->
 				<control type="button" id="20">
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$INFO[Container.ViewMode]</label>
 					<onclick>Container.NextViewMode</onclick>
 				</control>
 				<control type="togglebutton" id="22">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31094]</label>
 					<altlabel>$LOCALIZE[31086]</altlabel>
 					<onclick>Skin.ToggleSetting(ShowcaseFanart)</onclick>
 					<selected>Skin.HasSetting(ShowcaseFanart)</selected>
 					<visible>Control.IsVisible(58)</visible>
-					<include>WindowMenuButton</include>
-				</control>
-				<control type="togglebutton" id="37">
-					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
-					<label>$LOCALIZE[31133]</label>
-					<altlabel>$LOCALIZE[31132]</altlabel>
-					<onclick>Skin.ToggleSetting(MultiPlexFanart)</onclick>
-					<selected>Skin.HasSetting(MultiPlexFanart)</selected>
-					<visible>Control.IsVisible(588)</visible>
-					<include>WindowMenuButton</include>
-				</control>
-				
-				<control type="togglebutton" id="39">
-					<description>Toggle Poster Info</description>
-					<include>WindowMenuButton</include>
-					<label>$LOCALIZE[31285]</label>
-					<altlabel>$LOCALIZE[31133]</altlabel>
-					<onclick>Skin.ToggleSetting(View508HideInfo)</onclick>
-					<selected>Skin.HasSetting(View508HideInfo)</selected>
-					<visible>Control.IsVisible(508)</visible>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 				</control>
 				<control type="togglebutton" id="25">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31201]</label>
 					<altlabel>$LOCALIZE[31200]</altlabel>
 					<onclick>Skin.ToggleSetting(extrathumbs)</onclick>
 					<selected>Skin.HasSetting(extrathumbs)</selected>
 					<visible>Control.IsVisible(58)</visible>
 				</control>
-				<control type="togglebutton" id="38">
-					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
-					<label>$LOCALIZE[31201]</label>
-					<altlabel>$LOCALIZE[31200]</altlabel>
-					<onclick>Skin.ToggleSetting(extrathumbs)</onclick>
-					<selected>Skin.HasSetting(extrathumbs)</selected>
-					<visible>Control.IsVisible(588)</visible>
-				</control>
 				<control type="togglebutton" id="26">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
-					<label>$LOCALIZE[31062]</label>
+					<include>WindowMenuButton_Vertical</include>
+					<label>$LOCALIZE[31094]</label>
 					<altlabel>$LOCALIZE[31086]</altlabel>
-					<onclick>Skin.ToggleSetting(FileFanartView)</onclick>
-					<selected>Skin.HasSetting(FileFanartView)</selected>
+					<onclick>Skin.ToggleSetting(3dLandscape_Fanart)</onclick>
+					<selected>Skin.HasSetting(3dLandscape_Fanart)</selected>
 					<visible>Control.IsVisible(53) + Container.Content(Movies) </visible>
 				</control>
 				<control type="togglebutton" id="36">
 					<description>Toggle Fanart</description>
-					<include>WindowMenuButton</include>
-					<label>$LOCALIZE[31721]</label>
-					<altlabel>$LOCALIZE[31086]</altlabel>
+					<include>WindowMenuButton_Vertical</include>
+					<label>$LOCALIZE[31086]</label>
+					<altlabel>$LOCALIZE[31721]</altlabel>
 					<onclick>Skin.ToggleSetting(FileFanartView)</onclick>
 					<selected>!Skin.HasSetting(FileFanartView)</selected>
-					<visible>[Control.IsVisible(53) + [Container.Content(TVShows)] + !Container.Content(seasons) + !Container.Content(episodes)]]</visible>
+					<visible>[Control.IsVisible(53) + Container.Content(TVShows)]</visible>
 				</control>
 				<control type="togglebutton" id="27">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31284]</label>
 					<altlabel>$LOCALIZE[31285]</altlabel>
 					<onclick>Skin.ToggleSetting(clean_poster)</onclick>
@@ -288,7 +239,7 @@
 				</control>
 				<control type="togglebutton" id="28">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31214]</label>
 					<altlabel>$LOCALIZE[31086]</altlabel>
 					<onclick>Skin.ToggleSetting(Files_Fanart)</onclick>
@@ -297,7 +248,7 @@
 				</control>
 				<control type="togglebutton" id="29">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31286]</label>
 					<altlabel>$LOCALIZE[31287]</altlabel>
 					<onclick>Skin.ToggleSetting(3dland_down_plot)</onclick>
@@ -307,7 +258,7 @@
 				</control>
 				<control type="togglebutton" id="30">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31214]</label>
 					<altlabel>$LOCALIZE[31086]</altlabel>
 					<onclick>Skin.ToggleSetting(3dbanner_fanart)</onclick>
@@ -316,7 +267,7 @@
 				</control>
 				<control type="togglebutton" id="31">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31214]</label>
 					<altlabel>$LOCALIZE[31086]</altlabel>
 					<onclick>Skin.ToggleSetting(Poster_Fanart)</onclick>
@@ -326,7 +277,7 @@
 				</control>
 				<control type="togglebutton" id="32">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31006]</label>
 					<altlabel>$LOCALIZE[21375]</altlabel>
 					<onclick>Skin.ToggleSetting(PosterPlus)</onclick>
@@ -335,7 +286,7 @@
 				</control>
 					<control type="togglebutton" id="24">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>$LOCALIZE[31202]</label>
 					<altlabel>$LOCALIZE[31203]</altlabel>
 					<onclick>Skin.ToggleSetting(ClearTitle)</onclick>
@@ -344,7 +295,7 @@
 				</control>
 				<control type="togglebutton" id="34">
 					<description>Toggle MoviesFanart</description>
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>31299</label>
 					<altlabel>31300</altlabel>
 					<onclick>Skin.ToggleSetting(no_new_recent_info)</onclick>
@@ -353,128 +304,171 @@
 				</control>
 				
 				<control type="button" id="3">
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<label>103</label>
 				</control>
+				
 				<control type="togglebutton" id="4">
-					<include>WindowMenuButton</include>
-					<!-- LOC -->
-					<label>$LOCALIZE[584]</label>
-					<!-- LOC -->
-					<altlabel>$LOCALIZE[585]</altlabel>				
+					<include>WindowMenuButton_Vertical</include>
+					<!-- Sort Ascending -->
+					<label>$LOCALIZE[31511]</label>
+					<!-- Sort Descending -->
+					<altlabel>$LOCALIZE[31512]</altlabel>				
 				</control>	
-				<control type="togglebutton" id="14">
-					<include>WindowMenuButton</include>
-					<!-- LOC -->
-					<label>$LOCALIZE[31096]</label>
-					<!-- LOC -->
-					<altlabel>$LOCALIZE[31097]</altlabel>				
+				<control type="radiobutton" id="14">
+					<description>Watched Toggle</description>
+					<textwidth>170</textwidth>
+					<include>WindowMenuButton_Vertical</include>
+					<label>20367</label>
 				</control>
-				<!--<control type="button" id="21">
-					<include>WindowMenuButton</include>
+				<!-- <control type="togglebutton" id="14">
+					<include>WindowMenuButton_Vertical</include>
+					<!-- Show Watched -->
+					<!-- <label>$LOCALIZE[31096]</label> -->
+					<!-- Hide Watched -->
+					<!-- <altlabel>$LOCALIZE[31097]</altlabel>	-->			
+				<!-- </control>  -->
+				<!-- <control type="button" id="21">
+					<include>WindowMenuButton_Vertical</include>
 					<label>29800</label>
 					<onclick>ReplaceWindow(VideoFiles)</onclick>
 					<visible>![Control.IsVisible(55) + Container.Content(movies)]</visible>
-				</control>-->
+				</control> -->
+				<control type="edit" id="19">
+					<description>Filter</description>
+					<textwidth>230</textwidth>
+					<include>WindowMenuButton_Vertical</include>
+					<label>587</label>
+				</control>
+				<control type="label" id="201">
+					<width>250</width>
+					<height>35</height>
+					<font>font12caps</font>
+					<label>31026</label>
+					<textcolor>mainblue</textcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+				</control>
+				<control type="image" id="202">
+					<description>separator</description>
+					<posx>-250</posx>
+					<posy>240</posy>
+					<width>240</width>
+					<aspectratio>keep</aspectratio>
+					<colordiffuse>mainblue</colordiffuse>
+					<texture>separator2.png</texture>
+				</control>
 				<control type="button" id="8">
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<description>Search</description>
 					<label>137</label>
 				</control>
+			<!--	<control type="radiobutton" id="7">
+					<description>Stack Toggle</description>
+					<textwidth>170</textwidth>
+					<include>WindowMenuButton_Vertical</include>
+					<label>346</label>
+				</control> -->
+				<control type="radiobutton" id="17">
+					<description>Flatten</description>
+					<textwidth>170</textwidth>
+					<include>WindowMenuButton_Vertical</include>
+					<label>20411</label>
+				</control>
+				<control type="radiobutton" id="16">
+					<description>PartyMode</description>
+					<label>589</label>
+					<include>WindowMenuButton_Vertical</include>
+					<visible>Container.Content(MusicVideos)</visible>
+				</control>
 				<control type="button" id="11">
-					<include>WindowMenuButton</include>
+					<include>WindowMenuButton_Vertical</include>
 					<onclick>xbmc.mastermode</onclick>
 					<selected>system.ismaster</selected>
 					<visible>system.haslocks</visible>
 					<label>20336</label>
 				</control>
-
+				<include>CommonNowPlaying_Controls</include>
+				<include>CommonNowPlaying</include> -->
 			</control>
-			<control type="grouplist">
-				<posx>25</posx>
-				<posy>658</posy>
+		<!--	<control type="grouplist">
+				<posx>-250</posx>
+				<posy>120</posy>
 				<visible>!Skin.HasSetting(LockViews)</visible>
-				<include>WindowMenuVars</include>
+				<include>WindowMenuVars_Vertical</include>
 				<posy>658</posy>
 				<control type="label">
-					<include>WindowMenuLabel</include>
-					<!-- LOC -->
+					<include>WindowMenuLabel_Vertical</include>
 					<label>$LOCALIZE[31088]</label>
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
+					<include>WindowMenuLabel_Vertical</include>
 					<label>$LOCALIZE[14018]</label>
-					<visible>[Control.IsVisible(55) | Control.IsVisible(53) | Control.IsVisible(58) | Control.IsVisible(588)] + ![Control.IsVisible(53) + [Container.Content(episodes) | Container.Content(seasons)]] | [Control.IsVisible(588) + Container.Content(episodes)] | [Control.IsVisible(50) + Container.Content(movies)] | [Control.IsVisible(59) + Container.Content(tvshows)] | [Control.IsVisible(55) + Container.Content(Genres)]</visible>		
+					<visible>[Control.IsVisible(55) | Control.IsVisible(53) | Control.IsVisible(58)] + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] | [Control.IsVisible(50) + Container.Content(movies)] | [Control.IsVisible(59) + Container.Content(tvshows)] | [Control.IsVisible(55) + Container.Content(Genres)]</visible>		
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
+					<include>WindowMenuLabel_Vertical</include>
 					<label>$LOCALIZE[31206]</label>
 					<visible>Control.IsVisible(58)</visible>		
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
-					<label>$LOCALIZE[31206]</label>
-					<visible>Control.IsVisible(588)</visible>		
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel</include>
-					<label>Display Info</label>
-					<visible>Control.IsVisible(508)</visible>		
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel</include>
+					<include>WindowMenuLabel_Vertical</include>
 					<label>31081</label>
 					<visible>[Control.IsVisible(52) | Control.IsVisible(59)] + Container.Content(tvshows)</visible>
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
+					<include>WindowMenuLabel_Vertical</include>
 					<label>$LOCALIZE[14018]</label>
 					<visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart)</visible>		
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
+					<include>WindowMenuLabel_Vertical</include>
 					<label>$LOCALIZE[14018]</label>
 					<visible>[Control.IsVisible(55) + Container.Content(movies)] | [Control.IsVisible(593) + Container.Content(tvshows)]  | [Control.IsVisible(633) + Container.Content(episodes)]</visible>		
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
-					<!-- LOC -->
+					<include>WindowMenuLabel_Vertical</include>
+					
 					<label>$LOCALIZE[581]</label>
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
-					<!-- LOC -->
+					<include>WindowMenuLabel_Vertical</include>
+					
 					<label>$LOCALIZE[580]</label>
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
-					<!-- LOC -->
+					<include>WindowMenuLabel_Vertical</include>
+				
 					<label>$LOCALIZE[31098]</label>
 				</control>
 					
-				<!--<control type="label">
-					<include>WindowMenuLabel</include>
-					<!{1}** LOC **{1}>
+				<control type="label">
+					<include>WindowMenuLabel_Vertical</include>
+				
 					<label>$LOCALIZE[240]</label>
 					<visible>![Control.IsVisible(55) + Container.Content(movies)]</visible>
-				</control>-->	
+				</control>	
 				<control type="label">
-					<include>WindowMenuLabel</include>
+					<include>WindowMenuLabel_Vertical</include>
 					<description>Search</description>
 					<label>137</label>
 				</control>
 				<control type="label">
-					<include>WindowMenuLabel</include>
+					<include>WindowMenuLabel_Vertical</include>
 					<description>Unlock Sources</description>
 					<label>20336</label>
 					<visible>system.haslocks</visible>
 				</control>
-			</control>
+				
+				
+			</control> -->
 		
 
 	</control>
 	
-	
+		<include>Time</include>
+		<include>Library Totals</include>
+		<include>Object_DebugGrid</include>
 	
 	</controls>	
 </window>

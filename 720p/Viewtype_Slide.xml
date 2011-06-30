@@ -23,7 +23,7 @@
 			<onright>595</onright>
 			<onup>5950</onup>
 			<ondown>8240</ondown>
-			<viewtype label="Slide">list</viewtype>
+			<viewtype label="$LOCALIZE[31136]">list</viewtype>
 			<orientation>horizontal</orientation>
 			<focusposition>2</focusposition>
 			<scrolltime>400</scrolltime>
