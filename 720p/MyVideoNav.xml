@@ -129,6 +129,7 @@
 		<include>PosterWrapView2_Fanart</include> <!-- 508 -->
 		<include>MediaListView3</include> <!-- 503 -->
 		<include>Viewtype_3DLandscape</include> <!-- 599 -->
+		<include>Viewtype_Multiplex</include> <!-- 588 -->
 		<include>Trailer</include>
 		<include>Trailer_TVLandscape</include>
 		<include>Trailer_Landscape_Fanart</include>
@@ -201,6 +202,16 @@
 					<visible>Control.IsVisible(58)</visible>
 					<include>WindowMenuButton_Vertical</include>
 				</control>
+				<control type="togglebutton" id="37">
+					<description>Toggle MoviesFanart</description>
+					<include>WindowMenuButton</include>
+					<label>$LOCALIZE[31133]</label>
+					<altlabel>$LOCALIZE[31132]</altlabel>
+					<onclick>Skin.ToggleSetting(MultiPlexFanart)</onclick>
+					<selected>Skin.HasSetting(MultiPlexFanart)</selected>
+					<visible>Control.IsVisible(588)</visible>
+					<include>WindowMenuButton</include>
+				</control>
 				<control type="togglebutton" id="25">
 					<description>Toggle MoviesFanart</description>
 					<include>WindowMenuButton_Vertical</include>
@@ -209,6 +220,15 @@
 					<onclick>Skin.ToggleSetting(extrathumbs)</onclick>
 					<selected>Skin.HasSetting(extrathumbs)</selected>
 					<visible>Control.IsVisible(58)</visible>
+				</control>
+				<control type="togglebutton" id="38">
+					<description>Toggle MoviesFanart</description>
+					<include>WindowMenuButton</include>
+					<label>$LOCALIZE[31201]</label>
+					<altlabel>$LOCALIZE[31200]</altlabel>
+					<onclick>Skin.ToggleSetting(extrathumbs)</onclick>
+					<selected>Skin.HasSetting(extrathumbs)</selected>
+					<visible>Control.IsVisible(588)</visible>
 				</control>
 				<control type="togglebutton" id="26">
 					<description>Toggle MoviesFanart</description>
@@ -321,8 +341,8 @@
 					<include>WindowMenuButton_Vertical</include>
 					<label>20367</label>
 				</control>
-				<!-- <control type="togglebutton" id="14">
-					<include>WindowMenuButton_Vertical</include>
+				<!-- <control type="togglebutton" id="14"> -->
+				<!--	<include>WindowMenuButton_Vertical</include> -->
 					<!-- Show Watched -->
 					<!-- <label>$LOCALIZE[31096]</label> -->
 					<!-- Hide Watched -->
