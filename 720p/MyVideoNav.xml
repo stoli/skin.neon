@@ -369,7 +369,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
-				<control type="image" id="202">
+				<control type="image" id="222">
 					<description>separator</description>
 					<posx>-250</posx>
 					<posy>240</posy>
