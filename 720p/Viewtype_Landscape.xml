@@ -270,6 +270,7 @@
 				<posy>106</posy>
 				<width>544</width>
 				<height>316</height>
+				<colordiffuse>grey2</colordiffuse>
 				<texture>tv-landscape/landscapeframeFO.png</texture>
 			</control>
 			<control type="image"><!-- USE POSTERS  -->
@@ -283,8 +284,8 @@
 				<aspectratio scalediffuse="false">stretch</aspectratio>
 			</control>
 			<control type="image">
-				<posx>285</posx>
-				<posy>460</posy>
+				<posx>435</posx>
+				<posy>340</posy>
 				<width>75</width>
 				<height>75</height>
 				<aspect>leave</aspect>

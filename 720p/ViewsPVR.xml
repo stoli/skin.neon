@@ -53,6 +53,7 @@
 						<posy>0</posy>
 						<width>390</width>
 						<height>61</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="2">MenuItemNF.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -128,6 +129,7 @@
 						<posy>0</posy>
 						<width>390</width>
 						<height>61</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="2">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(11)</visible>
 						<include>VisibleFadeEffect</include>
@@ -295,6 +297,7 @@
 						<posy>0</posy>
 						<width>390</width>
 						<height>61</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="2">MenuItemNF.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -362,6 +365,7 @@
 						<posy>0</posy>
 						<width>390</width>
 						<height>61</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="2">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(12)</visible>
 						<include>VisibleFadeEffect</include>
@@ -490,6 +494,7 @@
 						<posy>0</posy>
 						<width>760</width>
 						<height>41</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="2">MenuItemNF.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -541,6 +546,7 @@
 						<posy>0</posy>
 						<width>760</width>
 						<height>41</height>
+						<colordiffuse>mainblue</colordiffuse>
 						<texture border="2">MenuItemNF.png</texture>
 						<include>VisibleFadeEffect</include>
 						<visible>!Control.HasFocus(13)</visible>
@@ -638,7 +644,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>Font_Neon_20</font>
-					<textcolor>mainblue</textcolor>
+					<textcolor>blue</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scrollout>false</scrollout>
 					<pauseatend>1000</pauseatend>
@@ -925,6 +931,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>41</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
@@ -1002,6 +1009,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>41</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
@@ -1236,6 +1244,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>41</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
@@ -1346,6 +1355,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>41</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
@@ -1576,6 +1586,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>41</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
@@ -1675,6 +1686,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>101</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
@@ -1912,6 +1924,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>41</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
@@ -2030,6 +2043,7 @@
 							<posy>0</posy>
 							<width>1100</width>
 							<height>100</height>
+							<colordiffuse>mainblue</colordiffuse>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
