@@ -220,15 +220,17 @@
 		</control>
 	</include>
 	<include name="ThumbnailView">
+		<control type="image">
+			<posx>90</posx>
+			<posy>60</posy>
+			<width>1110</width>
+			<height>590</height>
+			<texture border="0,2,0,2">black-back.png</texture>
+		</control>
 		<control type="group">
 			<visible>Control.IsVisible(500)</visible>
 			<include>VisibleFadeEffect</include>
-			<contol type="image">
-				<posx>70</posx>
-				<posy>60</posy>
-				<width>1080</width>
-				<height>558</height>
-				<texture>black-back.png</texture>
+			
 			<control type="panel" id="500">
 				<posx>90</posx>
 				<posy>80</posy>
