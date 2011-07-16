@@ -458,6 +458,22 @@
 						<onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
 						<selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
 					</control>
+					<control type="radiobutton" id="2021">
+						<description>Use Random Items</description>
+						<width>740</width>
+						<height>30</height>
+						<font>Font_KeyboardTitle</font>
+						<textoffsetx>40</textoffsetx>
+						<label>$LOCALIZE[31516]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(random_items)</onclick>
+						<selected>Skin.HasSetting(random_items)</selected>
+						<visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+					</control>
 					<control type="radiobutton" id="2022">
 						<description>Show Big Recently added tvinfo</description>
 						<width>740</width>

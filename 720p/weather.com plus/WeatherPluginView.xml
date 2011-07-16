@@ -487,7 +487,7 @@
 				<animation effect="slide" start="0,0" end="-300,0" time="400">WindowClose</animation>
 				
 					<control type="image">
-						<posx>-100</posx>
+						<posx>-200</posx>
 						<colordiffuse>mainblue</colordiffuse>
 						<texture flipx="true">MenuItemFO_small.png</texture>
 					</control>

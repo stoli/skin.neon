@@ -118,6 +118,7 @@
 		
 		<include condition="Skin.HasSetting(homepageHideRecentlyAdded)">HomeRecentlyAddedInfo_2</include>
 		<include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
+		<include condition="Skin.HasSetting(random_items)">random_tv</include>
 		
 		<include>HorizontalHomeBottom</include>
 		<!-- stoli - new home animation - 030511 -->
@@ -223,7 +224,7 @@
 				<texture>episodeframe.png</texture>
 			</control>
 		</control>
-
+		<include>NextAiredHome</include>
 		<include>Global_RSS</include>
 		<include>Time</include>
 		<include>Date</include>

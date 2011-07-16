@@ -285,6 +285,37 @@
 				<animation effect="fade" start="100" end="0" time="0">windowclose</animation>
 				<visible>Skin.HasSetting(no_global_clock)</visible>
 			</control>
+			
+			<control type="image" id="1">
+				<description>Audio Channels Image</description>
+				<posx>610</posx>
+				<posy>60</posy>
+				<width>50</width>
+				<height>35</height>
+				<aspectratio align="center">keep</aspectratio>
+				<texture>$INFO[VideoPlayer.AudioChannels,flagging/audio/,.png]</texture>
+				<visible>VideoPlayer.Content(episodes)</visible>
+			</control>
+			<control type="image" id="1">
+				<description>Audio Codec Image</description>
+				<posx>610</posx>
+				<posy>95</posy>
+				<width>50</width>
+				<height>35</height>
+				<aspectratio align="center">keep</aspectratio>
+				<texture>$INFO[VideoPlayer.AudioCodec,flagging/audio/,.png]</texture>
+				<visible>VideoPlayer.Content(episodes)</visible>
+			</control>
+			<control type="image" id="1">
+				<description>Video Resolution Image</description>
+				<posx>610</posx>
+				<posy>130</posy>
+				<width>50</width>
+				<height>35</height>
+				<aspectratio align="center">keep</aspectratio>
+				<texture>$INFO[VideoPlayer.VideoResolution,flagging/video/,.png]</texture>
+				<visible>VideoPlayer.Content(episodes)</visible>
+			</control>
 			<control type="image">
 				<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 				<width>75</width>
