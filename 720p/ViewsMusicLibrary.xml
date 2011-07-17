@@ -544,6 +544,8 @@
 					<orientation>horizontal</orientation>
 					<include>VideoCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
+					<include>AudioChannelsFlaggingConditions</include>
+					<include>StudioFlags</include>
 				</control>
 				<control type="label">
 					<posx>40</posx>

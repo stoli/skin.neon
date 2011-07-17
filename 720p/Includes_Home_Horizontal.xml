@@ -58,7 +58,7 @@
 					<label>2</label>
 					<icon>special://skin/backgrounds/music.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMusicFolder)]</thumb>
-					<onclick>ActivateWindow(MusicLibrary)</onclick>
+					<onclick>ActivateWindow(Music)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
 				</item>
 				<item id="2">
@@ -66,7 +66,7 @@
 					<label>$LOCALIZE[10006]</label>
 					<icon>special://skin/backgrounds/videos.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomVideosFolder)]</thumb>
-					<onclick>XBMC.ActivateWindow(MyVideoFiles)</onclick>
+					<onclick>ActivateWindow(Videos)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
 				</item>
 				<item id="3">
@@ -74,7 +74,7 @@
 					<label>$LOCALIZE[20342]</label>
 					<icon>special://skin/backgrounds/movies.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomMoviesFolder)]</thumb>			
-					<onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
+					<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoMoviesButton) + Library.HasContent(Movies)</visible>
 				</item>
 				<item id="4">
@@ -82,7 +82,7 @@
 					<label>$LOCALIZE[31280]</label>
 					<icon>special://skin/backgrounds/HDmovies.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomHDMoviesFolder)]</thumb>			
-					<onclick>XBMC.ActivateWindow(10025,special://skin/playlists/HDMovies.xsp,return)</onclick>
+					<onclick>ActivateWindow(10025,special://skin/playlists/HDMovies.xsp,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoHDMoviesButton) + Library.HasContent(Movies)</visible>
 				</item>
 				<item id="5">
@@ -90,7 +90,7 @@
 					<label>$LOCALIZE[31004]</label>
 					<icon>special://skin/backgrounds/tvshows.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomTVShowsFolder)]</thumb>			
-					<onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
+					<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoTVShowsButton) + Library.HasContent(TVShows)</visible>
 				</item>
 				<item id="26">
@@ -261,7 +261,7 @@
 					<label>$LOCALIZE[1036]</label>
 					<icon>special://skin/backgrounds/favourites.jpg</icon>
 					<thumb>$INFO[Skin.String(CustomfavouritesFolder)]</thumb>	
-					<onclick>XBMC.ActivateWindow(favourites)</onclick>
+					<onclick>ActivateWindow(favourites)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNofavouritesButton)</visible>
 				</item>
 				<item id="14">

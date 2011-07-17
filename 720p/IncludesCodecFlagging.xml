@@ -271,93 +271,22 @@
 			<visible>substring(listitem.mpaa,UK:R18)</visible>
 		</control>
 	</include>
-	<include name="AudioCodecFlaggingConditions">
+<include name="AudioCodecFlaggingConditions">
 		<control type="image">
-			<description>mp3 Codec Image</description>
+			<description>Audio Codec Image</description>
 			<width>60</width>
 			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/mp3.png</texture>
-			<visible>substring(ListItem.AudioCodec,mp3)</visible>
+			<aspectratio align="right">keep</aspectratio>
+			<texture>$INFO[ListItem.AudioCodec,flagging/audio/,.png]</texture>
 		</control>
+	</include>
+	<include name="AudioChannelsFlaggingConditions">
 		<control type="image">
-			<description>dts Codec Image</description>
+			<description>Audio Codec Image</description>
 			<width>60</width>
 			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/dts.png</texture>
-			<visible>substring(ListItem.AudioCodec,dca)</visible>
-		</control>
-		<control type="image">
-			<description>ac3 Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/ac3.png</texture>
-			<visible>substring(ListItem.AudioCodec,ac3) + !substring(ListItem.AudioChannels,6)</visible>
-		</control>
-		<control type="image">
-			<description>aac Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/aac.png</texture>
-			<visible>substring(ListItem.AudioCodec,aac)</visible>
-		</control>
-		<control type="image">
-			<description>Dolby Digital Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/dolbydigital.png</texture>
-			<visible>substring(ListItem.AudioCodec,ac3) + substring(ListItem.AudioChannels,6)</visible>
-		</control>
-		<control type="image">
-			<description>WMA Pro Codec Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/wmapro.png</texture>
-			<visible>substring(ListItem.AudioCodec,wmapro)</visible>
-		</control>
-		 <control type="image">
-			<description>vorbis Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/vorbis.png</texture>
-			<visible>substring(ListItem.AudioCodec,vorbis)</visible>
-		</control>
-		<control type="image">
-			<description>Audio Channels Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
+			<aspectratio align="left">keep</aspectratio>
 			<texture>$INFO[ListItem.AudioChannels,flagging/audio/,.png]</texture>
-		</control>
-		<control type="image">
-			<description>dtsma Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/dtsma.png</texture>
-			<visible>substring(ListItem.AudioCodec,dtsma) + substring(ListItem.AudioChannels,6)</visible>
-		</control>
-		<control type="image">
-			<description>truehd Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/truehd.png</texture>
-			<visible>substring(ListItem.AudioCodec,truehd) + substring(ListItem.AudioChannels,6)</visible>
-		</control>
-		<control type="image">
-			<description>flac Image</description>
-			<width>60</width>
-			<height>40</height>
-			<aspectratio>keep</aspectratio>
-			<texture>flagging/audio/flac.png</texture>
-			<visible>substring(ListItem.AudioCodec,flac) + substring(ListItem.AudioChannels,6)</visible>
 		</control>
 	</include>
 	<include name="AspectCodecFlaggingConditions">

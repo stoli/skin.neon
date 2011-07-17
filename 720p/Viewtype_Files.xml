@@ -208,7 +208,7 @@
 					<texture diffuse="diffuse_mirror3.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
 				</control>
 				<control type="image">
-						<posx>-50</posx>
+						<posx>-25</posx>
 						<posy>10</posy>
 						<width>400</width>
 						<height>155</height>
@@ -226,6 +226,7 @@
 			<width>1110</width>
 			<height>590</height>
 			<texture border="0,2,0,2">black-back.png</texture>
+			<visible>Control.IsVisible(500)</visible>
 		</control>
 		<control type="group">
 			<visible>Control.IsVisible(500)</visible>

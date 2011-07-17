@@ -904,12 +904,12 @@
 				<align>center</align>
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>
-				<include>VideoCodecFlaggingConditions</include>
-				<include>AudioCodecFlaggingConditions</include>
-				<include>AspectCodecFlaggingConditions</include>
+				<include>StudioFlags</include>
 				<include>VideoTypeHackFlaggingConditions</include>
-				<include>Animation_HiddenByInfo</include>
-				<include>Animation_Viewtype_Panel_BottomArea</include>
+				<include>VideoCodecFlaggingConditions</include>
+				<include>AspectCodecFlaggingConditions</include>
+				<include>AudioCodecFlaggingConditions</include>
+				<include>AudioChannelsFlaggingConditions</include>
 			</control>
 		
 		<control type="scrollbar" id="69">

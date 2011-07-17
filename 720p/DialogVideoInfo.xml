@@ -85,9 +85,12 @@
 					<orientation>horizontal</orientation>
 					<include>VisibleFadeEffect</include>
 					<visible>!Control.IsVisible(50) + [Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
+					<include>StudioFlags</include>
+					<include>VideoTypeHackFlaggingConditions</include>
 					<include>VideoCodecFlaggingConditions</include>
-					<include>AudioCodecFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
+					<include>AudioCodecFlaggingConditions</include>
+					<include>AudioChannelsFlaggingConditions</include>
 				</control>
 		<!-- Logo / Thumb / Landscape Icons -->
 				<control type="group">
@@ -350,11 +353,12 @@
 						<orientation>horizontal</orientation>
 						<!-- <include>VideoMPAAFlaggingConditions</include> -->
 						<include>VisibleFadeEffect</include>
-						<include>VideoCodecFlaggingConditions</include>
-						<include>AudioCodecFlaggingConditions</include>
-						<include>AspectCodecFlaggingConditions</include>
-						<include>VideoTypeHackFlaggingConditions</include>
 						<include>StudioFlags</include>
+						<include>VideoTypeHackFlaggingConditions</include>
+						<include>VideoCodecFlaggingConditions</include>
+						<include>AspectCodecFlaggingConditions</include>
+						<include>AudioCodecFlaggingConditions</include>
+						<include>AudioChannelsFlaggingConditions</include>
 					</control>
 					
 					
