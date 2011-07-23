@@ -3,7 +3,7 @@
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
-	<views>50,55,58,595,51,596,52,633,594,53,504,503,54,597,56,57,59,500,501,508,592,593,598,599,588</views>
+	<views>50,55,58,558,595,51,596,52,633,594,53,504,503,54,597,56,57,59,500,501,508,592,593,598,599,588</views>
 	<controls>
 		<control type="button" id="9999">
             <description>trigger</description>
@@ -130,6 +130,7 @@
 		<include>MediaListView3</include> <!-- 503 -->
 		<include>Viewtype_3DLandscape</include> <!-- 599 -->
 		<include>Viewtype_Multiplex</include> <!-- 588 -->
+		<include>Viewtype_Coverflow</include> <!-- 558 -->
 		<include>Trailer</include>
 		<include>Trailer_TVLandscape</include>
 		<include>Trailer_Landscape_Fanart</include>
