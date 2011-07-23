@@ -163,7 +163,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>neon.png</texture>
 			</control> -->
-		
+			
 			<control type="grouplist" id="7000">
 				<posx>-250</posx>
 				<posy>30</posy>
@@ -191,6 +191,7 @@
 					<include>WindowMenuButton_Vertical</include>
 					<label>$INFO[Container.ViewMode]</label>
 					<onclick>Container.NextViewMode</onclick>
+					<visible>!Skin.HasSetting(LockViews)</visible>
 				</control>
 				<control type="togglebutton" id="22">
 					<description>Toggle MoviesFanart</description>
@@ -394,6 +395,7 @@
 					<textwidth>170</textwidth>
 					<include>WindowMenuButton_Vertical</include>
 					<label>20411</label>
+					<visible>!Skin.HasSetting(LockViews)</visible>
 				</control>
 				<control type="radiobutton" id="16">
 					<description>PartyMode</description>

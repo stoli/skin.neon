@@ -975,7 +975,7 @@
 		<itemgap>0</itemgap>
 		<align>left</align>
 		
-		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus</visible>
 		<orientation>vertical</orientation>
 	</include>
 	<include name="WindowMenuButton">

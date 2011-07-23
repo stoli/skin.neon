@@ -272,6 +272,7 @@
 		</control>
 	</include>
 <include name="AudioCodecFlaggingConditions">
+		
 		<control type="image">
 			<description>Audio Codec Image</description>
 			<width>60</width>
@@ -279,6 +280,7 @@
 			<aspectratio align="right">keep</aspectratio>
 			<texture>$INFO[ListItem.AudioCodec,flagging/audio/,.png]</texture>
 		</control>
+
 	</include>
 	<include name="AudioChannelsFlaggingConditions">
 		<control type="image">
