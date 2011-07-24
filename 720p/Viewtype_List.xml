@@ -214,8 +214,8 @@
 					<height>140</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="8">ThumbShadow.png</bordertexture>
+					<texture background="true" diffuse="showcase_matte.png">$INFO[ListItem.Icon]</texture>
+					
 					<bordersize>8</bordersize>
 					<visible>Skin.HasSetting(FileFanartView) + !Skin.HasSetting(TVPosters) + IsEmpty(Control.GetLabel(7018))</visible>
 					
@@ -227,7 +227,7 @@
 					<height>140</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$INFO[ListItem.Icon]</texture>
 					<visible>Skin.HasSetting(FileFanartView) + !Skin.HasSetting(TVPosters) + IsEmpty(Control.GetLabel(7018))</visible>
 					
 				</control>
@@ -238,8 +238,8 @@
 					<height>400</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="8">ThumbShadow.png</bordertexture>
+					<texture background="true" diffuse="showcase_matte.png">$INFO[ListItem.Icon]</texture>
+					
 					<bordersize>8</bordersize>
 					<visible>Skin.HasSetting(FileFanartView) + Skin.HasSetting(TVPosters)</visible>
 				</control>
@@ -250,7 +250,7 @@
 					<height>380</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$INFO[ListItem.Icon]</texture>
 					<visible>Skin.HasSetting(FileFanartView) + Skin.HasSetting(TVPosters)</visible>
 				</control>
 				<control type="group">
@@ -579,8 +579,8 @@
 					<height>480</height>
 					<aspectratio>keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="8">ThumbShadow.png</bordertexture>
+					<texture background="true" diffuse="showcase_matte.png">$INFO[ListItem.Icon]</texture>
+					
 					<bordersize>8</bordersize>
 					<visible>Skin.HasSetting(FileFanartView)</visible>
 				</control>
@@ -591,7 +591,7 @@
 					<height>464</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$INFO[ListItem.Icon]</texture>
 					<visible>Skin.HasSetting(FileFanartView)</visible>
 				</control>
 				
@@ -788,9 +788,8 @@
 					<height>480</height>
 					<aspectratio>keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="8">ThumbShadow.png</bordertexture>
-					<bordersize>8</bordersize>
+					<texture background="true" diffuse="showcase_matte.png">$INFO[ListItem.Icon]</texture>
+					
 				</control>
 				<control type="image">
 					<posx>8</posx>
@@ -799,7 +798,7 @@
 					<height>464</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$INFO[ListItem.Icon]</texture>
 				</control>
 				<control type="label">
 					<description>Season Title txt</description>
@@ -855,9 +854,8 @@
 					<height>320</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture background="true" border="8">ThumbShadow.png</bordertexture>
-					<bordersize>8</bordersize>
+					<texture background="true" diffuse="showcase_matte.png">$INFO[ListItem.Icon]</texture>
+					
 				</control>
 				<control type="image">
 					<posx>8</posx>
@@ -866,7 +864,7 @@
 					<height>304</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+					<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$INFO[ListItem.Icon]</texture>
 				</control>
 				<control type="group">
 					<posy>200</posy>

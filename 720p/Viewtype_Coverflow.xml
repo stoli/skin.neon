@@ -2792,7 +2792,7 @@
 					<height>10</height>
 					<onup>7000</onup>
 					<ondown>60</ondown>
-					<viewtype label="31337">list</viewtype>
+					<viewtype label="31145">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<orientation>horizontal</orientation>
 					<scrolltime>250</scrolltime>
