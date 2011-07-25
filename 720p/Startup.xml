@@ -34,8 +34,8 @@
 			<description>Trigger Next Aired</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=true&amp;alarm=99)</onfocus>
-			<onfocus>Notification(Startup,TV Guide Updated)</onfocus>
+	<!--Temporarily Disabled	<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=true&amp;alarm=99)</onfocus>
+			<onfocus>Notification(Startup,TV Guide Updated)</onfocus> -->
 			<onfocus>SetFocus(13)</onfocus>
 		</control>
 		<control type="button" id="13">
