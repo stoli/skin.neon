@@ -1,10 +1,10 @@
 ﻿<!--Empty-->
 
 <window>
-	<defaultcontrol always="true">10</defaultcontrol>
+	<defaultcontrol always="true">14</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
-		<control type="button" id="10">
+<!--		<control type="button" id="10">
 			<description>Trigger Weather</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
@@ -22,7 +22,7 @@
 			<onfocus>Notification(Startup,Recently Added Updated)</onfocus>
 			<onfocus>SetFocus(12)</onfocus>
 		</control> -->
-		<control type="button" id="12">
+	<!--	<control type="button" id="12">
 			<description>Trigger Latest Added</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
@@ -37,7 +37,7 @@
 			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=true&amp;alarm=99)</onfocus>
 			<onfocus>Notification(Startup,TV Guide Updated)</onfocus> 
 			<onfocus>SetFocus(14)</onfocus>
-		</control> 
+		</control> -->
 		<control type="button" id="14">
 			<description>trigger</description>
 			<onfocus>ReplaceWindow(Home)</onfocus>

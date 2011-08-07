@@ -4,7 +4,7 @@
 <include name="NextAiredHome">
 
 		<control type="group">
-		<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(2) + Skin.HasSetting(homepageHideRecentlyAdded) + System.HasAddon(script.tv.show.next.aired) + (substring(Window(Home).Property(NextAired.1.Today),true)) </visible>	
+		<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(2) + Skin.HasSetting(homepageHideRecentlyAdded) + System.HasAddon(script.tv.show.next.aired)</visible>	
 			<posx>850</posx>
 			<posy>360</posy>
 			
