@@ -3,12 +3,12 @@
 <includes>
 <include name="NextAiredHome">
 
-		<control type="group">
-		<visible>Library.HasContent(TVShows) + Container(301).Hasfocus(2) + Skin.HasSetting(homepageHideRecentlyAdded) + System.HasAddon(script.tv.show.next.aired)</visible>	
+		<control type="group" id="654">
+		<visible>Library.HasContent(TVShows) + [Container(301).Hasfocus(2) | Container(301).Hasfocus(5)] + Skin.HasSetting(homepageHideRecentlyAdded) + System.HasAddon(script.tv.show.next.aired)</visible>	
 			<posx>850</posx>
 			<posy>360</posy>
 			
-			<animation effect="fade" start="0" end="100" time="600" delay="2000" condition="Container(301).HasFocus(2)">Conditional</animation>
+			<animation effect="fade" start="0" end="100" time="600" delay="2000" condition="[Container(301).HasFocus(2) | Container(301).Hasfocus(5)]">Conditional</animation>
 				
 			<control type="group">
 
