@@ -30,7 +30,7 @@
 			<preloaditems>2</preloaditems>
 			<pagecontrol>5950</pagecontrol>
 			<include>Animation_CommonFade</include>
-			<visible>!Skin.HasSetting(no_Slide) + [Container.Content(Movies) | Container.Content(Videos)]</visible>
+			<visible>!Skin.HasSetting(no_Slide) + !Container.Content(Music)</visible>
 			<itemlayout width="210" height="700">
 				<control type="group">
 				<posx>0</posx>
