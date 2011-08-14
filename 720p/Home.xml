@@ -224,7 +224,7 @@
 				<texture>episodeframe.png</texture>
 			</control>
 		</control>
-		<include>NextAiredHome</include>
+		<!-- <include>NextAiredHome</include> -->
 		<include>Global_RSS</include>
 		<include>Time</include>
 		<include>Date</include>
