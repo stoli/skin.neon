@@ -31,7 +31,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true" fallback="special://skin/backgrounds/tvshows.jpg">$INFO[Container(8001).ListItem.Property(Fanart)]</texture>
+			<texture background="true" fallback="special://skin/backgrounds/tvshows.jpg">$INFO[Container(8001).ListItem.Thumb]</texture>
 			<fadetime>600</fadetime>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Control.HasFocus(8001)</visible>
@@ -51,7 +51,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true" fallback="special://skin/backgrounds/tvshows.jpg">$INFO[Container(8003).ListItem.Property(Fanart)]</texture>
+			<texture background="true" fallback="special://skin/backgrounds/tvshows.jpg">$INFO[Container(8003).ListItem.Thumb]</texture>
 			<fadetime>600</fadetime>
 			<include>Animation_CommonFadeNoHide</include>
 			<visible>Control.HasFocus(8003)</visible>
@@ -224,7 +224,7 @@
 				<texture>episodeframe.png</texture>
 			</control>
 		</control>
-		<!-- <include>NextAiredHome</include> -->
+	<!--	<include>NextAiredHome</include> -->
 		<include>Global_RSS</include>
 		<include>Time</include>
 		<include>Date</include>

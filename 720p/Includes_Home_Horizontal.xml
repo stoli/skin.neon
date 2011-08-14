@@ -100,6 +100,14 @@
 					<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
 					<visible>!Skin.HasSetting(HomeNoMenuLiveTV)</visible>
 				</item>
+				<item id="7">
+					<description>TV GUIDE</description>
+					<label>$LOCALIZE[31972]</label>
+					<icon>-</icon>
+					<thumb>-</thumb>
+					<onclick>ActivateWindow(1116)</onclick>
+					<visible>!Skin.HasSetting(HomeMenuNoTVGuide)</visible>
+				</item>
 				<item id="21">
 					<description>Custom Playlist 1</description>
 					<label>$INFO[Skin.String(Menu_Custom6_Label)]</label>
@@ -232,14 +240,7 @@
 					<onclick>XBMC.ActivateWindow(MyPictures)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
 				</item>
-				<item id="7">
-					<description>TV GUIDE</description>
-					<label>$LOCALIZE[31972]</label>
-					<icon>-</icon>
-					<thumb>-</thumb>
-					<onclick>ActivateWindow(1116)</onclick>
-					<visible>!Skin.HasSetting(HomeMenuNoTVGuide)</visible>
-				</item>
+				
 				<!--<item id="7">
 					<description>programs</description>
 					<label>0</label>
@@ -367,26 +368,33 @@
 							<item id="1">
 								<label>$LOCALIZE[20342]</label>
 								<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
-								<visible>Library.HasContent(Movies)</visible>
+								<visible>Library.HasContent(Movies) + Skin.HasSetting(HomeMenuNoMoviesButton)</visible>
 							</item>
 							<item id="2">
 								<label>$LOCALIZE[20343]</label>
 								<onclick>ActivateWindow(Videos,TvShowTitles,return)</onclick>
-								<visible>Library.HasContent(TVShows)</visible>
+								<visible>Library.HasContent(TVShows) + Skin.HasSetting(HomeMenuNoTVShowsButton)</visible>
 							</item>
+							
 							<item id="3">
-								<label>$LOCALIZE[744]</label>
-								<onclick>ActivateWindow(Videos,Files,return)</onclick>
+								<label>$LOCALIZE[20389]</label>
+								<onclick>ActivateWindow(Videos,MusicVideos)</onclick>
+								<visible>Library.HasContent(MusicVideos)</visible>
 							</item>
 							<item id="4">
-								<label>$LOCALIZE[14022]</label>
-								<onclick>ActivateWindow(VideoLibrary)</onclick>
-								<visible>Library.HasContent(Videos)</visible>
+								<label>$LOCALIZE[744]</label>
+								<onclick>ActivateWindow(Videos,Files)</onclick>
 							</item>
 							<item id="5">
 								<label>$LOCALIZE[31272]</label>
 								<onclick>ActivateWindow(Videos,Plugins)</onclick>
 							</item>
+							<!-- <item id="6">
+								<label>$LOCALIZE[1026]</label>
+								<onclick>ActivateWindow(Videos,Files)</onclick>
+								<onclick>ActivateWindow(mediasource)</onclick>
+								<onfocus>ReplaceWindow(Videos,Files)</onfocus>
+							</item> -->
 						</content>
 				</control>
 
