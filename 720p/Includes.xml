@@ -604,7 +604,7 @@
 						<description>Video</description>
 						<label>[COLOR=mainblue]$LOCALIZE[3][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Container.Content(years)</visible>
 					</control>
 					<control type="label">
 						<description>Name of Plugin</description>
@@ -640,7 +640,7 @@
 						<description>Video</description>
 						<label>[COLOR=mainblue]$LOCALIZE[3][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
 						<include>Global_HeadingSectionVars2</include>
-						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
+						<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(movies)]] + IsEmpty(Container.PluginName) + !Window.IsActive(134) + !Container.Content(years)</visible>
 					</control> 
 			
 				</control>
