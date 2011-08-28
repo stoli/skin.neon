@@ -28,7 +28,7 @@
 					<posx>30</posx>
 					<posy>58</posy>
 					<align>center</align>
-					<font>Font_Neon_45Caps</font>
+					<font>Font_Neon_45</font>
 					<textcolor>38b8b7b7</textcolor>
 					<label>[UPPERCASE]$INFO[ListItem.label][/UPPERCASE]</label>
 				<!--	<animation effect="slide" end="0,600" time="600" condition="ControlGroup(9001).HasFocus">conditional</animation> -->
