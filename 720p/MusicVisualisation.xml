@@ -1,6 +1,28 @@
 <window id="2006">
 	<allowoverlay>no</allowoverlay>
+	<defaultcontrol>999</defaultcontrol>
 	<controls>
+		<control type="button" id="999">
+			<posx>-10</posx>
+			<posy>-10</posy>
+			<width>1</width>
+			<height>1</height>
+			<onfocus>RunScript(script.artistslideshow)</onfocus>
+		</control>
+		<control type="multiimage">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
+			<aspectratio>keep</aspectratio>
+			<timeperimage>5000</timeperimage>
+			<fadetime>2000</fadetime>
+			<randomize>true</randomize>
+			<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
+			<visible>IsEmpty(Window(Visualisation).Property(ArtistSlideshowRefresh))</visible>
+		</control>
 		<control type="visualisation" id="2">
 			<description>visualisation</description>
 			<posx>0</posx>
@@ -22,7 +44,7 @@
 			<fadetime>400</fadetime>
 			<include>VisibleFadeEffect</include>
 			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(FanartNoVisualisation) + !Skin.HasSetting(FullscreenJukebox) + ![Skin.HasSetting(vis_photos_backdrops) | Skin.HasSetting(vis_music_backdrops)]</visible>
+			<visible>Skin.HasSetting(FanartNoVisualisation) + !Skin.HasSetting(FullscreenJukebox) + ![Skin.HasSetting(vis_photos_backdrops) | Skin.HasSetting(vis_music_backdrops)] + !Skin.HasSetting(Artist_Slideshow)</visible>
 		</control>
 		<control type="multiimage">
 			<posx>0</posx>
@@ -34,7 +56,7 @@
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
 			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(FanartNoVisualisation) + !Skin.HasSetting(FullscreenJukebox) + ![Skin.HasSetting(vis_photos_backdrops) | Skin.HasSetting(vis_music_backdrops)]</visible>
+			<visible>Skin.HasSetting(FanartNoVisualisation) + !Skin.HasSetting(FullscreenJukebox) + ![Skin.HasSetting(vis_photos_backdrops) | Skin.HasSetting(vis_music_backdrops)] + !Skin.HasSetting(Artist_Slideshow)</visible>
 		</control>
 		<control type="multiimage">
 			<posx>0</posx>
@@ -46,7 +68,7 @@
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
 			<include>Animation_BackdropFade</include>
-			<visible>[Skin.HasSetting(FanartNoVisualisation) + Skin.HasSetting(vis_music_backdrops)] | !IsEmpty(ListItem.Property(Fanart_Image))</visible>
+			<visible>[Skin.HasSetting(FanartNoVisualisation) + Skin.HasSetting(vis_music_backdrops)] | !IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Artist_Slideshow)</visible>
 		</control>
 		<control type="multiimage">
 			<posx>0</posx>
@@ -58,13 +80,43 @@
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
 			<include>Animation_BackdropFade</include>
-			<visible>Skin.HasSetting(FanartNoVisualisation) + Skin.HasSetting(vis_photos_backdrops)</visible>
+			<visible>Skin.HasSetting(FanartNoVisualisation) + Skin.HasSetting(vis_photos_backdrops) + !Skin.HasSetting(Artist_Slideshow)</visible>
 		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>list/file-black-background1.png</texture>
 			<visible>[Skin.HasSetting(DarkFullscreenMusicPlayback) + !Skin.HasSetting(FullscreenJukebox)]</visible>
 		</control>
+		<control type="multiimage" id="99">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
+			<aspectratio>keep</aspectratio>
+			<timeperimage>5000</timeperimage>
+			<fadetime>2000</fadetime>
+			<randomize>true</randomize>
+			
+			<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
+			<visible>IsEmpty(Window(Visualisation).Property(ArtistSlideshowRefresh)) + Skin.HasSetting(Artist_Slideshow) + !Skin.HasSetting(FullscreenJukebox)</visible>
+
+		</control>
+		<!--<control type="multiimage" id="99">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
+			<aspectratio>keep</aspectratio>
+			<timeperimage>5000</timeperimage>
+			<fadetime>2000</fadetime>
+			<randomize>true</randomize>
+			<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
+			
+		</control> -->
 	<!--	<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>music/Music_Visualization_Fanart.png</texture>
@@ -363,12 +415,29 @@
 <!-- Jukebox -->
 		<control type="group">
 		<visible>Skin.HasSetting(FullscreenJukebox)</visible>
-			<control type="image">
+			<!--<control type="image">
 				<posx>370</posx>
 				<posy>146</posy>
 				<width>585</width>
 				<height>286</height>
 				<texture diffuse="music/jukebox_fanart_diffuse.png">$INFO[MusicPlayer.Property(Fanart_Image)]</texture>
+				<visible>!Skin.HasSetting(Artist_Slideshow)</visible>
+			</control> -->
+			<control type="image">
+				<posx>70</posx>
+				<posy>346</posy>
+				<width>585</width>
+				<height>286</height>
+				<!-- <texture diffuse="music/jukebox_fanart_diffuse.png">$INFO[MusicPlayer.Property(Fanart_Image)]</texture> -->
+				<imagepath diffuse="music/jukebox_fanart_diffuse.png" background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
+				<aspectratio>keep</aspectratio>
+				<timeperimage>5000</timeperimage>
+				<fadetime>2000</fadetime>
+				<randomize>true</randomize>
+			
+				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+				<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
+				<visible>Skin.HasSetting(Artist_Slideshow)</visible>
 			</control>
 			<control type="image">
 				<posx>552</posx>

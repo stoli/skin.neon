@@ -715,4 +715,10 @@
 			<effect type="slide" start="0,0" end="-1400,0" time="600" tween="cubic" easing="inout" />
 		</animation>	
 	</include>
+	<include name="Animation_OpenCloseMFWidget">
+		<animation effect="fade" start="0" end="100" delay="1000" time="500">WindowOpen</animation>
+		<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
+		<animation effect="fade" start="0" end="100" delay="500" time="1200">Visible</animation>
+		<animation effect="fade" start="100" end="0" time="500">Hidden</animation>
+	</include>
 </includes>
