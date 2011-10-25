@@ -116,7 +116,7 @@
 			<include>Animation_CommonFadeNoHide</include>
 		</control>	
 		
-		<include condition="Skin.HasSetting(homepageHideRecentlyAdded)">HomeRecentlyAddedInfo_2</include>
+		<include condition="Skin.HasSetting(homepageHideRecentlyAdded)">NewRecentlyAdded</include>
 		<include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
 		<include condition="Skin.HasSetting(random_items)">random_tv</include>
 		
@@ -224,7 +224,7 @@
 				<texture>episodeframe.png</texture>
 			</control>
 		</control>
-	<!--	<include>NextAiredHome</include> -->
+	
 		<include>Global_RSS</include>
 		<include>Time</include>
 		<include>Date</include>

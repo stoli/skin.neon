@@ -135,8 +135,11 @@
 					</item>
 					<item id="9">
 						<label>31030</label>
+						<!-- <conclick></conclick>
 						<onclick>Skin.ResetSettings</onclick>
-						<onclick>ReloadSkin()</onclick>
+						<onclick>ReloadSkin()</onclick> -->
+						<onclick>-</onclick>
+						
 					</item>
 				</content>
 			</control>
@@ -257,74 +260,7 @@
 						<onclick>Skin.ToggleSetting(debuggrid)</onclick>
 						<selected>Skin.HasSetting(debuggrid)</selected>
 					</control>
-					<control type="label" id="112">
-						<width>740</width>
-						<height>45</height>
-						<textoffsetx>15</textoffsetx>
-						<font>Font_Neon_20</font>
-						<label>$LOCALIZE[31038]</label>
-						<textcolor>mainblue</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-					</control>
-					<control type="radiobutton" id="113">
-						<include>skin_settings_labels</include>
-						<label>$LOCALIZE[31039]</label>
-						<onclick>Skin.ToggleSetting(FanartNoVisualisation)</onclick>
-						<selected>Skin.HasSetting(FanartNoVisualisation)</selected>
-					</control>
-					<control type="radiobutton" id="114">
-						<width>740</width>
-						<height>40</height>
-						<font>Font_KeyboardTitle</font>
-						<textoffsetx>40</textoffsetx>
-						<label>$LOCALIZE[31041]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<colordiffuse>mainblue</colordiffuse>
-						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(DarkFullscreenMusicPlayback)</onclick>
-						<selected>Skin.HasSetting(DarkFullscreenMusicPlayback)</selected>
-						<visible>Skin.HasSetting(FanartNoVisualisation)</visible>
-					</control>
-					<control type="radiobutton" id="115">
-						<width>740</width>
-						<height>40</height>
-						<font>Font_KeyboardTitle</font>
-						<textoffsetx>40</textoffsetx>
-						<label>$LOCALIZE[31257]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<colordiffuse>mainblue</colordiffuse>
-						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(vis_music_backdrops)</onclick>
-						<selected>Skin.HasSetting(vis_music_backdrops)</selected>
-						<visible>!IsEmpty(Skin.String(CustomMusicFolder)) + Skin.HasSetting(FanartNoVisualisation)</visible>
-					</control>
-					<control type="radiobutton" id="116">
-						<width>740</width>
-						<height>40</height>
-						<font>Font_KeyboardTitle</font>
-						<textoffsetx>40</textoffsetx>
-						<label>$LOCALIZE[31258]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<colordiffuse>mainblue</colordiffuse>
-						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(vis_photos_backdrops)</onclick>
-						<selected>Skin.HasSetting(vis_photos_backdrops)</selected>
-						<visible>!IsEmpty(Skin.String(CustomPicturesFolder)) + Skin.HasSetting(FanartNoVisualisation)</visible>
-					</control>
-					<control type="radiobutton" id="117">
-						<include>skin_settings_labels</include>
-						<label>$LOCALIZE[31040]</label>
-						<onclick>Skin.ToggleSetting(FullscreenJukebox)</onclick>
-						<selected>Skin.HasSetting(FullscreenJukebox)</selected>
-					</control>
+					
 				<!-- Playlist -->
 					
 					<control type="label" id="120">
@@ -2869,6 +2805,81 @@
 						<onright>61</onright>
 						<onup>9005</onup>
 						<ondown>9005</ondown>
+						<control type="label" id="112">
+						<width>740</width>
+						<height>45</height>
+						<textoffsetx>15</textoffsetx>
+						<font>Font_Neon_20</font>
+						<label>$LOCALIZE[31038]</label>
+						<textcolor>mainblue</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+					</control>
+					<control type="radiobutton" id="113">
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31039]</label>
+						<onclick>Skin.ToggleSetting(FanartNoVisualisation)</onclick>
+						
+						<selected>Skin.HasSetting(FanartNoVisualisation)</selected>
+					</control>
+					<control type="radiobutton" id="114">
+						<width>740</width>
+						<height>40</height>
+						<font>Font_KeyboardTitle</font>
+						<textoffsetx>40</textoffsetx>
+						<label>$LOCALIZE[31041]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(DarkFullscreenMusicPlayback)</onclick>
+						<selected>Skin.HasSetting(DarkFullscreenMusicPlayback)</selected>
+						<visible>Skin.HasSetting(FanartNoVisualisation)</visible>
+					</control>
+					<control type="radiobutton" id="115">
+						<width>740</width>
+						<height>40</height>
+						<font>Font_KeyboardTitle</font>
+						<textoffsetx>40</textoffsetx>
+						<label>$LOCALIZE[31257]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(vis_music_backdrops)</onclick>
+						<selected>Skin.HasSetting(vis_music_backdrops)</selected>
+						<visible>!IsEmpty(Skin.String(CustomMusicFolder)) + Skin.HasSetting(FanartNoVisualisation)</visible>
+					</control>
+					<control type="radiobutton" id="116">
+						<width>740</width>
+						<height>40</height>
+						<font>Font_KeyboardTitle</font>
+						<textoffsetx>40</textoffsetx>
+						<label>$LOCALIZE[31258]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<colordiffuse>mainblue</colordiffuse>
+						<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(vis_photos_backdrops)</onclick>
+						<selected>Skin.HasSetting(vis_photos_backdrops)</selected>
+						<visible>!IsEmpty(Skin.String(CustomPicturesFolder)) + Skin.HasSetting(FanartNoVisualisation)</visible>
+					</control>
+					<control type="radiobutton" id="117">
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31040]</label>
+						<onclick>Skin.ToggleSetting(FullscreenJukebox)</onclick>
+						<selected>Skin.HasSetting(FullscreenJukebox)</selected>
+					</control>
+					<control type="radiobutton" id="119">
+						<include>skin_settings_labels</include>
+						<label>$LOCALIZE[31522]</label>
+						<onclick>Skin.ToggleSetting(Artist_Slideshow)</onclick>
+						<selected>Skin.HasSetting(Artist_Slideshow)</selected>
+					</control>
 						<control type="label" id="900">
 							<width>860</width>
 							<height>45</height>
@@ -2903,6 +2914,37 @@
 							<!-- <enable>!Skin.HasSetting(CDArt) | Skin.HasSetting(MusicExtraFanart)</enable> -->
 						</control>
                      </control>  
+				</control>
+				<control type="group"><!--Reset Skin-->
+					<control type="grouplist" id="9009">
+						<visible>Container(9000).Hasfocus(9)</visible>
+						<posx>290</posx>
+						<posy>60</posy>
+						<width>860</width>
+						<height>530</height>
+						<itemgap>-1</itemgap>
+						<pagecontrol>61</pagecontrol>
+						<onleft>9000</onleft>
+						<onright>61</onright>
+						<onup>9009</onup>
+						<ondown>9009</ondown>
+						
+						<control type="label" id="600">
+							<width>860</width>
+							<height>45</height>
+							<label>Reset all Skin Settings</label>
+							<textcolor>red</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>left</align>
+							<aligny>center</aligny>
+						</control>
+						<control type="button" id="902">
+							<include>skin_settings_button</include>
+							<label>Click to reset all skin settings to defaults</label>
+							<onclick>Skin.ResetSettings</onclick>
+							<onclick>ReloadSkin()</onclick> 
+						</control>
+					</control>
 				</control>
 				<control type="group"><!--Disable Views-->
 					<control type="grouplist" id="9006">

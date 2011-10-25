@@ -10,7 +10,7 @@
 			<texturefocus>-</texturefocus>
 			<label>$INFO[Weather.Conditions]</label>
 			<font>-</font>
-			<onfocus>SetFocus(13)</onfocus>
+			<onfocus>SetFocus(12)</onfocus>
 		</control>
 <!--	<control type="button" id="11">
 			<description>Trigger Latest Added</description>
@@ -19,15 +19,15 @@
 			<onfocus>XBMC.RunScript(script.randomitems,limit=10&amp;unplayed=True)</onfocus>
 			<onfocus>Notification(Startup,Random Items Updated)</onfocus> 
 			<onfocus>SetFocus(13)</onfocus> 
-		</control>
+		</control> -->
 		<control type="button" id="12">
 			<description>Trigger Next Aired</description>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=true&amp;alarm=99)</onfocus>
+			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=True)</onfocus>
 			<onfocus>Notification(Startup,TV Guide Updated)</onfocus> 
 			<onfocus>SetFocus(13)</onfocus>
-		</control> -->
+		</control> 
 		<control type="button" id="13">
 			<description>trigger</description>
 			<onfocus>ReplaceWindow(Home)</onfocus>

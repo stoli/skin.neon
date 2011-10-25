@@ -61,7 +61,7 @@
 	<include file="ViewsPVR.xml" />
 	<include file="IncludesBackgroundBuilding.xml" />
 <!--	<include file="Viewtype_Newest_Episodes.xml" /> -->
-	
+	<constant name="FanartCrossfadeTime">30</constant>
 	<include name="VisibleFadeEffect">
 		<animation effect="fade" time="300">Visible</animation>
 		<animation effect="fade" time="300">Hidden</animation>
@@ -81,7 +81,7 @@
 		</control>
 	</include>
 	
-	<include name="CommonMediaPlayingBackground">
+	<include name="CommonMediaPlayingBackground"> 
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -1118,7 +1118,7 @@
 		<control type="group">
 			<posx>10</posx>
 			<posy>345</posy>
-			<visible>Player.HasAudio</visible>
+			<visible>Player.HasAudio + !Window.IsActive(13000)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="button" id="608">
 				<posx>38</posx>
@@ -2120,5 +2120,15 @@
 			<icon>$INFO[Window.Property(RandomSong.10.Thumb)]</icon>
 			<thumb>$INFO[Window.Property(RandomSong.10.Fanart)]</thumb>
 		</item>
+	</include>
+	<include name="InvisibleButton">
+		<posx>-20</posx>
+		<posy>-20</posy>
+		<width>1</width>
+		<height>1</height>
+		<label>-</label>
+		<font>-</font>
+		<texturenofocus>-</texturenofocus>
+		<texturefocus>-</texturefocus>
 	</include>
 </includes>

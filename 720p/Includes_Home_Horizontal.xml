@@ -9,8 +9,8 @@
 			<height>466</height>
 			<width>2800</width>
 			
-			<onup>78881</onup>
-			<ondown>9001</ondown>
+			<onup>4052</onup>
+			<ondown>4051</ondown>
 			<onleft>301</onleft>
 			<onright>301</onright>
 			<viewtype>list</viewtype>
@@ -105,7 +105,7 @@
 					<label>$LOCALIZE[31972]</label>
 					<icon>-</icon>
 					<thumb>-</thumb>
-					<onclick>ActivateWindow(1116)</onclick>
+					<onclick>RunScript(script.tv.show.next.aired)</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoTVGuide)</visible>
 				</item>
 				<item id="21">
@@ -311,8 +311,37 @@
 				</item>
 			</content>
 		</control>
-
+		 
+		<control type="button" id="4050"><!-- SubMenu Control -->
+			<include>InvisibleButton</include>
+			<!-- <visible>Container(300).HasFocus(1) | Container(300).HasFocus(2) | Container(300).HasFocus(3) | Container(300).HasFocus(4) | Container(300).HasFocus(5) | Container(300).HasFocus(5) | Container(300).HasFocus(7) | Container(300).HasFocus(8) | Container(300).HasFocus(9) + [SubString(Skin.String(DisableSubFavourite131),true) | SubString(Skin.String(DisableSubFavourite231),true) | SubString(Skin.String(DisableSubFavourite331),true)] | Container(300).HasFocus(32) + [SubString(Skin.String(DisableSubFavourite132),true) | SubString(Skin.String(DisableSubFavourite232),true) | SubString(Skin.String(DisableSubFavourite332),true)] | Container(300).HasFocus(33) + [SubString(Skin.String(DisableSubFavourite133),true) | SubString(Skin.String(DisableSubFavourite233),true) | SubString(Skin.String(DisableSubFavourite333),true)] | Container(300).HasFocus(34) + [SubString(Skin.String(DisableSubFavourite134),true) | SubString(Skin.String(DisableSubFavourite234),true) | SubString(Skin.String(DisableSubFavourite343),true)] | Container(300).HasFocus(35) + [SubString(Skin.String(DisableSubFavourite135),true) | SubString(Skin.String(DisableSubFavourite235),true) | SubString(Skin.String(DisableSubFavourite353),true)] | Container(300).HasFocus(41) + [SubString(Skin.String(DisableSubVPlaylist141),true) | SubString(Skin.String(DisableSubVPlaylist241),true) | SubString(Skin.String(DisableSubVPlaylist341),true)] | Container(300).HasFocus(41) + [SubString(Skin.String(DisableSubVPlaylist141),true) | SubString(Skin.String(DisableSubVPlaylist241),true) | SubString(Skin.String(DisableSubVPlaylist341),true)] | Container(300).HasFocus(43) + [SubString(Skin.String(DisableSubVPlaylist143),true) | SubString(Skin.String(DisableSubVPlaylist243),true) | SubString(Skin.String(DisableSubVPlaylist343),true)] | Container(300).HasFocus(44) + [SubString(Skin.String(DisableSubVPlaylist144),true) | SubString(Skin.String(DisableSubVPlaylist244),true) | SubString(Skin.String(DisableSubVPlaylist344),true)] | Container(300).HasFocus(45) + [SubString(Skin.String(DisableSubVPlaylist145),true) | SubString(Skin.String(DisableSubVPlaylist245),true) | SubString(Skin.String(DisableSubVPlaylist345),true)] | Container(300).HasFocus(51) + [SubString(Skin.String(DisableSubAPlaylist151),true) | SubString(Skin.String(DisableSubAPlaylist251),true) | SubString(Skin.String(DisableSubAPlaylist351),true)] | Container(300).HasFocus(52) + [SubString(Skin.String(DisableSubAPlaylist152),true) | SubString(Skin.String(DisableSubAPlaylist252),true) | SubString(Skin.String(DisableSubAPlaylist352),true)] | Container(300).HasFocus(53) + [SubString(Skin.String(DisableSubAPlaylist153),true) | SubString(Skin.String(DisableSubAPlaylist253),true) | SubString(Skin.String(DisableSubAPlaylist353),true)] | Container(300).HasFocus(54) + [SubString(Skin.String(DisableSubAPlaylist154),true) | SubString(Skin.String(DisableSubAPlaylist254),true) | SubString(Skin.String(DisableSubAPlaylist354),true)] | Container(300).HasFocus(55) + [SubString(Skin.String(DisableSubAPlaylist155),true) | SubString(Skin.String(DisableSubAPlaylist255),true) | SubString(Skin.String(DisableSubAPlaylist355),true)] | Container(300).HasFocus(61) + [SubString(Skin.String(DisableSubAddon161),true) | SubString(Skin.String(DisableSubAddon261),true) | SubString(Skin.String(DisableSubAddon361),true)] | Container(300).HasFocus(62) + [SubString(Skin.String(DisableSubAddon162),true) | SubString(Skin.String(DisableSubAddon262),true) | SubString(Skin.String(DisableSubAddon362),true)] | Container(300).HasFocus(63) + [SubString(Skin.String(DisableSubAddon163),true) | SubString(Skin.String(DisableSubAddon263),true) | SubString(Skin.String(DisableSubAddon363),true)] | Container(300).HasFocus(63) + [SubString(Skin.String(DisableSubAddon163),true) | SubString(Skin.String(DisableSubAddon263),true) | SubString(Skin.String(DisableSubAddon363),true)] | Container(300).HasFocus(65) + [SubString(Skin.String(DisableSubAddon165),true) | SubString(Skin.String(DisableSubAddon265),true) | SubString(Skin.String(DisableSubAddon365),true)]</visible> -->
+		</control>
+		<control type="button" id="4051">
+			<description>Go to SubMenu</description>
+			<include>InvisibleButton</include>
+			<onfocus>SetFocus(9001)</onfocus>
+			<visible>Control.IsVisible(4050)</visible>
+		</control>
 		
+		<control type="button" id="4052">
+			<description>Go to Multi Function</description>
+			<include>InvisibleButton</include>
+			<onfocus>SetFocus(510)</onfocus>
+			<visible>[Container(301).HasFocus(1) + Library.HasContent(Music) | Container(301).HasFocus(3) + Library.HasContent(Movies) | Container(301).HasFocus(5) + Library.HasContent(TVShows) | Container(301).HasFocus(9)]</visible>
+		</control>
+		<!-- <control type="button" id="4054">
+			<description>Go to Audio Controls</description>
+			<include>InvisibleButton</include>
+			<onfocus>SetFocus(600)</onfocus>
+			<visible>Control.HasFocus(510) + [Player.HasAudio | Player.HasVideo] + !Skin.HasSetting(nohomeminiplayer)</visible>
+		</control> -->
+		<control type="button" id="4054">
+			<description>Don't Go to Audio Controls</description>
+			<include>InvisibleButton</include>
+			<onfocus>SetFocus(300)</onfocus>
+			<onfocus>SendClick(0,300)</onfocus>
+			<visible>Control.HasFocus(510) + [!Player.HasAudio + !Player.HasVideo] | Control.HasFocus(510) + [Player.HasAudio | Player.HasVideo]</visible>
+		</control>
 		<control type="group" id="9001">
 				
 				<posx>15</posx>
@@ -934,7 +963,7 @@
 							</item>
 						</content>
 				</control>
-<!--DVD      --><control type="fixedlist" id="9014">
+<!--DVD			--><control type="fixedlist" id="9014">
 					<posx>-30</posx>
 					<posy>30</posy>
 					<width>1380</width>

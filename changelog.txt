@@ -1,3 +1,9 @@
+[B]Updated 10/25/2011:[/B]
+v1.8.5
+- Fixed volume control for Eden
+- Adjusted skin reset behaviour 
+- Began update of TV Guide
+
 [B]Updated 06/29/2011:[/B]
 v1.8.0 
 - Updated International font positioning across entire skin
