@@ -295,23 +295,23 @@
 						<control type="label">
 							<description>Next air date</description>
 							<posx>75</posx>
-							<posy>26</posy>
+							<posy>30</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(NextDate)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="label">
 							<description>Airing time</description>
 							<posx>75</posx>
-							<posy>48</posy>
+							<posy>52</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(ShortTime)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="image">
@@ -319,7 +319,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -329,7 +329,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -339,7 +339,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -359,23 +359,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -384,23 +384,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -409,7 +409,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -419,7 +419,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -429,7 +429,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -454,23 +454,23 @@
 						<control type="label">
 							<description>Next air date</description>
 							<posx>75</posx>
-							<posy>26</posy>
+							<posy>30</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(NextDate)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="label">
 							<description>Airing time</description>
 							<posx>75</posx>
-							<posy>48</posy>
+							<posy>52</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(ShortTime)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="image">
@@ -478,7 +478,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -488,7 +488,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -498,7 +498,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -518,23 +518,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -543,23 +543,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -568,7 +568,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -578,7 +578,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -588,7 +588,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -613,23 +613,23 @@
 						<control type="label">
 							<description>Next air date</description>
 							<posx>75</posx>
-							<posy>26</posy>
+							<posy>30</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(NextDate)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="label">
 							<description>Airing time</description>
 							<posx>75</posx>
-							<posy>48</posy>
+							<posy>52</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(ShortTime)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="image">
@@ -637,7 +637,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -647,7 +647,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -657,7 +657,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -677,23 +677,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -702,23 +702,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -727,7 +727,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -737,7 +737,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -747,7 +747,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -772,23 +772,23 @@
 						<control type="label">
 							<description>Next air date</description>
 							<posx>75</posx>
-							<posy>26</posy>
+							<posy>30</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(NextDate)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="label">
 							<description>Airing time</description>
 							<posx>75</posx>
-							<posy>48</posy>
+							<posy>52</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(ShortTime)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="image">
@@ -796,7 +796,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -806,7 +806,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -816,7 +816,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -836,23 +836,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -861,23 +861,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -886,7 +886,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -896,7 +896,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -906,7 +906,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -931,23 +931,23 @@
 						<control type="label">
 							<description>Next air date</description>
 							<posx>75</posx>
-							<posy>26</posy>
+							<posy>30</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(NextDate)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="label">
 							<description>Airing time</description>
 							<posx>75</posx>
-							<posy>48</posy>
+							<posy>52</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(ShortTime)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="image">
@@ -955,7 +955,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -965,7 +965,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -975,7 +975,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -995,23 +995,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -1020,23 +1020,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -1045,7 +1045,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -1055,7 +1055,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -1065,7 +1065,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -1090,23 +1090,23 @@
 						<control type="label">
 							<description>Next air date</description>
 							<posx>75</posx>
-							<posy>26</posy>
+							<posy>30</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(NextDate)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="label">
 							<description>Airing time</description>
 							<posx>75</posx>
-							<posy>48</posy>
+							<posy>52</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(ShortTime)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="image">
@@ -1114,7 +1114,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -1124,7 +1124,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -1134,7 +1134,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -1154,23 +1154,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -1179,23 +1179,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -1204,7 +1204,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -1214,7 +1214,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -1224,7 +1224,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -1249,23 +1249,23 @@
 						<control type="label">
 							<description>Next air date</description>
 							<posx>75</posx>
-							<posy>26</posy>
+							<posy>30</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(NextDate)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="label">
 							<description>Airing time</description>
 							<posx>75</posx>
-							<posy>48</posy>
+							<posy>52</posy>
 							<width>150</width>
 							<height>20</height>
 							<label>$INFO[ListItem.Property(ShortTime)]</label>
 							<textcolor>99FFFFFF</textcolor>
-							<font>font12</font>
+							<font>Font_Neon_20</font>
 							<align>center</align>
 						</control>
 						<control type="image">
@@ -1273,7 +1273,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -1283,7 +1283,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -1293,7 +1293,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -1313,23 +1313,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>FFFFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -1338,23 +1338,23 @@
 							<control type="label">
 								<description>Next air date</description>
 								<posx>75</posx>
-								<posy>26</posy>
+								<posy>30</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 							<control type="label">
 								<description>Airing time</description>
 								<posx>75</posx>
-								<posy>48</posy>
+								<posy>52</posy>
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
 								<textcolor>99FFFFFF</textcolor>
-								<font>font12</font>
+								<font>Font_Neon_20</font>
 								<align>center</align>
 							</control>
 						</control>
@@ -1363,7 +1363,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
@@ -1373,7 +1373,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,banner.jpg]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
@@ -1383,7 +1383,7 @@
 							<posx>21</posx>
 							<posy>4</posy>
 							<width>108</width>
-							<height>20</height>
+							<height>25</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Path),,logo.png]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -1406,6 +1406,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font24_title</font>
+					<textcolor>mainblue</textcolor>
 					<wrapmultiline>true</wrapmultiline>
 				</control>
 				<control type="image">
@@ -1451,7 +1452,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(200).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1461,7 +1462,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(200).ListItem.Property(Genre)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1471,7 +1472,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(200).ListItem.Property(ShortTime)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1481,7 +1482,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(200).ListItem.Property(NextDate)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1491,7 +1492,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(200).ListItem.Property(Network)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1556,7 +1557,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(201).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1566,7 +1567,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(201).ListItem.Property(Genre)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1576,7 +1577,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(201).ListItem.Property(ShortTime)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1586,7 +1587,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(201).ListItem.Property(NextDate)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1596,7 +1597,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(201).ListItem.Property(Network)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1661,7 +1662,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(202).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1671,7 +1672,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(202).ListItem.Property(Genre)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1681,7 +1682,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(202).ListItem.Property(ShortTime)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1691,7 +1692,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(202).ListItem.Property(NextDate)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1701,7 +1702,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(202).ListItem.Property(Network)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1766,7 +1767,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(203).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1776,7 +1777,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(203).ListItem.Property(Genre)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1786,7 +1787,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(203).ListItem.Property(ShortTime)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1796,7 +1797,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(203).ListItem.Property(NextDate)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1806,7 +1807,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(203).ListItem.Property(Network)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1871,7 +1872,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(204).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1881,7 +1882,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(204).ListItem.Property(Genre)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1891,7 +1892,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(204).ListItem.Property(ShortTime)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1901,7 +1902,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(204).ListItem.Property(NextDate)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1911,7 +1912,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(204).ListItem.Property(Network)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1976,7 +1977,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(205).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1986,7 +1987,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(205).ListItem.Property(Genre)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -1996,7 +1997,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(205).ListItem.Property(ShortTime)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2006,7 +2007,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(205).ListItem.Property(NextDate)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2016,7 +2017,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(205).ListItem.Property(Network)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2081,7 +2082,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(206).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2091,7 +2092,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(206).ListItem.Property(Genre)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2101,7 +2102,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(206).ListItem.Property(ShortTime)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2111,7 +2112,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(206).ListItem.Property(NextDate)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2121,7 +2122,7 @@
 					<width>302</width>
 					<height>15</height>
 					<label>$INFO[Container(206).ListItem.Property(Network)]</label>
-					<font>font12</font>
+					<font>Font_Neon_20</font>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -2183,7 +2184,7 @@
 					<control type="label">
 						<width>250</width>
 						<height>35</height>
-						<font>font12caps</font>
+						<font>Font_Neon_20caps</font>
 						<label>33063</label>
 						<textcolor>blue</textcolor>
 						<align>center</align>
@@ -2238,7 +2239,7 @@
 				<posy>0</posy>
 				<width>1060</width>
 				<height>28</height>
-				<font>font12caps</font>
+				<font>Font_Neon_20caps</font>
 				<textcolor>white</textcolor>
 				<scroll>false</scroll>
 				<align>right</align>
@@ -2295,7 +2296,7 @@
 				<height>28</height>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font12</font>
+				<font>Font_Neon_20</font>
 				<textcolor>white</textcolor>
 				<label>$INFO[System.Time]</label>
 			</control>

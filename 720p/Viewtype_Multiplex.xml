@@ -283,7 +283,7 @@
 			<aspectratio/>
 			<fadetime>400</fadetime>
 			<animation effect="rotatey" center="0" start="50" end="45" time="0" condition="true">Conditional</animation>
-			<texture diffuse="mod/list_movieicon_mask.png">$INFO[Container(588).listitem(0).Icon]</texture>
+			<texture diffuse="mod/list_movieicon_mask.png">$INFO[Container(588).ListItem(0).Icon]</texture>
 			<bordertexture border="-13">mod/list_movieicon_frame.png</bordertexture>
 		</control>
 		<control type="largeimage">
@@ -343,7 +343,7 @@
 			<fadetime>500</fadetime>
 			<timeperimage>3000</timeperimage>
 			<animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
-		<!--	<imagepath diffuse="mod/list_episodeicon_mask.png" background="true">$INFO[Container(588).ListItem.Path,,extrathumbs]</imagepath> -->
+			<imagepath diffuse="mod/list_episodeicon_mask.png" background="true">$INFO[Container(588).ListItem.Path,,extrathumbs]</imagepath>
 			</control>
 		<control type="multiimage">
 			<visible>Skin.HasSetting(extrathumbs)</visible>
