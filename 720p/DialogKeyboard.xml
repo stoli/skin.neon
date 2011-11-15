@@ -1,5 +1,5 @@
 <window id="103">
-	<defaultcontrol always="true">65</defaultcontrol>
+	<defaultcontrol always="true">300</defaultcontrol>
 	<include>dialogeffect</include>
 	<coordinates>
 		<system>2</system>
@@ -130,8 +130,7 @@
 					<onleft>49</onleft>
 					<onright>51</onright>
 					<onup>307</onup>
-					<ondown>87</ondown>					<colordiffuse>mainblue</colordiffuse><colordiffuse>mainblue</colordiffuse>
-					<texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
+					<ondown>87</ondown>					<colordiffuse>mainblue</colordiffuse>					<texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
 					<texturefocus border="5">KeyboardKey.png</texturefocus>
 					<align>center</align>
 					<aligny>center</aligny>

@@ -269,7 +269,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture>$INFO[ListItem.Thumb]</texture>
+							<!---	<texture>$INFO[ListItem.Thumb]</texture> -->
 							</control>
 							<control type="label">
 								<posx>90</posx>
