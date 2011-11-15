@@ -3,6 +3,7 @@
 	<control type="group">
 		<include>Animation_CommonFadeNoHideBack-Home</include>
 		<!-- Movies -->
+		
 		<control type="group">
 			<posx>-800</posx>
 			<posy>300</posy>
