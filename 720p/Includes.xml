@@ -429,7 +429,7 @@
 						<texture>MenuItemFO_small.png</texture>
 					</control>
 					<control type="image">
-						<texture>$INFO[Weather.Conditions]</texture>
+						<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 						<width>21</width>
 						<height>21</height>
 						<posx>12</posx>
