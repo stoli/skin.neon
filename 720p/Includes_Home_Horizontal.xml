@@ -578,6 +578,10 @@
 								<label>$LOCALIZE[135]</label>
 								<onclick>ActivateWindow(Videos,TVShowGenres,return)</onclick>
 							</item>
+							<item id="7">
+								<label>$LOCALIZE[31296]</label>
+								<onclick>ActivateWindow(Videos,RecentlyAddedEpisodes,return)</onclick>
+							</item>
 							<item id="5">
 								<label>$LOCALIZE[652]</label>
 								<onclick>ActivateWindow(Videos,TVShowYears,return)</onclick>
@@ -586,10 +590,7 @@
 								<label>$LOCALIZE[344]</label>
 								<onclick>ActivateWindow(Videos,TVShowActors,return)</onclick>
 							</item>
-							<item id="7">
-								<label>$LOCALIZE[31296]</label>
-								<onclick>ActivateWindow(Videos,RecentlyAddedEpisodes,return)</onclick>
-							</item>
+							
 						</content>
 				</control>
 <!--SETTINGS --><control type="wraplist" id="9014">
