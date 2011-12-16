@@ -1,3 +1,6 @@
+[B]Updated 12/16/2011:[/B]
+Official Release for Eden
+
 [B]Updated 10/25/2011:[/B]
 v1.8.5
 - Fixed volume control for Eden
