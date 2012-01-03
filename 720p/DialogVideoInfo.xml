@@ -1276,13 +1276,14 @@
 						<onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
 					</control>
 					
-					<control type="button" id="13">
+					<control type="button" id="113">
 						<description>Cinema Script</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>$LOCALIZE[31212]</label>
+						
 						<onclick>Playlist.Clear</onclick>
 						<onclick>Dialog.Close(MovieInformation)</onclick>
-						<onclick>XBMC.RunScript(script.cinema.experience)</onclick>
+						<onclick>RunScript(script.cinema.experience)</onclick>
 						<visible>system.hasaddon(script.cinema.experience) + Container.Content(movies)</visible>
 					</control>
 					<control type="button" id="5">
