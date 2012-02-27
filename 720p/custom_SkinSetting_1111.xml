@@ -2716,7 +2716,7 @@
 							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
 							<!--<onclick>RunScript(script.artwork.downloader)</onclick>-->
-							<onclick>XBMC.RunScript(script.artwork.downloader, mediatype=tvshow, clearlogo)</onclick>
+							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, clearlogo)</onclick>
 						</control>
 						<control type="button" id="517">
 							<posx>0</posx>
