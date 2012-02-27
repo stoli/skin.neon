@@ -1314,7 +1314,7 @@
 						<description>Download Logos</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>$LOCALIZE[31249]</label>
-						<onclick>XBMC.RunScript(script.logo-downloader,mode=solo,logo=True,clearart=True,showthumb=landscape.jpg,poster=poster.jpg,banner=banner.jpg,showname=$INFO[ListItem.TVShowTitle])</onclick>
+						<onclick>XBMC.RunScript(script.artwork.downloader,mode=solo, mediatype=tvshow, clearart, tvthumb, poster, banner, fanart, clearlogo, medianame=$INFO[ListItem.TVShowTitle])</onclick>
 						<visible>Container.Content(tvshows) + !Skin.HasSetting(LockViews)</visible>
 					</control>
 				</control>
