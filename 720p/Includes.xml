@@ -515,7 +515,7 @@
 					<font>Font_RSS</font>
 					<control type="label">
 						<description>Movies</description>
-						<label>[COLOR=mainblue]$LOCALIZE[342][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
+						<label>[COLOR=mainblue]$LOCALIZE[342][/COLOR] - $INFO[Window.Property(Movies.Count)]</label>
 						<include>Global_HeadingSectionVars2</include>
 						<visible>Window.IsActive(25) + Container.Content(movies) + IsEmpty(Container.PluginName) + !Window.IsActive(134)</visible>
 					</control>
