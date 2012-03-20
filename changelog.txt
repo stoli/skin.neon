@@ -1,3 +1,9 @@
+[B]Updated 03/20/2012:[/B]
+--------------------------
+
+Added support for "Intro Movie" addon - You may need to reset your skin settings
+
+
 [B]Updated 03/03/2012:[/B]
 
 Updated for Eden
