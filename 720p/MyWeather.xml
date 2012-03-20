@@ -1,4 +1,4 @@
 <window id="2600">
-    <include condition="StringCompare(Weather.Plugin,weather.weatherplus)">TWC.View</include>
-    <include condition="!StringCompare(Weather.Plugin,weather.weatherplus)">WeatherStandardView</include>
+    <!-- <include condition="StringCompare(Weather.Plugin,weather.weatherplus)">TWC.View</include> -->
+    <include>WeatherStandardView</include>
 </window>

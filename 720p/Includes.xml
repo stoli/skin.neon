@@ -43,20 +43,8 @@
 	<include file="Viewtype_Multiplex.xml" />
 	<include file="ViewsVideoLibrary.xml" /> 
 	<include file="ViewsMusicLibrary.xml" /> 
-	<include file="weather.com plus/CommonValues.xml" />
-	<include file="weather.com plus/Maps-List-Static-Content-Includes.xml" />
-	<include file="weather.com plus/Current.xml" />
-	<include file="weather.com plus/36Hour.xml" />
-	<include file="weather.com plus/Hourly.xml" />
-	<include file="weather.com plus/Weekend.xml" />
-	<include file="weather.com plus/Daily.xml" />
-	<include file="weather.com plus/Maps.xml" />
-	<include file="weather.com plus/Alerts.xml" />
-	<include file="weather.com plus/Video.xml" />
-	<include file="weather.com plus/WeatherPluginView.xml" />
 	<include file="WeatherStandardView.xml" />
 	<include file="Includes_TVGuide.xml" />
-	
 	<include file="ViewsLiveTV.xml" />
 	<include file="ViewsPVR.xml" />
 	<include file="IncludesBackgroundBuilding.xml" />

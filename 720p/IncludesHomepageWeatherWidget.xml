@@ -250,14 +250,14 @@
 			<animation effect="fade" time="200">WindowClose</animation>
 			<animation effect="slide" end="0,-100" time="600" condition="Skin.HasSetting(horizontal_bottom_align)">conditional</animation>
 			<control type="group">
-				<posx>225r</posx>
-				<posy>335</posy>
+				<posx>-20</posx>
+				<posy>55</posy>
 				<width>225</width>
 				<height>301</height>
 				<visible>Skin.String(Weather,3) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]</visible>
 				<include>VisibleFadeEffect</include>
-				<animation effect="slide" start="550,0" end="0,0" time="600" delay="200" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
-				<animation effect="slide" start="0,580" end="0,0" time="600" delay="600" tween="cubic" easing="inout" condition="Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
+				<animation effect="slide" start="-550,0" end="0,0" time="600" delay="200" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
+				<animation effect="slide" start="0,-580" end="0,0" time="600" delay="600" tween="cubic" easing="inout" condition="Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
 				<control type="image">
 					<posx>25</posx>
 					<posy>-13</posy>
@@ -330,8 +330,8 @@
 				</control>
 			</control>
 			<control type="group">
-				<posx>225r</posx>
-				<posy>335</posy>
+				<posx>25r</posx>
+				<posy>-25</posy>
 				<width>225</width>
 				<height>301</height>
 				<visible>Skin.String(Weather,3) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]</visible>
@@ -341,7 +341,7 @@
 					<animation effect="slide" start="0,580" end="0,0" time="600" delay="600" tween="cubic" easing="inout" condition="Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
 				<control type="image">
 					<posx>-120</posx>
-					<posy>67</posy>
+					<posy>420</posy>
 					<width>135</width>
 					<height>170</height>
 					<texture border="20">ContentPanel.png</texture>
@@ -351,11 +351,11 @@
 					<width>70</width>
 					<height>70</height>
 					<posx>-90</posx>
-					<posy>80</posy>
+					<posy>433</posy>
 				</control>
 				<control type="label">
 					<posx>-150</posx>
-					<posy>150</posy>
+					<posy>503</posy>
 					<width>195</width>
 					<height>20</height>
 					<label>[B]$INFO[Window(Weather).Property(Day3.Title)][/B]</label>
@@ -369,7 +369,7 @@
 					<width>205</width>
 					<height>20</height>
 					<posx>-150</posx>
-					<posy>175</posy>
+					<posy>528</posy>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
 				</control>
@@ -379,7 +379,7 @@
 					<width>205</width>
 					<height>20</height>
 					<posx>-150</posx>
-					<posy>195</posy>
+					<posy>548</posy>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
 					<textcolor>SettingsDetail</textcolor>
@@ -389,8 +389,8 @@
 					<animation effect="slide" start="550,0" end="0,0" time="600" delay="800" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
 					<animation effect="slide" start="0,580" end="0,0" time="600" delay="600" tween="cubic" easing="inout" condition="Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
 				<control type="image">
-					<posx>-250</posx>
-					<posy>67</posy>
+					<posx>-120</posx>
+					<posy>242</posy>
 					<width>135</width>
 					<height>170</height>
 					<texture border="20">ContentPanel.png</texture>
@@ -399,12 +399,12 @@
 					<texture>$INFO[Window(Weather).Property(Day2.OutlookIcon)]</texture>
 					<width>70</width>
 					<height>70</height>
-					<posx>-216</posx>
-					<posy>80</posy>
+					<posx>-90</posx>
+					<posy>255</posy>
 				</control>
 				<control type="label">
-					<posx>-280</posx>
-					<posy>150</posy>
+					<posx>-150</posx>
+					<posy>325</posy>
 					<width>195</width>
 					<height>20</height>
 					<label>[B]$INFO[Window(Weather).Property(Day2.Title)][/B]</label>
@@ -417,8 +417,8 @@
 					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
-					<posx>-280</posx>
-					<posy>175</posy>
+					<posx>-150</posx>
+					<posy>350</posy>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
 				</control>
@@ -427,8 +427,8 @@
 					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day2.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
-					<posx>-280</posx>
-					<posy>195</posy>
+					<posx>-150</posx>
+					<posy>370</posy>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
 					<textcolor>SettingsDetail</textcolor>
@@ -438,7 +438,7 @@
 					<animation effect="slide" start="650,0" end="0,0" time="600" delay="1200" tween="cubic" easing="inout" condition="!Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
 					<animation effect="slide" start="0,580" end="0,0" time="600" delay="600" tween="cubic" easing="inout" condition="Skin.HasSetting(horizontal_bottom_align) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]">Conditional</animation>
 				<control type="image">
-					<posx>-380</posx>
+					<posx>-120</posx>
 					<posy>67</posy>
 					<width>135</width>
 					<height>170</height>
@@ -448,11 +448,11 @@
 					<texture>$INFO[Window(Weather).Property(Day1.OutlookIcon)]</texture>
 					<width>70</width>
 					<height>70</height>
-					<posx>-342</posx>
+					<posx>-82</posx>
 					<posy>80</posy>
 				</control>
 				<control type="label">
-					<posx>-410</posx>
+					<posx>-150</posx>
 					<posy>150</posy>
 					<width>195</width>
 					<height>20</height>
@@ -466,7 +466,7 @@
 					<label>[COLOR mainblue]$LOCALIZE[393] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.HighTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
-					<posx>-410</posx>
+					<posx>-150</posx>
 					<posy>175</posy>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
@@ -476,7 +476,7 @@
 					<label>[COLOR mainblue]$LOCALIZE[391] [/COLOR] [COLOR white]$INFO[Window(Weather).Property(Day1.LowTemp)][/COLOR]</label>
 					<width>205</width>
 					<height>20</height>
-					<posx>-410</posx>
+					<posx>-150</posx>
 					<posy>195</posy>
 					<font>Font_Bartowski_Movies</font>
 					<align>center</align>
