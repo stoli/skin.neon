@@ -182,7 +182,7 @@
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[13005]</label>
-				<onclick>ShutDown()</onclick>
+				<onclick>XBMC.Powerdown()</onclick>
 			</control>
 			<control type="button" id="3114">
 				<description>Restart Xbmc</description>
@@ -198,7 +198,7 @@
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[13313] XBMC</label>
-				<onclick>RestartApp()</onclick>
+				<onclick>XBMC.Reset()</onclick>
 			</control>
 			<control type="button" id="3115">
 				<description>System Info Button</description>
