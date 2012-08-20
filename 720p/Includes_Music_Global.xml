@@ -1,8 +1,8 @@
 <includes>
-
+	
 	<include name="RSS_Music">
 		<control type="group">
-		<visible>Player.HasAudio</visible>
+		<visible>Player.HasAudio + !Control.IsVisible(1999)</visible>
 			<include>Animation_CommonFade</include>
 			<control type="image"> 
 				<posx>0</posx>

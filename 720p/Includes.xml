@@ -2109,6 +2109,44 @@
 			<thumb>$INFO[Window.Property(RandomSong.10.Fanart)]</thumb>
 		</item>
 	</include>
+	<include name="Global_NextAired">
+		<width>1020</width>
+		<height>30</height>
+		<font>Font_RSS</font>
+		<textcolor>mainblue</textcolor>
+		<align>center</align>
+		<aligny>center</aligny>
+		
+	</include>
+	<include name="NextAiredInfo" >
+		<control type="group" id="1999">
+			<include>Global_NextAired</include>
+			<posx>0</posx>
+			<posy>-10</posy>
+			<!--<include>Window_OpenClose_Animation</include>-->
+			<visible>!IsEmpty(Window(Home).Property(NextAired.Label)) + [Container.Content(TVShows) | Container.Content(Seasons) | [Container.Content(Episodes)]] + !IsEmpty(ListItem.TVShowTitle) + !IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
+			<control type="image"> 
+				<posx>130</posx>
+				<posy>0</posy>   
+				<width>1020</width>     
+				<height>43</height> 
+				<texture>MediaInfoBackUpper.png</texture>
+				<colordiffuse>mainblue</colordiffuse>
+				<animation effect="fade" start="0" end="70" time="400">WindowOpen</animation>
+				<animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
+			</control>
+			<control type="label">
+				<posx>0</posx>
+				<posy>-5</posy>
+				<width>1280</width>
+				<height>60</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>Font_RSS</font>
+				<label>[COLOR=mainblue]$LOCALIZE[31523]:[/COLOR]  [COLOR=white]$INFO[Window(Home).Property(NextAired.NextTitle)][COLOR=red] - [/COLOR]$INFO[Window(Home).Property(NextAired.AirTime)][COLOR=red] - [/COLOR]$INFO[Window(Home).Property(NextAired.NextDate)][/COLOR]</label>
+			</control>
+		</control>
+	</include>
 	<include name="InvisibleButton">
 		<posx>-20</posx>
 		<posy>-20</posy>

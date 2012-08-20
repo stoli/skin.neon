@@ -29,7 +29,7 @@
 			<texturefocus>-</texturefocus>
 			<onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=True)</onfocus>
 			<onfocus condition="!Skin.HasSetting(Use_Intro_Movie) + System.HasAddon(script.xbmc.intro.movie)">ReplaceWindow(Home)</onfocus>
-			
+			<onfocus>ReplaceWindow(Home)</onfocus>
 		</control> 
 		
 		
