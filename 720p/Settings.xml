@@ -132,7 +132,7 @@
 					<item id="8">
 						<label>705</label>
 						<label2>31405</label2>
-						<onclick>ActivateWindow(NetworkSettings)</onclick>
+						<onclick>ActivateWindow(ServiceSettings)</onclick>
 						<icon>special://skin/backgrounds/network.jpg</icon>
 					</item>
 					<item id="9">
