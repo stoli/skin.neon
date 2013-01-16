@@ -2304,7 +2304,7 @@
 						<aligny>center</aligny>
 						<font>Font_Neon_16</font>
 						<haspath>yes</haspath>
-						<label fallback="571">$INFO[Container(9003).ListItem.Thumb]</label>
+						<label fallback="571">$INFO[Container(9003).ListItem.Art(thumb)]</label>
 						<textcolor>white</textcolor>
 					</control>
 				</control>

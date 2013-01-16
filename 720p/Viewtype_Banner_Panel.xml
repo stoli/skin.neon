@@ -19,7 +19,7 @@
 			<posy>0</posy>
 			<width>570</width>
 			<height>318</height>
-			<texture diffuse="Showcase/showcase-diffuse.png">$INFO[Container(592).listitem.property(fanart_image)]</texture>
+			<texture diffuse="Showcase/showcase-diffuse.png">$INFO[Container(592).ListItem.Art(fanart)]</texture>
 			<fadetime>400</fadetime>
 			<aspectratio>stretch</aspectratio>
 			<include>Animation_HiddenByInfo</include>

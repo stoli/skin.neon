@@ -50,7 +50,7 @@
 				<posy>30</posy>
 				<width>436</width>
 				<height>244</height>
-				<texture background="true" diffuse="Showcase/showcase-diffuse.png" fallback="special://skin/backgrounds/movies.jpg">$INFO[Container(58).listitem.property(fanart_image)]</texture>
+				<texture background="true" diffuse="Showcase/showcase-diffuse.png" fallback="special://skin/backgrounds/movies.jpg">$INFO[Container(58).ListItem.Art(fanart)]</texture>
 				<fadetime>400</fadetime>
 				<aspectratio>stretch</aspectratio>
 				<include>Animation_SlideUpFadeOut</include>

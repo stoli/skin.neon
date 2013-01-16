@@ -110,7 +110,7 @@
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
-				<texture>$INFO[ListItem.Thumb]</texture>
+				<texture>$INFO[ListItem.Art(thumb)]</texture>
 			</control>-->
 						<control type="label">
 							<posx>30</posx>
@@ -138,7 +138,7 @@
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
-				<texture>$INFO[ListItem.Thumb]</texture>
+				<texture>$INFO[ListItem.Art(thumb)]</texture>
 			</control>-->
 						<!--<control type="image">
 				<posx>119</posx>
@@ -397,7 +397,7 @@
 							<width>500</width>
 							<height>80</height>
 							<aspectratio>stretch</aspectratio>
-							<texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
+							<texture diffuse="bannerdiffuse.png">$INFO[ListItem.Art(thumb)]</texture>
 						</control>
 						<control type="image">
 							<posx>20</posx>
@@ -456,7 +456,7 @@
 							<width>500</width>
 							<height>80</height>
 							<aspectratio>stretch</aspectratio>
-							<texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
+							<texture diffuse="bannerdiffuse.png">$INFO[ListItem.Art(thumb)]</texture>
 						</control>
 						<control type="image">
 							<posx>20</posx>
