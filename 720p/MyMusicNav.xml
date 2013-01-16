@@ -98,7 +98,7 @@
 			<height>160</height>
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>mainmenu/home_bottom_backthin.png</texture>
-			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 		</control>
 		<control type="image"><!-- Floor -->
 			<posx>0</posx>
@@ -106,7 +106,7 @@
 			<width>1280</width>
 			<height>160</height>
 			<texture>mainmenu/home_bottom_align.png</texture>
-			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 		</control>
 
 		<control type="grouplist" id="7000">

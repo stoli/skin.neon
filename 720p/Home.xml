@@ -66,8 +66,8 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_back.png</texture>
 			<include>Animation_CommonFadeNoHideBack-Home</include>
-			<visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
-			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
+			<visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
+			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation> 
 		</control>
 		<control type="image">
 			<posx>0</posx>
@@ -76,8 +76,8 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
-			<visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus</visible>
-			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus">conditional</animation> 
+			<visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
+			<animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation> 
 		</control>
 		<control type="image">
 			<posx>0</posx>
@@ -87,7 +87,7 @@
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>mainmenu/home_bottom_back.png</texture>
 			<include>Animation_CommonFadeNoHideBack-Home</include>
-			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
+			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional></animation>
 		</control>	
 		<control type="image">
 			<posx>0</posx>
@@ -96,7 +96,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture>mainmenu/home_bottom_align.png</texture>
 			<include>Animation_CommonFadeNoHide</include>
-			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus">conditional></animation>
+			<animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional></animation>
 		</control>	
 		<control type="image">
 			<posx>0</posx>

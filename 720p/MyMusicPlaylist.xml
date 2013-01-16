@@ -35,7 +35,7 @@
 			<height>70</height>
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>mainmenu/home_bottom_white.png</texture>
-			<visible>ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+			<visible>ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 			<include>Animation_Fade75</include>
 		</control>
 		<control type="grouplist" id="7000">
@@ -46,7 +46,7 @@
 			<onup>50</onup>
 			<ondown>50</ondown>
 			<itemgap>0</itemgap>
-			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 			<orientation>horizontal</orientation>
 			<posy>678</posy>
 			<!-- shuffle -->

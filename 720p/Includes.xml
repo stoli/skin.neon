@@ -231,9 +231,9 @@
 			<height>720</height>
 			<colordiffuse>mainblue</colordiffuse>
 			<texture>HomeBlade.png</texture>
-			<animation effect="slide" start="0,0" end="10,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">Conditional</animation>
-			<animation effect="slide" start="0,0" end="-300,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">WindowClose</animation>
-			<animation effect="slide" start="0,0" end="-50,0" time="300" tween="quadratic" easing="out" condition="![ControlGroup(7000).HasFocus">WindowClose</animation>
+			<animation effect="slide" start="0,0" end="10,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
+			<animation effect="slide" start="0,0" end="-300,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
+			<animation effect="slide" start="0,0" end="-50,0" time="300" tween="quadratic" easing="out" condition="![ControlGroup(7000).HasFocus()">WindowClose</animation>
 		
 			<animation effect="slide" start="-26,0" end="-10,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="-26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
@@ -362,7 +362,7 @@
 	</include>
 	<include name="7000_has_focus">
 		<control type="image">
-			<visible>!Skin.HasSetting(LockViews) + [ControlGroup(7000).HasFocus | Window.IsActive(contextmenu) | Window.IsActive(shutdownmenu)]</visible>
+			<visible>!Skin.HasSetting(LockViews) + [ControlGroup(7000).HasFocus() | Window.IsActive(contextmenu) | Window.IsActive(shutdownmenu)]</visible>
 			<include>Dimensions_Fullscreen</include>
 			<texture>common/7000_focus.png</texture>
 			<animation effect="fade" start="0" end="100" time="600">Visible</animation>
@@ -928,7 +928,7 @@
 		<onleft>50</onleft>
 		<itemgap>0</itemgap>
 		<align>left</align>
-		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 		<orientation>vertical</orientation>
 	</include>
 	<include name="WindowMenuButton_Library">
@@ -951,7 +951,7 @@
 		<ondown>50</ondown>
 		<itemgap>0</itemgap>
 		<align>center</align>
-		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 		<orientation>horizontal</orientation>
 	</include>
 	<include name="WindowMenuVars_Vertical">
@@ -963,7 +963,7 @@
 		<itemgap>0</itemgap>
 		<align>left</align>
 		
-		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus</visible>
+		<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus()</visible>
 		<orientation>vertical</orientation>
 	</include>
 	<include name="WindowMenuButton">

@@ -30,7 +30,7 @@
 			<width>380</width>
 			<height>70</height>
 			<texture>notification_background.png</texture>
-			<visible>ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+			<visible>ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 			<include>Animation_ViewOptions_whitebar</include>
 		</control>
 		

@@ -264,7 +264,7 @@
 						<visible>Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
 					</control>
 					<!--<control type="image">
-						<visible>ControlGroup(28374).HasFocus + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
+						<visible>ControlGroup(28374).HasFocus() + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
 						<posx>-150</posx>
 						<posy>86</posy>
 						<width>407</width>
@@ -333,7 +333,7 @@
 						<visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left) + [Container.Content(episodes) | Window.IsActive(videoplaylist)]</visible>
 					</control>
 					<!--<control type="textbox">
-						<visible>ControlGroup(28374).HasFocus + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
+						<visible>ControlGroup(28374).HasFocus() + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
 						<posx>-140</posx>
 						<posy>90</posy>
 						<width>384</width>
@@ -372,7 +372,7 @@
 			<onup>7000</onup>
 			<ondown>599</ondown>
 			<label></label>
-			<visible allowhiddenfocus="true">ControlGroup(28374).HasFocus + Skin.HasSetting(3dLandscape_Fanart) + Container.Content(episodes)</visible>
+			<visible allowhiddenfocus="true">ControlGroup(28374).HasFocus() + Skin.HasSetting(3dLandscape_Fanart) + Container.Content(episodes)</visible>
 		</control>
 	</control>-->
 		
