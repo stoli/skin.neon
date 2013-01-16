@@ -190,7 +190,7 @@
 			<include>switch_horizontal_home</include>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<visible>!Skin.HasSetting(homepageHideRecentlyAdded) + Skin.HasSetting(LibraryUpdated) + !Window.IsVisible(DialogMusicScan.xml) + !Window.IsVisible(DialogVideoScan.xml)</visible>
+			<visible>!Skin.HasSetting(homepageHideRecentlyAdded) + Skin.HasSetting(LibraryUpdated)</visible>
 		</control>
 	<!-- Now Playing Video Window -->	
 		<control type="group">
