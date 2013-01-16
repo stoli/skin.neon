@@ -187,7 +187,7 @@ just copy the translations from Confluence to here
   <string id="31404">Configure Weather Settings[CR][CR]Set three cities to collect weather information</string>
   <string id="31405">Configure Network Settings[CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Set internet access options</string>
   <string id="31406">Configure System Settings[CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock</string>
-  <string id="31407">Configure Skin Settings[CR][CR]Configure the Neon skin · Add and remove home menu items[CR]Change skin backgrounds</string>
+  <string id="31407"></string>
   <string id="31408">Configure Add-Ons[CR][CR]Browse for and install Add-ons from xbmc.org and other Repositories ·  Modify Add-on settings</string>
   <string id="31420">[COLOR=white]XBMC has not detected a Disc.[/COLOR][CR][CR]Please Insert a disc into your drive and try again or Cancel</string>
   <string id="31421">Select your XBMC user Profile[CR]to login and continue</string>

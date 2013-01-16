@@ -132,7 +132,7 @@
 					<item id="8">
 						<label>705</label>
 						<label2>31405</label2>
-						<onclick>ActivateWindow(NetworkSettings)</onclick>
+						<onclick>ActivateWindow(ServiceSettings)</onclick>
 						<icon>special://skin/backgrounds/network.jpg</icon>
 					</item>
 					<item id="9">
@@ -140,12 +140,6 @@
 						<label2>31406</label2>
 						<onclick>ActivateWindow(SystemSettings)</onclick>
 						<icon>special://skin/backgrounds/system.jpg</icon>
-					</item>
-					<item id="10">
-						<label>166</label>
-						<label2>31407</label2>
-						<onclick>ActivateWindow(1111)</onclick>
-						<icon>special://skin/backgrounds/skinsetting.jpg</icon>
 					</item>
 				</content>
 			</control>

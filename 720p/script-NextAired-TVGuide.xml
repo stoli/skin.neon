@@ -321,7 +321,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -411,7 +411,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -480,7 +480,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -570,7 +570,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -639,7 +639,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -729,7 +729,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -798,7 +798,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -888,7 +888,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -957,7 +957,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -1047,7 +1047,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -1116,7 +1116,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -1206,7 +1206,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -1275,7 +1275,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
@@ -1365,7 +1365,7 @@
 							<width>108</width>
 							<height>25</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">

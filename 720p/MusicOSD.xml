@@ -85,51 +85,6 @@
 				<height>1</height>
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>separator2.png</texture>
-				<visible>!LastFM.RadioPlaying</visible>
-			</control>
-			<control type="group" id="202">
-				<posx>607</posx>
-				<posy>10</posy>
-				<visible>LastFM.RadioPlaying</visible>
-				<control type="button" id="800">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>30</width>
-					<height>30</height>
-					<label>$LOCALIZE[15200] $LOCALIZE[31001]</label>
-					<align>right</align>
-					<font>-</font>
-					<textoffsetx>35</textoffsetx>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<texturefocus>lastfm-love-focus.png</texturefocus>
-					<texturenofocus>lastfm-love-nofocus.png</texturenofocus>
-					<onleft>702</onleft>
-					<onright>801</onright>
-					<onup>602</onup>
-					<ondown>602</ondown>
-					<onclick>XBMC.LastFM.Love</onclick>
-				</control>
-				<control type="button" id="801">
-					<posx>36</posx>
-					<posy>0</posy>
-					<width>30</width>
-					<width>30</width>
-					<height>30</height>
-					<label>$LOCALIZE[15200] $LOCALIZE[31002]</label>
-					<align>left</align>
-					<font>-</font>
-					<textoffsetx>35</textoffsetx>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<texturefocus>lastfm-hate-focus.png</texturefocus>
-					<texturenofocus>lastfm-hate-nofocus.png</texturenofocus>
-					<onleft>800</onleft>
-					<onright>703</onright>
-					<onup>603</onup>
-					<ondown>603</ondown>
-					<onclick>XBMC.LastFM.Ban</onclick>
-				</control>
 			</control>
 			<control type="group" id="201">
 				<posx>718</posx>
@@ -305,46 +260,9 @@
 					<alttexturenofocus>osd/OSDPlayNF.png</alttexturenofocus>
 					<onleft>601</onleft>
 					<onright>603</onright>
-					<onup>800</onup>
-					<ondown>800</ondown>
-					<onclick>PlayerControl(Play)</onclick>
-					<visible>LastFM.RadioPlaying</visible>
-				</control>
-				<control type="button" id="603">
-					<posx>150</posx>
-					<posy>0</posy>
-					<width>50</width>
-					<height>50</height>
-					<label>31352</label>
-					<font>-</font>
-					<texturefocus>osd/OSDStopFO.png</texturefocus>
-					<texturenofocus>osd/OSDStopNF.png</texturenofocus>
-					<onleft>602</onleft>
-					<onright>604</onright>
-					<onup>801</onup>
-					<ondown>801</ondown>
-					<onclick>PlayerControl(Stop)</onclick>
-					<visible>LastFM.RadioPlaying</visible>
-				</control>
-				<control type="togglebutton" id="602">
-					<posx>100</posx>
-					<posy>0</posy>
-					<width>50</width>
-					<height>50</height>
-					<label>31351</label>
-					<altlabel>208</altlabel>
-					<font>-</font>
-					<texturefocus>osd/OSDPauseFO.png</texturefocus>
-					<texturenofocus>osd/OSDPauseNF.png</texturenofocus>
-					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-					<alttexturefocus>osd/OSDPlayFO.png</alttexturefocus>
-					<alttexturenofocus>osd/OSDPlayNF.png</alttexturenofocus>
-					<onleft>601</onleft>
-					<onright>603</onright>
 					<onup>702</onup>
 					<ondown>702</ondown>
 					<onclick>PlayerControl(Play)</onclick>
-					<visible>!LastFM.RadioPlaying</visible>
 				</control>
 				<control type="button" id="603">
 					<posx>150</posx>
@@ -361,7 +279,6 @@
 					<ondown>703</ondown>
 					<onclick>down</onclick>
 					<onclick>PlayerControl(Stop)</onclick>
-					<visible>!LastFM.RadioPlaying</visible>
 				</control>
 				<control type="button" id="604">
 					<posx>200</posx>

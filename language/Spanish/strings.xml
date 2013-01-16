@@ -171,7 +171,7 @@ just copy the translations from Confluence to here
   <string id="31404">[B]CONFIGURAR OPCIONES DEL TIEMPO[/B][CR][CR] Establecer las tres ciudades para visualizar la informacion del tiempo</string>
   <string id="31405">[B]CONFIGURAR OPCIONES DE RED[/B][CR][CR] Ajustar el control del XBMC via UPnP y HTTP · Configurar archivos compartidos[CR]Establecer opciones de acceso a internet</string>
   <string id="31406">[B]CONFIGURAR OPCIONES DEL SISTEMA[/B][CR][CR] Ajustar y calibrar la pantalla · Configurar salida de audio · Ajustar control remoto[CR]Establecer opciones de ahorro de energia · Habilitar modo debug · Ajustar bloqueo maestro</string>
-  <string id="31407">[B]CONFIGURAR OPCIONES DE LA SKIN[/B][CR][CR]Ajustar la skin Night · Añadir / Quitar items del menu inicio[CR]Cambiar los fondos de la skin (Traducido por:Urtzi)</string>
+  <string id="31407"></string>
   <string id="31408">[B]CONFIGURAR ADD-ONS[/B][CR][CR]Gestionas los Add-ons instalados · Gestionar o instalar Add-ons desde xbmc.org[CR]Modificar opciones de los Add-ons</string>
   <string id="31420">[B][COLOR=white]XBMC no ha detectado ningun Disco.[/COLOR][/B][CR][CR]Porfavor inserte un disco valido y vuelva a intentarlo o cancele la operacion</string>
   <string id="31421">Select your XBMC user Profile[CR]to login and continue</string>

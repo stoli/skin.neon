@@ -15,7 +15,7 @@
 			<posy>10</posy>
 			<width>520</width>
 			<height>291</height>
-			<texture background="true" diffuse="Showcase/showcase-diffuse.png" fallback="special://skin/backgrounds/music.jpg">$INFO[Container(52).listitem.property(fanart_image)]</texture>
+			<texture background="true" diffuse="Showcase/showcase-diffuse.png" fallback="special://skin/backgrounds/music.jpg">$INFO[Container(52).ListItem.Art(fanart)]</texture>
 			<fadetime>400</fadetime>
 			<aspectratio>stretch</aspectratio>
 			<include>Animation_HiddenByInfo</include>
