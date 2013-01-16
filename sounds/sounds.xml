@@ -53,11 +53,11 @@
     </window>
     <window>
       <name>0</name>
-      <deactivate>-</deactivate>
+      <deactivate></deactivate>
     </window>
     <window>
       <name>4</name>
-      <deactivate>-</deactivate>
+      <deactivate></deactivate>
     </window>
   </windows>
 </sounds>
