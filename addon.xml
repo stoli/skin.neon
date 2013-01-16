@@ -5,7 +5,7 @@
   name="Neon"
   provider-name="stoli">
   <requires>
-    <import addon="xbmc.gui" version="3.00"/>
+    <import addon="xbmc.gui" version="4.00"/>
    	<import addon="script.favourites" version="1.0.3"/>
 	<import addon="script.artwork.downloader" version="1.0.3"/>
 	<import addon="script.randomitems" version="1.0.3"/>
