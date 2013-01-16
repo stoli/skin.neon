@@ -1747,7 +1747,7 @@
 		</item>
 	</include>
 	<include name="random_tv">
-		<onfocus>XBMC.RunScript(script.randomitems,limit=10&amp;unplayed=True)</onfocus>
+		<onfocus>SetProperty(SkinWidgets_RandomItems_Update,true)</onfocus>
 	</include>
 	<include name="random_movie_section">
 		<item id="1">
