@@ -104,7 +104,7 @@
 			<fadetime>400</fadetime>
 			<texture>backdrops/curtains_diffuse.jpg</texture>
 			<include>Animation_MyVideoNav_Fanart</include>
-			<visible>Control.IsVisible(59)[Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
+			<visible>Control.IsVisible(59) | Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
 		</control>
 
 
@@ -154,8 +154,8 @@
 		
 	<control type="group">
 		<include>Animation_SettingsFade</include>	
-			<animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">Conditional</animation>
-			<animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">WindowClose</animation>
+			<animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
+			<animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
 			<include>SideBladeLeft</include>
 		<!--	<control type="image">
 				<description>LOGO</description>

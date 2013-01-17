@@ -51,7 +51,7 @@
 			<width>1280</width>
 			<height>70</height>
 			<texture>notification_background.png</texture>
-			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 		</control>
 		
 		<control type="grouplist" id="7000">
