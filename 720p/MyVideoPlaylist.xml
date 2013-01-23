@@ -76,7 +76,7 @@
 			<width>1280</width>
 			<height>70</height>
 			<texture>notification_background.png</texture>
-			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus + !Skin.HasSetting(LockViews)</visible>
+			<visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
 			<include>Animation_ViewOptions_whitebar</include>
 		</control>
 		

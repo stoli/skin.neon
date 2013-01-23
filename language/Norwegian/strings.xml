@@ -163,7 +163,7 @@ just copy the translations from Confluence to here
   <string id="31404">[B]ENDRE DINE VÆRINNSTILLINGER:[/B][CR][CR]Oppgi de tre stedene som XBMC viser på værskjermen · Endre dine regionale innstillinger, inklusive temperaturenheter</string>
   <string id="31405">[B]ENDRE DINE NETTVERKSINNSTILLINGER:[/B][CR][CR]Aktiver XBMC sin interne webserver · Oppgi Sambainnstillinger · Aktiver/konfigurer UPnP-server og -klient · Konfigurer hendelsesserveren</string>
   <string id="31406">[B]ENDRE DINE SYSTEMINNSTILLINGER:[/B][CR][CR]Endre standarden for strømsparingsmodus · Konfigurer videomaskinvare · Still inn din lydmaskinvare · Konfigurer hovedbrukerens passord- og systemlåser</string>
-  <string id="31407">[B]ENDRE SKINNINNSTILLINGER:[/B][CR][CR]Legge til og ta bort hovedmenyknapper · Endre bakgrunner for hver seksjon · Skape sti til skript i hele skinnet</string>
+  <string id="31407"></string>
   <string id="31408">[B]KONFIGURER TILLEGG[/B][CR][CR]Håndter installerte tillegg · Let etter og installer tillegg fra xbmc.org[CR]Endre tilleggsinnstillinger</string> 
   <string id="31420">[COLOR=white]XBMC finner ingen plate.[/COLOR][CR][CR]Vennligst Legg en plate i Leseren eller Avbryt</string>
   <string id="31421">Velg din XBMC brukerprofil[CR]for å logge inn og fortsette</string>
@@ -171,7 +171,7 @@ just copy the translations from Confluence to here
   <string id="31320">Sist Innlogget</string>
   
   <string id="31003">Strømalternativer</string>
-  <string id="31004">Opptatt...</string>
+  <string id="31004">Working...</string>
   <string id="31005">Gjem INFO</string>
   <string id="31006">PosterPlus</string>
   <string id="31008">Avslutt</string>

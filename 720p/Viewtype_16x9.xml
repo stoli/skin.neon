@@ -636,80 +636,80 @@
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.1.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26374))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26374))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26374)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26374)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.1.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.2.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26375))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26375))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26375)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26375)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.2.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.3.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26376))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26376))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26376)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26376)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.3.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.4.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26377))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26377))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26377)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26377)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.4.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.5.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26378))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26378))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26378)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26378)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.5.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.6.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26379))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26375))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26379)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26375)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.6.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.7.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26380))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26380))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26380)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26380)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.7.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.8.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26381))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26381))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26381)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26381)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.9.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26382))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26382))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26382)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26382)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[Window(Home).Property(LatestEpisode.10.Thumb)]</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26383))">Conditional</animation>
-				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26383))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26383)">Conditional</animation>
+				<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(26383)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.Label)</visible>
 			</control>
 		</control>
@@ -726,70 +726,70 @@
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26374))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26374)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.1.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26375))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26375)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.2.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26376))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26376)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.3.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26377))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26377)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.4.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26378))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26378)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.5.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26379))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26379)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.6.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26380))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26380)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.7.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26381))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26381)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26382))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26382)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.Label)</visible>
 			</control>
 			<control type="image">
 				<width>180</width>
 				<height>100</height>
 				<texture>tv-landscape/new_recent_back.png</texture>
-				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26383))">Conditional</animation>
+				<animation effect="zoom" start="100" end="110" center="auto" time="400" condition="Control.HasFocus(26383)">Conditional</animation>
 				<visible>StringCompare(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.Label)</visible>
 			</control>
 		</control>

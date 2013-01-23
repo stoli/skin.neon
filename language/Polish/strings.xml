@@ -182,7 +182,7 @@
   <string id="31404">[B]KONFIGURACJA USTAWIEÑ POGODY[/B][CR][CR]Pobieraj informacje o pogodzie dla 3 miast</string>
   <string id="31405">[B]KONFIGURACJA USTAWIEÑ SIECI[/B][CR][CR]Kontrola XBMC poprzez UPnP i HTTP · Konfiguracja udostêpniania plików[CR]Opcje dostêpu do internetu</string>
   <string id="31406">[B]KONFIGURACJA USTAWIEÑ SYSTEMU[/B][CR][CR]Ustawienia i kalibracja ekranu · Konfiguracja wyjœcia dŸwiêku · Ustawienia pilota[CR]Opcje oszczêdzania energii · W³¹cz Debugging · Ustawienia Bezpieczeñstwa</string>
-  <string id="31407">[B]KONFIGURACJA USTAWIEÑ SKÓRY[/B][CR][CR]Ustawienia skóry · Dodaj lub usuñ elementy menu domowego[CR]Zmieñ t³o skóry</string>
+  <string id="31407"></string>  
   <string id="31408">[B]KONFIGURACJA DODATKÓW[/B][CR][CR]Zarz¹dzaj dodatkami · Przegl¹daj i instaluj dodatki z xbmc.org[CR]Zmieñ ustawienia dodatków</string>
   <string id="31420">[B][COLOR=white]XBMC nie wykry³ dysku.[/COLOR][/B][CR][CR]Proszê w³o¿yæ dysk do napêdu i spróbowaæ ponownie lub anulowaæ</string>
   <string id="31421">Wybierz swój profil u¿ytkownika[CR]aby siê zalogowaæ i kontynuowaæ</string>

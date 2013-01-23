@@ -19,7 +19,7 @@
 			 <include>Viewtype_3daddon</include><!--  56  -->
 		</control>
 			<control type="image">
-				<visible>ControlGroup(7000).HasFocus</visible>
+				<visible>ControlGroup(7000).HasFocus()</visible>
 				<include>Dimensions_Fullscreen</include>
 				<texture>common/7000_focus.png</texture>
 				<animation effect="fade" start="0" end="100" time="600">Visible</animation>
@@ -27,8 +27,8 @@
 			</control>
 		<control type="group">
 			<include>Animation_SettingsFade</include>	
-			<animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">Conditional</animation>
-			<animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">WindowClose</animation>
+			<animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
+			<animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
 			<include>SideBladeLeft</include>
 			<control type="image">
 				<description>LOGO</description>
@@ -108,6 +108,13 @@
 					<onright>50</onright>
 					<onup>5</onup>
 					<ondown>610</ondown>
+				</control>
+				<control type="radiobutton" id ="7">
+					<description>Hide foreign</description>
+					<posx>0</posx>
+					<posy>210</posy>
+					<include>ButtonCommonValues</include>
+					<label>$LOCALIZE[25001]</label>
 				</control>
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>

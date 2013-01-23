@@ -170,7 +170,7 @@ just copy the translations from Confluence to here
   <string id="31404">[B]KONFIGURIERE DIE WETTEREINSTELLUNGEN[/B][CR][CR]Städteauswahl</string>
   <string id="31405">[B]KONFIGURIERE DIE NETZWERKEINSTELLUNGEN[/B][CR][CR]XBMC-Steuerung via UPnP und HTTP · Dateizugriff · Internetzugriff</string>
   <string id="31406">[B]KONFIGURIERE DIE SYSTEMEINSTELLUNGEN[/B][CR][CR]Displayseinstellungen · Audioausgabe · Fernbedienungseinstellungen[CR]Energiespareinstellungen · Debugging · Master-Sperre</string>
-  <string id="31407">[B]KONFIGURIERE DIE SKINEINSTELLUNGEN[/B][CR][CR]Night Skin einrichten · Hauptmenüeinträge bearbeiten · Skin Hintergründe</string>
+  <string id="31407"></string>
   <string id="31408">[B]KONFIGURIERE DIE ADD-ONS[/B][CR][CR]Add-ons organisieren · Add-ons von xbmc.org installieren · Add-on Einstellungen</string>
   <string id="31420">[B][COLOR=white]XBMC hat keine Disc erkannt.[/COLOR][/B][CR][CR]Bitte Disc einlegen und nochmals versuchen oder Abbrechen</string>
   <string id="31421">Wähle Dein XBMC Benutzer Profil[CR]Zum Anmelden und Weitermachen</string>

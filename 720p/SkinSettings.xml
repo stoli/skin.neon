@@ -1,4 +1,4 @@
-<window id="1111">
+<window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<controls>
 		<include>CommonSettingsBackground</include>
@@ -2732,8 +2732,8 @@
 							<colordiffuse>mainblue</colordiffuse>
 							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<!--<onclick>RunScript(script.artwork.downloader)</onclick>-->
 							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, clearlogo)</onclick>
+							<visible>system.hasaddon(script.artwork.downloader)</visible>
 						</control>
 						<control type="button" id="517">
 							<posx>0</posx>
@@ -2747,8 +2747,8 @@
 							<colordiffuse>mainblue</colordiffuse>
 							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<!--<onclick>RunScript(script.artwork.downloader)</onclick>-->
 							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, poster)</onclick>
+							<visible>system.hasaddon(script.artwork.downloader)</visible>		
 						</control>
 						<control type="button" id="518">
 							<posx>0</posx>
@@ -2762,8 +2762,8 @@
 							<colordiffuse>mainblue</colordiffuse>
 							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<!--<onclick>RunScript(script.artwork.downloader)</onclick>-->
-							<onclick>XBMC.RunScript(script.artwork.downloader,mode=custom, banner)</onclick>
+							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, banner)</onclick>
+							<visible>system.hasaddon(script.artwork.downloader)</visible>
 						</control>
 						<control type="button" id="519">
 							<posx>0</posx>
@@ -2777,8 +2777,8 @@
 							<colordiffuse>mainblue</colordiffuse>
 							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<!--<onclick>RunScript(script.artwork.downloader)</onclick>-->
-							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom defaultthumb)</onclick>
+							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, defaultthumb)</onclick>
+							<visible>system.hasaddon(script.artwork.downloader)</visible>
 						</control>
 						<control type="button" id="520">
 							<posx>0</posx>
@@ -2792,8 +2792,8 @@
 							<colordiffuse>mainblue</colordiffuse>
 							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<!--<onclick>RunScript(script.artwork.downloader)</onclick>-->
 							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, clearart)</onclick>
+							<visible>system.hasaddon(script.artwork.downloader)</visible>
 						</control>
 					</control>
 				<!--	<control type="textbox" id="521">

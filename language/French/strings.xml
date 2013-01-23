@@ -169,7 +169,7 @@ just copy the translations from Confluence to here
   <string id="31404">[B]CONFIGURATION DES PARAMÈTRES MÉTÉO[/B][CR][CR]Choisir les trois villes qui recueilleront les informations météorologiques</string>  
   <string id="31405">[B]CONFIGURATION DES PARAMÈTRES RÉSEAU[/B][CR][CR]Permettre le contrôle de XBMC via UPnP et HTTP · Configurer le partage des fichiers[CR]Définir les options d'accès Internet</string>
   <string id="31406">[B]CONFIGURATION DES PARAMÈTRES SYSTÈME[/B][CR][CR]Configurer les sorties vidéo et audio · Configurer les périphériques de contrôle[CR]Définir les options de gestion d'énergie · Activer le débogage · Configurer la sécurité</string>
-  <string id="31407">[B]CONFIGURATION DES PARAMÈTRES THÈME[/B][CR][CR]Configuration du skin Confluence · Ajouter et supprimer des éléments du menu d'accueil[CR]Changer les arrière-plans du skin</string>
+  <string id="31407"></string>
   <string id="31408">[B]CONFIGURATION DES ADD-ONS[/B][CR][CR]Gérer les Add-ons installés· Recherche et installation d'Add-ons depuis xbmc.org[CR]Modifier les paramètres Add-on</string>
   <string id="31421">Séléctionnez votre profit XBMC[CR]pour vous connecter</string>
   <string id="31319">Profit séléctionné</string>
