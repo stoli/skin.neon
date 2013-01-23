@@ -41,7 +41,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texture>neon.png</texture>
 			</control>
-			<control type="button" id ="4">
+			<control type="button" id="4">
 				<description>Enable Login screen</description>
 				<posx>15</posx>
 				<posy>120</posy>

@@ -233,7 +233,7 @@
 		   </control>		 -->	
 								
 
-			<control type ="image" id="7657"> 
+			<control type="image" id="7657"> 
 				<description>tv show image</description>
 				<posx>948</posx>     
 				<posy>-26</posy>    
@@ -243,7 +243,7 @@
 				<aspectratio>keep</aspectratio>
 				<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
-			<control type ="image" id="7658"> 
+			<control type="image" id="7658"> 
 				<description>tv show image</description>
 				<posx>948</posx>     
 				<posy>-26</posy>    
@@ -253,7 +253,7 @@
 				<aspectratio>keep</aspectratio>
 				<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
 			</control>
-			<control type ="image"> 
+			<control type="image"> 
 				<description>tv show image</description>
 				<posx>960</posx>     
 				<posy>-220</posy>    
@@ -270,7 +270,7 @@
 				<visible>IsEmpty(Control.GetLabel(7657))  + IsEmpty(Control.GetLabel(7658)) + VideoPlayer.Content(episodes)</visible>
 			</control>
 			
-			<control type ="image"> 
+			<control type="image"> 
 				<description>tv show image</description>
 				<posx>960</posx>     
 				<posy>-186</posy>    

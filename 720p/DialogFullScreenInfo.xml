@@ -386,7 +386,7 @@
 	<control type="group">
 	<posy>600</posy>
 	<posx>10</posx>
-		<control type ="image"> 
+		<control type="image"> 
 			<description>tv show image</description>
 			<posx>970</posx>     
 			<posy>-120</posy>    
@@ -404,7 +404,7 @@
 			</animation>
 			<visible>!Control.IsVisible(10)</visible>
 		</control>
-		<control type ="image" id="7657"> 
+		<control type="image" id="7657"> 
 			<description>tv show image</description>
 			<posx>120r</posx>     
 			<posy>70</posy>    
@@ -415,7 +415,7 @@
 			<aspectratio>keep</aspectratio>
 			<!--<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible> -->
 		</control>
-		<control type ="image" id="7658"> 
+		<control type="image" id="7658"> 
 			<description>tv show image</description>
 			<posx>120r</posx>     
 			<posy>70</posy>    
