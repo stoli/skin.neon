@@ -635,8 +635,8 @@
 				<height>210</height>
 				<onleft>4054</onleft>
 				<onright>300</onright>
-				<onup>511</onup>
-				<ondown>511</ondown>
+				<onup>510</onup>
+				<ondown>510</ondown>
 				<pagecontrol>-</pagecontrol>
 				<visible>Skin.HasSetting(random_items)</visible> 
 				<itemlayout height="24" width="300">
@@ -686,7 +686,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.1.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.1.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.1.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.1.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.1.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
                         <item id="2">
@@ -697,7 +697,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.2.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.2.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.2.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.2.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.2.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
                         <item id="3">
@@ -708,7 +708,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.3.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.3.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.3.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.3.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.3.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
                         <item id="4">
@@ -719,7 +719,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.4.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.4.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.4.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.4.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.4.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
                         <item id="5">
@@ -730,7 +730,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.5.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.5.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.5.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.5.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.5.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
                         <item id="6">
@@ -741,7 +741,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.6.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.6.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.6.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.6.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.6.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
                         <item id="7">
@@ -752,7 +752,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.7.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.7.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.7.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.7.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.7.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
                         <item id="8">
@@ -763,7 +763,7 @@
                                 <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.8.Plot)]</property>
                                 <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.8.Path)])</onclick>
                                 <icon>$INFO[Window.Property(RandomEpisode.8.Art(fanart))]</icon>
-                                <thumb>$INFO[Window.Property(RandomEpisode.8.(thumb)]</thumb>
+                                <thumb>$INFO[Window.Property(RandomEpisode.8.Art(thumb)]</thumb>
                                 <visible>Container(301).HasFocus(5)</visible>
                         </item>
 			<item id="10">
