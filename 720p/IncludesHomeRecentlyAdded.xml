@@ -627,7 +627,7 @@
 			<animation effect="slide" start="0,0" end="-380,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510)">Conditional</animation>
 			<animation effect="slide" start="0,0" end="0,20" time="0" condition="!Skin.HasSetting(nohometime) + Skin.HasSetting(highertime)+ !Skin.HasSetting(lowermainmenu)">Conditional</animation>
 			<posx>1340</posx>
-			<posy>20</posy>
+			<posy>250</posy>
 			<control type="list" id="510">
 				<posx>0</posx>
 				<posy>64</posy>
