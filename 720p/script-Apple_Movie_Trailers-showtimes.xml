@@ -116,7 +116,7 @@
 					<font>Font_Neon_12</font>
 					<aligny>center</aligny>
 					<align>right</align>
-					<info>ListItem.Art(thumb)</info>
+					<info>ListItem.Thumb</info>
 				</control>
 				<control type="label">
 					<posx>10</posx>
@@ -167,7 +167,7 @@
 					<font>Font_Neon_12</font>
 					<aligny>center</aligny>
 					<align>right</align>
-					<info>ListItem.Art(thumb)</info>
+					<info>ListItem.Thumb</info>
 				</control>
 				<control type="label">
 					<posx>10</posx>

@@ -335,7 +335,7 @@
 						<posy>312</posy>
 						<width>407</width>
 						<height>224</height>
-						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Art(thumb)]</texture>
+						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Thumb]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
@@ -348,7 +348,7 @@
 						<posy>86</posy>
 						<width>407</width>
 						<height>232</height>
-						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Art(thumb)]</texture>
+						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Thumb]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">

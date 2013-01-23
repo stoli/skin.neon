@@ -744,7 +744,7 @@
 					<height>340</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true" fallback="special://skin/backgrounds/music_small.jpg" >$INFO[ListItem.Art(fanart)]</texture>
+					<texture background="true" fallback="special://skin/backgrounds/music_small.jpg" >$INFO[ListItem.Property(fanart_image)]</texture>
 					<bordertexture border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
 					<visible>!Skin.HasSetting(MusicLibraryFanartView512)</visible>

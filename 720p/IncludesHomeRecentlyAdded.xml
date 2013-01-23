@@ -191,7 +191,7 @@
 				<height>230</height>
 				<width>255</width>
 				<fadetime>FanartCrossfadeTime</fadetime>
-				<texture diffuse="music/musicwallmatte.png" background="true" fallback="DefaultAudio.png">$INFO[Container(510).ListItem.Art(thumb)]</texture>
+				<texture diffuse="music/musicwallmatte.png" background="true" fallback="DefaultAudio.png">$INFO[Container(510).ListItem.Thumb]</texture>
 				<aspectratio scalediffuse="false">stretch</aspectratio>
 			</control>
 			<control type="image">
