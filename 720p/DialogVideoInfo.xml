@@ -649,7 +649,7 @@
 						<posy>0</posy>
 						<width>230</width>
 						<height>89</height>
-						<texture background="true">$INFO[ListItem.FilenameAndPath]logo.png</texture>
+						<texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
 						<fadetime>100</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
@@ -735,7 +735,7 @@
 						<posy>300</posy>
 						<width>230</width>
 						<height>89</height>
-						<texture background="true">$INFO[ListItem.path]logo.png</texture>
+						<texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
 						<fadetime>100</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
@@ -934,7 +934,7 @@
 						<posy>230</posy>
 						<width>350</width>
 						<height>350</height>
-						<texture background="true">$INFO[ListItem.path]logo.png</texture>
+						<texture background="true">$INFO[ListItem.Art(clearart)]</texture>
 						<fadetime>100</fadetime>
 						<aspectratio>keep</aspectratio>
 					</control>

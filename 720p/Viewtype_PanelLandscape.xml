@@ -233,7 +233,7 @@
 				<posy>300</posy>
 				<width>230</width>
 				<height>89</height>
-				<texture background="true">$INFO[ListItem.path]logo.png</texture>
+				<texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
 				<fadetime>100</fadetime>
 				<aspectratio scalediffuse="false">stretch</aspectratio>
 				<animation effect="slide" start="0,0" end="14,0" time="0" tween="cubic" easing="inout" condition="Container.Content(episodes)">Conditional</animation>
