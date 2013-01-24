@@ -422,7 +422,7 @@
 			<width>100</width>     
 			<height>40</height> 
 			
-			<texture background="true">$INFO[Player.FolderPath]logo.png</texture>
+			<texture background="true">$INFO[Player.Art(clearlogo)]</texture>
 			<aspectratio>keep</aspectratio>
 			<!--<visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible> -->
 		</control>
