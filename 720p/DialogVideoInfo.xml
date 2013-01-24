@@ -101,14 +101,14 @@
 						<posx>230</posx>
 						<posy>25</posy>
 						<font>Font_Neon_24</font>
-						<label>[COLOR=mainblue]"logo.png"[/COLOR]</label>
+						<label>[COLOR=mainblue]clearlogo[/COLOR]</label>
 					</control>
 					<control type="image">
 						<posx>80</posx>
 						<posy>55</posy>
 						<width>400</width>
 						<height>155</height>
-						<texture>$INFO[ListItem.FilenameAndPath]logo.png</texture>
+						<texture>$INFO[ListItem.Art(clearlogo)]</texture>
 						<fadetime>100</fadetime>
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
@@ -118,14 +118,14 @@
 						<posx>220</posx>
 						<posy>210</posy>
 						<font>Font_Neon_24</font>
-						<label>[COLOR=mainblue]"clearart.png"[/COLOR]</label>
+						<label>[COLOR=mainblue]clearart[/COLOR]</label>
 					</control>
 					<control type="image">
 						<posx>80</posx>
 						<posy>240</posy>
 						<width>400</width>
 						<height>225</height>
-						<texture>$INFO[ListItem.FilenameAndPath]clearart.png</texture>
+						<texture>$INFO[ListItem.Art(clearart)]</texture>
 						<fadetime>100</fadetime>
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
@@ -135,7 +135,7 @@
 						<posx>630</posx>
 						<posy>25</posy>
 						<font>Font_Neon_24</font>
-						<label>[COLOR=mainblue]"poster.jpg"[/COLOR]</label>
+						<label>[COLOR=mainblue]poster[/COLOR]</label>
 					</control>
 					<control type="image">
 						<posx>550</posx>
@@ -185,7 +185,7 @@
 						<posx>980</posx>
 						<posy>235</posy>
 						<font>Font_Neon_24</font>
-						<label>[COLOR=mainblue]"landscape.jpg"[/COLOR]</label>
+						<label>[COLOR=mainblue]landscape[/COLOR]</label>
 					</control>
 					<control type="image">
 						<posx>880</posx>
@@ -193,7 +193,7 @@
 						<width>350</width>
 						<height>197</height>
 						<align>center</align>
-						<texture>$INFO[ListItem.FilenameAndPath]landscape.jpg</texture>
+						<texture>$INFO[ListItem.Art(landscape)]</texture>
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<fadetime>100</fadetime>
@@ -204,7 +204,7 @@
 						<posx>100</posx>
 						<posy>535</posy>
 						<font>Font_Neon_24</font>
-						<label>[COLOR=mainblue]"banner.jpg"[/COLOR]</label>
+						<label>[COLOR=mainblue]banner[/COLOR]</label>
 					</control>
 					<control type="image">
 						<posx>255</posx>
@@ -1280,7 +1280,6 @@
 						<description>Cinema Script</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>$LOCALIZE[31212]</label>
-						
 						<onclick>Playlist.Clear</onclick>
 						<onclick>Dialog.Close(MovieInformation)</onclick>
 						<onclick>RunScript(script.cinema.experience)</onclick>
