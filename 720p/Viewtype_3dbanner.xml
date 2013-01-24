@@ -81,7 +81,7 @@
 						<posy>220</posy>
 						<width>304</width>
 						<height>80</height>
-						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Art(banner)]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 					</control>
@@ -100,7 +100,7 @@
 						<posy>298</posy>
 						<width>304</width>
 						<height>80</height>
-						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Art(banner)]</texture>
 						<fadetime>200</fadetime>
 						<colordiffuse>89FFFFFF</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -197,7 +197,7 @@
 						<posy>312</posy>
 						<width>440</width>
 						<height>110</height>
-						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Art(banner)]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">
@@ -224,7 +224,7 @@
 						<posy>204</posy>
 						<width>440</width>
 						<height>110</height>
-						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]banner.jpg</texture>
+						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Art(banner)]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<animation type="Focus" reversible="false">

@@ -143,7 +143,7 @@
 						<width>275</width>
 						<height>550</height>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
-						<texture>$INFO[ListItem.FilenameAndPath]poster.jpg</texture>
+						<texture>$INFO[ListItem.Art(poster)]</texture>
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 					</control>
@@ -212,7 +212,7 @@
 						<width>768</width>
 						<height>150</height>
 						<align>center</align>
-						<texture>$INFO[ListItem.FilenameAndPath]banner.jpg</texture>
+						<texture>$INFO[ListItem.Art(banner)]</texture>
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<fadetime>100</fadetime>
@@ -679,7 +679,7 @@
 						<posx>130</posx>
 						<posy>450</posy>
 						<align>center</align>
-						<texture background="true">$INFO[ListItem.FilenameAndPath]banner.jpg</texture>
+						<texture background="true">$INFO[ListItem.Art(banner)]</texture>
 						<fadetime>100</fadetime>
 					</control>
 					<!-- <control type="image">
@@ -1169,7 +1169,7 @@
 						<posx>260</posx>
 						<posy>490</posy>
 						<align>center</align>
-						<texture background="true">$INFO[ListItem.FilenameAndPath]banner.jpg</texture>
+						<texture background="true">$INFO[ListItem.Art(banner)]</texture>
 						<fadetime>100</fadetime>
 					</control>
 					<control type="image">

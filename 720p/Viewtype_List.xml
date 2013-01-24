@@ -202,7 +202,7 @@
 					<height>140</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">$INFO[ListItem.path]banner.jpg</texture>
+					<texture background="true">$INFO[ListItem.Art(banner)]</texture>
 					<bordertexture border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
 					<visible>Skin.HasSetting(FileFanartView) + !Skin.HasSetting(TVPosters)</visible>
