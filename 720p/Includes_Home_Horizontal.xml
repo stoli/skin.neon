@@ -300,7 +300,7 @@
 					<label>13005</label>
 					<icon>special://skin/backgrounds/shutdown.jpg</icon>
 					<thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
-					<onclick>XBMC.Powerdown()</onclick>
+					<onclick>XBMC.Shutdown()</onclick>
 					<visible>!Skin.HasSetting(HomeMenuNoShutdownButton)</visible>
 				</item>
 				<item id="11">
