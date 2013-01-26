@@ -16,9 +16,7 @@
     defaultresolutionwide="720p"
     defaultthemename="textures.xbt" 
     effectslowdown="1"
-    debugging="false">
-	<res width="1080" height="720" aspect="16:9" default="true" folder="720p" /> 
-	</extension>
+    debugging="false" />
   <extension point="xbmc.addon.metadata">
     <summary>Neon skin by stoli - Night meets Aeon meets Confluence</summary>
     <summary lang="fr">Neon skin by stoli - Night meets Aeon meets Confluence</summary>
