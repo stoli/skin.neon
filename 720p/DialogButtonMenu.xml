@@ -182,7 +182,7 @@
 				<align>center</align>
 				<aligny>middle</aligny>
 				<label>$LOCALIZE[13005]</label>
-				<onclick>XBMC.Powerdown()</onclick>
+				<onclick>XBMC.Shutdown()</onclick>
 			</control>
 			<control type="button" id="3114">
 				<description>Restart Xbmc</description>
