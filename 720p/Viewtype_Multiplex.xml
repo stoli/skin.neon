@@ -93,7 +93,6 @@
 				<visible/>
 				<width>313</width>
 				<height>490</height>
-				<aspectratio/>
 				<fadetime>400</fadetime>
 				<animation effect="rotatey" center="0" start="45" end="-45" time="0" condition="true">Conditional</animation>
 				
@@ -120,7 +119,6 @@
 				<camera x="440" y="195"/>
 				<width>310</width>
 				<height>195</height>
-				<aspectratio/>
 				<fadetime>2000</fadetime>
 				<timeperimage>5000</timeperimage>
 				<randomize>true</randomize>
@@ -134,7 +132,6 @@
 				<visible/>
 				<width>310</width>
 				<height>485</height>
-				<aspectratio/>
 				<fadetime>400</fadetime>
 				<animation effect="rotatey" center="0" start="45" end="-45" time="0" condition="true">Conditional</animation>
 				
@@ -280,7 +277,6 @@
 		<control type="largeimage">
 			<width>240</width>
 			<height>360</height>
-			<aspectratio/>
 			<fadetime>400</fadetime>
 			<animation effect="rotatey" center="0" start="50" end="45" time="0" condition="true">Conditional</animation>
 			<texture diffuse="mod/list_movieicon_mask.png">$INFO[Container(588).ListItem(0).Icon]</texture>
@@ -297,7 +293,6 @@
 		<control type="image">
 			<width>240</width>
 			<height>360</height>
-			<aspectratio/>
 			<fadetime>400</fadetime>
 			<animation effect="rotatey" center="0" start="45" end="45" time="0" condition="true">Conditional</animation>
 			<texture>mod/list_movieicon_glass.png</texture>
@@ -339,7 +334,6 @@
 			<visible>Skin.HasSetting(extrathumbs)</visible>
 			<width>640</width>
 			<height>360</height>
-			<aspectratio/>
 			<fadetime>500</fadetime>
 			<timeperimage>3000</timeperimage>
 			<animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
@@ -350,7 +344,6 @@
 			<posy>362</posy>
 			<width>640</width>
 			<height>360</height>
-			<aspectratio/>
 			<fadetime>500</fadetime>
 			<timeperimage>3000</timeperimage>
 			<animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
@@ -360,7 +353,6 @@
 			<visible>Skin.HasSetting(extrathumbs)</visible>
 			<width>640</width>
 			<height>360</height>
-			<aspectratio/>
 			<fadetime>400</fadetime>
 			<texture>mod/list_musicicon_glass.png</texture>
 			<animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>

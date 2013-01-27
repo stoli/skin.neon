@@ -231,7 +231,7 @@
 				<posx>320</posx>
 				<posy>-120</posy><!-- -143 -->
 				<align>left</align>
-				<aligny>-</aligny>
+				<aligny>center</aligny>
 				<scroll>true</scroll>
 				<width>230</width>
 				<height>89</height>
@@ -246,7 +246,7 @@
 				<width>880</width>
 				<height>25</height>
 				<align>left</align>
-				<aligny>-</aligny>
+				<aligny>center</aligny>
 				<scroll>true</scroll>
 				<font>Font_Neon_45</font>
 				<label>[UPPERCASE][COLOR=white][B]$INFO[MusicPlayer.Artist][/B][/COLOR][/UPPERCASE]</label>
@@ -271,7 +271,7 @@
 				<width>680</width>
 				<height>24</height>
 				<align>left</align>
-				<aligny>-</aligny>
+				<aligny>center</aligny>
 				<font>Font_Bartowski_MenuValue</font>
 				<label>[COLOR 80c2c4c3]$INFO[MusicPlayer.Album] [$INFO[MusicPlayer.Year]][/COLOR]</label>
 				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
@@ -284,7 +284,7 @@
 				<width>550</width><!-- 1280 -->
 				<height>30</height>
 				<align>left</align>
-				<aligny>-</aligny>
+				<aligny>center</aligny>
 				<font>Font_Neon_22</font>
 				<label>[COLOR 80c2c4c3]Track: $INFO[MusicPlayer.TrackNumber] - [/COLOR][COLOR=white]$INFO[MusicPlayer.Title][/COLOR]</label>
 				<animation effect="slide" start="0,0" end="0,-12" time="200" condition="Control.IsVisible(212)">Conditional</animation>		
@@ -358,7 +358,7 @@
 					<width>160</width><!-- 1280 -->
 					<height>20</height>
 					<align>center</align>
-					<aligny>-</aligny>
+					<aligny>center</aligny>
 					<font>Font_Neon_18</font>
 					<label>[COLOR=selected]$INFO[MusicPlayer.offset(1).Title][/COLOR]</label>
 				</control>
@@ -383,7 +383,7 @@
 					<width>160</width><!-- 1280 -->
 					<height>20</height>
 					<align>center</align>
-					<aligny>-</aligny>
+					<aligny>center</aligny>
 					<font>Font_Neon_18</font>
 					<label>[COLOR=selected]$INFO[MusicPlayer.offset(2).Title][/COLOR]</label>
 				</control>

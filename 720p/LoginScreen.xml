@@ -208,7 +208,7 @@
 					<height>40</height>
 					<label>-</label>
 					<font>-</font>
-					<aligny>-</aligny>
+					<aligny>center</aligny>
 					<onclick>ActivateWindow(ShutdownMenu)</onclick>
 					<texturefocus>home-power-FO.png</texturefocus>
 					<texturenofocus>home-power.png</texturenofocus>

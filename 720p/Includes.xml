@@ -127,7 +127,7 @@
 		<height>42</height>
 		<font>Font_Neon_25</font>
 		<align>center</align>
-		<aligny>-</aligny>
+		<aligny>center</aligny>
 		<textoffsety>10</textoffsety>
 		<colordiffuse>mainblue</colordiffuse>
 		<texturefocus>button-focus.png</texturefocus>

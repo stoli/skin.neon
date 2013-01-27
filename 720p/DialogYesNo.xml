@@ -48,7 +48,7 @@
 			<label>-</label>
 			<width>500</width>
 			<align>center</align>
-			<aligny>middle</aligny>
+			<aligny>center</aligny>
 		</control>
 		<control type="label" id="2">
 			<description>Line 1</description>
@@ -60,7 +60,7 @@
 			<label>-</label>
 			<width>500</width>
 			<align>center</align>
-			<aligny>middle</aligny>
+			<aligny>center</aligny>
 		</control>
 		<control type="label" id="3">
 			<description>Line 2</description>
@@ -72,7 +72,7 @@
 			<label>-</label>
 			<width>500</width>
 			<align>center</align>
-			<aligny>middle</aligny>
+			<aligny>center</aligny>
 		</control>
 		<control type="label" id="4">
 			<description>Line 3</description>
@@ -84,7 +84,7 @@
 			<label>-</label>
 			<width>500</width>
 			<align>center</align>
-			<aligny>middle</aligny>
+			<aligny>center</aligny>
 		</control>
 
 		<control type="button" id="10">

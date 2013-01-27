@@ -219,7 +219,7 @@
 					<height>30</height>
 					<width>375</width>
 					<aligny>center</aligny>
-					<aligny>left</aligny>
+					<aligny>center</aligny>
 					<font>Font_WeatherTitle</font>
 					<textcolor>ccffffff</textcolor>
 					<label>[UPPERCASE]$INFO[Container(510).ListItem.Label][/UPPERCASE]</label>
@@ -237,7 +237,7 @@
 					<posy>102</posy>
 					<width>540</width>
 					<height>25</height>
-					<aligny>left</aligny>
+					<aligny>center</aligny>
 					<font>Font_Neon_22</font>
 					<textcolor>abFFFFFF</textcolor>
 					<label>[UPPERCASE]$INFO[Container(510).ListItem.Label2][/UPPERCASE]</label>
@@ -1264,7 +1264,7 @@
 		    <posy>132</posy>
 			<width>533</width>
 			<height>25</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>ab749a9a</textcolor>
 			<font>Font_Neon_22</font>
 		</include>
@@ -1273,7 +1273,7 @@
 			<posy>152</posy>
 			<width>533</width>
 			<height>25</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>ab749a9a</textcolor>
 			<font>Font_Neon_22</font>
 		</include>
@@ -1282,7 +1282,7 @@
 			<posy>172</posy>
 			<width>533</width>
 			<height>25</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>ab749a9a</textcolor>
 			<font>Font_Neon_22</font>
 			<label>$LOCALIZE[31425]:</label>
@@ -1292,7 +1292,7 @@
 			<posy>197</posy>
 			<width>533</width>
 			<height>117</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>c0FFFFFF</textcolor>
 			<font>Font_Neon_22</font>
 		</include>
@@ -1301,7 +1301,7 @@
 			<posy>33</posy>
 			<width>540</width>
 			<height>25</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>ab749a9a</textcolor>
 			<font>Font_Neon_22</font>
 		</include>
@@ -1310,7 +1310,7 @@
 			<posy>58</posy>
 			<width>540</width>
 			<height>180</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>c0FFFFFF</textcolor>
 			<font>Font_Neon_22</font>
 			<align>justify</align>
@@ -1321,7 +1321,7 @@
 			<posy>120</posy>
 			<width>540</width>
 			<height>25</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>ab749a9a</textcolor>
 			<font>Font_Neon_22</font>
 		</include>
@@ -1330,7 +1330,7 @@
 			<posy>145</posy>
 			<width>540</width>
 			<height>85</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>c0FFFFFF</textcolor>
 			<font>Font_Neon_22</font>
 			<align>justify</align>
@@ -1341,7 +1341,7 @@
 			<posy>125</posy>
 			<width>540</width>
 			<height>25</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>ab749a9a</textcolor>
 			<font>Font_Neon_22</font>
 		</include>
@@ -1350,7 +1350,7 @@
 			<posy>145</posy>
 			<width>540</width>
 			<height>133</height>
-			<aligny>left</aligny>
+			<aligny>center</aligny>
 			<textcolor>c0FFFFFF</textcolor>
 			<font>Font_Neon_22</font>
 			<align>justify</align>

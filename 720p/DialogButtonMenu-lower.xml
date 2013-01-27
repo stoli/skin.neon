@@ -55,7 +55,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>5</label>
 				<onclick>ActivateWindow(4)</onclick>
 			</control>
@@ -70,7 +70,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>$LOCALIZE[31242]</label>
 				<onclick>AlarmClock(shutdowntimer,Shutdown)</onclick>
 				<visible>!System.HasAlarm(ShutdownTimer)</visible>
@@ -86,7 +86,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>$LOCALIZE[31243]</label>
 				<onclick>CancelAlarm(ShutdownTimer)</onclick>
 				<visible>System.HasAlarm(ShutdownTimer)</visible>
@@ -102,7 +102,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>$LOCALIZE[1036]</label>
 				<onclick>ActivateWindow(Favourites)</onclick>
 			</control>
@@ -118,7 +118,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>$LOCALIZE[20183]</label>
 				<onclick>Dialog.Close(all,true)</onclick>
 				<onclick>ReloadSkin()</onclick>
@@ -135,7 +135,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>$LOCALIZE[13005]</label>
 				<onclick>ShutDown()</onclick>
 			</control>
@@ -150,7 +150,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>$LOCALIZE[13313] XBMC</label>
 				<onclick>RestartApp()</onclick>
 			</control>
@@ -165,7 +165,7 @@
 				<colordiffuse>mainblue</colordiffuse>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>$LOCALIZE[130]</label>
 				<onclick>ActivateWindow(7)</onclick>
 			</control>
@@ -178,7 +178,7 @@
 				<focusedcolor>white</focusedcolor>
 				<texturefocus>button-focus.png</texturefocus>
 				<align>center</align>
-				<aligny>middle</aligny>
+				<aligny>center</aligny>
 				<label>Reload Skin</label>
 				<onclick>ReloadSkin()</onclick>
 			</control> -->
