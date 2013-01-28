@@ -2529,7 +2529,6 @@
     <control type="group">
       <posx>605</posx>
       <posy>480</posy>
-      <animation effect="slide" start="0,0" end="0,-80" time="0" tween="cubic" easing="inout" condition="IsEmpty(Control.GetLabel(9550))">Conditional</animation>
       <visible>[Container.Content(TVShows) + ![Control.HasFocus(14) | Control.HasFocus(12)] + !Control.IsVisible(50)]</visible>
       <control type="label">
         <posx>0</posx>

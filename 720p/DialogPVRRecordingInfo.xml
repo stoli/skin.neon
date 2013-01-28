@@ -37,7 +37,7 @@
         <width>800</width>
         <height>720</height>
         <texture border="20,0,0,0" flipx="true">VisOsdPanel.png</texture>
-        <visible>Window.IsVisible(124)</visible>
+        <visible>Window.IsVisible(osdaudiosettings)</visible>
       </control>
       <control type="group">
         <animation effect="fade" delay="400" start="0" end="100" time="200">WindowOpen</animation>

@@ -42,7 +42,7 @@
         <align>center</align>
         <aligny>center</aligny>
         <textcolor>white</textcolor>
-        <visible>Window.IsVisible(124)</visible>
+        <visible>Window.IsVisible(osdaudiosettings)</visible>
       </control>
       <control type="label" id="3">
         <description>No Settings Label</description>

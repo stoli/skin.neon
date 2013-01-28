@@ -1058,7 +1058,7 @@
     <control type="group">
       <posx>10</posx>
       <posy>345</posy>
-      <visible>Player.HasAudio + !Window.IsActive(13000)</visible>
+      <visible>Player.HasAudio</visible>
       <include>VisibleFadeEffect</include>
       <control type="button" id="608">
         <posx>38</posx>

@@ -262,7 +262,7 @@
           <control type="group">
             <posx>750</posx>
             <posy>-20</posy>
-            <visible>IsEmpty(Control.GetLabel(9170)) + IsEmpty(Control.GetLabel(9171))</visible>
+            <visible>IsEmpty(Control.GetLabel(9171))</visible>
             <!-- Movie Poster -->
             <control type="image" id="200300">
               <visible>false</visible>

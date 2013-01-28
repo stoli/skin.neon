@@ -55,7 +55,7 @@
           <onright>702</onright>
           <onup>600</onup>
           <ondown>600</ondown>
-          <onclick>ActivateWindow(124)</onclick>
+          <onclick>ActivateWindow(osdaudiosettings)</onclick>
         </control>
         <control type="button" id="702">
           <posx>100</posx>
