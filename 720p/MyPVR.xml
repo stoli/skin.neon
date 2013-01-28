@@ -155,18 +155,6 @@
 			<include>LiveTVSearchView</include> <!-- view id = 17 -->
 			<include>ScrollOffsetLabel</include>
 		</control>
-
-		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
-			<texture>black-back.png</texture>
-			<animation effect="fade" time="400">Visible</animation>
-			<animation effect="fade" time="200">Hidden</animation>
-			<visible>Window.IsActive(FileBrowser) | Window.IsActive(601) | Window.IsActive(602) | Window.IsActive(603) | Window.IsActive(604) | Window.IsActive(606)</visible>
-		</control>
-
 		<control type="group">
 			<animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="[ControlGroup(9000).HasFocus() | Control.HasFocus(8999)] + !Window.IsActive(606)">Conditional</animation>
 			<animation effect="slide" start="-250,0" end="0,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus()">WindowOpen</animation>
