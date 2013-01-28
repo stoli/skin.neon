@@ -594,7 +594,7 @@
             <description>Music</description>
             <label>[COLOR=mainblue]$LOCALIZE[2][/COLOR] - $INFO[Container.NumItems,, $LOCALIZE[40281]]</label>
             <include>Global_HeadingSectionVars2</include>
-            <visible>Window.IsActive(502) + !Container.Content(artists) + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
+            <visible>[Window.IsActive(502) + !Container.Content(artists) + !Container.Content(songs) + !Container.Content(albums)] + !Window.IsActive(134) + !Control.IsVisible(50) + IsEmpty(Container.PluginName) + !Container.Content(plugins)</visible>
           </control>
           <control type="label">
             <description>Video</description>

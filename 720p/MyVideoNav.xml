@@ -105,7 +105,7 @@
       <fadetime>400</fadetime>
       <texture>backdrops/curtains_diffuse.jpg</texture>
       <include>Animation_MyVideoNav_Fanart</include>
-      <visible>Control.IsVisible(59) | Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
+      <visible>Control.IsVisible(59) | [Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
     </control>
     <include>Viewtype_Showcase</include>
     <!--  58  -->

@@ -42,7 +42,7 @@
           <align>center</align>
           <aligny>center</aligny>
           <textcolor>mainblue</textcolor>
-          <visible>Container.Content(movies) | Container.Content(videos) | Container.Content(music)] + !Control.HasFocus(12) </visible>
+          <visible>[Container.Content(movies) | Container.Content(videos) | Container.Content(music)] + !Control.HasFocus(12) </visible>
         </control>
         <control type="label">
           <posx>20</posx>
@@ -64,7 +64,7 @@
           <aspectratio>stretch</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
           <texture>separator2.png</texture>
-          <visible>Container.Content(movies) | Container.Content(videos) | Container.Content(music)] + !Control.HasFocus(12) + !Control.HasFocus(14)</visible>
+          <visible>[Container.Content(movies) | Container.Content(videos) | Container.Content(music)] + !Control.HasFocus(12) + !Control.HasFocus(14)</visible>
         </control>
         <control type="grouplist">
           <description>Media Codec Flagging Images</description>
