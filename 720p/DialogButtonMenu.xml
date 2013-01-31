@@ -13,7 +13,7 @@
     <control type="image">
       <!-- Floor -->
       <posx>458</posx>
-      <posy>54</posy>
+      <posy>84</posy>
       <width>370</width>
       <height>80</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -22,7 +22,7 @@
     <control type="image">
       <!-- Floor -->
       <posx>458</posx>
-      <posy>130</posy>
+      <posy>163</posy>
       <width>370</width>
       <height>300</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -31,7 +31,7 @@
     <control type="image">
       <!-- Floor -->
       <posx>458</posx>
-      <posy>430</posy>
+      <posy>463</posy>
       <width>370</width>
       <height>50</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -40,7 +40,7 @@
     <control type="image">
       <!-- Floor -->
       <posx>530</posx>
-      <posy>83</posy>
+      <posy>123</posy>
       <width>220</width>
       <height>35</height>
       <aspectratio scalediffuse="false">keep</aspectratio>
@@ -48,7 +48,7 @@
     </control>
     <control type="image">
       <posx>500</posx>
-      <posy>120</posy>
+      <posy>170</posy>
       <width>270</width>
       <height>2</height>
       <aspectratio>stretch</aspectratio>
@@ -57,7 +57,7 @@
     </control>
     <control type="grouplist" id="1">
       <posx>492</posx>
-      <posy>140</posy>
+      <posy>-70</posy>
       <onleft>-</onleft>
       <onright>-</onright>
       <onup>1</onup>
@@ -218,7 +218,7 @@
       </control>
     </control>
     <!--<control type="image">
-			<posx>590</posx>
+  		<posx>590</posx>
 			<posy>430</posy>
 			<height>100</height>
 			<width>110</width>
