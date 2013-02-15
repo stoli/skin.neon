@@ -526,7 +526,7 @@
         <onleft>26376</onleft>
         <onright>26375</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.1.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.1.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.1.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26375">
@@ -535,7 +535,7 @@
         <onleft>26374</onleft>
         <onright>26376</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.2.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.2.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.2.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26376">
@@ -544,7 +544,7 @@
         <onleft>26376</onleft>
         <onright>26375</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.3.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.3.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.3.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26377">
@@ -553,7 +553,7 @@
         <onleft>26374</onleft>
         <onright>26376</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.4.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.4.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.4.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26378">
@@ -562,7 +562,7 @@
         <onleft>26376</onleft>
         <onright>26375</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.5.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.5.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.5.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26379">
@@ -571,7 +571,7 @@
         <onleft>26374</onleft>
         <onright>26376</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.6.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.6.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.6.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26380">
@@ -580,7 +580,7 @@
         <onleft>26376</onleft>
         <onright>26375</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.7.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.7.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.7.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26381">
@@ -589,7 +589,7 @@
         <onleft>26374</onleft>
         <onright>26376</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.8.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.8.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26382">
@@ -598,7 +598,7 @@
         <onleft>26376</onleft>
         <onright>26375</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.9.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.9.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.Label)</visible>
       </control>
       <control type="button" id="26383">
@@ -607,7 +607,7 @@
         <onleft>26374</onleft>
         <onright>26376</onright>
         <label></label>
-        <onclick>PlayMedia($INFO[Window(Home).Property(LatestEpisode.10.Path)])</onclick>
+        <onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestEpisode.10.Path)])</onclick>
         <visible>StringCompare(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.Label)</visible>
       </control>
     </control>

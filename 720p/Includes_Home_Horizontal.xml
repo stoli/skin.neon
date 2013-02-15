@@ -110,7 +110,7 @@
           <icon>special://skin/backgrounds/custom.jpg</icon>
           <thumb>$INFO[Skin.String(Menu_Custom6_Folder)]</thumb>
           <!-- <onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom6_Path)],return)</onclick> -->
-          <onclick>XBMC.PlayMedia($INFO[Skin.String(Menu_Custom6_Path)])</onclick>
+          <onclick>XBMC.PlayMedia($ESCINFO[Skin.String(Menu_Custom6_Path)])</onclick>
           <onclick>ReplaceWindow(Home)</onclick>
           <visible>Skin.HasSetting(Menu_Custom6) + Skin.HasSetting(Menu_Custom6_Play)</visible>
         </item>
@@ -120,7 +120,7 @@
           <icon>special://skin/backgrounds/custom.jpg</icon>
           <thumb>$INFO[Skin.String(Menu_Custom6_Folder)]</thumb>
           <onclick>XBMC.ActivateWindow(10025,$INFO[Skin.String(Menu_Custom6_Path)],return)</onclick>
-          <!-- <onclick>XBMC.PlayMedia($INFO[Skin.String(Menu_Custom6_Path)])</onclick> -->
+          <!-- <onclick>XBMC.PlayMedia($ESCINFO[Skin.String(Menu_Custom6_Path)])</onclick> -->
           <visible>Skin.HasSetting(Menu_Custom6) + !Skin.HasSetting(Menu_Custom6_Play)</visible>
         </item>
         <item id="22">
@@ -128,7 +128,7 @@
           <label>$INFO[Skin.String(Menu_Custom7_Label)]</label>
           <icon>special://skin/backgrounds/custom.jpg</icon>
           <thumb>$INFO[Skin.String(Menu_Custom7_Folder)]</thumb>
-          <onclick>XBMC.PlayMedia($INFO[Skin.String(Menu_Custom7_Path)])</onclick>
+          <onclick>XBMC.PlayMedia($ESCINFO[Skin.String(Menu_Custom7_Path)])</onclick>
           <visible>Skin.HasSetting(Menu_Custom7) + Skin.HasSetting(Menu_Custom7_Play)</visible>
         </item>
         <item id="22">
@@ -144,7 +144,7 @@
           <label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
           <icon>special://skin/backgrounds/custom.jpg</icon>
           <thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
-          <onclick>XBMC.PlayMedia($INFO[Skin.String(Menu_Custom8_Path)])</onclick>
+          <onclick>XBMC.PlayMedia($ESCINFO[Skin.String(Menu_Custom8_Path)])</onclick>
           <visible>Skin.HasSetting(Menu_Custom8) + Skin.HasSetting(Menu_Custom8_Play)</visible>
         </item>
         <item id="23">
@@ -160,7 +160,7 @@
           <label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
           <icon>special://skin/backgrounds/custom.jpg</icon>
           <thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
-          <onclick>XBMC.PlayMedia($INFO[Skin.String(Menu_Custom9_Path)])</onclick>
+          <onclick>XBMC.PlayMedia($ESCINFO[Skin.String(Menu_Custom9_Path)])</onclick>
           <visible>Skin.HasSetting(Menu_Custom9) + Skin.HasSetting(Menu_Custom9_Play)</visible>
         </item>
         <item id="24">
@@ -176,7 +176,7 @@
           <label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
           <icon>special://skin/backgrounds/custom.jpg</icon>
           <thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
-          <onclick>XBMC.PlayMedia($INFO[Skin.String(Menu_Custom10_Path)])</onclick>
+          <onclick>XBMC.PlayMedia($ESCINFO[Skin.String(Menu_Custom10_Path)])</onclick>
           <visible>Skin.HasSetting(Menu_Custom10)</visible>
         </item>
         <item id="25">

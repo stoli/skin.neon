@@ -16,7 +16,7 @@
       <description>trigger with startup Playlist</description>
       <texturenofocus>-</texturenofocus>
       <texturefocus>-</texturefocus>
-      <onfocus>XBMC.PlayMedia($INFO[Skin.String(Startup_Playlist_Path)])</onfocus>
+      <onfocus>XBMC.PlayMedia($ESCINFO[Skin.String(Startup_Playlist_Path)])</onfocus>
       <onfocus condition="!Skin.HasSetting(Use_Intro_Movie) + System.HasAddon(script.xbmc.intro.movie)">ReplaceWindow(Home)</onfocus>
       <onfocus>SetFocus(10)</onfocus>
       <visible>Skin.HasSetting(Use_Startup_Playlist)</visible>

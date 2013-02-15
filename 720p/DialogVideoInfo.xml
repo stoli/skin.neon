@@ -1035,7 +1035,7 @@
             <include>ButtonInfoDialogsCommonValues</include>
             <label>$LOCALIZE[20410]</label>
             <visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(big_trailer)</visible>
-            <onclick>PlayMedia($INFO[ListItem.Trailer],noresume</onclick>
+            <onclick>PlayMedia($ESCINFO[ListItem.Trailer],noresume</onclick>
           </control>
           <control type="button" id="15">
             <description>Play Trailer</description>
@@ -1043,7 +1043,7 @@
             <label>$LOCALIZE[20410]</label>
             <visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(big_trailer)</visible>
             <onclick>Dialog.Close(MovieInformation)</onclick>
-            <onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
+            <onclick>PlayMedia($ESCINFO[ListItem.Trailer],1)</onclick>
           </control>
           <control type="button" id="113">
             <description>Cinema Script</description>
