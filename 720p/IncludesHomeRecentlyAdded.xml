@@ -94,8 +94,8 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="largeimage">
-          <posx>1</posx>
-          <posy>63</posy>
+          <posx>0</posx>
+          <posy>51</posy>
           <width>321</width>
           <height>180</height>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -111,7 +111,7 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>335</posx>
+          <posx>345</posx>
           <posy>65</posy>
           <width>570</width>
           <height>175</height>
@@ -119,10 +119,10 @@
           <texture border="20">ContentPanel.png</texture>
         </control>
         <control type="group">
-          <posx>5</posx>
-          <posy>2</posy>
+          <posx>4</posx>
+          <posy>5</posy>
           <control type="fadelabel">
-            <posx>345</posx>
+            <posx>355</posx>
             <posy>70</posy>
             <width>540</width>
             <height>30</height>
@@ -133,15 +133,15 @@
             <scrollout>false</scrollout>
           </control>
           <control type="image">
-            <posx>346</posx>
-            <posy>100</posy>
+            <posx>355</posx>
+            <posy>98</posy>
             <width>540</width>
             <height>1</height>
             <texture>common/separator.png</texture>
           </control>
           <control type="fadelabel">
-            <posx>345</posx>
-            <posy>102</posy>
+            <posx>355</posx>
+            <posy>100</posy>
             <width>540</width>
             <height>20</height>
             <aligny>center</aligny>
@@ -267,7 +267,7 @@
         </control>
         <control type="label">
           <posx>0</posx>
-          <posy>5</posy>
+          <posy>13</posy>
           <width>300</width>
           <textcolor>mainblue</textcolor>
           <align>center</align>
@@ -276,7 +276,7 @@
         </control>
         <control type="label">
           <posx>0</posx>
-          <posy>5</posy>
+          <posy>13</posy>
           <label>31521</label>
           <visible>Skin.HasSetting(random_items) + [Container(301).HasFocus(1) | Container(301).HasFocus(3) | Container(301).HasFocus(5)]</visible>
         </control>
@@ -290,7 +290,7 @@
         <posy>250</posy>
         <control type="list" id="510">
           <posx>0</posx>
-          <posy>64</posy>
+          <posy>72</posy>
           <width>300</width>
           <height>210</height>
           <onleft>4054</onleft>
@@ -619,7 +619,7 @@
         <posy>250</posy>
         <control type="list" id="510">
           <posx>0</posx>
-          <posy>64</posy>
+          <posy>69</posy>
           <width>300</width>
           <height>210</height>
           <onleft>4054</onleft>
@@ -1041,13 +1041,7 @@
         <control type="label">
           <include>MainMenuMultiFunction_ClassicTitle</include>
           <label>31520</label>
-          <visible>[Container(301).HasFocus(3) | Container(301).HasFocus(5)]</visible>
-        </control>
-        <control type="label">
-          <!-- lastest -->
-          <include>MainMenuMultiFunction_ClassicTitle</include>
-          <label>31520</label>
-          <visible>Container(301).HasFocus(1)</visible>
+          <visible>[Container(301).HasFocus(1) | Container(301).HasFocus(3) | Container(301).HasFocus(5)]</visible>
         </control>
         <control type="label">
           <!-- album -->
@@ -1192,7 +1186,7 @@
   </include>
   <include name="MainMenuMultiFunction_SubTitle">
     <posx>15</posx>
-    <posy>185</posy>
+    <posy>179</posy>
     <width>220</width>
     <height>25</height>
     <font>Font_Neon_20</font>
@@ -1206,8 +1200,7 @@
   </include>
   <include name="MainMenuMultiFunction_SubTitle2">
     <posx>15</posx>
-    <posy>210</posy>
-    <posy>200</posy>
+    <posy>206</posy>
     <width>220</width>
     <height>20</height>
     <font>Font_Time</font>
@@ -1292,8 +1285,8 @@
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
   <include name="Home_Episode_Note">
-    <posx>345</posx>
-    <posy>120</posy>
+    <posx>355</posx>
+    <posy>117</posy>
     <width>540</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1301,11 +1294,11 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Episode_Plot">
-    <posx>345</posx>
-    <posy>145</posy>
+    <posx>355</posx>
+    <posy>142</posy>
     <width>540</width>
-    <height>85</height>
-    <aligny>center</aligny>
+    <height>75</height>
+    <aligny>top</aligny>
     <textcolor>c0FFFFFF</textcolor>
     <font>Font_Neon_22</font>
     <align>justify</align>
@@ -1339,7 +1332,7 @@
   </include>
   <include name="MainMenuMultiFunction_ClassicTitle">
     <posx>0</posx>
-    <posy>5</posy>
+    <posy>13</posy>
     <width>240</width>
     <height>40</height>
     <align>center</align>
