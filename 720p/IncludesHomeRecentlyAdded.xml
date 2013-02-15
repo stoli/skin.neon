@@ -341,7 +341,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.1.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.1.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.1.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.1.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.1.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.1.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.1.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -352,7 +352,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.2.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.2.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.2.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.2.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.2.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.2.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.2.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -363,7 +363,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.3.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.3.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.3.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.3.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.3.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.3.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.3.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -374,7 +374,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.4.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.4.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.4.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.4.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.4.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.4.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.4.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -385,7 +385,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.5.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.5.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.5.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.5.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.5.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.5.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.5.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -396,7 +396,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.6.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.6.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.6.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.6.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.6.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.6.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.6.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -407,7 +407,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.7.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.7.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.7.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.7.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.7.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.7.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.7.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -418,7 +418,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(LatestEpisode.8.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(LatestEpisode.8.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(LatestEpisode.8.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestEpisode.8.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.8.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestEpisode.8.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestEpisode.8.Thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -429,7 +429,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.1.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.1.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.1.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.1.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.1.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.1.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.1.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -440,7 +440,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.2.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.2.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.2.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.2.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.2.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.2.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.2.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -451,7 +451,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.3.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.3.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.3.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.3.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.3.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.3.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.3.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -462,7 +462,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.4.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.4.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.4.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.4.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.4.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.4.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.4.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -473,7 +473,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.5.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.5.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.5.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.5.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.5.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.5.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.5.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -484,7 +484,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.6.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.6.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.6.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.6.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.6.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.6.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.6.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -495,7 +495,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.7.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.7.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.7.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.7.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.7.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.7.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.7.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -506,7 +506,7 @@
               <property name="MovieYear">$INFO[Window.Property(LatestMovie.8.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(LatestMovie.8.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(LatestMovie.8.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(LatestMovie.8.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.8.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestMovie.8.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestMovie.8.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -670,7 +670,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.1.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.1.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.1.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.1.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.1.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.1.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.1.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -681,7 +681,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.2.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.2.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.2.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.2.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.2.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.2.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.2.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -692,7 +692,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.3.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.3.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.3.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.3.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.3.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.3.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.3.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -703,7 +703,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.4.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.4.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.4.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.4.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.4.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.4.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.4.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -714,7 +714,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.5.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.5.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.5.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.5.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.5.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.5.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.5.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -725,7 +725,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.6.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.6.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.6.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.6.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.6.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.6.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.6.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -736,7 +736,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.7.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.7.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.7.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.7.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.7.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.7.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.7.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -747,7 +747,7 @@
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.8.EpisodeNo)]</property>
               <property name="EpisodeRating">$INFO[Window.Property(RandomEpisode.8.Rating)]</property>
               <property name="EpisodePlot">$INFO[Window.Property(RandomEpisode.8.Plot)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomEpisode.8.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.8.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomEpisode.8.Art(fanart))]</icon>
               <thumb>$INFO[Window.Property(RandomEpisode.8.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
@@ -758,7 +758,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.1.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.1.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.1.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.1.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.1.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.1.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.1.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -769,7 +769,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.2.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.2.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.2.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.2.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.2.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.2.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.2.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -780,7 +780,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.3.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.3.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.3.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.3.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.3.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.3.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.3.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -791,7 +791,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.4.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.4.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.4.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.4.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.4.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.4.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.4.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -802,7 +802,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.5.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.5.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.5.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.5.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.5.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.5.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.5.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -813,7 +813,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.6.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.6.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.6.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.6.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.6.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.6.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.6.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -824,7 +824,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.7.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.7.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.7.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.7.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.7.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.7.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.7.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
@@ -835,7 +835,7 @@
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.8.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.8.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.8.RunningTime)]</property>
-              <onclick>PlayMedia($INFO[Window.Property(RandomMovie.8.Path)])</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.8.Path)])</onclick>
               <icon>$INFO[Window.Property(RandomMovie.8.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomMovie.8.Thumb)]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
