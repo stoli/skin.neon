@@ -111,7 +111,7 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>345</posx>
+          <posx>330</posx>
           <posy>65</posy>
           <width>570</width>
           <height>175</height>
@@ -119,11 +119,11 @@
           <texture border="20">ContentPanel.png</texture>
         </control>
         <control type="group">
-          <posx>4</posx>
+          <posx>5</posx>
           <posy>5</posy>
           <control type="fadelabel">
-            <posx>355</posx>
-            <posy>70</posy>
+            <posx>340</posx>
+            <posy>69</posy>
             <width>540</width>
             <height>30</height>
             <aligny>center</aligny>
@@ -133,15 +133,15 @@
             <scrollout>false</scrollout>
           </control>
           <control type="image">
-            <posx>355</posx>
+            <posx>340</posx>
             <posy>98</posy>
             <width>540</width>
             <height>1</height>
             <texture>common/separator.png</texture>
           </control>
           <control type="fadelabel">
-            <posx>355</posx>
-            <posy>100</posy>
+            <posx>340</posx>
+            <posy>99</posy>
             <width>540</width>
             <height>20</height>
             <aligny>center</aligny>
@@ -1285,8 +1285,8 @@
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
   <include name="Home_Episode_Note">
-    <posx>355</posx>
-    <posy>117</posy>
+    <posx>340</posx>
+    <posy>116</posy>
     <width>540</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1294,10 +1294,10 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Episode_Plot">
-    <posx>355</posx>
-    <posy>142</posy>
+    <posx>340</posx>
+    <posy>140</posy>
     <width>540</width>
-    <height>75</height>
+    <height>77</height>
     <aligny>top</aligny>
     <textcolor>c0FFFFFF</textcolor>
     <font>Font_Neon_22</font>

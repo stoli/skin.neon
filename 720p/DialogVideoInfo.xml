@@ -175,7 +175,7 @@
             <posx>980</posx>
             <posy>235</posy>
             <font>Font_Neon_24</font>
-            <label>[COLOR=mainblue]landscape[/COLOR]</label>
+            <label>[COLOR=mainblue]fanart[/COLOR]</label>
           </control>
           <control type="image">
             <posx>880</posx>
@@ -183,7 +183,7 @@
             <width>350</width>
             <height>197</height>
             <align>center</align>
-            <texture>$INFO[ListItem.Art(landscape)]</texture>
+            <texture>$INFO[ListItem.Art(fanart)]</texture>
             <bordertexture border="5">button-nofocus.png</bordertexture>
             <bordersize>5</bordersize>
             <fadetime>100</fadetime>
@@ -507,7 +507,17 @@
 						<bordersize>8</bordersize>
 						<visible>!Container.Content(Genres)</visible>
 						<visible>!Container.Content(movies)</visible>
-					</control> --><control type="image" id="7019"><posx>20</posx><posy>0</posy><width>230</width><height>89</height><texture background="true">$INFO[ListItem.Art(clearlogo)]</texture><fadetime>100</fadetime><aspectratio scalediffuse="false">stretch</aspectratio></control><!--<control type="image">
+					</control> -->
+          <control type="image" id="7019">
+            <posx>20</posx>
+            <posy>0</posy>
+            <width>230</width>
+            <height>89</height>
+            <texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
+            <fadetime>100</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+          </control>
+          <!--<control type="image">
 						<posx>450</posx>
 						<posy>20</posy>
 						<width>600</width>
