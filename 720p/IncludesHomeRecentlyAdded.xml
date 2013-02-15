@@ -518,7 +518,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.1.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.1.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.1.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.1.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.1.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.1.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
@@ -530,7 +530,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.2.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.2.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.2.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.2.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.2.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.2.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
@@ -542,7 +542,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.3.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.3.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.3.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.3.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.3.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.3.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
@@ -554,7 +554,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.4.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.4.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.4.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.4.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.4.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.4.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
@@ -566,7 +566,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.5.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.5.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.5.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.5.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.5.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.5.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
@@ -578,7 +578,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.6.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.6.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.6.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.6.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.6.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.6.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
@@ -590,7 +590,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.7.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.7.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.7.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.7.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.7.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.7.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
@@ -602,7 +602,7 @@
               <property name="SongGenre">$INFO[Window.Property(LatestAlbum.8.Genre)]</property>
               <property name="SongReview">$INFO[Window.Property(LatestAlbum.8.Review)]</property>
               <onclick>PlayList.Clear</onclick>
-              <onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.8.Path)]")</onclick>
+              <onclick>PlayMedia($ESCINFO[Window.Property(LatestAlbum.8.Path)])</onclick>
               <icon>$INFO[Window.Property(LatestAlbum.8.Fanart)]</icon>
               <thumb>$INFO[Window.Property(LatestAlbum.8.Thumb)]</thumb>
               <visible>Container(301).HasFocus(1)</visible>
