@@ -277,6 +277,9 @@
         <control type="label">
           <posx>0</posx>
           <posy>13</posy>
+          <width>300</width>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
           <label>31521</label>
           <visible>Skin.HasSetting(random_items) + [Container(301).HasFocus(1) | Container(301).HasFocus(3) | Container(301).HasFocus(5)]</visible>
         </control>
@@ -619,7 +622,7 @@
         <posy>250</posy>
         <control type="list" id="510">
           <posx>0</posx>
-          <posy>69</posy>
+          <posy>96</posy>
           <width>300</width>
           <height>210</height>
           <onleft>4054</onleft>
@@ -664,7 +667,7 @@
             </control>
           </focusedlayout>
           <content>
-            <item id="1">
+            <item id="1"> <!-- Random Episodes -->
               <label>$INFO[Window.Property(RandomEpisode.1.Title)]</label>
               <label2>$INFO[Window.Property(RandomEpisode.1.TVshowTitle)]</label2>
               <property name="EpisodeNumber">$INFO[Window.Property(RandomEpisode.1.EpisodeNo)]</property>
@@ -752,15 +755,15 @@
               <thumb>$INFO[Window.Property(RandomEpisode.8.Art(thumb)]</thumb>
               <visible>Container(301).HasFocus(5)</visible>
             </item>
-            <item id="10">
+            <item id="10"> <!-- Random Movies -->
               <label>$INFO[Window.Property(RandomMovie.1.Title)]</label>
               <property name="MoviePlot">$INFO[Window.Property(RandomMovie.1.Plot)]</property>
               <property name="MovieYear">$INFO[Window.Property(RandomMovie.1.Year)]</property>
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.1.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.1.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.1.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.1.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.1.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.1.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.1.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
             <item id="11">
@@ -770,8 +773,8 @@
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.2.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.2.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.2.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.2.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.2.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.2.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.2.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
             <item id="12">
@@ -781,8 +784,8 @@
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.3.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.3.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.3.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.3.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.3.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.3.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.3.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
             <item id="13">
@@ -792,8 +795,8 @@
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.4.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.4.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.4.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.4.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.4.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.4.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.4.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
             <item id="14">
@@ -803,8 +806,8 @@
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.5.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.5.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.5.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.5.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.5.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.5.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.5.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
             <item id="15">
@@ -814,8 +817,8 @@
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.6.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.6.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.6.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.6.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.6.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.6.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.6.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
             <item id="16">
@@ -825,8 +828,8 @@
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.7.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.7.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.7.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.7.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.7.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.7.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.7.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
             <item id="17">
@@ -836,11 +839,11 @@
               <property name="MovieRating">$INFO[Window.Property(RandomMovie.8.Rating)]</property>
               <property name="RunningTime">$INFO[Window.Property(RandomMovie.8.RunningTime)]</property>
               <onclick>PlayMedia($ESCINFO[Window.Property(RandomMovie.8.Path)])</onclick>
-              <icon>$INFO[Window.Property(RandomMovie.8.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(RandomMovie.8.Thumb)]</thumb>
+              <icon>$INFO[Window.Property(RandomMovie.8.Art(fanart))]</icon>
+              <thumb>$INFO[Window.Property(RandomMovie.8.Art(poster))]</thumb>
               <visible>Container(301).HasFocus(3)</visible>
             </item>
-            <item id="20">
+            <item id="20"> <!-- Random Songs -->
               <label>$INFO[Window.Property(RandomSong.1.Title)]</label>
               <label2>$INFO[Window.Property(RandomSong.1.Artist)]</label2>
               <property name="SongYear">$INFO[Window.Property(RandomSong.1.Year)]</property>
@@ -937,7 +940,7 @@
               <onclick>$INFO[Window.Property(RandomAlbum.1.Path)]</onclick>
               <icon>$INFO[Window.Property(RandomAlbum.1.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomAlbum.1.Thumb)]</thumb>
-              <visible>Container(301).HasFocus(1)</visible>
+              <visible>Container(301).HasFocus(1) + Skin.HasSetting(noprefersong)</visible>
             </item>
             <item id="29">
               <label>$INFO[Window.Property(RandomAlbum.2.Title)]</label>
@@ -948,7 +951,7 @@
               <onclick>$INFO[Window.Property(RandomAlbum.2.Path)]</onclick>
               <icon>$INFO[Window.Property(RandomAlbum.2.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomAlbum.2.Thumb)]</thumb>
-              <visible>Container(301).HasFocus(1)</visible>
+              <visible>Container(301).HasFocus(1) + Skin.HasSetting(noprefersong)</visible>
             </item>
             <item id="30">
               <label>$INFO[Window.Property(RandomAlbum.3.Title)]</label>
@@ -959,7 +962,7 @@
               <onclick>$INFO[Window.Property(RandomAlbum.3.Path)]</onclick>
               <icon>$INFO[Window.Property(RandomAlbum.3.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomAlbum.3.Thumb)]</thumb>
-              <visible>Container(301).HasFocus(1)</visible>
+              <visible>Container(301).HasFocus(1) + Skin.HasSetting(noprefersong)</visible>
             </item>
             <item id="31">
               <label>$INFO[Window.Property(RandomAlbum.4.Title)]</label>
@@ -970,7 +973,7 @@
               <onclick>$INFO[Window.Property(RandomAlbum.4.Path)]</onclick>
               <icon>$INFO[Window.Property(RandomAlbum.4.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomAlbum.4.Thumb)]</thumb>
-              <visible>Container(301).HasFocus(1)</visible>
+              <visible>Container(301).HasFocus(1) + Skin.HasSetting(noprefersong)</visible>
             </item>
             <item id="32">
               <label>$INFO[Window.Property(RandomAlbum.5.Title)]</label>
@@ -981,7 +984,7 @@
               <onclick>$INFO[Window.Property(RandomAlbum.5.Path)]</onclick>
               <icon>$INFO[Window.Property(RandomAlbum.5.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomAlbum.5.Thumb)]</thumb>
-              <visible>Container(301).HasFocus(1)</visible>
+              <visible>Container(301).HasFocus(1) + Skin.HasSetting(noprefersong)</visible>
             </item>
             <item id="25">
               <label>$INFO[Window.Property(RandomAlbum.6.Title)]</label>
@@ -992,7 +995,7 @@
               <onclick>$INFO[Window.Property(RandomAlbum.6.Path)]</onclick>
               <icon>$INFO[Window.Property(RandomAlbum.6.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomAlbum.6.Thumb)]</thumb>
-              <visible>Container(301).HasFocus(1)</visible>
+              <visible>Container(301).HasFocus(1) + Skin.HasSetting(noprefersong)</visible>
             </item>
             <item id="33">
               <label>$INFO[Window.Property(RandomAlbum.7.Title)]</label>
@@ -1003,7 +1006,7 @@
               <onclick>$INFO[Window.Property(RandomAlbum.7.Path)]</onclick>
               <icon>$INFO[Window.Property(RandomAlbum.7.Fanart)]</icon>
               <thumb>$INFO[Window.Property(RandomAlbum.7.Thumb)]</thumb>
-              <visible>Container(301).HasFocus(1)</visible>
+              <visible>Container(301).HasFocus(1) + Skin.HasSetting(noprefersong)</visible>
             </item>
             <item id="34">
               <label>$INFO[Window.Property(RandomAlbum.8.Title)]</label>
@@ -1038,16 +1041,15 @@
           <include>skin_allcolors</include>
           <texture background="true" border="20">ContentPanel.png</texture>
         </control>
-        <control type="label">
+        <control type="label"> <!-- Recent label when Random items -->
           <include>MainMenuMultiFunction_ClassicTitle</include>
           <label>31520</label>
-          <visible>[Container(301).HasFocus(1) | Container(301).HasFocus(3) | Container(301).HasFocus(5)]</visible>
+          <visible>[Container(301).HasFocus(1) | Container(301).HasFocus(3) | Container(301).HasFocus(5)] +!Skin.HasSetting(random_items)</visible>
         </control>
-        <control type="label">
-          <!-- album -->
-          <include>MainMenuMultiFunction_MusicSubTitle</include>
-          <label>132</label>
-          <visible>Container(301).HasFocus(1)</visible>
+        <control type="label"> <!-- Random label when Random items -->
+          <include>MainMenuMultiFunction_ClassicTitle</include>
+          <label>31521</label>
+          <visible>[Container(301).HasFocus(1) | Container(301).HasFocus(3) | Container(301).HasFocus(5)] + Skin.HasSetting(random_items)</visible>
         </control>
         <control type="image">
           <posx>1</posx>
@@ -1175,18 +1177,9 @@
     <aligny>center</aligny>
     <label>$INFO[ListItem.Label]</label>
   </include>
-  <include name="MainMenuMultiFunction_MusicSubTitle">
-    <posx>5</posx>
-    <posy>32</posy>
-    <width>240</width>
-    <height>25</height>
-    <font>Font_Neon_20</font>
-    <align>center</align>
-    <aligny>center</aligny>
-  </include>
   <include name="MainMenuMultiFunction_SubTitle">
     <posx>15</posx>
-    <posy>179</posy>
+    <posy>182</posy>
     <width>220</width>
     <height>25</height>
     <font>Font_Neon_20</font>
