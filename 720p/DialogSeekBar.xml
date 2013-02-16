@@ -225,7 +225,7 @@
       <control type="image" id="7657">
         <description>tv show image</description>
         <posx>948</posx>
-        <posy>-26</posy>
+        <posy>-23</posy>
         <width>330</width>
         <height>185</height>
         <texture background="true">$INFO[Player.FolderPath]../clearart.png</texture>
@@ -235,7 +235,7 @@
       <control type="image" id="7658">
         <description>tv show image</description>
         <posx>948</posx>
-        <posy>-26</posy>
+        <posy>-23</posy>
         <width>330</width>
         <height>185</height>
         <texture background="true">$INFO[Player.FolderPath]clearart.png</texture>
