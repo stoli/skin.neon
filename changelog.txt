@@ -1,6 +1,8 @@
 [b]Changelog:[/b]
 
 [b]2.5.8[/b]
+- 'Use Large Recent Items on Home screen' now functional.
+- Fixed alignment and functionality of all Recent and Random items in home screen
 - Progressbar is now centered nicely on screen again.
 - Settings 'S' menu was broken apart, fixed
 - Extra logo through text in Info screen fixed
