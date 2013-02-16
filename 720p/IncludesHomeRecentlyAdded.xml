@@ -1275,10 +1275,10 @@
   </include>
   <include name="Home_Movie_Plot">
     <posx>195</posx>
-    <posy>58</posy>
+    <posy>57</posy>
     <width>540</width>
-    <height>180</height>
-    <aligny>center</aligny>
+    <height>169</height>
+    <aligny>top</aligny>
     <textcolor>c0FFFFFF</textcolor>
     <font>Font_Neon_22</font>
     <align>justify</align>
