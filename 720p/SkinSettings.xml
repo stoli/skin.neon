@@ -412,22 +412,6 @@
             <selected>Skin.HasSetting(random_items)</selected>
             <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
           </control>
-          <control type="radiobutton" id="2024">
-            <description>Only show Albums in music view</description>
-            <width>740</width>
-            <height>30</height>
-            <font>Font_KeyboardTitle</font>
-            <textoffsetx>40</textoffsetx>
-            <label>Show Songs instead of Albums</label>
-            <textcolor>grey2</textcolor>
-            <focusedcolor>white</focusedcolor>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
-            <onclick>Skin.ToggleSetting(noprefersong)</onclick>
-            <selected>!Skin.HasSetting(noprefersong)</selected>
-            <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
-          </control>
           <control type="radiobutton" id="2022">
             <description>Show Large Recently added tvinfo</description>
             <width>740</width>
@@ -442,7 +426,7 @@
             <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.ToggleSetting(BigRecentTV)</onclick>
             <selected>Skin.HasSetting(BigRecentTV)</selected>
-            <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+            <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
           </control>
           <control type="radiobutton" id="2023">
             <description>Show Large Recently added tvinfo</description>
@@ -458,6 +442,22 @@
             <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.ToggleSetting(BigRecentMovie)</onclick>
             <selected>Skin.HasSetting(BigRecentMovie)</selected>
+            <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
+          </control>
+          <control type="radiobutton" id="2024">
+            <description>Only show Albums in music view</description>
+            <width>740</width>
+            <height>30</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <label>Show Songs instead of Albums</label>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.ToggleSetting(noprefersong)</onclick>
+            <selected>!Skin.HasSetting(noprefersong)</selected>
             <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
           </control>
           <control type="radiobutton" id="111">

@@ -320,7 +320,13 @@
       <description>Go to Multi Function</description>
       <include>InvisibleButton</include>
       <onfocus>SetFocus(510)</onfocus>
-      <visible>[Container(301).HasFocus(1) + Library.HasContent(Music) | Container(301).HasFocus(3) + Library.HasContent(Movies) | Container(301).HasFocus(5) + Library.HasContent(TVShows) | Container(301).HasFocus(9)]</visible>
+      <visible>[Container(301).HasFocus(1) + Library.HasContent(Music) | Container(301).HasFocus(3) + Library.HasContent(Movies) | Container(301).HasFocus(5) + Library.HasContent(TVShows) + !Skin.HasSetting(BigRecentTV) | Container(301).HasFocus(9)]</visible>
+    </control>
+    <control type="button" id="4052">
+      <description>Go to Big TV</description>
+      <include>InvisibleButton</include>
+      <onfocus>SetFocus(8001)</onfocus>
+      <visible>[Container(301).HasFocus(5) + Library.HasContent(TVShows) + Skin.HasSetting(BigRecentTV)]</visible>
     </control>
     <!-- <control type="button" id="4054">
 			<description>Go to Audio Controls</description>
