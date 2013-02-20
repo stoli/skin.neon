@@ -2,11 +2,15 @@
 
 [b]2.5.8[/b]
 - Pressing <up> from Homebar Settings does not navigate to empty view anymore.
-- 'Use Large Recent Items on Home screen' now functional.
-- Fixed alignment and functionality of all Recent and Random items in home screen
-- Progressbar is now centered nicely on screen again.
-- Settings 'S' menu was broken apart, fixed
-- Extra logo through text in Info screen fixed
+- Fixed alignment of all recent and random items.
+- Added skin setting for 'songs rather than albums' (defaults to albums)
+- 'Use large recent TV-Shows' now functional and selectable.
+- Fixed an issue that prevented playing recent items when those items were on a smb-fileshare
+- Progressbar centered in screen, fixes #4 
+- Norwegian language corrected, fixes #3 
+- Settings menu glued back together (never noticed it became disjointed) 
+- Removed the extra clearlogo that was right through the text in info screen
+- Removed unused fonts
 [b]2.5.7[/b]
 - Use Shutdown instead of Poweroff when choosing shutdown in main menu
 - Fanart shown using database calls instead of fixed locations, to comply with Frodo
