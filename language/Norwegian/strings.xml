@@ -9,7 +9,7 @@
 	<string id="31024">Side</string>
 	<string id="31025">Objekt</string>
 	<string id="31326">Opprettet</string>
-	<string id="31327">Oppløsning</string>
+	<string id="31327">Opplï¿½sning</string>
 	<string id="31029">Deaktivere Utsikter</string>
 	
 	<!-- Settings labels -->
@@ -18,11 +18,11 @@
 	<string id="31034">Deaktivere Mediaflagg</string>
 	<string id="31035">Aktivere Overlegg for Filmer som er Sett</string>
 	<string id="31036">Aktivere Overlegg for TV Episoder som er Sett</string>
-	<string id="31037">Lås Utsikter (Kioskmodus)</string>
+	<string id="31037">Lï¿½s Utsikter (Kioskmodus)</string>
 	<string id="31038">Musikk Visualiseringsinnstillinger</string>
 	<string id="31039">Bruk Fanart Istedet for Visualisering</string>
-	<string id="31040">Bruk JukeBox ved Avspilling i Fullskjærm</string>
-	<string id="31041">Aktivere Mørk Fanart for avspilling i Fullskjærm</string>
+	<string id="31040">Bruk JukeBox ved Avspilling i Fullskjï¿½rm</string>
+	<string id="31041">Aktivere Mï¿½rk Fanart for avspilling i Fullskjï¿½rm</string>
 	<string id="31042">Skjul Huvedmenyobjekt</string>
 	<string id="31043">Innstillinger for TV-Serier</string>
 	<string id="31044">Bruk Plakater for TV-Seksjonen</string>
@@ -48,7 +48,7 @@
 <!--MORE COMMON PHRASES -->	
 	<string id="31067">Filutforsker</string>
 	<string id="31073">STILLE</string>
-	<string id="31074">Nåværende Tid</string>
+	<string id="31074">Nï¿½vï¿½rende Tid</string>
 	<string id="31075">Slutt klokken</string>
 	<string id="31076">Kioskmodus</string>
 	<string id="31079">Titler</string>
@@ -56,7 +56,7 @@
 	<string id="31082">Undertekster</string>
 	<string id="31086">Visa Fanart</string>
 	<string id="31088">Visnings type</string>
-	<string id="31094">Mørkt Monter</string>
+	<string id="31094">Mï¿½rkt Monter</string>
 	<string id="31095">SE</string>
 	<string id="31096">Vist</string>
 	<string id="31097">Skjult</string>
@@ -75,32 +75,32 @@
 	<string id="31210">Fanartminiatyrer</string>
 	<string id="31211">16x9-Miniatyrer</string>
 	<string id="31212">Teater</string>
-	<string id="31214">Mørk Utsikt</string>
+	<string id="31214">Mï¿½rk Utsikt</string>
 	<string id="31215">Vise Knapp for Undertekstskriptet i OSD</string>
 	<string id="31216">Skriptets sti:</string>
 	<string id="31217">Aktivere Hjemma kino skriptet</string>
-	<string id="31218">Strøminnstillinger</string>
+	<string id="31218">Strï¿½minnstillinger</string>
 	<string id="31219">landscape.jpg</string>
 	<string id="31220">Cachet Miniatyrbilde</string>
-	<string id="31221">Bruk Tillstandsbasert Vær-Fanart</string>
-	<string id="31226">Bedømt</string>
-	<string id="31229">Første Premiere</string>
+	<string id="31221">Bruk Tillstandsbasert Vï¿½r-Fanart</string>
+	<string id="31226">Bedï¿½mt</string>
+	<string id="31229">Fï¿½rste Premiere</string>
 	<string id="31230">Serien Sendes</string>
 	<string id="31231">Sendes</string>
-	<string id="31232">Gå [CR]Tilbake</string>
-	<string id="31233">Vennligst Velg en Låt</string>
-	<string id="31234">På</string><!-- GODD -->
-	<string id="31235">Gå Tilbake</string>
+	<string id="31232">Gï¿½ [CR]Tilbake</string>
+	<string id="31233">Vennligst Velg en Lï¿½t</string>
+	<string id="31234">Pï¿½</string><!-- GODD -->
+	<string id="31235">Gï¿½ Tilbake</string>
 	<string id="31237">Trykk "Ned" for Trailer</string>
-	<string id="31238">Trykk "X" for å Stoppe</string>
+	<string id="31238">Trykk "X" for ï¿½ Stoppe</string>
 	<string id="31240">Trykk "Venstre" for Trailer</string>
-	<string id="31241">Vis Vær-Widget</string>
+	<string id="31241">Vis Vï¿½r-Widget</string>
 	<string id="31242">Still Timer</string>
 	<string id="31243">Avbryt Timer</string>
 	<string id="31244">Horisontal Hovedmeny</string>
 	<string id="31246">Vis Handling</string>
 	<string id="31247">Deaktiver Global Tid</string>
-	<string id="31248">Bruk Mindre Global Nå Spilles for Musikk</string>
+	<string id="31248">Bruk Mindre Global Nï¿½ Spilles for Musikk</string>
 	<string id="31249">Hent Logo</string>
 	<string id="31251">Plass</string>
 	<string id="31252">Sist Oppdatert</string>
@@ -108,15 +108,15 @@
 	<string id="31254">3 Dager - Mini</string>
 	<string id="31255">4 Dager - Hel</string>
 	<string id="31256">Globale Innstillinger</string>
-	<string id="31257">Bruk Tilfeldig Musikk-Bakgrunner - Samme som Brukes på Hjemskjermen</string>
-	<string id="31258">Bruk Tilfeldig Foto-Bakgrunner - Samma som Brukes på Hjemskjermen</string>
-	<string id="31259">Hjemskjærm Innstillinger</string>
-	<string id="31260">Legg til Tilpassede Objekter på Hovedmenyen</string>
+	<string id="31257">Bruk Tilfeldig Musikk-Bakgrunner - Samme som Brukes pï¿½ Hjemskjermen</string>
+	<string id="31258">Bruk Tilfeldig Foto-Bakgrunner - Samma som Brukes pï¿½ Hjemskjermen</string>
+	<string id="31259">Hjemskjï¿½rm Innstillinger</string>
+	<string id="31260">Legg til Tilpassede Objekter pï¿½ Hovedmenyen</string>
 	<string id="31261">Tilpasset Favoritt</string>
 	<string id="31262">Velg Etikett</string>
-	<string id="31263">Skript for å laste ned Logoer Automatisk</string>
-	<string id="31264">Klikk for å kjøre Logo-Scriptet</string>
-	<string id="31265">Ved å klikke på knappen over kommer skriptet automatisk tilpasse de Tv-Seriene du har og laste ned korrekt logo om den finnes. Logoen lagres som logo.png i huvedmappen til den TV-Serien. **Gå til www.lockstockmods.net om du vil laste de ned en om gangen**</string>
+	<string id="31263">Skript for ï¿½ laste ned Logoer Automatisk</string>
+	<string id="31264">Klikk for ï¿½ kjï¿½re Logo-Scriptet</string>
+	<string id="31265">Ved ï¿½ klikke pï¿½ knappen over kommer skriptet automatisk tilpasse de Tv-Seriene du har og laste ned korrekt logo om den finnes. Logoen lagres som logo.png i huvedmappen til den TV-Serien. **Gï¿½ til www.lockstockmods.net om du vil laste de ned en om gangen**</string>
 
 <!-- 
 These last blocks are from Confluence and you can 
@@ -124,13 +124,13 @@ just copy the translations from Confluence to here
 -->
 	
 	<!-- Playlist Editor labels -->
-  <string id="31055">Åpne spilleliste</string>
+  <string id="31055">ï¿½pne spilleliste</string>
   <string id="31056">Lagre spilleliste</string>
   <string id="31057">Lukk spilleliste</string>
   <string id="31058">Systemmusikkfiler</string>
-  <string id="31059">Nåværende spilleliste</string>
+  <string id="31059">Nï¿½vï¿½rende spilleliste</string>
   <string id="31060">Denne fil er stablet, velg den delen du vil spille.</string>
-  <string id="31061">Valgt nå</string>
+  <string id="31061">Valgt nï¿½</string>
 	
 	<!-- Confluence Labels -->
   <string id="91000">Endre Din</string>
@@ -139,7 +139,7 @@ just copy the translations from Confluence to here
   <string id="31114">Multibilde</string>
   
 	 <!-- Description Labels  -->
-  <string id="31106">Øvrige alternativer</string>
+  <string id="31106">ï¿½vrige alternativer</string>
   <string id="31115">Tilpasser</string>
   <string id="31116"></string>
   <string id="31117">Vis videoer nylig lagt til</string>
@@ -147,7 +147,7 @@ just copy the translations from Confluence to here
   <string id="31323">Siste Filmer</string>
   <string id="31309">Brukt Minne:</string>
   <string id="31200">Hurtigsti</string>
-  <string id="31122">Værside</string>
+  <string id="31122">Vï¿½rside</string>
   <string id="31324">Siste episoder</string>
   <string id="31325">Alternativer for spilleliste</string>
   <string id="31126">Aktiver sangtekster i musikk-OSD</string>
@@ -156,22 +156,22 @@ just copy the translations from Confluence to here
   <string id="31129">Aktiver nedlasting av undertekster i Video OSD</string> 
   <string id="31130">STI TIL TILLEGG FOR UNDERTEKSTER</string> 
 
-  <string id="31400">[B]ENDRE DINE UTSEENDEINNSTILLINGER:[/B][CR][CR]Kalibrer GUI · Endre skinnet · Oppgi skjermsparer · Endre dine regionale innstillinger · Oppgi globale visningsalternativer</string>
-  <string id="31401">[B]ENDRE DINE GRAFIKKINNSTILLINGER:[/B][CR][CR]Håndter ditt filmbibliotek · Filmavspillingskvalitet og rendring · Konfigurer skrifttype for undertekster · Oppgi filmautogjenopptaging</string>
-  <string id="31402">[B]ENDRE DINE MUSIKKINNSTILLINGER:[/B][CR][CR] Velg visualisering · Håndter ditt musikkbibliotek · Oppgi din Last.FM konto · Endre karaokeskrifttype og -innstillinger</string>
-  <string id="31403">[B]ENDRE DINE BILDEINNSTILLINGER:[/B][CR][CR]Aktiver automatisk miniatyrgenerering og lesing av EXIF-tagger · Juster overgangseffekter for bildeframvising · Oppgi din XBMC skjermdumpsmappe</string>
-  <string id="31404">[B]ENDRE DINE VÆRINNSTILLINGER:[/B][CR][CR]Oppgi de tre stedene som XBMC viser på værskjermen · Endre dine regionale innstillinger, inklusive temperaturenheter</string>
-  <string id="31405">[B]ENDRE DINE NETTVERKSINNSTILLINGER:[/B][CR][CR]Aktiver XBMC sin interne webserver · Oppgi Sambainnstillinger · Aktiver/konfigurer UPnP-server og -klient · Konfigurer hendelsesserveren</string>
-  <string id="31406">[B]ENDRE DINE SYSTEMINNSTILLINGER:[/B][CR][CR]Endre standarden for strømsparingsmodus · Konfigurer videomaskinvare · Still inn din lydmaskinvare · Konfigurer hovedbrukerens passord- og systemlåser</string>
+  <string id="31400">[B]ENDRE DINE UTSEENDEINNSTILLINGER:[/B][CR][CR]Kalibrer GUI ï¿½ Endre skinnet ï¿½ Oppgi skjermsparer ï¿½ Endre dine regionale innstillinger ï¿½ Oppgi globale visningsalternativer</string>
+  <string id="31401">[B]ENDRE DINE GRAFIKKINNSTILLINGER:[/B][CR][CR]Hï¿½ndter ditt filmbibliotek ï¿½ Filmavspillingskvalitet og rendring ï¿½ Konfigurer skrifttype for undertekster ï¿½ Oppgi filmautogjenopptaging</string>
+  <string id="31402">[B]ENDRE DINE MUSIKKINNSTILLINGER:[/B][CR][CR] Velg visualisering ï¿½ Hï¿½ndter ditt musikkbibliotek ï¿½ Oppgi din Last.FM konto ï¿½ Endre karaokeskrifttype og -innstillinger</string>
+  <string id="31403">[B]ENDRE DINE BILDEINNSTILLINGER:[/B][CR][CR]Aktiver automatisk miniatyrgenerering og lesing av EXIF-tagger ï¿½ Juster overgangseffekter for bildeframvising ï¿½ Oppgi din XBMC skjermdumpsmappe</string>
+  <string id="31404">[B]ENDRE DINE Vï¿½RINNSTILLINGER:[/B][CR][CR]Oppgi de tre stedene som XBMC viser pï¿½ vï¿½rskjermen ï¿½ Endre dine regionale innstillinger, inklusive temperaturenheter</string>
+  <string id="31405">[B]ENDRE DINE NETTVERKSINNSTILLINGER:[/B][CR][CR]Aktiver XBMC sin interne webserver ï¿½ Oppgi Sambainnstillinger ï¿½ Aktiver/konfigurer UPnP-server og -klient ï¿½ Konfigurer hendelsesserveren</string>
+  <string id="31406">[B]ENDRE DINE SYSTEMINNSTILLINGER:[/B][CR][CR]Endre standarden for strï¿½msparingsmodus ï¿½ Konfigurer videomaskinvare ï¿½ Still inn din lydmaskinvare ï¿½ Konfigurer hovedbrukerens passord- og systemlï¿½ser</string>
   <string id="31407"></string>
-  <string id="31408">[B]KONFIGURER TILLEGG[/B][CR][CR]Håndter installerte tillegg · Let etter og installer tillegg fra xbmc.org[CR]Endre tilleggsinnstillinger</string> 
+  <string id="31408">[B]KONFIGURER TILLEGG[/B][CR][CR]Hï¿½ndter installerte tillegg ï¿½ Let etter og installer tillegg fra xbmc.org[CR]Endre tilleggsinnstillinger</string> 
   <string id="31420">[COLOR=white]XBMC finner ingen plate.[/COLOR][CR][CR]Vennligst Legg en plate i Leseren eller Avbryt</string>
-  <string id="31421">Velg din XBMC brukerprofil[CR]for å logge inn og fortsette</string>
+  <string id="31421">Velg din XBMC brukerprofil[CR]for ï¿½ logge inn og fortsette</string>
   <string id="31319">Valgt Profil</string>
   <string id="31320">Sist Innlogget</string>
   
-  <string id="31003">Strømalternativer</string>
-  <string id="31004">Working...</string>
+  <string id="31003">Strï¿½malternativer</string>
+  <string id="31004">TV-Serier</string>
   <string id="31005">Gjem INFO</string>
   <string id="31006">PosterPlus</string>
   <string id="31008">Avslutt</string>
@@ -179,29 +179,29 @@ just copy the translations from Confluence to here
   <string id="31120">KNAPPETIKETT</string>
   <string id="31121">STI TIL TILLEGG</string>
   
-  <string id="31090">Rekkefølge</string>
+  <string id="31090">Rekkefï¿½lge</string>
   <string id="31093">Sekvens</string>
   <string id="31266">Aktivere "Extra Fanart" - Tillater Tilfeldig bytte av Danart i Biblioteks modus</string>
   <string id="31267">Brukeren trenger en "extrafanart" - mappe i huvedmappen for Filmen eller TV-Serien</string>
   <string id="31268">Logo</string>
-  <string id="31269">Bruk en lokal landcape.jpg istedet for vanlige miniatyrer på TV-nivå</string>
+  <string id="31269">Bruk en lokal landcape.jpg istedet for vanlige miniatyrer pï¿½ TV-nivï¿½</string>
   <string id="31270">Brukeren trenger et landscape.jpg - bilde i hovedmappen til TV-Serien</string>
   <string id="40281">Objekt</string>
   <string id="31271">Sett hjemskjermen til Bunnen</string>
   <string id="31272">Tillegg</string>
   <string id="31273">TilleggsUtforsker</string>
-  <string id="31274">NÅ SPILLLES</string>
+  <string id="31274">Nï¿½ SPILLLES</string>
   <string id="31275">Nye Avsnitt</string>
-  <string id="31276">Spille Trailere i Fullskjærm istedet for i ett lite vindu</string>
+  <string id="31276">Spille Trailere i Fullskjï¿½rm istedet for i ett lite vindu</string>
   <string id="31277">Vis Sangtekst-knapp i Musikk-OSD</string>
-  <string id="31278">Spille Videoer i Bakgrunnen, Iikke i den lilla "Nå Spilles" - ruten</string>
+  <string id="31278">Spille Videoer i Bakgrunnen, Iikke i den lilla "Nï¿½ Spilles" - ruten</string>
   <string id="31279">Gli</string>
   <string id="31280">HD-Filmer</string>
-  <string id="31281">Ken Burns-Effekt - Roter/Zoom Fanart på Hjemskjærmen</string>
-  <string id="31282">Aktivere Sesong-Fanart på Episodenivå, dette vil kansellere "Ekstra Fanart"</string>
+  <string id="31281">Ken Burns-Effekt - Roter/Zoom Fanart pï¿½ Hjemskjï¿½rmen</string>
+  <string id="31282">Aktivere Sesong-Fanart pï¿½ Episodenivï¿½, dette vil kansellere "Ekstra Fanart"</string>
   
   <!-- NEW 9/7-->
-  <string id="31283">Bruk på Bibliotek utsikt for Musikk, Filmer og TV-Serier</string>
+  <string id="31283">Bruk pï¿½ Bibliotek utsikt for Musikk, Filmer og TV-Serier</string>
   
   <!-- NEW 9/17-->
   <string id="31284">Fjern Info</string>
@@ -231,14 +231,14 @@ just copy the translations from Confluence to here
 	<string id="31709">Spilletid</string>
 	<string id="31710">Slutt Tid</string>
 	<string id="31711">Tilgjengelige Bokmerker</string>
-	<string id="31712">Opp/Ned: Meny/Bokmerke[Cr]Venstre/Høyre: Menyinnstillinger</string>
+	<string id="31712">Opp/Ned: Meny/Bokmerke[Cr]Venstre/Hï¿½yre: Menyinnstillinger</string>
 	<string id="31713">Objekt i Spillelisten</string>
-	<string id="31714">Nåværende Plass</string>
+	<string id="31714">Nï¿½vï¿½rende Plass</string>
 	<string id="31715">Forrige</string>
-	<string id="31716">Låt Tittel</string>
+	<string id="31716">Lï¿½t Tittel</string>
 	<string id="31717">Album</string>
 	<string id="31718">Artist</string>
-	<string id="31719">Tid Gått / Varighet</string>
-	<string id="31720">Nåværende Tid</string>
+	<string id="31719">Tid Gï¿½tt / Varighet</string>
+	<string id="31720">Nï¿½vï¿½rende Tid</string>
 
 </strings>

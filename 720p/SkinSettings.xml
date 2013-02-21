@@ -133,7 +133,8 @@
           </item>
           <item id="9">
             <label>31030</label>
-            <!-- <conclick></conclick>
+            <!-- <conclick>
+</conclick>
 						<onclick>Skin.ResetSettings</onclick>
 						<onclick>ReloadSkin()</onclick> -->
             <onclick>-</onclick>
@@ -181,7 +182,8 @@
           <onup>9001</onup>
           <ondown>9001</ondown>
           <control type="label" id="100">
-            <description></description>
+            <description>
+</description>
             <width>740</width>
             <height>45</height>
             <font>Font_Neon_20</font>
@@ -377,8 +379,289 @@
             <onclick>Skin.ToggleSetting(ShowBackgroundVideo)</onclick>
             <selected>!Skin.HasSetting(ShowBackgroundVideo)</selected>
           </control> --&gt;
-					<control type="radiobutton" id="203"><description>Show Music Vis</description><include>skin_settings_labels</include><label>$LOCALIZE[31727]</label><colordiffuse>mainblue</colordiffuse><texturefocus>mainmenu/home_bottom_white.png</texturefocus><texturenofocus>MenuItemNF.png</texturenofocus><onclick>Skin.ToggleSetting(ShowMusicVis)</onclick><selected>!Skin.HasSetting(ShowMusicVis)</selected></control> --&gt;
-					<control type="radiobutton" id="202"><description>Show Recently added info</description><include>skin_settings_labels</include><label>$LOCALIZE[31117]</label><onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick><selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected></control><control type="radiobutton" id="2021"><description>Use Random Items</description><width>740</width><height>30</height><font>Font_KeyboardTitle</font><textoffsetx>40</textoffsetx><label>$LOCALIZE[31516]</label><textcolor>grey2</textcolor><focusedcolor>white</focusedcolor><colordiffuse>mainblue</colordiffuse><texturefocus>mainmenu/home_bottom_white.png</texturefocus><texturenofocus>MenuItemNF.png</texturenofocus><onclick>Skin.ToggleSetting(random_items)</onclick><selected>Skin.HasSetting(random_items)</selected><visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible></control><control type="radiobutton" id="2022"><description>Show Big Recently added tvinfo</description><width>740</width><height>30</height><font>Font_KeyboardTitle</font><textoffsetx>40</textoffsetx><label>$LOCALIZE[31979]</label><textcolor>grey2</textcolor><focusedcolor>white</focusedcolor><colordiffuse>mainblue</colordiffuse><texturefocus>mainmenu/home_bottom_white.png</texturefocus><texturenofocus>MenuItemNF.png</texturenofocus><onclick>Skin.ToggleSetting(BigRecentTV)</onclick><selected>Skin.HasSetting(BigRecentTV)</selected><visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible></control><control type="radiobutton" id="2023"><description>Show Big Recently added tvinfo</description><width>740</width><height>30</height><font>Font_KeyboardTitle</font><textoffsetx>40</textoffsetx><label>$LOCALIZE[31980]</label><textcolor>grey2</textcolor><focusedcolor>white</focusedcolor><colordiffuse>mainblue</colordiffuse><texturefocus>mainmenu/home_bottom_white.png</texturefocus><texturenofocus>MenuItemNF.png</texturenofocus><onclick>Skin.ToggleSetting(BigRecentMovie)</onclick><selected>Skin.HasSetting(BigRecentMovie)</selected><visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible></control><control type="radiobutton" id="111"><include>skin_settings_labels</include><label>$LOCALIZE[31728]</label><onclick>Skin.ToggleSetting(global_bottomline)</onclick><selected>Skin.HasSetting(global_bottomline)</selected></control><control type="button" id="299"><width>740</width><height>26</height><font>Font_KeyboardTitle</font><textoffsetx>40</textoffsetx><textoffsety>4</textoffsety><textcolor>grey2</textcolor><focusedcolor>white</focusedcolor><align>left</align><aligny>top</aligny><label>Select Bottom Line Logo - [COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label><colordiffuse>mainblue</colordiffuse><texturefocus>mainmenu/home_bottom_white.png</texturefocus><texturenofocus>MenuItemNF.png</texturenofocus><onclick>Skin.SetImage(Home_Custom_RSS_Logo)</onclick><visible>Skin.HasSetting(global_bottomline)</visible></control><!--Weather Widget--><control type="radiobutton" id="204"><description>Show Weather Widget</description><include>skin_settings_labels</include><label>31241</label><onclick>Skin.ToggleSetting(HomepageWeatherWidget)</onclick><selected>Skin.HasSetting(HomepageWeatherWidget)</selected></control><!--End Weather Widget--><control type="radiobutton" id="205"><description>conditions based weather backdrop style</description><include>skin_settings_labels</include><label>$LOCALIZE[31221]</label><onclick>Skin.ToggleSetting(conditions_weather_backdrop)</onclick><selected>Skin.HasSetting(conditions_weather_backdrop)</selected></control><control type="button" id="206"><width>770</width><height>26</height><font>Font_KeyboardTitle</font><textoffsetx>40</textoffsetx><textoffsety>4</textoffsety><textcolor>grey2</textcolor><focusedcolor>white</focusedcolor><align>left</align><aligny>top</aligny><label>Set Conditional Weather Folder - [COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label><colordiffuse>mainblue</colordiffuse><texturefocus>mainmenu/home_bottom_white.png</texturefocus><texturenofocus>MenuItemNF.png</texturenofocus><onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder1)</onclick><visible>Skin.HasSetting(conditions_weather_backdrop)</visible></control><control type="radiobutton" id="207"><description>conditions based weather backdrop style</description><include>skin_settings_labels</include><label>$LOCALIZE[31281]</label><onclick>Skin.ToggleSetting(animation_bg)</onclick><selected>Skin.HasSetting(animation_bg)</selected></control><control type="radiobutton" id="208"><description>Global Ken Burns</description><width>770</width><height>26</height><font>Font_KeyboardTitle</font><textoffsetx>40</textoffsetx><textoffsety>4</textoffsety><textcolor>grey2</textcolor><focusedcolor>white</focusedcolor><align>left</align><aligny>top</aligny><label>$LOCALIZE[31283]</label><colordiffuse>mainblue</colordiffuse><texturefocus>mainmenu/home_bottom_white.png</texturefocus><texturenofocus>MenuItemNF.png</texturenofocus><onclick>Skin.ToggleSetting(animation_bg_global)</onclick><selected>Skin.HasSetting(animation_bg_global)</selected><visible>Skin.HasSetting(animation_bg)</visible></control><control type="label" id="210"><width>860</width><height>45</height><font>Font_Neon_20</font><textoffsetx>15</textoffsetx><label>$LOCALIZE[31042]</label><textcolor>mainblue</textcolor><shadowcolor>black</shadowcolor><align>left</align><aligny>center</aligny></control><control type="radiobutton" id="211"><description>Hide Videos Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[3]</label><onclick>Skin.ToggleSetting(HomeMenuNoVideosButton)</onclick><selected>Skin.HasSetting(HomeMenuNoVideosButton)</selected></control><control type="radiobutton" id="212"><description>Hide Movies Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[20342] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label><onclick>Skin.ToggleSetting(HomeMenuNoMoviesButton)</onclick><selected>Skin.HasSetting(HomeMenuNoMoviesButton)</selected><enable>Library.HasContent(Movies)</enable></control><control type="radiobutton" id="213"><description>Hide HDMovies Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[31280] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label><onclick>Skin.ToggleSetting(HomeMenuNoHDMoviesButton)</onclick><selected>Skin.HasSetting(HomeMenuNoHDMoviesButton)</selected><enable>Library.HasContent(Movies)</enable></control><control type="radiobutton" id="214"><description>Hide TV Shows Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[20343] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label><onclick>Skin.ToggleSetting(HomeMenuNoTVShowsButton)</onclick><selected>Skin.HasSetting(HomeMenuNoTVShowsButton)</selected><enable>Library.HasContent(TVShows)</enable></control><control type="radiobutton" id="223"><description>Hide Live TV Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - Live TV</label><onclick>Skin.ToggleSetting(HomeNoMenuLiveTV)</onclick><selected>Skin.HasSetting(HomeNoMenuLiveTV)</selected></control><control type="radiobutton" id="215"><description>Hide Music Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[2]</label><onclick>Skin.ToggleSetting(HomeMenuNoMusicButton)</onclick><selected>Skin.HasSetting(HomeMenuNoMusicButton)</selected></control><control type="radiobutton" id="216"><description>Hide Pictures Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[1]</label><onclick>Skin.ToggleSetting(HomeMenuNoPicturesButton)</onclick><selected>Skin.HasSetting(HomeMenuNoPicturesButton)</selected></control><control type="radiobutton" id="221"><description>Hide TV Guide Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[31972]</label><onclick>Skin.ToggleSetting(HomeMenuNoTVGuide)</onclick><selected>Skin.HasSetting(HomeMenuNoTVGuide)</selected></control><control type="radiobutton" id="217"><description>Hide Scripts Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[31272]</label><onclick>Skin.ToggleSetting(HomeMenuNoScriptsButton)</onclick><selected>Skin.HasSetting(HomeMenuNoScriptsButton)</selected></control><control type="radiobutton" id="218"><description>Hide Favorites Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[1036]</label><onclick>Skin.ToggleSetting(HomeMenuNofavouritesButton)</onclick><selected>Skin.HasSetting(HomeMenuNofavouritesButton)</selected></control><control type="radiobutton" id="219"><description>Hide Weather Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[8]</label><onclick>Skin.ToggleSetting(HomeMenuNoWeatherButton)</onclick><selected>Skin.HasSetting(HomeMenuNoWeatherButton)</selected></control><control type="radiobutton" id="220"><description>Hide Shutdown Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[13005]</label><onclick>Skin.ToggleSetting(HomeMenuNoShutdownButton)</onclick><selected>Skin.HasSetting(HomeMenuNoShutdownButton)</selected></control><control type="radiobutton" id="222"><description>Hide Logoff Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[20126]</label><onclick>Skin.ToggleSetting(signout)</onclick><selected>!Skin.HasSetting(signout)</selected></control><control type="radiobutton" id="230"><description>Hide Settings Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[5]</label><onclick>Skin.ToggleSetting(HomeMenuNoSettingsButton)</onclick><selected>Skin.HasSetting(HomeMenuNoSettingsButton)</selected></control><control type="radiobutton" id="231"><description>Hide Settings Button</description><include>skin_settings_labels</include><label>$LOCALIZE[31111] - $LOCALIZE[341]</label><onclick>Skin.ToggleSetting(HomeMenuNoPlayDVDButton)</onclick><selected>Skin.HasSetting(HomeMenuNoPlayDVDButton)</selected></control></control>
+					<control type="radiobutton" id="203">
+            <description>Show Music Vis</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31727]</label>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.ToggleSetting(ShowMusicVis)</onclick>
+            <selected>!Skin.HasSetting(ShowMusicVis)</selected>
+            </control> --&gt;
+					<control type="radiobutton" id="202">
+            <description>Show Recently added info</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31117]</label>
+            <onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
+            <selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
+          </control>
+          <control type="radiobutton" id="2021">
+            <description>Use Random Items</description>
+            <width>740</width>
+            <height>30</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <label>$LOCALIZE[31516]</label>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.ToggleSetting(random_items)</onclick>
+            <selected>Skin.HasSetting(random_items)</selected>
+            <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+          </control>
+          <control type="radiobutton" id="2022">
+            <description>Show Large Recently added tvinfo</description>
+            <width>740</width>
+            <height>30</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <label>$LOCALIZE[31979]</label>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.ToggleSetting(BigRecentTV)</onclick>
+            <selected>Skin.HasSetting(BigRecentTV)</selected>
+            <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
+          </control>
+          <control type="radiobutton" id="2023">
+            <description>Show Large Recently added tvinfo</description>
+            <width>740</width>
+            <height>30</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <label>$LOCALIZE[31980]</label>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.ToggleSetting(BigRecentMovie)</onclick>
+            <selected>Skin.HasSetting(BigRecentMovie)</selected>
+            <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
+          </control>
+          <control type="radiobutton" id="2024">
+            <description>Only show Albums in music view</description>
+            <width>740</width>
+            <height>30</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <label>Show Songs instead of Albums</label>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.ToggleSetting(noprefersong)</onclick>
+            <selected>!Skin.HasSetting(noprefersong)</selected>
+            <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+          </control>
+          <control type="radiobutton" id="111">
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31728]</label>
+            <onclick>Skin.ToggleSetting(global_bottomline)</onclick>
+            <selected>Skin.HasSetting(global_bottomline)</selected>
+          </control>
+          <control type="button" id="299">
+            <width>740</width>
+            <height>26</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <textoffsety>4</textoffsety>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>left</align>
+            <aligny>top</aligny>
+            <label>Select Bottom Line Logo - [COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.SetImage(Home_Custom_RSS_Logo)</onclick>
+            <visible>Skin.HasSetting(global_bottomline)</visible>
+          </control> 
+          <!--Weather Widget-->
+          <control type="radiobutton" id="204">
+            <description>Show Weather Widget</description>
+            <include>skin_settings_labels</include>
+            <label>31241</label>
+            <onclick>Skin.ToggleSetting(HomepageWeatherWidget)</onclick>
+            <selected>Skin.HasSetting(HomepageWeatherWidget)</selected>
+          </control>
+          <!--End Weather Widget-->
+          <control type="radiobutton" id="205">
+            <description>conditions based weather backdrop style</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31221]</label>
+            <onclick>Skin.ToggleSetting(conditions_weather_backdrop)</onclick>
+            <selected>Skin.HasSetting(conditions_weather_backdrop)</selected>
+            </control>
+          <control type="button" id="206">
+            <width>770</width>
+            <height>26</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <textoffsety>4</textoffsety>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>left</align>
+            <aligny>top</aligny>
+            <label>Set Conditional Weather Folder - [COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder1)</onclick>
+            <visible>Skin.HasSetting(conditions_weather_backdrop)</visible>
+          </control>
+          <control type="radiobutton" id="207">
+            <description>conditions based weather backdrop style</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31281]</label>
+            <onclick>Skin.ToggleSetting(animation_bg)</onclick>
+            <selected>Skin.HasSetting(animation_bg)</selected>
+          </control>
+          <control type="radiobutton" id="208">
+            <description>Global Ken Burns</description>
+            <width>770</width>
+            <height>26</height>
+            <font>Font_KeyboardTitle</font>
+            <textoffsetx>40</textoffsetx>
+            <textoffsety>4</textoffsety>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>left</align>
+            <aligny>top</aligny>
+            <label>$LOCALIZE[31283]</label>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <onclick>Skin.ToggleSetting(animation_bg_global)</onclick>
+            <selected>Skin.HasSetting(animation_bg_global)</selected>
+            <visible>Skin.HasSetting(animation_bg)</visible>
+          </control>
+          <control type="label" id="210">
+            <width>860</width>
+            <height>45</height>
+            <font>Font_Neon_20</font>
+            <textoffsetx>15</textoffsetx>
+            <label>$LOCALIZE[31042]</label>
+            <textcolor>mainblue</textcolor>
+            <shadowcolor>black</shadowcolor>
+            <align>left</align>
+            <aligny>center</aligny>
+          </control>
+          <control type="radiobutton" id="211">
+            <description>Hide Videos Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[3]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoVideosButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoVideosButton)</selected>
+          </control>
+          <control type="radiobutton" id="212">
+            <description>Hide Movies Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[20342] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoMoviesButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoMoviesButton)</selected>
+            <enable>Library.HasContent(Movies)</enable>
+          </control>
+          <control type="radiobutton" id="213">
+            <description>Hide HDMovies Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[31280] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoHDMoviesButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoHDMoviesButton)</selected>
+            <enable>Library.HasContent(Movies)</enable>
+          </control>
+          <control type="radiobutton" id="214">
+            <description>Hide TV Shows Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[20343] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoTVShowsButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoTVShowsButton)</selected>
+            <enable>Library.HasContent(TVShows)</enable>
+          </control>
+          <control type="radiobutton" id="223">
+            <description>Hide Live TV Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - Live TV</label>
+            <onclick>Skin.ToggleSetting(HomeNoMenuLiveTV)</onclick>
+            <selected>Skin.HasSetting(HomeNoMenuLiveTV)</selected>
+          </control>
+          <control type="radiobutton" id="215">
+            <description>Hide Music Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[2]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoMusicButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoMusicButton)</selected>
+          </control>
+          <control type="radiobutton" id="216">
+            <description>Hide Pictures Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[1]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoPicturesButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoPicturesButton)</selected>
+          </control>
+          <control type="radiobutton" id="221">
+            <description>Hide TV Guide Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[31972]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoTVGuide)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoTVGuide)</selected>
+          </control>
+          <control type="radiobutton" id="217">
+            <description>Hide Scripts Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[31272]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoScriptsButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoScriptsButton)</selected>
+          </control>
+          <control type="radiobutton" id="218">
+            <description>Hide Favorites Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[1036]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNofavouritesButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNofavouritesButton)</selected>
+          </control>
+          <control type="radiobutton" id="219">
+            <description>Hide Weather Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[8]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoWeatherButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoWeatherButton)</selected>
+          </control>
+          <control type="radiobutton" id="220">
+            <description>Hide Shutdown Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[13005]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoShutdownButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoShutdownButton)</selected>
+          </control>
+          <control type="radiobutton" id="222">
+            <description>Hide Logoff Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[20126]</label>
+            <onclick>Skin.ToggleSetting(signout)</onclick>
+            <selected>!Skin.HasSetting(signout)</selected>
+          </control>
+          <control type="radiobutton" id="230">
+            <description>Hide Settings Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[5]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoSettingsButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoSettingsButton)</selected>
+          </control>
+          <control type="radiobutton" id="231">
+            <description>Hide Settings Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[341]</label>
+            <onclick>Skin.ToggleSetting(HomeMenuNoPlayDVDButton)</onclick>
+            <selected>Skin.HasSetting(HomeMenuNoPlayDVDButton)</selected>
+          </control>
+        </control>
         <!--<control type="scrollbar" id="60">
 					<posx>1060</posx>
 					<posy>60</posy>
@@ -456,7 +739,8 @@
             <ondown>9003</ondown>
             <pagecontrol>-</pagecontrol>
             <scrolltime>0</scrolltime>
-            <itemlayout height="1" width="860"></itemlayout>
+            <itemlayout height="1" width="860">
+</itemlayout>
             <focusedlayout height="40" width="860">
               <control type="image">
                 <posx>0</posx>
@@ -2409,7 +2693,8 @@
 							<width>860</width>
 							<height>45</height>
 							<font>Font_Neon_20</font>
-							<label></label>
+							<label>
+</label>
 							<textcolor>mainblue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -2722,7 +3007,101 @@
               <onclick>Skin.ToggleSetting(no_Landscape)</onclick>
               <selected>Skin.HasSetting(no_Landscape)</selected>
             </control>no_LandPanel
-						<control type="radiobutton" id="606"><include>skin_settings_labels</include><label>"$LOCALIZE[31053]"</label><onclick>Skin.ToggleSetting(no_3DLandscape)</onclick><selected>Skin.HasSetting(no_3DLandscape)</selected></control><control type="radiobutton" id="607"><include>skin_settings_labels</include><label>"$LOCALIZE[31054]"</label><onclick>Skin.ToggleSetting(no_LandPanel)</onclick><selected>Skin.HasSetting(no_LandPanel)</selected></control><control type="radiobutton" id="608"><include>skin_settings_labels</include><label>"$LOCALIZE[31062]"</label><onclick>Skin.ToggleSetting(no_Poster)</onclick><selected>Skin.HasSetting(no_Poster)</selected></control><control type="radiobutton" id="609"><include>skin_settings_labels</include><label>"$LOCALIZE[31063]"</label><onclick>Skin.ToggleSetting(no_Showcase)</onclick><selected>Skin.HasSetting(no_Showcase)</selected></control><control type="radiobutton" id="610"><include>skin_settings_labels</include><label>"$LOCALIZE[31064]"</label><onclick>Skin.ToggleSetting(no_Wall)</onclick><selected>Skin.HasSetting(no_Wall)</selected></control><control type="radiobutton" id="611"><include>skin_settings_labels</include><label>"$LOCALIZE[31213]"</label><onclick>Skin.ToggleSetting(no_WallPanel)</onclick><selected>Skin.HasSetting(no_WallPanel)</selected></control><control type="radiobutton" id="612"><include>skin_settings_labels</include><label>"$LOCALIZE[31245]"</label><onclick>Skin.ToggleSetting(no_Landscape_Fanart)</onclick><selected>Skin.HasSetting(no_Landscape_Fanart)</selected></control><control type="radiobutton" id="613"><include>skin_settings_labels</include><label>"$LOCALIZE[31268]"</label><onclick>Skin.ToggleSetting(no_Logo)</onclick><selected>Skin.HasSetting(no_Logo)</selected></control><control type="radiobutton" id="614"><include>skin_settings_labels</include><label>"$LOCALIZE[31250]"</label><onclick>Skin.ToggleSetting(no_3dbanner)</onclick><selected>Skin.HasSetting(no_3dbanner)</selected></control><control type="radiobutton" id="615"><include>skin_settings_labels</include><label>"$LOCALIZE[31279]"</label><onclick>Skin.ToggleSetting(no_Slide)</onclick><selected>Skin.HasSetting(no_Slide)</selected></control><control type="label" id="616"><width>860</width><height>45</height><font>Font_Neon_20</font><label>$LOCALIZE[31065]</label><textcolor>mainblue</textcolor><shadowcolor>black</shadowcolor><align>left</align><aligny>center</aligny></control><control type="radiobutton" id="617"><include>skin_settings_labels</include><label>"$LOCALIZE[31066]"</label><onclick>Skin.ToggleSetting(no_Jukebox)</onclick><selected>Skin.HasSetting(no_Jukebox)</selected></control><control type="radiobutton" id="618"><include>skin_settings_labels</include><label>"$LOCALIZE[31063]"</label><onclick>Skin.ToggleSetting(no_MusicShowcase)</onclick><selected>Skin.HasSetting(no_MusicShowcase)</selected></control><control type="radiobutton" id="619"><include>skin_settings_labels</include><label>"$LOCALIZE[31064]"</label><onclick>Skin.ToggleSetting(no_MusicWall)</onclick><selected>Skin.HasSetting(no_MusicWall)</selected></control><control type="radiobutton" id="620"><include>skin_settings_labels</include><label>"$LOCALIZE[31288]"</label><onclick>Skin.ToggleSetting(no_Shelf)</onclick><selected>Skin.HasSetting(no_Shelf)</selected></control></control>
+						<control type="radiobutton" id="606">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31053]"</label>
+<onclick>Skin.ToggleSetting(no_3DLandscape)</onclick>
+<selected>Skin.HasSetting(no_3DLandscape)</selected>
+</control>
+<control type="radiobutton" id="607">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31054]"</label>
+<onclick>Skin.ToggleSetting(no_LandPanel)</onclick>
+<selected>Skin.HasSetting(no_LandPanel)</selected>
+</control>
+<control type="radiobutton" id="608">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31062]"</label>
+<onclick>Skin.ToggleSetting(no_Poster)</onclick>
+<selected>Skin.HasSetting(no_Poster)</selected>
+</control>
+<control type="radiobutton" id="609">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31063]"</label>
+<onclick>Skin.ToggleSetting(no_Showcase)</onclick>
+<selected>Skin.HasSetting(no_Showcase)</selected>
+</control>
+<control type="radiobutton" id="610">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31064]"</label>
+<onclick>Skin.ToggleSetting(no_Wall)</onclick>
+<selected>Skin.HasSetting(no_Wall)</selected>
+</control>
+<control type="radiobutton" id="611">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31213]"</label>
+<onclick>Skin.ToggleSetting(no_WallPanel)</onclick>
+<selected>Skin.HasSetting(no_WallPanel)</selected>
+</control>
+<control type="radiobutton" id="612">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31245]"</label>
+<onclick>Skin.ToggleSetting(no_Landscape_Fanart)</onclick>
+<selected>Skin.HasSetting(no_Landscape_Fanart)</selected>
+</control>
+<control type="radiobutton" id="613">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31268]"</label>
+<onclick>Skin.ToggleSetting(no_Logo)</onclick>
+<selected>Skin.HasSetting(no_Logo)</selected>
+</control>
+<control type="radiobutton" id="614">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31250]"</label>
+<onclick>Skin.ToggleSetting(no_3dbanner)</onclick>
+<selected>Skin.HasSetting(no_3dbanner)</selected>
+</control>
+<control type="radiobutton" id="615">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31279]"</label>
+<onclick>Skin.ToggleSetting(no_Slide)</onclick>
+<selected>Skin.HasSetting(no_Slide)</selected>
+</control>
+<control type="label" id="616">
+<width>860</width>
+<height>45</height>
+<font>Font_Neon_20</font>
+<label>$LOCALIZE[31065]</label>
+<textcolor>mainblue</textcolor>
+<shadowcolor>black</shadowcolor>
+<align>left</align>
+<aligny>center</aligny>
+</control>
+<control type="radiobutton" id="617">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31066]"</label>
+<onclick>Skin.ToggleSetting(no_Jukebox)</onclick>
+<selected>Skin.HasSetting(no_Jukebox)</selected>
+</control>
+<control type="radiobutton" id="618">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31063]"</label>
+<onclick>Skin.ToggleSetting(no_MusicShowcase)</onclick>
+<selected>Skin.HasSetting(no_MusicShowcase)</selected>
+</control>
+<control type="radiobutton" id="619">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31064]"</label>
+<onclick>Skin.ToggleSetting(no_MusicWall)</onclick>
+<selected>Skin.HasSetting(no_MusicWall)</selected>
+</control>
+<control type="radiobutton" id="620">
+<include>skin_settings_labels</include>
+<label>"$LOCALIZE[31288]"</label>
+<onclick>Skin.ToggleSetting(no_Shelf)</onclick>
+<selected>Skin.HasSetting(no_Shelf)</selected>
+</control>
+</control>
         </control>
         <control type="group">
           <control type="grouplist" id="9007">
