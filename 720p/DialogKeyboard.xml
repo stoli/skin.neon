@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <window id="103">
   <defaultcontrol always="true">300</defaultcontrol>
   <include>dialogeffect</include>
@@ -329,7 +329,6 @@
           <posy>50</posy>
           <width>50</width>
           <height>50</height>
-          <height>48</height>
           <onleft>81</onleft>
           <onright>69</onright>
           <onup>50</onup>

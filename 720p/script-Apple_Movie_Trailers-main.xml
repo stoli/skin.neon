@@ -777,8 +777,6 @@
           <radioheight>18</radioheight>
           <radioposx>222</radioposx>
           <radioposy>12</radioposy>
-          <textureradiofocus>HomeHasSub.png</textureradiofocus>
-          <textureradionofocus>HomeHasSub.png</textureradionofocus>
           <label>31204</label>
           <onleft>50</onleft>
           <onright>9010</onright>

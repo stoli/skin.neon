@@ -286,7 +286,6 @@
         <posy>340</posy>
         <width>75</width>
         <height>75</height>
-        <aspect>leave</aspect>
         <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
         <animation type="Focus" reversible="false">
           <effect type="zoom" center="145,202" start="51" end="100" time="600" tween="back" easing="out" />

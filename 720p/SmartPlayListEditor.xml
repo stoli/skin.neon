@@ -102,7 +102,6 @@
         <textcolor>grey2</textcolor>
         <align>center</align>
         <colordiffuse>mainblue</colordiffuse>
-        <textoffsetx>20</textoffsetx>
         <texturefocus>MenuItemFOR.png</texturefocus>
         <texturenofocus>MenuItemNF.png</texturenofocus>
         <label>-</label>
@@ -158,7 +157,6 @@
             <width>560</width>
             <height>41</height>
             <colordiffuse>mainblue</colordiffuse>
-            <textoffsetx>20</textoffsetx>
             <texture>MenuItemFOR.png</texture>
             <visible>Control.HasFocus(10)</visible>
           </control>
@@ -261,7 +259,6 @@
         <focusedcolor>white</focusedcolor>
         <textoffsetx>20</textoffsetx>
         <colordiffuse>mainblue</colordiffuse>
-        <textoffsetx>20</textoffsetx>
         <texturefocus>MenuItemFOR.png</texturefocus>
         <texturenofocus>MenuItemNF.png</texturenofocus>
         <onright>16</onright>

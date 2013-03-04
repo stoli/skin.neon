@@ -93,7 +93,6 @@
         <texturefocus>button-focus.png</texturefocus>
         <label>$LOCALIZE[191]</label>
         <textoffsetx>10</textoffsetx>
-        <width>150</width>
       </control>
       <control type="radiobutton" id="28">
         <description>randomize</description>
@@ -108,7 +107,6 @@
         <texturefocus>button-focus.png</texturefocus>
         <label>$LOCALIZE[13319]</label>
         <textoffsetx>10</textoffsetx>
-        <width>150</width>
       </control>
       <control type="button" id="26">
         <description>repeat</description>

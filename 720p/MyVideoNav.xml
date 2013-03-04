@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="25">
   <onload condition="Skin.HasSetting(TvTunes) + !SubString(Window(Videos).Property(CinemaExperienceRunning),True)">RunScript(script.tvtunes,backend=True&amp;loop=False)</onload>
@@ -206,8 +206,7 @@
 					<textwidth>170</textwidth>
 					<include>WindowMenuButton_Vertical</include>
 					<label>346</label>
-				</control> --><control type="radiobutton" id="17"><description>Flatten</description><textwidth>170</textwidth><include>WindowMenuButton_Vertical</include><label>20411</label><visible>!Skin.HasSetting(LockViews)</visible></control><control type="radiobutton" id="16"><description>PartyMode</description><label>589</label><include>WindowMenuButton_Vertical</include><visible>Container.Content(MusicVideos)</visible></control><control type="button" id="11"><include>WindowMenuButton_Vertical</include><onclick>xbmc.mastermode</onclick><visible>system.haslocks</visible><label>20336</label></control><include>CommonNowPlaying_Controls</include><include>CommonNowPlaying</include> --&gt;
-			</control>
+				</control> --><control type="radiobutton" id="17"><description>Flatten</description><textwidth>170</textwidth><include>WindowMenuButton_Vertical</include><label>20411</label><visible>!Skin.HasSetting(LockViews)</visible></control><control type="radiobutton" id="16"><description>PartyMode</description><label>589</label><include>WindowMenuButton_Vertical</include><visible>Container.Content(MusicVideos)</visible></control><control type="button" id="11"><include>WindowMenuButton_Vertical</include><onclick>xbmc.mastermode</onclick><visible>system.haslocks</visible><label>20336</label></control><include>CommonNowPlaying_Controls</include><include>CommonNowPlaying</include></control>
       <!--	<control type="grouplist">
 				<posx>-250</posx>
 				<posy>120</posy>

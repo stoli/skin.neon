@@ -48,9 +48,7 @@
         <posy>680</posy>
         <animation type="Conditional" reversible="false" condition="true" loop="true">
           <!--	<effect type="fade" start="0" end="100" time="1000"/> -->
--						<effect type="fade" start="0" end="100" time="1000" delay="0" /><effect type="fade" start="100" end="0" time="1000" delay="21000" /><effect type="fade" start="100" end="0" time="1000" delay="28000" /> --&gt;
-						
-					</animation>
+-						<effect type="fade" start="0" end="100" time="1000" delay="0" /><effect type="fade" start="100" end="0" time="1000" delay="21000" /><effect type="fade" start="100" end="0" time="1000" delay="28000" /></animation>
         <control type="image" id="7026">
           <description>dirty hack for showing cdart image</description>
           <posx>32</posx>
