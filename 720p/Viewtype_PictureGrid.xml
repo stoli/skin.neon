@@ -167,7 +167,6 @@
           <height>124</height>
           <aspectratio>keep</aspectratio>
           <texture background="true">$INFO[ListItem.Icon]</texture>
-          <texture background="true" diffuse="common/thumb_matte.png">$INFO[ListItem.Icon]</texture>
           <bordertexture border="8">common/thumb_border_glow.png</bordertexture>
           <fadetime>400</fadetime>
           <bordersize>8</bordersize>

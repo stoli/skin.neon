@@ -127,7 +127,6 @@
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31094]</altlabel>
           <onclick>Skin.ToggleSetting(MusicShowcaseFanart)</onclick>
-          <selected>Skin.HasSetting(MusicShowcaseFanart)</selected>
           <visible>Control.IsVisible(58)</visible>
         </control>
         <control type="togglebutton" id="28">
@@ -136,7 +135,6 @@
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31214]</altlabel>
           <onclick>Skin.ToggleSetting(3dmusic_Fanart)</onclick>
-          <selected>Skin.HasSetting(3dmusic_Fanart)</selected>
           <visible>Control.IsVisible(56)</visible>
         </control>
         <control type="togglebutton" id="29">
@@ -145,7 +143,6 @@
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31214]</altlabel>
           <onclick>Skin.ToggleSetting(music_files_fanart)</onclick>
-          <selected>Skin.HasSetting(music_files_fanart)</selected>
           <visible>Control.IsVisible(50)</visible>
         </control>
         <control type="togglebutton" id="30">
@@ -154,7 +151,6 @@
           <label>Icon</label>
           <altlabel>Logo</altlabel>
           <onclick>Skin.ToggleSetting(MusicLogo)</onclick>
-          <selected>Skin.HasSetting(MusicLogo)</selected>
           <visible>Control.IsVisible(598)</visible>
         </control>
         <control type="button" id="3">

@@ -90,8 +90,6 @@
           <aligny>center</aligny>
           <font>Font_FavouritesItemLabel</font>
           <info>ListItem.Label</info>
-          <colordiffuse>mainblue</colordiffuse>
-          <texturefocus>button-focus.png</texturefocus>
         </control>
       </focusedlayout>
     </control>

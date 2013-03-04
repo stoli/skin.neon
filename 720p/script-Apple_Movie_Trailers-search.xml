@@ -745,10 +745,6 @@
           <height>120</height>
           <font>font11</font>
           <textcolor>white</textcolor>
-          <onup>75</onup>
-          <ondown>75</ondown>
-          <onleft>151</onleft>
-          <onright>2075</onright>
           <pagecontrol>2075</pagecontrol>
         </control>
         <control type="scrollbar" id="2075">

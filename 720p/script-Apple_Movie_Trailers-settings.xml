@@ -451,7 +451,6 @@
           <font>Font_Neon_20</font>
           <align>right</align>
           <colordiffuse>mainblue</colordiffuse>
-          <colordiffuse>mainblue</colordiffuse>
           <texturenofocus border="5">MenuItemNF.png</texturenofocus>
           <texturefocus>MenuItemFO.png</texturefocus>
           <onleft>9000</onleft>

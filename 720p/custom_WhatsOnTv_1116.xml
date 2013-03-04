@@ -88,7 +88,6 @@
         <posy>100</posy>
         <width>119</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
         <align>center</align>
         <aligny>center</aligny>
         <label>Mon</label>
@@ -97,8 +96,6 @@
         <onleft>-</onleft>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <align>center</align>
-        <aligny>center</aligny>
         <texturenofocus border="5">-</texturenofocus>
         <texturefocus border="5">today-glow.png</texturefocus>
         <font>Font_Neon_20</font>
@@ -109,7 +106,6 @@
         <posy>100</posy>
         <width>119</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
         <align>center</align>
         <aligny>center</aligny>
         <label>Tue</label>
@@ -118,8 +114,6 @@
         <onleft>515</onleft>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <align>center</align>
-        <aligny>center</aligny>
         <texturenofocus border="5">-</texturenofocus>
         <texturefocus border="5">today-glow.png</texturefocus>
         <font>Font_Neon_20</font>
@@ -130,7 +124,6 @@
         <posy>100</posy>
         <width>119</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
         <align>center</align>
         <aligny>center</aligny>
         <label>Wed</label>
@@ -139,8 +132,6 @@
         <onleft>516</onleft>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <align>center</align>
-        <aligny>center</aligny>
         <texturenofocus border="5">-</texturenofocus>
         <texturefocus border="5">today-glow.png</texturefocus>
         <font>Font_Neon_20</font>
@@ -151,7 +142,6 @@
         <posy>100</posy>
         <width>119</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
         <align>center</align>
         <aligny>center</aligny>
         <label>Thu</label>
@@ -160,8 +150,6 @@
         <onleft>517</onleft>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <align>center</align>
-        <aligny>center</aligny>
         <texturenofocus border="5">-</texturenofocus>
         <texturefocus border="5">today-glow.png</texturefocus>
         <font>Font_Neon_20</font>
@@ -172,7 +160,6 @@
         <posy>100</posy>
         <width>119</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
         <align>center</align>
         <aligny>center</aligny>
         <label>Fri</label>
@@ -181,8 +168,6 @@
         <onleft>518</onleft>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <align>center</align>
-        <aligny>center</aligny>
         <texturenofocus border="5">-</texturenofocus>
         <texturefocus border="5">today-glow.png</texturefocus>
         <font>Font_Neon_20</font>
@@ -193,7 +178,6 @@
         <posy>100</posy>
         <width>119</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
         <align>center</align>
         <aligny>center</aligny>
         <label>Sat</label>
@@ -202,8 +186,6 @@
         <onleft>519</onleft>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <align>center</align>
-        <aligny>center</aligny>
         <texturenofocus border="5">-</texturenofocus>
         <texturefocus border="5">today-glow.png</texturefocus>
         <font>Font_Neon_20</font>
@@ -214,7 +196,6 @@
         <posy>100</posy>
         <width>119</width>
         <height>30</height>
-        <font>Font_Neon_24</font>
         <align>center</align>
         <aligny>center</aligny>
         <label>Sun</label>
@@ -223,8 +204,6 @@
         <onleft>520</onleft>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <align>center</align>
-        <aligny>center</aligny>
         <texturenofocus border="5">-</texturenofocus>
         <texturefocus border="5">today-glow.png</texturefocus>
         <font>Font_Neon_20</font>

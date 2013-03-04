@@ -72,7 +72,6 @@
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31094]</altlabel>
           <onclick>Skin.ToggleSetting(MusicShowcaseFanart)</onclick>
-          <selected>Skin.HasSetting(MusicShowcaseFanart)</selected>
           <visible>Control.IsVisible(58)</visible>
         </control>
         <control type="button" id="3">
