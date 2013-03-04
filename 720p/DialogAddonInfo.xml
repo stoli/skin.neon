@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="146">
   <defaultcontrol always="true">9000</defaultcontrol>
   <coordinates>
@@ -341,7 +341,6 @@
           <width>220</width>
           <height>45</height>
           <label>24022</label>
-          <align>center</align>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
@@ -362,7 +361,6 @@
           <width>220</width>
           <height>45</height>
           <label>24021</label>
-          <align>center</align>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
@@ -383,7 +381,6 @@
           <width>220</width>
           <height>45</height>
           <label>24020</label>
-          <align>center</align>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
@@ -404,7 +401,6 @@
           <width>220</width>
           <height>45</height>
           <label>24069</label>
-          <align>center</align>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
@@ -425,7 +421,6 @@
           <width>220</width>
           <height>45</height>
           <label>24036</label>
-          <align>center</align>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
