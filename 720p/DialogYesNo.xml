@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="100">
   <defaultcontrol always="true">10</defaultcontrol>
@@ -38,7 +38,6 @@
       <posy>200</posy>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
-      <focusedcolor>MenuValueFO</focusedcolor>
       <label>-</label>
       <width>500</width>
       <align>center</align>
@@ -50,7 +49,6 @@
       <posy>250</posy>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
-      <focusedcolor>MenuValueFO</focusedcolor>
       <label>-</label>
       <width>500</width>
       <align>center</align>
@@ -62,7 +60,6 @@
       <posy>300</posy>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
-      <focusedcolor>MenuValueFO</focusedcolor>
       <label>-</label>
       <width>500</width>
       <align>center</align>
@@ -74,7 +71,6 @@
       <posy>350</posy>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
-      <focusedcolor>MenuValueFO</focusedcolor>
       <label>-</label>
       <width>500</width>
       <align>center</align>
