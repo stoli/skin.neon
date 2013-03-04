@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
   <include name="Viewtype_Showcase">
     <control type="group">
@@ -2770,7 +2770,7 @@
           <font>Font_ShowcaseTitle</font>
           <textcolor>LandscapeTitle</textcolor>
           <label>[B]$INFO[ListItem.Label][/B]</label>
-          <visible>[Container.Content(movies) + Skin.HasSetting(HideMovieWatchedOverlays)] | [!Container.Content(movies) + Skin.HasSetting(HideTVWatchedOverlays)] | !stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
+          <visible>[Container.Content(movies) + Skin.HasSetting(HideMovieWatchedOverlays)] | [!Container.Content(movies) + Skin.HasSetting(HideTVWatchedOverlays)] | !stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
         </control>
         <!-- attention needed: unmatched parenthesis in visible tag above, need to figure out what correct modification is  -->
         <control type="fadelabel">
