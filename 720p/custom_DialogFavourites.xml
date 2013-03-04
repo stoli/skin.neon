@@ -105,7 +105,6 @@
             <aligny>center</aligny>
             <font>Font_FavouritesFocusedItemLabel</font>
             <info>ListItem.Label</info>
-            <texturefocus>button-focus.png</texturefocus>
           </control>
         </focusedlayout>
         <content>
