@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <includes>
   <include name="Viewtype_Poster">
@@ -571,8 +571,94 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
         <include>Animation_HiddenByInfo</include>
         <visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
-      </control> --&gt;
-			<control type="label"><posx>20</posx><posy>30</posy><width>1200</width><height>50</height><aligny>center</aligny><font>Font_Bartowski_Title_TVShow</font><textcolor>mainblue</textcolor><label>$INFO[ListItem.TVShowTitle]</label><visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7015)) + IsEmpty(Control.GetLabel(9015))</visible></control><control type="label"><posx>20</posx><posy>60</posy><width>604</width><height>50</height><aligny>center</aligny><font>Font_RSS_Big</font><textcolor>ffffffff</textcolor><label>$INFO[ListItem.Duration] $LOCALIZE[12391]</label><visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)] + !IsEmpty(ListItem.Duration)</visible></control><control type="label"><posx>20</posx><posy>60</posy><width>604</width><height>50</height><aligny>center</aligny><font>Font_RSS_Big</font><textcolor>ffffffff</textcolor><label>MovieSet</label><visible>IsEmpty(ListItem.foldername) + !Skin.HasSetting(Poster_Fanart) + !Skin.HasSetting(clean_poster) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible></control><control type="label"><posx>20</posx><posy>85</posy><width>604</width><height>50</height><aligny>center</aligny><font>Font_Neon_26</font><textcolor>ffffffff</textcolor><label>$INFO[ListItem.year]</label><visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)]</visible></control><control type="group"><posx>140</posx><posy>118</posy><include>VideoMPAAFlaggingConditions</include><animation effect="zoom" start="80" end="80" time="0" condition="true">Conditional</animation><visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)]</visible></control><control type="group"><posx>20</posx><posy>120</posy><include>Poster_Next_Aired</include><visible>!Skin.HasSetting(Poster_Fanart)</visible></control><control type="label"><!--Trailer Start--><visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(clean_poster) + !IsEmpty(ListItem.Trailer) + !Player.HasVideo</visible><posx>20</posx><posy>108</posy><width>370</width><height>50</height><aligny>center</aligny><font>Font_Neon_16</font><textcolor>ffffffff</textcolor><label>*$LOCALIZE[31237]*</label><shadowcolor>black</shadowcolor><include>Animation_ZoomInZoomOut</include><animation effect="fade" start="0" end="100" time="400" delay="1000" condition="![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation></control><control type="label"><!--Trailer Stop--><visible>Control.IsVisible(55) + Container.Content(movies) + Player.HasVideo + !Skin.HasSetting(clean_poster)</visible><posx>60</posx><posy>65</posy><width>370</width><height>50</height><aligny>center</aligny><font>Font_Neon_16</font><textcolor>ffffffff</textcolor><label>*$LOCALIZE[31238]*</label><shadowcolor>black</shadowcolor><include>Animation_ZoomInZoomOut</include></control></control>
+      </control>
+      <control type="label">
+        <posx>20</posx>
+        <posy>30</posy>
+        <width>1200</width>
+        <height>50</height>
+        <aligny>center</aligny>
+        <font>Font_Bartowski_Title_TVShow</font>
+        <textcolor>mainblue</textcolor>
+        <label>$INFO[ListItem.TVShowTitle]</label>
+        <visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + IsEmpty(Control.GetLabel(7015)) + IsEmpty(Control.GetLabel(9015))</visible>
+      </control>
+      <control type="label">
+        <posx>20</posx>
+        <posy>60</posy>
+        <width>604</width>
+        <height>50</height>
+        <aligny>center</aligny>
+        <font>Font_RSS_Big</font>
+        <textcolor>ffffffff</textcolor>
+        <label>$INFO[ListItem.Duration] $LOCALIZE[12391]</label>
+        <visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)] + !IsEmpty(ListItem.Duration)</visible>
+      </control>
+      <control type="label">
+        <posx>20</posx>
+        <posy>60</posy>
+        <width>604</width>
+        <height>50</height>
+        <aligny>center</aligny>
+        <font>Font_RSS_Big</font>
+        <textcolor>ffffffff</textcolor>
+        <label>MovieSet</label>
+        <visible>IsEmpty(ListItem.foldername) + !Skin.HasSetting(Poster_Fanart) + !Skin.HasSetting(clean_poster) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible>
+      </control>
+      <control type="label">
+        <posx>20</posx>
+        <posy>85</posy>
+        <width>604</width>
+        <height>50</height>
+        <aligny>center</aligny>
+        <font>Font_Neon_26</font>
+        <textcolor>ffffffff</textcolor>
+        <label>$INFO[ListItem.year]</label>
+        <visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)]</visible>
+      </control>
+      <control type="group">
+        <posx>140</posx>
+        <posy>118</posy>
+        <include>VideoMPAAFlaggingConditions</include>
+        <animation effect="zoom" start="80" end="80" time="0" condition="true">Conditional</animation>
+        <visible>Container.Content(movies) + !Skin.HasSetting(clean_poster) + ![Player.HasVideo | substring(container.folderpath,plugin://video/)]</visible>
+      </control>
+      <control type="group">
+        <posx>20</posx>
+        <posy>120</posy>
+        <include>Poster_Next_Aired</include>
+        <visible>!Skin.HasSetting(Poster_Fanart)</visible>
+      </control>
+      <control type="label">
+        <!--Trailer Start-->
+        <visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(clean_poster) + !IsEmpty(ListItem.Trailer) + !Player.HasVideo</visible>
+        <posx>20</posx>
+        <posy>108</posy>
+        <width>370</width>
+        <height>50</height>
+        <aligny>center</aligny>
+        <font>Font_Neon_16</font>
+        <textcolor>ffffffff</textcolor>
+        <label>*$LOCALIZE[31237]*</label>
+        <shadowcolor>black</shadowcolor>
+        <include>Animation_ZoomInZoomOut</include>
+        <animation effect="fade" start="0" end="100" time="400" delay="1000" condition="![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
+      </control>
+      <control type="label">
+        <!--Trailer Stop-->
+        <visible>Control.IsVisible(55) + Container.Content(movies) + Player.HasVideo + !Skin.HasSetting(clean_poster)</visible>
+        <posx>60</posx>
+        <posy>65</posy>
+        <width>370</width>
+        <height>50</height>
+        <aligny>center</aligny>
+        <font>Font_Neon_16</font>
+        <textcolor>ffffffff</textcolor>
+        <label>*$LOCALIZE[31238]*</label>
+        <shadowcolor>black</shadowcolor>
+        <include>Animation_ZoomInZoomOut</include>
+      </control>
+    </control>
     <control type="grouplist">
       <posx>340</posx>
       <posy>260</posy>

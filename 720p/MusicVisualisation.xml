@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="2006">
   <allowoverlay>no</allowoverlay>
   <onload condition="system.hasaddon(script.artistslideshow)">RunScript(script.artistslideshow)</onload>
@@ -181,8 +181,8 @@
           <height>500</height>
           <font>music_time</font>
           <label>[COLOR 60FFFFFF] / $INFO[MusicPlayer.Duration][/COLOR]</label>
-        </control> --&gt;
-		</control>
+        </control>
+      </control>
       <control type="group">
         <visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>
         <control type="image" id="1">
@@ -296,8 +296,8 @@
             <posx>25</posx>
             <width>126</width>
             <height>126</height>
-            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(1).Cover]</texture> --&gt;
-				</control>
+            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(1).Cover]</texture>
+          </control>
           <control type="label">
             <animation effect="slide" start="0,130" end="0,0" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
             <animation effect="slide" start="0,0" end="0,130" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
@@ -363,8 +363,8 @@
             <posx>25</posx>
             <width>126</width>
             <height>126</height>
-            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(2).Cover]</texture> --&gt;
-				</control>
+            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(2).Cover]</texture>
+          </control>
         </control>
         <control type="fadelabel">
           <animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>

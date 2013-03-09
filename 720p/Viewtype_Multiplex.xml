@@ -320,8 +320,8 @@
           <fadetime>500</fadetime>
           <timeperimage>3000</timeperimage>
           <animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
-          <imagepath diffuse="mod/list_episodeicon_mask.png" background="true">$INFO[Container(588).ListItem.Path,,extrathumbs]</imagepath> --&gt;
-		</control>
+          <imagepath diffuse="mod/list_episodeicon_mask.png" background="true">$INFO[Container(588).ListItem.Path,,extrathumbs]</imagepath>
+        </control>
         <control type="multiimage">
           <visible>Skin.HasSetting(extrathumbs)</visible>
           <posy>362</posy>

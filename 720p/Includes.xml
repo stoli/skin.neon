@@ -632,8 +632,8 @@
         <colordiffuse>mainblue</colordiffuse>
         <texture>MediaInfoBackUpper.png</texture>
         <aspectratio>stretch</aspectratio>
-        <visible>Window.IsVisible(videoosd) | Window.IsVisible(musicosd)</visible> --&gt;
-				</control>
+        <visible>Window.IsVisible(videoosd) | Window.IsVisible(musicosd)</visible>
+      </control>
       <include>Time</include>
       <control type="group">
         <visible>!Skin.HasSetting(no_global_clock)</visible>
@@ -922,8 +922,8 @@
       <timeperimage>10000</timeperimage>
       <randomize>true</randomize>
       <fadetime>1000</fadetime>
-      <visible>Skin.HasSetting(conditions_weather_backdrop)</visible> --&gt;
-		</control>
+      <visible>Skin.HasSetting(conditions_weather_backdrop)</visible>
+    </control>
     <control type="multiimage">
       <posx>0</posx>
       <posy>0</posy>
