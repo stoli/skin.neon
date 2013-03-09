@@ -254,8 +254,8 @@
         <control type="togglebutton" id="36">
           <description>Toggle Fanart</description>
           <include>WindowMenuButton_Vertical</include>
-          <label>$LOCALIZE[31086]</label>
-          <altlabel>$LOCALIZE[31721]</altlabel>
+          <label>$LOCALIZE[31721]</label>
+          <altlabel>$LOCALIZE[31086]</altlabel>
           <onclick>Skin.ToggleSetting(FileFanartView)</onclick>
           <visible>[Control.IsVisible(53) + Container.Content(TVShows)]</visible>
         </control>
