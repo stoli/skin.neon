@@ -2996,8 +2996,102 @@
               <label>"$LOCALIZE[31052]"</label>
               <onclick>Skin.ToggleSetting(no_Landscape)</onclick>
               <selected>Skin.HasSetting(no_Landscape)</selected>
-            </control>no_LandPanel
-						<control type="radiobutton" id="606"><include>skin_settings_labels</include><label>"$LOCALIZE[31053]"</label><onclick>Skin.ToggleSetting(no_3DLandscape)</onclick><selected>Skin.HasSetting(no_3DLandscape)</selected></control><control type="radiobutton" id="607"><include>skin_settings_labels</include><label>"$LOCALIZE[31054]"</label><onclick>Skin.ToggleSetting(no_LandPanel)</onclick><selected>Skin.HasSetting(no_LandPanel)</selected></control><control type="radiobutton" id="608"><include>skin_settings_labels</include><label>"$LOCALIZE[31062]"</label><onclick>Skin.ToggleSetting(no_Poster)</onclick><selected>Skin.HasSetting(no_Poster)</selected></control><control type="radiobutton" id="609"><include>skin_settings_labels</include><label>"$LOCALIZE[31063]"</label><onclick>Skin.ToggleSetting(no_Showcase)</onclick><selected>Skin.HasSetting(no_Showcase)</selected></control><control type="radiobutton" id="610"><include>skin_settings_labels</include><label>"$LOCALIZE[31064]"</label><onclick>Skin.ToggleSetting(no_Wall)</onclick><selected>Skin.HasSetting(no_Wall)</selected></control><control type="radiobutton" id="611"><include>skin_settings_labels</include><label>"$LOCALIZE[31213]"</label><onclick>Skin.ToggleSetting(no_WallPanel)</onclick><selected>Skin.HasSetting(no_WallPanel)</selected></control><control type="radiobutton" id="612"><include>skin_settings_labels</include><label>"$LOCALIZE[31245]"</label><onclick>Skin.ToggleSetting(no_Landscape_Fanart)</onclick><selected>Skin.HasSetting(no_Landscape_Fanart)</selected></control><control type="radiobutton" id="613"><include>skin_settings_labels</include><label>"$LOCALIZE[31268]"</label><onclick>Skin.ToggleSetting(no_Logo)</onclick><selected>Skin.HasSetting(no_Logo)</selected></control><control type="radiobutton" id="614"><include>skin_settings_labels</include><label>"$LOCALIZE[31250]"</label><onclick>Skin.ToggleSetting(no_3dbanner)</onclick><selected>Skin.HasSetting(no_3dbanner)</selected></control><control type="radiobutton" id="615"><include>skin_settings_labels</include><label>"$LOCALIZE[31279]"</label><onclick>Skin.ToggleSetting(no_Slide)</onclick><selected>Skin.HasSetting(no_Slide)</selected></control><control type="label" id="616"><width>860</width><height>45</height><font>Font_Neon_20</font><label>$LOCALIZE[31065]</label><textcolor>mainblue</textcolor><shadowcolor>black</shadowcolor><align>left</align><aligny>center</aligny></control><control type="radiobutton" id="617"><include>skin_settings_labels</include><label>"$LOCALIZE[31066]"</label><onclick>Skin.ToggleSetting(no_Jukebox)</onclick><selected>Skin.HasSetting(no_Jukebox)</selected></control><control type="radiobutton" id="618"><include>skin_settings_labels</include><label>"$LOCALIZE[31063]"</label><onclick>Skin.ToggleSetting(no_MusicShowcase)</onclick><selected>Skin.HasSetting(no_MusicShowcase)</selected></control><control type="radiobutton" id="619"><include>skin_settings_labels</include><label>"$LOCALIZE[31064]"</label><onclick>Skin.ToggleSetting(no_MusicWall)</onclick><selected>Skin.HasSetting(no_MusicWall)</selected></control><control type="radiobutton" id="620"><include>skin_settings_labels</include><label>"$LOCALIZE[31288]"</label><onclick>Skin.ToggleSetting(no_Shelf)</onclick><selected>Skin.HasSetting(no_Shelf)</selected></control></control>
+            </control>
+            <control type="radiobutton" id="606">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31053]"</label>
+              <onclick>Skin.ToggleSetting(no_3DLandscape)</onclick>
+              <selected>Skin.HasSetting(no_3DLandscape)</selected>
+            </control>
+            <control type="radiobutton" id="607">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31054]"</label>
+              <onclick>Skin.ToggleSetting(no_LandPanel)</onclick>
+              <selected>Skin.HasSetting(no_LandPanel)</selected>
+            </control>
+            <control type="radiobutton" id="608">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31062]"</label>
+              <onclick>Skin.ToggleSetting(no_Poster)</onclick>
+              <selected>Skin.HasSetting(no_Poster)</selected>
+            </control>
+            <control type="radiobutton" id="609">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31063]"</label>
+              <onclick>Skin.ToggleSetting(no_Showcase)</onclick>
+              <selected>Skin.HasSetting(no_Showcase)</selected>
+            </control>
+            <control type="radiobutton" id="610">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31064]"</label>
+              <onclick>Skin.ToggleSetting(no_Wall)</onclick>
+              <selected>Skin.HasSetting(no_Wall)</selected>
+            </control>
+            <control type="radiobutton" id="611">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31213]"</label>
+              <onclick>Skin.ToggleSetting(no_WallPanel)</onclick>
+              <selected>Skin.HasSetting(no_WallPanel)</selected>
+            </control>
+            <control type="radiobutton" id="612">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31245]"</label>
+              <onclick>Skin.ToggleSetting(no_Landscape_Fanart)</onclick>
+              <selected>Skin.HasSetting(no_Landscape_Fanart)</selected>
+            </control>
+            <control type="radiobutton" id="613">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31268]"</label>
+              <onclick>Skin.ToggleSetting(no_Logo)</onclick>
+              <selected>Skin.HasSetting(no_Logo)</selected>
+            </control>
+            <control type="radiobutton" id="614">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31250]"</label>
+              <onclick>Skin.ToggleSetting(no_3dbanner)</onclick>
+              <selected>Skin.HasSetting(no_3dbanner)</selected>
+            </control>
+            <control type="radiobutton" id="615">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31279]"</label>
+              <onclick>Skin.ToggleSetting(no_Slide)</onclick>
+              <selected>Skin.HasSetting(no_Slide)</selected>
+            </control>
+            <control type="label" id="616">
+              <width>860</width>
+              <height>45</height>
+              <font>Font_Neon_20</font>
+              <label>$LOCALIZE[31065]</label>
+              <textcolor>mainblue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
+            <control type="radiobutton" id="617">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31066]"</label>
+              <onclick>Skin.ToggleSetting(no_Jukebox)</onclick>
+              <selected>Skin.HasSetting(no_Jukebox)</selected>
+            </control>
+            <control type="radiobutton" id="618">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31063]"</label>
+              <onclick>Skin.ToggleSetting(no_MusicShowcase)</onclick>
+              <selected>Skin.HasSetting(no_MusicShowcase)</selected>
+            </control>
+            <control type="radiobutton" id="619">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31064]"</label>
+              <onclick>Skin.ToggleSetting(no_MusicWall)</onclick>
+              <selected>Skin.HasSetting(no_MusicWall)</selected>
+            </control>
+            <control type="radiobutton" id="620">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31288]"</label>
+              <onclick>Skin.ToggleSetting(no_Shelf)</onclick>
+              <selected>Skin.HasSetting(no_Shelf)</selected>
+            </control>
+          </control>
         </control>
         <control type="group">
           <control type="grouplist" id="9007">
