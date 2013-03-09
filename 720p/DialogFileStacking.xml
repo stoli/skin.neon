@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Empty-->
 <window id="2008">
   <defaultcontrol>450</defaultcontrol>
@@ -74,6 +74,5 @@
         </control>
       </focusedlayout>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

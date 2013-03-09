@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="501">
   <defaultcontrol>50</defaultcontrol>
@@ -123,6 +123,5 @@
         </control>
       </control>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

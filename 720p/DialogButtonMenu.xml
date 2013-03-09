@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window type="buttonMenu" id="111">
   <defaultcontrol always="true">410</defaultcontrol>
   <include>Animation_SettingsFade</include>
@@ -225,6 +225,5 @@
 			
 			<texture>zappy-neon.jpg</texture>
 		</control> -->
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

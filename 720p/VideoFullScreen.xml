@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="2005">
   <controls>
@@ -63,7 +63,5 @@
         <font>Font_RSS_Unicode</font>
       </control>
     </control>
-    <!-- Buffering Dialog -->
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="100">
   <defaultcontrol always="true">10</defaultcontrol>
@@ -116,6 +116,5 @@
       <onup>10</onup>
       <ondown>10</ondown>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

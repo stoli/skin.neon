@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window>
   <defaultcontrol always="true">9000</defaultcontrol>
   <controls>
@@ -241,12 +241,6 @@
             <label>$LOCALIZE[31276]</label>
             <onclick>Skin.ToggleSetting(big_trailer)</onclick>
             <selected>Skin.HasSetting(big_trailer)</selected>
-          </control>
-          <control type="radiobutton" id="118">
-            <include>skin_settings_labels</include>
-            <label>Enable Debug Grid (development only)</label>
-            <onclick>Skin.ToggleSetting(debuggrid)</onclick>
-            <selected>Skin.HasSetting(debuggrid)</selected>
           </control>
           <!-- Playlist -->
           <control type="label" id="120">

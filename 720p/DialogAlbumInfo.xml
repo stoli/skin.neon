@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="2001">
   <defaultcontrol always="true">5</defaultcontrol>
   <allowoverlay>no</allowoverlay>
@@ -675,6 +675,5 @@
         </control>
       </control>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

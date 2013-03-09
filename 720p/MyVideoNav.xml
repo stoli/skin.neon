@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="25">
   <onload condition="Skin.HasSetting(TvTunes) + !SubString(Window(Videos).Property(CinemaExperienceRunning),True)">RunScript(script.tvtunes,backend=True&amp;loop=False)</onload>
@@ -282,6 +282,5 @@
     <include>NextAiredInfo</include>
     <include>Time</include>
     <include>Library Totals</include>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

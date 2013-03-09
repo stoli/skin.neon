@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="0">
   <defaultcontrol always="true">301</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
@@ -159,6 +159,5 @@
     <include>Date</include>
     <include>BottomLine_RSS</include>
     <include>Music_Global_Home</include>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

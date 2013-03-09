@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Empty-->
 <window id="110">
   <defaultcontrol>0</defaultcontrol>
@@ -50,6 +50,5 @@
       <width>500</width>
       <label>-</label>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

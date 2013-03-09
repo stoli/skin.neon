@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="500">
   <defaultcontrol>506</defaultcontrol>
@@ -119,6 +119,5 @@
         <label>Playlist</label>
       </control>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

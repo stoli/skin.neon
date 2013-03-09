@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Empty-->
 <window id="28">
   <defaultcontrol>50</defaultcontrol>
@@ -124,6 +124,5 @@
         <label>$LOCALIZE[192]</label>
       </control>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

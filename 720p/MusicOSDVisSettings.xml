@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Empty-->
 <window id="121">
   <defaultcontrol always="true">5</defaultcontrol>
@@ -48,6 +48,5 @@
     <control type="spincontrolex" id="9">
       <description>Spin Controlex</description>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

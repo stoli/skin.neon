@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="2007">
   <controls>
@@ -78,6 +78,5 @@
       <include>Global_Heading</include>
       <include>Global_RSS</include>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>
