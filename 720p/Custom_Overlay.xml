@@ -18,7 +18,7 @@
       <posy>25</posy>
       <width>780</width>
       <height>450</height>
-      <visible>!Skin.HasSetting(HideDebugInfo)</visible>
+      <visible>Skin.HasSetting(HideDebugInfo)</visible>
       <!-- Window labels -->
       <control type="label">
         <width>780</width>
@@ -823,7 +823,7 @@
       <font>Font_RSS</font>
       <align>right</align>
       <label>$INFO[System.CurrentControl]</label>
-      <visible>!Skin.HasSetting(HideDebugInfo)</visible>
+      <visible>Skin.HasSetting(HideDebugInfo)</visible>
     </control>
     <!-- Path label -->
     <control type="label">
@@ -836,7 +836,7 @@
       <font>Font_RSS</font>
       <align>right</align>
       <label>[COLOR=FF00FF00]$INFO[Container.FolderName,, - ][/COLOR]$INFO[Container.FolderPath]</label>
-      <visible>!Skin.HasSetting(HideDebugInfo)</visible>
+      <visible>Skin.HasSetting(HideDebugInfo)</visible>
     </control>
   </controls>
 </window>
