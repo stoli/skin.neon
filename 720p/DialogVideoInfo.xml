@@ -18,10 +18,10 @@
       <control type="image">
         <posx>0</posx>
         <posy>0</posy>
-        <width>1300</width>
+        <width>1280</width>
         <height>720</height>
-        <colordiffuse>black</colordiffuse>
         <texture>background-solid.png</texture>
+        <scalediffuse>scale</scalediffuse>
       </control>
     </control>
     <control type="group">
@@ -571,7 +571,7 @@
               </control>
               <control type="label">
                 <posx>180</posx>
-                <posy>2</posy>
+                <posy>0</posy>
                 <width>1000</width>
                 <height>30</height>
                 <font>Font_Neon_20_title</font>
@@ -583,16 +583,6 @@
               </control>
             </itemlayout>
             <focusedlayout height="30">
-              <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
-                <width>640</width>
-                <height>30</height>
-                <visible>Control.HasFocus(49)</visible>
-                <colordiffuse>mainblue</colordiffuse>
-                <texture>button-focus.png</texture>
-                <include>VisibleFadeEffect</include>
-              </control>
               <control type="label">
                 <posx>170</posx>
                 <posy>0</posy>
@@ -607,7 +597,7 @@
               </control>
               <control type="label">
                 <posx>180</posx>
-                <posy>2</posy>
+                <posy>0</posy>
                 <width>1000</width>
                 <height>30</height>
                 <font>Font_Neon_20_title</font>
@@ -636,6 +626,12 @@
                 <label2>$INFO[ListItem.Episode]</label2>
                 <onclick>-</onclick>
                 <visible>!IsEmpty(ListItem.Episode)</visible>
+              </item>
+              <item>
+                <label>$LOCALIZE[31208]:</label>
+                <label2>$INFO[ListItem.Title]</label2>
+                <onclick>-</onclick>
+                <visible>!IsEmpty(ListItem.Title)</visible>
               </item>
               <item>
                 <label>$LOCALIZE[20416]:</label>
