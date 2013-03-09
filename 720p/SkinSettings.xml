@@ -207,7 +207,7 @@
           </control>
           <control type="radiobutton" id="126">
             <include>skin_settings_labels</include>
-            <label>Disable Global Weather</label>
+            <label>$LOCALIZE[31297]</label>
             <onclick>Skin.ToggleSetting(no_weather_info)</onclick>
             <selected>Skin.HasSetting(no_weather_info)</selected>
           </control>
