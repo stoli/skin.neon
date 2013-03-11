@@ -224,11 +224,20 @@
             <selected>Skin.HasSetting(SubsScript_Enable)</selected>
           </control>
           <control type="button" id="105">
-            <include>skin_settings_button</include>
+            <description>Startup Playlist Path</description>
+            <width>740</width>
+            <height>30</height>
+            <font>Font_KeyboardTitle</font>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31216]</label>
             <label2>[COLOR=selected]$INFO[Skin.String(SubtitleScript_Path)][/COLOR]</label2>
             <onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
             <visible>Skin.HasSetting(SubsScript_Enable)</visible>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>MenuItemFO.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
           </control>
           <control type="radiobutton" id="107">
             <include>skin_settings_labels</include>
@@ -274,7 +283,7 @@
             <width>740</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
-            <textcolor>selected</textcolor>
+            <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
             <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31014]</label>
@@ -460,23 +469,20 @@
             <onclick>Skin.ToggleSetting(global_bottomline)</onclick>
             <selected>Skin.HasSetting(global_bottomline)</selected>
           </control>
-          <control type="button" id="299">
+          <control type="button" id="229">
             <width>740</width>
-            <height>26</height>
+            <height>30</height>
             <font>Font_KeyboardTitle</font>
-            <textoffsetx>40</textoffsetx>
-            <textoffsety>4</textoffsety>
             <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
-            <align>left</align>
-            <aligny>top</aligny>
+            <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31013]</label>
             <label2>[COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label2>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.SetImage(Home_Custom_RSS_Logo)</onclick>
             <visible>Skin.HasSetting(global_bottomline)</visible>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>MenuItemFO.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
           </control>
           <!--Weather Widget-->
           <control type="radiobutton" id="204">
@@ -495,22 +501,18 @@
             <selected>Skin.HasSetting(conditions_weather_backdrop)</selected>
           </control>
           <control type="button" id="206">
-            <width>770</width>
-            <height>26</height>
+            <width>740</width>
+            <height>30</height>
             <font>Font_KeyboardTitle</font>
-            <textoffsetx>40</textoffsetx>
-            <textoffsety>4</textoffsety>
-            <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
-            <align>left</align>
-            <aligny>top</aligny>
+            <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31012]</label>
             <label2>[COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label2>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder1)</onclick>
             <visible>Skin.HasSetting(conditions_weather_backdrop)</visible>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>MenuItemFO.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
           </control>
           <control type="radiobutton" id="207">
             <description>conditions based weather backdrop style</description>
