@@ -443,7 +443,7 @@
             <height>30</height>
             <font>Font_KeyboardTitle</font>
             <textoffsetx>40</textoffsetx>
-            <label>Show Songs instead of Albums</label>
+            <label>$LOCALIZE[31011]</label>
             <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
             <colordiffuse>mainblue</colordiffuse>
