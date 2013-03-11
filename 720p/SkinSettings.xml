@@ -280,6 +280,7 @@
             <label>$LOCALIZE[31014]</label>
             <label2>$INFO[Skin.String(Startup_Playlist_Path)]</label2>
             <onclick>Skin.SetFile(Startup_Playlist_Path,.xsp,t:\playlists\music\)</onclick>
+            <visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
             <colordiffuse>mainblue</colordiffuse>
             <texturefocus>MenuItemFO.png</texturefocus>
             <texturenofocus>MenuItemNF.png</texturenofocus>
