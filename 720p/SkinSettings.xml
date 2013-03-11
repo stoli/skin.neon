@@ -502,7 +502,7 @@
             <focusedcolor>white</focusedcolor>
             <align>left</align>
             <aligny>top</aligny>
-            <label>Set Conditional Weather Folder - [COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label>
+            <label>$LOCALIZE[31012]:  [COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label>
             <colordiffuse>mainblue</colordiffuse>
             <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
             <texturenofocus>MenuItemNF.png</texturenofocus>
