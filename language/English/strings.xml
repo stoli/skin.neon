@@ -28,7 +28,7 @@
   <string id="31034">Disable Media Flags</string>
   <string id="31035">Enable Movies Watched Overlays</string>
   <string id="31036">Enable TV Show Watched Overlays</string>
-  <string id="31037">Lock Views in Place(Kiosk Mode)</string>
+  <string id="31037">Lock views in place (Kiosk mode)</string>
   <string id="31038">Music Visualization Options</string>
   <string id="31039">Use Fanart Instead of Visualisation</string>
   <string id="31040">Use JukeBox for Fullscreen Playback</string>
@@ -122,7 +122,7 @@
   <!-- GOOD -->
   <string id="31215">Show subtitle script button in OSD</string>
   <!-- GOOD -->
-  <string id="31216">Script path:</string>
+  <string id="31216">Select subtitle script :</string>
   <!-- GOOD -->
   <string id="31217">Enable Home Theater Script</string>
   <string id="31218">Power Options</string>
@@ -130,7 +130,7 @@
   <!-- GOOD -->
   <string id="31220">Cached Thumb</string>
   <!-- GOOD -->
-  <string id="31221">Use Condition based weather fanart</string>
+  <string id="31221">Use condition-based weather fanart</string>
   <string id="31226">Rated</string>
   <!-- GOOD -->
   <string id="31229">First Premiered in</string>
@@ -148,17 +148,17 @@
   <string id="31237">Press Down for Trailer</string>
   <string id="31238">Press "X" to Stop</string>
   <string id="31240">Press "Left" for Trailer</string>
-  <string id="31241">Show Weather Widget</string>
+  <string id="31241">Show weather widget</string>
   <string id="31242">Set Timer</string>
   <!-- GOOD -->
   <string id="31243">Cancel Timer</string>
   <!-- GOOD -->
   <string id="31244">Horizontal Home Menu</string>
   <string id="31246">Show plot</string>
-  <string id="31247">Disable Global Clock</string>
-  <string id="31248">Use Smaller Global Now Playing for Music</string>
+  <string id="31247">Disable global clock</string>
+  <string id="31248">Use smaller global now playing for music</string>
   <string id="31249">Get Artwork</string>
-  <string id="31297">Disable Global Weather</string>
+  <string id="31297">Disable global weather</string>
   <string id="31251">Location</string>
   <string id="31252">Last Updated</string>
   <!-- GOOD -->
@@ -201,7 +201,7 @@ just copy the translations from Confluence to here
   <!-- GOOD -->
   <string id="31116">Addon Scripts</string>
   <!-- GOOD -->
-  <string id="31117">Show Recently Added Content on Home</string>
+  <string id="31117">Show recently added content on the home screen</string>
   <string id="31118">Check if using a merge version</string>
   <string id="31323">Latest Movies</string>
   <string id="31309">Memory Used:</string>
@@ -251,15 +251,15 @@ just copy the translations from Confluence to here
   <string id="31273">Addon Browser</string>
   <string id="31274">NOW PLAYING</string>
   <string id="31275">Recent Episodes</string>
-  <string id="31276">Play trailers Fullscreen rather than small version</string>
+  <string id="31276">Play trailers in full screen mode</string>
   <string id="31277">Show Lyrics Button in MusicOSD</string>
   <string id="31278">Play Videos in Backgorund, Not In Small 'Now Playing' Window</string>
   <string id="31279">View:  Slide</string>
   <string id="31280">HD Movies</string>
-  <string id="31281">Ken Burns Effect - Rotate/Zoom Fanart on Home</string>
+  <string id="31281">Rotate/Zoom fanart on the home screen</string>
   <string id="31282">Enable Season Fanart on Episode level, will disable "ExtraFanart"</string>
   <!-- NEW 9/7-->
-  <string id="31283">Use on Library Music and Movie/TV Views</string>
+  <string id="31283">Also do this on the library views: Music, Movies and TV Shows</string>
   <!-- NEW 9/17-->
   <string id="31284">Remove Info</string>
   <string id="31285">Show Info</string>
@@ -315,9 +315,9 @@ just copy the translations from Confluence to here
   <string id="31723">Duration</string>
   <string id="31724">Track Number</string>
   <string id="31725">Working...</string>
-  <string id="31726">Display Videos Full Screen</string>
-  <string id="31727">Display Music Visualization on Home Screen</string>
-  <string id="31728">Enable Bottom Line RSS</string>
+  <string id="31726">Show background videos in full screen mode</string>
+  <string id="31727">Show music visualisation on the home screen</string>
+  <string id="31728">Enable bottom line RSS</string>
   <!-- Weather Addon -->
   <string id="31900">MAPS</string>
   <string id="31901">36 HOUR</string>
@@ -358,8 +358,8 @@ just copy the translations from Confluence to here
   <string id="31975">Click to Download [COLOR=selected]landscape.jpg[/COLOR]</string>
   <string id="31976">Click to Download [COLOR=selected]clearart.png[/COLOR]</string>
   <string id="31978">These are all of the currently installed custom images used in the TV Views.  When updating it may take time for XBMC to update the image in its cache.</string>
-  <string id="31979">Use Large Recently Added for TV</string>
-  <string id="31980">Use Large Recently Added for Movies</string>
+  <string id="31979">TV: Use large recently added view</string>
+  <string id="31980">Movies: Use large recently added view</string>
   <!-- Extra Unified PVR labels -->
   <string id="31500">Recording Timers</string>
   <string id="31501">Scheduled Time</string>
@@ -379,7 +379,7 @@ just copy the translations from Confluence to here
   <string id="31513">View Settings</string>
   <string id="31514">Full Screen</string>
   <string id="31515">TV Airing Today</string>
-  <string id="31516">Use Random Items instead of Recently Added</string>
+  <string id="31516">Use random items instead of recently added items</string>
   <string id="31517">Random Movies</string>
   <string id="31518">Random Albums</string>
   <string id="31519">Randon Episodes</string>
