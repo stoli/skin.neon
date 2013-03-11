@@ -289,7 +289,7 @@
             <include>skin_settings_labels</include>
             <width>740</width>
             <height>30</height>
-            <label>Enable Startup Video</label>
+            <label>$LOCALIZE[31010]</label>
             <font>Font_KeyboardTitle</font>
             <textoffsetx>30</textoffsetx>
             <textcolor>grey2</textcolor>
