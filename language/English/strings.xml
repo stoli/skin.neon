@@ -9,9 +9,9 @@
   <string id="31009">Enable ABC keyboard</string>
   <string id="31010">Enable startup video</string>
   <string id="31011">Music: Show recently added songs instead of albums</string>
-  <string id="31012">Select folder containing weather fanart :</string>
-  <string id="31013">Select bottom line RSS logo :</string>
-  <string id="31014" />
+  <string id="31012">Select folder containing weather fanart:</string>
+  <string id="31013">Select bottom line RSS logo:</string>
+  <string id="31014">Selected playlist:</string>
   <string id="31015" />
   <string id="31016" />
   <string id="31017" />
@@ -156,7 +156,7 @@
   <string id="31213">View: WallPanel</string>
   <string id="31214">Dark View</string>
   <string id="31215">Show subtitle script button in OSD</string>
-  <string id="31216">Select subtitle script :</string>
+  <string id="31216">Selected subtitle script:</string>
   <string id="31217">Enable Home Theater Script</string>
   <string id="31218">Power Options</string>
   <string id="31219">landscape.jpg</string>
