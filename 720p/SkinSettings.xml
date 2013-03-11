@@ -225,7 +225,7 @@
           </control>
           <control type="button" id="105">
             <include>skin_settings_button</include>
-            <label> - $LOCALIZE[31216] </label>
+            <label>$LOCALIZE[31216]</label>
             <label2>[COLOR=selected]$INFO[Skin.String(SubtitleScript_Path)][/COLOR]</label2>
             <onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
             <visible>Skin.HasSetting(SubsScript_Enable)</visible>
@@ -469,7 +469,8 @@
             <focusedcolor>white</focusedcolor>
             <align>left</align>
             <aligny>top</aligny>
-            <label>Select Bottom Line Logo - [COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label>
+            <label>$LOCALIZE[31013]</label>
+            <label2>[COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label2>
             <colordiffuse>mainblue</colordiffuse>
             <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
             <texturenofocus>MenuItemNF.png</texturenofocus>
@@ -502,7 +503,8 @@
             <focusedcolor>white</focusedcolor>
             <align>left</align>
             <aligny>top</aligny>
-            <label>$LOCALIZE[31012]:  [COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label>
+            <label>$LOCALIZE[31012]</label>
+            <label2>[COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label2>
             <colordiffuse>mainblue</colordiffuse>
             <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
             <texturenofocus>MenuItemNF.png</texturenofocus>
