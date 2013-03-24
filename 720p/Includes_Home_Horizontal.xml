@@ -644,24 +644,29 @@
           </control>
         </focusedlayout>
         <content>
-          <item id="1">
+          
+		  <item id="1">
+			<label>$LOCALIZE[31524]</label>
+			<onclick>ActivateWindow(SkinSettings)</onclick>
+		  </item>	
+		  <item id="2">
             <label>5</label>
             <onclick>ActivateWindow(Settings)</onclick>
           </item>
-          <item id="2">
+          <item id="3">
             <label>7</label>
             <onclick>ActivateWindow(FileManager)</onclick>
           </item>
-          <item id="3">
+          <item id="4">
             <label>13200</label>
             <onclick>ActivateWindow(Profiles)</onclick>
           </item>
-          <item id="4">
+          <item id="5">
             <label>$LOCALIZE[20126]</label>
             <onclick>System.LogOff</onclick>
             <visible>System.HasLoginScreen</visible>
           </item>
-          <item id="5">
+          <item id="6">
             <label>130</label>
             <onclick>ActivateWindow(SystemInfo)</onclick>
           </item>
