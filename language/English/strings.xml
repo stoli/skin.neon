@@ -249,6 +249,7 @@
   <string id="31354">Rewind</string>
   <string id="31355">Movie menu</string>
   <string id="31356">Download Subtitles</string>
+<<<<<<< HEAD
   <string id="31357" />
   <string id="31400">Configure Appearance Settings[CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver</string>
   <string id="31401">Configure Video Settings[CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts</string>
@@ -285,6 +286,7 @@
   <string id="31521">Random</string>
   <string id="31522">Use Artist Slideshow Addon</string>
   <string id="31523">Next Episode</string>
+  <string id="31524">Neon</string>
   <string id="31700">Codec</string>
   <string id="31701">Bitrate</string>
   <string id="31702">Samplerate</string>
