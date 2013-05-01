@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="115">
   <visible>Window.IsActive(2005) + !Window.IsActive(2901) + !Window.IsActive(142) + !Control.IsVisible(10) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
   <controls>
     <include>Time</include>
     <include>Finish_Time</include>
-    <include>Object_DebugGrid</include>
     <control type="image">
       <posx>450</posx>
       <posy>-5</posy>

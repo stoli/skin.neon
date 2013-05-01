@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <includes>
   <include name="Viewtype_16x9">
@@ -69,7 +69,7 @@
             <height>30</height>
             <texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
             <fadetime>300</fadetime>
-            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <aspectratio scalediffuse="false">keep</aspectratio>
           </control>
           <control type="label">
             <!--Movie title-->
@@ -173,12 +173,12 @@
           <control type="image">
             <visible>Skin.HasSetting(ClearTitle) + !Container.Content(episodes)</visible>
             <posx>10</posx>
-            <posy>60</posy>
-            <width>150</width>
-            <height>58</height>
+            <posy>64</posy>
+            <width>146</width>
+            <height>56</height>
             <texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
             <fadetime>300</fadetime>
-            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <aspectratio scalediffuse="false">keep</aspectratio>
             <animation type="Focus" reversible="false">
               <effect type="zoom" center="191,440" start="90" end="100" time="400" tween="back" easing="out" />
               <effect type="fade" start="80" end="100" time="400" />

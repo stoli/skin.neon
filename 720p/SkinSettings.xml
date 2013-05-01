@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window>
   <defaultcontrol always="true">9000</defaultcontrol>
   <controls>
@@ -94,42 +94,42 @@
           <item id="1">
             <label>128</label>
             <label2>5</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="2">
             <label>513</label>
             <label2>33063</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="7">
             <label>Custom Home</label>
             <label2>33063</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="3">
             <label>33068</label>
             <label2>31115</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="4">
             <label>31116</label>
             <label2>33063</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="5">
             <label>$LOCALIZE[20342] / $LOCALIZE[31209]</label>
             <label2>33063</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="6">
             <label>$LOCALIZE[2]</label>
             <label2>33063</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="8">
             <label>31029</label>
             <label2>33063</label2>
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
           <item id="9">
             <label>31030</label>
@@ -137,7 +137,7 @@
 </conclick>
 						<onclick>Skin.ResetSettings</onclick>
 						<onclick>ReloadSkin()</onclick> -->
-            <onclick>-</onclick>
+            <onclick>noop</onclick>
           </item>
         </content>
       </control>
@@ -182,8 +182,7 @@
           <onup>9001</onup>
           <ondown>9001</ondown>
           <control type="label" id="100">
-            <description>
-</description>
+            <description></description>
             <width>740</width>
             <height>45</height>
             <font>Font_Neon_20</font>
@@ -196,7 +195,7 @@
           </control>
           <control type="radiobutton" id="101">
             <include>skin_settings_labels</include>
-            <label>Enable ABC Keyboard</label>
+            <label>$LOCALIZE[31009]</label>
             <onclick>Skin.ToggleSetting(ABCKeyBoard)</onclick>
             <selected>Skin.HasSetting(ABCKeyBoard)</selected>
           </control>
@@ -208,7 +207,7 @@
           </control>
           <control type="radiobutton" id="126">
             <include>skin_settings_labels</include>
-            <label>Disable Global Weather</label>
+            <label>$LOCALIZE[31297]</label>
             <onclick>Skin.ToggleSetting(no_weather_info)</onclick>
             <selected>Skin.HasSetting(no_weather_info)</selected>
           </control>
@@ -225,11 +224,20 @@
             <selected>Skin.HasSetting(SubsScript_Enable)</selected>
           </control>
           <control type="button" id="105">
-            <include>skin_settings_button</include>
-            <label> - $LOCALIZE[31216] </label>
+            <description>Startup Playlist Path</description>
+            <width>740</width>
+            <height>30</height>
+            <font>Font_KeyboardTitle</font>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <textoffsetx>40</textoffsetx>
+            <label>$LOCALIZE[31216]</label>
             <label2>[COLOR=selected]$INFO[Skin.String(SubtitleScript_Path)][/COLOR]</label2>
             <onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
             <visible>Skin.HasSetting(SubsScript_Enable)</visible>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>MenuItemFO.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
           </control>
           <control type="radiobutton" id="107">
             <include>skin_settings_labels</include>
@@ -242,12 +250,6 @@
             <label>$LOCALIZE[31276]</label>
             <onclick>Skin.ToggleSetting(big_trailer)</onclick>
             <selected>Skin.HasSetting(big_trailer)</selected>
-          </control>
-          <control type="radiobutton" id="118">
-            <include>skin_settings_labels</include>
-            <label>Enable Debug Grid (development only)</label>
-            <onclick>Skin.ToggleSetting(debuggrid)</onclick>
-            <selected>Skin.HasSetting(debuggrid)</selected>
           </control>
           <!-- Playlist -->
           <control type="label" id="120">
@@ -281,12 +283,13 @@
             <width>740</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
-            <textcolor>selected</textcolor>
+            <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
             <textoffsetx>40</textoffsetx>
-            <label>15311</label>
+            <label>$LOCALIZE[31014]</label>
             <label2>$INFO[Skin.String(Startup_Playlist_Path)]</label2>
             <onclick>Skin.SetFile(Startup_Playlist_Path,.xsp,t:\playlists\music\)</onclick>
+            <visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
             <colordiffuse>mainblue</colordiffuse>
             <texturefocus>MenuItemFO.png</texturefocus>
             <texturenofocus>MenuItemNF.png</texturenofocus>
@@ -296,7 +299,7 @@
             <include>skin_settings_labels</include>
             <width>740</width>
             <height>30</height>
-            <label>Enable Startup Video</label>
+            <label>$LOCALIZE[31010]</label>
             <font>Font_KeyboardTitle</font>
             <textoffsetx>30</textoffsetx>
             <textcolor>grey2</textcolor>
@@ -378,8 +381,8 @@
             <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.ToggleSetting(ShowBackgroundVideo)</onclick>
             <selected>!Skin.HasSetting(ShowBackgroundVideo)</selected>
-          </control> --&gt;
-					<control type="radiobutton" id="203">
+          </control>
+          <control type="radiobutton" id="203">
             <description>Show Music Vis</description>
             <include>skin_settings_labels</include>
             <label>$LOCALIZE[31727]</label>
@@ -388,8 +391,8 @@
             <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.ToggleSetting(ShowMusicVis)</onclick>
             <selected>!Skin.HasSetting(ShowMusicVis)</selected>
-            </control> --&gt;
-					<control type="radiobutton" id="202">
+          </control>
+          <control type="radiobutton" id="202">
             <description>Show Recently added info</description>
             <include>skin_settings_labels</include>
             <label>$LOCALIZE[31117]</label>
@@ -450,7 +453,7 @@
             <height>30</height>
             <font>Font_KeyboardTitle</font>
             <textoffsetx>40</textoffsetx>
-            <label>Show Songs instead of Albums</label>
+            <label>$LOCALIZE[31011]</label>
             <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
             <colordiffuse>mainblue</colordiffuse>
@@ -466,23 +469,21 @@
             <onclick>Skin.ToggleSetting(global_bottomline)</onclick>
             <selected>Skin.HasSetting(global_bottomline)</selected>
           </control>
-          <control type="button" id="299">
+          <control type="button" id="229">
             <width>740</width>
-            <height>26</height>
+            <height>30</height>
             <font>Font_KeyboardTitle</font>
-            <textoffsetx>40</textoffsetx>
-            <textoffsety>4</textoffsety>
             <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
-            <align>left</align>
-            <aligny>top</aligny>
-            <label>Select Bottom Line Logo - [COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <textoffsetx>40</textoffsetx>
+            <label>$LOCALIZE[31013]</label>
+            <label2>[COLOR=selected]$INFO[Skin.String(Home_Custom_RSS_Logo)][/COLOR]</label2>
             <onclick>Skin.SetImage(Home_Custom_RSS_Logo)</onclick>
             <visible>Skin.HasSetting(global_bottomline)</visible>
-          </control> 
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>MenuItemFO.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
+          </control>
           <!--Weather Widget-->
           <control type="radiobutton" id="204">
             <description>Show Weather Widget</description>
@@ -498,23 +499,20 @@
             <label>$LOCALIZE[31221]</label>
             <onclick>Skin.ToggleSetting(conditions_weather_backdrop)</onclick>
             <selected>Skin.HasSetting(conditions_weather_backdrop)</selected>
-            </control>
+          </control>
           <control type="button" id="206">
-            <width>770</width>
-            <height>26</height>
+            <width>740</width>
+            <height>30</height>
             <font>Font_KeyboardTitle</font>
-            <textoffsetx>40</textoffsetx>
-            <textoffsety>4</textoffsety>
-            <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
-            <align>left</align>
-            <aligny>top</aligny>
-            <label>Set Conditional Weather Folder - [COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
+            <textoffsetx>40</textoffsetx>
+            <label>$LOCALIZE[31012]</label>
+            <label2>[COLOR=selected]$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)][/COLOR]</label2>
             <onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder1)</onclick>
             <visible>Skin.HasSetting(conditions_weather_backdrop)</visible>
+            <colordiffuse>mainblue</colordiffuse>
+            <texturefocus>MenuItemFO.png</texturefocus>
+            <texturenofocus>MenuItemNF.png</texturenofocus>
           </control>
           <control type="radiobutton" id="207">
             <description>conditions based weather backdrop style</description>
@@ -739,8 +737,7 @@
             <ondown>9003</ondown>
             <pagecontrol>-</pagecontrol>
             <scrolltime>0</scrolltime>
-            <itemlayout height="1" width="860">
-</itemlayout>
+            <itemlayout height="1" width="860"></itemlayout>
             <focusedlayout height="40" width="860">
               <control type="image">
                 <posx>0</posx>
@@ -811,70 +808,70 @@
             <content>
               <item id="19">
                 <label>$INFO[Skin.String(Menu_Custom4_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom4_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom4)</visible>
               </item>
               <item id="20">
                 <label>$INFO[Skin.String(Menu_Custom5_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom5_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom5)</visible>
               </item>
               <item id="21">
                 <label>$INFO[Skin.String(Menu_Custom6_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom6_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom6)</visible>
               </item>
               <item id="22">
                 <label>$INFO[Skin.String(Menu_Custom7_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom7_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom7)</visible>
               </item>
               <item id="23">
                 <label>$INFO[Skin.String(Menu_Custom8_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom8_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom8)</visible>
               </item>
               <item id="24">
                 <label>$INFO[Skin.String(Menu_Custom9_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom9_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom9)</visible>
               </item>
               <item id="25">
                 <label>$INFO[Skin.String(Menu_Custom10_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom10)</visible>
               </item>
               <item id="17">
                 <label>$INFO[Skin.String(Menu_Custom3_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom3_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom3)</visible>
               </item>
               <item id="16">
                 <label>$INFO[Skin.String(Menu_Custom2_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom2_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom2)</visible>
               </item>
               <item id="15">
                 <label>$INFO[Skin.String(Menu_Custom1_Label)]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/custom.jpg</icon>
                 <thumb>$INFO[Skin.String(Menu_Custom1_Folder)]</thumb>
                 <visible>Skin.HasSetting(Menu_Custom1)</visible>
@@ -882,71 +879,71 @@
               <item id="1">
                 <label>3</label>
                 <!-- Videos -->
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/videos.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomVideosFolder)]</thumb>
               </item>
               <item id="10">
                 <label>20342</label>
                 <!-- movies -->
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/movies.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomMoviesFolder)]</thumb>
                 <visible>Library.HasContent(Movies)</visible>
               </item>
               <item id="4">
                 <label>$LOCALIZE[31280]</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/programs.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomGamesFolder)]</thumb>
               </item>
               <item id="11">
                 <label>20343</label>
                 <!-- tv shows -->
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/tvshows.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomTVShowsFolder)]</thumb>
                 <visible>Library.HasContent(TVShows)</visible>
               </item>
               <item id="2">
                 <label>2</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/music.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomMusicFolder)]</thumb>
               </item>
               <item id="3">
                 <label>1</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/pictures.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomPicturesFolder)]</thumb>
               </item>
               <item id="5">
                 <label>8</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/weather.jpg</icon>
                 <thumb>$INFO[Skin.String(Home_Custom_Back_Weather_Folder)]</thumb>
               </item>
               <item id="6">
                 <label>247</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/addons.jpg</icon>
                 <thumb>$INFO[Skin.String(Home_Custom_Back_Scripts_Folder)]</thumb>
               </item>
               <item id="18">
                 <label>1036</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/favourites.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomfavouritesFolder)]</thumb>
               </item>
               <item id="7">
                 <label>13000</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/settings.jpg</icon>
                 <thumb>$INFO[Skin.String(CustomSettingsFolder)]</thumb>
               </item>
               <item id="8">
                 <label>13005</label>
-                <onclick>-</onclick>
+                <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/shutdown.jpg</icon>
                 <thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
               </item>
@@ -2653,7 +2650,6 @@
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31270]</label>
               <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
               <align>left</align>
               <aligny>top</aligny>
             </control>
@@ -2670,7 +2666,6 @@
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31267]</label>
               <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
               <align>left</align>
               <aligny>top</aligny>
             </control>
@@ -3006,102 +3001,102 @@
               <label>"$LOCALIZE[31052]"</label>
               <onclick>Skin.ToggleSetting(no_Landscape)</onclick>
               <selected>Skin.HasSetting(no_Landscape)</selected>
-            </control>no_LandPanel
-						<control type="radiobutton" id="606">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31053]"</label>
-<onclick>Skin.ToggleSetting(no_3DLandscape)</onclick>
-<selected>Skin.HasSetting(no_3DLandscape)</selected>
-</control>
-<control type="radiobutton" id="607">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31054]"</label>
-<onclick>Skin.ToggleSetting(no_LandPanel)</onclick>
-<selected>Skin.HasSetting(no_LandPanel)</selected>
-</control>
-<control type="radiobutton" id="608">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31062]"</label>
-<onclick>Skin.ToggleSetting(no_Poster)</onclick>
-<selected>Skin.HasSetting(no_Poster)</selected>
-</control>
-<control type="radiobutton" id="609">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31063]"</label>
-<onclick>Skin.ToggleSetting(no_Showcase)</onclick>
-<selected>Skin.HasSetting(no_Showcase)</selected>
-</control>
-<control type="radiobutton" id="610">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31064]"</label>
-<onclick>Skin.ToggleSetting(no_Wall)</onclick>
-<selected>Skin.HasSetting(no_Wall)</selected>
-</control>
-<control type="radiobutton" id="611">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31213]"</label>
-<onclick>Skin.ToggleSetting(no_WallPanel)</onclick>
-<selected>Skin.HasSetting(no_WallPanel)</selected>
-</control>
-<control type="radiobutton" id="612">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31245]"</label>
-<onclick>Skin.ToggleSetting(no_Landscape_Fanart)</onclick>
-<selected>Skin.HasSetting(no_Landscape_Fanart)</selected>
-</control>
-<control type="radiobutton" id="613">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31268]"</label>
-<onclick>Skin.ToggleSetting(no_Logo)</onclick>
-<selected>Skin.HasSetting(no_Logo)</selected>
-</control>
-<control type="radiobutton" id="614">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31250]"</label>
-<onclick>Skin.ToggleSetting(no_3dbanner)</onclick>
-<selected>Skin.HasSetting(no_3dbanner)</selected>
-</control>
-<control type="radiobutton" id="615">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31279]"</label>
-<onclick>Skin.ToggleSetting(no_Slide)</onclick>
-<selected>Skin.HasSetting(no_Slide)</selected>
-</control>
-<control type="label" id="616">
-<width>860</width>
-<height>45</height>
-<font>Font_Neon_20</font>
-<label>$LOCALIZE[31065]</label>
-<textcolor>mainblue</textcolor>
-<shadowcolor>black</shadowcolor>
-<align>left</align>
-<aligny>center</aligny>
-</control>
-<control type="radiobutton" id="617">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31066]"</label>
-<onclick>Skin.ToggleSetting(no_Jukebox)</onclick>
-<selected>Skin.HasSetting(no_Jukebox)</selected>
-</control>
-<control type="radiobutton" id="618">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31063]"</label>
-<onclick>Skin.ToggleSetting(no_MusicShowcase)</onclick>
-<selected>Skin.HasSetting(no_MusicShowcase)</selected>
-</control>
-<control type="radiobutton" id="619">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31064]"</label>
-<onclick>Skin.ToggleSetting(no_MusicWall)</onclick>
-<selected>Skin.HasSetting(no_MusicWall)</selected>
-</control>
-<control type="radiobutton" id="620">
-<include>skin_settings_labels</include>
-<label>"$LOCALIZE[31288]"</label>
-<onclick>Skin.ToggleSetting(no_Shelf)</onclick>
-<selected>Skin.HasSetting(no_Shelf)</selected>
-</control>
-</control>
+            </control>
+            <control type="radiobutton" id="606">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31053]"</label>
+              <onclick>Skin.ToggleSetting(no_3DLandscape)</onclick>
+              <selected>Skin.HasSetting(no_3DLandscape)</selected>
+            </control>
+            <control type="radiobutton" id="607">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31054]"</label>
+              <onclick>Skin.ToggleSetting(no_LandPanel)</onclick>
+              <selected>Skin.HasSetting(no_LandPanel)</selected>
+            </control>
+            <control type="radiobutton" id="608">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31062]"</label>
+              <onclick>Skin.ToggleSetting(no_Poster)</onclick>
+              <selected>Skin.HasSetting(no_Poster)</selected>
+            </control>
+            <control type="radiobutton" id="609">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31063]"</label>
+              <onclick>Skin.ToggleSetting(no_Showcase)</onclick>
+              <selected>Skin.HasSetting(no_Showcase)</selected>
+            </control>
+            <control type="radiobutton" id="610">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31064]"</label>
+              <onclick>Skin.ToggleSetting(no_Wall)</onclick>
+              <selected>Skin.HasSetting(no_Wall)</selected>
+            </control>
+            <control type="radiobutton" id="611">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31213]"</label>
+              <onclick>Skin.ToggleSetting(no_WallPanel)</onclick>
+              <selected>Skin.HasSetting(no_WallPanel)</selected>
+            </control>
+            <control type="radiobutton" id="612">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31245]"</label>
+              <onclick>Skin.ToggleSetting(no_Landscape_Fanart)</onclick>
+              <selected>Skin.HasSetting(no_Landscape_Fanart)</selected>
+            </control>
+            <control type="radiobutton" id="613">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31268]"</label>
+              <onclick>Skin.ToggleSetting(no_Logo)</onclick>
+              <selected>Skin.HasSetting(no_Logo)</selected>
+            </control>
+            <control type="radiobutton" id="614">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31250]"</label>
+              <onclick>Skin.ToggleSetting(no_3dbanner)</onclick>
+              <selected>Skin.HasSetting(no_3dbanner)</selected>
+            </control>
+            <control type="radiobutton" id="615">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31279]"</label>
+              <onclick>Skin.ToggleSetting(no_Slide)</onclick>
+              <selected>Skin.HasSetting(no_Slide)</selected>
+            </control>
+            <control type="label" id="616">
+              <width>860</width>
+              <height>45</height>
+              <font>Font_Neon_20</font>
+              <label>$LOCALIZE[31065]</label>
+              <textcolor>mainblue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
+            <control type="radiobutton" id="617">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31066]"</label>
+              <onclick>Skin.ToggleSetting(no_Jukebox)</onclick>
+              <selected>Skin.HasSetting(no_Jukebox)</selected>
+            </control>
+            <control type="radiobutton" id="618">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31063]"</label>
+              <onclick>Skin.ToggleSetting(no_MusicShowcase)</onclick>
+              <selected>Skin.HasSetting(no_MusicShowcase)</selected>
+            </control>
+            <control type="radiobutton" id="619">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31064]"</label>
+              <onclick>Skin.ToggleSetting(no_MusicWall)</onclick>
+              <selected>Skin.HasSetting(no_MusicWall)</selected>
+            </control>
+            <control type="radiobutton" id="620">
+              <include>skin_settings_labels</include>
+              <label>"$LOCALIZE[31288]"</label>
+              <onclick>Skin.ToggleSetting(no_Shelf)</onclick>
+              <selected>Skin.HasSetting(no_Shelf)</selected>
+            </control>
+          </control>
         </control>
         <control type="group">
           <control type="grouplist" id="9007">

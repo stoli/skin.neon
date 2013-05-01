@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
   <include name="Viewtype_Multiplex">
     <control type="group">
@@ -70,7 +70,6 @@
         <font>Font_Neon_26</font>
         <shadowcolor>ff000000</shadowcolor>
         <info>Container(588).ListItem.Tagline</info>
-        <autoscroll delay="10000" time="2000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
         <wrapmultiline>true</wrapmultiline>
         <textcolor>d0FFFFFF</textcolor>
         <visible>!Container(588).OnNext + !Container(588).OnPrevious</visible>
@@ -82,7 +81,6 @@
         <control type="image">
           <posx>39</posx>
           <posy>-34</posy>
-          <camera x="440" y="195" />
           <visible />
           <width>313</width>
           <height>490</height>
@@ -94,7 +92,6 @@
           <visible>Skin.HasSetting(extrathumbs)</visible>
           <posx>45</posx>
           <posy>150</posy>
-          <camera x="440" y="195" />
           <width>300</width>
           <height>195</height>
           <animation effect="rotatey" center="0" start="50" end="-45" time="0" condition="true">Conditional</animation>
@@ -107,7 +104,6 @@
           <visible>!Skin.HasSetting(extrathumbs)</visible>
           <posx>40</posx>
           <posy>150</posy>
-          <camera x="440" y="195" />
           <width>310</width>
           <height>195</height>
           <fadetime>2000</fadetime>
@@ -119,7 +115,6 @@
         <control type="image">
           <posx>40</posx>
           <posy>-34</posy>
-          <camera x="440" y="195" />
           <visible />
           <width>310</width>
           <height>485</height>
@@ -131,7 +126,6 @@
         <control type="group">
           <posx>45</posx>
           <posy>-40</posy>
-          <camera x="440" y="195" />
           <animation effect="rotatey" center="0" start="-30" end="-45" time="0" condition="true">Conditional</animation>
           <control type="grouplist">
             <description>Media Codec Flagging Images</description>
@@ -326,8 +320,8 @@
           <fadetime>500</fadetime>
           <timeperimage>3000</timeperimage>
           <animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
-          <imagepath diffuse="mod/list_episodeicon_mask.png" background="true">$INFO[Container(588).ListItem.Path,,extrathumbs]</imagepath> --&gt;
-		</control>
+          <imagepath diffuse="mod/list_episodeicon_mask.png" background="true">$INFO[Container(588).ListItem.Path,,extrathumbs]</imagepath>
+        </control>
         <control type="multiimage">
           <visible>Skin.HasSetting(extrathumbs)</visible>
           <posy>362</posy>
@@ -381,7 +375,6 @@
           <label>Press Down to see Trailer</label>
           <animation effect="fade" start="20" time="800" condition="!IsEmpty(ListItem.Year)">Conditional</animation>
           <visible>!IsEmpty(ListItem.Trailer) + !Player.HasVideo</visible>
-          <colordiffuse>d0FFFFFF</colordiffuse>
         </control>
       </control>
       <control type="label">

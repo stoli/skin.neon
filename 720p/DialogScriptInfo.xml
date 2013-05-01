@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Empty-->
 <window id="2004">
   <defaultcontrol>5</defaultcontrol>
@@ -25,10 +25,7 @@
       <height>382</height>
       <font>Small</font>
       <textcolor>TextFocused</textcolor>
-      <spinposx>0</spinposx>
-      <spinposy>0</spinposy>
       <autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

@@ -243,7 +243,6 @@
         <scroll>true</scroll>
         <scrollspeed>45</scrollspeed>
         <scrollsuffix> -|- </scrollsuffix>
-        <autoscroll delay="3000" time="1000" repeat="10000"></autoscroll>
       </control>
       <control type="label">
         <!-- Episode Title -->

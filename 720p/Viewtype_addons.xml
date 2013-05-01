@@ -31,7 +31,6 @@
       <control type="image">
         <posx>750</posx>
         <posy>50</posy>
-        <posy>50</posy>
         <width>500</width>
         <height>320</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -40,7 +39,6 @@
       </control>
       <control type="image">
         <posx>750</posx>
-        <posy>50</posy>
         <posy>50</posy>
         <width>500</width>
         <height>320</height>

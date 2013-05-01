@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window type="buttonMenu" id="111">
   <defaultcontrol always="true">410</defaultcontrol>
@@ -180,6 +180,5 @@
 				<onclick>ReloadSkin()</onclick>
 			</control> -->
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

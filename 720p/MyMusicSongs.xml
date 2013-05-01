@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Alaska-->
 <window id="501">
   <defaultcontrol>50</defaultcontrol>
@@ -72,7 +72,6 @@
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31094]</altlabel>
           <onclick>Skin.ToggleSetting(MusicShowcaseFanart)</onclick>
-          <selected>Skin.HasSetting(MusicShowcaseFanart)</selected>
           <visible>Control.IsVisible(58)</visible>
         </control>
         <control type="button" id="3">
@@ -124,6 +123,5 @@
         </control>
       </control>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

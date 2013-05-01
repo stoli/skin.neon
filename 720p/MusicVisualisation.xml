@@ -1,30 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="2006">
   <allowoverlay>no</allowoverlay>
-  <defaultcontrol>999</defaultcontrol>
+  <onload condition="system.hasaddon(script.artistslideshow)">RunScript(script.artistslideshow)</onload>
   <controls>
-    <control type="button" id="999">
-      <posx>-10</posx>
-      <posy>-10</posy>
-      <width>1</width>
-      <height>1</height>
-      <onfocus>RunScript(script.artistslideshow)</onfocus>
-    </control>
-    <control type="multiimage">
-      <posx>0</posx>
-      <posy>0</posy>
-      <width>1280</width>
-      <height>720</height>
-      <imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
-      <aspectratio>keep</aspectratio>
-      <timeperimage>5000</timeperimage>
-      <fadetime>2000</fadetime>
-      <randomize>true</randomize>
-      <animation effect="fade" start="0" end="100" time="300">Visible</animation>
-      <animation effect="fade" start="100" end="0" time="300">Hidden</animation>
-      <visible>IsEmpty(Window(Visualisation).Property(ArtistSlideshowRefresh))</visible>
-    </control>
     <control type="visualisation" id="2">
+      <!-- Animation_Backdropfade -->
       <description>visualisation</description>
       <posx>0</posx>
       <posy>0</posy>
@@ -36,6 +16,7 @@
       <visible>![Skin.HasSetting(FanartNoVisualisation) | Skin.HasSetting(FullscreenJukebox)]</visible>
     </control>
     <control type="image">
+      <!-- Music fanart image -->
       <posx>0</posx>
       <posy>0</posy>
       <width>1280</width>
@@ -48,6 +29,7 @@
       <visible>Skin.HasSetting(FanartNoVisualisation) + !Skin.HasSetting(FullscreenJukebox) + ![Skin.HasSetting(vis_photos_backdrops) | Skin.HasSetting(vis_music_backdrops)] + !Skin.HasSetting(Artist_Slideshow)</visible>
     </control>
     <control type="multiimage">
+      <!-- extrafanart folder -->
       <posx>0</posx>
       <posy>0</posy>
       <width>1280</width>
@@ -60,6 +42,7 @@
       <visible>Skin.HasSetting(FanartNoVisualisation) + !Skin.HasSetting(FullscreenJukebox) + ![Skin.HasSetting(vis_photos_backdrops) | Skin.HasSetting(vis_music_backdrops)] + !Skin.HasSetting(Artist_Slideshow)</visible>
     </control>
     <control type="multiimage">
+      <!-- Custom Music Folder -->
       <posx>0</posx>
       <posy>0</posy>
       <width>1280</width>
@@ -72,6 +55,7 @@
       <visible>[Skin.HasSetting(FanartNoVisualisation) + Skin.HasSetting(vis_music_backdrops)] | !IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Artist_Slideshow)</visible>
     </control>
     <control type="multiimage">
+      <!-- Custom Pictures Folder -->
       <posx>0</posx>
       <posy>0</posy>
       <width>1280</width>
@@ -84,6 +68,7 @@
       <visible>Skin.HasSetting(FanartNoVisualisation) + Skin.HasSetting(vis_photos_backdrops) + !Skin.HasSetting(Artist_Slideshow)</visible>
     </control>
     <control type="image">
+      <!-- dark background -->
       <include>Dimensions_Fullscreen</include>
       <texture>list/file-black-background1.png</texture>
       <visible>[Skin.HasSetting(DarkFullscreenMusicPlayback) + !Skin.HasSetting(FullscreenJukebox)]</visible>
@@ -102,25 +87,6 @@
       <animation effect="fade" start="100" end="0" time="300">Hidden</animation>
       <visible>IsEmpty(Window(Visualisation).Property(ArtistSlideshowRefresh)) + Skin.HasSetting(Artist_Slideshow) + !Skin.HasSetting(FullscreenJukebox)</visible>
     </control>
-    <!--<control type="multiimage" id="99">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
-			<imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
-			<aspectratio>keep</aspectratio>
-			<timeperimage>5000</timeperimage>
-			<fadetime>2000</fadetime>
-			<randomize>true</randomize>
-			<animation effect="fade" start="0" end="100" time="300">Visible</animation>
-			<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
-			
-		</control> -->
-    <!--	<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<texture>music/Music_Visualization_Fanart.png</texture>
-			<visible>![Skin.HasSetting(DarkFullscreenMusicPlayback) + Skin.HasSetting(FullscreenJukebox)] + Player.ShowInfo</visible>
-		</control>  -->
     <control type="group">
       <posx>0</posx>
       <posy>569</posy>
@@ -215,8 +181,8 @@
           <height>500</height>
           <font>music_time</font>
           <label>[COLOR 60FFFFFF] / $INFO[MusicPlayer.Duration][/COLOR]</label>
-        </control> --&gt;
-		</control>
+        </control>
+      </control>
       <control type="group">
         <visible>Player.ShowInfo + !Skin.HasSetting(FullscreenJukebox)</visible>
         <control type="image" id="1">
@@ -227,7 +193,6 @@
           <!-- -143 -->
           <align>left</align>
           <aligny>center</aligny>
-          <scroll>true</scroll>
           <width>230</width>
           <height>89</height>
           <texture>$INFO[Player.FolderPath,,../logo.png]</texture>
@@ -331,8 +296,8 @@
             <posx>25</posx>
             <width>126</width>
             <height>126</height>
-            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(1).Cover]</texture> --&gt;
-				</control>
+            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(1).Cover]</texture>
+          </control>
           <control type="label">
             <animation effect="slide" start="0,130" end="0,0" time="700" tween="cubic" easing="out" delay="1500">WindowOpen</animation>
             <animation effect="slide" start="0,0" end="0,130" time="600" tween="cubic" easing="in" delay="800">WindowClose</animation>
@@ -398,8 +363,8 @@
             <posx>25</posx>
             <width>126</width>
             <height>126</height>
-            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(2).Cover]</texture> --&gt;
-				</control>
+            <texture diffuse="music/musicwallmatte.png">$INFO[MusicPlayer.offset(2).Cover]</texture>
+          </control>
         </control>
         <control type="fadelabel">
           <animation effect="slide" start="1300" end="0" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
@@ -421,7 +386,6 @@
         </control>
       </control>
     </control>
-    <!-- Jukebox -->
     <control type="group">
       <visible>Skin.HasSetting(FullscreenJukebox)</visible>
       <!--<control type="image">
@@ -438,11 +402,8 @@
         <width>585</width>
         <height>286</height>
         <!-- <texture diffuse="music/jukebox_fanart_diffuse.png">$INFO[MusicPlayer.Property(Fanart_Image)]</texture> -->
-        <imagepath diffuse="music/jukebox_fanart_diffuse.png" background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
         <aspectratio>keep</aspectratio>
-        <timeperimage>5000</timeperimage>
         <fadetime>2000</fadetime>
-        <randomize>true</randomize>
         <animation effect="fade" start="0" end="100" time="300">Visible</animation>
         <animation effect="fade" start="100" end="0" time="300">Hidden</animation>
         <visible>Skin.HasSetting(Artist_Slideshow)</visible>
@@ -477,7 +438,6 @@
         <label>$INFO[MusicPlayer.Title]</label>
         <textcolor>mainblue</textcolor>
         <font>Font_Bartowski_Digital_Clock</font>
-        <align>center</align>
       </control>
       <control type="label">
         <posx>560</posx>
@@ -488,7 +448,6 @@
         <label>$INFO[MusicPlayer.album]</label>
         <textcolor>mainblue</textcolor>
         <font>Font_Bartowski_Digital_Clock</font>
-        <align>center</align>
         <animation type="Conditional" reversible="false" condition="true" loop="true">
           <effect type="fade" start="0" end="100" time="500" delay="0" />
           <effect type="fade" start="100" end="0" time="500" delay="7000" />
@@ -505,7 +464,6 @@
         <label>$INFO[MusicPlayer.Time]/$INFO[MusicPlayer.Duration]</label>
         <textcolor>mainblue</textcolor>
         <font>Font_Bartowski_Digital_Clock</font>
-        <align>center</align>
         <animation type="Conditional" reversible="false" condition="true" loop="true">
           <effect type="fade" start="0" end="100" time="500" delay="7500" />
           <effect type="fade" start="100" end="0" time="500" delay="14000" />

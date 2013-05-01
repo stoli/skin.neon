@@ -311,8 +311,6 @@
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
-          <alttexturenofocus>-</alttexturenofocus>
-          <alttexturefocus>button-focus.png</alttexturefocus>
           <onleft>15</onleft>
           <onright>11</onright>
         </control>
@@ -329,8 +327,6 @@
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
-          <alttexturenofocus>-</alttexturenofocus>
-          <alttexturefocus>button-focus.png</alttexturefocus>
           <onleft>10</onleft>
           <onright>12</onright>
         </control>
@@ -347,8 +343,6 @@
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
-          <alttexturenofocus>-</alttexturenofocus>
-          <alttexturefocus>button-focus.png</alttexturefocus>
           <onleft>11</onleft>
           <onright>13</onright>
         </control>
@@ -365,8 +359,6 @@
           <focusedcolor>white</focusedcolor>
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
-          <alttexturenofocus>-</alttexturenofocus>
-          <alttexturefocus>button-focus.png</alttexturefocus>
           <onleft>12</onleft>
           <onright>14</onright>
         </control>

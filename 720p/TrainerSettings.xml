@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Empty-->
 <window id="127">
   <defaultcontrol>5</defaultcontrol>
@@ -83,6 +83,5 @@
       <onup>5</onup>
       <ondown>5</ondown>
     </control>
-    <include>Object_DebugGrid</include>
   </controls>
 </window>

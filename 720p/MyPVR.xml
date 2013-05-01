@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="600">
   <defaultcontrol>32</defaultcontrol>
   <allowoverlay>no</allowoverlay>
@@ -140,7 +140,24 @@
     </control>
     <control type="group">
       <include>Window_OpenClose_Animation</include>
-      <include>EPGTimelineView</include>--&gt; <!-- view id = 10 --><include>LiveTVChannelView</include><!-- view id = 11 --><include>LiveRadioChannelView</include><!-- view id = 12 --><include>LiveTVRecordingsView</include><!-- view id = 13 --><include>LiveTVTimersView</include><!-- view id = 14 --><include>LiveTVGuideChannelView</include><!-- view id = 15 --><include>LiveTVGuideNowNextView</include><!-- view id = 16 --><include>LiveTVSearchView</include><!-- view id = 17 --><include>ScrollOffsetLabel</include></control>
+      <include>EPGTimelineView</include>
+      <!-- view id = 10 -->
+      <include>LiveTVChannelView</include>
+      <!-- view id = 11 -->
+      <include>LiveRadioChannelView</include>
+      <!-- view id = 12 -->
+      <include>LiveTVRecordingsView</include>
+      <!-- view id = 13 -->
+      <include>LiveTVTimersView</include>
+      <!-- view id = 14 -->
+      <include>LiveTVGuideChannelView</include>
+      <!-- view id = 15 -->
+      <include>LiveTVGuideNowNextView</include>
+      <!-- view id = 16 -->
+      <include>LiveTVSearchView</include>
+      <!-- view id = 17 -->
+      <include>ScrollOffsetLabel</include>
+    </control>
     <control type="group">
       <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="[ControlGroup(9000).HasFocus() | Control.HasFocus(8999)] + !Window.IsActive(606)">Conditional</animation>
       <animation effect="slide" start="-250,0" end="0,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus()">WindowOpen</animation>

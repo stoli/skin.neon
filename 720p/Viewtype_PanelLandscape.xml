@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
   <include name="Viewtype_PanelLandscape">
     <control type="image">
@@ -73,6 +73,17 @@
             <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
             <fadetime>200</fadetime>
             <aspectratio scalediffuse="false">stretch</aspectratio>
+            <visible>Container.Content(episodes)</visible>
+          </control>
+          <control type="image">
+            <posx>1</posx>
+            <posy>131</posy>
+            <width>300</width>
+            <height>168</height>
+            <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Property(fanart_image)]</texture>
+            <fadetime>200</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <visible>Container.Content(tvshows)</visible>
           </control>
           <control type="image">
             <posx>0</posx>
@@ -157,6 +168,20 @@
             <animation type="Focus" reversible="false">
               <effect type="zoom" center="145,202" start="51" end="100" time="600" tween="back" easing="out" />
             </animation>
+            <visible>Container.Content(episodes)</visible>
+          </control>
+          <control type="image">
+            <posx>1</posx>
+            <posy>131</posy>
+            <width>300</width>
+            <height>168</height>
+            <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Property(fanart_image)]</texture>
+            <fadetime>200</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <animation type="Focus" reversible="false">
+              <effect type="zoom" center="145,202" start="51" end="100" time="600" tween="back" easing="out" />
+            </animation>
+            <visible>Container.Content(tvshows)</visible>
           </control>
           <control type="image">
             <posx>0</posx>

@@ -1337,7 +1337,6 @@
         <height>30</height>
         <visible>true</visible>
         <colordiffuse>DDFFFFFF</colordiffuse>
-        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
         <label>Import Settings</label>
         <textcolor>black</textcolor>
@@ -1361,7 +1360,6 @@
         <height>30</height>
         <visible>true</visible>
         <colordiffuse>DDFFFFFF</colordiffuse>
-        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
         <label>Import Games</label>
         <textcolor>black</textcolor>
@@ -1385,7 +1383,6 @@
         <height>30</height>
         <visible>true</visible>
         <colordiffuse>DDFFFFFF</colordiffuse>
-        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>script_rom_browser/rcb-button-focus.png</texturefocus>
         <label>Change View</label>
         <textcolor>black</textcolor>

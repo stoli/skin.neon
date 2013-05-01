@@ -516,6 +516,10 @@
             <onclick>ActivateWindow(Videos,MusicVideoTitles,return)</onclick>
             <visible>Library.HasContent(MusicVideos)</visible>
           </item>
+	  <item id="11">
+	    <label>$LOCALIZE[31015]</label>
+	    <onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
+	  </item>
         </content>
       </control>
       <!--TV SHOWS -->

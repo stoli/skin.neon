@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="104">
   <animation type="WindowOpen" reversible="false">
     <!--	<effect type="zoom" start="80" end="100" center="1580,125" delay="200" easing="out" tween="back" time="300" /> -->
@@ -23,8 +23,13 @@
       </control>
       <control type="group">
         <control type="image">
-          <animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> --&gt;
-					<posx>-2</posx><posy>-132</posy><width>30</width><height>313</height><!--	<texture>volume_background.png</texture> --></control>
+          <animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation>
+          <posx>-2</posx>
+          <posy>-132</posy>
+          <width>30</width>
+          <height>313</height>
+          <!--	<texture>volume_background.png</texture> -->
+        </control>
         <control type="image">
           <posx>-130</posx>
           <posy>8</posy>
@@ -145,8 +150,14 @@
           </control>
         </control>
         <control type="image">
-          <animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation> --&gt;
-					<posx>5</posx><posy>-145</posy><width>60</width><height>330</height><colordiffuse>mainblue</colordiffuse><!-- <texture>dialogs/volume_cover.png</texture> --></control>
+          <animation effect="rotate" center="auto" start="90" end="90" time="0" condition="true">Conditional</animation>
+          <posx>5</posx>
+          <posy>-145</posy>
+          <width>60</width>
+          <height>330</height>
+          <colordiffuse>mainblue</colordiffuse>
+          <!-- <texture>dialogs/volume_cover.png</texture> -->
+        </control>
       </control>
       <visible>!player.passthrough</visible>
     </control>
