@@ -231,7 +231,7 @@
             <posy>50</posy>
             <width>250</width>
             <height>25</height>
-            <label>$LOCALIZE[20373] $INFO[VideoPlayer.Season]/$LOCALIZE[20359] $INFO[VideoPlayer.Episode]</label>
+            <label>$LOCALIZE[20359] $INFO[VideoPlayer.Season]x$INFO[VideoPlayer.Episode]</label>
             <align>left</align>
             <aligny>center</aligny>
             <font>Font_Bartowski_Under_Pause</font>
