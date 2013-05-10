@@ -89,8 +89,7 @@
           <height>260</height>
           <texture>posterframeF.png</texture>
           <colordiffuse>39FFFFFF</colordiffuse>
-          <visible>(Control.IsVisible(60) | !Control.IsVisible(61))</visible>
-          <!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
+          <visible>Control.IsVisible(60) | !Control.IsVisible(61)</visible>
         </control>
         <control type="image">
           <posx>-7</posx>
