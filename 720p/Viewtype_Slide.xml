@@ -86,7 +86,8 @@
         <onleft>595</onleft>
         <onright>595</onright>
         <onup>stop</onup>
-        <ondown>XBMC.PlayMedia($ESCINFO[ListItem.Trailer],1,noresume)</ondown>
+        <include condition="!Skin.HasSetting(big_trailer)">ondown_small_trailer</include>
+        <include condition="Skin.HasSetting(big_trailer)">ondown_big_trailer</include>
         <onclick>PlayMedia($ESCINFO[ListItem.FileNameAndPath])</onclick>
         <visible allowhiddenfocus="true">ControlGroup(8240).HasFocus()</visible>
       </control>

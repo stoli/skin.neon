@@ -41,7 +41,7 @@
             <posy>5</posy>
             <width>130</width>
             <height>200</height>
-            <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
+            <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Art(thumb)]</texture>
             <aspectratio align="center" scalediffuse="false">stretch</aspectratio>
             <colordiffuse>79FFFFFF</colordiffuse>
             <animation effect="fade" start="100" end="0" time="400" delay="2800" condition="Skin.HasSetting(Wall_fanart) + Container.Content(movies) + ![Container(54).OnNext | Container(54).OnPrevious]">Conditional</animation>
@@ -68,7 +68,7 @@
             <posy>-65</posy>
             <width>118</width>
             <height>174</height>
-            <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
+            <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Art(thumb)]</texture>
             <aspectratio align="center" scalediffuse="false">stretch</aspectratio>
             <animation type="Focus" reversible="false">
               <effect type="zoom" start="110" end="150" center="auto" time="400" tween="back" easing="out" />
