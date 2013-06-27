@@ -1,5 +1,16 @@
 [b]Changelog:[/b]
 
+[b]2.5.9[/b]
+- prevent Artist Slideshow from showing up twice (#13) 
+- Add Sets button to Movies submenu
+- Landpanel shows correct images at TVShow level
+- Bottom RSS not shown when XBMC global setting disables all RSS
+- Implemented skinsetting to change global weather
+- Smaller CodecInfo font so VDPAU info fits correctly
+- Fix restart XBMC option in shutdown menu
+- [Slide] Fix Fullscreen trailer
+- [Wall] Fix thumbnails
+- Neon settings added to Settings submenu
 [b]2.5.8[/b]
 - Pressing up-button from Homebar Settings does not navigate to empty view anymore. (#09)
 - Fixed alignment of all recent and random items (#07) 
